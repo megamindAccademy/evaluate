@@ -123,6 +123,28 @@ let currentCourse = 'python';
 let studentInfo = { name: '', group: '', teacher: '' };
 let studentAnswers = []; // Stores { questionId, type: 'mcq'|'task', question, answer/selectedText, isCorrect, correctText }
 
+// --- FIREBASE REALTIME DATABASE CONFIGURATION ---
+const firebaseConfig = {
+  apiKey: "AIzaSyCmTP8whtgR5IKF59Bi_olMvNsVw2LaSsI",
+  authDomain: "megamindsacademy-ev.firebaseapp.com",
+  databaseURL: "https://megamindsacademy-ev-default-rtdb.firebaseio.com",
+  projectId: "megamindsacademy-ev",
+  storageBucket: "megamindsacademy-ev.firebasestorage.app",
+  messagingSenderId: "329252604781",
+  appId: "1:329252604781:web:4d6583392031571258a864"
+};
+
+let db = null;
+try {
+    if (typeof firebase !== 'undefined') {
+        firebase.initializeApp(firebaseConfig);
+        db = firebase.database();
+        console.log("Firebase Realtime Database initialized successfully in quiz.js!");
+    }
+} catch (e) {
+    console.error("Firebase initialization error:", e);
+}
+
 // DOM Elements
 let viewRegistration, viewRecap, viewQuestion, viewResult;
 let regFormEl, studentNameInputEl, groupNameInputEl, teacherNameInputEl;
@@ -509,6 +531,18 @@ function showResultScreen() {
         answers: studentAnswers
     };
 
+    // 1. Save to Firebase Realtime Database
+    if (db) {
+        try {
+            db.ref('submissions/' + submissionData.id).set(submissionData)
+              .then(() => console.log("Submission saved to Firebase successfully!"))
+              .catch(err => console.error("Firebase save error:", err));
+        } catch(err) {
+            console.error("Firebase ref error:", err);
+        }
+    }
+
+    // 2. Save to LocalStorage as Hybrid Fallback
     let submissions = JSON.parse(localStorage.getItem('megaminds_submissions') || '[]');
     submissions.push(submissionData);
     localStorage.setItem('megaminds_submissions', JSON.stringify(submissions));

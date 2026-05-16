@@ -2,21 +2,27 @@
 // ENGINEER PORTAL LOGIC & STORAGE ADAPTER
 // ==========================================
 
-// --- FIREBASE CONFIGURATION PLACEHOLDER ---
-// To activate Firebase Realtime Database cloud storage, paste your config below:
-const FIREBASE_CONFIG = {
-    apiKey: "",
-    authDomain: "",
-    databaseURL: "", // e.g. "https://your-project-id.firebaseio.com"
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
+// --- FIREBASE REALTIME DATABASE CONFIGURATION ---
+const firebaseConfig = {
+  apiKey: "AIzaSyCmTP8whtgR5IKF59Bi_olMvNsVw2LaSsI",
+  authDomain: "megamindsacademy-ev.firebaseapp.com",
+  databaseURL: "https://megamindsacademy-ev-default-rtdb.firebaseio.com",
+  projectId: "megamindsacademy-ev",
+  storageBucket: "megamindsacademy-ev.firebasestorage.app",
+  messagingSenderId: "329252604781",
+  appId: "1:329252604781:web:4d6583392031571258a864"
 };
 
-let isFirebaseActive = false;
-// Note: If Firebase SDK is loaded and config is present, we can initialize it. 
-// Otherwise, the portal seamlessly falls back to our robust LocalStorage Hybrid Adapter!
+let db = null;
+try {
+    if (typeof firebase !== 'undefined') {
+        firebase.initializeApp(firebaseConfig);
+        db = firebase.database();
+        console.log("Firebase Realtime Database initialized successfully in engineer.js!");
+    }
+} catch (e) {
+    console.error("Firebase init error:", e);
+}
 
 // DOM Elements
 let viewLogin, viewDashboard, viewEvaluation;
@@ -108,12 +114,40 @@ function handleLogout() {
     showView(viewLogin);
 }
 
-// 2. Load Submissions from Storage Adapter
+// 2. Load Submissions from Storage Adapter (Firebase Realtime + LocalStorage Fallback)
 function loadSubmissions() {
-    // Fetch from LocalStorage Hybrid Adapter
-    const data = localStorage.getItem('megaminds_submissions');
-    currentSubmissions = data ? JSON.parse(data) : [];
-    renderSubmissions();
+    if (db) {
+        // Realtime cloud listener
+        db.ref('submissions').on('value', (snapshot) => {
+            const data = snapshot.val();
+            currentSubmissions = [];
+            if (data) {
+                Object.keys(data).forEach(key => {
+                    currentSubmissions.push(data[key]);
+                });
+                // Sort newest first
+                currentSubmissions.sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
+            } else {
+                // Check localStorage as fallback if Firebase is empty
+                const backup = localStorage.getItem('megaminds_submissions');
+                currentSubmissions = backup ? JSON.parse(backup) : [];
+                currentSubmissions.sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
+            }
+            renderSubmissions();
+        }, (error) => {
+            console.error("Firebase read error, falling back to localStorage:", error);
+            const backup = localStorage.getItem('megaminds_submissions');
+            currentSubmissions = backup ? JSON.parse(backup) : [];
+            currentSubmissions.sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
+            renderSubmissions();
+        });
+    } else {
+        // Fallback to LocalStorage
+        const backup = localStorage.getItem('megaminds_submissions');
+        currentSubmissions = backup ? JSON.parse(backup) : [];
+        currentSubmissions.sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
+        renderSubmissions();
+    }
 }
 
 // Render Submissions Grid
@@ -267,13 +301,20 @@ function saveEvaluation() {
     currentSelectedSubmission.engineerNotes = combinedNotes.join('\n\n');
     currentSelectedSubmission.status = 'graded';
 
-    // Update in LocalStorage
+    // 1. Update in Firebase Realtime Database
+    if (db) {
+        db.ref('submissions/' + currentSelectedSubmission.id).set(currentSelectedSubmission)
+          .then(() => console.log("Firebase updated successfully!"))
+          .catch(err => console.error("Firebase update error:", err));
+    }
+
+    // 2. Update in LocalStorage Hybrid Adapter
     const index = currentSubmissions.findIndex(s => s.id === currentSelectedSubmission.id);
     if (index !== -1) {
         currentSubmissions[index] = currentSelectedSubmission;
         localStorage.setItem('megaminds_submissions', JSON.stringify(currentSubmissions));
     }
 
-    alert('💾 تم حفظ تقييمك وملاحظاتك بنجاح يا مهندسنا العظيم! ✅');
+    alert('💾 تم حفظ تقييمك وملاحظاتك بنجاح في قاعدة البيانات السحابية والمحلية! ✅');
     showView(viewDashboard);
 }
