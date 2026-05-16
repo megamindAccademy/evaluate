@@ -35,6 +35,17 @@ let studentEvalMetaEl, evalAnswersListEl, btnBackDashboardEl, btnSaveEvaluationE
 let currentSubmissions = [];
 let currentSelectedSubmission = null;
 
+// BiDi Text Helper for Code Snippets & Mixed Arabic/English Text
+function cleanBiDiText(text) {
+    if (!text) return '';
+    const hasArabic = /[\u0600-\u06FF]/.test(text);
+    if (!hasArabic) {
+        return `<span dir="ltr" style="display: inline-block; direction: ltr; unicode-bidi: bidi-override; font-family: 'Courier New', Courier, monospace; font-size: 1.1em; font-weight: bold;">${text}</span>`;
+    } else {
+        return text.replace(/([a-zA-Z0-9_().=/'"*#\-]+(?:[ ]+[a-zA-Z0-9_().=/'"*#\-]+)*)/g, '<span dir="ltr" style="display: inline-block; direction: ltr; unicode-bidi: isolate; font-family: \'Courier New\', Courier, monospace; font-size: 1.1em; font-weight: bold; padding: 0 4px; color: var(--primary);">$1</span>');
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize Elements
     viewLogin = document.getElementById('viewLogin');
@@ -251,7 +262,7 @@ window.openEvaluation = function(subId) {
             <div>📘 المادة/المسار: <span>${currentSelectedSubmission.course}</span></div>
             <div>📅 وقت الإرسال: <span>${dateStr}</span></div>
             <div>🏆 نتيجة الـ MCQ: <span>${currentSelectedSubmission.mcqScore} / ${currentSelectedSubmission.mcqTotal}</span></div>
-            <div>📊 النسبة الإجمالية التقديرية: <span>${percentage.toFixed(1)}%</span></div>
+            <div>📊 النسبة الإجمالية التقديرية: <span id="liveScorePercentSpan">${percentage.toFixed(1)}%</span></div>
         `;
     }
 
@@ -270,9 +281,9 @@ window.openEvaluation = function(subId) {
                             ${ans.isCorrect ? 'إجابة صحيحة تلقائياً ✅' : 'إجابة خاطئة تلقائياً ❌'}
                         </span>
                     </div>
-                    <div class="q-text">${ans.question}</div>
-                    <div class="q-student-answer">إجابة الطالب: <strong>${ans.answer}</strong></div>
-                    ${!ans.isCorrect ? `<div class="q-correct-answer">الإجابة الصحيحة: <strong>${ans.correctText}</strong></div>` : ''}
+                    <div class="q-text">${cleanBiDiText(ans.question)}</div>
+                    <div class="q-student-answer">إجابة الطالب: <strong>${cleanBiDiText(ans.answer)}</strong></div>
+                    ${!ans.isCorrect ? `<div class="q-correct-answer">الإجابة الصحيحة: <strong>${cleanBiDiText(ans.correctText)}</strong></div>` : ''}
                 `;
             } else {
                 card.innerHTML = `
@@ -280,13 +291,13 @@ window.openEvaluation = function(subId) {
                         <span class="q-num">السؤال ${idx + 1} (مهمة برمجة / Task)</span>
                         <span class="q-badge task-badge">تقييم المهندس 👨‍🏫</span>
                     </div>
-                    <div class="q-text">${ans.question}</div>
-                    <div class="q-student-answer code-box">${ans.answer}</div>
+                    <div class="q-text">${cleanBiDiText(ans.question)}</div>
+                    <div class="q-student-answer code-box">${cleanBiDiText(ans.answer)}</div>
                     <div class="engineer-feedback-box">
                         <div class="engineer-box-title">✍️ صندوق تقييم المهندس المشرف (للتصحيح اليدوي):</div>
                         <div class="engineer-grading-row">
                             <label>الدرجة المستحقة للمهمة (من 5):</label>
-                            <input type="number" id="taskGrade_${ans.questionId}" class="engineer-grade-input" placeholder="الدرجة (مثال: 5)" value="${ans.engineerGrade || currentSelectedSubmission.engineerGrade || ''}">
+                            <input type="number" id="taskGrade_${ans.questionId}" class="engineer-grade-input" min="0" max="5" step="0.5" placeholder="الدرجة (مثال: 5)" value="${ans.engineerGrade || currentSelectedSubmission.engineerGrade || ''}" oninput="if(this.value > 5) { alert('⚠️ عذراً، أقصى درجة للمهمة الواحدة هي 5 درجات.'); this.value = 5; } if(this.value < 0) this.value = 0; window.updateLivePercentage();">
                         </div>
                         <textarea id="taskNotes_${ans.questionId}" class="engineer-notes-textarea" placeholder="اكتب ملاحظاتك التقييمية والنصائح البرمجية للطالب هنا...">${ans.engineerNotes || currentSelectedSubmission.engineerNotes || ''}</textarea>
                     </div>
@@ -297,6 +308,42 @@ window.openEvaluation = function(subId) {
     }
 
     showView(viewEvaluation);
+};
+
+// Live Percentage Update Helper
+window.updateLivePercentage = function() {
+    if (!currentSelectedSubmission) return;
+    let totalTaskGrade = 0;
+    currentSelectedSubmission.answers.forEach(ans => {
+        if (ans.type === 'task') {
+            const gradeInput = document.getElementById(`taskGrade_${ans.questionId}`);
+            if (gradeInput && gradeInput.value !== '') {
+                let val = parseFloat(gradeInput.value);
+                if (val > 5) val = 5;
+                if (val < 0) val = 0;
+                totalTaskGrade += val;
+            }
+        }
+    });
+    
+    const mcqTotal = currentSelectedSubmission.mcqTotal || 0;
+    const mcqScore = currentSelectedSubmission.mcqScore || 0;
+    const taskCount = currentSelectedSubmission.answers ? currentSelectedSubmission.answers.filter(a => a.type === 'task').length : 0;
+    const maxTotal = mcqTotal + (taskCount * 5);
+    const totalScore = mcqScore + totalTaskGrade;
+    const percentage = maxTotal > 0 ? (totalScore / maxTotal) * 100 : 0;
+
+    const certBtn = document.getElementById('btnPrintCertificateBtn');
+    if (certBtn) {
+        if (percentage > 85) {
+            certBtn.style.display = 'inline-flex';
+            certBtn.title = `متاح للطباعة (النسبة: ${percentage.toFixed(1)}%)`;
+        } else {
+            certBtn.style.display = 'none';
+        }
+    }
+    const percentSpan = document.getElementById('liveScorePercentSpan');
+    if (percentSpan) percentSpan.textContent = `${percentage.toFixed(1)}%`;
 };
 
 // 4. Save Evaluation
@@ -313,7 +360,14 @@ function saveEvaluation() {
             const notesInput = document.getElementById(`taskNotes_${ans.questionId}`);
 
             if (gradeInput && gradeInput.value !== '') {
-                ans.engineerGrade = parseFloat(gradeInput.value);
+                let val = parseFloat(gradeInput.value);
+                if (val > 5) {
+                    alert(`⚠️ عذراً، أقصى درجة للمهمة الواحدة هي 5 درجات. تم ضبط الدرجة إلى 5.`);
+                    val = 5;
+                    gradeInput.value = 5;
+                }
+                if (val < 0) val = 0;
+                ans.engineerGrade = val;
                 totalTaskGrade += ans.engineerGrade;
             }
             if (notesInput && notesInput.value.trim() !== '') {
@@ -384,9 +438,13 @@ window.closeCertificatePreview = function() {
 };
 
 window.printCertificateOnly = function() {
-    document.body.className = 'print-mode-certificate';
-    window.print();
-    document.body.className = '';
+    document.body.classList.add('print-mode-certificate');
+    setTimeout(() => {
+        window.print();
+        setTimeout(() => {
+            document.body.classList.remove('print-mode-certificate');
+        }, 500);
+    }, 150);
 };
 
 // Overwrite default print button for Evaluation Report

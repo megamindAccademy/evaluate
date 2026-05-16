@@ -260,6 +260,18 @@ function showView(viewEl) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+// BiDi Text Helper for Code Snippets & Mixed Arabic/English Text
+function cleanBiDiText(text) {
+    if (!text) return '';
+    const hasArabic = /[\u0600-\u06FF]/.test(text);
+    if (!hasArabic) {
+        return `<span dir="ltr" style="display: inline-block; direction: ltr; unicode-bidi: bidi-override; font-family: 'Courier New', Courier, monospace; font-size: 1.1em; font-weight: bold;">${text}</span>`;
+    } else {
+        // Wrap English code snippets/words inside Arabic text with LTR spans
+        return text.replace(/([a-zA-Z0-9_().=/'"*#\-]+(?:[ ]+[a-zA-Z0-9_().=/'"*#\-]+)*)/g, '<span dir="ltr" style="display: inline-block; direction: ltr; unicode-bidi: isolate; font-family: \'Courier New\', Courier, monospace; font-size: 1.1em; font-weight: bold; padding: 0 4px; color: var(--primary);">$1</span>');
+    }
+}
+
 // 0. Handle Registration Submit
 function handleRegistrationSubmit(e) {
     e.preventDefault();
@@ -309,7 +321,7 @@ function initRecapScreen() {
                     <div class="recap-card-icon">${point.icon}</div>
                     <div class="recap-card-content">
                         <h4>${point.title}</h4>
-                        <p>${point.desc}</p>
+                        <p>${cleanBiDiText(point.desc)}</p>
                     </div>
                 `;
                 recapCardsGridEl.appendChild(card);
@@ -366,8 +378,8 @@ function renderCurrentQuestion() {
         progressBarEl.style.width = `${progressPercent}%`;
     }
 
-    // Update Question Text
-    if (questionTextEl) questionTextEl.textContent = currentQ.question;
+    // Update Question Text with BiDi formatting
+    if (questionTextEl) questionTextEl.innerHTML = cleanBiDiText(currentQ.question);
 
     // Hide Feedback Box & Next Button
     if (feedbackContainerEl) feedbackContainerEl.classList.remove('active');
@@ -380,7 +392,7 @@ function renderCurrentQuestion() {
         if (taskEditorContainerEl) taskEditorContainerEl.style.display = 'block';
         
         if (editorLangTitleEl) editorLangTitleEl.textContent = `💻 محرر الأكواد والمهام (${manifestData.course_title})`;
-        if (taskHintTextEl) taskHintTextEl.textContent = currentQ.task_hint || 'اكتب إجابتك أو كودك بتركيز وإبداع يا بطل!';
+        if (taskHintTextEl) taskHintTextEl.innerHTML = cleanBiDiText(currentQ.task_hint || 'اكتب إجابتك أو كودك بتركيز وإبداع يا بطل!');
         if (taskEditorTextareaEl) {
             taskEditorTextareaEl.value = '';
             taskEditorTextareaEl.disabled = false;
@@ -395,7 +407,7 @@ function renderCurrentQuestion() {
         currentQ.options.forEach((optionText, index) => {
             const btn = document.createElement('button');
             btn.className = 'option-btn';
-            btn.innerHTML = `<span>${optionText}</span> <span class="option-indicator">👈</span>`;
+            btn.innerHTML = `<span class="option-text-span" dir="auto" style="unicode-bidi: plaintext; text-align: right; width: 100%; display: inline-block;">${cleanBiDiText(optionText)}</span> <span class="option-indicator">👈</span>`;
             btn.addEventListener('click', () => handleOptionClick(index, btn));
             optionsGridEl.appendChild(btn);
         });
@@ -434,7 +446,7 @@ function handleTaskSubmission() {
 
     feedbackTitleEl.textContent = '🚀 تم حفظ إجابتك السحرية بنجاح!';
     feedbackTitleEl.className = 'feedback-title correct';
-    if (feedbackDescEl) feedbackDescEl.textContent = currentQ.explanation || 'تم تسجيل الكود الخاص بك في التقرير ليقوم المهندس بمراجعته وتقييمه.';
+    if (feedbackDescEl) feedbackDescEl.innerHTML = cleanBiDiText(currentQ.explanation || 'تم تسجيل الكود الخاص بك في التقرير ليقوم المهندس بمراجعته وتقييمه.');
     if (feedbackContainerEl) feedbackContainerEl.classList.add('active');
 
     // Show Next Button

@@ -1541,6 +1541,46 @@ body {
 .btn-save-evaluation { background: var(--success); color: var(--white); border: none; padding: 16px 35px; font-size: 1.5rem; font-weight: 900; border-radius: 50px; cursor: pointer; box-shadow: 0 10px 25px rgba(6, 214, 160, 0.4); transition: all 0.3s ease; font-family: inherit; }
 .btn-save-evaluation:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(6, 214, 160, 0.6); background: #05b587; }
 
+.btn-print-certificate { background: linear-gradient(135deg, #8338ec, #ff006e); color: var(--white); border: none; padding: 16px 35px; font-size: 1.5rem; font-weight: 900; border-radius: 50px; cursor: pointer; box-shadow: 0 10px 25px rgba(131, 56, 236, 0.4); transition: all 0.3s ease; font-family: inherit; display: inline-flex; align-items: center; gap: 8px; }
+.btn-print-certificate:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(131, 56, 236, 0.6); background: linear-gradient(135deg, #7026d1, #e0005a); }
+
+.btn-print-report { background: linear-gradient(135deg, #219ebc, #023047); color: var(--white); border: none; padding: 16px 35px; font-size: 1.5rem; font-weight: 900; border-radius: 50px; cursor: pointer; box-shadow: 0 10px 25px rgba(33, 158, 188, 0.4); transition: all 0.3s ease; font-family: inherit; display: inline-flex; align-items: center; gap: 8px; }
+.btn-print-report:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(33, 158, 188, 0.6); background: linear-gradient(135deg, #1b829b, #012030); }
+
+/* ==========================================
+   BIDIRECTIONAL (BiDi) TEXT & CODE FIXES
+   ========================================== */
+.question-text, 
+.option-btn, 
+.q-text, 
+.q-student-answer, 
+.q-correct-answer, 
+.recap-desc, 
+.recap-card {
+    unicode-bidi: plaintext;
+    text-align: right;
+}
+
+.code-box, 
+code, 
+pre, 
+.q-student-answer.code-box {
+    direction: ltr !important;
+    text-align: left !important;
+    unicode-bidi: bidi-override;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+}
+
+code {
+    display: inline-block;
+    direction: ltr;
+    unicode-bidi: isolate;
+    padding: 2px 6px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
 .student-meta-card { background: var(--bg-gradient-1); border: 3px solid #e0e6ed; border-radius: var(--radius-md); padding: 25px 35px; margin-bottom: 40px; display: flex; gap: 30px; flex-wrap: wrap; font-size: 1.5rem; font-weight: bold; color: var(--tertiary-dark); }
 .student-meta-card div span { color: var(--primary); font-weight: 900; }
 
