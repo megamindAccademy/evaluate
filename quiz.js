@@ -388,7 +388,7 @@ function showResultScreen() {
     if (resultMsgEl) {
         const percentage = (score / totalQ) * 100;
         if (percentage === 100) {
-            resultMsgEl.textContent = "🏆 عبقري بايثون الأول! إجاباتك كلها صحيحة 100%، أنت فخر أكاديمية ميجامايند ومستقبلك عظيم جداً!";
+            resultMsgEl.textContent = "🏆 عبقري بايثون الأول! إجاباتك كلها صحيحة 100%، أنت فخر أكاديمية ميجامايندز ومستقبلك عظيم جداً!";
             triggerConfetti(8000);
             playHappyChime();
         } else if (percentage >= 80) {
