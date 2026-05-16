@@ -211,10 +211,35 @@ function renderSubmissions() {
     });
 }
 
+// Calculate total percentage helper
+function calculateSubmissionPercentage(sub) {
+    const mcqTotal = sub.mcqTotal || 0;
+    const mcqScore = sub.mcqScore || 0;
+    const taskCount = sub.answers ? sub.answers.filter(a => a.type === 'task').length : 0;
+    
+    // Assuming each task is out of 5 points
+    const maxTotal = mcqTotal + (taskCount * 5);
+    const totalScore = mcqScore + (sub.engineerGrade || 0);
+    
+    if (maxTotal === 0) return 0;
+    return (totalScore / maxTotal) * 100;
+}
+
 // 3. Open Evaluation View for a Specific Submission
 window.openEvaluation = function(subId) {
     currentSelectedSubmission = currentSubmissions.find(s => s.id === subId);
     if (!currentSelectedSubmission) return;
+
+    const percentage = calculateSubmissionPercentage(currentSelectedSubmission);
+    const certBtn = document.getElementById('btnPrintCertificateBtn');
+    if (certBtn) {
+        if (percentage > 85) {
+            certBtn.style.display = 'inline-flex';
+            certBtn.title = `متاح للطباعة (النسبة: ${percentage.toFixed(1)}%)`;
+        } else {
+            certBtn.style.display = 'none';
+        }
+    }
 
     // Render Student Meta
     if (studentEvalMetaEl) {
@@ -226,6 +251,7 @@ window.openEvaluation = function(subId) {
             <div>📘 المادة/المسار: <span>${currentSelectedSubmission.course}</span></div>
             <div>📅 وقت الإرسال: <span>${dateStr}</span></div>
             <div>🏆 نتيجة الـ MCQ: <span>${currentSelectedSubmission.mcqScore} / ${currentSelectedSubmission.mcqTotal}</span></div>
+            <div>📊 النسبة الإجمالية التقديرية: <span>${percentage.toFixed(1)}%</span></div>
         `;
     }
 
@@ -259,8 +285,8 @@ window.openEvaluation = function(subId) {
                     <div class="engineer-feedback-box">
                         <div class="engineer-box-title">✍️ صندوق تقييم المهندس المشرف (للتصحيح اليدوي):</div>
                         <div class="engineer-grading-row">
-                            <label>الدرجة المستحقة للمهمة:</label>
-                            <input type="number" id="taskGrade_${ans.questionId}" class="engineer-grade-input" placeholder="الدرجة" value="${ans.engineerGrade || currentSelectedSubmission.engineerGrade || ''}">
+                            <label>الدرجة المستحقة للمهمة (من 5):</label>
+                            <input type="number" id="taskGrade_${ans.questionId}" class="engineer-grade-input" placeholder="الدرجة (مثال: 5)" value="${ans.engineerGrade || currentSelectedSubmission.engineerGrade || ''}">
                         </div>
                         <textarea id="taskNotes_${ans.questionId}" class="engineer-notes-textarea" placeholder="اكتب ملاحظاتك التقييمية والنصائح البرمجية للطالب هنا...">${ans.engineerNotes || currentSelectedSubmission.engineerNotes || ''}</textarea>
                     </div>
@@ -317,4 +343,59 @@ function saveEvaluation() {
 
     alert('💾 تم حفظ تقييمك وملاحظاتك بنجاح في قاعدة البيانات السحابية والمحلية! ✅');
     showView(viewDashboard);
+}
+
+// ==========================================
+// CERTIFICATE PREVIEW & PRINTING LOGIC
+// ==========================================
+
+window.previewCertificate = function() {
+    if (!currentSelectedSubmission) return;
+    const percentage = calculateSubmissionPercentage(currentSelectedSubmission);
+    if (percentage <= 85) {
+        alert(`⚠️ عذراً يا مهندسنا، طباعة الشهادة الرسمية تتاح فقط للأبطال الحاصلين على أكثر من 85% (النسبة الحالية للطالب: ${percentage.toFixed(1)}%).`);
+        return;
+    }
+
+    // Populate Certificate DOM
+    const certStudentNameEl = document.getElementById('certStudentName');
+    const certCourseTitleEl = document.getElementById('certCourseTitle');
+    const certScorePercentEl = document.getElementById('certScorePercent');
+    const certDateValueEl = document.getElementById('certDateValue');
+    const certTeacherNameEl = document.getElementById('certTeacherName');
+
+    if (certStudentNameEl) certStudentNameEl.textContent = currentSelectedSubmission.studentName || 'بطل غير مسجل';
+    if (certCourseTitleEl) certCourseTitleEl.textContent = currentSelectedSubmission.course || 'مسار البرمجة والذكاء الاصطناعي';
+    if (certScorePercentEl) certScorePercentEl.textContent = `${percentage.toFixed(1)}%`;
+    
+    const dateObj = new Date(currentSelectedSubmission.timestamp);
+    const dateValueStr = dateObj.toLocaleDateString('ar-EG', { year: 'numeric', month: 'long', day: 'numeric' });
+    if (certDateValueEl) certDateValueEl.textContent = dateValueStr;
+    if (certTeacherNameEl) certTeacherNameEl.textContent = currentSelectedSubmission.teacherName || 'المهندس المشرف';
+
+    // Show Certificate Modal
+    const certContainer = document.getElementById('certificateContainer');
+    if (certContainer) certContainer.style.display = 'flex';
+};
+
+window.closeCertificatePreview = function() {
+    const certContainer = document.getElementById('certificateContainer');
+    if (certContainer) certContainer.style.display = 'none';
+};
+
+window.printCertificateOnly = function() {
+    document.body.className = 'print-mode-certificate';
+    window.print();
+    document.body.className = '';
+};
+
+// Overwrite default print button for Evaluation Report
+const btnPrintEval = document.getElementById('btnPrintEvalReport');
+if (btnPrintEval) {
+    btnPrintEval.onclick = function(e) {
+        e.preventDefault();
+        document.body.className = 'print-mode-report';
+        window.print();
+        document.body.className = '';
+    };
 }

@@ -110,6 +110,7 @@
                         <h2>📝 مراجعة وتقييم إجابات الطالب</h2>
                     </div>
                     <div class="eval-actions" id="evalActions">
+                        <button class="btn-print-certificate" id="btnPrintCertificateBtn" style="display: none;" onclick="window.previewCertificate()"><span>🎓 طباعة شهادة التقدير الرسمية</span></button>
                         <button class="btn-print-report" id="btnPrintEvalReport"><span>🖨️ طباعة / حفظ التقرير PDF</span></button>
                         <button class="btn-save-evaluation" id="btnSaveEvaluation"><span>💾 حفظ التقييم النهائي ✅</span></button>
                     </div>
@@ -126,6 +127,69 @@
                 </div>
             </div>
         </section>
+
+        <!-- CERTIFICATE PREVIEW MODAL / VIEW (شاشة معاينة وطباعة الشهادة) -->
+        <div class="certificate-container" id="certificateContainer" style="display: none;">
+            <div class="certificate-wrapper">
+                <!-- Decorative border / frame fitting kids coding academy but formal -->
+                <div class="cert-border-outer">
+                    <div class="cert-border-inner">
+                        
+                        <!-- Certificate Header -->
+                        <div class="cert-header">
+                            <div class="cert-logo-area">
+                                <img src="./assets/navbar_logo.png" alt="شعار أكاديمية ميجامايندز" class="cert-logo">
+                            </div>
+                            <div class="cert-header-text">
+                                <span class="cert-subtitle">أكاديمية ميجامايندز لعلوم البرمجة والذكاء الاصطناعي والروبوتكس</span>
+                                <h1 class="cert-main-title">شهادة إتمام وتفوق برمجية</h1>
+                                <div class="cert-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                            <div class="cert-badge-area">
+                                <div class="cert-gold-badge">🏆<br><span>بطل المستقبل</span></div>
+                            </div>
+                        </div>
+
+                        <!-- Certificate Body -->
+                        <div class="cert-body">
+                            <p class="cert-praise">تشهد إدارة أكاديمية ميجامايندز بكل فخر واعتزاز أن البطل العبقري / البطلة العبقرية:</p>
+                            <h2 class="cert-student-name" id="certStudentName">سيف الله خالد</h2>
+                            <p class="cert-text">
+                                قد اجتاز/ت بنجاح وتفوق مبهر متطلبات وتحديات مرحلة ومسار:
+                            </p>
+                            <h3 class="cert-course-title" id="certCourseTitle">بايثون (Python) - المستوى الأول</h3>
+                            <p class="cert-text-sub">
+                                وذلك بعد إظهار مهارات برمجية استثنائية، وقدرة فائقة على حل المشكلات والإبداع التكنولوجي، بمعدل تقييم نهائي متميز (<span id="certScorePercent">95%</span>). متمنين له/لها مستقبلاً مشرقاً كقائد/ة تكنولوجي/ة مبتكر/ة في عالم الذكاء الاصطناعي.
+                            </p>
+                        </div>
+
+                        <!-- Certificate Footer -->
+                        <div class="cert-footer">
+                            <div class="cert-footer-item">
+                                <span class="cert-label">تاريخ الإصدار:</span>
+                                <strong class="cert-value" id="certDateValue">17 مايو 2026</strong>
+                            </div>
+                            <div class="cert-footer-item cert-signature-area">
+                                <span class="cert-label">المهندس المشرف:</span>
+                                <strong class="cert-value" id="certTeacherName">المهندس أحمد</strong>
+                                <div class="cert-signature-line">إدارة التقييم الأكاديمي</div>
+                            </div>
+                            <div class="cert-footer-item">
+                                <span class="cert-label">اعتماد الأكاديمية:</span>
+                                <div class="cert-stamp">Megaminds<br>Verified ⭐</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Screen-only action buttons for certificate preview -->
+            <div class="cert-preview-actions no-print">
+                <button class="btn-cert-print" onclick="window.printCertificateOnly()">🖨️ طباعة الشهادة الرسمية الآن</button>
+                <button class="btn-cert-close" onclick="window.closeCertificatePreview()">❌ إغلاق المعاينة والعودة للتقييم</button>
+            </div>
+        </div>
 
     </main>
 
