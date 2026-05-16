@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحدي واختبار ميجامايند | Megaminds Academy</title>
+    <meta name="description" content="اختبار وتحدي تفاعلي لأبطال أكاديمية ميجامايند. مراجعة سريعة للمعلومات وأسئلة ممتعة مع نظام تشجيعي ودلع للأطفال.">
+    <meta name="keywords" content="اختبار بايثون, تحدي برمجة, ميجامايند, تعليم البرمجة للأطفال, اسئلة برمجة">
+    <meta name="author" content="Megaminds Academy">
+    
+    <!-- External CSS & Fonts -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!-- Floating Background Bubbles for Childish Playful Vibe -->
+    <div class="bg-bubbles" aria-hidden="true">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="quiz-main-container">
+        
+        <!-- Quiz Header -->
+        <header class="quiz-header" id="quizHeader">
+            <div class="quiz-course-info">
+                <img src="./assets/megaminds_mascot.png" alt="شخصية ميجامايند الكرتونية" class="quiz-mascot-mini" id="quizMascotMini">
+                <h1 class="quiz-course-title" id="quizCourseTitle">جاري تحميل الاختبار...</h1>
+            </div>
+            <a href="./index.html" class="btn-back-home" id="btnBackHome">
+                <span>🏠 العودة للرئيسية</span>
+            </a>
+        </header>
+
+        <main id="quizMainContent">
+            
+            <!-- VIEW 1: RECAP SCREEN (مراجعة وتذكير بالمعلومات) -->
+            <section class="quiz-view active" id="viewRecap" aria-labelledby="recapTitle">
+                <div class="recap-intro">
+                    <h2 class="recap-title" id="recapTitle">مراجعة سريعة لأبطالنا</h2>
+                    <p class="recap-subtitle" id="recapSubtitle">تذكير بأهم النقاط السحرية قبل بدء التحدي</p>
+                </div>
+
+                <!-- Recap Cards Grid -->
+                <div class="recap-cards-grid" id="recapCardsGrid">
+                    <!-- Dynamic Recap Cards will be injected here by quiz.js -->
+                </div>
+
+                <div class="recap-action">
+                    <button class="btn-start-quiz" id="btnStartQuiz" aria-label="ابدأ الاختبار والأسئلة">
+                        <span>🚀 أنا مستعد، ابدأ التحدي والأسئلة! 🚀</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- VIEW 2: MCQ QUESTION SCREEN (شاشة الأسئلة التفاعلية) -->
+            <section class="quiz-view" id="viewQuestion" aria-labelledby="questionText">
+                <div class="question-container">
+                    
+                    <!-- Progress Bar -->
+                    <div class="progress-header">
+                        <span class="progress-text" id="progressText" role="status" aria-live="polite">السؤال 1 من 5</span>
+                    </div>
+                    <div class="progress-bar-container" aria-hidden="true">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+
+                    <!-- Question Text -->
+                    <h2 class="question-text" id="questionText">جاري تحميل السؤال...</h2>
+
+                    <!-- Options Grid -->
+                    <div class="options-grid" id="optionsGrid" role="group" aria-label="خيارات الإجابة">
+                        <!-- Dynamic Option Buttons will be injected here by quiz.js -->
+                    </div>
+
+                    <!-- Feedback Box (Explanation) -->
+                    <div class="feedback-container" id="feedbackContainer" role="alert" aria-live="assertive">
+                        <h3 class="feedback-title" id="feedbackTitle">إجابة صحيحة!</h3>
+                        <p class="feedback-desc" id="feedbackDesc">شرح الإجابة يظهر هنا...</p>
+                    </div>
+
+                    <!-- Next Question Button -->
+                    <div class="question-action">
+                        <button class="btn-next-question" id="btnNextQuestion" aria-label="الانتقال للسؤال التالي">
+                            <span>السؤال التالي 🚀</span>
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- VIEW 3: RESULT SCREEN (شاشة النتيجة والدلع) -->
+            <section class="quiz-view" id="viewResult" aria-labelledby="resultTitle">
+                <div class="result-container">
+                    <div class="result-icon" aria-hidden="true">🏆</div>
+                    <h2 class="result-title" id="resultTitle">نتيجة التحدي العظيم!</h2>
+                    
+                    <!-- Celebratory Score Box -->
+                    <div class="result-score-box">
+                        <div class="result-score-num" id="resultScoreNum">0 / 5</div>
+                        <div class="result-score-label">الدرجة النهائية</div>
+                    </div>
+
+                    <!-- Personalized Encouraging Message -->
+                    <p class="result-msg" id="resultMsg" role="status" aria-live="polite">
+                        رسالة تشجيعية مخصصة للطفل تظهر هنا...
+                    </p>
+
+                    <!-- Result Actions -->
+                    <div class="result-actions">
+                        <button class="btn-retry" id="btnRetry" aria-label="إعادة الاختبار">
+                            <span>🔄 إعادة الاختبار ومحاولة التحدي</span>
+                        </button>
+                        <a href="./index.html" class="btn-back-home" id="btnResultBackHome">
+                            <span>🏠 العودة للصفحة الرئيسية</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="app-footer" id="quizFooter">
+        <div class="footer-content">
+            <div class="footer-logo">أكاديمية ميجامايند</div>
+            <p class="footer-desc">
+                المنصة الأولى لتعلم البرمجة، الذكاء الاصطناعي، وعلوم الروبوتكس من الصفر للأطفال والمراهقين في الوطن العربي. نهدف لبناء جيل مبتكر وقائد للمستقبل.
+            </p>
+            <div class="footer-hearts">💖 🚀 🌟 🤖 💡</div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 جميع الحقوق محفوظة لصالح أكاديمية ميجامايند (Megaminds Academy).</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="./quiz.js"></script>
+</body>
+</html>

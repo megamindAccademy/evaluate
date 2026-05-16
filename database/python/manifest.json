@@ -1,0 +1,10 @@
+{
+  "course_id": "python",
+  "course_title": "بايثون (Python)",
+  "recap_file": "recap.json",
+  "quizzes": [
+    "quiz1.json",
+    "quiz2.json",
+    "quiz3.json"
+  ]
+}
