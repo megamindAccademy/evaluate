@@ -19,24 +19,18 @@ function playHappyChime() {
     if (audioCtx.state === 'suspended') {
         audioCtx.resume();
     }
-    
     const now = audioCtx.currentTime;
     const notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
-    
     notes.forEach((freq, index) => {
         const osc = audioCtx.createOscillator();
         const gain = audioCtx.createGain();
-        
         osc.type = 'sine';
         osc.frequency.value = freq;
-        
         gain.gain.setValueAtTime(0, now + index * 0.1);
         gain.gain.linearRampToValueAtTime(0.3, now + index * 0.1 + 0.05);
         gain.gain.exponentialRampToValueAtTime(0.001, now + index * 0.1 + 0.4);
-        
         osc.connect(gain);
         gain.connect(audioCtx.destination);
-        
         osc.start(now + index * 0.1);
         osc.stop(now + index * 0.1 + 0.45);
     });
@@ -46,22 +40,17 @@ function playPopupSound() {
     if (audioCtx.state === 'suspended') {
         audioCtx.resume();
     }
-    
     const now = audioCtx.currentTime;
     const osc = audioCtx.createOscillator();
     const gain = audioCtx.createGain();
-    
     osc.type = 'triangle';
     osc.frequency.setValueAtTime(440, now); // A4
     osc.frequency.exponentialRampToValueAtTime(880, now + 0.2); // A5
-    
     gain.gain.setValueAtTime(0, now);
     gain.gain.linearRampToValueAtTime(0.4, now + 0.05);
     gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
-    
     osc.connect(gain);
     gain.connect(audioCtx.destination);
-    
     osc.start(now);
     osc.stop(now + 0.35);
 }
@@ -109,16 +98,12 @@ function triggerConfetti() {
             p.y += p.speedY;
             p.x += p.speedX;
             p.rotation += p.rotationSpeed;
-
-            if (p.y < canvas.height) {
-                activePieces++;
-            }
+            if (p.y < canvas.height) activePieces++;
 
             ctx.save();
             ctx.translate(p.x, p.y);
             ctx.rotate((p.rotation * Math.PI) / 180);
             ctx.fillStyle = p.color;
-
             if (p.shape === 'circle') {
                 ctx.beginPath();
                 ctx.arc(0, 0, p.size / 2, 0, Math.PI * 2);
@@ -126,21 +111,19 @@ function triggerConfetti() {
             } else {
                 ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size);
             }
-
             ctx.restore();
         });
 
         if (activePieces > 0 && Date.now() - startTime < 5000) {
             requestAnimationFrame(animate);
         } else {
-            document.body.removeChild(canvas);
+            if (canvas.parentNode) document.body.removeChild(canvas);
         }
     }
-
     animate();
 }
 
-// Event Listeners and DOM Manipulation
+// DOM Elements & Auto Discovery Logic
 document.addEventListener('DOMContentLoaded', () => {
     const encourageBtn = document.getElementById('btnEncourage');
     const messageDisplay = document.getElementById('messageDisplay');
@@ -149,6 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalText = document.getElementById('modalText');
     const modalCloseBtn = document.getElementById('modalClose');
     const modalOkBtn = document.getElementById('modalOkBtn');
+    const dynamicCoursesGrid = document.getElementById('dynamicCoursesGrid');
 
     // Encouragement Button Click
     if (encourageBtn) {
@@ -167,35 +151,84 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Upcoming Quiz Buttons Click (Modal Trigger)
-    const upcomingBtns = document.querySelectorAll('.btn-upcoming');
-    upcomingBtns.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            e.preventDefault();
-            const courseName = btn.getAttribute('data-course');
-            const customMessage = btn.getAttribute('data-message');
-
-            modalTitle.textContent = `اختبار ${courseName}`;
-            modalText.textContent = customMessage;
-
-            modalOverlay.classList.add('active');
-            playPopupSound();
-            triggerConfetti();
-        });
-    });
-
-    // Close Modal
+    // Modal Close Helpers
     const closeModal = () => {
-        modalOverlay.classList.remove('active');
+        if (modalOverlay) modalOverlay.classList.remove('active');
     };
 
     if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeModal);
     if (modalOkBtn) modalOkBtn.addEventListener('click', closeModal);
     if (modalOverlay) {
         modalOverlay.addEventListener('click', (e) => {
-            if (e.target === modalOverlay) {
-                closeModal();
-            }
+            if (e.target === modalOverlay) closeModal();
         });
     }
+
+    // ==========================================
+    // AUTO DISCOVERY OF COURSES
+    // ==========================================
+    if (dynamicCoursesGrid) {
+        fetch('./database/courses_index.json')
+            .then(response => {
+                if (!response.ok) throw new Error('courses_index.json not found');
+                return response.json();
+            })
+            .then(coursesList => {
+                coursesList.forEach(courseId => {
+                    fetch(`./database/${courseId}/manifest.json`)
+                        .then(res => {
+                            if (!res.ok) throw new Error(`Manifest not found for ${courseId}`);
+                            return res.json();
+                        })
+                        .then(manifest => {
+                            renderDiscoveredCourseCard(manifest, dynamicCoursesGrid, modalOverlay, modalTitle, modalText);
+                        })
+                        .catch(err => console.error(`Error discovering course ${courseId}:`, err));
+                });
+            })
+            .catch(error => console.error('Error loading courses index:', error));
+    }
 });
+
+// Render Discovered Course Card Helper
+function renderDiscoveredCourseCard(manifest, gridEl, modalOverlay, modalTitle, modalText) {
+    const card = document.createElement('article');
+    card.className = 'quiz-card';
+    card.id = `card_${manifest.course_id}`;
+
+    const isActive = (manifest.status === 'active');
+    const badgeClass = isActive ? 'badge-active' : 'badge-upcoming';
+    const badgeText = isActive ? 'متاح الآن 🌟' : 'قريباً ⏳';
+
+    card.innerHTML = `
+        <span class="card-badge ${badgeClass}">${badgeText}</span>
+        <div class="card-icon ${manifest.icon_bg_class || 'icon-main'}">${manifest.icon || '📚'}</div>
+        <h3 class="card-title">${manifest.course_title}</h3>
+        <p class="card-desc">${manifest.desc}</p>
+    `;
+
+    if (isActive) {
+        // Active Direct Link Button
+        const linkBtn = document.createElement('a');
+        linkBtn.href = `./quiz.html?course=${manifest.course_id}`;
+        linkBtn.className = 'card-btn btn-active';
+        linkBtn.innerHTML = `<span>ابدأ التحدي والاختبار 🚀</span>`;
+        card.appendChild(linkBtn);
+    } else {
+        // Upcoming Modal Popup Button
+        const modalBtn = document.createElement('button');
+        modalBtn.className = 'card-btn btn-upcoming';
+        modalBtn.innerHTML = `<span>أنا مستعد للتحدي! 💪</span>`;
+        modalBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (modalTitle) modalTitle.textContent = `اختبار ${manifest.course_title}`;
+            if (modalText) modalText.textContent = manifest.upcoming_msg || 'هذا التحدي قيد التجهيز في مختبراتنا!';
+            if (modalOverlay) modalOverlay.classList.add('active');
+            playPopupSound();
+            triggerConfetti();
+        });
+        card.appendChild(modalBtn);
+    }
+
+    gridEl.appendChild(card);
+}

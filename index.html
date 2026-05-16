@@ -70,8 +70,8 @@
                 <p class="section-subtitle">اختر مسارك أو استكشف موقعنا الرئيسي لبدء رحلة التعلم</p>
             </div>
 
-            <div class="quizzes-grid">
-                <!-- Card 1: Main Academy Website (Active Link) -->
+            <div class="quizzes-grid" id="dynamicCoursesGrid">
+                <!-- Card 1: Main Academy Website (Static Active Link) -->
                 <article class="quiz-card" id="cardMainSite">
                     <span class="card-badge badge-active">متاح الآن 🌟</span>
                     <div class="card-icon icon-main">🌐</div>
@@ -83,58 +83,7 @@
                         <span>زيارة موقع الأكاديمية 🚀</span>
                     </a>
                 </article>
-
-                <!-- Card 2: Robotics Quiz (Upcoming) -->
-                <article class="quiz-card" id="cardRobotics">
-                    <span class="card-badge badge-upcoming">قريباً ⏳</span>
-                    <div class="card-icon icon-robotics">🤖</div>
-                    <h3 class="card-title">اختبار مادة الروبوتكس</h3>
-                    <p class="card-desc">
-                        تحدي تركيب وبرمجة الروبوتات الذكية! هل أنت مستعد لتحريك الروبوت الخاص بك وإنجاز المهام؟
-                    </p>
-                    <button class="card-btn btn-upcoming" data-course="الروبوتكس (Robotics)" data-message="يا بطل الروبوتات الخارق! التحدي الخاص بك قيد التجهيز الآن في مختبرات ميجامايند. استعد لتكون أفضل مهندس روبوتات في العالم! 🤖💡" id="btnRobotics">
-                        <span>أنا مستعد للتحدي! 💪</span>
-                    </button>
-                </article>
-
-                <!-- Card 3: AI Quiz (Upcoming) -->
-                <article class="quiz-card" id="cardAI">
-                    <span class="card-badge badge-upcoming">قريباً ⏳</span>
-                    <div class="card-icon icon-ai">🧠</div>
-                    <h3 class="card-title">اختبار الذكاء الاصطناعي</h3>
-                    <p class="card-desc">
-                        عالم الذكاء الاصطناعي وتعليم الآلة! اكتشف كيف تجعل الكمبيوتر يفكر ويتعلم بذكاء خارق.
-                    </p>
-                    <button class="card-btn btn-upcoming" data-course="الذكاء الاصطناعي (AI)" data-message="يا عبقري المستقبل! الذكاء الاصطناعي مشتاق لأفكارك المذهلة. نحن نجهز لك اختباراً ممتعاً يليق بذكائك الخارق! 🚀✨" id="btnAI">
-                        <span>أنا مستعد للتحدي! 💪</span>
-                    </button>
-                </article>
-
-                <!-- Card 4: Python Quiz (Active Link) -->
-                <article class="quiz-card" id="cardPython">
-                    <span class="card-badge badge-active">متاح الآن 🌟</span>
-                    <div class="card-icon icon-python">🐍</div>
-                    <h3 class="card-title">اختبار مادة بايثون (Python)</h3>
-                    <p class="card-desc">
-                        لغة بايثون القوية والممتعة! تحدي كتابة الأكواد وحل الألغاز البرمجية بمهارة وسرعة.
-                    </p>
-                    <a href="./quiz.html?course=python" class="card-btn btn-active" id="btnPython">
-                        <span>ابدأ التحدي والاختبار 🚀</span>
-                    </a>
-                </article>
-
-                <!-- Card 5: Scratch Quiz (Upcoming) -->
-                <article class="quiz-card" id="cardScratch">
-                    <span class="card-badge badge-upcoming">قريباً ⏳</span>
-                    <div class="card-icon icon-scratch">🐱</div>
-                    <h3 class="card-title">اختبار مادة سكراتش (Scratch)</h3>
-                    <p class="card-desc">
-                        تصميم الألعاب والقصص التفاعلية! أطلق العنان لخيالك واصنع لعبتك الأولى بكل سهولة ومرح.
-                    </p>
-                    <button class="card-btn btn-upcoming" data-course="سكراتش (Scratch)" data-message="يا صانع الألعاب المبدع! شخصيات سكراتش تنتظر لمساتك السحرية لتتحرك وتلعب. التحدي قادم قريباً جداً! 🎮🐱" id="btnScratch">
-                        <span>أنا مستعد للتحدي! 💪</span>
-                    </button>
-                </article>
+                <!-- Dynamic Course Cards will be injected here by script.js -->
             </div>
         </section>
     </main>

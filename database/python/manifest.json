@@ -1,6 +1,11 @@
 {
   "course_id": "python",
   "course_title": "بايثون (Python)",
+  "desc": "لغة بايثون القوية والممتعة! تحدي كتابة الأكواد وحل الألغاز البرمجية بمهارة وسرعة.",
+  "icon": "🐍",
+  "icon_bg_class": "icon-python",
+  "status": "active",
+  "upcoming_msg": "",
   "recap_file": "recap.json",
   "quizzes": [
     "quiz1.json",
