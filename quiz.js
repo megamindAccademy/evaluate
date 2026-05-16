@@ -115,21 +115,34 @@ let recapData = null;
 let currentQuizData = null;
 let currentQuestionIndex = 0;
 let score = 0;
+let mcqCount = 0;
 let isQuestionAnswered = false;
 let currentCourse = 'python';
 
+// Student & Evaluation Tracking
+let studentInfo = { name: '', group: '', teacher: '' };
+let studentAnswers = []; // Stores { questionId, type: 'mcq'|'task', question, answer/selectedText, isCorrect, correctText }
+
 // DOM Elements
-let viewRecap, viewQuestion, viewResult;
+let viewRegistration, viewRecap, viewQuestion, viewResult;
+let regFormEl, studentNameInputEl, groupNameInputEl, teacherNameInputEl;
 let quizCourseTitleEl, recapTitleEl, recapSubtitleEl, recapCardsGridEl;
 let progressTextEl, progressBarEl, questionTextEl, optionsGridEl;
+let taskEditorContainerEl, editorLangTitleEl, taskHintTextEl, taskEditorTextareaEl, btnSubmitTaskBtnEl;
 let feedbackContainerEl, feedbackTitleEl, feedbackDescEl, btnNextQuestionEl;
-let resultScoreNumEl, resultMsgEl, btnRetryEl;
+let resultScoreNumEl, resultMsgEl, engineerPortalContainerEl, btnPrintReportEl, btnRetryEl;
 
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize DOM Elements
+    viewRegistration = document.getElementById('viewRegistration');
     viewRecap = document.getElementById('viewRecap');
     viewQuestion = document.getElementById('viewQuestion');
     viewResult = document.getElementById('viewResult');
+
+    regFormEl = document.getElementById('regForm');
+    studentNameInputEl = document.getElementById('studentNameInput');
+    groupNameInputEl = document.getElementById('groupNameInput');
+    teacherNameInputEl = document.getElementById('teacherNameInput');
 
     quizCourseTitleEl = document.getElementById('quizCourseTitle');
     recapTitleEl = document.getElementById('recapTitle');
@@ -141,6 +154,12 @@ document.addEventListener('DOMContentLoaded', () => {
     questionTextEl = document.getElementById('questionText');
     optionsGridEl = document.getElementById('optionsGrid');
 
+    taskEditorContainerEl = document.getElementById('taskEditorContainer');
+    editorLangTitleEl = document.getElementById('editorLangTitle');
+    taskHintTextEl = document.getElementById('taskHintText');
+    taskEditorTextareaEl = document.getElementById('taskEditorTextarea');
+    btnSubmitTaskBtnEl = document.getElementById('btnSubmitTaskBtn');
+
     feedbackContainerEl = document.getElementById('feedbackContainer');
     feedbackTitleEl = document.getElementById('feedbackTitle');
     feedbackDescEl = document.getElementById('feedbackDesc');
@@ -148,15 +167,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     resultScoreNumEl = document.getElementById('resultScoreNum');
     resultMsgEl = document.getElementById('resultMsg');
+    engineerPortalContainerEl = document.getElementById('engineerPortalContainer');
+    btnPrintReportEl = document.getElementById('btnPrintReport');
     btnRetryEl = document.getElementById('btnRetry');
+
+    // Event Listeners
+    if (regFormEl) {
+        regFormEl.addEventListener('submit', handleRegistrationSubmit);
+    }
 
     const btnStartQuiz = document.getElementById('btnStartQuiz');
     if (btnStartQuiz) {
         btnStartQuiz.addEventListener('click', startRandomQuiz);
     }
 
+    if (btnSubmitTaskBtnEl) {
+        btnSubmitTaskBtnEl.addEventListener('click', handleTaskSubmission);
+    }
+
     if (btnNextQuestionEl) {
         btnNextQuestionEl.addEventListener('click', handleNextQuestion);
+    }
+
+    if (btnPrintReportEl) {
+        btnPrintReportEl.addEventListener('click', () => window.print());
     }
 
     if (btnRetryEl) {
@@ -184,7 +218,8 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(recap => {
             recapData = recap;
-            initRecapScreen();
+            // Initially show registration screen
+            showView(viewRegistration);
         })
         .catch(error => {
             console.error('Error loading database JSON:', error);
@@ -196,11 +231,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Switch Active View Helper
 function showView(viewEl) {
-    [viewRecap, viewQuestion, viewResult].forEach(v => {
+    [viewRegistration, viewRecap, viewQuestion, viewResult].forEach(v => {
         if (v) v.classList.remove('active');
     });
     if (viewEl) viewEl.classList.add('active');
     window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// 0. Handle Registration Submit
+function handleRegistrationSubmit(e) {
+    e.preventDefault();
+    studentInfo.name = studentNameInputEl.value.trim();
+    studentInfo.group = groupNameInputEl.value.trim();
+    studentInfo.teacher = teacherNameInputEl.value.trim();
+
+    playHappyChime();
+    initRecapScreen();
 }
 
 // 1. Initialize Recap Screen (Grouped by Sessions)
@@ -208,14 +254,15 @@ function initRecapScreen() {
     if (!recapData) return;
 
     if (recapTitleEl) recapTitleEl.textContent = recapData.recap_title;
-    if (recapSubtitleEl) recapSubtitleEl.textContent = recapData.recap_subtitle;
+    if (recapSubtitleEl) {
+        recapSubtitleEl.textContent = `أهلاً بك يا بطل ${studentInfo.name} (مجموعة: ${studentInfo.group} مع المهندس ${studentInfo.teacher})! ${recapData.recap_subtitle}`;
+    }
 
     // Populate Recap Cards Grouped by Sessions
     if (recapCardsGridEl) {
         recapCardsGridEl.innerHTML = '';
         
         recapData.sessions.forEach(session => {
-            // Create Session Section Wrapper
             const sessionGroup = document.createElement('div');
             sessionGroup.className = 'recap-session-group';
             sessionGroup.style.gridColumn = '1 / -1';
@@ -233,7 +280,6 @@ function initRecapScreen() {
             
             recapCardsGridEl.appendChild(sessionGroup);
 
-            // Create Cards for Session Points
             session.points.forEach(point => {
                 const card = document.createElement('div');
                 card.className = 'recap-card';
@@ -259,11 +305,9 @@ function startRandomQuiz() {
         return;
     }
 
-    // Pick a random quiz file name from manifest list
     const randomIndex = Math.floor(Math.random() * manifestData.quizzes.length);
     const randomQuizFileName = manifestData.quizzes[randomIndex];
 
-    // Fetch the random quiz JSON
     fetch(`./database/${currentCourse}/quizzes/${randomQuizFileName}`)
         .then(response => {
             if (!response.ok) throw new Error(`Quiz file ${randomQuizFileName} not found`);
@@ -273,6 +317,8 @@ function startRandomQuiz() {
             currentQuizData = quiz;
             currentQuestionIndex = 0;
             score = 0;
+            mcqCount = 0;
+            studentAnswers = [];
             playHappyChime();
             renderCurrentQuestion();
             showView(viewQuestion);
@@ -305,8 +351,24 @@ function renderCurrentQuestion() {
     if (feedbackContainerEl) feedbackContainerEl.classList.remove('active');
     if (btnNextQuestionEl) btnNextQuestionEl.classList.remove('active');
 
-    // Render Options
-    if (optionsGridEl) {
+    // Handle Question Type: Task vs MCQ
+    if (currentQ.type === 'task') {
+        // Show Task Editor Container, Hide Options Grid
+        if (optionsGridEl) optionsGridEl.style.display = 'none';
+        if (taskEditorContainerEl) taskEditorContainerEl.style.display = 'block';
+        
+        if (editorLangTitleEl) editorLangTitleEl.textContent = `💻 محرر الأكواد والمهام (${manifestData.course_title})`;
+        if (taskHintTextEl) taskHintTextEl.textContent = currentQ.task_hint || 'اكتب إجابتك أو كودك بتركيز وإبداع يا بطل!';
+        if (taskEditorTextareaEl) {
+            taskEditorTextareaEl.value = '';
+            taskEditorTextareaEl.disabled = false;
+        }
+        if (btnSubmitTaskBtnEl) btnSubmitTaskBtnEl.style.display = 'inline-flex';
+    } else {
+        // Show Options Grid, Hide Task Editor Container
+        if (optionsGridEl) optionsGridEl.style.display = 'grid';
+        if (taskEditorContainerEl) taskEditorContainerEl.style.display = 'none';
+
         optionsGridEl.innerHTML = '';
         currentQ.options.forEach((optionText, index) => {
             const btn = document.createElement('button');
@@ -318,15 +380,58 @@ function renderCurrentQuestion() {
     }
 }
 
-// Handle Option Click
+// Handle Task Submission
+function handleTaskSubmission() {
+    if (isQuestionAnswered || !currentQuizData) return;
+
+    const answerText = taskEditorTextareaEl ? taskEditorTextareaEl.value.trim() : '';
+    if (!answerText) {
+        alert('من فضلك اكتب إجابتك أو الكود الخاص بك أولاً يا بطل!');
+        return;
+    }
+
+    isQuestionAnswered = true;
+    const currentQ = currentQuizData.questions[currentQuestionIndex];
+
+    // Disable textarea and submit button
+    if (taskEditorTextareaEl) taskEditorTextareaEl.disabled = true;
+    if (btnSubmitTaskBtnEl) btnSubmitTaskBtnEl.style.display = 'none';
+
+    // Store Student Answer for Engineer Evaluation
+    studentAnswers.push({
+        questionId: currentQ.id,
+        type: 'task',
+        question: currentQ.question,
+        answer: answerText,
+        isCorrect: null, // To be graded by engineer
+        correctText: currentQ.explanation || 'سيقوم المهندس المشرف بمراجعة الكود وتقييمه قريباً.'
+    });
+
+    playHappyChime();
+    triggerConfetti(3000);
+
+    feedbackTitleEl.textContent = '🚀 تم حفظ إجابتك السحرية بنجاح!';
+    feedbackTitleEl.className = 'feedback-title correct';
+    if (feedbackDescEl) feedbackDescEl.textContent = currentQ.explanation || 'تم تسجيل الكود الخاص بك في التقرير ليقوم المهندس بمراجعته وتقييمه.';
+    if (feedbackContainerEl) feedbackContainerEl.classList.add('active');
+
+    // Show Next Button
+    if (btnNextQuestionEl) {
+        const isLastQuestion = (currentQuestionIndex === currentQuizData.questions.length - 1);
+        btnNextQuestionEl.innerHTML = isLastQuestion ? '<span>عرض النتيجة والتقرير 🏆</span>' : '<span>السؤال التالي 🚀</span>';
+        btnNextQuestionEl.classList.add('active');
+    }
+}
+
+// Handle Option Click (For MCQ)
 function handleOptionClick(selectedIndex, clickedBtn) {
     if (isQuestionAnswered || !currentQuizData) return;
     isQuestionAnswered = true;
+    mcqCount++;
 
     const currentQ = currentQuizData.questions[currentQuestionIndex];
     const isCorrect = (selectedIndex === currentQ.correct);
 
-    // Disable all option buttons
     const allOptionBtns = optionsGridEl.querySelectorAll('.option-btn');
     allOptionBtns.forEach((btn, idx) => {
         btn.classList.add('disabled');
@@ -339,7 +444,16 @@ function handleOptionClick(selectedIndex, clickedBtn) {
         }
     });
 
-    // Handle Correct / Incorrect Actions
+    // Store Student Answer for Engineer Evaluation
+    studentAnswers.push({
+        questionId: currentQ.id,
+        type: 'mcq',
+        question: currentQ.question,
+        answer: currentQ.options[selectedIndex],
+        isCorrect: isCorrect,
+        correctText: currentQ.options[currentQ.correct]
+    });
+
     if (isCorrect) {
         score++;
         playHappyChime();
@@ -352,14 +466,12 @@ function handleOptionClick(selectedIndex, clickedBtn) {
         feedbackTitleEl.className = 'feedback-title incorrect';
     }
 
-    // Show Explanation
     if (feedbackDescEl) feedbackDescEl.textContent = currentQ.explanation;
     if (feedbackContainerEl) feedbackContainerEl.classList.add('active');
 
-    // Show Next Button
     if (btnNextQuestionEl) {
         const isLastQuestion = (currentQuestionIndex === currentQuizData.questions.length - 1);
-        btnNextQuestionEl.innerHTML = isLastQuestion ? '<span>عرض النتيجة النهائية 🏆</span>' : '<span>السؤال التالي 🚀</span>';
+        btnNextQuestionEl.innerHTML = isLastQuestion ? '<span>عرض النتيجة والتقرير 🏆</span>' : '<span>السؤال التالي 🚀</span>';
         btnNextQuestionEl.classList.add('active');
     }
 }
@@ -377,36 +489,96 @@ function handleNextQuestion() {
     }
 }
 
-// 3. Show Result Screen
+// 3. Show Result Screen & Build Engineer Evaluation Portal
 function showResultScreen() {
     if (!currentQuizData) return;
-    const totalQ = currentQuizData.questions.length;
 
-    if (resultScoreNumEl) resultScoreNumEl.textContent = `${score} / ${totalQ}`;
+    if (resultScoreNumEl) resultScoreNumEl.textContent = `${score} / ${mcqCount}`;
 
-    // Personalized pampering message based on score
     if (resultMsgEl) {
-        const percentage = (score / totalQ) * 100;
-        if (percentage === 100) {
-            resultMsgEl.textContent = "🏆 عبقري بايثون الأول! إجاباتك كلها صحيحة 100%، أنت فخر أكاديمية ميجامايندز ومستقبلك عظيم جداً!";
-            triggerConfetti(8000);
-            playHappyChime();
-        } else if (percentage >= 80) {
-            resultMsgEl.textContent = "🌟 رائع جداً يا بطل! نتيجتك مذهلة واقتربت جداً من العلامة الكاملة، واصل إبداعك وتألقك!";
+        if (mcqCount > 0) {
+            const percentage = (score / mcqCount) * 100;
+            if (percentage === 100) {
+                resultMsgEl.textContent = `🏆 عبقري ${manifestData.course_title} الأول! إجاباتك التلقائية كلها صحيحة 100%، أنت فخر أكاديمية ميجامايندز!`;
+                triggerConfetti(8000);
+                playHappyChime();
+            } else if (percentage >= 80) {
+                resultMsgEl.textContent = "🌟 رائع جداً يا بطل! نتيجتك مذهلة واقتربت جداً من العلامة الكاملة، واصل إبداعك وتألقك!";
+                triggerConfetti(5000);
+                playHappyChime();
+            } else if (percentage >= 50) {
+                resultMsgEl.textContent = "👍 بطل حقيقي! لقد بذلت جهداً رائعاً اليوم. تذكر أن المبرمجين الخارقين يتعلمون من المحاولة!";
+                triggerConfetti(3000);
+            } else {
+                resultMsgEl.textContent = "💪 لا تستسلم يا بطل! البرمجة تحتاج إلى تدريب ومحاولة. راجع التقرير مع المهندس المشرف وجرب التحدي مرة أخرى!";
+            }
+        } else {
+            resultMsgEl.textContent = "🌟 لقد أتممت التحديات والمهام البرمجية بنجاح! تقريرك جاهز الآن ليقوم المهندس بمراجعته وتقييمه.";
             triggerConfetti(5000);
             playHappyChime();
-        } else if (percentage >= 50) {
-            resultMsgEl.textContent = "👍 بطل حقيقي! لقد بذلت جهداً رائعاً اليوم. تذكر أن المبرمجين الخارقين يتعلمون من المحاولة، جرب مرة أخرى لتصل للقمة!";
-            triggerConfetti(3000);
-        } else {
-            resultMsgEl.textContent = "💪 لا تستسلم يا بطل! البرمجة تحتاج إلى تدريب ومحاولة. راجع الملخص السريع وجرب التحدي مرة أخرى، نحن واثقون من قدراتك!";
         }
+    }
+
+    // Build Dynamic Engineer Evaluation Portal
+    if (engineerPortalContainerEl) {
+        engineerPortalContainerEl.innerHTML = `
+            <div class="portal-header">
+                <div class="portal-title-area">
+                    <div class="portal-title-icon">📋</div>
+                    <h3 class="portal-title">تقرير إجابات الطالب للمهندس المشرف (تقييم الأداء)</h3>
+                </div>
+            </div>
+            <div class="portal-student-meta">
+                <div class="meta-item">👤 اسم الطالب: <span>${studentInfo.name || 'غير مسجل'}</span></div>
+                <div class="meta-item">👥 المجموعة/المستوى: <span>${studentInfo.group || 'غير مسجل'}</span></div>
+                <div class="meta-item">👨‍🏫 المهندس المشرف: <span>${studentInfo.teacher || 'غير مسجل'}</span></div>
+                <div class="meta-item">🏆 درجة الاختيارات التلقائية (MCQ): <span>${score} / ${mcqCount}</span></div>
+            </div>
+            <div class="answers-list" style="margin-top: 35px;">
+                ${studentAnswers.map((ans, idx) => {
+                    if (ans.type === 'mcq') {
+                        return `
+                            <div class="answer-card">
+                                <div class="answer-card-header">
+                                    <span class="q-num">السؤال ${idx + 1} (اختيار متعدد)</span>
+                                    <span class="q-badge ${ans.isCorrect ? 'mcq-correct' : 'mcq-incorrect'}">
+                                        ${ans.isCorrect ? 'إجابة صحيحة تلقائياً ✅' : 'إجابة خاطئة تلقائياً ❌'}
+                                    </span>
+                                </div>
+                                <div class="q-text">${ans.question}</div>
+                                <div class="q-student-answer">إجابة الطالب: <strong>${ans.answer}</strong></div>
+                                ${!ans.isCorrect ? `<div class="q-correct-answer">الإجابة الصحيحة: <strong>${ans.correctText}</strong></div>` : ''}
+                            </div>
+                        `;
+                    } else {
+                        return `
+                            <div class="answer-card">
+                                <div class="answer-card-header">
+                                    <span class="q-num">السؤال ${idx + 1} (مهمة برمجة / Task)</span>
+                                    <span class="q-badge task-badge">تحتاج لتقييم المهندس 👨‍🏫</span>
+                                </div>
+                                <div class="q-text">${ans.question}</div>
+                                <div class="q-student-answer code-box">${ans.answer}</div>
+                                <div class="engineer-feedback-box">
+                                    <div class="engineer-box-title">✍️ صندوق تقييم المهندس المشرف (للتصحيح اليدوي):</div>
+                                    <div class="engineer-grading-row">
+                                        <label>الدرجة المستحقة للمهمة:</label>
+                                        <input type="number" class="engineer-grade-input" placeholder="الدرجة (مثال: 5)">
+                                    </div>
+                                    <textarea class="engineer-notes-textarea" placeholder="اكتب ملاحظاتك التقييمية والنصائح البرمجية للطالب هنا..."></textarea>
+                                </div>
+                            </div>
+                        `;
+                    }
+                }).join('')}
+            </div>
+        `;
     }
 
     showView(viewResult);
 }
 
-// Restart Quiz Flow (Goes back to Recap)
+// Restart Quiz Flow (Goes back to Registration/Recap)
 function restartQuizFlow() {
-    initRecapScreen();
+    showView(viewRegistration);
 }

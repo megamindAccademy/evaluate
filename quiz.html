@@ -38,8 +38,36 @@
 
         <main id="quizMainContent">
             
+            <!-- VIEW 0: REGISTRATION SCREEN (تسجيل بيانات الطالب والمجموعة والمدرس) -->
+            <section class="quiz-view active" id="viewRegistration" aria-labelledby="regTitle">
+                <div class="registration-container">
+                    <div class="reg-header">
+                        <div class="reg-icon">🚀</div>
+                        <h2 class="reg-title" id="regTitle">أهلاً بك يا بطل المستقبل!</h2>
+                        <p class="reg-subtitle">من فضلك أدخل بياناتك السحرية لنبدأ رحلة التحدي والمراجعة</p>
+                    </div>
+                    <form class="reg-form" id="regForm">
+                        <div class="form-group">
+                            <label for="studentNameInput">👤 اسم الطالب (ثلاثي):</label>
+                            <input type="text" id="studentNameInput" class="form-input" placeholder="اكتب اسمك الثلاثي يا بطل..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="groupNameInput">👥 اسم المجموعة أو المستوى:</label>
+                            <input type="text" id="groupNameInput" class="form-input" placeholder="مثال: مجموعة السبت الساعة 5 / Level 1..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="teacherNameInput">👨‍🏫 اسم المهندس / المدرس الخاص بك:</label>
+                            <input type="text" id="teacherNameInput" class="form-input" placeholder="اسم المهندس أو المدرس المشرف عليك..." required>
+                        </div>
+                        <button type="submit" class="btn-submit-reg" id="btnSubmitReg">
+                            <span>🚀 حفظ البيانات والبدء في المراجعة 🚀</span>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
             <!-- VIEW 1: RECAP SCREEN (مراجعة وتذكير بالمعلومات) -->
-            <section class="quiz-view active" id="viewRecap" aria-labelledby="recapTitle">
+            <section class="quiz-view" id="viewRecap" aria-labelledby="recapTitle">
                 <div class="recap-intro">
                     <h2 class="recap-title" id="recapTitle">مراجعة سريعة لأبطالنا</h2>
                     <p class="recap-subtitle" id="recapSubtitle">تذكير بأهم النقاط السحرية قبل بدء التحدي</p>
@@ -57,7 +85,7 @@
                 </div>
             </section>
 
-            <!-- VIEW 2: MCQ QUESTION SCREEN (شاشة الأسئلة التفاعلية) -->
+            <!-- VIEW 2: MCQ & TASK QUESTION SCREEN (شاشة الأسئلة التفاعلية والمحرر) -->
             <section class="quiz-view" id="viewQuestion" aria-labelledby="questionText">
                 <div class="question-container">
                     
@@ -72,9 +100,21 @@
                     <!-- Question Text -->
                     <h2 class="question-text" id="questionText">جاري تحميل السؤال...</h2>
 
-                    <!-- Options Grid -->
+                    <!-- Options Grid (For MCQ Questions) -->
                     <div class="options-grid" id="optionsGrid" role="group" aria-label="خيارات الإجابة">
                         <!-- Dynamic Option Buttons will be injected here by quiz.js -->
+                    </div>
+
+                    <!-- Task Editor Container (For Task Questions) -->
+                    <div class="task-editor-container" id="taskEditorContainer" style="display: none;">
+                        <div class="editor-header">
+                            <span class="editor-lang" id="editorLangTitle">🐍 محرر الأكواد الذكي (Python)</span>
+                            <span class="editor-hint" id="taskHintText">تلميح يظهر هنا...</span>
+                        </div>
+                        <textarea class="task-editor-textarea" id="taskEditorTextarea" placeholder="اكتب الكود السحري الخاص بك هنا يا بطل..."></textarea>
+                        <div class="task-actions">
+                            <button class="btn-submit-task" id="btnSubmitTaskBtn"><span>حفظ الإجابة والانتقال للتالي 🚀</span></button>
+                        </div>
                     </div>
 
                     <!-- Feedback Box (Explanation) -->
@@ -93,16 +133,16 @@
                 </div>
             </section>
 
-            <!-- VIEW 3: RESULT SCREEN (شاشة النتيجة والدلع) -->
+            <!-- VIEW 3: RESULT SCREEN (شاشة النتيجة وتقييم المهندس) -->
             <section class="quiz-view" id="viewResult" aria-labelledby="resultTitle">
                 <div class="result-container">
                     <div class="result-icon" aria-hidden="true">🏆</div>
                     <h2 class="result-title" id="resultTitle">نتيجة التحدي العظيم!</h2>
                     
-                    <!-- Celebratory Score Box -->
+                    <!-- Celebratory Score Box (For Auto-Graded MCQ) -->
                     <div class="result-score-box">
                         <div class="result-score-num" id="resultScoreNum">0 / 5</div>
-                        <div class="result-score-label">الدرجة النهائية</div>
+                        <div class="result-score-label">درجة أسئلة الاختيارات التلقائية</div>
                     </div>
 
                     <!-- Personalized Encouraging Message -->
@@ -110,8 +150,16 @@
                         رسالة تشجيعية مخصصة للطفل تظهر هنا...
                     </p>
 
+                    <!-- Engineer Evaluation Portal (تقرير إجابات الطالب للمهندس) -->
+                    <div class="engineer-portal-container" id="engineerPortalContainer">
+                        <!-- Dynamic Report Content will be injected here by quiz.js -->
+                    </div>
+
                     <!-- Result Actions -->
-                    <div class="result-actions">
+                    <div class="result-actions" id="resultActions">
+                        <button class="btn-print-report" id="btnPrintReport" aria-label="طباعة تقرير المهندس">
+                            <span>🖨️ طباعة / حفظ تقرير المهندس PDF</span>
+                        </button>
                         <button class="btn-retry" id="btnRetry" aria-label="إعادة الاختبار">
                             <span>🔄 إعادة الاختبار ومحاولة التحدي</span>
                         </button>
