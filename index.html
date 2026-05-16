@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة أبطال ميجامايند | Megaminds Academy</title>
+    <meta name="description" content="بوابة اختبارات وتحديات أكاديمية ميجامايند لتعليم البرمجة والذكاء الاصطناعي والروبوتكس للأطفال. مساحة مليئة بالتشجيع والدلع لأبطال المستقبل.">
+    <meta name="keywords" content="ميجامايند, تعليم البرمجة للأطفال, اختبارات برمجة, روبوتكس, ذكاء اصطناعي, بايثون, سكراتش">
+    <meta name="author" content="Megaminds Academy">
+    
+    <!-- External CSS & Fonts -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!-- Floating Background Bubbles for Childish Playful Vibe -->
+    <div class="bg-bubbles" aria-hidden="true">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="app-header" id="mainHeader">
+        <a href="https://megaminds-academy.com" class="logo-container" aria-label="موقع أكاديمية ميجامايند">
+            <div class="logo-icon">
+                <svg viewBox="0 0 24 24" width="100%" height="100%" fill="var(--primary)">
+                    <path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.75-1.75C9.02 19.65 10.46 20 12 20c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 15c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm1-10h-2v4h4v-2h-2V8z"/>
+                </svg>
+            </div>
+            <span class="logo-text">أكاديمية ميجامايند</span>
+        </a>
+        <div class="header-badge" id="headerBadge">
+            <span>🚀 أبطال المستقبل</span>
+        </div>
+    </header>
+
+    <main id="mainContent">
+        <!-- Hero Section -->
+        <section class="hero-section" id="heroSection">
+            <div class="hero-content">
+                <div class="hero-subtitle">✨ مرحباً بك يا بطل ميجامايند الخارق!</div>
+                <h1 class="hero-title">بوابة <span>الاختبارات والتحديات</span> الممتعة!</h1>
+                <p class="hero-desc">
+                    هنا مكانك المفضل لاكتشاف مهاراتك في البرمجة، الذكاء الاصطناعي، وتصميم الألعاب! نحن نؤمن أنك عبقري وتستطيع تغيير العالم بأفكارك الرائعة. استعد للانطلاق في رحلة مليئة بالنجاح والمرح!
+                </p>
+            </div>
+            <div class="hero-mascot-container">
+                <div class="mascot-bg-glow"></div>
+                <img src="./assets/megaminds_mascot.png" alt="شخصية ميجامايند الكرتونية لتشجيع الأطفال" class="hero-mascot" id="heroMascotImg">
+            </div>
+        </section>
+
+        <!-- Interactive Encouragement Box (صندوق الدلع والتشجيع) -->
+        <section class="encouragement-box" id="encouragementSection">
+            <h2>🎁 صندوق الدلع والتشجيع لأبطالنا</h2>
+            <p>هل تريد سماع رسالة تشجيعية مخصصة لك اليوم؟ اضغط على الزر واكتشف المفاجأة!</p>
+            <button class="btn-encourage" id="btnEncourage" aria-label="اضغط لسماع رسالة تشجيعية">
+                <span>✨ اضغط هنا واكتشف هديتك التشجيعية اليوم! ✨</span>
+            </button>
+            <div class="message-display" id="messageDisplay" role="alert" aria-live="polite"></div>
+        </section>
+
+        <!-- Quizzes & Courses Section -->
+        <section class="quizzes-section" id="quizzesSection">
+            <div class="section-header">
+                <h2 class="section-title">مسارات واختبارات ميجامايند</h2>
+                <p class="section-subtitle">اختر مسارك أو استكشف موقعنا الرئيسي لبدء رحلة التعلم</p>
+            </div>
+
+            <div class="quizzes-grid">
+                <!-- Card 1: Main Academy Website (Active Link) -->
+                <article class="quiz-card" id="cardMainSite">
+                    <span class="card-badge badge-active">متاح الآن 🌟</span>
+                    <div class="card-icon icon-main">🌐</div>
+                    <h3 class="card-title">موقع الأكاديمية الرئيسي</h3>
+                    <p class="card-desc">
+                        استكشف جميع دوراتنا الممتعة في البرمجة، الروبوتات، والذكاء الاصطناعي، واحجز مقعدك لتصبح مبرمج المستقبل!
+                    </p>
+                    <a href="https://megaminds-academy.com" class="card-btn btn-active" target="_blank" rel="noopener noreferrer" id="btnMainSite">
+                        <span>زيارة موقع الأكاديمية 🚀</span>
+                    </a>
+                </article>
+
+                <!-- Card 2: Robotics Quiz (Upcoming) -->
+                <article class="quiz-card" id="cardRobotics">
+                    <span class="card-badge badge-upcoming">قريباً ⏳</span>
+                    <div class="card-icon icon-robotics">🤖</div>
+                    <h3 class="card-title">اختبار مادة الروبوتكس</h3>
+                    <p class="card-desc">
+                        تحدي تركيب وبرمجة الروبوتات الذكية! هل أنت مستعد لتحريك الروبوت الخاص بك وإنجاز المهام؟
+                    </p>
+                    <button class="card-btn btn-upcoming" data-course="الروبوتكس (Robotics)" data-message="يا بطل الروبوتات الخارق! التحدي الخاص بك قيد التجهيز الآن في مختبرات ميجامايند. استعد لتكون أفضل مهندس روبوتات في العالم! 🤖💡" id="btnRobotics">
+                        <span>أنا مستعد للتحدي! 💪</span>
+                    </button>
+                </article>
+
+                <!-- Card 3: AI Quiz (Upcoming) -->
+                <article class="quiz-card" id="cardAI">
+                    <span class="card-badge badge-upcoming">قريباً ⏳</span>
+                    <div class="card-icon icon-ai">🧠</div>
+                    <h3 class="card-title">اختبار الذكاء الاصطناعي</h3>
+                    <p class="card-desc">
+                        عالم الذكاء الاصطناعي وتعليم الآلة! اكتشف كيف تجعل الكمبيوتر يفكر ويتعلم بذكاء خارق.
+                    </p>
+                    <button class="card-btn btn-upcoming" data-course="الذكاء الاصطناعي (AI)" data-message="يا عبقري المستقبل! الذكاء الاصطناعي مشتاق لأفكارك المذهلة. نحن نجهز لك اختباراً ممتعاً يليق بذكائك الخارق! 🚀✨" id="btnAI">
+                        <span>أنا مستعد للتحدي! 💪</span>
+                    </button>
+                </article>
+
+                <!-- Card 4: Python Quiz (Upcoming) -->
+                <article class="quiz-card" id="cardPython">
+                    <span class="card-badge badge-upcoming">قريباً ⏳</span>
+                    <div class="card-icon icon-python">🐍</div>
+                    <h3 class="card-title">اختبار مادة بايثون (Python)</h3>
+                    <p class="card-desc">
+                        لغة بايثون القوية والممتعة! تحدي كتابة الأكواد وحل الألغاز البرمجية بمهارة وسرعة.
+                    </p>
+                    <button class="card-btn btn-upcoming" data-course="بايثون (Python)" data-message="يا محترف الأكواد الصغير! لغة بايثون تستعد لاستقبال إبداعاتك. خلك جاهز يا فنان لتحدي الأكواد الممتع! 🐍💻" id="btnPython">
+                        <span>أنا مستعد للتحدي! 💪</span>
+                    </button>
+                </article>
+
+                <!-- Card 5: Scratch Quiz (Upcoming) -->
+                <article class="quiz-card" id="cardScratch">
+                    <span class="card-badge badge-upcoming">قريباً ⏳</span>
+                    <div class="card-icon icon-scratch">🐱</div>
+                    <h3 class="card-title">اختبار مادة سكراتش (Scratch)</h3>
+                    <p class="card-desc">
+                        تصميم الألعاب والقصص التفاعلية! أطلق العنان لخيالك واصنع لعبتك الأولى بكل سهولة ومرح.
+                    </p>
+                    <button class="card-btn btn-upcoming" data-course="سكراتش (Scratch)" data-message="يا صانع الألعاب المبدع! شخصيات سكراتش تنتظر لمساتك السحرية لتتحرك وتلعب. التحدي قادم قريباً جداً! 🎮🐱" id="btnScratch">
+                        <span>أنا مستعد للتحدي! 💪</span>
+                    </button>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Popup for Upcoming Quizzes -->
+    <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-box">
+            <button class="modal-close" id="modalClose" aria-label="إغلاق النافذة">✕</button>
+            <div class="modal-icon">🏆</div>
+            <h3 class="modal-title" id="modalTitle">عنوان الاختبار</h3>
+            <p class="modal-text" id="modalText">رسالة تشجيعية مخصصة للطفل</p>
+            <button class="modal-btn" id="modalOkBtn">شكراً، أنا متحمس جداً! 🚀</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="app-footer" id="mainFooter">
+        <div class="footer-content">
+            <div class="footer-logo">أكاديمية ميجامايند</div>
+            <p class="footer-desc">
+                المنصة الأولى لتعلم البرمجة، الذكاء الاصطناعي، وعلوم الروبوتكس من الصفر للأطفال والمراهقين في الوطن العربي. نهدف لبناء جيل مبتكر وقائد للمستقبل.
+            </p>
+            <div class="footer-hearts">💖 🚀 🌟 🤖 💡</div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 جميع الحقوق محفوظة لصالح أكاديمية ميجامايند (Megaminds Academy).</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="./script.js"></script>
+</body>
+</html>
