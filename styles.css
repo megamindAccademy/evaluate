@@ -108,23 +108,29 @@ body {
     text-decoration: none;
 }
 
-.logo-img-wide {
-    height: 55px;
-    width: auto;
-    max-width: 250px;
-    object-fit: contain;
-    filter: drop-shadow(0 4px 8px rgba(255, 123, 0, 0.25));
-    transition: transform 0.3s ease;
+.logo-icon {
+    width: 65px;
+    height: 65px;
+    background: var(--white);
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 5px 15px rgba(255, 123, 0, 0.3);
+    border: 3px solid var(--primary);
+    animation: pulseLogo 3s infinite ease-in-out;
 }
 
-.logo-img-wide:hover {
-    transform: scale(1.05);
+@keyframes pulseLogo {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.08) rotate(5deg); }
 }
 
-.quiz-header-actions {
-    display: flex;
-    align-items: center;
-    gap: 25px;
+.logo-text {
+    font-size: 2rem;
+    font-weight: 900;
+    background: linear-gradient(45deg, var(--primary), var(--tertiary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.05);
 }
 
 .header-badge {
@@ -1130,12 +1136,6 @@ body {
         padding: 15px;
     }
 
-    .logo-img-wide {
-        max-width: 200px;
-        height: auto;
-        max-height: 45px;
-    }
-
     .hero-content, .question-container, .result-container {
         padding: 35px 20px;
     }
@@ -1161,11 +1161,5 @@ body {
         flex-direction: column;
         gap: 15px;
         text-align: center;
-    }
-
-    .quiz-header-actions {
-        flex-direction: column;
-        gap: 15px;
-        width: 100%;
     }
 }
