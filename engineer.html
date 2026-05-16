@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة المهندسين المشرفين | أكاديمية ميجامايندز</title>
+    <meta name="description" content="لوحة تحكم وبوابة المهندسين لمراجعة وتقييم إجابات ومهام طلاب أكاديمية ميجامايندز.">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- External CSS & Fonts -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!-- Floating Background Bubbles -->
+    <div class="bg-bubbles" aria-hidden="true">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="app-header" id="engineerHeader">
+        <div class="logo-container">
+            <img src="./assets/navbar_logo.png" alt="شعار أكاديمية ميجامايندز" class="logo-icon">
+            <span class="logo-text">بوابة المهندسين المشرفين</span>
+        </div>
+        <div class="header-actions">
+            <a href="./index.html" class="btn-back-home" id="btnExitPortal">
+                <span>🏠 العودة لموقع الأكاديمية</span>
+            </a>
+            <button class="btn-logout" id="btnLogout" style="display: none;">
+                <span>🔒 تسجيل الخروج</span>
+            </button>
+        </div>
+    </header>
+
+    <main id="engineerMainContent" class="engineer-main-container">
+        
+        <!-- VIEW 1: LOGIN SCREEN (شاشة تسجيل الدخول للمهندسين) -->
+        <section class="engineer-view active" id="viewLogin">
+            <div class="login-box">
+                <div class="login-icon">👨‍🏫</div>
+                <h2 class="login-title">تسجيل دخول المهندسين</h2>
+                <p class="login-subtitle">أهلاً بك يا مهندسنا العظيم، قم بتسجيل الدخول لمتابعة أبطالك</p>
+                
+                <form id="engineerLoginForm" class="login-form">
+                    <div class="form-group">
+                        <label for="inputUsername">👤 اسم المستخدم (Username):</label>
+                        <input type="text" id="inputUsername" class="form-input" placeholder="اكتب اسم المستخدم..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword">🔑 كلمة المرور (Password):</label>
+                        <input type="password" id="inputPassword" class="form-input" placeholder="اكتب كلمة المرور..." required>
+                    </div>
+                    <div id="loginError" class="login-error-msg" style="display: none;">❌ اسم المستخدم أو كلمة المرور غير صحيحة!</div>
+                    <button type="submit" class="btn-login-submit">
+                        <span>🚀 الدخول للوحة التحكم 🚀</span>
+                    </button>
+                </form>
+                <div class="login-hint">
+                    <p>💡 <em>بيانات الدخول الافتراضية:</em> Username: <strong>engineer</strong> | Password: <strong>megaminds</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIEW 2: DASHBOARD SCREEN (لوحة تحكم المهندسين وقائمة الطلاب) -->
+        <section class="engineer-view" id="viewDashboard">
+            <div class="dashboard-header">
+                <div class="dashboard-title-area">
+                    <h2>📋 قائمة إجابات ومهام الطلاب (Submissions Portal)</h2>
+                    <p>يمكنك البحث باسم الطالب، اسم المجموعة، أو اسم المهندس المشرف وتقييم المهام</p>
+                </div>
+                <div class="dashboard-stats">
+                    <div class="stat-badge">إجمالي الإجابات: <span id="totalSubmissionsCount">0</span></div>
+                    <div class="stat-badge pending">بانتظار التقييم: <span id="pendingSubmissionsCount">0</span></div>
+                </div>
+            </div>
+
+            <!-- Search & Filter Controls -->
+            <div class="search-filter-container">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchSubmissions" class="search-input" placeholder="ابحث باسم الطالب، المجموعة، أو المهندس المشرف...">
+                </div>
+                <div class="filter-box">
+                    <label for="filterStatus">الحالة:</label>
+                    <select id="filterStatus" class="filter-select">
+                        <option value="">كل الحالات</option>
+                        <option value="pending">⏳ بانتظار التقييم</option>
+                        <option value="graded">✅ تم التقييم</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Submissions Grid -->
+            <div class="submissions-grid" id="submissionsGrid">
+                <!-- Dynamic Submission Cards will be injected here by engineer.js -->
+            </div>
+        </section>
+
+        <!-- VIEW 3: EVALUATION SCREEN (شاشة مراجعة وتقييم إجابات طالب محدد) -->
+        <section class="engineer-view" id="viewEvaluation">
+            <div class="evaluation-container">
+                <div class="eval-header">
+                    <div class="eval-title-area">
+                        <button class="btn-back-dashboard" id="btnBackDashboard"><span>◀ العودة للقائمة</span></button>
+                        <h2>📝 مراجعة وتقييم إجابات الطالب</h2>
+                    </div>
+                    <div class="eval-actions" id="evalActions">
+                        <button class="btn-print-report" id="btnPrintEvalReport"><span>🖨️ طباعة / حفظ التقرير PDF</span></button>
+                        <button class="btn-save-evaluation" id="btnSaveEvaluation"><span>💾 حفظ التقييم النهائي ✅</span></button>
+                    </div>
+                </div>
+
+                <!-- Student Meta Info Card -->
+                <div class="student-meta-card" id="studentEvalMeta">
+                    <!-- Dynamic Student Meta injected here -->
+                </div>
+
+                <!-- Answers & Tasks List -->
+                <div class="eval-answers-list" id="evalAnswersList">
+                    <!-- Dynamic Answers & Tasks injected here -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="app-footer" id="engineerFooter">
+        <div class="footer-content">
+            <div class="footer-logo">أكاديمية ميجامايندز</div>
+            <p class="footer-desc">بوابة المهندسين المشرفين لمتابعة وتقييم أبطال المستقبل في البرمجة والذكاء الاصطناعي والروبوتكس.</p>
+            <div class="footer-hearts">💖 🚀 🌟 🤖 💡</div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 جميع الحقوق محفوظة لصالح أكاديمية ميجامايندز (Megaminds Academy).</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="./engineer.js"></script>
+</body>
+</html>

@@ -489,90 +489,53 @@ function handleNextQuestion() {
     }
 }
 
-// 3. Show Result Screen & Build Engineer Evaluation Portal
+// 3. Show Result Screen & Save Submission to Storage Adapter
 function showResultScreen() {
     if (!currentQuizData) return;
 
-    if (resultScoreNumEl) resultScoreNumEl.textContent = `${score} / ${mcqCount}`;
+    // Save Submission to Storage Adapter (LocalStorage/Firebase Hybrid)
+    const submissionData = {
+        id: 'sub_' + Date.now(),
+        timestamp: new Date().toISOString(),
+        studentName: studentInfo.name || 'طالب غير مسجل',
+        groupName: studentInfo.group || 'مجموعة غير مسجلة',
+        teacherName: studentInfo.teacher || 'مهندس غير مسجل',
+        course: manifestData ? manifestData.course_title : currentCourse,
+        mcqScore: score,
+        mcqTotal: mcqCount,
+        status: 'pending', // 'pending' | 'graded'
+        engineerNotes: '',
+        engineerGrade: null,
+        answers: studentAnswers
+    };
 
+    let submissions = JSON.parse(localStorage.getItem('megaminds_submissions') || '[]');
+    submissions.push(submissionData);
+    localStorage.setItem('megaminds_submissions', JSON.stringify(submissions));
+
+    // Hide score number, score box, engineer portal container, retry button, and print button
+    if (resultScoreNumEl) resultScoreNumEl.style.display = 'none';
+    const scoreBoxEl = document.querySelector('.result-score-box');
+    if (scoreBoxEl) scoreBoxEl.style.display = 'none';
+    if (engineerPortalContainerEl) engineerPortalContainerEl.style.display = 'none';
+    if (btnPrintReportEl) btnPrintReportEl.style.display = 'none';
+    if (btnRetryEl) btnRetryEl.style.display = 'none';
+
+    // Display beautiful celebratory pampering message telling student their teacher will review
     if (resultMsgEl) {
-        if (mcqCount > 0) {
-            const percentage = (score / mcqCount) * 100;
-            if (percentage === 100) {
-                resultMsgEl.textContent = `🏆 عبقري ${manifestData.course_title} الأول! إجاباتك التلقائية كلها صحيحة 100%، أنت فخر أكاديمية ميجامايندز!`;
-                triggerConfetti(8000);
-                playHappyChime();
-            } else if (percentage >= 80) {
-                resultMsgEl.textContent = "🌟 رائع جداً يا بطل! نتيجتك مذهلة واقتربت جداً من العلامة الكاملة، واصل إبداعك وتألقك!";
-                triggerConfetti(5000);
-                playHappyChime();
-            } else if (percentage >= 50) {
-                resultMsgEl.textContent = "👍 بطل حقيقي! لقد بذلت جهداً رائعاً اليوم. تذكر أن المبرمجين الخارقين يتعلمون من المحاولة!";
-                triggerConfetti(3000);
-            } else {
-                resultMsgEl.textContent = "💪 لا تستسلم يا بطل! البرمجة تحتاج إلى تدريب ومحاولة. راجع التقرير مع المهندس المشرف وجرب التحدي مرة أخرى!";
-            }
-        } else {
-            resultMsgEl.textContent = "🌟 لقد أتممت التحديات والمهام البرمجية بنجاح! تقريرك جاهز الآن ليقوم المهندس بمراجعته وتقييمه.";
-            triggerConfetti(5000);
-            playHappyChime();
-        }
-    }
-
-    // Build Dynamic Engineer Evaluation Portal
-    if (engineerPortalContainerEl) {
-        engineerPortalContainerEl.innerHTML = `
-            <div class="portal-header">
-                <div class="portal-title-area">
-                    <div class="portal-title-icon">📋</div>
-                    <h3 class="portal-title">تقرير إجابات الطالب للمهندس المشرف (تقييم الأداء)</h3>
-                </div>
+        resultMsgEl.innerHTML = `
+            <div class="success-banner" style="font-size: 2.6rem; color: var(--primary); margin-bottom: 25px;">
+                🎉 تم إرسال إجاباتك ومهامك السحرية بنجاح يا بطل! 🎉
             </div>
-            <div class="portal-student-meta">
-                <div class="meta-item">👤 اسم الطالب: <span>${studentInfo.name || 'غير مسجل'}</span></div>
-                <div class="meta-item">👥 المجموعة/المستوى: <span>${studentInfo.group || 'غير مسجل'}</span></div>
-                <div class="meta-item">👨‍🏫 المهندس المشرف: <span>${studentInfo.teacher || 'غير مسجل'}</span></div>
-                <div class="meta-item">🏆 درجة الاختيارات التلقائية (MCQ): <span>${score} / ${mcqCount}</span></div>
+            <div class="teacher-notice" style="font-size: 1.8rem; color: var(--tertiary-dark); background: var(--bg-gradient-2); padding: 30px; border-radius: var(--radius-md); border: 3px solid var(--tertiary); margin-bottom: 30px; line-height: 1.8;">
+                سيقوم المهندس المشرف <strong>${studentInfo.teacher || 'الخاص بك'}</strong> بمراجعة وتقييم إجاباتك وإبداعاتك البرمجية وإبلاغك بالنتيجة النهائية قريباً في مجموعة <strong>${studentInfo.group || 'الكورس'}</strong>!
             </div>
-            <div class="answers-list" style="margin-top: 35px;">
-                ${studentAnswers.map((ans, idx) => {
-                    if (ans.type === 'mcq') {
-                        return `
-                            <div class="answer-card">
-                                <div class="answer-card-header">
-                                    <span class="q-num">السؤال ${idx + 1} (اختيار متعدد)</span>
-                                    <span class="q-badge ${ans.isCorrect ? 'mcq-correct' : 'mcq-incorrect'}">
-                                        ${ans.isCorrect ? 'إجابة صحيحة تلقائياً ✅' : 'إجابة خاطئة تلقائياً ❌'}
-                                    </span>
-                                </div>
-                                <div class="q-text">${ans.question}</div>
-                                <div class="q-student-answer">إجابة الطالب: <strong>${ans.answer}</strong></div>
-                                ${!ans.isCorrect ? `<div class="q-correct-answer">الإجابة الصحيحة: <strong>${ans.correctText}</strong></div>` : ''}
-                            </div>
-                        `;
-                    } else {
-                        return `
-                            <div class="answer-card">
-                                <div class="answer-card-header">
-                                    <span class="q-num">السؤال ${idx + 1} (مهمة برمجة / Task)</span>
-                                    <span class="q-badge task-badge">تحتاج لتقييم المهندس 👨‍🏫</span>
-                                </div>
-                                <div class="q-text">${ans.question}</div>
-                                <div class="q-student-answer code-box">${ans.answer}</div>
-                                <div class="engineer-feedback-box">
-                                    <div class="engineer-box-title">✍️ صندوق تقييم المهندس المشرف (للتصحيح اليدوي):</div>
-                                    <div class="engineer-grading-row">
-                                        <label>الدرجة المستحقة للمهمة:</label>
-                                        <input type="number" class="engineer-grade-input" placeholder="الدرجة (مثال: 5)">
-                                    </div>
-                                    <textarea class="engineer-notes-textarea" placeholder="اكتب ملاحظاتك التقييمية والنصائح البرمجية للطالب هنا..."></textarea>
-                                </div>
-                            </div>
-                        `;
-                    }
-                }).join('')}
+            <div class="praise-text" style="font-size: 2rem; color: var(--purple); font-weight: 900;">
+                أنت فخر أكاديمية ميجامايندز ومستقبلك عظيم جداً! 🚀🌟
             </div>
         `;
+        triggerConfetti(8000);
+        playHappyChime();
     }
 
     showView(viewResult);
