@@ -121,5 +121,6 @@
       "title": "Trigger Collider Event handler",
       "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
     }
-  ]
+  ],
+  "quiz_title": "Unity Game Development - Challenge 1"
 }

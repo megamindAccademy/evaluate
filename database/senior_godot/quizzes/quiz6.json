@@ -121,5 +121,6 @@
       "title": "Optimize REST API integration Performance",
       "desc": "Briefly explain the best practice guidelines to optimize REST API integration operations for user-centered design."
     }
-  ]
+  ],
+  "quiz_title": "Godot Game Development - Challenge 6"
 }

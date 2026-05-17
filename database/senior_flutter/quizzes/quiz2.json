@@ -121,5 +121,6 @@
       "title": "Navigator Router script",
       "desc": "Write a Dart navigator call that pushes a secondary screen onto the mobile navigation stack."
     }
-  ]
+  ],
+  "quiz_title": "Flutter Mobile Development - Challenge 2"
 }
