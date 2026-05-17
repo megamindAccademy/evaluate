@@ -99,10 +99,15 @@
                         <label for="inputPassword">🔑 كلمة المرور (Password):</label>
                         <input type="password" id="inputPassword" class="form-input" placeholder="اكتب كلمة المرور..." required>
                     </div>
-                    <div id="loginError" class="login-error-msg" style="display: none;">❌ اسم المستخدم أو كلمة المرور غير صحيحة!</div>
+                     <div id="loginError" class="login-error-msg" style="display: none;">❌ اسم المستخدم أو كلمة المرور غير صحيحة!</div>
                     <button type="submit" class="btn-login-submit">
                         <span>🚀 الدخول للوحة التحكم 🚀</span>
                     </button>
+                    <!-- Glassmorphic Quick-Demo Credentials Badge -->
+                    <div style="margin-top: 25px; padding: 15px; background: rgba(255,183,3,0.1); border: 2px dashed #ffb703; border-radius: 16px; font-size: 1.25rem; font-weight: 700; color: #023047; text-align: center;">
+                        💡 <span style="color:#d97706;">للتجربة والدخول الفوري:</span><br>
+                        اسم المستخدم: <code style="background:#023047; color:#fff; padding:2px 8px; border-radius:6px; font-family:monospace;">engineer</code> | كلمة المرور: <code style="background:#023047; color:#fff; padding:2px 8px; border-radius:6px; font-family:monospace;">megaminds</code>
+                    </div>
                 </form>
 
             </div>
@@ -123,9 +128,9 @@
 
             <!-- Dashboard Section Tabs -->
             <div class="dashboard-section-tabs" style="display: flex; justify-content: center; gap: 15px; margin: 30px 0 40px; border-bottom: 3px solid #edf2f7; padding-bottom: 20px; flex-wrap: wrap;">
-                <button class="dash-tab-btn active" id="tabSubmissionsBtn" style="padding: 14px 35px; font-size: 1.5rem; font-weight: 900; border-radius: 50px; border: none; cursor: pointer; background: linear-gradient(45deg, #ffb703, #fb8500); color: #023047; box-shadow: 0 8px 20px rgba(251,133,0,0.3); transition: all 0.3s ease;">📋 إجابات ومهام الطلاب</button>
-                <button class="dash-tab-btn" id="tabAidsBtn" style="padding: 14px 35px; font-size: 1.5rem; font-weight: 900; border-radius: 50px; border: none; cursor: pointer; background: #edf2f7; color: #5c677d; transition: all 0.3s ease;">🎮 المساعدات والألعاب التفاعلية</button>
-                <button class="dash-tab-btn" id="tabSettingsBtn" style="padding: 14px 35px; font-size: 1.5rem; font-weight: 900; border-radius: 50px; border: none; cursor: pointer; background: #edf2f7; color: #5c677d; transition: all 0.3s ease;">⚙️ إعدادات النظام</button>
+                <button class="dash-tab-btn active" id="tabSubmissionsBtn">📋 إجابات ومهام الطلاب</button>
+                <button class="dash-tab-btn" id="tabAidsBtn">🎮 المناهج والألعاب التفاعلية</button>
+                <button class="dash-tab-btn" id="tabSettingsBtn">⚙️ إعدادات النظام</button>
             </div>
 
             <!-- Section 1: Submissions (إجابات الطلاب) -->
@@ -157,13 +162,50 @@
 
             <!-- Section 2: Teaching Aids & Mini-Games (المساعدات والألعاب التفاعلية) -->
             <div id="sectionTeachingAids" class="dashboard-sub-section" style="display: none;">
-                <div class="section-header-box" style="background: rgba(255,255,255,0.9); padding: 35px; border-radius: 24px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 40px; border-right: 8px solid #8338ec; border-left: 1px solid #edf2f7; border-top: 1px solid #edf2f7; border-bottom: 1px solid #edf2f7;">
-                    <h3 style="font-size: 2.4rem; color: #023047; margin-bottom: 12px;">🎮 المساعدات البرمجية والألعاب التفاعلية للمهندسين</h3>
-                    <p style="font-size: 1.5rem; color: #5c677d; line-height: 1.8;">أدوات وألعاب محاكاة تفاعلية مصممة للمهندس لتشغيلها أثناء الحصة (Live Session) لشرح المفاهيم البرمجية المعقدة للأطفال بأسلوب مرح وتفاعلي. يتم اكتشاف المساعدات تلقائياً حسب المناهج المتاحة في الأكاديمية!</p>
+                <div class="curriculum-portal-banner">
+                    <div class="portal-banner-info">
+                        <span class="portal-badge animate-pulse">محطة الأبطال التفاعلية 🐍🚀</span>
+                        <h3>🎮 بوابة المناهج البرمجية والألعاب التفاعلية</h3>
+                        <p>أدوات، محاكيات، وألعاب برمجية حية مصممة لمساعدة المهندس في شرح المفاهيم الصعبة للأطفال بأسلوب مليء بالدلع والمرح والتفاعل التام!</p>
+                    </div>
                 </div>
 
-                <div class="teaching-aids-container" id="teachingAidsContainer" style="display: flex; flex-direction: column; gap: 40px;">
-                    <!-- Dynamic Curriculum Teaching Aids Groups injected here by engineer.js -->
+                <!-- Course Header Card -->
+                <div class="course-card-premium">
+                    <div class="course-header-row">
+                        <div class="course-main-title">
+                            <span class="course-emoji">🐍</span>
+                            <div>
+                                <h4>مسار بايثون للتأسيس والحل الإبداعي للمشكلات (Python Basics)</h4>
+                                <p>الفئة العمرية: 10 - 16 سنة | 3 مستويات مذهلة | 12 جلسة تفاعلية</p>
+                            </div>
+                        </div>
+                        <div class="course-xp-counter-card">
+                            <span class="xp-val-display" id="totalHeroXp">0</span>
+                            <span class="xp-lbl-display">إجمالي XP الأبطال ⭐</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Level Selector Grid -->
+                    <div class="level-selectors-grid">
+                        <button class="level-sel-btn active" id="btnLevel1" onclick="window.currEngine.selectLevel(1)">
+                            <span class="level-num">LEVEL 1</span>
+                            <span class="level-name">أساسيات البايثون 🧱</span>
+                        </button>
+                        <button class="level-sel-btn" id="btnLevel2" onclick="window.currEngine.selectLevel(2)">
+                            <span class="level-num">LEVEL 2</span>
+                            <span class="level-name">هياكل البيانات والدوال 🧪</span>
+                        </button>
+                        <button class="level-sel-btn" id="btnLevel3" onclick="window.currEngine.selectLevel(3)">
+                            <span class="level-num">LEVEL 3</span>
+                            <span class="level-name">تحديات متقدمة ومشاريع 🕹️</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sessions Grid -->
+                <div class="curr-sessions-grid" id="curriculumSessionsGrid">
+                    <!-- Dynamic Session Cards injected here by engineer.js -->
                 </div>
             </div>
 
@@ -268,10 +310,49 @@
                 </div>
             </div>
             
-            <!-- Screen-only action buttons for certificate preview -->
-            <div class="cert-preview-actions no-print">
-                <button class="btn-cert-print" onclick="window.printCertificateOnly()">🖨️ طباعة الشهادة الرسمية الآن</button>
-                <button class="btn-cert-close" onclick="window.closeCertificatePreview()">❌ إغلاق المعاينة والعودة للتقييم</button>
+            </div>
+        </div>
+
+        <!-- VIEW 4: CURRICULUM PLAYGROUND MODAL (نافذة المنهج التفاعلي العملاقة) -->
+        <div class="curr-modal-overlay" id="curriculumPlaygroundModal" style="display: none;">
+            <div class="curr-modal-content">
+                <!-- Header -->
+                <div class="curr-modal-header">
+                    <div class="curr-header-info">
+                        <span class="curr-badge" id="playgroundSessionBadge">SESSION 1</span>
+                        <h2 class="curr-title" id="playgroundSessionTitle">مقدمة البايثون ودالة الطباعة</h2>
+                    </div>
+                    <!-- XP Bar inside Modal -->
+                    <div class="curr-xp-container">
+                        <div class="curr-xp-text-row">
+                            <span class="curr-xp-label">مستوى التقدم في التحديات</span>
+                            <span class="curr-xp-val" id="playgroundXpDisplay">0 / 100 XP</span>
+                        </div>
+                        <div class="curr-xp-bar-bg">
+                            <div class="curr-xp-bar-fill" id="playgroundXpBar" style="width: 0%;"></div>
+                        </div>
+                    </div>
+                    <button class="curr-modal-close" id="btnExitPlayground"><span>❌ إغلاق النافذة</span></button>
+                </div>
+                <!-- Body -->
+                <div class="curr-modal-body">
+                    <!-- Right side: Explanation cards -->
+                    <div class="curr-panel-info">
+                        <div class="info-scroller" id="playgroundInfoContent">
+                            <!-- Injected dynamically by JS -->
+                        </div>
+                    </div>
+                    <!-- Left side: Interactive Game Zone -->
+                    <div class="curr-panel-game">
+                        <div class="game-zone-header">
+                            <span class="game-emoji">🎮</span>
+                            <h3 class="game-zone-title" id="playgroundGameTitle">منطقة التحدي التفاعلي</h3>
+                        </div>
+                        <div class="game-zone-content" id="playgroundGameContent">
+                            <!-- Injected dynamically by JS -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

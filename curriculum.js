@@ -2,11 +2,27 @@
 // CURRICULUM.JS - Dynamic Interactive Curriculum & Games Engine
 // ============================================================================
 
-// Initialize Firebase Analytics if available
+// --- FIREBASE REALTIME DATABASE CONFIGURATION ---
+const firebaseConfig = {
+  apiKey: "AIzaSyCmTP8whtgR5IKF59Bi_olMvNsVw2LaSsI",
+  authDomain: "megamindsacademy-ev.firebaseapp.com",
+  databaseURL: "https://megamindsacademy-ev-default-rtdb.firebaseio.com",
+  projectId: "megamindsacademy-ev",
+  storageBucket: "megamindsacademy-ev.firebasestorage.app",
+  messagingSenderId: "329252604781",
+  appId: "1:329252604781:web:4d6583392031571258a864"
+};
+
+// Initialize Firebase & Analytics if available
 try {
-    if (typeof firebase !== 'undefined' && firebase.analytics) {
-        firebase.analytics();
-        console.log("Firebase Analytics initialized successfully in curriculum.js!");
+    if (typeof firebase !== 'undefined') {
+        if (firebase.apps.length === 0) {
+            firebase.initializeApp(firebaseConfig);
+        }
+        if (firebase.analytics) {
+            firebase.analytics();
+            console.log("Firebase Analytics initialized successfully in curriculum.js!");
+        }
     }
 } catch (e) {
     console.error("Firebase Analytics initialization error:", e);
@@ -140,7 +156,7 @@ function triggerConfetti() {
 // ============================================================================
 // DYNAMIC STATE & JSON FETCHING
 // ============================================================================
-let currentCourseId = 'python';
+let currentCourseId = 'senior_python';
 let currentCourseData = null;
 let currentStationId = 1;
 let studentProgress = {
@@ -151,7 +167,7 @@ let studentProgress = {
 // Check URL param for initial course selection
 function getUrlCourseParam() {
     const params = new URLSearchParams(window.location.search);
-    return params.get('course') || 'python';
+    return params.get('course') || 'senior_python';
 }
 
 // Load progress from localStorage for current course
@@ -179,6 +195,11 @@ function saveProgress() {
 
 // Fetch Course Games JSON dynamically
 function fetchCourseGames(courseId) {
+    // Safety check: Redirect deprecated or cached 'python' requests to 'senior_python'
+    if (courseId === 'python') {
+        courseId = 'senior_python';
+    }
+    
     currentCourseId = courseId;
     loadProgress();
 

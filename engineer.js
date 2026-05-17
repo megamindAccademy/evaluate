@@ -123,26 +123,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Auto-discover Teaching Aids
-    const teachingAidsContainer = document.getElementById('teachingAidsContainer');
-    if (teachingAidsContainer) {
-        fetch('./database/courses_index.json')
-            .then(res => res.json())
-            .then(coursesList => {
-                coursesList.forEach(courseId => {
-                    fetch(`./database/${courseId}/teaching_aids.json`)
-                        .then(r => {
-                            if (!r.ok) throw new Error('No teaching aids');
-                            return r.json();
-                        })
-                        .then(aidsData => {
-                            renderTeachingAidsGroup(aidsData, teachingAidsContainer);
-                        })
-                        .catch(e => {}); // Silent catch for courses without aids
-                });
-            })
-            .catch(err => console.error('Error loading courses index for aids:', err));
-    }
+    // Initialize Interactive Curriculum Engine
+    window.currEngine = new InteractiveCurriculumEngine();
+    window.currEngine.init();
 
     // Check Login State
     const isLoggedIn = sessionStorage.getItem('engineer_logged_in') === 'true';
@@ -154,156 +137,1458 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Render Discovered Teaching Aids Group Helper
-function renderTeachingAidsGroup(data, containerEl) {
-    const groupEl = document.createElement('div');
-    groupEl.className = 'teaching-aid-group';
-    groupEl.style.cssText = 'background: rgba(255,255,255,0.95); border-radius: 20px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); border: 2px solid #edf2f7;';
+// ==========================================
+// INTERACTIVE CURRICULUM GAME & AUDIO ENGINE
+// ==========================================
 
-    groupEl.innerHTML = `
-        <h4 style="font-size: 2rem; color: #8338ec; margin-bottom: 25px; border-bottom: 2px dashed #e0cffc; padding-bottom: 10px;">
-            ${data.course_title}
-        </h4>
-        <div class="aids-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px;"></div>
-    `;
+// Web Audio API oscillators for live synthesizers
+function playHappyChime() {
+    try {
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+        notes.forEach((freq, index) => {
+            setTimeout(() => {
+                const osc = audioCtx.createOscillator();
+                const gainNode = audioCtx.createGain();
+                osc.type = index === 3 ? 'sine' : 'triangle';
+                osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+                gainNode.gain.setValueAtTime(0.12, audioCtx.currentTime);
+                gainNode.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.4);
+                osc.connect(gainNode);
+                gainNode.connect(audioCtx.destination);
+                osc.start();
+                osc.stop(audioCtx.currentTime + 0.4);
+            }, index * 100);
+        });
+    } catch (e) {}
+}
 
-    const gridEl = groupEl.querySelector('.aids-grid');
+function playPopupSound() {
+    try {
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = audioCtx.createOscillator();
+        const gainNode = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(320, audioCtx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(880, audioCtx.currentTime + 0.12);
+        gainNode.gain.setValueAtTime(0.12, audioCtx.currentTime);
+        gainNode.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.12);
+        osc.connect(gainNode);
+        gainNode.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.12);
+    } catch (e) {}
+}
 
-    data.aids.forEach(aid => {
-        const card = document.createElement('div');
-        card.className = 'aid-card';
-        card.style.cssText = 'background: #fff; border-radius: 16px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.05); border: 2px solid #edf2f7; display: flex; flex-direction: column; justify-content: space-between;';
+function playErrorSound() {
+    try {
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = audioCtx.createOscillator();
+        const gainNode = audioCtx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(160, audioCtx.currentTime);
+        osc.frequency.linearRampToValueAtTime(90, audioCtx.currentTime + 0.25);
+        gainNode.gain.setValueAtTime(0.18, audioCtx.currentTime);
+        gainNode.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.25);
+        osc.connect(gainNode);
+        gainNode.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.25);
+    } catch (e) {}
+}
 
-        let interactiveArea = '';
+function triggerConfetti() {
+    if (typeof confetti === 'function') {
+        confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
+        return;
+    }
+    let canvas = document.getElementById('currConfettiCanvas');
+    if (!canvas) {
+        canvas = document.createElement('canvas');
+        canvas.id = 'currConfettiCanvas';
+        canvas.style.position = 'fixed';
+        canvas.style.top = '0';
+        canvas.style.left = '0';
+        canvas.style.width = '100vw';
+        canvas.style.height = '100vh';
+        canvas.style.pointerEvents = 'none';
+        canvas.style.zIndex = '9999';
+        document.body.appendChild(canvas);
+    }
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const colors = ['#f72585', '#7209b7', '#3f37c9', '#4361ee', '#4cc9f0', '#fb8500', '#ffb703', '#06d6a0'];
+    const particles = [];
+    for (let i = 0; i < 70; i++) {
+        particles.push({
+            x: canvas.width / 2 + (Math.random() - 0.5) * 150,
+            y: canvas.height * 0.5 + (Math.random() - 0.5) * 80,
+            r: Math.random() * 5 + 3,
+            color: colors[Math.floor(Math.random() * colors.length)],
+            tilt: Math.random() * 10 - 5,
+            tiltAngleIncremental: Math.random() * 0.07 + 0.02,
+            tiltAngle: 0,
+            vx: (Math.random() - 0.5) * 12,
+            vy: -Math.random() * 12 - 4,
+            g: 0.35
+        });
+    }
+    function updateConfetti() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        let active = false;
+        particles.forEach(p => {
+            p.vy += p.g; p.x += p.vx; p.y += p.vy;
+            p.tiltAngle += p.tiltAngleIncremental;
+            p.tilt = Math.sin(p.tiltAngle) * 3;
+            if (p.y <= canvas.height) {
+                active = true;
+                ctx.beginPath();
+                ctx.lineWidth = p.r;
+                ctx.strokeStyle = p.color;
+                ctx.moveTo(p.x + p.tilt + p.r / 2, p.y);
+                ctx.lineTo(p.x + p.tilt, p.y + p.tilt + p.r / 2);
+                ctx.stroke();
+            }
+        });
+        if (active) requestAnimationFrame(updateConfetti);
+        else canvas.remove();
+    }
+    updateConfetti();
+}
 
-        if (aid.type === 'variable_box') {
-            interactiveArea = `
-                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #fff9f2; border-radius: 16px; border: 3px dashed #ff7b00; text-align: center;">
-                    <div style="font-size: 1.6rem; margin-bottom: 15px;">📦 الصندوق السحري (المتغير x): <strong id="varBoxVal_${aid.id}" style="color: #ff7b00; font-size: 2rem; background: #fff; padding: 5px 15px; border-radius: 10px; border: 2px solid #ff7b00;">${aid.init_val || 'فارغ'}</strong></div>
-                    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-                        ${(aid.options || []).map((opt, i) => `<button class="btn-var-opt" onclick="document.getElementById('varBoxVal_${aid.id}').textContent = '${opt}'; if(typeof playPopupSound === 'function') playPopupSound(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 8px 16px; font-size: 1.3rem; font-weight: bold; border-radius: 12px; background: #ffb703; color: #023047; border: none; cursor: pointer; box-shadow: 0 4px 10px rgba(255,183,3,0.3); transition: transform 0.2s;">اسحب: ${opt}</button>`).join('')}
-                    </div>
-                </div>
-            `;
-        } else if (aid.type === 'traffic_light') {
-            interactiveArea = `
-                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #e2f8fa; border-radius: 16px; border: 3px dashed #219ebc; text-align: center;">
-                    <div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 20px;">
-                        <div id="lightRed_${aid.id}" style="width: 50px; height: 50px; border-radius: 50%; background: #ff006e; opacity: 0.3; box-shadow: 0 0 15px #ff006e; border: 3px solid #023047;"></div>
-                        <div id="lightGreen_${aid.id}" style="width: 50px; height: 50px; border-radius: 50%; background: #06d6a0; opacity: 1; box-shadow: 0 0 15px #06d6a0; border: 3px solid #023047;"></div>
-                    </div>
-                    <div id="carStatus_${aid.id}" style="font-size: 1.8rem; font-weight: bold; color: #06d6a0; margin-bottom: 15px;">🚗 الإشارة خضراء (else: go) - السيارة تنطلق بسلام!</div>
-                    <div style="display: flex; gap: 15px; justify-content: center;">
-                        <button onclick="document.getElementById('lightRed_${aid.id}').style.opacity = '1'; document.getElementById('lightGreen_${aid.id}').style.opacity = '0.3'; document.getElementById('carStatus_${aid.id}').textContent = '🛑 الإشارة حمراء (if red: stop) - السيارة تتوقف!'; document.getElementById('carStatus_${aid.id}').style.color = '#ff006e'; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 10px 20px; font-size: 1.4rem; font-weight: bold; border-radius: 12px; background: #ff006e; color: #fff; border: none; cursor: pointer;">أحمر (قف 🛑)</button>
-                        <button onclick="document.getElementById('lightGreen_${aid.id}').style.opacity = '1'; document.getElementById('lightRed_${aid.id}').style.opacity = '0.3'; document.getElementById('carStatus_${aid.id}').textContent = '🚗 الإشارة خضراء (else: go) - السيارة تنطلق بسلام!'; document.getElementById('carStatus_${aid.id}').style.color = '#06d6a0'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 10px 20px; font-size: 1.4rem; font-weight: bold; border-radius: 12px; background: #06d6a0; color: #023047; border: none; cursor: pointer;">أخضر (انطلق 🚗)</button>
-                    </div>
-                </div>
-            `;
-        } else if (aid.type === 'loop_factory') {
-            interactiveArea = `
-                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #f5f3ff; border-radius: 16px; border: 3px dashed #8338ec; text-align: center;">
-                    <div style="font-size: 1.6rem; margin-bottom: 15px;">📦 الهدايا المغلفة: <strong id="loopCount_${aid.id}" style="color: #8338ec; font-size: 2.2rem;">0 / 5</strong></div>
-                    <div id="loopBar_${aid.id}" style="width: 100%; height: 20px; background: #edf2f7; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
-                        <div id="loopProgress_${aid.id}" style="width: 0%; height: 100%; background: linear-gradient(45deg, #8338ec, #ff006e); transition: width 0.3s;"></div>
-                    </div>
-                    <button onclick="let c = 0; let int = setInterval(() => { c++; document.getElementById('loopCount_${aid.id}').textContent = c + ' / 5'; document.getElementById('loopProgress_${aid.id}').style.width = (c*20) + '%'; if(typeof playPopupSound === 'function') playPopupSound(); if(c === 5) { clearInterval(int); if(typeof triggerConfetti === 'function') triggerConfetti(); if(typeof playHappyChime === 'function') playHappyChime(); } }, 800);" style="padding: 12px 30px; font-size: 1.4rem; font-weight: bold; border-radius: 12px; background: #8338ec; color: #fff; border: none; cursor: pointer; box-shadow: 0 6px 15px rgba(131,56,236,0.4);">🚀 تشغيل حلقة التكرار for i in range(5)</button>
-                </div>
-            `;
-        } else if (aid.type === 'block_train') {
-            interactiveArea = `
-                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #fff9f2; border-radius: 16px; border: 3px dashed #ffb703; text-align: center;">
-                    <div id="trainArea_${aid.id}" style="display: flex; gap: 10px; justify-content: center; margin-bottom: 20px; min-height: 60px; align-items: center; background: #fff; padding: 15px; border-radius: 12px; border: 2px solid #ffb703;">
-                        <span style="color: #888; font-size: 1.3rem;">اسحب وركب البلوكات هنا بالترتيب لتشغيل القطار...</span>
-                    </div>
-                    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-                        <button onclick="document.getElementById('trainArea_${aid.id}').innerHTML = '<div style=\\'background:#ffb703; padding:8px 15px; border-radius:10px; font-weight:bold; color:#023047;\\'>🟡 عند النقر على العلم</div>'; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 8px 15px; background: #ffb703; color: #023047; border: none; border-radius: 10px; font-weight: bold; cursor: pointer;">1. حدث النقر 🟡</button>
-                        <button onclick="document.getElementById('trainArea_${aid.id}').innerHTML += '<div style=\\'background:#219ebc; padding:8px 15px; border-radius:10px; font-weight:bold; color:#fff;\\'>🔵 تحرك 10 خطوات</div>'; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 8px 15px; background: #219ebc; color: #fff; border: none; border-radius: 10px; font-weight: bold; cursor: pointer;">2. الحركة 🔵</button>
-                        <button onclick="document.getElementById('trainArea_${aid.id}').innerHTML += '<div style=\\'background:#8338ec; padding:8px 15px; border-radius:10px; font-weight:bold; color:#fff;\\'>🟣 قل مرحباً</div>'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 8px 15px; background: #8338ec; color: #fff; border: none; border-radius: 10px; font-weight: bold; cursor: pointer;">3. الهيئة 🟣</button>
-                    </div>
-                </div>
-            `;
-        } else if (aid.type === 'xy_hunt') {
-            interactiveArea = `
-                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #f0f8ff; border-radius: 16px; border: 3px dashed #219ebc; text-align: center;">
-                    <div style="position: relative; width: 100%; height: 160px; background: #e2f8fa; border-radius: 12px; border: 2px solid #219ebc; overflow: hidden; margin-bottom: 20px;">
-                        <div style="position: absolute; top: 50%; left: 0; width: 100%; height: 2px; background: #023047; opacity: 0.3;"></div>
-                        <div style="position: absolute; top: 0; left: 50%; width: 2px; height: 100%; background: #023047; opacity: 0.3;"></div>
-                        <div id="catSprite_${aid.id}" style="position: absolute; top: 70px; left: 140px; font-size: 2.5rem; transition: all 0.5s;">🐱</div>
-                        <div id="treasure_${aid.id}" style="position: absolute; top: 20px; left: 240px; font-size: 2.2rem;">💎</div>
-                    </div>
-                    <button onclick="document.getElementById('catSprite_${aid.id}').style.top = '20px'; document.getElementById('catSprite_${aid.id}').style.left = '240px'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 10px 25px; font-size: 1.4rem; font-weight: bold; border-radius: 12px; background: #219ebc; color: #fff; border: none; cursor: pointer;">اذهب إلى الكنز (X: 100, Y: 50) 🚀</button>
-                </div>
-            `;
-        } else if (aid.type === 'ai_trainer') {
-            interactiveArea = `
-                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #fef6fb; border-radius: 16px; border: 3px dashed #ff006e; text-align: center;">
-                    <div style="font-size: 1.5rem; margin-bottom: 15px;">📊 بيانات التدريب: تفاح (<strong id="appleCnt_${aid.id}">0</strong>) | موز (<strong id="bananaCnt_${aid.id}">0</strong>)</div>
-                    <div style="display: flex; gap: 15px; justify-content: center; margin-bottom: 20px;">
-                        <button onclick="let c = parseInt(document.getElementById('appleCnt_${aid.id}').textContent)+1; document.getElementById('appleCnt_${aid.id}').textContent = c; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 10px 20px; font-size: 1.5rem; background: #ff006e; color: #fff; border: none; border-radius: 12px; cursor: pointer;">🍎 إضافة تفاح</button>
-                        <button onclick="let c = parseInt(document.getElementById('bananaCnt_${aid.id}').textContent)+1; document.getElementById('bananaCnt_${aid.id}').textContent = c; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 10px 20px; font-size: 1.5rem; background: #ffb703; color: #023047; border: none; border-radius: 12px; cursor: pointer;">🍌 إضافة موز</button>
-                    </div>
-                    <button onclick="if(parseInt(document.getElementById('appleCnt_${aid.id}').textContent) > 0 && parseInt(document.getElementById('bananaCnt_${aid.id}').textContent) > 0) { alert('🤖 الروبوت: لقد تعلمت بنجاح! هذه الصورة الجديدة هي: تفاحة 🍎 (بنسبة ثقة 98%)'); if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti(); } else { alert('⚠️ الروبوت: من فضلك قم بتزويدي بصور التفاح والموز أولاً لأتعلم!'); }" style="padding: 12px 30px; font-size: 1.4rem; font-weight: bold; background: #8338ec; color: #fff; border: none; border-radius: 12px; cursor: pointer;">🧪 اختبار الروبوت بصورة جديدة 🚀</button>
-                </div>
-            `;
-        } else if (aid.type === 'face_landmarks') {
-            interactiveArea = `
-                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #f5f3ff; border-radius: 16px; border: 3px dashed #8338ec; text-align: center;">
-                    <div style="position: relative; width: 140px; height: 140px; margin: 0 auto 20px; background: #edf2f7; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 5rem; border: 3px solid #8338ec;">
-                        🙂
-                        <div id="glasses_${aid.id}" style="position: absolute; top: 35px; left: 15px; font-size: 4rem; display: none;">🕶️</div>
-                        <div id="hat_${aid.id}" style="position: absolute; top: -35px; left: 25px; font-size: 4.5rem; display: none;">🎩</div>
-                    </div>
-                    <div style="display: flex; gap: 15px; justify-content: center;">
-                        <button onclick="document.getElementById('glasses_${aid.id}').style.display = 'block'; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 10px 20px; font-size: 1.3rem; font-weight: bold; background: #219ebc; color: #fff; border: none; border-radius: 12px; cursor: pointer;">تحديد العينين (🕶️)</button>
-                        <button onclick="document.getElementById('hat_${aid.id}').style.display = 'block'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 10px 20px; font-size: 1.3rem; font-weight: bold; background: #ff006e; color: #fff; border: none; border-radius: 12px; cursor: pointer;">تحديد الرأس (🎩)</button>
-                    </div>
-                </div>
-            `;
-        } else if (aid.type === 'circuit_builder') {
-            interactiveArea = `
-                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #fff9f2; border-radius: 16px; border: 3px dashed #ffb703; text-align: center;">
-                    <div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-bottom: 20px; font-size: 3rem;">
-                        🔋 <span id="wire_${aid.id}" style="color: #ff006e;">--/--</span> <span id="led_${aid.id}" style="filter: grayscale(1);">💡</span>
-                    </div>
-                    <button onclick="document.getElementById('wire_${aid.id}').textContent = '-----'; document.getElementById('led_${aid.id}').style.filter = 'grayscale(0) drop-shadow(0 0 15px #ffb703)'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 12px 30px; font-size: 1.4rem; font-weight: bold; background: #ffb703; color: #023047; border: none; border-radius: 12px; cursor: pointer; box-shadow: 0 6px 15px rgba(255,183,3,0.4);">🔌 إغلاق الدائرة الكهربائية ⚡</button>
-                </div>
-            `;
-        } else if (aid.type === 'ultrasonic_radar') {
-            interactiveArea = `
-                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #e2f8fa; border-radius: 16px; border: 3px dashed #219ebc; text-align: center;">
-                    <div style="position: relative; width: 100%; height: 80px; background: #edf2f7; border-radius: 12px; overflow: hidden; margin-bottom: 20px; display: flex; align-items: center;">
-                        <div id="carRadar_${aid.id}" style="position: absolute; left: 10px; font-size: 3rem; transition: left 1s;">🚗</div>
-                        <div style="position: absolute; right: 10px; font-size: 3rem; border-right: 5px solid #ff006e; padding-right: 10px;">🧱</div>
-                    </div>
-                    <button onclick="document.getElementById('carRadar_${aid.id}').style.left = 'calc(100% - 90px)'; setTimeout(() => { alert('🚨 الرادار: تحذير! تم اكتشاف جدار على مسافة 10 سم. التوقف التلقائي مفعل!'); if(typeof playPopupSound === 'function') playPopupSound(); if(typeof triggerConfetti === 'function') triggerConfetti(); }, 1000);" style="padding: 12px 30px; font-size: 1.4rem; font-weight: bold; background: #219ebc; color: #fff; border: none; border-radius: 12px; cursor: pointer; box-shadow: 0 6px 15px rgba(33,158,188,0.4);">📡 تشغيل رادار السيارة والاقتراب 🚀</button>
-                </div>
-            `;
-        } else if (aid.type === 'pet_snap') {
-            interactiveArea = `
-                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #fff9f2; border-radius: 16px; border: 3px dashed #ff7b00; text-align: center;">
-                    <div style="display: flex; justify-content: center; align-items: center; gap: 30px; margin-bottom: 20px;">
-                        <div style="background: #ff7b00; color: #fff; padding: 15px 25px; border-radius: 16px; font-size: 1.6rem; font-weight: bold;">🍖 بلوك: أطعم الكلب</div>
-                        <div id="dogPet_${aid.id}" style="font-size: 4.5rem; transition: transform 0.3s;">🐶 💤</div>
-                    </div>
-                    <button onclick="document.getElementById('dogPet_${aid.id}').textContent = '🐶 🍖 (يهز ذيله فرحاً!)'; document.getElementById('dogPet_${aid.id}').style.transform = 'scale(1.2)'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 12px 30px; font-size: 1.4rem; font-weight: bold; background: #ffb703; color: #023047; border: none; border-radius: 12px; cursor: pointer; box-shadow: 0 6px 15px rgba(255,183,3,0.4);">تشغيل قصة إطعام الكلب 🚀</button>
-                </div>
-            `;
+// 12 Sessions Curriculum Database mapping database/senior_python/recap.json
+const SESSIONS_DATA = [
+    // LEVEL 1: Foundations
+    {
+        id: "lvl1_s1", level: 1, sessionNum: 1,
+        title: "أساسيات البايثون ودالة print 🧱",
+        badge: "المستوى 1 🐍 الجلسة 1",
+        desc: "تعلم دالة الطباعة وإنشاء المتغيرات لتخزين البيانات السحرية في بايثون!",
+        concepts: [
+            { title: "ما هي لغة بايثون؟ 🤔", desc: "بايثون هي لغة برمجة قوية وسهلة جداً، تشبه لغة البشر! نستخدمها لبناء الألعاب وتطوير الذكاء الاصطناعي.", icon: "🐍" },
+            { title: "دالة الطباعة print() 📢", desc: "تُستخدم دالة print لإظهار الكلمات والأرقام على الشاشة. نضع الكلمات دائماً بين علامات تنصيص ليفهم بايثون أنها نصوص.", code: "print(\"مرحباً بكم في أكاديمية ميجا مايندز! 🚀\")\nprint(5 + 10)", icon: "📢" },
+            { title: "المتغيرات (Variables) 📦", desc: "المتغير هو مثل صندوق سحري نضع فيه اسماً وصورة وقيمة لنسترجعها لاحقاً. ننشئه هكذا: name = \"Ahmed\"", code: "hero_name = \"سوبر بايثون\"\nx = 10\nprint(hero_name)", icon: "📦" }
+        ]
+    },
+    {
+        id: "lvl1_s2", level: 1, sessionNum: 2,
+        title: "أنواع البيانات والعمليات الحسابية 🧪",
+        badge: "المستوى 1 🐍 الجلسة 2",
+        desc: "اكتشف أنواع البيانات المختلفة (نصوص، أرقام، منطقي) وكيف تصنع آلة حاسبة ذكية!",
+        concepts: [
+            { title: "أنواع البيانات الرئيسية 📊", desc: "1. النص (String): مثل \"Alice\" ونضعه دائماً بين علامات تنصيص.\n2. العدد الصحيح (Integer): رقم بدون فاصلة مثل 15.\n3. الرقم العشري (Float): رقم بكسور مثل 3.14.\n4. المنطقي (Boolean): نعم أو لا (True أو False).", icon: "🧪" },
+            { title: "العمليات الحسابية ➕", desc: "يدعم بايثون العمليات الحسابية مثل الجمع (+)، الطرح (-)، الضرب (*)، والقسمة (/).", code: "apples = 5\nbananas = 3\ntotal = apples + bananas\nprint(total)", icon: "➕" }
+        ]
+    },
+    {
+        id: "lvl1_s3", level: 1, sessionNum: 3,
+        title: "اتخاذ القرار وجملة الشرط If 🚦",
+        badge: "المستوى 1 🐍 الجلسة 3",
+        desc: "اجعل الكود الخاص بك ذكياً! نستخدم جمل الشرط ليقرر الروبوت متى يمشي ومتى يقف.",
+        concepts: [
+            { title: "كيف يفكر الكمبيوتر؟ 🤔", desc: "يستخدم بايثون الشرط if (إذا تحقق هذا) و else (وإلا فافعل كذا) لاتخاذ القرارات الهامة.", icon: "🚦" },
+            { title: "مثال إشارة المرور 🚦", desc: "إذا كانت الإشارة حمراء يقف، وإلا ينطلق بسلام!", code: "light = \"red\"\nif light == \"red\":\n    print(\"Stop! 🛑\")\nelse:\n    print(\"Go! 🚗\")", icon: "🚦" }
+        ]
+    },
+    {
+        id: "lvl1_s4", level: 1, sessionNum: 4,
+        title: "حلقات التكرار (Loops) 🔄",
+        badge: "المستوى 1 🐍 الجلسة 4",
+        desc: "وفر وقتك ومجهودك! تعلم كيف تجعل بايثون يكرر المهام المتشابهة في غمضة عين.",
+        concepts: [
+            { title: "ما هي حلقة التكرار؟ 🔄", desc: "تُستخدم الحلقات لتكرار كود معين عدة مرات دون كتابته من جديد. نستخدم حلقة for للتكرار عدد محدد من المرات، وحلقة while للتكرار طالما تحقق الشرط.", icon: "🔄" },
+            { title: "حلقة التكرار for 🔄", desc: "مثال لتكرار طباعة الكلمة 5 مرات:", code: "for i in range(5):\n    print(\"صنع كعكة لذيذة 🎂\")", icon: "🎂" }
+        ]
+    },
+
+    // LEVEL 2: Data Structures & Functions
+    {
+        id: "lvl2_s1", level: 2, sessionNum: 5,
+        title: "استقبال المدخلات وتحويل الأنواع 🔮",
+        badge: "المستوى 2 🐍 الجلسة 1",
+        desc: "تعلم استقبال الكلمات من المستخدم بدالة input() وتحويلها لأرقام برمجية بدالة int()!",
+        concepts: [
+            { title: "دالة المدخلات input() 📥", desc: "تسمح دالة input() للمستخدم بالكتابة داخل البرنامج. يستقبلها بايثون كنص (String) دائماً.", code: "name = input(\"ما هو اسمك البرمجي؟ \")\nprint(\"مرحباً بك يا بطل \" + name)", icon: "📥" },
+            { title: "التحويل البرمجي (Casting) 🧪", desc: "لتحويل النص إلى عدد صحيح حتى نتمكن من القيام بالعمليات الحسابية عليه، نستخدم int().", code: "age_str = input(\"كم عمرك؟ \")\nage = int(age_str)\nnext_year = age + 1", icon: "🧪" }
+        ]
+    },
+    {
+        id: "lvl2_s2", level: 2, sessionNum: 6,
+        title: "المصفوفات والقوائم السحرية (Lists) 🎒",
+        badge: "المستوى 2 🐍 الجلسة 2",
+        desc: "تعلم حفظ مجموعة من العناصر في حقيبة واحدة، والفرق بين القوائم القابلة للتغيير والصفوف الثابتة (Tuples)!",
+        concepts: [
+            { title: "القائمة (List) 🎒", desc: "القائمة هي حقيبة يمكننا إضافة عناصر إليها أو حذفها منها. نستخدم append() للإضافة و pop() للحذف.", code: "backpack = [\"تفاحة\", \"سيف\"]\nbackpack.append(\"درع\")\nprint(backpack)", icon: "🎒" },
+            { title: "الصف الثابت (Tuple) 🔒", desc: "الصف الثابت هو مثل الخزنة المغلقة بأرقام سرية. لا يمكننا تعديل عناصره بعد إنشائه أبداً ويُكتب بين أقواس دائرية ().", code: "fixed_colors = (\"أحمر\", \"أخضر\")\n# fixed_colors[0] = \"أزرق\"  <- سيحدث خطأ! 🛑", icon: "🔒" }
+        ]
+    },
+    {
+        id: "lvl2_s3", level: 2, sessionNum: 7,
+        title: "القواميس وتخزين البيانات (Dictionaries) 📖",
+        badge: "المستوى 2 🐍 الجلسة 3",
+        desc: "تعلم ربط البيانات بمفتاح وقيمة مثل القاموس الحقيقي تماماً واسترجاعها بسرعة فائقة!",
+        concepts: [
+            { title: "ما هو القاموس (Dictionary)؟ 📖", desc: "هو هيكل بيانات يربط المفتاح (Key) بالقيمة (Value). مثل ربط اسم الطالب بدرجته أو اسم البطل بقوته الخارقة.", icon: "📖" },
+            { title: "طريقة كتابة القاموس 💻", desc: "نستخدم الأقواس المتعرجة {} ونضع نقطتين بين المفتاح والقيمة:", code: "hero = {\n    \"name\": \"سوبر بايثون\",\n    \"power\": \"أشعة الليزر\",\n    \"level\": 10\n}\nprint(hero[\"power\"])", icon: "💻" }
+        ]
+    },
+    {
+        id: "lvl2_s4", level: 2, sessionNum: 8,
+        title: "بناء وتصميم الدوال البرمجية (Functions) 🧪",
+        badge: "المستوى 2 🐍 الجلسة 4",
+        desc: "صمم آلاتك ومصانعك الخاصة! تعلم كتابة الدوال باستخدام الكلمة المفتاحية def واستدعائها في أي وقت.",
+        concepts: [
+            { title: "ما هي الدالة (Function)؟ ⚙️", desc: "الدالة هي رمز أو مصنع نقوم بتعريفه مرة واحدة لتأدية مهمة محددة، ثم نستدعيه متى شئنا لتوفير تكرار الكود.", icon: "🧪" },
+            { title: "كتابة الدالة def 💻", desc: "نعرف الدالة باستخدام def ونعطيها اسماً، ثم نضع الكود بداخلها:", code: "def mix_potion(ing1, ing2):\n    result = ing1 + \" مع \" + ing2\n    return \"🔮 جرعة سحرية: \" + result\n\n# استدعاء الدالة\npotion = mix_potion(\"غبار النجوم\", \"جرعة زرقاء\")", icon: "💻" }
+        ]
+    },
+
+    // LEVEL 3: Advanced Challenges & Projects
+    {
+        id: "lvl3_s1", level: 3, sessionNum: 9,
+        title: "حلقات التكرار المتداخلة ورسم الأشكال 🎨",
+        badge: "المستوى 3 🐍 الجلسة 1",
+        desc: "تعلم تشغيل حلقة تكرار داخل حلقة تكرار أخرى لرسم شبكات بكسل مذهلة وتصميم لوحات فنية!",
+        concepts: [
+            { title: "الحلقات المتداخلة (Nested Loops) 🌀", desc: "حلقة التكرار المتداخلة هي حلقة تعمل بالكامل داخل كل دورة من حلقات التكرار الخارجية. نستخدمها للمرور على شبكات ثنائية الأبعاد (صفوف وأعمدة).", icon: "🌀" },
+            { title: "رسم شبكة بكسل 🎨", desc: "لكل صف r، نمر على كل عمود c لنرسم نقطة في الشبكة:", code: "for r in range(5):\n    for c in range(5):\n        print(\"🎨\", end=\"\")\n    print() # سطر جديد", icon: "🎨" }
+        ]
+    },
+    {
+        id: "lvl3_s2", level: 3, sessionNum: 10,
+        title: "رسومات السلحفاة البرمجية (Turtle) 🐢",
+        badge: "المستوى 3 🐍 الجلسة 2",
+        desc: "أطلق العنان للفنان البرمجي بداخلك! تحكم في السلحفاة الذكية لترسم خطوطاً، دوائر، ونجوماً مضيئة.",
+        concepts: [
+            { title: "مكتبة السلحفاة Turtle 🐢", desc: "هي أداة رائعة في بايثون لتعليم البرمجة من خلال الرسم. نتحكم في سلحفاة صغيرة تتحرك على الشاشة وتترك خلفها خطاً ملوناً.", icon: "🐢" },
+            { title: "أوامر السلحفاة الأساسية 💻", desc: "نستورد المكتبة ثم نوجه الأوامر للسلحفاة لتتحرك للأمام أو تدور بزوايا محددة:", code: "import turtle\nt = turtle.Turtle()\nt.forward(100) # تحرك للأمام\nt.left(90)     # در بزاوية 90 درجة\nt.circle(50)   # ارسم دائرة", icon: "💻" }
+        ]
+    },
+    {
+        id: "lvl3_s3", level: 3, sessionNum: 11,
+        title: "البرمجة كائنية التوجه (OOP Classes) 🧬",
+        badge: "المستوى 3 🐍 الجلسة 3",
+        desc: "تعلم كيف تصبح صانعاً حقيقياً! صمم مخططات كائنات البناء (Classes) وتفريخ كائنات حية وأبطال خارقين.",
+        concepts: [
+            { title: "ما هي الفئة (Class) والكائن (Object)؟ 🧬", desc: "الفئة (Class) هي المخطط أو القالب لإنشاء أشياء متشابهة. الكائن (Object) هو العنصر الحقيقي الذي يتم تفريخه وتصنيعه من هذا المخطط.", icon: "🧬" },
+            { title: "بناء فئة بطل خارق 💻", desc: "نعرف الخصائص في دالة البناء __init__ والأفعال كدوال تابعة للفئة:", code: "class Hero:\n    def __init__(self, name, power):\n        self.name = name\n        self.power = power\n\n# تفريخ كائنات حقيقية\nhero1 = Hero(\"فلاش\", \"سرعة البرق\")\nhero2 = Hero(\"هالك\", \"القوة الخارقة\")", icon: "🧬" }
+        ]
+    },
+    {
+        id: "lvl3_s4", level: 3, sessionNum: 12,
+        title: "بناء خوادم وتطبيقات الويب (Flask Server) 🌐",
+        badge: "المستوى 3 🐍 الجلسة 4",
+        desc: "توج مهاراتك البرمجية ببناء موقع إنترنت حقيقي! تعلم استخدام Flask لتوجيه روابط المتصفح وخدمة صفحات الويب.",
+        concepts: [
+            { title: "ما هو خادم الويب (Web Server)؟ 🌐", desc: "هو برنامج يستمع لطلبات المتصفح (مثل طلب موقع معين) ويرد عليه بالصفحة المطلوبة (الاستجابة).", icon: "🌐" },
+            { title: "إطار عمل Flask 🧪", desc: "هو مكتبة خفيفة وسهلة جداً في بايثون لإنشاء مواقع إنترنت وتوجيه الروابط (Routes):", code: "from flask import Flask\napp = Flask(__name__)\n\n@app.route(\"/\")\ndef home():\n    return \"مرحباً بكم في موقعي الأول! 🚀\"\n\nif __name__ == \"__main__\":\n    app.run()", icon: "🧪" }
+        ]
+    }
+];
+
+class InteractiveCurriculumEngine {
+    constructor() {
+        this.currentLevel = 1;
+        this.activeSession = null;
+        this.sessionXp = 0;
+        this.completedSessions = JSON.parse(localStorage.getItem('curr_completed_sessions') || '{}');
+        this.totalHeroXp = parseInt(localStorage.getItem('curr_total_hero_xp') || '0');
+    }
+
+    init() {
+        // Render Level Selector event handlers inside dashboard
+        const lvlBtn1 = document.getElementById('btnLevel1');
+        const lvlBtn2 = document.getElementById('btnLevel2');
+        const lvlBtn3 = document.getElementById('btnLevel3');
+
+        if (lvlBtn1) lvlBtn1.onclick = () => this.selectLevel(1);
+        if (lvlBtn2) lvlBtn2.onclick = () => this.selectLevel(2);
+        if (lvlBtn3) lvlBtn3.onclick = () => this.selectLevel(3);
+
+        // Render close button inside playground modal
+        const exitBtn = document.getElementById('btnExitPlayground');
+        if (exitBtn) exitBtn.onclick = () => this.exitPlayground();
+
+        // Update overall score count
+        this.updateTotalXpDisplay();
+
+        // Render sessions for Level 1 by default
+        this.selectLevel(1);
+    }
+
+    selectLevel(levelNum) {
+        this.currentLevel = levelNum;
+        playPopupSound();
+
+        // Update buttons classes active
+        for (let i = 1; i <= 3; i++) {
+            const btn = document.getElementById(`btnLevel${i}`);
+            if (btn) {
+                if (i === levelNum) btn.classList.add('active');
+                else btn.classList.remove('active');
+            }
         }
 
-        card.innerHTML = `
-            <div>
-                <h5 style="font-size: 1.7rem; color: #023047; margin-bottom: 10px;">${aid.title}</h5>
-                <p style="font-size: 1.3rem; color: #5c677d; line-height: 1.6;">${aid.desc}</p>
-                ${interactiveArea}
+        this.renderSessionCards();
+    }
+
+    renderSessionCards() {
+        const grid = document.getElementById('curriculumSessionsGrid');
+        if (!grid) return;
+
+        grid.innerHTML = '';
+        const sessions = SESSIONS_DATA.filter(s => s.level === this.currentLevel);
+
+        sessions.forEach(s => {
+            const isCompleted = this.completedSessions[s.id] === true;
+            const card = document.createElement('div');
+            card.className = `session-premium-card level-${this.currentLevel} ${isCompleted ? 'completed' : ''}`;
+
+            card.innerHTML = `
+                <div class="session-card-header">
+                    <span class="session-card-badge">${s.badge}</span>
+                    <span class="session-card-xp">${isCompleted ? '✅ مكتمل (+100 XP)' : '⭐ 100 XP'}</span>
+                </div>
+                <h4 class="session-card-title">${s.title}</h4>
+                <p class="session-card-desc">${s.desc}</p>
+                <button class="btn-launch-session" onclick="window.currEngine.launchSession('${s.id}')">
+                    <span>${isCompleted ? '🎮 إعادة التحدي واللعب' : '🚀 انطلق والعب الآن'}</span>
+                </button>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    launchSession(sessionId) {
+        const session = SESSIONS_DATA.find(s => s.id === sessionId);
+        if (!session) return;
+
+        this.activeSession = session;
+        this.sessionXp = this.completedSessions[sessionId] === true ? 100 : 0;
+
+        playPopupSound();
+        triggerConfetti();
+
+        // Open Modal overlay
+        const modal = document.getElementById('curriculumPlaygroundModal');
+        if (modal) {
+            modal.style.display = 'flex';
+            setTimeout(() => modal.classList.add('active'), 50);
+        }
+
+        // Set text items
+        const badge = document.getElementById('playgroundSessionBadge');
+        const title = document.getElementById('playgroundSessionTitle');
+        if (badge) badge.textContent = session.badge.toUpperCase();
+        if (title) title.textContent = session.title;
+
+        // Render explanation cards
+        this.renderExplanations(session.concepts);
+
+        // Update progress inside modal
+        this.updateModalProgress();
+
+        // Load interactive game
+        this.loadSessionGame(session.id);
+    }
+
+    renderExplanations(concepts) {
+        const container = document.getElementById('playgroundInfoContent');
+        if (!container) return;
+
+        container.innerHTML = '';
+        concepts.forEach(c => {
+            const card = document.createElement('div');
+            card.className = 'concept-card-premium';
+            
+            let codeMarkup = '';
+            if (c.code) {
+                codeMarkup = `<pre class="concept-code-box" dir="ltr">${c.code}</pre>`;
+            }
+
+            card.innerHTML = `
+                <div class="concept-card-header">
+                    <span class="concept-card-icon">${c.icon}</span>
+                    <h5 class="concept-card-title">${c.title}</h5>
+                </div>
+                <p class="concept-card-desc">${c.desc.replace(/\n/g, '<br>')}</p>
+                ${codeMarkup}
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    updateModalProgress() {
+        const text = document.getElementById('playgroundXpDisplay');
+        const bar = document.getElementById('playgroundXpBar');
+        if (text) text.textContent = `${this.sessionXp} / 100 XP`;
+        if (bar) bar.style.width = `${this.sessionXp}%`;
+    }
+
+    addXp(points) {
+        if (this.sessionXp >= 100) return;
+
+        this.sessionXp = Math.min(100, this.sessionXp + points);
+        this.updateModalProgress();
+
+        if (this.sessionXp === 100) {
+            playHappyChime();
+            triggerConfetti();
+            setTimeout(() => triggerConfetti(), 400);
+
+            // Mark session as completed
+            if (!this.completedSessions[this.activeSession.id]) {
+                this.completedSessions[this.activeSession.id] = true;
+                localStorage.setItem('curr_completed_sessions', JSON.stringify(this.completedSessions));
+                
+                this.totalHeroXp += 100;
+                localStorage.setItem('curr_total_hero_xp', this.totalHeroXp);
+                this.updateTotalXpDisplay();
+                this.renderSessionCards();
+            }
+        } else {
+            playPopupSound();
+        }
+    }
+
+    updateTotalXpDisplay() {
+        const xpEl = document.getElementById('totalHeroXp');
+        if (xpEl) xpEl.textContent = this.totalHeroXp;
+    }
+
+    exitPlayground() {
+        playPopupSound();
+        const modal = document.getElementById('curriculumPlaygroundModal');
+        if (modal) {
+            modal.classList.remove('active');
+            setTimeout(() => modal.style.display = 'none', 400);
+        }
+        this.activeSession = null;
+    }
+
+    loadSessionGame(sessionId) {
+        const container = document.getElementById('playgroundGameContent');
+        const titleEl = document.getElementById('playgroundGameTitle');
+        if (!container) return;
+
+        container.innerHTML = '';
+
+        switch (sessionId) {
+            case 'lvl1_s1':
+                titleEl.textContent = "🎮 محاكي سطر الأوامر: جرب دالة الطباعة";
+                this.initTerminalGame(container);
+                break;
+            case 'lvl1_s2':
+                titleEl.textContent = "🎮 تصنيف البيانات: فرز الصناديق السحرية";
+                this.initDataSortingGame(container);
+                break;
+            case 'lvl1_s3':
+                titleEl.textContent = "🎮 إشارة المرور الذكية: تحدي If Conditions";
+                this.initTrafficLightGame(container);
+                break;
+            case 'lvl1_s4':
+                titleEl.textContent = "🎮 مصنع الكعك: تشغيل حلقة التكرار For Loop";
+                this.initConveyorCakeGame(container);
+                break;
+            case 'lvl2_s1':
+                titleEl.textContent = "🎮 بلورة المستقبل: تحدي input() و Casting";
+                this.initFortuneTellerGame(container);
+                break;
+            case 'lvl2_s2':
+                titleEl.textContent = "🎮 حقيبة الظهر ورقم الخزنة: القوائم والصفوف الثابتة";
+                this.initBackpackListGame(container);
+                break;
+            case 'lvl2_s3':
+                titleEl.textContent = "🎮 قاعدة بيانات العميل السري: تحدي Dictionaries";
+                this.initSpyDatabaseGame(container);
+                break;
+            case 'lvl2_s4':
+                titleEl.textContent = "🎮 مرجل الساحر: تركيب الجرعة باستدعاء الدوال def";
+                this.initPotionBrewingGame(container);
+                break;
+            case 'lvl3_s1':
+                titleEl.textContent = "🎮 الرسام المتنقل: تشغيل الحلقات المتداخلة";
+                this.initNestedLoopsGame(container);
+                break;
+            case 'lvl3_s2':
+                titleEl.textContent = "🎮 لوحة رسم السلحفاة: مغامرة Turtle Graphics";
+                this.initTurtleGraphicsGame(container);
+                break;
+            case 'lvl3_s3':
+                titleEl.textContent = "🎮 مصنع تفريخ الكائنات: بناء كائن Hero من الـ Class";
+                this.initHeroSpawnerGame(container);
+                break;
+            case 'lvl3_s4':
+                titleEl.textContent = "🎮 موقع الويب الأول: محاكاة خادم الويب المصغر Flask";
+                this.initFlaskServerGame(container);
+                break;
+        }
+    }
+
+    // GAME 1: Terminal simulator (Session 1)
+    initTerminalGame(container) {
+        container.innerHTML = `
+            <div class="term-container">
+                <div class="term-header">
+                    <div class="term-dots">
+                        <span class="term-dot red"></span>
+                        <span class="term-dot yellow"></span>
+                        <span class="term-dot green"></span>
+                    </div>
+                    <span class="term-title">interactive_python_shell.py</span>
+                </div>
+                <div class="term-history" id="termHistory">>>> مرحباً بك يا بطل! اكتب أمراً برمجياً للطباعة لتشغيل المحاكي.\nمثال: print("مرحباً") أو print(10 + 20)</div>
+                <div class="term-input-row">
+                    <span class="term-prompt">>>></span>
+                    <input type="text" id="termInput" class="term-field" placeholder="اكتب الكود البرمجي هنا واضغط Enter..." autofocus>
+                </div>
             </div>
-            <div style="text-align: left; margin-top: 15px;">
-                <span style="font-size: 1.1rem; background: #edf2f7; color: #5c677d; padding: 4px 12px; border-radius: 8px; font-weight: bold;">جاهز للتشغيل في الحصة 🌟</span>
+            <p class="term-help-msg">💡 تحدي البطل: اكتب دالة print كاملة لطباعة اسمك أو إجراء عملية حسابية لتجميع نقاط XP!</p>
+        `;
+
+        const input = document.getElementById('termInput');
+        const history = document.getElementById('termHistory');
+
+        input.onkeydown = (e) => {
+            if (e.key === 'Enter') {
+                const cmd = input.value.trim();
+                if (!cmd) return;
+
+                history.innerHTML += `\n>>> ${cmd}`;
+                input.value = '';
+
+                // Simple parser
+                const printRegex = /^print\((.+)\)$/;
+                const match = cmd.match(printRegex);
+
+                if (match) {
+                    const arg = match[1].trim();
+                    // Check if string
+                    if ((arg.startsWith('"') && arg.endsWith('"')) || (arg.startsWith("'") && arg.endsWith("'"))) {
+                        const strVal = arg.slice(1, -1);
+                        history.innerHTML += `\n<span class="output-val">${strVal}</span>`;
+                        this.addXp(50);
+                    } else {
+                        // Check if math or number
+                        try {
+                            // Safe math evaluation
+                            const cleanExpr = arg.replace(/[^0-9+\-*/().\s]/g, '');
+                            if (cleanExpr) {
+                                const result = Function(`"use strict"; return (${cleanExpr})`)();
+                                history.innerHTML += `\n<span class="output-val">${result}</span>`;
+                                this.addXp(50);
+                            } else {
+                                throw new Error();
+                            }
+                        } catch (err) {
+                            history.innerHTML += `\n<span class="output-err">NameError: name '${arg}' is not defined</span>`;
+                            playErrorSound();
+                        }
+                    }
+                } else if (cmd.includes('=')) {
+                    // Variable assignment
+                    const parts = cmd.split('=');
+                    const varName = parts[0].trim();
+                    const varVal = parts[1].trim();
+                    history.innerHTML += `\n<span class="output-ok">تم حفظ المتغير ${varName} بنجاح! 📦</span>`;
+                    this.addXp(50);
+                } else {
+                    history.innerHTML += `\n<span class="output-err">SyntaxError: تذكر كتابة دالة print مع فتح القوسين وعلامات التنصيص للنصوص!</span>`;
+                    playErrorSound();
+                }
+
+                history.scrollTop = history.scrollHeight;
+            }
+        };
+    }
+
+    // GAME 2: Data Sorting (Session 2)
+    initDataSortingGame(container) {
+        const items = [
+            { val: '"Alice"', type: 'str', label: '"Alice" (نص)' },
+            { val: '15', type: 'int', label: '15 (عدد صحيح)' },
+            { val: '3.14', type: 'float', label: '3.14 (عدد عشري)' },
+            { val: 'True', type: 'bool', label: 'True (منطقي)' }
+        ];
+
+        let score = 0;
+
+        container.innerHTML = `
+            <div class="sort-box-container">
+                <div class="v-game-score-row">
+                    <span class="v-game-score-badge">النقاط: <span id="sortScore">0 / 4</span></span>
+                    <span style="font-weight: bold; color: var(--text-light);">فرز سلة البيانات السحرية 🧪</span>
+                </div>
+                <div class="sort-drag-items" id="sortDragItems">
+                    <!-- Items rendered here -->
+                </div>
+                <div class="sort-baskets-grid">
+                    <div class="sort-basket" id="basket_str" data-type="str">
+                        <div class="sort-basket-title">String (نصوص) 📝</div>
+                        <div class="sort-basket-items"></div>
+                    </div>
+                    <div class="sort-basket" id="basket_int" data-type="int">
+                        <div class="sort-basket-title">Integer (أعداد صحيحة) 🔢</div>
+                        <div class="sort-basket-items"></div>
+                    </div>
+                    <div class="sort-basket" id="basket_float" data-type="float">
+                        <div class="sort-basket-title">Float (أعداد عشرية) 📐</div>
+                        <div class="sort-basket-items"></div>
+                    </div>
+                    <div class="sort-basket" id="basket_bool" data-type="bool">
+                        <div class="sort-basket-title">Boolean (قيم منطقية) ⚖️</div>
+                        <div class="sort-basket-items"></div>
+                    </div>
+                </div>
             </div>
         `;
-        gridEl.appendChild(card);
-    });
 
-    containerEl.appendChild(groupEl);
+        const itemsContainer = document.getElementById('sortDragItems');
+        let selectedItem = null;
+
+        // Populate items
+        items.forEach((item, idx) => {
+            const btn = document.createElement('button');
+            btn.className = 'sort-drag-item';
+            btn.textContent = item.label;
+            btn.onclick = () => {
+                playPopupSound();
+                selectedItem = item;
+                // Highlight item
+                document.querySelectorAll('.sort-drag-item').forEach(b => b.style.borderColor = '#cbd5e1');
+                btn.style.borderColor = 'var(--primary)';
+            };
+            itemsContainer.appendChild(btn);
+        });
+
+        // Baskets logic
+        const baskets = document.querySelectorAll('.sort-basket');
+        baskets.forEach(basket => {
+            basket.onclick = () => {
+                if (!selectedItem) {
+                    alert('⚠️ اختر قيمة أولاً بالضغط عليها، ثم اضغط على السلة المناسبة لفرزها!');
+                    return;
+                }
+
+                const expectedType = basket.getAttribute('data-type');
+                if (selectedItem.type === expectedType) {
+                    // Correct!
+                    score++;
+                    playPopupSound();
+                    
+                    // Add badge to basket list
+                    const basketList = basket.querySelector('.sort-basket-items');
+                    const badge = document.createElement('span');
+                    badge.className = 'sort-basket-item';
+                    badge.textContent = selectedItem.val;
+                    basketList.appendChild(badge);
+
+                    // Remove from list
+                    document.querySelectorAll('.sort-drag-item').forEach(b => {
+                        if (b.textContent === selectedItem.label) b.remove();
+                    });
+
+                    document.getElementById('sortScore').textContent = `${score} / 4`;
+                    this.addXp(25);
+
+                    selectedItem = null;
+                } else {
+                    // Incorrect
+                    playErrorSound();
+                    alert('🛑 خطأ في الفرز! حاول مرة أخرى بتركيز.');
+                }
+            };
+        });
+    }
+
+    // GAME 3: Traffic Lights (Session 3)
+    initTrafficLightGame(container) {
+        container.innerHTML = `
+            <div class="gate-simulation-box">
+                <div class="gate-visual-arena">
+                    <div class="sim-car" id="simCar">🚗</div>
+                    <div class="sim-gate-post"></div>
+                    <div class="sim-gate-bar" id="simGateBar"></div>
+                    
+                    <div class="gate-light-pole">
+                        <div class="gate-light-housing">
+                            <div class="gate-light-bulb red" id="bulbRed"></div>
+                            <div class="gate-light-bulb green" id="bulbGreen"></div>
+                        </div>
+                        <div class="gate-light-post"></div>
+                    </div>
+                    
+                    <div class="gate-horizontal-road">
+                        <div class="road-dashed-line"></div>
+                    </div>
+                </div>
+                
+                <div class="v-game-feedback" id="gateFeedback" style="color: #64748b;">تحدي البطل: اختبر جمل الشروط (If/Else) لتشغيل إشارة المرور وبوابات العبور!</div>
+                
+                <div class="v-actions-grid">
+                    <button class="btn-v-choice invalid" id="btnTestRed">
+                        <span>if light == "red":<br>🛑 stop_car()</span>
+                    </button>
+                    <button class="btn-v-choice valid" id="btnTestGreen">
+                        <span>else:<br>🟢 drive_car()</span>
+                    </button>
+                </div>
+            </div>
+        `;
+
+        const car = document.getElementById('simCar');
+        const gate = document.getElementById('simGateBar');
+        const redLight = document.getElementById('bulbRed');
+        const greenLight = document.getElementById('bulbGreen');
+        const feedback = document.getElementById('gateFeedback');
+
+        let testedRed = false;
+        let testedGreen = false;
+
+        document.getElementById('btnTestRed').onclick = () => {
+            // Activate red light
+            redLight.classList.add('active');
+            greenLight.classList.remove('active');
+            gate.classList.remove('open');
+            car.style.left = '20px'; // reset
+            
+            feedback.innerHTML = '🛑 الإشارة حمراء (if light == "red"): <span style="color:#ef4444;">السيارة تقف بأمان!</span>';
+            playPopupSound();
+            
+            if (!testedRed) {
+                testedRed = true;
+                this.addXp(50);
+            }
+        };
+
+        document.getElementById('btnTestGreen').onclick = () => {
+            // Activate green light
+            greenLight.classList.add('active');
+            redLight.classList.remove('active');
+            gate.classList.add('open');
+            
+            feedback.innerHTML = '🟢 الإشارة خضراء (else): <span style="color:#10b981;">بوابات العبور تفتح والسيارة تنطلق! 🚀</span>';
+            playHappyChime();
+            
+            // Move car across screen
+            setTimeout(() => {
+                car.style.left = 'calc(100% - 90px)';
+            }, 50);
+
+            if (!testedGreen) {
+                testedGreen = true;
+                this.addXp(50);
+            }
+        };
+    }
+
+    // GAME 4: Conveyor loop (Session 4)
+    initConveyorCakeGame(container) {
+        container.innerHTML = `
+            <div class="loop-belt-box">
+                <div class="loop-belt-visual">
+                    <div class="belt-items-container" id="beltCakesContainer">
+                        <!-- Cakes spawn here -->
+                    </div>
+                    <div class="belt-conveyor">
+                        <div class="belt-line-pattern" id="beltPattern"></div>
+                    </div>
+                </div>
+                
+                <div style="text-align: center;">
+                    <button class="btn-launch-session level-1" id="btnRunLoop" style="padding: 15px 35px; font-size: 1.45rem;">
+                        <span>🚀 تشغيل حلقة التكرار for i in range(5):</span>
+                    </button>
+                    <div style="font-size: 1.25rem; font-weight: bold; margin-top: 15px; color: var(--tertiary-dark);" id="loopProgressText">الكعكات المخبوزة: 0 / 5</div>
+                </div>
+            </div>
+        `;
+
+        const btn = document.getElementById('btnRunLoop');
+        const pattern = document.getElementById('beltPattern');
+        const cakesContainer = document.getElementById('beltCakesContainer');
+        const progressText = document.getElementById('loopProgressText');
+
+        btn.onclick = () => {
+            btn.disabled = true;
+            btn.style.opacity = '0.5';
+            pattern.classList.add('moving');
+            cakesContainer.innerHTML = '';
+            
+            let i = 0;
+            const interval = setInterval(() => {
+                i++;
+                progressText.textContent = `الكعكات المخبوزة: ${i} / 5`;
+                
+                // Spawn cake emoji
+                const cake = document.createElement('span');
+                cake.className = 'belt-cake';
+                cake.textContent = '🎂';
+                cakesContainer.appendChild(cake);
+                playPopupSound();
+                
+                // Add cherry on top after a short delay
+                setTimeout(() => {
+                    cake.textContent = '🎂🍒';
+                    playPopupSound();
+                }, 400);
+
+                if (i === 5) {
+                    clearInterval(interval);
+                    pattern.classList.remove('moving');
+                    btn.disabled = false;
+                    btn.style.opacity = '1';
+                    this.addXp(100);
+                }
+            }, 1000);
+        };
+    }
+
+    // GAME 5: Fortune Teller (Session 5)
+    initFortuneTellerGame(container) {
+        container.innerHTML = `
+            <div class="modal-concat-lab">
+                <div class="concat-input-group">
+                    <label>اسم البطل:</label>
+                    <input type="text" id="fortuneName" class="concat-field" placeholder="اكتب اسم البطل هنا...">
+                </div>
+                <div class="concat-input-group">
+                    <label>عمر البطل:</label>
+                    <input type="number" id="fortuneAge" class="concat-field" placeholder="مثال: 12" min="5" max="99">
+                </div>
+                <div class="concat-input-group">
+                    <label>القدرة المفضلة:</label>
+                    <input type="text" id="fortunePower" class="concat-field" placeholder="مثال: الطيران، الاختفاء، قوة البرق">
+                </div>
+                
+                <button class="btn-launch-session level-2" id="btnRevealFortune" style="margin-top: 15px; padding: 15px;">
+                    <span>🔮 اقرأ المستقبل البرمجي للبطل!</span>
+                </button>
+                
+                <div class="concat-code-preview" id="fortuneResult" style="display: none; min-height: 100px;">
+                    <!-- Prophet message -->
+                </div>
+            </div>
+        `;
+
+        const btn = document.getElementById('btnRevealFortune');
+        const nameInput = document.getElementById('fortuneName');
+        const ageInput = document.getElementById('fortuneAge');
+        const powerInput = document.getElementById('fortunePower');
+        const resultBox = document.getElementById('fortuneResult');
+
+        btn.onclick = () => {
+            const name = nameInput.value.trim();
+            const age = parseInt(ageInput.value.trim());
+            const power = powerInput.value.trim();
+
+            if (!name || isNaN(age) || !power) {
+                alert('⚠️ من فضلك املأ جميع خانات المدخلات بنجاح لتشغيل البلورة السحرية!');
+                return;
+            }
+
+            playHappyChime();
+            triggerConfetti();
+
+            const magicYear = 2026 + (100 - age);
+
+            resultBox.style.display = 'block';
+            resultBox.innerHTML = `
+                <div class="concat-preview-line"><span class="func"># كود بايثون المستدعى خلف الكواليس:</span></div>
+                <div class="concat-preview-line"><span class="var">hero_name</span> = input()  # "${name}"</div>
+                <div class="concat-preview-line"><span class="var">age</span> = int(input())  # ${age}</div>
+                <div class="concat-preview-line"><span class="var">magic_year</span> = 2026 + (100 - age)</div>
+                <div class="concat-output-box">
+                    ✨ الرؤية البرمجية للبطل {${name}}: في عام ${magicYear}، ستكون مهندس برمجيات وذكاء اصطناعي عبقري بعمر 100 عام، وتتحكم بالروبوتات وتملك مهارة خارقة هي {${power}}! 🦾🚀
+                </div>
+            `;
+
+            this.addXp(100);
+        };
+    }
+
+    // GAME 6: Backpack lists vs tuple error (Session 6)
+    initBackpackListGame(container) {
+        let backpack = ["🍎 تفاح", "⚔️ سيف", "🛡️ درع"];
+        
+        const renderBackpack = () => {
+            const row = document.getElementById('bpSlots');
+            if (!row) return;
+            row.innerHTML = '';
+            backpack.forEach((item, idx) => {
+                row.innerHTML += `
+                    <div class="bp-slot">
+                        <span class="bp-slot-emoji">${item.split(' ')[0]}</span>
+                        <span class="bp-slot-index">[${idx}]</span>
+                    </div>
+                `;
+            });
+            if (backpack.length === 0) {
+                row.innerHTML = '<span style="color: #cbd5e1; font-weight: bold; font-size: 1.3rem;">الحقيبة فارغة تماماً! 🎒</span>';
+            }
+        };
+
+        container.innerHTML = `
+            <div class="bp-explorer-container">
+                <div class="v-game-score-row">
+                    <span class="v-game-score-badge">حقيبة البطل القابلة للتغيير (List) 🎒</span>
+                </div>
+                
+                <div class="bp-slots-row" id="bpSlots">
+                    <!-- Backpack items -->
+                </div>
+                
+                <div class="v-actions-grid" style="grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                    <button class="btn-game-option" id="btnAppend" style="background:#e6f7fa; border-color:var(--tertiary);">
+                        <span>append("🧬 جرعة")</span>
+                    </button>
+                    <button class="btn-game-option" id="btnPop" style="background:#fff2e6; border-color:var(--primary);">
+                        <span>pop()</span>
+                    </button>
+                    <button class="btn-game-option" id="btnTupleError" style="background:#fef2f2; border-color:#ef4444; color:#b91c1c;">
+                        <span>tuple_safe[0] = "🔥"</span>
+                    </button>
+                </div>
+                
+                <div class="concept-code-box" id="bpFeedback" style="display:none; font-size:1rem; color:#ef4444; background:#0f172a; border-color:#991b1b; direction:ltr;">
+                    <!-- Error or list feedback -->
+                </div>
+            </div>
+        `;
+
+        // Delay list rendering slightly so DOM is ready
+        setTimeout(renderBackpack, 50);
+
+        let appended = false;
+        let popped = false;
+        let errored = false;
+
+        document.getElementById('btnAppend').onclick = () => {
+            backpack.push("🧬 جرعة");
+            renderBackpack();
+            playPopupSound();
+            if (!appended) {
+                appended = true;
+                this.addXp(33);
+            }
+        };
+
+        document.getElementById('btnPop').onclick = () => {
+            backpack.pop();
+            renderBackpack();
+            playPopupSound();
+            if (!popped) {
+                popped = true;
+                this.addXp(33);
+            }
+        };
+
+        document.getElementById('btnTupleError').onclick = () => {
+            playErrorSound();
+            const feedback = document.getElementById('bpFeedback');
+            feedback.style.display = 'block';
+            feedback.innerHTML = `
+                TypeError: 'tuple' object does not support item assignment<br>
+                <span style="color:#e2e8f0; font-family:sans-serif; font-size:1.1rem; font-weight:bold; float:right; direction:rtl;">
+                    ⚠️ تنبيه: الصفوف الثابتة (Tuples) غير قابلة للتعديل أو الإضافة! لا يمكنك اختراق خزنتها أبدًا 🔒
+                </span>
+            `;
+            if (!errored) {
+                errored = true;
+                this.addXp(34);
+            }
+        };
+    }
+
+    // GAME 7: Dictionary Spy Database (Session 7)
+    initSpyDatabaseGame(container) {
+        let dictionary = {
+            "name": "Falcon",
+            "power": "Laser Blast",
+            "code": "007"
+        };
+
+        const renderDict = () => {
+            const codeBox = document.getElementById('dictCode');
+            if (codeBox) {
+                codeBox.textContent = `agent = ${JSON.stringify(dictionary, null, 4)}`;
+            }
+        };
+
+        container.innerHTML = `
+            <div class="bp-explorer-container">
+                <div class="v-game-score-row">
+                    <span class="v-game-score-badge">قاموس العميل السري 📖</span>
+                </div>
+                
+                <pre class="concept-code-box" id="dictCode" style="direction:ltr; background:#0f172a; border-color:#334155; color:#a8ffb2; min-height:110px;"></pre>
+                
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <input type="text" id="dictKey" class="concat-field" placeholder="المفتاح (Key)... e.g. age">
+                    <input type="text" id="dictVal" class="concat-field" placeholder="القيمة (Value)... e.g. 15">
+                </div>
+                
+                <div style="display:grid; grid-template-columns: 1.5fr 1fr; gap: 10px;">
+                    <button class="btn-launch-session level-2" id="btnAddDict" style="padding:10px;">
+                        <span>➕ أضف للقاموس agent[key] = val</span>
+                    </button>
+                    <button class="btn-game-option" id="btnSearchDict" style="background:#e6f7fa; border-color:var(--tertiary);">
+                        <span>🔍 ابحث عن المفتاح</span>
+                    </button>
+                </div>
+                
+                <div id="dictSearchFeedback" style="font-size:1.25rem; font-weight:bold; color:var(--success); text-align:center; min-height:22px;"></div>
+            </div>
+        `;
+
+        setTimeout(renderDict, 50);
+
+        let added = false;
+        let searched = false;
+
+        document.getElementById('btnAddDict').onclick = () => {
+            const key = document.getElementById('dictKey').value.trim();
+            const val = document.getElementById('dictVal').value.trim();
+
+            if (!key || !val) {
+                alert('⚠️ اكتب مفتاح وقيمة صحيحة أولاً!');
+                return;
+            }
+
+            dictionary[key] = val;
+            renderDict();
+            playPopupSound();
+            
+            document.getElementById('dictKey').value = '';
+            document.getElementById('dictVal').value = '';
+
+            if (!added) {
+                added = true;
+                this.addXp(50);
+            }
+        };
+
+        document.getElementById('btnSearchDict').onclick = () => {
+            const searchKey = prompt('ما هو المفتاح الذي تبحث عنه؟ (e.g. name, power)');
+            if (!searchKey) return;
+
+            const val = dictionary[searchKey];
+            const feedback = document.getElementById('dictSearchFeedback');
+
+            if (val) {
+                playHappyChime();
+                feedback.innerHTML = `🔍 تم العثور على المفتاح [${searchKey}]: <span style="color:var(--primary);">${val}</span>!`;
+                if (!searched) {
+                    searched = true;
+                    this.addXp(50);
+                }
+            } else {
+                playErrorSound();
+                feedback.innerHTML = `🛑 خطأ (KeyError): المفتاح [${searchKey}] غير موجود في قاعدة البيانات!`;
+            }
+        };
+    }
+
+    // GAME 8: Cauldron Brewing Functions (Session 8)
+    initPotionBrewingGame(container) {
+        container.innerHTML = `
+            <div class="potion-brewing-box">
+                <div class="cauldron-visual-arena">
+                    <div class="cauldron-bubbles" id="cauldronBubbles">🫧🫧</div>
+                    <div class="cauldron-steam" id="cauldronSteam">💨💨</div>
+                    <div class="cauldron-sprite" id="cauldronSprite">🔮</div>
+                </div>
+                
+                <div class="v-game-feedback" id="cauldronFeedback" style="color: var(--text-light);">
+                    تحدي البطل: اختر عنصرين سحريين لتمريرهما إلى دالة دمج الجرعة mix_potion()!
+                </div>
+                
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+                    <select id="potionIng1" class="filter-select" style="font-size:1.25rem;">
+                        <option value="⭐ غبار النجوم">⭐ غبار النجوم</option>
+                        <option value="🍄 فطر مضيء">🍄 فطر مضيء</option>
+                        <option value="🧬 خلاصة التنين">🧬 خلاصة التنين</option>
+                    </select>
+                    <select id="potionIng2" class="filter-select" style="font-size:1.25rem;">
+                        <option value="🧪 جرعة زرقاء">🧪 جرعة زرقاء</option>
+                        <option value="🔥 لهب البركان">🔥 لهب البركان</option>
+                        <option value="❄️ بلورة الجليد">❄️ بلورة الجليد</option>
+                    </select>
+                </div>
+                
+                <button class="btn-launch-session level-2" id="btnBrewPotion" style="padding:15px;">
+                    <span>🧪 استدعاء الدالة mix_potion()</span>
+                </button>
+            </div>
+        `;
+
+        const bubbles = document.getElementById('cauldronBubbles');
+        const steam = document.getElementById('cauldronSteam');
+        const sprite = document.getElementById('cauldronSprite');
+        const btn = document.getElementById('btnBrewPotion');
+        const feedback = document.getElementById('cauldronFeedback');
+
+        btn.onclick = () => {
+            const ing1 = document.getElementById('potionIng1').value;
+            const ing2 = document.getElementById('potionIng2').value;
+
+            btn.disabled = true;
+            btn.style.opacity = '0.5';
+            bubbles.classList.add('active');
+            steam.classList.add('active');
+            sprite.textContent = '🧪';
+
+            playPopupSound();
+            
+            setTimeout(() => {
+                playHappyChime();
+                triggerConfetti();
+                
+                bubbles.classList.remove('active');
+                steam.classList.remove('active');
+                btn.disabled = false;
+                btn.style.opacity = '1';
+                sprite.textContent = '🔮✨';
+
+                feedback.innerHTML = `✨ تم استدعاء الدالة بنجاح وحصلنا على:<br><strong style="color:var(--purple); font-size:1.6rem;">جرعة ${ing1.split(' ')[1]} مع ${ing2.split(' ')[1]} الخارقة! 🥳</strong>`;
+                this.addXp(100);
+            }, 2500);
+        };
+    }
+
+    // GAME 9: Nested Loops Grid Painter (Session 9)
+    initNestedLoopsGame(container) {
+        container.innerHTML = `
+            <div class="pixel-grid-box">
+                <div class="pixel-art-grid" id="pixelGrid">
+                    <!-- 25 Cells dynamic -->
+                </div>
+                
+                <button class="btn-launch-session level-3" id="btnRunNested" style="padding:15px;">
+                    <span>🎨 تشغيل الحلقات المتداخلة (Nested Loops)</span>
+                </button>
+                <div style="font-size:1.25rem; font-weight:bold; color:var(--text-light);" id="nestedStatus">إحداثيات الرسم: (row, col)</div>
+            </div>
+        `;
+
+        const grid = document.getElementById('pixelGrid');
+        const btn = document.getElementById('btnRunNested');
+        const status = document.getElementById('nestedStatus');
+
+        // Create cells
+        for (let r = 0; r < 5; r++) {
+            for (let c = 0; c < 5; c++) {
+                const cell = document.createElement('div');
+                cell.className = 'pixel-cell';
+                cell.id = `cell_${r}_${c}`;
+                grid.appendChild(cell);
+            }
+        }
+
+        const heartPattern = [
+            '0_1', '0_3',
+            '1_0', '1_1', '1_2', '1_3', '1_4',
+            '2_1', '2_2', '2_3',
+            '3_2',
+            '4_2'
+        ];
+
+        btn.onclick = () => {
+            btn.disabled = true;
+            btn.style.opacity = '0.5';
+            
+            // Reset grid
+            document.querySelectorAll('.pixel-cell').forEach(c => {
+                c.className = 'pixel-cell';
+            });
+
+            let r = 0;
+            let c = 0;
+
+            const interval = setInterval(() => {
+                status.textContent = `جاري الرسم: الصف ${r}، العمود ${c}`;
+                const cellId = `cell_${r}_${c}`;
+                const cell = document.getElementById(cellId);
+                
+                if (cell) {
+                    cell.classList.add('scanning');
+                    playPopupSound();
+                    
+                    setTimeout(() => {
+                        cell.classList.remove('scanning');
+                        if (heartPattern.includes(`${r}_${c}`)) {
+                            cell.classList.add('active');
+                        }
+                    }, 200);
+                }
+
+                c++;
+                if (c === 5) {
+                    c = 0;
+                    r++;
+                }
+
+                if (r === 5) {
+                    clearInterval(interval);
+                    status.textContent = `✨ اكتملت اللوحة! رسمنا قلباً جميلاً ❤️ باستخدام Nested Loops!`;
+                    playHappyChime();
+                    triggerConfetti();
+                    btn.disabled = false;
+                    btn.style.opacity = '1';
+                    this.addXp(100);
+                }
+            }, 300);
+        };
+    }
+
+    // GAME 10: Turtle Graphics (Session 10)
+    initTurtleGraphicsGame(container) {
+        container.innerHTML = `
+            <div class="turtle-canvas-wrapper">
+                <canvas id="turtleCanvas" width="300" height="180" style="background:#fff; border-radius:12px; border:2px solid #cbd5e1;"></canvas>
+                
+                <div class="turtle-control-board">
+                    <button class="btn-turtle-cmd" onclick="window.currEngine.moveTurtle('forward')">🐢 forward(40)</button>
+                    <button class="btn-turtle-cmd" onclick="window.currEngine.moveTurtle('left')">↩️ left(90)</button>
+                    <button class="btn-turtle-cmd" onclick="window.currEngine.moveTurtle('right')">↪️ right(90)</button>
+                    <button class="btn-turtle-cmd" onclick="window.currEngine.moveTurtle('circle')">⭕ draw_circle()</button>
+                    <button class="btn-turtle-cmd" id="btnTurtleStar" onclick="window.currEngine.moveTurtle('star')" style="background:#fffbeb; border-color:#f59e0b;">⭐ star()</button>
+                </div>
+            </div>
+        `;
+
+        setTimeout(() => {
+            const canvas = document.getElementById('turtleCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            
+            // Turtle State
+            this.turtleState = {
+                x: 150,
+                y: 90,
+                angle: 0, // In degrees (0 means facing right)
+                color: '#8338ec',
+                cmdCount: 0
+            };
+
+            // Draw simple turtle starting position
+            this.drawTurtleMascot(ctx);
+        }, 50);
+    }
+
+    drawTurtleMascot(ctx) {
+        ctx.beginPath();
+        ctx.arc(this.turtleState.x, this.turtleState.y, 8, 0, 2 * Math.PI);
+        ctx.fillStyle = '#06d6a0';
+        ctx.fill();
+        ctx.stroke();
+    }
+
+    moveTurtle(action) {
+        const canvas = document.getElementById('turtleCanvas');
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
+
+        ctx.strokeStyle = this.turtleState.color;
+        ctx.lineWidth = 3;
+
+        playPopupSound();
+        this.turtleState.cmdCount++;
+
+        if (action === 'forward') {
+            const rad = (this.turtleState.angle * Math.PI) / 180;
+            const newX = this.turtleState.x + Math.cos(rad) * 40;
+            const newY = this.turtleState.y + Math.sin(rad) * 40;
+
+            ctx.beginPath();
+            ctx.moveTo(this.turtleState.x, this.turtleState.y);
+            ctx.lineTo(newX, newY);
+            ctx.stroke();
+
+            this.turtleState.x = newX;
+            this.turtleState.y = newY;
+        } else if (action === 'left') {
+            this.turtleState.angle -= 90;
+        } else if (action === 'right') {
+            this.turtleState.angle += 90;
+        } else if (action === 'circle') {
+            ctx.beginPath();
+            ctx.arc(this.turtleState.x, this.turtleState.y, 25, 0, 2 * Math.PI);
+            ctx.stroke();
+        } else if (action === 'star') {
+            // Draw a beautiful quick nested star shape
+            playHappyChime();
+            triggerConfetti();
+            ctx.beginPath();
+            for (let i = 0; i < 5; i++) {
+                const rad = ((this.turtleState.angle + i * 144) * Math.PI) / 180;
+                const newX = this.turtleState.x + Math.cos(rad) * 35;
+                const newY = this.turtleState.y + Math.sin(rad) * 35;
+                if (i === 0) ctx.moveTo(newX, newY);
+                else ctx.lineTo(newX, newY);
+            }
+            ctx.closePath();
+            ctx.stroke();
+        }
+
+        // Redraw turtle dot
+        this.drawTurtleMascot(ctx);
+
+        if (this.turtleState.cmdCount >= 4) {
+            this.addXp(100);
+        }
+    }
+
+    // GAME 11: Classes & Object instances (Session 11)
+    initHeroSpawnerGame(container) {
+        container.innerHTML = `
+            <div class="bp-explorer-container">
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
+                    <input type="text" id="heroName" class="concat-field" placeholder="اسم البطل... e.g. Flash">
+                    <input type="text" id="heroPower" class="concat-field" placeholder="القوة الخارقة... e.g. Speed">
+                </div>
+                <div class="concat-input-group">
+                    <label>لون العباءة:</label>
+                    <select id="heroColor" class="filter-select" style="font-size:1.15rem;">
+                        <option value="#ff006e">أحمر وردي 🧣</option>
+                        <option value="#8338ec">بنفسجي خارق 🔮</option>
+                        <option value="#fb8500">برتقالي ناري 🔥</option>
+                    </select>
+                </div>
+                
+                <button class="btn-launch-session level-3" id="btnSpawnHero" style="padding:12px;">
+                    <span>🧬 تفريخ كائن جديد hero = Hero(name, power)</span>
+                </button>
+                
+                <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap; min-height:80px; padding:10px; background:#f8fafc; border-radius:12px; border:2px solid #e2e8f0;" id="heroSpawns">
+                    <span style="color:#cbd5e1; font-weight:bold; font-size:1.2rem; align-self:center;">لا توجد كائنات مفرخة حالياً. ابدأ التفريخ! 🧬</span>
+                </div>
+            </div>
+        `;
+
+        const btn = document.getElementById('btnSpawnHero');
+        const spawns = document.getElementById('heroSpawns');
+
+        let spawnCount = 0;
+
+        btn.onclick = () => {
+            const name = document.getElementById('heroName').value.trim();
+            const power = document.getElementById('heroPower').value.trim();
+            const color = document.getElementById('heroColor').value;
+
+            if (!name || !power) {
+                alert('⚠️ أدخل الاسم والقوة لخصائص دالة البناء __init__ أولاً!');
+                return;
+            }
+
+            if (spawnCount === 0) spawns.innerHTML = '';
+
+            playHappyChime();
+            triggerConfetti();
+
+            const heroCard = document.createElement('div');
+            heroCard.style.cssText = `background:${color}; color:#fff; border-radius:10px; padding:10px 15px; text-align:center; font-weight:bold; box-shadow:0 4px 10px rgba(0,0,0,0.15); animation:spawnScale 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);`;
+            heroCard.innerHTML = `
+                <div>🦸 ${name}</div>
+                <div style="font-size:0.9rem; opacity:0.9; margin-top:4px;">✨ ${power}</div>
+            `;
+            spawns.appendChild(heroCard);
+
+            // Reset inputs
+            document.getElementById('heroName').value = '';
+            document.getElementById('heroPower').value = '';
+
+            spawnCount++;
+            if (spawnCount >= 2) {
+                this.addXp(100);
+            }
+        };
+    }
+
+    // GAME 12: Flask Web routing mock (Session 12)
+    initFlaskServerGame(container) {
+        container.innerHTML = `
+            <div class="flask-simulator-box">
+                <div class="flask-browser-mockup">
+                    <div class="browser-bar">
+                        <div class="browser-dots">
+                            <span class="browser-dot"></span>
+                            <span class="browser-dot"></span>
+                            <span class="browser-dot"></span>
+                        </div>
+                        <input type="text" class="browser-url-bar" id="browserUrl" value="http://localhost:5000/" readonly>
+                    </div>
+                    <div class="browser-viewport" id="browserViewport" style="font-family:sans-serif; font-size:1.3rem; color:var(--text-light);">
+                        🚀 خادم الويب مغلق حالياً. اضغط تشغيل لتفعيل الخادم واستقبال طلبات الويب!
+                    </div>
+                </div>
+                
+                <div class="flask-status-card" id="flaskStatus">
+                    $ python server.py<br>
+                    * Serving Flask app 'server'<br>
+                    * Debug mode: off
+                </div>
+                
+                <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px;">
+                    <button class="btn-game-option" id="btnFlaskHome" disabled style="background:#e6f7fa;">الصفحة الرئيسية Route: /</button>
+                    <button class="btn-game-option" id="btnFlaskGame" disabled style="background:#fff2e6;">قسم الألعاب Route: /game</button>
+                    <button class="btn-launch-session level-3" id="btnStartFlask" style="padding:10px;">⚡ تشغيل الخادم app.run()</button>
+                </div>
+            </div>
+        `;
+
+        const startBtn = document.getElementById('btnStartFlask');
+        const homeBtn = document.getElementById('btnFlaskHome');
+        const gameBtn = document.getElementById('btnFlaskGame');
+        const status = document.getElementById('flaskStatus');
+        const viewport = document.getElementById('browserViewport');
+        const urlBar = document.getElementById('browserUrl');
+
+        let hitHome = false;
+        let hitGame = false;
+
+        startBtn.onclick = () => {
+            playHappyChime();
+            startBtn.disabled = true;
+            startBtn.style.opacity = '0.5';
+            status.classList.add('active');
+            status.innerHTML = `
+                $ python server.py<br>
+                * Serving Flask app 'server'<br>
+                * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)<br>
+                <span style="color:#10b981; font-weight:bold;">🚀 الخادم نشط الآن! جرب مسارات الويب المختلفة.</span>
+            `;
+
+            homeBtn.disabled = false;
+            gameBtn.disabled = false;
+            
+            // Load default home
+            viewport.innerHTML = `<h1 style="color:var(--primary-dark); font-weight:900;">Welcome to Megaminds Academy! 🚀</h1><p style="font-size:1.15rem; color:#5c677d;">خادم Flask يعمل ويخدم طلبات الويب بكفاءة وسرعة.</p>`;
+        };
+
+        homeBtn.onclick = () => {
+            playPopupSound();
+            urlBar.value = "http://localhost:5000/";
+            viewport.innerHTML = `<h1 style="color:var(--primary-dark); font-weight:900;">Welcome to Megaminds Academy! 🚀</h1><p style="font-size:1.15rem; color:#5c677d;">خادم Flask يعمل ويخدم طلبات الويب بكفاءة وسرعة.</p>`;
+            
+            if (!hitHome) {
+                hitHome = true;
+                this.addXp(50);
+            }
+        };
+
+        gameBtn.onclick = () => {
+            playPopupSound();
+            urlBar.value = "http://localhost:5000/game";
+            viewport.innerHTML = `<h1 style="color:var(--tertiary-dark); font-weight:900;">🎮 محطة الألعاب حية ونشطة!</h1><p style="font-size:1.15rem; color:#5c677d;">كود بايثون Flask أرسل صفحة الألعاب للمتصفح بنجاح.</p>`;
+            
+            if (!hitGame) {
+                hitGame = true;
+                this.addXp(50);
+            }
+        };
+    }
 }
 // View Navigation Helper
 function showView(viewEl) {
