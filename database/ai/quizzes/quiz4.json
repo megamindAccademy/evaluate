@@ -1,0 +1,68 @@
+{
+  "quiz_id": "ai_quiz_4",
+  "quiz_title": "✋ AI Challenge 4: Hand Tracking & Gesture Interfaces",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Google framework is highly popular for real-time tracking of body joints, face mesh, and hand movements?",
+      "options": [
+        "MediaPipe",
+        "Matplotlib",
+        "PyWhatKit",
+        "WotNot"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! MediaPipe is a state-of-the-art framework developed by Google for high-speed coordinate tracking of hands, face, and pose."
+    },
+    {
+      "id": 2,
+      "question": "How many coordinate points (Landmarks) does the MediaPipe framework map and track on a single human hand?",
+      "options": [
+        "5 points",
+        "10 points",
+        "21 distinct coordinate points",
+        "50 points"
+      ],
+      "correct": 2,
+      "explanation": "Awesome! MediaPipe tracks 21 distinct coordinate landmarks representing the wrist, joints, and tips of all 5 fingers on each hand."
+    },
+    {
+      "id": 3,
+      "question": "What is the return type of the fingersUp() method in cvzone's HandDetector class?",
+      "options": [
+        "A single number representing the camera height",
+        "A list of 5 integers (0 or 1) indicating which fingers are currently raised",
+        "An image of the tracked hand",
+        "The player's username"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! fingersUp() returns a list like [0, 1, 1, 0, 0] where 1 means the finger is open/extended and 0 means it is closed."
+    },
+    {
+      "id": 4,
+      "question": "Which property IDs are used in OpenCV's cap.set() function to adjust the webcam frame Width and Height respectively?",
+      "options": [
+        "1 and 2",
+        "3 (for Width) and 4 (for Height)",
+        "5 and 6",
+        "10 and 20"
+      ],
+      "correct": 1,
+      "explanation": "Great! In OpenCV, property ID 3 sets the frame width, and property ID 4 sets the frame height of the video capture source."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to read the next frame from an initialized webcam capture object named 'cap', storing the output values in 'success' and 'img'.",
+      "task_hint": "Write: success, img = cap.read()",
+      "explanation": "Excellent! cap.read() captures and decodes the next video frame, returning True in success if successful, along with the image matrix."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to resize an image stored in a variable named 'img' to a Width of 300 and a Height of 200 using OpenCV's resize function, and store the output in 'resized_img'.",
+      "task_hint": "Write: resized_img = cv2.resize(img, (300, 200))",
+      "explanation": "Perfect! Resizing matrices ensures that visual inputs match the strict layer input dimensions required by neural network models."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "quiz_id": "ai_quiz_6",
+  "quiz_title": "🚀 AI Challenge 6: CNN Layers & Generative Models",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does GPT stand for in OpenAI's generative language assistant ChatGPT?",
+      "options": [
+        "Generative Pre-trained Transformer",
+        "General Pixel Tool",
+        "Global Program Tester",
+        "Graphic Python Template"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! GPT stands for Generative Pre-trained Transformer, which is a state-of-the-art neural network architecture trained to generate text."
+    },
+    {
+      "id": 2,
+      "question": "In Convolutional Neural Networks (CNNs), what is the function of the Pooling Layer?",
+      "options": [
+        "To double the spatial width of the image",
+        "To reduce the spatial size (downsize) of images to save computation while retaining important visual features",
+        "To delete the configuration files",
+        "To compile basic python prints"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Pooling (such as Max Pooling) downsamples feature maps to reduce computational overhead and prevent overfitting."
+    },
+    {
+      "id": 3,
+      "question": "Which CNN step converts multi-dimensional feature maps (2D matrices) into a single-dimension (1D) array so they can be processed by dense classification layers?",
+      "options": [
+        "Convolution Layer",
+        "Pooling Layer",
+        "Flattening Layer",
+        "Activation Function"
+      ],
+      "correct": 2,
+      "explanation": "Spot on! Flattening linearizes a multi-dimensional spatial tensor into a single continuous 1D vector suited for classic Dense neural connections."
+    },
+    {
+      "id": 4,
+      "question": "Why do we normalize image pixel values by dividing them by 255.0 before feeding them to a trained machine learning model?",
+      "options": [
+        "To make the picture larger on the monitor",
+        "To scale pixel values (0-255) to a decimal range between 0.0 and 1.0, speeding up and stabilizing neural network learning",
+        "To turn the system webcam on",
+        "Because print statements require it"
+      ],
+      "correct": 1,
+      "explanation": "Correct! Scaling inputs (Normalizing) to [0.0, 1.0] prevents mathematical gradient explosion and helps deep learning models converge much faster during training."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to import the 'numpy' library as 'np', create a 1D NumPy array containing the values [1, 2, 3], and print it.",
+      "task_hint": "Write: import numpy as np then arr = np.array([1, 2, 3]) then print(arr)",
+      "explanation": "Outstanding! NumPy arrays are highly optimized for fast, vectorized mathematical calculations required in machine learning."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: You have a NumPy array of raw pixel values: pixels = np.array([127.0, 255.0]). Write a Python statement to normalize it by dividing all values by 255.0, and print the normalized array.",
+      "task_hint": "Write: normalized = pixels / 255.0 then print(normalized)",
+      "explanation": "Perfect! Vectorized calculations in NumPy execute mathematical division across all elements simultaneously, making image normalization incredibly fast."
+    }
+  ]
+}

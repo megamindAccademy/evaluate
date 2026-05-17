@@ -1,0 +1,68 @@
+{
+  "quiz_id": "ai_quiz_5",
+  "quiz_title": "🎮 AI Challenge 5: Game Decision Logic & APIs",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In our Rock-Paper-Scissors game, where (1=Rock, 2=Paper, 3=Scissors), which logical rule set dictates that the Player wins?",
+      "options": [
+        "Player chooses 1 and AI chooses 2",
+        "Player chooses 2 and AI chooses 3",
+        "Player chooses 2 and AI chooses 1 OR Player chooses 1 and AI chooses 3 OR Player chooses 3 and AI chooses 2",
+        "When both choose the same value"
+      ],
+      "correct": 2,
+      "explanation": "Correct! Paper (2) covers Rock (1); Rock (1) smashes Scissors (3); and Scissors (3) cuts Paper (2). These are the three victory cases for the player."
+    },
+    {
+      "id": 2,
+      "question": "Which OpenCV function is used to draw or write textual overlays (like the countdown '3, 2, 1') directly onto the camera feed?",
+      "options": [
+        "cv2.drawText()",
+        "cv2.putText()",
+        "cv2.write()",
+        "cv2.print()"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! cv2.putText() allows you to overlay custom text strings with custom font styles, scales, colors, and line thicknesses directly on image frames."
+    },
+    {
+      "id": 3,
+      "question": "What is the lightweight format used to export trained classifiers from Google's Teachable Machine so they can be run in Python and mobile apps?",
+      "options": [
+        ".docx",
+        ".pdf",
+        ".tflite (TensorFlow Lite)",
+        ".mp3"
+      ],
+      "correct": 2,
+      "explanation": "Awesome! TensorFlow Lite (.tflite) is highly optimized for local inference on desktop CPUs and mobile hardware."
+    },
+    {
+      "id": 4,
+      "question": "What is the main purpose of creating a 'requirements.txt' file in Python projects?",
+      "options": [
+        "To save camera pixels in a text file",
+        "To record player points",
+        "To specify all package dependencies so they can be installed all at once on any computer",
+        "To run countdown loops automatically"
+      ],
+      "correct": 2,
+      "explanation": "Great! Putting packages in requirements.txt allows any new user to install all the dependencies using pip install -r requirements.txt in one go."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write a simple Python function named 'is_tie' that takes two parameters 'player' and 'ai', and returns True if they chose the same move (are equal), and False otherwise.",
+      "task_hint": "Write: def is_tie(player, ai): return player == ai",
+      "explanation": "Outstanding! Comparing equality between the player's and computer's moves is the first step in assessing a game state."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to import the 'time' module, store the current system time in a variable named 'now', and print the value.",
+      "task_hint": "Write: import time then now = time.time() then print(now)",
+      "explanation": "Perfect! time.time() returns the total seconds since epoch, which is highly useful when constructing non-blocking game countdown timers."
+    }
+  ]
+}

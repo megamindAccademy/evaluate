@@ -1,0 +1,68 @@
+{
+  "quiz_id": "ai_quiz_1",
+  "quiz_title": "🤖 AI Challenge 1: AI Algorithms & Computer Vision",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which field of Artificial Intelligence allows software systems to automatically learn and improve from experience and data without being explicitly programmed?",
+      "options": [
+        "Robotics",
+        "Machine Learning",
+        "Web Development",
+        "Database Administration"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Machine Learning is the branch of AI dedicated to understanding and building methods that 'learn' from data to improve performance."
+    },
+    {
+      "id": 2,
+      "question": "In the K-NN (K-Nearest Neighbor) algorithm, how does the computer calculate the closeness between coordinate data points?",
+      "options": [
+        "Using Euclidean Distance (straight-line distance)",
+        "By calling the print() function",
+        "Through random guessing",
+        "By looping infinite times"
+      ],
+      "correct": 0,
+      "explanation": "Correct! Euclidean Distance is the standard mathematical formula used to find the shortest straight line between points on a graph."
+    },
+    {
+      "id": 3,
+      "question": "Which OpenCV function is used to initialize the camera feed and capture live video from your default webcam?",
+      "options": [
+        "cv2.imread()",
+        "cv2.imshow()",
+        "cv2.VideoCapture(0)",
+        "cv2.waitKey()"
+      ],
+      "correct": 2,
+      "explanation": "Great! cv2.VideoCapture(0) targets your computer's primary webcam (index 0) and starts capturing live frames."
+    },
+    {
+      "id": 4,
+      "question": "Which algorithm in OpenCV relies on light and dark contrast features (Haar-like features) to quickly detect faces in images?",
+      "options": [
+        "K-NN Classifier",
+        "Haar Cascade",
+        "CNN pooling",
+        "Roboflow API"
+      ],
+      "correct": 1,
+      "explanation": "Awesome! Haar Cascade is a powerful, lightweight machine learning object detection algorithm used to detect facial structures."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python script to import the OpenCV library (cv2) and print its version using the double underscore version property.",
+      "task_hint": "Write: import cv2 then print(cv2.__version__)",
+      "explanation": "Perfect! Checking cv2.__version__ is a standard way to verify OpenCV is correctly installed and active in your Python environment."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Define a K-NN neighbor parameter variable named 'K' with a value of 5, and then print: 'Neighbors set to K' (where K is your variable).",
+      "task_hint": "Write: K = 5 then print('Neighbors set to', K)",
+      "explanation": "Outstanding! Defining hyperparameters like K is the starting point for initializing classification algorithms."
+    }
+  ]
+}

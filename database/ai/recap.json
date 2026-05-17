@@ -1,0 +1,247 @@
+{
+  "course_title": "Artificial Intelligence & Machine Learning 🧠",
+  "recap_title": "🤖 Comprehensive AI & ML Recap for Young Pioneers!",
+  "recap_subtitle": "Welcome, future scientists and creative builders! Let's review the amazing AI concepts and projects we built during our incredible journey at Megaminds Academy. The sessions are grouped by chapters below:",
+  "sessions": [
+    {
+      "session_title": "💡 Session 1: Introduction to AI & K-NN Classifier",
+      "points": [
+        {
+          "icon": "🧠",
+          "title": "AI vs. Machine Learning vs. Deep Learning",
+          "desc": "Artificial Intelligence (AI) simulates human intelligence. Machine Learning (ML) lets systems learn from data over time. Deep Learning (DL) uses complex neural networks mimicking human brain cells and requires massive data."
+        },
+        {
+          "icon": "🎯",
+          "title": "K-Nearest Neighbor (K-NN) Algorithm",
+          "desc": "One of the simplest supervised learning methods. It classifies a new, unknown item based on the majority vote of its closest neighbors in a graphic space."
+        },
+        {
+          "icon": "📐",
+          "title": "Euclidean Distance",
+          "desc": "The geometric distance representing the shortest straight line between two coordinate points on a graph, used by K-NN to identify the nearest neighbors."
+        }
+      ]
+    },
+    {
+      "session_title": "📷 Session 2: Computer Vision & Face Detection with OpenCV",
+      "points": [
+        {
+          "icon": "👀",
+          "title": "Human vs. Computer Vision",
+          "desc": "Human vision is biological (eyes & brain). Computer vision is an artificial system using digital cameras and machine learning algorithms to capture and interpret visual data."
+        },
+        {
+          "icon": "🐍",
+          "title": "OpenCV Library for Computer Vision",
+          "desc": "A huge, powerful Python library designed to process images/videos and solve computer vision problems. Install it using the terminal command: pip install opencv-python."
+        },
+        {
+          "icon": "🕵️‍♂️",
+          "title": "Haar Cascade Face Detection",
+          "desc": "A fast feature-based algorithm that calculates differences in light and dark pixel intensities (Haar-like features) to quickly locate and box human faces."
+        }
+      ]
+    },
+    {
+      "session_title": "🤖 Session 3: Automation with PyWhatKit & ChatGPT",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "Automation via PyWhatKit",
+          "desc": "An easy-to-use library in Python to automate daily tasks like sending instant WhatsApp messages or playing videos on YouTube using simple Python commands. Install it via: pip install pywhatkit."
+        },
+        {
+          "icon": "💬",
+          "title": "Generative AI & LLMs (ChatGPT)",
+          "desc": "ChatGPT is an AI chatbot by OpenAI built on Large Language Models (LLM). GPT stands for Generative Pre-trained Transformer, which excels in understanding and generating human-like text."
+        },
+        {
+          "icon": "⚖️",
+          "title": "Rule-Based Bots vs. Generative AI",
+          "desc": "Traditional bots follow fixed, pre-programmed scripts and cannot handle unexpected replies. Generative AI models learn continuously, understanding flexible, natural language conversation."
+        }
+      ]
+    },
+    {
+      "session_title": "🌐 Session 4: No-Code Chatbots with WotNot",
+      "points": [
+        {
+          "icon": "🧱",
+          "title": "WotNot Chatbot Platform",
+          "desc": "A visual, no-code drag-and-drop chatbot builder that allows us to construct interactive chat scripts and deploy them easily to websites, WhatsApp, or Messenger."
+        },
+        {
+          "icon": "📢",
+          "title": "Send Message Block",
+          "desc": "A simple chatbot block designed to display greetings, helpful tips, or product details to the user without expecting or waiting for a reply."
+        },
+        {
+          "icon": "🔀",
+          "title": "Collect Input & Options Blocks",
+          "desc": "Collect Input asks a question and stores the visitor's answer as a variable. Options displays clickable buttons to branch the chat path based on user choice."
+        }
+      ]
+    },
+    {
+      "session_title": "🧠 Session 5: Deep Learning & CNN Architecture",
+      "points": [
+        {
+          "icon": "🕸️",
+          "title": "Convolutional Neural Networks (CNN)",
+          "desc": "A subclass of deep learning neural networks specifically engineered to process visual inputs (images and videos) by mimicking how the brain extracts features."
+        },
+        {
+          "icon": "🔄",
+          "title": "Weight Sharing in CNNs",
+          "desc": "Unlike Fully Connected (FC) networks, CNN layers share weights across adjacent pixels, which drastically reduces computational parameters and preserves local patterns."
+        },
+        {
+          "icon": "📊",
+          "title": "CNN Layers & Matplotlib Visualization",
+          "desc": "A CNN contains Convolutional (feature extraction), Pooling (downsizing), Flattening (1D conversion), and Dense (classification) layers. We plot results with Matplotlib (pip install matplotlib)."
+        }
+      ]
+    },
+    {
+      "session_title": "🐱 Session 6: Cats vs. Dogs Classification with TFLite",
+      "points": [
+        {
+          "icon": "🎯",
+          "title": "Google Teachable Machine",
+          "desc": "An awesome Google web tool to train classification models with your camera or pictures, and export them as a lightweight TensorFlow Lite (.tflite) file and labels.txt."
+        },
+        {
+          "icon": "📓",
+          "title": "Running TFLite inside Jupyter Notebook",
+          "desc": "We load the model using the TFLite Interpreter, use NumPy for mathematical matrix operations, and Pillow (PIL) to open, manipulate, and resize test images."
+        },
+        {
+          "icon": "🖼️",
+          "title": "Image Pre-processing (Normalization)",
+          "desc": "Images are loaded as coordinate matrices. We normalize pixels by dividing by 255.0 to scale them between 0 and 1, and add a Batch Dimension so our TFLite model can read the input."
+        }
+      ]
+    },
+    {
+      "session_title": "📝 Session 7: Hand Drawing Recognition - Data Collection",
+      "points": [
+        {
+          "icon": "📋",
+          "title": "Machine Learning Steps",
+          "desc": "Every project follows 5 phases: 1) Problem definition, 2) Data collection, 3) Data preparation, 4) Model training, and 5) Evaluation to test accuracy."
+        },
+        {
+          "icon": "🗑️",
+          "title": "Garbage In, Garbage Out Rule",
+          "desc": "An essential data science rule: if the training data is low quality, badly labeled, or contains errors, the trained model's predictions will be completely inaccurate."
+        },
+        {
+          "icon": "🎨",
+          "title": "Drawing Datasets (ML for Kids)",
+          "desc": "We hand-drew visual shapes (Hearts, Stars, Flowers) with paint tools (gathering 15 drawings per class) and uploaded them to ML for Kids to teach the computer shape features."
+        }
+      ]
+    },
+    {
+      "session_title": "🔌 Session 8: Drawing Recognition - API & Coding",
+      "points": [
+        {
+          "icon": "🔗",
+          "title": "APIs (Application Programming Interfaces)",
+          "desc": "A software bridge that allows your Python code to request shape predictions from an online trained model and fetch the predicted labels instantly using a secure API Key."
+        },
+        {
+          "icon": "📂",
+          "title": "Requirements File (requirements.txt)",
+          "desc": "A text file listing all library dependencies needed for your project, allowing a developer to install all packages at once with a single command: pip install -r requirements.txt."
+        },
+        {
+          "icon": "🔄",
+          "title": "Batch Predictions & Loops",
+          "desc": "Writing Python for-loops to iterate over multiple unseen testing images, pass them to our API, and output the predicted class name along with the model's confidence level %."
+        }
+      ]
+    },
+    {
+      "session_title": "👁️ Session 9: Object Detection with OpenCV DNN",
+      "points": [
+        {
+          "icon": "📦",
+          "title": "Face Detection vs. Object Detection",
+          "desc": "Face detection only looks for faces. Object detection identifies and labels hundreds of different categories (e.g. cars, dogs, people) and frames their coordinate positions (Bounding Boxes)."
+        },
+        {
+          "icon": "📡",
+          "title": "OpenCV DNN Module",
+          "desc": "A highly optimized Deep Neural Network module within OpenCV that allows developers to import pre-trained deep learning weights and network architectures easily."
+        },
+        {
+          "icon": "⚙️",
+          "title": "Model Input Calibration",
+          "desc": "Configuring model input scales, dimensions (like 320x320 with setInputSize), mean values, and channel swapping (swapRB) so the model processes camera streams correctly."
+        }
+      ]
+    },
+    {
+      "session_title": "🏷️ Session 10: Custom Object Detection with Roboflow",
+      "points": [
+        {
+          "icon": "🛸",
+          "title": "Roboflow Computer Vision Suite",
+          "desc": "A scond-to-none web platform to collect custom images, draw bounding boxes (annotation/labeling), organize datasets, train deep learning models, and test them live."
+        },
+        {
+          "icon": "✏️",
+          "title": "Image Annotation (Labeling)",
+          "desc": "The process of drawing rectangles around target items (e.g., cups, toy robots) in photos and assigning their class names so the model understands exactly what to detect."
+        },
+        {
+          "icon": "⚡",
+          "title": "Deploying Custom Models",
+          "desc": "Once trained on Roboflow, we test model accuracy using our webcam and download pre-made Python deployment scripts to run custom detection algorithms locally."
+        }
+      ]
+    },
+    {
+      "session_title": "✋ Session 11: Hand Tracking Game - MediaPipe & cvzone",
+      "points": [
+        {
+          "icon": "🖖",
+          "title": "MediaPipe & cvzone Hand Tracking",
+          "desc": "MediaPipe tracks high-speed body landmarks, and cvzone wraps this in simple, developer-friendly Python functions. Install them using: pip install cvzone mediapipe."
+        },
+        {
+          "icon": "📍",
+          "title": "21 Hand Landmarks Map",
+          "desc": "The tracking model detects the palm first (Palm Detection) and then maps 21 digital coordinate points representing joints and fingertips on the hand in 3D space."
+        },
+        {
+          "icon": "☝️",
+          "title": "Counting Raised Fingers (fingersUp)",
+          "desc": "A fantastic function in cvzone's HandDetector that checks coordinates and returns a binary list indicating which fingers are currently raised (e.g. [0, 1, 1, 0, 0])."
+        }
+      ]
+    },
+    {
+      "session_title": "🎮 Session 12: Rock-Paper-Scissors Game Logic",
+      "points": [
+        {
+          "icon": "⏳",
+          "title": "Countdown Timer (cv2.putText)",
+          "desc": "Overlaying a visual countdown timer (3, 2, 1) on the game stream using cv2.putText() with custom fonts, colors, and scales to prompt players to make gestures on time."
+        },
+        {
+          "icon": "⚖️",
+          "title": "Game Decision Logic",
+          "desc": "Representing choices numerically (Rock=1, Paper=2, Scissors=3). We compare inputs: Player wins if (P=1, AI=3), (P=2, AI=1), or (P=3, AI=2). Otherwise, the AI wins."
+        },
+        {
+          "icon": "🏆",
+          "title": "Scoreboards and Victory Screen",
+          "desc": "Tracking player/AI scores in lists, updating them dynamically on screen at the end of each round, and drawing cheerful visual overlays to celebrate the winning champion!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "quiz_id": "ai_quiz_3",
+  "quiz_title": "👁️ AI Challenge 3: Object Detection & Custom Datasets",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary difference between Face Detection and Object Detection?",
+      "options": [
+        "Face detection only works on webcams; object detection only on video files",
+        "Face detection exclusively finds faces; object detection identifies and locates multiple object categories (cars, animals, etc.) using Bounding Boxes",
+        "There is no difference between them",
+        "Object detection does not use neural networks"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Face detection is limited to human faces, whereas Object Detection can locate, frame, and identify a wide range of different objects simultaneously."
+    },
+    {
+      "id": 2,
+      "question": "What does DNN stand for in the context of computer vision and OpenCV?",
+      "options": [
+        "Data Neural Network",
+        "Deep Neural Networks",
+        "Digital Number Navigator",
+        "Device Node Network"
+      ],
+      "correct": 1,
+      "explanation": "Correct! DNN stands for Deep Neural Networks, which is the specialized module in OpenCV used to run highly optimized pre-trained deep models."
+    },
+    {
+      "id": 3,
+      "question": "Which OpenCV class is specifically designed to load and calibrate deep learning models for object detection easily?",
+      "options": [
+        "cv2.imread",
+        "cv2.imshow",
+        "cv2.dnn_DetectionModel",
+        "cv2.VideoCapture"
+      ],
+      "correct": 2,
+      "explanation": "Excellent! cv2.dnn_DetectionModel is a high-level API wrapper in OpenCV that manages scales, sizes, and colors of inputs for deep models."
+    },
+    {
+      "id": 4,
+      "question": "What is the Roboflow web platform used for in computer vision workflows?",
+      "options": [
+        "Writing print loops in python",
+        "Managing files, annotating/labeling images with boxes, and training customized computer vision models",
+        "Sending WhatsApp messages programmatically",
+        "Reversing and sorting integer lists"
+      ],
+      "correct": 1,
+      "explanation": "Great! Roboflow is a full scond-to-none workspace where developers upload images, draw boxes to annotate classes, and train custom object detection neural networks."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: You read a line from a file containing leading spaces and a newline character: line = '   chair \\n'. Write a Python statement to strip all these trailing and leading whitespaces/newlines and print the clean string.",
+      "task_hint": "Write: line = '   chair \\n' then clean_line = line.strip() then print(clean_line)",
+      "explanation": "Fantastic! The strip() function is highly useful when cleaning labels loaded from configuration text files."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python script to split the string text = 'dog,cat,car' by its commas into a standard list of items named 'classes', and print the list.",
+      "task_hint": "Write: text = 'dog,cat,car' then classes = text.split(',') then print(classes)",
+      "explanation": "Spot on! The split() function splits a single string into a clean list of individual items using the separator you specify."
+    }
+  ]
+}

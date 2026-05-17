@@ -1,11 +1,18 @@
 {
   "course_id": "ai",
   "course_title": "الذكاء الاصطناعي (AI)",
-  "desc": "عالم الذكاء الاصطناعي وتعليم الآلة! اكتشف كيف تجعل الكمبيوتر يفكر ويتعلم بذكاء خارق.",
+  "desc": "Explore the fascinating world of Artificial Intelligence and Machine Learning! Build smart assistants, neural networks, and computer vision games in Python. 🚀🧠",
   "icon": "🧠",
   "icon_bg_class": "icon-ai",
-  "status": "upcoming",
-  "upcoming_msg": "يا عبقري المستقبل! الذكاء الاصطناعي مشتاق لأفكارك المذهلة. نحن نجهز لك اختباراً ممتعاً يليق بذكائك الخارق! 🚀✨",
+  "status": "active",
+  "upcoming_msg": "",
   "recap_file": "recap.json",
-  "quizzes": []
+  "quizzes": [
+    "quiz1.json",
+    "quiz2.json",
+    "quiz3.json",
+    "quiz4.json",
+    "quiz5.json",
+    "quiz6.json"
+  ]
 }
