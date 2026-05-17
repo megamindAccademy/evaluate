@@ -198,6 +198,18 @@ document.addEventListener('DOMContentLoaded', () => {
         regFormEl.addEventListener('submit', handleRegistrationSubmit);
     }
 
+    // Restore saved student info from localStorage if available
+    const savedStudent = localStorage.getItem('megaminds_student_info');
+    if (savedStudent) {
+        try {
+            const parsed = JSON.parse(savedStudent);
+            if (parsed.name && studentNameInputEl) studentNameInputEl.value = parsed.name;
+            if (parsed.group && groupNameInputEl) groupNameInputEl.value = parsed.group;
+            if (parsed.teacher && teacherNameInputEl) teacherNameInputEl.value = parsed.teacher;
+            studentInfo = parsed;
+        } catch(e) { console.error("Error parsing saved student info", e); }
+    }
+
     const btnStartQuiz = document.getElementById('btnStartQuiz');
     if (btnStartQuiz) {
         btnStartQuiz.addEventListener('click', startRandomQuiz);
@@ -290,6 +302,9 @@ function handleRegistrationSubmit(e) {
     studentInfo.name = studentNameInputEl.value.trim();
     studentInfo.group = groupNameInputEl.value.trim();
     studentInfo.teacher = teacherNameInputEl.value.trim();
+
+    // Save to localStorage for future convenience
+    localStorage.setItem('megaminds_student_info', JSON.stringify(studentInfo));
 
     playHappyChime();
     initRecapScreen();
