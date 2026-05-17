@@ -1,0 +1,18 @@
+{
+  "course_id": "senior_laravel_mobile",
+  "course_title": "برمجة واجهات التطبيقات الخلفية للهاتف الذكي (Laravel API)",
+  "desc": "احترف هندسة وبرمجة التطبيقات الموزعة وبناء خلفيات برمجية ذكية (APIs) للهواتف المحمولة! تعلم لغة PHP وأساسيات قواعد البيانات العلائقية ومحرك Laravel، لتتوج رحلتك ببناء خادم REST API سحابي يزود تطبيقات الهواتف الذكية (مثل مشروع Flutter التفاعلي) بالبيانات والطلبات الحية والمؤمنة بالكامل! 📱🐘🌐",
+  "icon": "📱",
+  "icon_bg_class": "icon-robotics",
+  "status": "active",
+  "upcoming_msg": "",
+  "recap_file": "recap.json",
+  "quizzes": [
+    "quiz1.json",
+    "quiz2.json",
+    "quiz3.json",
+    "quiz4.json",
+    "quiz5.json",
+    "quiz6.json"
+  ]
+}

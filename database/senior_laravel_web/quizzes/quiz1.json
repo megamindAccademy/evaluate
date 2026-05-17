@@ -1,0 +1,150 @@
+{
+  "quiz_title": "النموذج الأول: تثبيت البيئة وهندسة الـ MVC ومسارات المتصفح",
+  "quick_brief": "تحدي الأسبوع الأول لـ Web: اختبر معلوماتك في تهيئة بيئة العمل المحلية وتثبيت Laravel ومسارات التصفح الأساسية وتطبيق MVC!",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "ما هو خادم التطوير المحلي الأفضل لتشغيل قواعد البيانات وقواعد MySQL محلياً؟",
+      "options": [
+        "Node.js",
+        "XAMPP",
+        "Git Bash",
+        "Faker Studio"
+      ],
+      "correct": "XAMPP",
+      "score": 10
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "ما هو مدير حزم الـ PHP الرئيسي المستخدم لتنزيل إطار العمل Laravel والمكتبات البرمجية؟",
+      "options": [
+        "npm",
+        "pip",
+        "Composer",
+        "NuGet"
+      ],
+      "correct": "Composer",
+      "score": 10
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "ما هو الأمر الصحيح عبر سطر الأوامر لتشغيل خادم التطوير المحلي الافتراضي لـ Laravel؟",
+      "options": [
+        "php artisan serve",
+        "npm run dev",
+        "php artisan start",
+        "composer serve"
+      ],
+      "correct": "php artisan serve",
+      "score": 10
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "تحت أي مجلد نجد ملف مسارات الويب الرئيسي (routes/web.php) لتوجيه زوار الموقع؟",
+      "options": [
+        "app/Http",
+        "resources/views",
+        "routes",
+        "database/migrations"
+      ],
+      "correct": "routes",
+      "score": 10
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "في معمارية MVC للمواقع، أي جزء يمثل شاشات واجهة المستخدم المكتوبة بلغة HTML وأكواد التنسيق؟",
+      "options": [
+        "Model",
+        "View",
+        "Controller",
+        "Route"
+      ],
+      "correct": "View",
+      "score": 10
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "ما هي الفائدة الأساسية من استخدام مسارات معمارية MVC في تصميم المواقع الضخمة؟",
+      "options": [
+        "تقليل مساحة الهارد ديسك",
+        "فصل منطق تعديل البيانات (Model) عن واجهات العرض (View) لتسهيل العمل البرمي والتحديث",
+        "تسريع إقلاع نظام التشغيل",
+        "منع المستخدم من النقر بالزر الأيمن للفأرة"
+      ],
+      "correct": "فصل منطق تعديل البيانات (Model) عن واجهات العرض (View) لتسهيل العمل البرمي والتحديث",
+      "score": 10
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "أي دالة برمجية نستخدمها داخل المسار (Route) لتوجيه المتصفح لعرض واجهة ويب باسم 'welcome'؟",
+      "options": [
+        "return view('welcome')",
+        "return response('welcome')",
+        "return html('welcome')",
+        "return render('welcome')"
+      ],
+      "correct": "return view('welcome')",
+      "score": 10
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "عند استخدام كود المسار: Route::get('/hello', function() { return 'Hello'; })، ماذا يظهر للمستخدم عند كتابة الرابط؟",
+      "options": [
+        "صفحة فارغة",
+        "نص مكتوب 'Hello' على الشاشة",
+        "خطأ برمي 404",
+        "تحميل ملف نصي"
+      ],
+      "correct": "نص مكتوب 'Hello' على الشاشة",
+      "score": 10
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "ما هو الرابط والمنفذ (Port) الافتراضي الذي يعرض واجهة موقع Laravel عند تشغيل خادم artisan؟",
+      "options": [
+        "http://localhost:80",
+        "http://127.0.0.1:8000",
+        "http://127.0.0.1:3000",
+        "http://localhost:8080"
+      ],
+      "correct": "http://127.0.0.1:8000",
+      "score": 10
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "في معمارية MVC، ما هي الجهة المسؤولة عن تنسيق الطلبات واستلام المدخلات ومعالجتها قبل توجيهها للواجهة؟",
+      "options": [
+        "Model",
+        "Controller",
+        "Blade Engine",
+        "Database Migrator"
+      ],
+      "correct": "Controller",
+      "score": 10
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "text": "اكتب كود مسار ويب (Route) لربط الرابط الفرعي '/contact' بحيث يقوم بعرض ملف واجهة اسمه 'contact_us'.",
+      "correct_code": "Route::get('/contact', function () {\n    return view('contact_us');\n});",
+      "score": 20
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "text": "اكتب المسار البرمي الذي يستقبل متغيراً باسم الكعكة '{cakeName}' عبر الرابط ويعود بعبارة الترحيب 'مرحباً بك في متجر: ' متبوعة باسم الكعكة.",
+      "correct_code": "Route::get('/cake/{cakeName}', function ($cakeName) {\n    return \"مرحباً بك في متجر: \" . $cakeName;\n});",
+      "score": 20
+    }
+  ]
+}

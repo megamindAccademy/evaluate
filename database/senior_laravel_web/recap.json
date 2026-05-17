@@ -1,0 +1,384 @@
+{
+  "course": "تطوير مواقع الويب المتكاملة بلغة PHP & Laravel",
+  "recap_title": "🎯 المراجعة السريعة والمصورة لكورس: تطوير مواقع الويب المتكاملة بلغة PHP & Laravel",
+  "recap_subtitle": "مرحباً بك يا بطل! هذه مراجعة سريعة ومدعمة بالأمثلة البرمجية والأشكال التوضيحية لكل جلسة تعلمتها في الكورس لمساعدتك على استذكار المفاهيم بكل سهولة ومتعة والاستعداد للاختبار الخارق! 🚀🌟",
+  "sessions": [
+    {
+      "session_num": 1,
+      "session_title": "Session 1: Laravel Installation & Setup",
+      "points": [
+        {
+          "title": "تهيئة البيئة المحلية وتثبيت Laravel",
+          "desc": "تثبيت خادم XAMPP لتوفير خادم محلي مع قاعدة بيانات MySQL، واستخدام مدير الحزم Composer لتنزيل وتثبيت إطار العمل Laravel.",
+          "icon": "⚙️",
+          "blocksArray": [
+            "XAMPP Server",
+            "PHP Engine",
+            "Composer install",
+            "Laravel Installer"
+          ]
+        },
+        {
+          "title": "تشغيل مشروع Laravel الأول",
+          "desc": "إنشاء مشروع Laravel جديد وتشغيل خادم التطوير الداخلي باستدعاء الأوامر البرمجية البسيطة.",
+          "icon": "🚀",
+          "code": "composer create-project laravel/laravel my-web-app\ncd my-web-app\nphp artisan serve",
+          "example": "فتح متصفح الويب والانتقال إلى الرابط http://127.0.0.1:8000 لمشاهدة واجهة ترحيب Laravel."
+        }
+      ]
+    },
+    {
+      "session_num": 2,
+      "session_title": "Session 2: MVC Architecture & Basic Routing",
+      "points": [
+        {
+          "title": "فهم معمارية MVC للمواقع",
+          "desc": "معمارية هندسية تفصل بين منطق تخزين البيانات (Model)، وواجهات المستخدم (View)، ومنسق العمليات (Controller).",
+          "icon": "🏛️",
+          "blocksArray": [
+            "Model (Data)",
+            "View (UI Screen)",
+            "Controller (Logic Manager)"
+          ]
+        },
+        {
+          "title": "كتابة المسارات الأساسية (Routes)",
+          "desc": "توجيه المتصفح لعرض واجهة معينة أو تنفيذ أمر برمي محدد عند طلب رابط URL معين.",
+          "icon": "🌐",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome_page');\n});",
+          "example": "توجيه المستخدم لمشاهدة صفحة الترحيب بمجرد كتابة الرابط /welcome."
+        }
+      ]
+    },
+    {
+      "session_num": 3,
+      "session_title": "Session 3: Advanced Routing & Groups",
+      "points": [
+        {
+          "title": "تمرير المتغيرات عبر الروابط (Route Parameters)",
+          "desc": "استقبال قيم متغيرة ومباشرة من الـ URL (مثل رقم كود الكعكة) ومعالجتها داخل المسار.",
+          "icon": "🔗",
+          "blocksArray": [
+            "{id}",
+            "{name}",
+            "Route::prefix",
+            "Route::name"
+          ]
+        },
+        {
+          "title": "المسارات المسماة ومجموعات المسارات",
+          "desc": "تسمية المسارات لتسهيل استدعائها في الواجهات، وتجميع المسارات المتشابهة تحت بادئة موحدة كلوحة التحكم.",
+          "icon": "📂",
+          "code": "Route::get('/cake/{id}', function ($id) {\n    return \"أنت تستعرض تفاصيل الكعكة رقم: \" . $id;\n})->name('cake.detail');",
+          "example": "تجميع مسارات إدارة المتجر ببادئة موحدة: Route::prefix('admin')."
+        }
+      ]
+    },
+    {
+      "session_num": 4,
+      "session_title": "Session 4: Blade Templating Engine Basics",
+      "points": [
+        {
+          "title": "محرك قوالب العرض Blade",
+          "desc": "محرك ذكي وجذاب في Laravel يتيح كتابة أكواد HTML معقدة مدمجة مع شيفرات PHP بسلاسة فائقة ودون فوضى.",
+          "icon": "🗡️",
+          "blocksArray": [
+            "{{ $variable }}",
+            "@extends",
+            "@yield",
+            "@section"
+          ]
+        },
+        {
+          "title": "تصميم الهيكل الموحد للموقع (Master Layout)",
+          "desc": "تصميم قالب ويب رئيسي موحد (يحتوي على الهيدر والفوتر) وتوريثه لكافة صفحات الموقع الفرعية لمنع تكرار الأكواد.",
+          "icon": "🏗️",
+          "code": "<!-- master.blade.php -->\n<html>\n<body>\n    @yield('main_content')\n</body>\n</html>\n\n<!-- home.blade.php -->\n@extends('layouts.master')\n@section('main_content')\n    <p>هذا هو محتوى الصفحة الرئيسية!</p>\n@endsection",
+          "example": "بناء قالب الهيكل الأساسي للموقع وتوريثه لصفحات المتجر والاتصال بنا."
+        }
+      ]
+    },
+    {
+      "session_num": 5,
+      "session_title": "Session 5: Advanced Blade Directives",
+      "points": [
+        {
+          "title": "حلقات التكرار والشروط في Blade",
+          "desc": "استخدام الأوامر التوجيهية المبسطة مثل foreach و if لعرض المنتجات والكعك ديناميكياً بناءً على البيانات.",
+          "icon": "🔄",
+          "blocksArray": [
+            "@if",
+            "@else",
+            "@foreach",
+            "@forelse",
+            "@endif"
+          ]
+        },
+        {
+          "title": "عرض قوائم المنتجات التفاعلية",
+          "desc": "عرض مصفوفات الأصناف والأسعار في جداول أنيقة وعرض رسالة افتراضية إذا كانت السلة فارغة.",
+          "icon": "🛍️",
+          "code": "@foreach ($cakes as $cake)\n    <h3>{{ $cake['name'] }}</h3>\n    <p>السعر: {{ $cake['price'] }} $</p>\n@endforeach",
+          "example": "عرض قائمة كعكات عيد الميلاد بأسعارها المحدثة في واجهة المتجر."
+        }
+      ]
+    },
+    {
+      "session_num": 6,
+      "session_title": "Session 6: Controllers (Logic Managers)",
+      "points": [
+        {
+          "title": "المتحكمات (Controllers)",
+          "desc": "فئات برمجية مخصصة لفصل منطق اتخاذ القرار البرمي عن ملف المسارات الرئيسي لتنظيم التطبيق.",
+          "icon": "🎮",
+          "blocksArray": [
+            "php artisan make:controller",
+            "Public Functions",
+            "Request $request"
+          ]
+        },
+        {
+          "title": "ربط المسارات بالمتحكمات",
+          "desc": "توجيه طلبات المتصفح تلقائياً إلى دالة محددة داخل المتحكم لمعالجة البيانات وعرض الصفحة المناسبة.",
+          "icon": "🔌",
+          "code": "class CakeController extends Controller {\n    public function showAll() {\n        return view('cakes_list');\n    }\n}\n\n// في ملف routes/web.php\nRoute::get('/cakes', [CakeController::class, 'showAll']);",
+          "example": "استدعاء دالة عرض منتجات الكعك من قاعدة البيانات فور طلب صفحة المتجر الرئيسي."
+        }
+      ]
+    },
+    {
+      "session_num": 7,
+      "session_title": "Session 7: Database Schemas & Migrations",
+      "points": [
+        {
+          "title": "مهاجرو قاعدة البيانات (Migrations)",
+          "desc": "نظام تتبع وإصدارات ذكي لقاعدة البيانات في Laravel يتيح إنشاء وتعديل الجداول برمجياً دون الحاجة لكتابة SQL.",
+          "icon": "🗄️",
+          "blocksArray": [
+            "php artisan make:migration",
+            "Schema::create",
+            "php artisan migrate"
+          ]
+        },
+        {
+          "title": "تصميم جداول المنتجات والكعك",
+          "desc": "بناء حقول نصية ورقمية وطوابع زمنية لجداول الموقع وتنفيذ المزامنة الفورية مع خادم MySQL.",
+          "icon": "📐",
+          "code": "Schema::create('cakes', function (Blueprint $table) {\n    $table->id();\n    $table->string('name');\n    $table->decimal('price', 8, 2);\n    $table->timestamps();\n});",
+          "example": "بناء جدول كعك المخبز وتخصيص حقول الاسم، الوصف، السعر، وحالة التواجد."
+        }
+      ]
+    },
+    {
+      "session_num": 8,
+      "session_title": "Session 8: Database Seeding & Faker",
+      "points": [
+        {
+          "title": "بذور قاعدة البيانات (Database Seeding)",
+          "desc": "أداة ذكية لتغذية الجداول وتعبئتها ببيانات وهمية وافتراضية مفيدة لأغراض فحص واختبار الموقع.",
+          "icon": "🌱",
+          "blocksArray": [
+            "php artisan make:seeder",
+            "DB::table",
+            "Faker\\Factory"
+          ]
+        },
+        {
+          "title": "توليد بيانات وهمية متقدمة",
+          "desc": "استخدام مكتبة Faker الشهيرة لتوليد مئات الأسماء، العناوين، والأسعار العشوائية والواقعية بلمحة بصر.",
+          "icon": "🎭",
+          "code": "public function run() {\n    $faker = \\Faker\\Factory::create();\n    for ($i = 0; $i < 10; $i++) {\n        Cake::create([\n            'name' => $faker->word . ' Cake',\n            'price' => $faker->randomFloat(2, 10, 100)\n        ]);\n    }\n}",
+          "example": "توليد 50 كعكة عشوائية بأسعار متفاوتة لفحص كفاءة تصفح وسرعة الموقع."
+        }
+      ]
+    },
+    {
+      "session_num": 9,
+      "session_title": "Session 9: Introduction to Eloquent ORM",
+      "points": [
+        {
+          "title": "الـ ORM الذكي (Eloquent)",
+          "desc": "محرك التعامل مع الكيانات البرمجية في Laravel. يربط كل جدول في قاعدة البيانات بنموذج برمي (Model) لتسهيل استعلام البيانات.",
+          "icon": "🤖",
+          "blocksArray": [
+            "php artisan make:model",
+            "Cake::all()",
+            "Cake::find($id)"
+          ]
+        },
+        {
+          "title": "الاستعلام والبحث البرمجي السريع",
+          "desc": "قراءة كافة السجلات أو تصفيتها والبحث عن كعكة معينة باستخدام دوال فائقة القوة والاختصار وبدون SQL معقد.",
+          "icon": "🔍",
+          "code": "// جلب كافة المنتجات\n$cakes = Cake::all();\n// البحث عن كعكة بسعر أعلى من 50\n$expensiveCakes = Cake::where('price', '>', 50)->get();",
+          "example": "عرض كعكات الشوكولاتة فقط في واجهة تصفية الأقسام."
+        }
+      ]
+    },
+    {
+      "session_num": 10,
+      "session_title": "Session 10: Forms & CSRF Protection",
+      "points": [
+        {
+          "title": "معالجة نماذج الإدخال (HTML Forms)",
+          "desc": "استقبال البيانات والمدخلات التي يكتبها زوار الموقع (مثل إضافة كعكة جديدة للمتجر) وتوجيهها للمتحكم.",
+          "icon": "📝",
+          "blocksArray": [
+            "<form method='POST'>",
+            "CSRF Protection",
+            "@csrf token"
+          ]
+        },
+        {
+          "title": "حماية الموقع بواسطة @csrf",
+          "desc": "آلية حماية مضمنة وإجبارية في Laravel لحماية الموقع من هجمات التزييف عبر المواقع وتأمين استقبال النماذج.",
+          "icon": "🛡️",
+          "code": "<form action=\"/cakes/store\" method=\"POST\">\n    @csrf\n    <input type=\"text\" name=\"name\">\n    <button type=\"submit\">حفظ</button>\n</form>",
+          "example": "إرفاق رمز الحماية التلقائي @csrf في نموذج التسجيل لشراء الكعكة."
+        }
+      ]
+    },
+    {
+      "session_num": 11,
+      "session_title": "Session 11: Form Validation & Errors",
+      "points": [
+        {
+          "title": "التحقق من صحة المدخلات (Validation)",
+          "desc": "منع حفظ أي بيانات مغلوطة أو فارغة من خلال فحص جودة المدخلات والتأكد من مطابقتها للقوانين البرمجية.",
+          "icon": "🛑",
+          "blocksArray": [
+            "$request->validate()",
+            "required",
+            "numeric",
+            "$errors->any()"
+          ]
+        },
+        {
+          "title": "عرض رسائل التحذير والأخطاء",
+          "desc": "عرض رسائل تنبيهية باللغة العربية واضحة وتفاعلية للمستخدم عند نسيان تعبئة أحد الحقول المطلوبة.",
+          "icon": "⚠️",
+          "code": "$request->validate([\n    'name' => 'required|min:3',\n    'price' => 'required|numeric'\n]);",
+          "example": "تنبيه المستخدم بأن حقل 'السعر' يجب أن يحتوي على أرقام فقط."
+        }
+      ]
+    },
+    {
+      "session_num": 12,
+      "session_title": "Session 12: Database CRUD Operations (Part 1)",
+      "points": [
+        {
+          "title": "العمليات الأساسية (Create & Read)",
+          "desc": "حفظ البيانات الجديدة المعتمدة في جداول MySQL وقراءتها وعرضها بطريقة ديناميكية وسريعة في الواجهات.",
+          "icon": "💾",
+          "blocksArray": [
+            "Cake::create()",
+            "return redirect()",
+            "with() flash"
+          ]
+        },
+        {
+          "title": "إضافة منتجات الكعك لقاعدة البيانات",
+          "desc": "إضافة وتخزين كعكات جديدة بالاسم والسعر وحفظها بالمتجر وإعادة توجيه المشرف لصفحة لوحة التحكم بنجاح.",
+          "icon": "➕",
+          "code": "public function store(Request $request) {\n    Cake::create($request->all());\n    return redirect()->route('cakes.index')->with('success', 'تمت إضافة الكعكة السحرية بنجاح!');\n}",
+          "example": "إرسال نموذج الكعكة الجديدة وحفظها فوراً لتظهر في قائمة منتجات المتجر."
+        }
+      ]
+    },
+    {
+      "session_num": 13,
+      "session_title": "Session 13: Database CRUD Operations (Part 2)",
+      "points": [
+        {
+          "title": "التعديل والحذف (Update & Delete)",
+          "desc": "تحديث أسعار ومعلومات الكعك أو إزالتها وحذفها تماماً من قاعدة البيانات عند انتهاء الكمية المتاحة بالمتجر.",
+          "icon": "🗑️",
+          "blocksArray": [
+            "$cake->update()",
+            "$cake->delete()",
+            "Route::put",
+            "Route::delete"
+          ]
+        },
+        {
+          "title": "حذف صنف من المتجر",
+          "desc": "البحث عن الصنف المختار بالمعرف الفرعي وحذفه بلمحة بصر وعرض إشعار يفيد نجاح العملية للمستخدم.",
+          "icon": "❌",
+          "code": "public function destroy($id) {\n    $cake = Cake::findOrFail($id);\n    $cake->delete();\n    return redirect()->back();\n}",
+          "example": "الضغط على زر سلة المهملات لحذف كعكة تالفة من لوحة تحكم المتجر."
+        }
+      ]
+    },
+    {
+      "session_num": 14,
+      "session_title": "Session 14: User Authentication (Login & Register)",
+      "points": [
+        {
+          "title": "أمن الموقع وتسجيل الدخول",
+          "desc": "بناء نظام تأمين المواقع وتأكيد حماية حسابات المشترين والمشرفين باستخدام تقنيات التشفير المدمجة في Laravel.",
+          "icon": "🔑",
+          "blocksArray": [
+            "Auth::attempt()",
+            "Auth::logout()",
+            "AuthMiddleware"
+          ]
+        },
+        {
+          "title": "التحقق وتأكيد حساب المشتري",
+          "desc": "التحقق التلقائي من البريد وكلمة المرور المشفرة وفتح جلسة تصفح آمنة للمستخدم.",
+          "icon": "🛡️",
+          "code": "if (Auth::attempt(['email' => $email, 'password' => $password])) {\n    return redirect()->intended('dashboard');\n}",
+          "example": "منع تصفح لوحة التحكم الإدارية إلا بعد كتابة كلمة المرور الصحيحة بنجاح."
+        }
+      ]
+    },
+    {
+      "session_num": 15,
+      "session_title": "Session 15: File Uploading & Image Storage",
+      "points": [
+        {
+          "title": "رفع وتخزين الصور والملفات",
+          "desc": "إتاحة الفرصة للمشرف لرفع صور الكعك اللذيذ وتخزين الملفات بأمان على خوادم التطبيق وربط مسار الصورة بقاعدة البيانات.",
+          "icon": "🖼️",
+          "blocksArray": [
+            "$request->file()",
+            "store('cakes')",
+            "Storage::disk",
+            "asset() link"
+          ]
+        },
+        {
+          "title": "حفظ صور المنتجات وعرضها",
+          "desc": "تأكيد استقبال ملف الصورة، حفظه بمجلد التخزين العام، وعرض اللوحة الفنية للكعكة في المتجر.",
+          "icon": "📂",
+          "code": "if ($request->hasFile('photo')) {\n    $path = $request->file('photo')->store('public/cakes');\n    $cake->photo_path = Storage::url($path);\n    $cake->save();\n}",
+          "example": "تنزيل وعرض صورة كعكة عيد الميلاد عالية الجودة المرفوعة حديثاً بالمتجر."
+        }
+      ]
+    },
+    {
+      "session_num": 16,
+      "session_title": "Session 16: Mega Project - Dynamic Cake Shop Website",
+      "points": [
+        {
+          "title": "تتويج المشروع المليء بالتحدي",
+          "desc": "تجميع كل التقنيات التي تعلمناها لبناء متجر الكعك السحري المتكامل، يضم شاشة العملاء وشاشة المشرفين الإدارية الشاملة.",
+          "icon": "🎂",
+          "blocksArray": [
+            "Web User Interface",
+            "Admin Dashboard",
+            "MySQL Database",
+            "Cake Orders"
+          ]
+        },
+        {
+          "title": "استعراض وحجز كعكات الأحلام",
+          "desc": "شاشة تتيح للزوار استعراض الكعك المتاح، وحجز الكعكات، وكتابة ملاحظاتهم مع سلة المشتريات التفاعلية.",
+          "icon": "🛒",
+          "code": "// شفرة تأكيد حجز طلب الكعكة\n$order = Order::create([\n    'user_id' => Auth::id(),\n    'cake_id' => $cake_id,\n    'quantity' => 1\n]);",
+          "example": "تطبيق متجر كعك متكامل ومنشور محلياً يربط كافة الواجهات بقاعدة بيانات واحدة حية ونشطة!"
+        }
+      ]
+    }
+  ]
+}

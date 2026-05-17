@@ -1,0 +1,579 @@
+{
+  "course": "برمجة واجهات التطبيقات الخلفية للهاتف الذكي (Laravel API)",
+  "recap_title": "🎯 المراجعة السريعة والمصورة لكورس: برمجة واجهات التطبيقات الخلفية للهاتف الذكي (Laravel API)",
+  "recap_subtitle": "مرحباً بك يا بطل! هذه مراجعة سريعة ومدعمة بالأمثلة البرمجية والأشكال التوضيحية لكل جلسة تعلمتها في الكورس لمساعدتك على استذكار المفاهيم بكل سهولة ومتعة والاستعداد للاختبار الخارق! 🚀🌟",
+  "sessions": [
+    {
+      "session_num": 1,
+      "session_title": "Session 1: PHP Installation & Basic Syntax",
+      "points": [
+        {
+          "title": "تهيئة خادم التطوير والمفسر لـ PHP",
+          "desc": "تثبيت خادم XAMPP لتشغيل لغة البرمجة PHP، واستخدام محرر VS Code لكتابة السكربتات البرمجية وفهم هيكل وسوم PHP.",
+          "icon": "⚙️",
+          "blocksArray": [
+            "XAMPP Server",
+            "Apache Web",
+            "PHP Interpreter",
+            "VS Code Studio"
+          ]
+        },
+        {
+          "title": "المتغيرات والطباعة في PHP",
+          "desc": "طريقة حجز المساحات في ذاكرة البرنامج لتخزين النصوص والأرقام وطباعتها على الشاشة للمستخدم.",
+          "icon": "📟",
+          "code": "<?php\n$userName = \"بطل ميجامايندز\";\n$userAge = 14;\necho \"أهلاً بك يا \" . $userName;",
+          "example": "عرض عبارة الترحيب بعمر الطالب على شاشة المتصفح."
+        }
+      ]
+    },
+    {
+      "session_num": 2,
+      "session_title": "Session 2: Logical Conditions in PHP",
+      "points": [
+        {
+          "title": "اتخاذ القرارات البرمجية (Logical If)",
+          "desc": "استخدام عبارات المقارنة المنطقية لتنفيذ أكواد محددة فقط عند استيفاء وتوافق الشروط المحددة بالبرنامج.",
+          "icon": "🚦",
+          "blocksArray": [
+            "if statement",
+            "else if",
+            "else block",
+            "Comparison Operators"
+          ]
+        },
+        {
+          "title": "فحص درجات الاختبار",
+          "desc": "التحقق من مجموع درجات الطالب وتوجيهه لرسائل فوز وحوافز رائعة ومخصصة.",
+          "icon": "🎓",
+          "code": "$score = 85;\nif ($score >= 90) {\n    echo \"ممتاز! 🎉\";\n} else if ($score >= 50) {\n    echo \"ناجح وبطل! 🚀\";\n} else {\n    echo \"حاول مرة أخرى! 💪\";\n}",
+          "example": "تغيير حالة رسالة النجاح والتهنئة ديناميكياً."
+        }
+      ]
+    },
+    {
+      "session_num": 3,
+      "session_title": "Session 3: Loops in PHP",
+      "points": [
+        {
+          "title": "تكرار تنفيذ التعليمات البرمجية",
+          "desc": "استخدام حلقات التكرار مثل for و while لتنفيذ المهام المتكررة آلاف المرات بسرعة خاطفة وبأكواد غاية في الاختصار.",
+          "icon": "🔄",
+          "blocksArray": [
+            "for loop",
+            "while loop",
+            "infinite loops prevention",
+            "increment/decrement"
+          ]
+        },
+        {
+          "title": "العد التنازلي لانطلاق الصاروخ",
+          "desc": "محاكاة العد التنازلي قبل إطلاق الصاروخ لبرمجة الألعاب باستخدام حلقة التكرار التناقصية.",
+          "icon": "🚀",
+          "code": "for ($i = 5; $i >= 1; $i--) {\n    echo $i . \".. \";\n}\necho \"انطلاق! 💥\";",
+          "example": "طباعة الأرقام الفردية من 1 إلى 20 بلمحة بصر."
+        }
+      ]
+    },
+    {
+      "session_num": 4,
+      "session_title": "Session 4: Functions & Scope",
+      "points": [
+        {
+          "title": "بناء الدوال البرمجية (PHP Functions)",
+          "desc": "تجميع الأكواد المترابطة داخل دالة محددة ذات اسم فرعي يمكن استدعاؤها في أي وقت لتسهيل العمل وتجنب فوضى الكود.",
+          "icon": "📦",
+          "blocksArray": [
+            "function definition",
+            "Arguments/Parameters",
+            "return value",
+            "Variable Scope"
+          ]
+        },
+        {
+          "title": "دالة حساب فاتورة المشتريات",
+          "desc": "دالة تستقبل السعر الأصلي للسلعة ونسبة الخصم وتعود لنا بالسعر النهائي المعتمد والمخصوم.",
+          "icon": "🧮",
+          "code": "function calculateDiscount($price, $discount) {\n    $finalPrice = $price - ($price * ($discount / 100));\n    return $finalPrice;\n}\necho calculateDiscount(100, 15); // سيطبع 85",
+          "example": "استدعاء الدالة المخصصة لحساب قيمة الخصم لمتجر الكعك السحري."
+        }
+      ]
+    },
+    {
+      "session_num": 5,
+      "session_title": "Session 5: OOP Introduction (Classes & Objects)",
+      "points": [
+        {
+          "title": "البرمجة كائنية التوجه (PHP OOP)",
+          "desc": "أسلوب برمجي حديث وعالمي يعتمد على تنظيم الأكواد حول كائنات تحاكي الواقع وتسهل صيانة وتطوير البرامج.",
+          "icon": "🏗️",
+          "blocksArray": [
+            "Class (Blueprint)",
+            "Object (Instance)",
+            "Properties",
+            "Methods (Constructor)"
+          ]
+        },
+        {
+          "title": "تصميم قالب كائن السيارة",
+          "desc": "تعريف فئة للسيارات بخصائص مثل الماركة واللون، وإنشاء سيارات مختلفة وقيادتها برمجياً.",
+          "icon": "🚗",
+          "code": "class Car {\n    public $color;\n    public function __construct($color) {\n        $this->color = $color;\n    }\n}\n$myCar = new Car(\"أحمر\");",
+          "example": "إنشاء كائن مستخدم جديد لحساب الطالب في قاعدة البيانات."
+        }
+      ]
+    },
+    {
+      "session_num": 6,
+      "session_title": "Session 6: OOP Encapsulation & Properties",
+      "points": [
+        {
+          "title": "كبسلة البيانات وحمايتها (Encapsulation)",
+          "desc": "حماية بيانات الكائن الداخلية من التعديل العشوائي أو الخبيث باستخدام محددات الوصول البرمجية كالتغليف الأمني.",
+          "icon": "🔒",
+          "blocksArray": [
+            "public access",
+            "private access",
+            "protected access",
+            "Getter & Setter methods"
+          ]
+        },
+        {
+          "title": "حماية الرصيد البنكي للعميل",
+          "desc": "منع التعديل المباشر على رصيد العميل البنكي وإجبار مرور العملية عبر دوال تحقق ذكية وصارمة.",
+          "icon": "💰",
+          "code": "class BankAccount {\n    private $balance = 0;\n    public function deposit($amount) {\n        if ($amount > 0) { $this->balance += $amount; }\n    }\n    public function getBalance() { return $this->balance; }\n}",
+          "example": "تطبيق سحب وإيداع الرصيد المالي بشكل أمني ممتاز."
+        }
+      ]
+    },
+    {
+      "session_num": 7,
+      "session_title": "Session 7: OOP Inheritance & Polymorphism",
+      "points": [
+        {
+          "title": "وراثة الكائنات البرمجية (Inheritance)",
+          "desc": "توريث الخصائص والوظائف العامة من فئة رئيسية (Parent) إلى فئات فرعية (Child) لمنع تكرار الأكواد.",
+          "icon": "🧬",
+          "blocksArray": [
+            "extends keyword",
+            "parent::__construct",
+            "Method Overriding",
+            "Polymorphism"
+          ]
+        },
+        {
+          "title": "كائنات الحيوانات البرمجية",
+          "desc": "وراثة فئة الحيوان العامة لإنشاء كائن الكلب والقطة مع تعديل صوت كل كائن ديناميكياً لمحاكاة التعددية الشكلية.",
+          "icon": "🐶",
+          "code": "class Animal { public function makeNoise() { return \"صوت!\"; } }\nclass Cat extends Animal { public function makeNoise() { return \"مواء! 🐱\"; } }",
+          "example": "تصميم كائنات الصلاحيات لمدير المتجر والمشتري العادي."
+        }
+      ]
+    },
+    {
+      "session_num": 8,
+      "session_title": "Session 8: OOP Abstraction & Interfaces",
+      "points": [
+        {
+          "title": "الواجهات البرمجية والتجريد (Interfaces)",
+          "desc": "بناء واجهات برمجية صارمة ومجردة تحدد الأسلوب والوظائف الإجبارية التي يجب على الفئات الأخرى تطبيقها لضمان كفاءة معمارية التطبيق.",
+          "icon": "📐",
+          "blocksArray": [
+            "abstract class",
+            "interface keyword",
+            "implements",
+            "structural standard"
+          ]
+        },
+        {
+          "title": "تطبيق بوابات الدفع الإلكتروني",
+          "desc": "إجبار بوابتي دفع (فيزا وباي بال) على توفير دالة موحدة لإجراء المعاملات لسهولة تغيير بوابة الدفع بالمستقبل.",
+          "icon": "💳",
+          "code": "interface PaymentGate {\n    public function pay($amount);\n}\nclass PayPal implements PaymentGate {\n    public function pay($amount) { /* منطق باي بال */ }\n}",
+          "example": "ربط بوابات دفع فيزا لتطبيقات الموبايل."
+        }
+      ]
+    },
+    {
+      "session_num": 9,
+      "session_title": "Session 9: Introduction to Relational Databases",
+      "points": [
+        {
+          "title": "قواعد البيانات العلائقية (SQL & MySQL)",
+          "desc": "أنظمة تخزين وإدارة البيانات المترابطة بشكل جداول مبرمجة ومحكمة لخدمة ملايين المستخدمين.",
+          "icon": "🗄️",
+          "blocksArray": [
+            "MySQL Database",
+            "Tables & Records",
+            "Primary Key (معرف فريد)",
+            "Foreign Key (مفتاح خارجي)"
+          ]
+        },
+        {
+          "title": "الروابط والمفاتيح البرمجية",
+          "desc": "ربط السجلات بين الجداول المختلفة باستخدام المفاتيح الأجنبية لضمان سلامة وتناسق وتكامل البيانات.",
+          "icon": "🔑",
+          "code": "-- مثال لربط الطلب بالمستخدم\nCREATE TABLE orders (\n    id INT PRIMARY KEY,\n    user_id INT,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);",
+          "example": "تحديد رقم هوية المشتري الفريد لربط فواتيره ومشترياته."
+        }
+      ]
+    },
+    {
+      "session_num": 10,
+      "session_title": "Session 10: Database Normalization & Design",
+      "points": [
+        {
+          "title": "معايير تصميم قواعد البيانات",
+          "desc": "تطبيق قواعد تنظيم قواعد البيانات والـ Normalization لمنع تكرار البيانات وتسهيل الاستعلام والصيانة الدورية.",
+          "icon": "📊",
+          "blocksArray": [
+            "Normalization Rules",
+            "One-to-Many Relation",
+            "Many-to-Many Relation",
+            "Pivot Tables"
+          ]
+        },
+        {
+          "title": "تصميم علاقات الكعك والطلبات",
+          "desc": "ربط الكعكات المتعددة بطلبات الشراء المتعددة لعملائنا من خلال بناء جدول وسيط تفاعلي ومنظم.",
+          "icon": "🧬",
+          "code": "// علاقة متعدد لمتعدد في Laravel\npublic function cakes() {\n    return $this->belongsToMany(Cake::class);\n}",
+          "example": "بناء جدول وسيط (Pivot Table) لتخزين أصناف الطلبات الفردية."
+        }
+      ]
+    },
+    {
+      "session_num": 11,
+      "session_title": "Session 11: Real Practice - Company Database Design",
+      "points": [
+        {
+          "title": "بناء وتخطيط قاعدة بيانات الشركات",
+          "desc": "تطبيق عملي لتصميم قاعدة بيانات حقيقية لشركة ضخمة تشمل جداول الموظفين، الأقسام، والمشروعات مع العلاقات الكاملة.",
+          "icon": "🏢",
+          "blocksArray": [
+            "Employees Table",
+            "Departments",
+            "Projects Assignment",
+            "Salary Matrix"
+          ]
+        },
+        {
+          "title": "ربط الموظف بقسمه الإداري",
+          "desc": "تصميم علاقة موظف واحد بقسم واحد (One-to-Many) للتأكد من سهولة إدارة شؤون الموظفين.",
+          "icon": "🔗",
+          "code": "// حقل القسم في جدول الموظف\n$table->foreignId('department_id')->constrained();",
+          "example": "تحديد القسم المالي للموظف لسهولة استخراج كشوفات المرتبات."
+        }
+      ]
+    },
+    {
+      "session_num": 12,
+      "session_title": "Session 12: Real Practice - Social Media Blog DB",
+      "points": [
+        {
+          "title": "تصميم قاعدة بيانات تطبيق تواصل اجتماعي",
+          "desc": "تخطيط قاعدة بيانات لتطبيق مدونات أو تواصل يشمل جداول المستخدمين، المقالات، التعليقات، والإعجابات بدقة احترافية.",
+          "icon": "💬",
+          "blocksArray": [
+            "Users Profiles",
+            "Posts Content",
+            "Comments",
+            "Likes Activity"
+          ]
+        },
+        {
+          "title": "ربط التعليقات بمقالات الناشرين",
+          "desc": "تصميم وتنفيذ علاقة المقالات والتعليقات لسهولة عرض تعليقات القراء أسفل المقال المختار مباشرة.",
+          "icon": "🔄",
+          "code": "// علاقة المقال مع تعليقاته في Laravel Model\npublic function comments() {\n    return $this->hasMany(Comment::class);\n}",
+          "example": "عرض تعليقات المشجعين التفاعلية أسفل المنشور المنشور فوراً."
+        }
+      ]
+    },
+    {
+      "session_num": 13,
+      "session_title": "Session 13: Laravel API Framework & Setup",
+      "points": [
+        {
+          "title": "تثبيت Laravel المخصص للواجهات الخلفية",
+          "desc": "تنزيل إطار العمل وتثبيته محلياً مع تفعيل المسارات والأدوات المجهزة لبناء واجهات برمجية خفيفة وسريعة التجاوب.",
+          "icon": "🌐",
+          "blocksArray": [
+            "Laravel Installation",
+            "routes/api.php",
+            "JSON Requests",
+            "Artisan Command Line"
+          ]
+        },
+        {
+          "title": "ملف مسارات الـ API المخصص للهواتف",
+          "desc": "استخدام ملف api.php لكتابة روابط التطبيق الخلفية بدلاً من web.php لتوجيهها للهواتف المحمولة مباشرة.",
+          "icon": "🔌",
+          "code": "// في routes/api.php\nRoute::get('/health-check', function () {\n    return response()->json(['status' => 'ok']);\n});",
+          "example": "طلب الرابط http://127.0.0.1:8000/api/health-check من تطبيق الموبايل والتأكد من استلام الرد."
+        }
+      ]
+    },
+    {
+      "session_num": 14,
+      "session_title": "Session 14: Laravel Controllers & API Routing",
+      "points": [
+        {
+          "title": "متحكمات واجهة تطبيقات الهواتف",
+          "desc": "إنشاء متحكمات برمجية مخصصة لمعالجة طلبات الهواتف الذكية والتطبيقات المتنقلة بكفاءة عالية وبدون قوالب Blade.",
+          "icon": "🎮",
+          "blocksArray": [
+            "php artisan make:controller Api",
+            "Resource Route",
+            "JSON parsing"
+          ]
+        },
+        {
+          "title": "تمرير المتغيرات وإرجاع الردود",
+          "desc": "استقبال رقم معرف المنتج من تطبيق الموبايل، البحث عنه، وإرجاع بياناته بصيغة JSON النصية.",
+          "icon": "📱",
+          "code": "public function getCake($id) {\n    $cake = Cake::find($id);\n    return response()->json($cake);\n}",
+          "example": "تلقي تطبيق الموبايل لبيانات كعكة الشوكولاتة كاملة عند طلب معرّفها."
+        }
+      ]
+    },
+    {
+      "session_num": 15,
+      "session_title": "Session 15: Migrations & Seeders for APIs",
+      "points": [
+        {
+          "title": "هيكلة وتعبئة جداول الـ API",
+          "desc": "بناء المهاجرين برمجياً وتغذية الجداول محلياً بالبيانات المجهزة لتكون جاهزة للمطورين وتطبيقات الهواتف للاتصال المباشر.",
+          "icon": "🌱",
+          "blocksArray": [
+            "php artisan migrate:fresh",
+            "Seeders execution",
+            "Mock data supply"
+          ]
+        },
+        {
+          "title": "تشغيل بذور البيانات محلياً",
+          "desc": "تعبئة المتجر بـ 30 صنف كعك مع الصور لتسهيل معاينة شكل وتنسيق تطبيق الموبايل أثناء التصميم.",
+          "icon": "⚡",
+          "code": "php artisan migrate --seed",
+          "example": "امتلاء شاشة تطبيق الموبايل ببطاقات الكعك اللذيذة فور الاتصال بالخادم الخلفي."
+        }
+      ]
+    },
+    {
+      "session_num": 16,
+      "session_title": "Session 16: Eloquent Models for APIs",
+      "points": [
+        {
+          "title": "برمجة النماذج (Models) وتخزين الخصائص",
+          "desc": "تخصيص النماذج وتحديد خصائص تعبئة البيانات والحقول المسموح بمشاركتها مع المطورين وتطبيقات الموبايل.",
+          "icon": "🤖",
+          "blocksArray": [
+            "Model $fillable",
+            "Hidden Attributes (Passwords)",
+            "Query Scope filters"
+          ]
+        },
+        {
+          "title": "حماية البيانات الحساسة للمستخدمين",
+          "desc": "إخفاء كلمات المرور والبيانات الأمنية الحساسة برمجياً ومنع ظهورها في ردود الـ JSON للهواتف.",
+          "icon": "🛡️",
+          "code": "protected $hidden = [\n    'password',\n    'remember_token',\n];",
+          "example": "إرسال بيانات حساب المشتري لتطبيق الموبايل مع إخفاء كامل لكلمة المرور تماماً لأمان تام."
+        }
+      ]
+    },
+    {
+      "session_num": 17,
+      "session_title": "Session 17: API Form Validation & JSON Errors",
+      "points": [
+        {
+          "title": "التحقق وتأكيد البيانات للهواتف",
+          "desc": "استقبال طلبات التسجيل من الهواتف والتحقق من صحتها، مع إرجاع رسائل أخطاء منسقة بصيغة JSON بدلاً من تحويل المتصفح.",
+          "icon": "🛑",
+          "blocksArray": [
+            "Validator::make()",
+            "FailedValidation override",
+            "API Exception Handling"
+          ]
+        },
+        {
+          "title": "ردود الأخطاء المنظمة بالـ JSON",
+          "desc": "إرجاع مصفوفة تحتوي على تفاصيل الخطأ بدقة لتطبيق الهواتف ليقوم التطبيق بعرضها بشكل مخصص وسلس للمشتري.",
+          "icon": "⚠️",
+          "code": "if ($validator->fails()) {\n    return response()->json($validator->errors(), 422);\n}",
+          "example": "تنبيه مطور الموبايل بضرورة كتابة البريد بصيغة صحيحة لتفعيل زر الحفظ."
+        }
+      ]
+    },
+    {
+      "session_num": 18,
+      "session_title": "Session 18: Eloquent CRUD API Database Actions",
+      "points": [
+        {
+          "title": "إجراء عمليات البيانات للـ API (CRUD)",
+          "desc": "برمجة المتحكمات لتلقي الطلبات وإتمام عمليات الحفظ والبحث والتحديث والحذف لقاعدة البيانات من الهواتف مباشرة.",
+          "icon": "💾",
+          "blocksArray": [
+            "store(Request)",
+            "update(Request)",
+            "destroy($id)",
+            "JSON Status Codes"
+          ]
+        },
+        {
+          "title": "تحديث سعر المنتج عبر واجهة الهاتف",
+          "desc": "تلقي طلب التعديل بقيم الأسعار الجديدة وحفظ التغييرات وإشعار تطبيق الموبايل بنجاح العملية.",
+          "icon": "🔄",
+          "code": "public function update(Request $request, $id) {\n    $cake = Cake::findOrFail($id);\n    $cake->update($request->all());\n    return response()->json($cake, 200);\n}",
+          "example": "حفظ البيانات الجديدة للمتجر وتحديثها بلمح البصر."
+        }
+      ]
+    },
+    {
+      "session_num": 19,
+      "session_title": "Session 19: REST API Design Standards (Part 1)",
+      "points": [
+        {
+          "title": "معايير تصميم واجهات REST API",
+          "desc": "استخدام بروتوكولات وأساليب طلب الويب المعيارية (GET, POST, PUT, DELETE) لتحديد نوع العملية بوضوح.",
+          "icon": "🌐",
+          "blocksArray": [
+            "HTTP GET (قراءة)",
+            "HTTP POST (حفظ جديد)",
+            "HTTP PUT (تعديل كامل)",
+            "HTTP DELETE (إزالة)"
+          ]
+        },
+        {
+          "title": "تنسيق روابط الـ API المعيارية",
+          "desc": "تنظيم روابط خادم الويب لتكون موحدة ومفهومة لكافة المطورين وسهلة الاستخدام.",
+          "icon": "📐",
+          "code": "GET    /api/cakes          // استعراض\nPOST   /api/cakes          // إضافة جديد\nDELETE /api/cakes/{id}     // حذف صنف",
+          "example": "ربط طلب تطبيق الهاتف لإنشاء حساب جديد بمسار POST المعياري."
+        }
+      ]
+    },
+    {
+      "session_num": 20,
+      "session_title": "Session 20: REST API Design Standards (Part 2)",
+      "points": [
+        {
+          "title": "أكواد الحالة المعيارية لردود الويب",
+          "desc": "استخدام أكواد الحالة الرقمية لـ HTTP لإعلام تطبيق الهاتف بحالة طلبه (نجاح، خطأ، غير مصرح له) تلقائياً.",
+          "icon": "📟",
+          "blocksArray": [
+            "Code 200 (성공 / OK)",
+            "Code 201 (Created / تم الإنشاء)",
+            "Code 404 (Not Found)",
+            "Code 401 (Unauthorized)"
+          ]
+        },
+        {
+          "title": "إرجاع كود نجاح إضافة الكعكة",
+          "desc": "إرجاع الرد بصيغة JSON مع كود الحالة المعياري 201 لتأكيد الحفظ ونجاح العملية.",
+          "icon": "✅",
+          "code": "return response()->json([\n    'message' => 'تم الحفظ بنجاح!',\n    'data' => $newCake\n], 201);",
+          "example": "قيام تطبيق الموبايل بتحديث الواجهة فور استلام كود النجاح 201."
+        }
+      ]
+    },
+    {
+      "session_num": 21,
+      "session_title": "Session 21: Mobile API Security & Sanitization",
+      "points": [
+        {
+          "title": "تأمين وحماية خادم واجهة التطبيقات",
+          "desc": "تنظيف وفلترة مدخلات مستخدمي الهواتف والتصدي للطلبات المريبة لحماية السيرفر وقاعدة البيانات من أي أضرار.",
+          "icon": "🛡️",
+          "blocksArray": [
+            "Data Sanitization",
+            "SQL Injection protection",
+            "API Tokens basics",
+            "cors setup"
+          ]
+        },
+        {
+          "title": "تصفية وتنظيف حقول البحث",
+          "desc": "استخدام محرك التحقق لتصفية الكلمات المريبة وتنظيف كلمات البحث قبل إرسالها لقاعدة البيانات.",
+          "icon": "🧹",
+          "code": "$cleanSearch = strip_tags($request->input('search_query'));\n$results = Cake::where('name', 'like', '%'.$cleanSearch.'%')->get();",
+          "example": "حماية محرك البحث بمتجر الموبايل ضد محاولات الاختراق السهلة."
+        }
+      ]
+    },
+    {
+      "session_num": 22,
+      "session_title": "Session 22: Live Project API - Cake Store Backend",
+      "points": [
+        {
+          "title": "بناء خلفية متجر الكعك السحرية",
+          "desc": "بناء وتجميع خادم الويب الشامل لمتجر الكعك لتزويد تطبيقات الهواتف الذكية بقوائم المبيعات وحسابات المشتري وعمليات الحجز المباشر.",
+          "icon": "🎂",
+          "blocksArray": [
+            "Laravel Server",
+            "API endpoints",
+            "Database connection",
+            "Flutter preparation"
+          ]
+        },
+        {
+          "title": "رابط حجز الكعكة لتطبيق الهاتف",
+          "desc": "بناء رابط POST مخصص لاستقبال طلبات حجز الكعك من الهواتف وحفظها بجدول الحجوزات وإرجاع رقم الطلب فوري.",
+          "icon": "🛒",
+          "code": "Route::post('/order-cake', [OrderController::class, 'placeOrder']);",
+          "example": "تأكيد الطلب وإشعار المشتري برقم الحجز فوري على شاشة هاتفه."
+        }
+      ]
+    },
+    {
+      "session_num": 23,
+      "session_title": "Session 23: Flutter App Integration - Connecting APIs",
+      "points": [
+        {
+          "title": "تهيئة مشروع الهاتف للاتصال بالخادم",
+          "desc": "خطوة الدمج والاتصال! تهيئة تطبيق الموبايل المبني بلغة Flutter للاتصال بالخادم المحلي للـ Laravel API وجلب البيانات.",
+          "icon": "📲",
+          "blocksArray": [
+            "Flutter Project",
+            "Http client package",
+            "Network permissions",
+            "Emulator Localhost"
+          ]
+        },
+        {
+          "title": "استدعاء رابط استعراض الكعك بـ Flutter",
+          "desc": "برمجة كود جلب البيانات من الهاتف والتأكد من إمكانية الوصول للخادم المحلي وحفظ النتائج.",
+          "icon": "🔌",
+          "code": "import 'package:http/http.dart' as http;\nfinal response = await http.get(Uri.parse('http://10.0.2.2:8000/api/cakes'));",
+          "example": "نجاح تواصل تطبيق الهاتف المحاكي (Emulator) مع خادم Laravel المحلي."
+        }
+      ]
+    },
+    {
+      "session_num": 24,
+      "session_title": "Session 24: Flutter Live Data Rendering & Update",
+      "points": [
+        {
+          "title": "عرض البيانات الحية وتتويج المشروع الهجين",
+          "desc": "تتويج المشروع المزدوج! تحويل بيانات الـ JSON النصية المستلمة إلى كروت برمجية تفاعلية بصرية مدهشة بشاشات الهاتف.",
+          "icon": "🏆",
+          "blocksArray": [
+            "Flutter UI Cards",
+            "JSON to Dart object",
+            "Dynamic State update",
+            "Full Mobile/API System"
+          ]
+        },
+        {
+          "title": "عرض الكعكة المحجوزة على الهاتف",
+          "desc": "قراءة قائمة الكعك من الـ API ورسم كروت ممتازة للصور، الأسماء، والأسعار مع إمكانية الشراء التفاعلي الفوري.",
+          "icon": "🖼️",
+          "code": "// كود عرض الكروت داخل تطبيق Flutter\nListView.builder(\n  itemCount: cakesList.length,\n  itemBuilder: (context, index) => CakeCard(cakesList[index]),\n);",
+          "example": "تطبيق متجر كعك متكامل يعمل على الهاتف الذكي ويسحب كافة بياناته وصوره حية من خادم Laravel الخلفي! 📱🌟"
+        }
+      ]
+    }
+  ]
+}

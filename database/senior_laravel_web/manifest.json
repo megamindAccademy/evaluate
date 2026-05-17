@@ -1,0 +1,18 @@
+{
+  "course_id": "senior_laravel_web",
+  "course_title": "تطوير مواقع الويب المتكاملة بلغة PHP & Laravel",
+  "desc": "احترف تطوير مواقع الويب الديناميكية والشاملة من الصفر! تعلم هندسة MVC، وتصميم قواعد البيانات وبناء الجداول باستخدام Migrations، وبرمجة محرك قوالب العرض Blade، وتنفيذ كامل العمليات الحسابية وقاعدة البيانات CRUD، وتأمين حماية الجلسات وتسجيل المستخدمين لبناء موقع متجر كعك متكامل تفاعلي! 🐘💻",
+  "icon": "🐘",
+  "icon_bg_class": "icon-python",
+  "status": "active",
+  "upcoming_msg": "",
+  "recap_file": "recap.json",
+  "quizzes": [
+    "quiz1.json",
+    "quiz2.json",
+    "quiz3.json",
+    "quiz4.json",
+    "quiz5.json",
+    "quiz6.json"
+  ]
+}
