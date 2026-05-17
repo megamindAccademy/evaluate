@@ -1,0 +1,290 @@
+{
+  "course": "برمجة المطور المحترف: حل المشكلات بالبايثون (Problem-Solving)",
+  "recap_title": "🎯 المراجعة السريعة والمصورة لكورس: حل المشكلات بالبايثون (Problem-Solving)",
+  "recap_subtitle": "مرحباً بك يا بطل! هذه مراجعة سريعة ومدعمة بالأمثلة البرمجية والأشكال التوضيحية لكل جلسة تعلمتها في الكورس لمساعدتك على استذكار المفاهيم بكل سهولة ومتعة والاستعداد للاختبار الخارق! 🚀🌟",
+  "sessions": [
+    {
+      "session_num": 1,
+      "session_title": "Session 1: Turtle Geometry & Maze Navigation",
+      "points": [
+        {
+          "title": "مكتبة الرسم بالبايثون (Turtle)",
+          "desc": "مكتبة رسومية ممتازة في بايثون لتمثيل الإحداثيات وحركة الكائنات البرمجية ورسم الأشكال الهندسية.",
+          "icon": "🐢",
+          "blocksArray": [
+            "import turtle",
+            "t = turtle.Turtle()",
+            "t.forward()",
+            "t.left()"
+          ]
+        },
+        {
+          "title": "رسم المتاهات والتحرك الحر",
+          "desc": "برمجة السلحفاة للتحرك للأمام والخلف والدوران بزوايا قائمة لرسم متاهات هندسية دقيقة وعالية الجمال.",
+          "icon": "🎮",
+          "code": "import turtle\nt = turtle.Turtle()\nt.forward(100)\nt.left(90)\nt.forward(50)",
+          "example": "رسم متاهة ثنائية الأبعاد بحركة السلحفاة خطوة بخطوة."
+        }
+      ]
+    },
+    {
+      "session_num": 2,
+      "session_title": "Session 2: Variables & Interactive Inputs",
+      "points": [
+        {
+          "title": "حجز المتغيرات والمدخلات التفاعلية",
+          "desc": "استخدام دالة input لاستقبال نصوص وأرقام من المستخدم وتخزينها في متغيرات برمجية مجهزة.",
+          "icon": "📟",
+          "blocksArray": [
+            "input()",
+            "int()",
+            "float()",
+            "Variables assignment"
+          ]
+        },
+        {
+          "title": "حساب المسافات وضرب القيم",
+          "desc": "تمرير المدخلات الرقمية التي يكتبها المستخدم لتوجيه حركة السلحفاة ديناميكياً على الشاشة.",
+          "icon": "🧮",
+          "code": "steps = int(input(\"أدخل عدد خطوات السلحفاة: \"))\nt.forward(steps)",
+          "example": "تطبيق يسأل المستخدم عن طول ضلع المربع ويقوم برسمه فوراً."
+        }
+      ]
+    },
+    {
+      "session_num": 3,
+      "session_title": "Session 3: String Operations & Advanced Shapes",
+      "points": [
+        {
+          "title": "معالجة السلاسل النصية (Strings)",
+          "desc": "دمج النصوص وتغيير حالتها البرمجية لترتيب وعرض رسائل الترحيب والمخرجات بذكاء.",
+          "icon": "🔤",
+          "blocksArray": [
+            "String Concatenation",
+            "capitalize()",
+            "lower()",
+            "strip()"
+          ]
+        },
+        {
+          "title": "رسم أشكال هندسية مركبة ومعقدة",
+          "desc": "رسم نجوم ومضلعات معقدة بزوايا متفاوتة وتلوينها بناءً على اختيارات المستخدم النصية المفضلة.",
+          "icon": "✨",
+          "code": "color = input(\"اختر لون السلحفاة (red, blue): \").strip().lower()\nt.color(color)",
+          "example": "كتابة اسم الطالب مدمجاً بعبارات ترحيبية ملونة على لوحة الرسم."
+        }
+      ]
+    },
+    {
+      "session_num": 4,
+      "session_title": "Session 4: Conditional Logic & Branching",
+      "points": [
+        {
+          "title": "الشروط المنطقية واتخاذ القرار (If-Else)",
+          "desc": "توجيه البرنامج لتنفيذ أكواد مخصصة فقط عند مطابقة شروط معينة باستخدام الكلمات المحجوزة if و else.",
+          "icon": "🚦",
+          "blocksArray": [
+            "if condition:",
+            "else:",
+            "Comparison Operators (==, !=, >=)"
+          ]
+        },
+        {
+          "title": "برمجة شروط اتجاه حركة السلحفاة",
+          "desc": "التحقق من اختيار اتجاه السير (أمام، يسار) وتعديل الحركة والزوايا بناءً على جودة وسلامة الشرط.",
+          "icon": "🔄",
+          "code": "direction = input(\"إلى أين تتجه؟ (left/right): \")\nif direction == \"left\":\n    t.left(90)\nelse:\n    t.right(90)",
+          "example": "تطبيق يفحص درجة حرارة الجو وينصحك بارتداء ملابس ثقيلة."
+        }
+      ]
+    },
+    {
+      "session_num": 5,
+      "session_title": "Session 5: Iteration & Geometric Polygons (Traffic Controller)",
+      "points": [
+        {
+          "title": "حلقات التكرار (For Loops)",
+          "desc": "تكرار تنفيذ الأكواد لعدد محدد من المرات باستخدام for ومجال الأرقام range لتسريع المهام البرمجية.",
+          "icon": "🔄",
+          "blocksArray": [
+            "for i in range(n):",
+            "range(start, stop)",
+            "Loop Indentation"
+          ]
+        },
+        {
+          "title": "رسم المضلعات ونظام إشارة المرور",
+          "desc": "رسم أشكال هندسية منتظمة (مثل المربع والسداسي) وتطبيق برمجي لمحاكاة نظام إشارة المرور الذكي.",
+          "icon": "🚥",
+          "code": "for i in range(4):\n    t.forward(100)\n    t.left(90)",
+          "example": "تطبيق محاكاة إشارة المرور (أحمر قف، أصفر استعد، أخضر انطلق) بالبايثون."
+        }
+      ]
+    },
+    {
+      "session_num": 6,
+      "session_title": "Session 6: Parallel Loops & Simulations (Turtle Race)",
+      "points": [
+        {
+          "title": "المصفوفات والتكرار المتوازي",
+          "desc": "المرور والتنقل عبر قوائم البيانات المتوازية لحساب المعدلات ومجموع النقاط للطلاب بصيغة آلية.",
+          "icon": "📊",
+          "blocksArray": [
+            "Parallel list iteration",
+            "sum() / len()",
+            "random.randint()"
+          ]
+        },
+        {
+          "title": "لعبة سباق السلاحف السريع (Turtle Race)",
+          "desc": "محاكاة سباق ثلاث سلاسل ملونة تتحرك بمسافات عشوائية وحساب السلحفاة الفائزة وعرض إعلان فوزها.",
+          "icon": "🏁",
+          "code": "import random\ndistances = [random.randint(50, 150) for _ in range(3)]\nwinner = distances.index(max(distances))",
+          "example": "سباق سلاسل ملونة (أحمر، أزرق، أخضر) يفوز فيه عشوائي لحساب الاحتمالات."
+        }
+      ]
+    },
+    {
+      "session_num": 7,
+      "session_title": "Session 7: Key-Value Dictionaries (Smart Quiz App)",
+      "points": [
+        {
+          "title": "القواميس البرمجية (Dictionaries)",
+          "desc": "بنية بيانات متقدمة لحفظ السجلات وتخزين القيم باستخدام مفاتيح مميزة بدلاً من الفهارس الرقمية.",
+          "icon": "📖",
+          "blocksArray": [
+            "my_dict = {}",
+            "dict[key] = value",
+            "dict.get(key)"
+          ]
+        },
+        {
+          "title": "تطبيق بنك الأسئلة والمسابقات الذكي",
+          "desc": "استخدام القواميس لتخزين الأسئلة وإجاباتها النموذجية والتحقق من إجابات الطلاب مع حساب مجموع درجاتهم.",
+          "icon": "🏆",
+          "code": "question = {\"q\": \"ما هي عاصمة مصر؟\", \"a\": \"القاهرة\"}\nanswer = input(question[\"q\"])\nif answer == question[\"a\"]:\n    print(\"إجابة صحيحة! 🎉\")",
+          "example": "تطبيق شاشة لوحة تحكم الطالب لحفظ معلوماته وعمره وموضوعه المفضل."
+        }
+      ]
+    },
+    {
+      "session_num": 8,
+      "session_title": "Session 8: Advanced Algorithms - Recursion (Factorial & Spiral)",
+      "points": [
+        {
+          "title": "الخوارزميات التكرارية (Recursion)",
+          "desc": "تقنية ذكية ومتقدمة تقوم فيها الدالة البرمجية باستدعاء نفسها لحل مشكلات معقدة وصعبة خطوة بخطوة.",
+          "icon": "🌀",
+          "blocksArray": [
+            "Base Case (شرط التوقف)",
+            "Recursive Call",
+            "Stack Overflow prevention"
+          ]
+        },
+        {
+          "title": "رسم الحلزونات وحساب المضروب (Factorial)",
+          "desc": "رسم حلزون هندسي رائع أو حساب مضروب الأعداد (مثل مضروب 5 = 120)، وبرمجة محاكاة روبوت تنظيف الغرف.",
+          "icon": "🧹",
+          "code": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n - 1)",
+          "example": "رسم حلزوني هندسي رائع يتناقص حجمه تلقائياً حتى شرط التوقف صفر."
+        }
+      ]
+    },
+    {
+      "session_num": 9,
+      "session_title": "Session 9: Debugging Workshop & Code Refactoring",
+      "points": [
+        {
+          "title": "اكتشاف وإصلاح الأخطاء البرمجية (Debugging)",
+          "desc": "تنمية تفكير المطور المحترف بالتدريب على رصد الأخطاء الإملائية والمنطقية وإصلاح المسافات البادئة وعلامات الترقيم.",
+          "icon": "🛡️",
+          "blocksArray": [
+            "SyntaxError",
+            "IndentationError",
+            "TypeError",
+            "Debugging tools"
+          ]
+        },
+        {
+          "title": "تصحيح المقارنات والرموز المفقودة",
+          "desc": "تصحيح كتابة المكتبات، وضع الفواصل والنقطتان الرأسيتان المفقودتان، والتحقق من تحويل المدخلات لنوعها الرقمي.",
+          "icon": "🧹",
+          "code": "# خطأ شائع: age = input() ; if age > 10:\n# التصحيح المعتمد:\nage = int(input(\"أدخل عمرك: \"))\nif age > 10:\n    print(\"أنت أكبر من 10 سنوات!\")",
+          "example": "إصلاح سكربت رسم هندسي معطل وإعادة تشغيله بنجاح باهر."
+        }
+      ]
+    },
+    {
+      "session_num": 10,
+      "session_title": "Session 10: Dynamic Lists & Data Structures",
+      "points": [
+        {
+          "title": "إدارة القوائم الديناميكية (Lists)",
+          "desc": "استخدام دوال الإضافة والحذف والتعديل المتقدمة لإدارة قوائم المشتريات والمهام للطلاب بكفاءة وسلاسة.",
+          "icon": "📋",
+          "blocksArray": [
+            "list.append()",
+            "list.insert()",
+            "list.remove()",
+            "list.sort()"
+          ]
+        },
+        {
+          "title": "ترتيب وتصفية البيانات البرمجية",
+          "desc": "إضافة عناصر جديدة إلى المصفوفة، فرزها أبجدياً أو رقمياً، وحذف السجلات المكتملة بنقرة تفاعلية.",
+          "icon": "⚡",
+          "code": "fruits = [\"تفاح\", \"موز\"]\nfruits.append(\"مانجو\")\nfruits.sort()\nprint(fruits)",
+          "example": "تطبيق إدارة قائمة المشتريات التفاعلي مع ترتيب الأسعار تلقائياً."
+        }
+      ]
+    },
+    {
+      "session_num": 11,
+      "session_title": "Session 11: Validation & Exception Handling",
+      "points": [
+        {
+          "title": "تأكيد سلامة البيانات ومعالجة الاستثناءات",
+          "desc": "حماية البرنامج من الانهيار المفاجئ عند إدخال نصوص بدلاً من أرقام باستخدام كتل try و except الفعالة.",
+          "icon": "🛑",
+          "blocksArray": [
+            "try:",
+            "except ValueError:",
+            "while True validation",
+            "positive numbers check"
+          ]
+        },
+        {
+          "title": "التحقق من إدخال الأعداد الصحيحة",
+          "desc": "إجبار المستخدم على إدخال أعداد صحيحة وموجبة ومعاودة السؤال حتى تكون البيانات المدخلة مطابقة 100%.",
+          "icon": "⚠️",
+          "code": "while True:\n    try:\n        num = int(input(\"أدخل رقم إيجابي: \"))\n        if num > 0: break\n    except ValueError:\n        print(\"من فضلك اكتب أرقام فقط!\")",
+          "example": "تأمين مربع استقبال عمر المريض لضمان جودة وتناسق بيانات السجلات."
+        }
+      ]
+    },
+    {
+      "session_num": 12,
+      "session_title": "Session 12: Capstone Project - Attendance & Report System",
+      "points": [
+        {
+          "title": "المشروع التتويجي الخارق: نظام رصد الغياب والحضور",
+          "desc": "تجميع كل المفاهيم لبناء تطبيق متكامل يسأل عن عدد الطلاب، يؤمن صحة المدخلات، ويقوم برصد حضور وغياب الطلاب ديناميكياً.",
+          "icon": "🎓",
+          "blocksArray": [
+            "Datetime formatting",
+            "File I/O (with open)",
+            "Attendance summary",
+            "Report text file"
+          ]
+        },
+        {
+          "title": "حفظ تقارير الحضور في ملفات نصية حقيقية",
+          "desc": "كتابة ملخص رصد الغياب وحسابه ونسبة الحضور وتخزين التقرير في ملف نصي خارجي باسم اليوم المحدث.",
+          "icon": "💾",
+          "code": "import datetime\nwith open(f\"attendance_{datetime.date.today()}.txt\", \"w\", encoding=\"utf-8\") as file:\n    file.write(\"تقرير الحضور والغياب ليوم: \" + str(datetime.date.today()))",
+          "example": "تصدير وحفظ ملف نصي حقيقي يحتوي على تقارير حضور الفصل الدراسي بأكمله!"
+        }
+      ]
+    }
+  ]
+}
