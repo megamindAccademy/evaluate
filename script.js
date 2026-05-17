@@ -12,11 +12,27 @@ const messages = [
     "🏆 أنت بطل حقيقي! كل خطوة تخطوها في التعلم هي انتصار كبير نفتخر به!"
 ];
 
-// Initialize Firebase Analytics if available
+// --- FIREBASE REALTIME DATABASE CONFIGURATION ---
+const firebaseConfig = {
+  apiKey: "AIzaSyCmTP8whtgR5IKF59Bi_olMvNsVw2LaSsI",
+  authDomain: "megamindsacademy-ev.firebaseapp.com",
+  databaseURL: "https://megamindsacademy-ev-default-rtdb.firebaseio.com",
+  projectId: "megamindsacademy-ev",
+  storageBucket: "megamindsacademy-ev.firebasestorage.app",
+  messagingSenderId: "329252604781",
+  appId: "1:329252604781:web:4d6583392031571258a864"
+};
+
+// Initialize Firebase & Analytics if available
 try {
-    if (typeof firebase !== 'undefined' && firebase.analytics) {
-        firebase.analytics();
-        console.log("Firebase Analytics initialized successfully in script.js!");
+    if (typeof firebase !== 'undefined') {
+        if (firebase.apps.length === 0) {
+            firebase.initializeApp(firebaseConfig);
+        }
+        if (firebase.analytics) {
+            firebase.analytics();
+            console.log("Firebase Analytics initialized successfully in script.js!");
+        }
     }
 } catch (e) {
     console.error("Firebase Analytics initialization error:", e);
