@@ -158,8 +158,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalText = document.getElementById('modalText');
     const modalCloseBtn = document.getElementById('modalClose');
     const modalOkBtn = document.getElementById('modalOkBtn');
-    const dynamicCoursesGrid = document.getElementById('dynamicCoursesGrid');
-    const dynamicCurriculumsGrid = document.getElementById('dynamicCurriculumsGrid');
+    const dynamicCoursesGridJunior = document.getElementById('dynamicCoursesGridJunior');
+    const dynamicCoursesGridSenior = document.getElementById('dynamicCoursesGridSenior');
+    const dynamicCurriculumsGridJunior = document.getElementById('dynamicCurriculumsGridJunior');
+    const dynamicCurriculumsGridSenior = document.getElementById('dynamicCurriculumsGridSenior');
 
     // Encouragement Button Click
     if (encourageBtn) {
@@ -194,28 +196,52 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
     // AUTO DISCOVERY OF COURSES & CURRICULUMS
     // ==========================================
-    if (dynamicCoursesGrid || dynamicCurriculumsGrid) {
+    if (dynamicCoursesGridJunior || dynamicCoursesGridSenior || dynamicCurriculumsGridJunior || dynamicCurriculumsGridSenior) {
         fetch('./database/courses_index.json')
             .then(response => {
                 if (!response.ok) throw new Error('courses_index.json not found');
                 return response.json();
             })
             .then(coursesList => {
-                coursesList.forEach(courseId => {
-                    fetch(`./database/${courseId}/manifest.json`)
+                // Fetch all manifest files in parallel
+                const fetchPromises = coursesList.map(courseId => {
+                    return fetch(`./database/${courseId}/manifest.json`)
                         .then(res => {
                             if (!res.ok) throw new Error(`Manifest not found for ${courseId}`);
-                            return res.json();
+                            return res.json().then(manifest => ({ courseId, manifest }));
                         })
-                        .then(manifest => {
-                            if (dynamicCurriculumsGrid) {
-                                renderDiscoveredCurriculumCard(manifest, dynamicCurriculumsGrid, modalOverlay, modalTitle, modalText);
-                            }
-                            if (dynamicCoursesGrid) {
-                                renderDiscoveredCourseCard(manifest, dynamicCoursesGrid, modalOverlay, modalTitle, modalText);
-                            }
-                        })
-                        .catch(err => console.error(`Error discovering course ${courseId}:`, err));
+                        .catch(err => {
+                            console.error(`Error discovering course ${courseId}:`, err);
+                            return null;
+                        });
+                });
+
+                return Promise.all(fetchPromises);
+            })
+            .then(results => {
+                // Filter out any failed manifest fetches
+                const validResults = results.filter(r => r !== null);
+
+                // Render cards in the exact deterministic order of courses_index.json
+                validResults.forEach(item => {
+                    const isJunior = item.courseId.startsWith('junior_');
+                    const manifest = item.manifest;
+
+                    if (isJunior) {
+                        if (dynamicCurriculumsGridJunior) {
+                            renderDiscoveredCurriculumCard(manifest, dynamicCurriculumsGridJunior, modalOverlay, modalTitle, modalText);
+                        }
+                        if (dynamicCoursesGridJunior) {
+                            renderDiscoveredCourseCard(manifest, dynamicCoursesGridJunior, modalOverlay, modalTitle, modalText);
+                        }
+                    } else {
+                        if (dynamicCurriculumsGridSenior) {
+                            renderDiscoveredCurriculumCard(manifest, dynamicCurriculumsGridSenior, modalOverlay, modalTitle, modalText);
+                        }
+                        if (dynamicCoursesGridSenior) {
+                            renderDiscoveredCourseCard(manifest, dynamicCoursesGridSenior, modalOverlay, modalTitle, modalText);
+                        }
+                    }
                 });
             })
             .catch(error => console.error('Error loading courses index:', error));

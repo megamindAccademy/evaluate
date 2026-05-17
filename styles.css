@@ -2787,3 +2787,36 @@ code {
         text-align: center;
     }
 }
+
+/* Category Splitting & Age Badge Premium Styles */
+.category-header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    border-bottom: 3px dashed #e2e8f0;
+    padding-bottom: 12px;
+    width: 100%;
+}
+.category-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--tertiary-dark);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+}
+.category-emoji {
+    font-size: 2rem;
+}
+.category-age {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--tertiary);
+    background: var(--bg-gradient-2);
+    padding: 4px 14px;
+    border-radius: 50px;
+    border: 1px solid var(--tertiary);
+    margin-right: 12px; /* Smooth spacing for RTL layout */
+}
