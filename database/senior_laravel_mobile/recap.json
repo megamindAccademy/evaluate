@@ -1,6 +1,6 @@
 {
   "course": "Laravel Mobile API Backend",
-  "recap_title": "🎯 المراجعة السريعة والمصورة لكورس: Laravel Mobile API Backend",
+  "recap_title": "🎯 Quick & Visual Recap: Laravel Mobile API Backend",
   "recap_subtitle": "مرحباً بك يا بطل! هذه مراجعة سريعة ومدعمة بالأمثلة البرمجية والأشكال التوضيحية لكل جلسة تعلمتها في الكورس لمساعدتك على استذكار المفاهيم بكل سهولة ومتعة والاستعداد للاختبار الخارق! 🚀🌟",
   "sessions": [
     {
@@ -575,5 +575,6 @@
         }
       ]
     }
-  ]
+  ],
+  "course_title": "Laravel Mobile API Backend"
 }
