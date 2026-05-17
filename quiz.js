@@ -379,6 +379,21 @@ function startRandomQuiz() {
         })
         .then(quiz => {
             currentQuizData = quiz;
+
+            // Shuffle options for all MCQ questions once at the start of the quiz
+            if (currentQuizData && currentQuizData.questions) {
+                currentQuizData.questions.forEach(q => {
+                    if (q.type !== 'task' && q.options && q.options.length > 0 && q.correct !== undefined) {
+                        const originalCorrectText = q.options[q.correct];
+                        for (let i = q.options.length - 1; i > 0; i--) {
+                            const j = Math.floor(Math.random() * (i + 1));
+                            [q.options[i], q.options[j]] = [q.options[j], q.options[i]];
+                        }
+                        q.correct = q.options.indexOf(originalCorrectText);
+                    }
+                });
+            }
+
             currentQuestionIndex = 0;
             score = 0;
             mcqCount = 0;
