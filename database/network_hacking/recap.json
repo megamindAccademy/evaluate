@@ -1,0 +1,269 @@
+{
+  "course": "Network & Hacking 🌐",
+  "sessions": [
+    {
+      "session_title": "💡 Session 1: LAN & WAN setups",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "LAN & WAN setups Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "LAN & WAN setups",
+          "desc": "Understanding local switches, network routing, and IP coordinates.",
+          "example": "192.168.1.1 gateway config"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 2: 7 Layers OSI Model",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "7 Layers OSI Model Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "7 Layers OSI Model",
+          "desc": "How network cards route packets through the seven abstraction boundaries.",
+          "example": "Data encapsulation"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 3: TCP/IP 3-Way Handshake",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "TCP/IP 3-Way Handshake Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "TCP/IP 3-Way Handshake",
+          "desc": "Synchronizing reliable port sockets via SYN, SYN-ACK, and ACK cycles.",
+          "example": "TCP port handshakes"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 4: Addressing & Subnetting",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "Addressing & Subnetting Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "Addressing & Subnetting",
+          "desc": "Configuring Class C subnet masks and managing routing ranges.",
+          "example": "/24 CIDR structures"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 5: Terminal Diagnostics",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "Terminal Diagnostics Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "Terminal Diagnostics",
+          "desc": "Testing active routes using Ping, Traceroute, and Nslookup queries.",
+          "example": "DNS name lookups"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 6: Packet Capturing",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "Packet Capturing Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "Packet Capturing",
+          "desc": "Analyzing network frames and capturing HTTP unencrypted texts via Wireshark.",
+          "example": "Wireshark filters"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 7: Network Port Scanning",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "Network Port Scanning Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "Network Port Scanning",
+          "desc": "Running Nmap audits to detect open listening ports on targets.",
+          "example": "Nmap stealth scans"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 8: ARP Poisoning MITM",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "ARP Poisoning MITM Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "ARP Poisoning MITM",
+          "desc": "Injecting false MAC addresses to redirect network grids dynamically.",
+          "example": "ARP spoofing attacks"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 9: DNS Cache Spoofing",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "DNS Cache Spoofing Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "DNS Cache Spoofing",
+          "desc": "Redirecting domain queries to malicious clone sites.",
+          "example": "Poisoning DNS hosts files"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 10: Wireless Network Auditing",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "Wireless Network Auditing Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "Wireless Network Auditing",
+          "desc": "WEP and WPA2 handshake capture techniques and key verification.",
+          "example": "Monitor mode adapters"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 11: Firewall Port Filters",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "Firewall Port Filters Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "Firewall Port Filters",
+          "desc": "Applying IPTables rules to drop inbound packets targeting sensitive ports.",
+          "example": "Port 22 SSH blocking"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 12: VPN Tunnel Encryption",
+      "targets": [
+        "Map structural protocols",
+        "Perform diagnostic check",
+        "Audit security vulnerabilities"
+      ],
+      "blocks": [
+        "packet_data",
+        "nmap_commands",
+        "iptables_rules"
+      ],
+      "project": "VPN Tunnel Encryption Diagnostics Lab",
+      "points": [
+        {
+          "icon": "🌐",
+          "title": "VPN Tunnel Encryption",
+          "desc": "Wrapping transit IP layers inside secure WireGuard or OpenVPN tunnels.",
+          "example": "Encrypted data routing"
+        }
+      ]
+    }
+  ]
+}

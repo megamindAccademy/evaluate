@@ -1,0 +1,15 @@
+{
+  "title": "Network & Hacking 🌐",
+  "description": "Dive deep into the OSI model, capture real network traffic in Wireshark, run Nmap audits, and block attacks!",
+  "icon": "🌐",
+  "status": "active",
+  "recap_file": "recap.json",
+  "quizzes": [
+    "quiz1.json",
+    "quiz2.json",
+    "quiz3.json",
+    "quiz4.json",
+    "quiz5.json",
+    "quiz6.json"
+  ]
+}
