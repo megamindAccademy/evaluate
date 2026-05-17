@@ -1,0 +1,68 @@
+{
+  "quiz_id": "junior_pictoblox_quiz_6",
+  "quiz_title": "🤖 PicToBlox Challenge 6: Clone Armies & Smart Game Decisions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What happens when you execute the 'create clone of (myself)' control block during gameplay?",
+      "options": [
+        "The game shuts down immediately",
+        "It spawns an exact, independent copy of the sprite that runs its own clone scripts",
+        "It draws a green circle on the background track",
+        "It changes the player's name"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Cloning spawns active copies of our sprites on the fly, allowing us to generate multiple flying ducks, falling basketballs, or obstacle pipes easily."
+    },
+    {
+      "id": 2,
+      "question": "Why is it important to use the 'delete this clone' control block when a clone completes its action (like hitting a wall)?",
+      "options": [
+        "To clear memory and prevent the game from reaching its maximum clone limits, which would freeze the program",
+        "To make the sprite change colors",
+        "To play a winning chime sound",
+        "To speed up the player's paddle"
+      ],
+      "correct": 0,
+      "explanation": "Correct! Deleting finished clones frees up system resources, keeping the game smooth and within the active clone limit of 300."
+    },
+    {
+      "id": 3,
+      "question": "When combining blocks using the logical 'or' operator, when does the entire check return True?",
+      "options": [
+        "Both conditions must be completely True",
+        "At least one of the conditions (left or right) must be True",
+        "Both conditions must be completely False",
+        "Only when the game starts"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The 'or' operator is flexible. It evaluates as True if either the left side, the right side, or both sides are True."
+    },
+    {
+      "id": 4,
+      "question": "How does the 'if () then {} else {}' control block differ from a simple 'if () then' block?",
+      "options": [
+        "It can only hold sound blocks",
+        "It makes a two-way decision: executing the top script if the condition is True, and the bottom 'else' script if the condition is False",
+        "It repeats the code forever",
+        "It does not differ at all"
+      ],
+      "correct": 1,
+      "explanation": "Great! The 'if-else' block provides two separate pathways, guaranteeing that one of the two code blocks will execute depending on the check."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write block pseudo-code to spawn (create) a clone of 'myself' when the 'space' key is pressed.",
+      "task_hint": "Write: when space key pressed -> create clone of myself",
+      "explanation": "Perfect! Attaching clone-creation to event blocks lets players fire projectiles or spawn items interactively."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write an 'if else' block script checking if the mouse is down. If it is, say 'Hit!'; otherwise, say 'Miss!'",
+      "task_hint": "Write: if mouse down? then say Hit! else say Miss!",
+      "explanation": "Outstanding! Using two-way if-else statements provides a highly interactive and feedback-rich experience for your players."
+    }
+  ]
+}

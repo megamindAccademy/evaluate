@@ -1,0 +1,247 @@
+{
+  "course_title": "Junior PicToBlox 🤖",
+  "recap_title": "🤖 Exciting Junior PicToBlox Recap for Young Creators!",
+  "recap_subtitle": "Welcome, creative game makers! Let's explore the magical drag-and-drop code blocks and cool game projects we built in our Junior PicToBlox course. Review the sessions below:",
+  "sessions": [
+    {
+      "session_title": "💡 Session 1: What is PicToBlox? (Animal Racing)",
+      "points": [
+        {
+          "icon": "🤖",
+          "title": "Visual Block Programming",
+          "desc": "PicToBlox is a visual code-editor where we create programs by simply dragging and connecting colored blocks like LEGO pieces, making coding easy and fun!"
+        },
+        {
+          "icon": "🖼️",
+          "title": "Exploring the PicToBlox UI",
+          "desc": "We learned about the Stage (where sprites perform), Sprites Panel (our characters list), Blocks Palette (our code drawers), and Script Area (where we snap blocks)."
+        },
+        {
+          "icon": "🏁",
+          "title": "First Motion & Looks Blocks",
+          "desc": "We built an 'Animal Racing' project using motion blocks like 'go to' and 'glide X Y' to slide, looks blocks like 'say' and 'think', and played sounds!"
+        }
+      ]
+    },
+    {
+      "session_title": "🐘 Session 2: Events & Repeat Loops (Elephant Story)",
+      "points": [
+        {
+          "icon": "🚦",
+          "title": "Understanding Event Blocks",
+          "desc": "Events are yellow starting blocks (hat blocks) that detect when something happens, like clicking the green flag or when a stage backdrop switches."
+        },
+        {
+          "icon": "🔄",
+          "title": "Repeat Control Loops",
+          "desc": "We used 'forever' loop blocks to repeat animation actions forever, and 'wait' blocks to pause characters so they talk in turn."
+        },
+        {
+          "icon": "🐘",
+          "title": "Elephant Story Animation",
+          "desc": "We created a story where background scenery changed and sprites automatically responded using 'next costume', 'show', 'hide', and 'change x by'."
+        }
+      ]
+    },
+    {
+      "session_title": "🌀 Session 3: Sensing & Conditions (Maze Game)",
+      "points": [
+        {
+          "icon": "🧭",
+          "title": "If-Condition Decisions",
+          "desc": "We used 'if () then' control blocks. They check if a statement is true (like touching a wall) and only run the blocks inside when that condition passes."
+        },
+        {
+          "icon": "👃",
+          "title": "Sensing Block Triggers",
+          "desc": "Sensing blocks are light blue hexagons. They detect mouse clicks, keyboard keys (like arrow keys), or if a sprite is touching a colored wall."
+        },
+        {
+          "icon": "🧱",
+          "title": "Maze Game Project",
+          "desc": "We drew custom mazes and programmed sprites to move using coordinate changes ('change x by' and 'change y by') and bounce back if they touched red walls."
+        }
+      ]
+    },
+    {
+      "session_title": "🐸 Session 4: Sprite Communication (Jumper Frog)",
+      "points": [
+        {
+          "icon": "📢",
+          "title": "Broadcasting Messages",
+          "desc": "Broadcasting is like shouting a secret message. One sprite sends a 'broadcast ()' block, and other sprites listen for it to trigger their scripts."
+        },
+        {
+          "icon": "🎲",
+          "title": "Random Numbers",
+          "desc": "The 'pick random (1) to (10)' operator block lets Python choose surprise numbers, making objects appear at unexpected coordinates."
+        },
+        {
+          "icon": "🐸",
+          "title": "Jumper Frog Game",
+          "desc": "We combined all Level 1 concepts to code a game where a frog jumps over moving bugs that appear at random times using broadcast triggers."
+        }
+      ]
+    },
+    {
+      "session_title": "🏀 Session 5: Variables as Scoreboards (Basketball)",
+      "points": [
+        {
+          "icon": "📦",
+          "title": "What is a Variable?",
+          "desc": "A variable is like a named scorebox in the computer memory. It stores numbers or words that we can change, check, or show during our game."
+        },
+        {
+          "icon": "📈",
+          "title": "Changing Variables",
+          "desc": "We used 'set variable to (0)' to reset parameters at startup, and 'change variable by (1)' to add points every time we scored."
+        },
+        {
+          "icon": "🏀",
+          "title": "Basketball Physics",
+          "desc": "We coded a basketball game where balls fell from random X coordinates. Scoring a basket increased the score, and missing ended the game with a 'stop all' block."
+        }
+      ]
+    },
+    {
+      "session_title": "👾 Session 6: Click Events & Custom Blocks (Giga-man)",
+      "points": [
+        {
+          "icon": "🖱️",
+          "title": "Interactive Clicking",
+          "desc": "We used the 'when this sprite clicked' event block to launch actions instantly when a player clicks on target sprites during gameplay."
+        },
+        {
+          "icon": "👁️‍🗨️",
+          "title": "Showing & Hiding Monitors",
+          "desc": "We used 'show variable' and 'hide variable' blocks to control which game stats are visible to the players on the visual stage canvas."
+        },
+        {
+          "icon": "🧱",
+          "title": "Introduction to My Blocks",
+          "desc": "We explored 'My Blocks' to design custom procedures, bundling long chains of code blocks into one single reusable block to make scripts neat."
+        }
+      ]
+    },
+    {
+      "session_title": "📐 Session 7: Functions & Drawings (Draw SHAPES)",
+      "points": [
+        {
+          "icon": "🛠️",
+          "title": "Custom Block Functions",
+          "desc": "Using 'My Blocks' (custom blocks) to define geometric drawing steps once, and reuse them simply by calling the custom block name."
+        },
+        {
+          "icon": "🖌️",
+          "title": "Pen Extension Blocks",
+          "desc": "We loaded the Pen extension to draw lines on our stage. We used 'pen down' to start drawing, 'pen up' to stop, and 'erase all' to clear."
+        },
+        {
+          "icon": "🟩",
+          "title": "Drawing Geometric Shapes",
+          "desc": "We computed rotation angles (90 degrees for squares) and used loop controls to draw colorful squares, triangles, and custom hexagons."
+        }
+      ]
+    },
+    {
+      "session_title": "🦅 Session 8: Clone Physics & Gravity (Flappy Bird)",
+      "points": [
+        {
+          "icon": "👥",
+          "title": "Creating Sprite Clones",
+          "desc": "Cloning creates exact copies of sprites while the game runs. We use 'create clone of (myself)' to spawn multiple game items without copying code."
+        },
+        {
+          "icon": "🏗️",
+          "title": "Clone Lifecycles",
+          "desc": "Clones start actions using 'when I start as a clone', move across the screen, and disappear safely using the 'delete this clone' block."
+        },
+        {
+          "icon": "🌍",
+          "title": "Understanding Gravity",
+          "desc": "We simulated falling physics by constantly changing the bird's Y coordinate down, and pulling it back up when a player presses space."
+        }
+      ]
+    },
+    {
+      "session_title": "🏎️ Session 9: Painting Sprites & Scenery (Car-Race)",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Paint Editor Tools",
+          "desc": "We used the built-in paint tools to draw our own custom racing cars, and designed complex road track backdrops directly inside PicToBlox."
+        },
+        {
+          "icon": "🔄",
+          "title": "Turning & Rotating Controls",
+          "desc": "We programmed car steering using 'turn clockwise (degrees)' and 'turn counter-clockwise (degrees)' blocks triggered by arrow keys."
+        },
+        {
+          "icon": "🛡️",
+          "title": "Edge Bouncing",
+          "desc": "We used the 'if on edge, bounce' motion block to keep sprites inside the game window, making them turn away if they touch borders."
+        }
+      ]
+    },
+    {
+      "session_title": "🏓 Session 10: Compound Operators (Pong-ball)",
+      "points": [
+        {
+          "icon": "🏓",
+          "title": "Pong-ball Gameplay",
+          "desc": "We built a retro arcade Pong game where a ball bounces off walls and players slide paddles left and right to keep the ball active."
+        },
+        {
+          "icon": "⚙️",
+          "title": "Logic Operators: and & or",
+          "desc": "We combined multiple conditions using green operator blocks. 'and' requires both checks to pass; 'or' triggers if at least one check is true."
+        },
+        {
+          "icon": "🎾",
+          "title": "Multiball Challenges",
+          "desc": "We cloned the game balls to increase speed and complexity, programming score adjustments depending on which wall the ball hits."
+        }
+      ]
+    },
+    {
+      "session_title": "🦆 Session 11: Complex Scoring (Duck Hunter 1)",
+      "points": [
+        {
+          "icon": "🏹",
+          "title": "Crosshair Target Aiming",
+          "desc": "We programmed a hunter crosshair sprite that constantly follows the player's mouse pointer using the 'go to (mouse-pointer)' motion block."
+        },
+        {
+          "icon": "🔔",
+          "title": "Click Sensing & Shooting",
+          "desc": "We used 'sensing: mouse down' to check if a player clicks their mouse to shoot, and combined it with 'touching (duck)' triggers."
+        },
+        {
+          "icon": "🦆",
+          "title": "Duck Hunter Project Part 1",
+          "desc": "We designed spawning logic where target ducks fly across random sky backdrops, disappearing and resetting if successfully hit."
+        }
+      ]
+    },
+    {
+      "session_title": "🏆 Session 12: If-Else Statements (Duck Hunter 2)",
+      "points": [
+        {
+          "icon": "🔱",
+          "title": "If-Else Smart Choice Block",
+          "desc": "The 'if () then {} else {}' control block makes two-way decisions. If the condition is true, it runs the top code; otherwise, it runs the bottom code."
+        },
+        {
+          "icon": "🥞",
+          "title": "Sprite Ordering Layers",
+          "desc": "We controlled which sprites appear in front using looks layer blocks, ensuring the aiming crosshair stays stacked above flying ducks."
+        },
+        {
+          "icon": "🎖️",
+          "title": "Duck Hunter Final Polish",
+          "desc": "We finished our game by adding ammunition countdowns, score tracking, time limits, and sound effects for a complete arcade feel."
+        }
+      ]
+    }
+  ]
+}

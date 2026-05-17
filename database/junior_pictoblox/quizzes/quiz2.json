@@ -1,0 +1,68 @@
+{
+  "quiz_id": "junior_pictoblox_quiz_2",
+  "quiz_title": "🤖 PicToBlox Challenge 2: Loop Animations & Scenic Stories",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the purpose of the Control 'forever' block in PicToBlox?",
+      "options": [
+        "It stops the program immediately",
+        "It repeats the code blocks inside it over and over again without stopping",
+        "It deletes all sprites on the stage",
+        "It changes the sprite's color once"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The 'forever' block creates an endless loop that keeps running the blocks inside it to create constant animations."
+    },
+    {
+      "id": 2,
+      "question": "Why do we add a Control 'wait' block inside an animation loop?",
+      "options": [
+        "To make the sprite move super fast",
+        "To pause the script for a short time so the animations don't happen too fast to see",
+        "To change the background music",
+        "To delete the code blocks"
+      ],
+      "correct": 1,
+      "explanation": "Correct! The 'wait' block pauses actions for a set amount of seconds, allowing us to see individual animation frames clearly."
+    },
+    {
+      "id": 3,
+      "question": "Which of these blocks is used to trigger and start a script when the green flag button is clicked?",
+      "options": [
+        "when Backdrop switches to 'backdrop1'",
+        "when Green Flag clicked",
+        "when space key pressed",
+        "broadcast 'start'"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The 'when Green Flag clicked' hat block is the standard way to launch and play our games."
+    },
+    {
+      "id": 4,
+      "question": "If you want a walking sprite (like a walking bear) to cycle through its running costumes to animate its legs, which block should you snap in?",
+      "options": [
+        "looks: hide",
+        "looks: show",
+        "looks: next costume",
+        "motion: point in direction (90)"
+      ],
+      "correct": 2,
+      "explanation": "Great! The 'next costume' block cycles through the sprite's image frames in order, making it look like it is really walking."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write block pseudo-code to make a sprite hide, wait 1 second, and then show.",
+      "task_hint": "Write: hide -> wait 1 sec -> show",
+      "explanation": "Perfect! Putting hide, wait, and show blocks together creates a cool peek-a-boo vanishing effect."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write block pseudo-code to wait for 2 seconds and switch the backdrop scene to 'forest'.",
+      "task_hint": "Write: wait 2 secs -> switch backdrop to forest",
+      "explanation": "Outstanding! Using 'wait' followed by 'switch backdrop' allows you to tell stories and change scenery dynamically."
+    }
+  ]
+}

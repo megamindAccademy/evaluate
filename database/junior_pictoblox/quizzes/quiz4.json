@@ -1,0 +1,68 @@
+{
+  "quiz_id": "junior_pictoblox_quiz_4",
+  "quiz_title": "🤖 PicToBlox Challenge 4: Communication & Random Tricks",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the purpose of using a Broadcast block in PicToBlox?",
+      "options": [
+        "To make a sprite speak for 5 seconds",
+        "To send a secret signal so that multiple sprites and scripts can communicate and act together",
+        "To delete all variables from memory",
+        "To change the volume of the sound effects"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Staging a broadcast sends a message across the entire program. Any sprite listening for that specific broadcast will react instantly."
+    },
+    {
+      "id": 2,
+      "question": "Which block is used as a starting hat block that triggers code when another sprite sends a message?",
+      "options": [
+        "broadcast (message1)",
+        "when I receive (message1)",
+        "when Green Flag clicked",
+        "create clone of (myself)"
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'when I receive' is the starting block that activates once a corresponding broadcast signal is sent."
+    },
+    {
+      "id": 3,
+      "question": "Which colored block drawer contains the 'pick random' block used to generate surprise numbers in PicToBlox?",
+      "options": [
+        "Control drawer (orange)",
+        "Sensing drawer (light blue)",
+        "Operators drawer (green)",
+        "Variables drawer (dark orange)"
+      ],
+      "correct": 2,
+      "explanation": "Excellent! The 'pick random' block belongs to the green Operators drawer, which handles math and comparison logic."
+    },
+    {
+      "id": 4,
+      "question": "If you want an enemy bug sprite in a frog game to constantly appear at random heights on the screen, which block combination is correct?",
+      "options": [
+        "glide to x:(0) y:(0)",
+        "set y to (pick random (-100) to (100))",
+        "switch costume to next costume",
+        "say 'Jump!' for 2 seconds"
+      ],
+      "correct": 1,
+      "explanation": "Great! Putting a 'pick random' block inside a 'set y' or 'change y' block generates a randomized height for our enemy sprites."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write block pseudo-code to broadcast a message named 'start_game'.",
+      "task_hint": "Write: broadcast start_game",
+      "explanation": "Perfect! The broadcast block allows different parts of your code and different sprites to coordinate and start actions together."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write block pseudo-code to set the sprite's X position to a random number between -100 and 100.",
+      "task_hint": "Write: set x to pick random -100 to 100",
+      "explanation": "Outstanding! Placing 'pick random' inside coordinates blocks allows you to place enemies or objects in random horizontal spots."
+    }
+  ]
+}

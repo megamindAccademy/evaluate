@@ -1,0 +1,68 @@
+{
+  "quiz_id": "junior_pictoblox_quiz_3",
+  "quiz_title": "🤖 PicToBlox Challenge 3: Maze Runners & Game Sensing",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which block allows your game script to make a decision, running code inside it ONLY when a condition (like touching a key) is True?",
+      "options": [
+        "forever loop block",
+        "if () then control block",
+        "wait block",
+        "say block"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The 'if () then' control block tests a hexagonal sensing condition, executing the snapped blocks inside only when it passes."
+    },
+    {
+      "id": 2,
+      "question": "In a Maze game project, how do we detect if our sprite has bumped into a maze wall to prevent it from walking through walls?",
+      "options": [
+        "Using a 'say' looks block",
+        "Using the 'sensing: touching color (wall color)?' block inside an 'if' statement",
+        "Using the 'play sound' block",
+        "By changing the backdrop to another scene"
+      ],
+      "correct": 1,
+      "explanation": "Correct! The 'touching color' sensing block returns true if the sprite touches a specific color, letting us code boundary boundaries."
+    },
+    {
+      "id": 3,
+      "question": "To move a sprite straight upwards on the stage, which coordinates parameter must we increase?",
+      "options": [
+        "Change X by a positive number",
+        "Change Y by a positive number",
+        "Change X by a negative number",
+        "Change Y by a negative number"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! On the stage graph, Y represents vertical coordinates. Increasing Y (positive) moves the sprite up; decreasing Y (negative) pulls it down."
+    },
+    {
+      "id": 4,
+      "question": "Which blue Sensing block is used to check if a player is pushing a specific key on their keyboard?",
+      "options": [
+        "touching mouse-pointer?",
+        "key (space) pressed?",
+        "mouse down?",
+        "if on edge, bounce"
+      ],
+      "correct": 1,
+      "explanation": "Great! The 'key pressed' sensing block listens to keyboard events (like Space, Arrow Keys, or Letters) to control character movements."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write block pseudo-code to check if the 'Up Arrow' key is pressed, and if it is, change Y by 10 to move the sprite up.",
+      "task_hint": "Write: if key up arrow pressed? then change y by 10",
+      "explanation": "Perfect! Combining key pressed sensing blocks with coordinate updates inside if-conditions is how we control game characters."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write block pseudo-code to check if a sprite is touching the color red.",
+      "task_hint": "Write: if touching color red? then say 'Oh no!'",
+      "explanation": "Outstanding! Using 'touching color' is the perfect way to build wall collisions and game boundaries in block languages."
+    }
+  ]
+}

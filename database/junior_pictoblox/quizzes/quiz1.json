@@ -1,0 +1,68 @@
+{
+  "quiz_id": "junior_pictoblox_quiz_1",
+  "quiz_title": "🤖 PicToBlox Challenge 1: Welcome to the Coding World!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the name of the central area in PicToBlox where our characters (sprites) move, dance, and play their games?",
+      "options": [
+        "The Blocks Palette",
+        "The Stage",
+        "The Sprite List",
+        "The Code Area"
+      ],
+      "correct": 1,
+      "explanation": "Great job! The Stage is our magical virtual screen where sprites perform and game action comes to life."
+    },
+    {
+      "id": 2,
+      "question": "Which block allows you to make a character speak with a text bubble on the screen for a specific number of seconds?",
+      "options": [
+        "motion: glide (1) secs to x:(0) y:(0)",
+        "looks: say 'Hello!' for (2) seconds",
+        "looks: switch costume to 'costume1'",
+        "sound: start sound 'meow'"
+      ],
+      "correct": 1,
+      "explanation": "Correct! The 'say for () seconds' block shows a speech bubble above our sprite, then makes it disappear after the timer ends."
+    },
+    {
+      "id": 3,
+      "question": "If you want a racing sprite to slide smoothly across the screen from one place to another, which Motion block should you use?",
+      "options": [
+        "go to x:(0) y:(0)",
+        "glide (1) secs to x:(100) y:(100)",
+        "switch costume",
+        "think 'Hmm...'"
+      ],
+      "correct": 1,
+      "explanation": "Amazing! The 'glide' block moves our sprite smoothly to the destination, whereas the 'go to' block jumps there instantly."
+    },
+    {
+      "id": 4,
+      "question": "How do we write code in PicToBlox?",
+      "options": [
+        "By typing long text words on the keyboard",
+        "By dragging and snapping color blocks together like lego pieces",
+        "By drawing lines with a pencil on the screen",
+        "By talking to the computer microphone"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! In PicToBlox, we code by simply dragging colored blocks and linking them together to instruct our sprites."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Describe a block script to make a sprite glide smoothly to coordinates X = 150, Y = 150 in exactly 2 seconds.",
+      "task_hint": "Write: glide 2 secs to x: 150 y: 150",
+      "explanation": "Outstanding! Using the glide block and setting the time to 2 seconds makes the character slide beautifully."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write the block name you would use to make a sprite play the sound 'cheering' when the game starts.",
+      "task_hint": "Write: start sound cheering",
+      "explanation": "Superb! The 'start sound' block plays cheerful sound effects to make your stories and games exciting."
+    }
+  ]
+}

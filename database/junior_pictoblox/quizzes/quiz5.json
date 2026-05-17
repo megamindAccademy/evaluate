@@ -1,0 +1,68 @@
+{
+  "quiz_id": "junior_pictoblox_quiz_5",
+  "quiz_title": "🤖 PicToBlox Challenge 5: Scoreboards, Pen Drawings & Functions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a Variable in PicToBlox programming?",
+      "options": [
+        "A color option for drawing backdrops",
+        "A named box in the computer memory used to store values (like scores or speed) that can change",
+        "A button to export game files",
+        "An animal sprite in the library"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Variables act as data containers, holding values like player scores, health counters, or speeds that update during gameplay."
+    },
+    {
+      "id": 2,
+      "question": "If you want to add 1 point to a player's score every time a basketball successfully hits the net, which block should you snap in?",
+      "options": [
+        "set (Score) to (1)",
+        "change (Score) by (1)",
+        "hide variable (Score)",
+        "stop all"
+      ],
+      "correct": 1,
+      "explanation": "Correct! The 'change variable by' block increases or decreases the stored value by the amount specified (e.g. +1 for adding points)."
+    },
+    {
+      "id": 3,
+      "question": "Which block from the Pen extension is used to start drawing lines on the stage canvas as your sprite moves?",
+      "options": [
+        "pen up",
+        "pen down",
+        "erase all",
+        "set pen size to (1)"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The 'pen down' block places the virtual pen onto the canvas, trailing lines wherever the sprite travels."
+    },
+    {
+      "id": 4,
+      "question": "Why do we create custom blocks using the 'My Blocks' feature in PicToBlox?",
+      "options": [
+        "To download sounds from the web",
+        "To group and repeat a bundle of blocks under a single name, reducing code repetition and making scripts neat",
+        "To change the language of the application",
+        "To speed up the computer keyboard"
+      ],
+      "correct": 1,
+      "explanation": "Great! Custom 'My Blocks' act like procedures or functions, letting us package a long series of drawing or motion blocks into one single reusable block."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write block pseudo-code to set a variable named 'Score' to 0 when the green flag is clicked.",
+      "task_hint": "Write: when green flag clicked -> set Score to 0",
+      "explanation": "Perfect! Setting your score variables to 0 at game startup is called initializing variables, ensuring players start fresh."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write block pseudo-code to put the Pen down, move 100 steps, and lift the Pen up.",
+      "task_hint": "Write: pen down -> move 100 steps -> pen up",
+      "explanation": "Outstanding! Snap these three blocks in sequence to draw a clean line segment of exactly 100 pixels on the stage!"
+    }
+  ]
+}

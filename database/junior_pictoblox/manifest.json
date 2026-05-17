@@ -1,0 +1,18 @@
+{
+  "course_id": "junior_pictoblox",
+  "course_title": "البرمجة للصغار - PicToBlox",
+  "desc": "Unleash your creativity with visual block coding! Drag and drop blocks to build animal racing stories, maze games, custom geometric shapes, flappy birds, and virtual duck hunters. 🐻🏓🎮",
+  "icon": "🤖",
+  "icon_bg_class": "icon-scratch",
+  "status": "active",
+  "upcoming_msg": "",
+  "recap_file": "recap.json",
+  "quizzes": [
+    "quiz1.json",
+    "quiz2.json",
+    "quiz3.json",
+    "quiz4.json",
+    "quiz5.json",
+    "quiz6.json"
+  ]
+}
