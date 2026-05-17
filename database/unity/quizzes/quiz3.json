@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 3: Prefabs & dynamic Spawning",
+  "questions": [
+    {
+      "q": "Which Unity component defines the physical Prefabs templates in a 3D coordinate space?",
+      "opts": [
+        "Default Prefabs templates",
+        "Aesthetic Instantiate() method",
+        "Standard Trigger overlaps",
+        "Custom Collider bounds"
+      ],
+      "correct": 0,
+      "exp": "The physical Prefabs templates parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Instantiate() method in a 3D coordinate space?",
+      "opts": [
+        "Default Prefabs templates",
+        "Aesthetic Instantiate() method",
+        "Standard Trigger overlaps",
+        "Custom Collider bounds"
+      ],
+      "correct": 1,
+      "exp": "The physical Instantiate() method parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Trigger overlaps in a 3D coordinate space?",
+      "opts": [
+        "Default Prefabs templates",
+        "Aesthetic Instantiate() method",
+        "Standard Trigger overlaps",
+        "Custom Collider bounds"
+      ],
+      "correct": 2,
+      "exp": "The physical Trigger overlaps parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Collider bounds in a 3D coordinate space?",
+      "opts": [
+        "Default Prefabs templates",
+        "Aesthetic Instantiate() method",
+        "Standard Trigger overlaps",
+        "Custom Collider bounds"
+      ],
+      "correct": 3,
+      "exp": "The physical Collider bounds parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Prefabs templates in a 3D coordinate space?",
+      "opts": [
+        "Default Prefabs templates",
+        "Aesthetic Instantiate() method",
+        "Standard Trigger overlaps",
+        "Custom Collider bounds"
+      ],
+      "correct": 0,
+      "exp": "The physical Prefabs templates parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Instantiate() method in a 3D coordinate space?",
+      "opts": [
+        "Default Prefabs templates",
+        "Aesthetic Instantiate() method",
+        "Standard Trigger overlaps",
+        "Custom Collider bounds"
+      ],
+      "correct": 1,
+      "exp": "The physical Instantiate() method parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Trigger overlaps in a 3D coordinate space?",
+      "opts": [
+        "Default Prefabs templates",
+        "Aesthetic Instantiate() method",
+        "Standard Trigger overlaps",
+        "Custom Collider bounds"
+      ],
+      "correct": 2,
+      "exp": "The physical Trigger overlaps parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Collider bounds in a 3D coordinate space?",
+      "opts": [
+        "Default Prefabs templates",
+        "Aesthetic Instantiate() method",
+        "Standard Trigger overlaps",
+        "Custom Collider bounds"
+      ],
+      "correct": 3,
+      "exp": "The physical Collider bounds parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Prefabs templates in a 3D coordinate space?",
+      "opts": [
+        "Default Prefabs templates",
+        "Aesthetic Instantiate() method",
+        "Standard Trigger overlaps",
+        "Custom Collider bounds"
+      ],
+      "correct": 0,
+      "exp": "The physical Prefabs templates parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Instantiate() method in a 3D coordinate space?",
+      "opts": [
+        "Default Prefabs templates",
+        "Aesthetic Instantiate() method",
+        "Standard Trigger overlaps",
+        "Custom Collider bounds"
+      ],
+      "correct": 1,
+      "exp": "The physical Instantiate() method parameter manages layout alignments in 3D Unity worlds."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "C# Player Translation script",
+      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
+    },
+    {
+      "title": "Trigger Collider Event handler",
+      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
+    }
+  ]
+}

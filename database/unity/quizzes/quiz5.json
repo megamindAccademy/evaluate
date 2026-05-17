@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 5: Enemy AI pathways & Raycasting",
+  "questions": [
+    {
+      "q": "Which Unity component defines the physical Raycast checks in a 3D coordinate space?",
+      "opts": [
+        "Default Raycast checks",
+        "Aesthetic NavMesh boundaries",
+        "Standard AI pathfinders",
+        "Custom HP trackers"
+      ],
+      "correct": 0,
+      "exp": "The physical Raycast checks parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical NavMesh boundaries in a 3D coordinate space?",
+      "opts": [
+        "Default Raycast checks",
+        "Aesthetic NavMesh boundaries",
+        "Standard AI pathfinders",
+        "Custom HP trackers"
+      ],
+      "correct": 1,
+      "exp": "The physical NavMesh boundaries parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical AI pathfinders in a 3D coordinate space?",
+      "opts": [
+        "Default Raycast checks",
+        "Aesthetic NavMesh boundaries",
+        "Standard AI pathfinders",
+        "Custom HP trackers"
+      ],
+      "correct": 2,
+      "exp": "The physical AI pathfinders parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical HP trackers in a 3D coordinate space?",
+      "opts": [
+        "Default Raycast checks",
+        "Aesthetic NavMesh boundaries",
+        "Standard AI pathfinders",
+        "Custom HP trackers"
+      ],
+      "correct": 3,
+      "exp": "The physical HP trackers parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Raycast checks in a 3D coordinate space?",
+      "opts": [
+        "Default Raycast checks",
+        "Aesthetic NavMesh boundaries",
+        "Standard AI pathfinders",
+        "Custom HP trackers"
+      ],
+      "correct": 0,
+      "exp": "The physical Raycast checks parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical NavMesh boundaries in a 3D coordinate space?",
+      "opts": [
+        "Default Raycast checks",
+        "Aesthetic NavMesh boundaries",
+        "Standard AI pathfinders",
+        "Custom HP trackers"
+      ],
+      "correct": 1,
+      "exp": "The physical NavMesh boundaries parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical AI pathfinders in a 3D coordinate space?",
+      "opts": [
+        "Default Raycast checks",
+        "Aesthetic NavMesh boundaries",
+        "Standard AI pathfinders",
+        "Custom HP trackers"
+      ],
+      "correct": 2,
+      "exp": "The physical AI pathfinders parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical HP trackers in a 3D coordinate space?",
+      "opts": [
+        "Default Raycast checks",
+        "Aesthetic NavMesh boundaries",
+        "Standard AI pathfinders",
+        "Custom HP trackers"
+      ],
+      "correct": 3,
+      "exp": "The physical HP trackers parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Raycast checks in a 3D coordinate space?",
+      "opts": [
+        "Default Raycast checks",
+        "Aesthetic NavMesh boundaries",
+        "Standard AI pathfinders",
+        "Custom HP trackers"
+      ],
+      "correct": 0,
+      "exp": "The physical Raycast checks parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical NavMesh boundaries in a 3D coordinate space?",
+      "opts": [
+        "Default Raycast checks",
+        "Aesthetic NavMesh boundaries",
+        "Standard AI pathfinders",
+        "Custom HP trackers"
+      ],
+      "correct": 1,
+      "exp": "The physical NavMesh boundaries parameter manages layout alignments in 3D Unity worlds."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "C# Player Translation script",
+      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
+    },
+    {
+      "title": "Trigger Collider Event handler",
+      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
+    }
+  ]
+}

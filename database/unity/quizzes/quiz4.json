@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 4: Vectors math & Canvases UI",
+  "questions": [
+    {
+      "q": "Which Unity component defines the physical Vector3 operations in a 3D coordinate space?",
+      "opts": [
+        "Default Vector3 operations",
+        "Aesthetic CanvasLayer layouts",
+        "Standard TextMeshPro elements",
+        "Custom GameManager managers"
+      ],
+      "correct": 0,
+      "exp": "The physical Vector3 operations parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical CanvasLayer layouts in a 3D coordinate space?",
+      "opts": [
+        "Default Vector3 operations",
+        "Aesthetic CanvasLayer layouts",
+        "Standard TextMeshPro elements",
+        "Custom GameManager managers"
+      ],
+      "correct": 1,
+      "exp": "The physical CanvasLayer layouts parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical TextMeshPro elements in a 3D coordinate space?",
+      "opts": [
+        "Default Vector3 operations",
+        "Aesthetic CanvasLayer layouts",
+        "Standard TextMeshPro elements",
+        "Custom GameManager managers"
+      ],
+      "correct": 2,
+      "exp": "The physical TextMeshPro elements parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical GameManager managers in a 3D coordinate space?",
+      "opts": [
+        "Default Vector3 operations",
+        "Aesthetic CanvasLayer layouts",
+        "Standard TextMeshPro elements",
+        "Custom GameManager managers"
+      ],
+      "correct": 3,
+      "exp": "The physical GameManager managers parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Vector3 operations in a 3D coordinate space?",
+      "opts": [
+        "Default Vector3 operations",
+        "Aesthetic CanvasLayer layouts",
+        "Standard TextMeshPro elements",
+        "Custom GameManager managers"
+      ],
+      "correct": 0,
+      "exp": "The physical Vector3 operations parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical CanvasLayer layouts in a 3D coordinate space?",
+      "opts": [
+        "Default Vector3 operations",
+        "Aesthetic CanvasLayer layouts",
+        "Standard TextMeshPro elements",
+        "Custom GameManager managers"
+      ],
+      "correct": 1,
+      "exp": "The physical CanvasLayer layouts parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical TextMeshPro elements in a 3D coordinate space?",
+      "opts": [
+        "Default Vector3 operations",
+        "Aesthetic CanvasLayer layouts",
+        "Standard TextMeshPro elements",
+        "Custom GameManager managers"
+      ],
+      "correct": 2,
+      "exp": "The physical TextMeshPro elements parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical GameManager managers in a 3D coordinate space?",
+      "opts": [
+        "Default Vector3 operations",
+        "Aesthetic CanvasLayer layouts",
+        "Standard TextMeshPro elements",
+        "Custom GameManager managers"
+      ],
+      "correct": 3,
+      "exp": "The physical GameManager managers parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Vector3 operations in a 3D coordinate space?",
+      "opts": [
+        "Default Vector3 operations",
+        "Aesthetic CanvasLayer layouts",
+        "Standard TextMeshPro elements",
+        "Custom GameManager managers"
+      ],
+      "correct": 0,
+      "exp": "The physical Vector3 operations parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical CanvasLayer layouts in a 3D coordinate space?",
+      "opts": [
+        "Default Vector3 operations",
+        "Aesthetic CanvasLayer layouts",
+        "Standard TextMeshPro elements",
+        "Custom GameManager managers"
+      ],
+      "correct": 1,
+      "exp": "The physical CanvasLayer layouts parameter manages layout alignments in 3D Unity worlds."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "C# Player Translation script",
+      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
+    },
+    {
+      "title": "Trigger Collider Event handler",
+      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
+    }
+  ]
+}

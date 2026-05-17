@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 2: C# Scripting & Player Movements",
+  "questions": [
+    {
+      "q": "Which Unity component defines the physical C# classes in a 3D coordinate space?",
+      "opts": [
+        "Default C# classes",
+        "Aesthetic MonoBehaviour methods",
+        "Standard Start() vs Update()",
+        "Custom Input.GetAxis() vector"
+      ],
+      "correct": 0,
+      "exp": "The physical C# classes parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical MonoBehaviour methods in a 3D coordinate space?",
+      "opts": [
+        "Default C# classes",
+        "Aesthetic MonoBehaviour methods",
+        "Standard Start() vs Update()",
+        "Custom Input.GetAxis() vector"
+      ],
+      "correct": 1,
+      "exp": "The physical MonoBehaviour methods parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Start() vs Update() in a 3D coordinate space?",
+      "opts": [
+        "Default C# classes",
+        "Aesthetic MonoBehaviour methods",
+        "Standard Start() vs Update()",
+        "Custom Input.GetAxis() vector"
+      ],
+      "correct": 2,
+      "exp": "The physical Start() vs Update() parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Input.GetAxis() vector in a 3D coordinate space?",
+      "opts": [
+        "Default C# classes",
+        "Aesthetic MonoBehaviour methods",
+        "Standard Start() vs Update()",
+        "Custom Input.GetAxis() vector"
+      ],
+      "correct": 3,
+      "exp": "The physical Input.GetAxis() vector parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical C# classes in a 3D coordinate space?",
+      "opts": [
+        "Default C# classes",
+        "Aesthetic MonoBehaviour methods",
+        "Standard Start() vs Update()",
+        "Custom Input.GetAxis() vector"
+      ],
+      "correct": 0,
+      "exp": "The physical C# classes parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical MonoBehaviour methods in a 3D coordinate space?",
+      "opts": [
+        "Default C# classes",
+        "Aesthetic MonoBehaviour methods",
+        "Standard Start() vs Update()",
+        "Custom Input.GetAxis() vector"
+      ],
+      "correct": 1,
+      "exp": "The physical MonoBehaviour methods parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Start() vs Update() in a 3D coordinate space?",
+      "opts": [
+        "Default C# classes",
+        "Aesthetic MonoBehaviour methods",
+        "Standard Start() vs Update()",
+        "Custom Input.GetAxis() vector"
+      ],
+      "correct": 2,
+      "exp": "The physical Start() vs Update() parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Input.GetAxis() vector in a 3D coordinate space?",
+      "opts": [
+        "Default C# classes",
+        "Aesthetic MonoBehaviour methods",
+        "Standard Start() vs Update()",
+        "Custom Input.GetAxis() vector"
+      ],
+      "correct": 3,
+      "exp": "The physical Input.GetAxis() vector parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical C# classes in a 3D coordinate space?",
+      "opts": [
+        "Default C# classes",
+        "Aesthetic MonoBehaviour methods",
+        "Standard Start() vs Update()",
+        "Custom Input.GetAxis() vector"
+      ],
+      "correct": 0,
+      "exp": "The physical C# classes parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical MonoBehaviour methods in a 3D coordinate space?",
+      "opts": [
+        "Default C# classes",
+        "Aesthetic MonoBehaviour methods",
+        "Standard Start() vs Update()",
+        "Custom Input.GetAxis() vector"
+      ],
+      "correct": 1,
+      "exp": "The physical MonoBehaviour methods parameter manages layout alignments in 3D Unity worlds."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "C# Player Translation script",
+      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
+    },
+    {
+      "title": "Trigger Collider Event handler",
+      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
+    }
+  ]
+}

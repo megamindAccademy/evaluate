@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 6: Game Sound & Standing Standalones",
+  "questions": [
+    {
+      "q": "Which Unity component defines the physical AudioSource play in a 3D coordinate space?",
+      "opts": [
+        "Default AudioSource play",
+        "Aesthetic Particle systems VFX",
+        "Standard Standalone PC Builds",
+        "Custom Project exporters"
+      ],
+      "correct": 0,
+      "exp": "The physical AudioSource play parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Particle systems VFX in a 3D coordinate space?",
+      "opts": [
+        "Default AudioSource play",
+        "Aesthetic Particle systems VFX",
+        "Standard Standalone PC Builds",
+        "Custom Project exporters"
+      ],
+      "correct": 1,
+      "exp": "The physical Particle systems VFX parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Standalone PC Builds in a 3D coordinate space?",
+      "opts": [
+        "Default AudioSource play",
+        "Aesthetic Particle systems VFX",
+        "Standard Standalone PC Builds",
+        "Custom Project exporters"
+      ],
+      "correct": 2,
+      "exp": "The physical Standalone PC Builds parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Project exporters in a 3D coordinate space?",
+      "opts": [
+        "Default AudioSource play",
+        "Aesthetic Particle systems VFX",
+        "Standard Standalone PC Builds",
+        "Custom Project exporters"
+      ],
+      "correct": 3,
+      "exp": "The physical Project exporters parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical AudioSource play in a 3D coordinate space?",
+      "opts": [
+        "Default AudioSource play",
+        "Aesthetic Particle systems VFX",
+        "Standard Standalone PC Builds",
+        "Custom Project exporters"
+      ],
+      "correct": 0,
+      "exp": "The physical AudioSource play parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Particle systems VFX in a 3D coordinate space?",
+      "opts": [
+        "Default AudioSource play",
+        "Aesthetic Particle systems VFX",
+        "Standard Standalone PC Builds",
+        "Custom Project exporters"
+      ],
+      "correct": 1,
+      "exp": "The physical Particle systems VFX parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Standalone PC Builds in a 3D coordinate space?",
+      "opts": [
+        "Default AudioSource play",
+        "Aesthetic Particle systems VFX",
+        "Standard Standalone PC Builds",
+        "Custom Project exporters"
+      ],
+      "correct": 2,
+      "exp": "The physical Standalone PC Builds parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Project exporters in a 3D coordinate space?",
+      "opts": [
+        "Default AudioSource play",
+        "Aesthetic Particle systems VFX",
+        "Standard Standalone PC Builds",
+        "Custom Project exporters"
+      ],
+      "correct": 3,
+      "exp": "The physical Project exporters parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical AudioSource play in a 3D coordinate space?",
+      "opts": [
+        "Default AudioSource play",
+        "Aesthetic Particle systems VFX",
+        "Standard Standalone PC Builds",
+        "Custom Project exporters"
+      ],
+      "correct": 0,
+      "exp": "The physical AudioSource play parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Particle systems VFX in a 3D coordinate space?",
+      "opts": [
+        "Default AudioSource play",
+        "Aesthetic Particle systems VFX",
+        "Standard Standalone PC Builds",
+        "Custom Project exporters"
+      ],
+      "correct": 1,
+      "exp": "The physical Particle systems VFX parameter manages layout alignments in 3D Unity worlds."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "C# Player Translation script",
+      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
+    },
+    {
+      "title": "Trigger Collider Event handler",
+      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
+    }
+  ]
+}

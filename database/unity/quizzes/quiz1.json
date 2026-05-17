@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 1: Editor Basics & 3D Space",
+  "questions": [
+    {
+      "q": "Which Unity component defines the physical GameObject in a 3D coordinate space?",
+      "opts": [
+        "Default GameObject",
+        "Aesthetic Transform coordinates",
+        "Standard 3D Camera viewport",
+        "Custom RigidBody physical gravity"
+      ],
+      "correct": 0,
+      "exp": "The physical GameObject parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Transform coordinates in a 3D coordinate space?",
+      "opts": [
+        "Default GameObject",
+        "Aesthetic Transform coordinates",
+        "Standard 3D Camera viewport",
+        "Custom RigidBody physical gravity"
+      ],
+      "correct": 1,
+      "exp": "The physical Transform coordinates parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical 3D Camera viewport in a 3D coordinate space?",
+      "opts": [
+        "Default GameObject",
+        "Aesthetic Transform coordinates",
+        "Standard 3D Camera viewport",
+        "Custom RigidBody physical gravity"
+      ],
+      "correct": 2,
+      "exp": "The physical 3D Camera viewport parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical RigidBody physical gravity in a 3D coordinate space?",
+      "opts": [
+        "Default GameObject",
+        "Aesthetic Transform coordinates",
+        "Standard 3D Camera viewport",
+        "Custom RigidBody physical gravity"
+      ],
+      "correct": 3,
+      "exp": "The physical RigidBody physical gravity parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical GameObject in a 3D coordinate space?",
+      "opts": [
+        "Default GameObject",
+        "Aesthetic Transform coordinates",
+        "Standard 3D Camera viewport",
+        "Custom RigidBody physical gravity"
+      ],
+      "correct": 0,
+      "exp": "The physical GameObject parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Transform coordinates in a 3D coordinate space?",
+      "opts": [
+        "Default GameObject",
+        "Aesthetic Transform coordinates",
+        "Standard 3D Camera viewport",
+        "Custom RigidBody physical gravity"
+      ],
+      "correct": 1,
+      "exp": "The physical Transform coordinates parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical 3D Camera viewport in a 3D coordinate space?",
+      "opts": [
+        "Default GameObject",
+        "Aesthetic Transform coordinates",
+        "Standard 3D Camera viewport",
+        "Custom RigidBody physical gravity"
+      ],
+      "correct": 2,
+      "exp": "The physical 3D Camera viewport parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical RigidBody physical gravity in a 3D coordinate space?",
+      "opts": [
+        "Default GameObject",
+        "Aesthetic Transform coordinates",
+        "Standard 3D Camera viewport",
+        "Custom RigidBody physical gravity"
+      ],
+      "correct": 3,
+      "exp": "The physical RigidBody physical gravity parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical GameObject in a 3D coordinate space?",
+      "opts": [
+        "Default GameObject",
+        "Aesthetic Transform coordinates",
+        "Standard 3D Camera viewport",
+        "Custom RigidBody physical gravity"
+      ],
+      "correct": 0,
+      "exp": "The physical GameObject parameter manages layout alignments in 3D Unity worlds."
+    },
+    {
+      "q": "Which Unity component defines the physical Transform coordinates in a 3D coordinate space?",
+      "opts": [
+        "Default GameObject",
+        "Aesthetic Transform coordinates",
+        "Standard 3D Camera viewport",
+        "Custom RigidBody physical gravity"
+      ],
+      "correct": 1,
+      "exp": "The physical Transform coordinates parameter manages layout alignments in 3D Unity worlds."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "C# Player Translation script",
+      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
+    },
+    {
+      "title": "Trigger Collider Event handler",
+      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
+    }
+  ]
+}

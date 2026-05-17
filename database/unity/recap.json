@@ -1,0 +1,557 @@
+{
+  "course": "Unity Game Development 🕹️",
+  "sessions": [
+    {
+      "session_title": "💡 Session 1: Level 1 Session 1 - Unity Game Dev",
+      "targets": [
+        "Understand Level 1 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 1 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 1 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 2: Level 1 Session 2 - Unity Game Dev",
+      "targets": [
+        "Understand Level 1 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 1 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 1 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 3: Level 1 Session 3 - Unity Game Dev",
+      "targets": [
+        "Understand Level 1 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 1 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 1 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 4: Level 1 Session 4 - Unity Game Dev",
+      "targets": [
+        "Understand Level 1 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 1 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 1 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 5: Level 2 Session 1 - Unity Game Dev",
+      "targets": [
+        "Understand Level 2 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 2 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 2 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 6: Level 2 Session 2 - Unity Game Dev",
+      "targets": [
+        "Understand Level 2 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 2 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 2 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 7: Level 2 Session 3 - Unity Game Dev",
+      "targets": [
+        "Understand Level 2 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 2 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 2 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 8: Level 2 Session 4 - Unity Game Dev",
+      "targets": [
+        "Understand Level 2 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 2 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 2 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 9: Level 3 Session 1 - Unity Game Dev",
+      "targets": [
+        "Understand Level 3 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 3 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 3 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 10: Level 3 Session 2 - Unity Game Dev",
+      "targets": [
+        "Understand Level 3 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 3 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 3 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 11: Level 3 Session 3 - Unity Game Dev",
+      "targets": [
+        "Understand Level 3 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 3 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 3 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 12: Level 3 Session 4 - Unity Game Dev",
+      "targets": [
+        "Understand Level 3 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 3 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 3 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 13: Level 4 Session 1 - Unity Game Dev",
+      "targets": [
+        "Understand Level 4 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 4 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 4 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 14: Level 4 Session 2 - Unity Game Dev",
+      "targets": [
+        "Understand Level 4 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 4 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 4 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 15: Level 4 Session 3 - Unity Game Dev",
+      "targets": [
+        "Understand Level 4 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 4 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 4 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 16: Level 4 Session 4 - Unity Game Dev",
+      "targets": [
+        "Understand Level 4 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 4 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 4 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 17: Level 5 Session 1 - Unity Game Dev",
+      "targets": [
+        "Understand Level 5 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 5 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 5 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 18: Level 5 Session 2 - Unity Game Dev",
+      "targets": [
+        "Understand Level 5 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 5 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 5 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 19: Level 5 Session 3 - Unity Game Dev",
+      "targets": [
+        "Understand Level 5 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 5 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 5 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 20: Level 5 Session 4 - Unity Game Dev",
+      "targets": [
+        "Understand Level 5 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 5 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 5 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 21: Level 6 Session 1 - Unity Game Dev",
+      "targets": [
+        "Understand Level 6 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 6 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 6 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 22: Level 6 Session 2 - Unity Game Dev",
+      "targets": [
+        "Understand Level 6 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 6 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 6 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 23: Level 6 Session 3 - Unity Game Dev",
+      "targets": [
+        "Understand Level 6 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 6 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 6 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 24: Level 6 Session 4 - Unity Game Dev",
+      "targets": [
+        "Understand Level 6 Mechanics",
+        "Apply Unity C# variables",
+        "Polish game coordinates"
+      ],
+      "blocks": [
+        "GameObject",
+        "MonoBehaviour",
+        "Translate()",
+        "Vector3"
+      ],
+      "project": "Level 6 Custom Game Sandbox",
+      "points": [
+        {
+          "icon": "🕹️",
+          "title": "Unity Level 6 Core Concept",
+          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.",
+          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+        }
+      ]
+    }
+  ]
+}
