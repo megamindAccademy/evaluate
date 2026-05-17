@@ -1,0 +1,269 @@
+{
+  "course": "UI-UX Design 🎨",
+  "sessions": [
+    {
+      "session_title": "💡 Session 1: Visual Layout Principles",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Visual Layout Principles Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Visual Layout Principles",
+          "desc": "Applying typography hierarchy, color psychology, and contrast to screen canvases.",
+          "example": "Curated Outfit fonts"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 2: Information Architecture",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Information Architecture Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Information Architecture",
+          "desc": "Creating sitemap trees and navigating menus logically to improve UX flow.",
+          "example": "Main menu sitemaps"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 3: Interactive User Flows",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Interactive User Flows Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Interactive User Flows",
+          "desc": "Mapping out the steps a visitor takes from product selection to purchase confirmation.",
+          "example": "Decision node flowcharts"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 4: Low-Fidelity Wireframes",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Low-Fidelity Wireframes Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Low-Fidelity Wireframes",
+          "desc": "Sketching simple page skeletons to plan content placement without visual clutter.",
+          "example": "Paper sketches"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 5: Figma Canvas Setup",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Figma Canvas Setup Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Figma Canvas Setup",
+          "desc": "Navigating the Figma interface, drawing vector shapes, and layering text.",
+          "example": "iPhone 15 frame layers"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 6: Responsive layout Grids",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Responsive layout Grids Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Responsive layout Grids",
+          "desc": "Setting columns and gutters to align interface blocks neatly across devices.",
+          "example": "Mobile 4-column alignment"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 7: Figma Auto-Layout",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Figma Auto-Layout Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Figma Auto-Layout",
+          "desc": "Applying responsive resizing rules (Hug Contents vs Fill Container) to elements.",
+          "example": "Auto-expanding buttons"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 8: Reusable Components",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Reusable Components Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Reusable Components",
+          "desc": "Designing Master elements and variants to speed up layout consistency.",
+          "example": "Variant button styles"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 9: Interactive Prototypes",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Interactive Prototypes Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Interactive Prototypes",
+          "desc": "Linking screens with hover and click triggers to simulate actual apps.",
+          "example": "Screen-to-screen routing"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 10: Sleek Smart Animation",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Sleek Smart Animation Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Sleek Smart Animation",
+          "desc": "Smoothing page transitions and floating menus using Smart Animate.",
+          "example": "Dynamic loader bars"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 11: Real Usability Testing",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Real Usability Testing Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Real Usability Testing",
+          "desc": "Observing users interact with prototypes to identify navigation friction points.",
+          "example": "Task completion audits"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 12: Capstone Presentation",
+      "targets": [
+        "Analyze user habits",
+        "Create design frames",
+        "Prototype smooth transitions"
+      ],
+      "blocks": [
+        "figma_frame",
+        "auto_layout",
+        "smart_animate"
+      ],
+      "project": "Capstone Presentation Design Portfolio Page",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "Capstone Presentation",
+          "desc": "Assembling a complete high-fidelity app showcase and portfolio case study.",
+          "example": "Finished UX Case Study"
+        }
+      ]
+    }
+  ]
+}

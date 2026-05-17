@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 3: Interactive Inputs & Events",
+  "questions": [
+    {
+      "q": "Which component handles standard 'Button Triggers' properties in UI-UX Design?",
+      "opts": [
+        "Aesthetic Button Triggers Controller",
+        "Default Button Triggers Interface",
+        "Custom Button Triggers Data Handler",
+        "Standard Button Triggers Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'Button Triggers' component is designed to manage functional Button Triggers layers inside the UI-UX Design framework."
+    },
+    {
+      "q": "Which component handles standard 'User input fields' properties in UI-UX Design?",
+      "opts": [
+        "Aesthetic User input fields Controller",
+        "Default User input fields Interface",
+        "Custom User input fields Data Handler",
+        "Standard User input fields Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'User input fields' component is designed to manage functional User input fields layers inside the UI-UX Design framework."
+    },
+    {
+      "q": "Which component handles standard 'Event listening' properties in UI-UX Design?",
+      "opts": [
+        "Aesthetic Event listening Controller",
+        "Default Event listening Interface",
+        "Custom Event listening Data Handler",
+        "Standard Event listening Wrapper"
+      ],
+      "correct": 2,
+      "exp": "The 'Event listening' component is designed to manage functional Event listening layers inside the UI-UX Design framework."
+    },
+    {
+      "q": "Which component handles standard 'Data handlers' properties in UI-UX Design?",
+      "opts": [
+        "Aesthetic Data handlers Controller",
+        "Default Data handlers Interface",
+        "Custom Data handlers Data Handler",
+        "Standard Data handlers Wrapper"
+      ],
+      "correct": 3,
+      "exp": "The 'Data handlers' component is designed to manage functional Data handlers layers inside the UI-UX Design framework."
+    },
+    {
+      "q": "Which component handles standard 'Button Triggers' properties in UI-UX Design?",
+      "opts": [
+        "Aesthetic Button Triggers Controller",
+        "Default Button Triggers Interface",
+        "Custom Button Triggers Data Handler",
+        "Standard Button Triggers Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'Button Triggers' component is designed to manage functional Button Triggers layers inside the UI-UX Design framework."
+    },
+    {
+      "q": "Which component handles standard 'User input fields' properties in UI-UX Design?",
+      "opts": [
+        "Aesthetic User input fields Controller",
+        "Default User input fields Interface",
+        "Custom User input fields Data Handler",
+        "Standard User input fields Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'User input fields' component is designed to manage functional User input fields layers inside the UI-UX Design framework."
+    },
+    {
+      "q": "Which component handles standard 'Event listening' properties in UI-UX Design?",
+      "opts": [
+        "Aesthetic Event listening Controller",
+        "Default Event listening Interface",
+        "Custom Event listening Data Handler",
+        "Standard Event listening Wrapper"
+      ],
+      "correct": 2,
+      "exp": "The 'Event listening' component is designed to manage functional Event listening layers inside the UI-UX Design framework."
+    },
+    {
+      "q": "Which component handles standard 'Data handlers' properties in UI-UX Design?",
+      "opts": [
+        "Aesthetic Data handlers Controller",
+        "Default Data handlers Interface",
+        "Custom Data handlers Data Handler",
+        "Standard Data handlers Wrapper"
+      ],
+      "correct": 3,
+      "exp": "The 'Data handlers' component is designed to manage functional Data handlers layers inside the UI-UX Design framework."
+    },
+    {
+      "q": "Which component handles standard 'Button Triggers' properties in UI-UX Design?",
+      "opts": [
+        "Aesthetic Button Triggers Controller",
+        "Default Button Triggers Interface",
+        "Custom Button Triggers Data Handler",
+        "Standard Button Triggers Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'Button Triggers' component is designed to manage functional Button Triggers layers inside the UI-UX Design framework."
+    },
+    {
+      "q": "Which component handles standard 'User input fields' properties in UI-UX Design?",
+      "opts": [
+        "Aesthetic User input fields Controller",
+        "Default User input fields Interface",
+        "Custom User input fields Data Handler",
+        "Standard User input fields Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'User input fields' component is designed to manage functional User input fields layers inside the UI-UX Design framework."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Implement Button Triggers Logic",
+      "desc": "Write a clean code snippet or blueprint implementing the standard Button Triggers properties inside the UI-UX Design setup."
+    },
+    {
+      "title": "Optimize User input fields Performance",
+      "desc": "Briefly explain the best practice guidelines to optimize User input fields operations for user-centered design."
+    }
+  ]
+}
