@@ -4405,4 +4405,185 @@ code {
     box-shadow: 0 8px 20px rgba(251,133,0,0.3);
 }
 
+/* Student Studio Premium Workspace Tabs */
+.studio-tab-header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #edf2f7;
+    padding-bottom: 10px;
+}
+
+.studio-tab-btn {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 12px;
+    border: 2px solid #cbd5e1;
+    background: #f8fafc;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.studio-tab-btn:hover {
+    background: #e2e8f0;
+    border-color: var(--primary);
+    color: var(--primary-dark);
+}
+
+.studio-tab-btn.active {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: var(--white);
+    border-color: var(--primary);
+    box-shadow: 0 4px 12px rgba(255, 123, 0, 0.25);
+}
+
+.studio-tab-content {
+    display: none;
+    animation: fadeInTab 0.4s ease;
+}
+
+.studio-tab-content.active {
+    display: block;
+}
+
+@keyframes fadeInTab {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Premium Custom Game Styling Inside Tabs */
+.game-container-card {
+    background: #ffffff;
+    border: 4px solid var(--tertiary);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(33, 158, 188, 0.1);
+}
+
+.game-title-premium {
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: var(--tertiary-dark);
+    margin-bottom: 15px;
+    border-bottom: 2px dashed var(--tertiary);
+    padding-bottom: 10px;
+}
+
+.game-play-area {
+    min-height: 200px;
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 14px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.game-xp-status-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #475569;
+    padding: 10px;
+    background: rgba(33, 158, 188, 0.05);
+    border-radius: 10px;
+}
+
+.game-xp-progress-bg {
+    flex-grow: 1;
+    height: 12px;
+    background: #e2e8f0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.game-xp-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #06d6a0, #219ebc);
+    width: 0%;
+    transition: width 0.5s ease;
+}
+
+/* Premium Gold-bordered Homework Card */
+.homework-card-gold {
+    border: 3px solid #ffb703;
+    background: linear-gradient(135deg, rgba(255, 183, 3, 0.08) 0%, rgba(251, 133, 0, 0.05) 100%);
+    box-shadow: 0 10px 30px rgba(255, 183, 3, 0.15);
+    border-radius: 20px;
+    padding: 25px;
+    position: relative;
+    overflow: hidden;
+    animation: goldGlowPulse 3s infinite alternate;
+}
+
+@keyframes goldGlowPulse {
+    0% { box-shadow: 0 10px 30px rgba(255, 183, 3, 0.15); }
+    100% { box-shadow: 0 10px 35px rgba(255, 183, 3, 0.28); }
+}
+
+.homework-card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.homework-card-icon {
+    font-size: 2rem;
+    background: #ffb703;
+    color: #023047;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(255, 183, 3, 0.4);
+}
+
+.homework-card-title {
+    font-size: 1.55rem;
+    font-weight: 900;
+    color: #ffb703;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(2, 48, 71, 0.8);
+}
+
+.homework-card-desc {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #023047;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.homework-code-container {
+    margin-bottom: 20px;
+}
+
+.homework-alert-banner {
+    padding: 12px;
+    background: rgba(6, 214, 160, 0.12);
+    border: 2px dashed #06d6a0;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    color: #06d6a0;
+    font-weight: bold;
+    text-align: center;
+}
+
+
 

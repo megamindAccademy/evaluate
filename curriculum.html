@@ -229,40 +229,86 @@
 
             <div class="studio-grid">
                 
-                <!-- Left Panel: Mascot Coach & Explanations -->
+                <!-- Left Panel: Mascot Coach, Games & Homework Tabs -->
                 <div class="studio-left">
-                    <div class="mascot-guide-box">
-                        <img src="./assets/navbar_logo.png" alt="المرشد الذكي" class="mascot-guide-img">
-                        <div class="mascot-speech">
-                            <div class="mascot-name">🤖 الروبوت المرشد (بايثون-كوتش):</div>
-                            <div class="mascot-text" id="coachLessonText">
-                                جاري تحميل قصة وشرح المحطة...
+                    <!-- Tab Navigation Header -->
+                    <div class="studio-tab-header">
+                        <button class="studio-tab-btn active" data-tab="tab-story">📘 الشرح والتحدي</button>
+                        <button class="studio-tab-btn" data-tab="tab-game">🎮 اللعبة التفاعلية</button>
+                        <button class="studio-tab-btn" data-tab="tab-homework">📝 الواجب الذهبي</button>
+                    </div>
+
+                    <!-- Tab 1: Story & Challenge -->
+                    <div class="studio-tab-content active" id="tab-story">
+                        <div class="mascot-guide-box">
+                            <img src="./assets/navbar_logo.png" alt="المرشد الذكي" class="mascot-guide-img">
+                            <div class="mascot-speech">
+                                <div class="mascot-name">🤖 الروبوت المرشد (بايثون-كوتش):</div>
+                                <div class="mascot-text" id="coachLessonText">
+                                    جاري تحميل قصة وشرح المحطة...
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="studio-actions-row">
+                            <button class="btn-explain-simple" id="btnExplainSimple">
+                                <span>💡 اشرحلي بالعامية / بسطها لي!</span>
+                            </button>
+                            <button class="btn-magic-hint" id="btnMagicHint">
+                                <span>✨ تلميح سحري للمساعدة</span>
+                            </button>
+                        </div>
+
+                        <!-- Hint & Simple Explanation Display Box -->
+                        <div class="hint-display-box" id="hintDisplayBox">
+                            <div class="hint-title" id="hintTitleText">💡 التبسيط العامي:</div>
+                            <div class="hint-content" id="hintContentText">محتوى التبسيط يظهر هنا...</div>
+                        </div>
+
+                        <!-- Target Challenge Box -->
+                        <div class="challenge-box">
+                            <span class="challenge-badge">🎯 التحدي المطلوب لإنجاز المحطة</span>
+                            <h3 class="challenge-title">مهمتك السحرية في هذه المحطة:</h3>
+                            <p class="challenge-desc" id="challengeDescText">
+                                جاري تحميل التحدي المطلوب...
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tab 2: Interactive Game -->
+                    <div class="studio-tab-content" id="tab-game">
+                        <div class="game-container-card">
+                            <h3 class="game-title-premium" id="studioGameTitle">🎮 اللعبة التفاعلية المخصصة للمحطة</h3>
+                            <div class="game-play-area" id="studioGamePlayArea">
+                                <!-- Dynamic interactive game is loaded here! -->
+                            </div>
+                            <div class="game-xp-status-bar">
+                                <span>مستوى إنجاز اللعبة:</span>
+                                <div class="game-xp-progress-bg">
+                                    <div class="game-xp-progress-fill" id="studioGameXpProgress" style="width: 0%;"></div>
+                                </div>
+                                <span id="studioGameXpText">0 / 100 XP</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="studio-actions-row">
-                        <button class="btn-explain-simple" id="btnExplainSimple">
-                            <span>💡 اشرحلي بالعامية / بسطها لي!</span>
-                        </button>
-                        <button class="btn-magic-hint" id="btnMagicHint">
-                            <span>✨ تلميح سحري للمساعدة</span>
-                        </button>
-                    </div>
-
-                    <!-- Hint & Simple Explanation Display Box -->
-                    <div class="hint-display-box" id="hintDisplayBox">
-                        <div class="hint-title" id="hintTitleText">💡 التبسيط العامي:</div>
-                        <div class="hint-content" id="hintContentText">محتوى التبسيط يظهر هنا...</div>
-                    </div>
-
-                    <!-- Target Challenge Box -->
-                    <div class="challenge-box">
-                        <span class="challenge-badge">🎯 التحدي المطلوب لإنجاز المحطة</span>
-                        <h3 class="challenge-title">مهمتك السحرية في هذه المحطة:</h3>
-                        <p class="challenge-desc" id="challengeDescText">
-                            جاري تحميل التحدي المطلوب...
-                        </p>
+                    <!-- Tab 3: Gold Homework Card -->
+                    <div class="studio-tab-content" id="tab-homework">
+                        <div class="homework-card-gold">
+                            <div class="homework-card-header">
+                                <span class="homework-card-icon">👑</span>
+                                <h3 class="homework-card-title" id="studioHomeworkTitle">📝 التحدي المنزلي الذهبي الخارق</h3>
+                            </div>
+                            <p class="homework-card-desc" id="studioHomeworkDesc">
+                                جاري تحميل تفاصيل الواجب المنزلي...
+                            </p>
+                            <div class="homework-code-container" id="studioHomeworkCodeBox">
+                                <!-- Starter code for homework -->
+                            </div>
+                            <div class="homework-alert-banner">
+                                💡 تذكر يا بطل إرسال الواجب فور انتهائك منه لتقييمه والحصول على نقاط تفوق إضافية! 🌟
+                            </div>
+                        </div>
                     </div>
                 </div>
 
