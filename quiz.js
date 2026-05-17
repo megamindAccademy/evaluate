@@ -210,6 +210,31 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch(e) { console.error("Error parsing saved student info", e); }
     }
 
+    // Determine course and student info from URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    currentCourse = urlParams.get('course') || 'python';
+
+    const urlStudent = urlParams.get('student') || urlParams.get('studentName') || urlParams.get('student_name') || urlParams.get('name') || urlParams.get('طالب') || urlParams.get('اسم_الطالب');
+    const urlGroup = urlParams.get('group') || urlParams.get('groupName') || urlParams.get('group_name') || urlParams.get('groupNum') || urlParams.get('group_num') || urlParams.get('مجموعة') || urlParams.get('رقم_المجموعة');
+    const urlTeacher = urlParams.get('teacher') || urlParams.get('teacherName') || urlParams.get('teacher_name') || urlParams.get('engineer') || urlParams.get('engineerName') || urlParams.get('engineer_name') || urlParams.get('مهندس') || urlParams.get('اسم_المهندس') || urlParams.get('مدرس');
+
+    if (urlStudent) {
+        studentInfo.name = urlStudent;
+        if (studentNameInputEl) studentNameInputEl.value = urlStudent;
+    }
+    if (urlGroup) {
+        studentInfo.group = urlGroup;
+        if (groupNameInputEl) groupNameInputEl.value = urlGroup;
+    }
+    if (urlTeacher) {
+        studentInfo.teacher = urlTeacher;
+        if (teacherNameInputEl) teacherNameInputEl.value = urlTeacher;
+    }
+
+    if (urlStudent || urlGroup || urlTeacher) {
+        localStorage.setItem('megaminds_student_info', JSON.stringify(studentInfo));
+    }
+
     const btnStartQuiz = document.getElementById('btnStartQuiz');
     if (btnStartQuiz) {
         btnStartQuiz.addEventListener('click', startRandomQuiz);
@@ -231,10 +256,6 @@ document.addEventListener('DOMContentLoaded', () => {
         btnRetryEl.addEventListener('click', restartQuizFlow);
     }
 
-    // Determine course from URL parameter
-    const urlParams = new URLSearchParams(window.location.search);
-    currentCourse = urlParams.get('course') || 'python';
-
     // Fetch Course Manifest from Database
     fetch(`./database/${currentCourse}/manifest.json`)
         .then(response => {
@@ -252,8 +273,13 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(recap => {
             recapData = recap;
-            // Initially show registration screen
-            showView(viewRegistration);
+            // If URL parameters were provided and student info is fully populated, skip registration screen and go directly to recap screen where they click Start directly!
+            if ((urlStudent || urlGroup || urlTeacher) && studentInfo.name && studentInfo.group && studentInfo.teacher) {
+                initRecapScreen();
+            } else {
+                // Initially show registration screen
+                showView(viewRegistration);
+            }
         })
         .catch(error => {
             console.error('Error loading database JSON:', error);
@@ -666,19 +692,28 @@ function showResultScreen() {
     submissions.push(submissionData);
     localStorage.setItem('megaminds_submissions', JSON.stringify(submissions));
 
-    // Hide score number, score box, engineer portal container, retry button, and print button
+    // Hide score number, score box, engineer portal container, retry button, print button, back home buttons, and result actions container
     if (resultScoreNumEl) resultScoreNumEl.style.display = 'none';
     const scoreBoxEl = document.querySelector('.result-score-box');
     if (scoreBoxEl) scoreBoxEl.style.display = 'none';
     if (engineerPortalContainerEl) engineerPortalContainerEl.style.display = 'none';
     if (btnPrintReportEl) btnPrintReportEl.style.display = 'none';
     if (btnRetryEl) btnRetryEl.style.display = 'none';
+    const btnResultBackHomeEl = document.getElementById('btnResultBackHome');
+    if (btnResultBackHomeEl) btnResultBackHomeEl.style.display = 'none';
+    const resultActionsEl = document.getElementById('resultActions');
+    if (resultActionsEl) resultActionsEl.style.display = 'none';
+    const btnBackHomeEl = document.getElementById('btnBackHome');
+    if (btnBackHomeEl) btnBackHomeEl.style.display = 'none';
 
     // Display beautiful celebratory pampering message telling student their teacher will review
     if (resultMsgEl) {
         resultMsgEl.innerHTML = `
-            <div class="success-banner" style="font-size: 2.6rem; color: var(--primary); margin-bottom: 25px;">
-                🎉 تم إرسال إجاباتك ومهامك السحرية بنجاح يا بطل! 🎉
+            <div class="success-banner" style="font-size: 2.8rem; color: var(--primary); margin-bottom: 25px; font-weight: 900;">
+                🎉 تم الإرسال بنجاح! 🎉
+            </div>
+            <div class="success-subbanner" style="font-size: 2.2rem; color: var(--tertiary-dark); margin-bottom: 25px;">
+                تم إرسال إجاباتك ومهامك السحرية يا بطل! 🚀
             </div>
             <div class="teacher-notice" style="font-size: 1.8rem; color: var(--tertiary-dark); background: var(--bg-gradient-2); padding: 30px; border-radius: var(--radius-md); border: 3px solid var(--tertiary); margin-bottom: 30px; line-height: 1.8;">
                 سيقوم المهندس المشرف <strong>${studentInfo.teacher || 'الخاص بك'}</strong> بمراجعة وتقييم إجاباتك وإبداعاتك البرمجية وإبلاغك بالنتيجة النهائية قريباً في مجموعة <strong>${studentInfo.group || 'الكورس'}</strong>!
