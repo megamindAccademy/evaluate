@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المناهج التفاعلية - منهج بايثون للأبطال | Megaminds Academy</title>
+    <meta name="description" content="منهج بايثون التفاعلي للأطفال والمراهقين من أكاديمية ميجامايندز. تعلم البرمجة من خلال مغامرات شيقة، تجارب حية، ومحاكي فوري للأكواد مع نظام أوسمة ومكافآت.">
+    <meta name="keywords" content="منهج بايثون, تعليم البرمجة للأطفال, بايثون التفاعلي, ميجامايندز, العاب برمجة, سلحفاة بايثون">
+    <meta name="author" content="Megaminds Academy">
+    
+    <!-- External CSS & Fonts -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!-- Floating Background Bubbles for Childish Playful Vibe -->
+    <div class="bg-bubbles" aria-hidden="true">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="app-header" id="mainHeader">
+        <a href="./index.html" class="logo-container" aria-label="موقع أكاديمية ميجامايندز">
+            <img src="./assets/navbar_logo.png" alt="شعار أكاديمية ميجامايندز" class="logo-icon">
+            <span class="logo-text">أكاديمية ميجامايندز</span>
+        </a>
+        <div class="header-actions" style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
+            <a href="./index.html" class="btn-engineer-portal" style="background: var(--bg-gradient-2); color: var(--tertiary); padding: 10px 20px; border-radius: 30px; font-weight: 900; font-size: 1.4rem; text-decoration: none; border: 3px solid var(--tertiary); transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 6px;">
+                <span>🏠 الرئيسية</span>
+            </a>
+            <a href="./engineer.html" class="btn-engineer-portal" style="background: linear-gradient(135deg, #fb8500, #ffb703); color: #023047; padding: 10px 20px; border-radius: 30px; font-weight: 900; font-size: 1.4rem; text-decoration: none; box-shadow: 0 5px 15px rgba(251, 133, 0, 0.3); transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 6px;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                <span>👨‍🏫 بوابة المهندسين</span>
+            </a>
+            <div class="header-badge" id="headerBadge" style="background: linear-gradient(45deg, #8338ec, #ff006e); color: #fff; box-shadow: 0 6px 18px rgba(131, 56, 236, 0.35);">
+                <span>📚 المناهج التفاعلية</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="curriculum-main-container" id="curriculumMainContent">
+        
+        <!-- Curriculum Hero Banner -->
+        <section class="curriculum-hero">
+            <div class="curriculum-hero-bg-shapes"></div>
+            <div class="curriculum-hero-content">
+                <span class="curriculum-badge">🌟 المنهج التفاعلي المطور 🌟</span>
+                <h1 class="curriculum-title">جزيرة بايثون السحرية (Python Island)</h1>
+                <p class="curriculum-desc">
+                    مرحباً بك في أمتع رحلة لتعلم لغة بايثون! هنا لن تقرأ فقط، بل ستعيش المغامرة وتكتب الأكواد السحرية بنفسك وتشاهد نتيجتها فوراً. افتح المحطات، اجمع الأوسمة، واصنع ألعابك ورسوماتك الخاصة لتصبح مبرمجاً خارقاً!
+                </p>
+            </div>
+            <img src="./assets/megaminds_mascot.png" alt="شخصية ميجامايندز الكرتونية" class="curriculum-hero-mascot">
+        </section>
+
+        <!-- Gamification Overview Bar -->
+        <section class="gamification-bar" aria-label="شريط التقدم والأوسمة">
+            <div class="xp-container">
+                <div class="xp-icon">⚡</div>
+                <div class="xp-details">
+                    <div class="xp-title">
+                        <span>مستوى الطاقة والخبرة (XP):</span>
+                        <span id="xpCountText">0 / 600 XP</span>
+                    </div>
+                    <div class="xp-progress-bg" aria-hidden="true">
+                        <div class="xp-progress-fill" id="xpProgressBar"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="badges-showcase" id="badgesShowcase">
+                <div class="badge-item" id="badge_1" title="وسام الصندوق السحري (المتغيرات)">📦</div>
+                <div class="badge-item" id="badge_2" title="وسام الحاسب الذكي (العمليات الحسابية)">🔢</div>
+                <div class="badge-item" id="badge_3" title="وسام حارس البوابة (الشروط If/Else)">🚦</div>
+                <div class="badge-item" id="badge_4" title="وسام سيد التكرار (الحلقات Loops)">🔄</div>
+                <div class="badge-item" id="badge_5" title="وسام فنان السلحفاة (الرسم Turtle)">🐢</div>
+                <div class="badge-item" id="badge_6" title="وسام مطور الألعاب (لعبة Ping Pong)">🏓</div>
+            </div>
+
+            <button class="btn-claim-cert" id="btnClaimCert">
+                <span>🏆 عرض شهادة الإنجاز الخارقة! 🚀</span>
+            </button>
+        </section>
+
+        <!-- Journey Map Section -->
+        <section class="journey-section" id="journeySection">
+            <div class="journey-header">
+                <h2 class="journey-title">🗺️ خريطة محطات جزيرة بايثون</h2>
+                <p class="journey-subtitle">اضغط على المحطة المتاحة لتبدأ التحدي وتكتسب المهارات السحرية</p>
+            </div>
+
+            <div class="journey-grid" id="journeyGrid">
+                <!-- Station 1 -->
+                <article class="station-card active" id="station_1" data-station="1">
+                    <span class="station-badge">متاح الآن 🌟</span>
+                    <div class="station-number-icon">📦</div>
+                    <h3 class="station-title">المحطة 1: صندوق المتغيرات السحري</h3>
+                    <p class="station-desc">تعلم كيف تخزن الكلمات والأرقام داخل صناديق سحرية (Variables) وكيف تجعل بايثون يتحدث باستخدام أمر الطباعة (print).</p>
+                    <button class="station-btn"><span>ابدأ المغامرة 🚀</span></button>
+                </article>
+
+                <!-- Station 2 -->
+                <article class="station-card locked" id="station_2" data-station="2">
+                    <span class="station-badge">مغلق 🔒</span>
+                    <div class="station-number-icon">🔢</div>
+                    <h3 class="station-title">المحطة 2: آلة الحساب الذكية</h3>
+                    <p class="station-desc">اكتشف كيف تحول بايثون إلى أذكى وأسرع آلة حاسبة في العالم لجمع وطرح وضرب الأرقام الضخمة في ثانية واحدة!</p>
+                    <button class="station-btn"><span>مغلق حالياً 🔒</span></button>
+                </article>
+
+                <!-- Station 3 -->
+                <article class="station-card locked" id="station_3" data-station="3">
+                    <span class="station-badge">مغلق 🔒</span>
+                    <div class="station-number-icon">🚦</div>
+                    <h3 class="station-title">المحطة 3: حارس بوابة الشروط</h3>
+                    <p class="station-desc">تعلم كيف تجعل برنامجك يتخذ قرارات ذكية بنفسه باستخدام قواعد الشروط (if / else) ليسمح بمرور الأبطال فقط!</p>
+                    <button class="station-btn"><span>مغلق حالياً 🔒</span></button>
+                </article>
+
+                <!-- Station 4 -->
+                <article class="station-card locked" id="station_4" data-station="4">
+                    <span class="station-badge">مغلق 🔒</span>
+                    <div class="station-number-icon">🔄</div>
+                    <h3 class="station-title">المحطة 4: دوامة التكرار العجيبة</h3>
+                    <p class="station-desc">وفر وقتك ومجهودك واجعل بايثون يكرر الأوامر مئات المرات بكلمة واحدة باستخدام حلقات التكرار السحرية (for / while).</p>
+                    <button class="station-btn"><span>مغلق حالياً 🔒</span></button>
+                </article>
+
+                <!-- Station 5 -->
+                <article class="station-card locked" id="station_5" data-station="5">
+                    <span class="station-badge">مغلق 🔒</span>
+                    <div class="station-number-icon">🐢</div>
+                    <h3 class="station-title">المحطة 5: فنان السلحفاة الذكي</h3>
+                    <p class="station-desc">تحكم في سلحفاة بايثون الرائعة (Turtle Graphics) واجعلها ترسم مربعات ودوائر وأشكال فنية مذهلة بالألوان على الشاشة!</p>
+                    <button class="station-btn"><span>مغلق حالياً 🔒</span></button>
+                </article>
+
+                <!-- Station 6 -->
+                <article class="station-card locked" id="station_6" data-station="6">
+                    <span class="station-badge">مغلق 🔒</span>
+                    <div class="station-number-icon">🏓</div>
+                    <h3 class="station-title">المحطة 6: مبرمج الألعاب الخارق</h3>
+                    <p class="station-desc">المحطة الختامية الكبرى! استخدم كل ما تعلمته لبرمجة ومحاكاة منطق لعبة كرة الطاولة (Ping Pong) واحتفل بالنصر الكبير!</p>
+                    <button class="station-btn"><span>مغلق حالياً 🔒</span></button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Interactive Studio Workspace (استوديو بايثون التفاعلي) -->
+        <section class="studio-section" id="studioSection">
+            <div class="studio-header">
+                <div class="studio-title-area">
+                    <div class="studio-title-icon">💻</div>
+                    <h2 class="studio-title" id="studioTitleText">المحطة 1: استوديو بايثون التفاعلي</h2>
+                </div>
+                <button class="btn-exit-studio" id="btnExitStudio">
+                    <span>🗺️ العودة لخريطة المحطات</span>
+                </button>
+            </div>
+
+            <div class="studio-grid">
+                
+                <!-- Left Panel: Mascot Coach & Explanations -->
+                <div class="studio-left">
+                    <div class="mascot-guide-box">
+                        <img src="./assets/navbar_logo.png" alt="المرشد الذكي" class="mascot-guide-img">
+                        <div class="mascot-speech">
+                            <div class="mascot-name">🤖 الروبوت المرشد (بايثون-كوتش):</div>
+                            <div class="mascot-text" id="coachLessonText">
+                                جاري تحميل قصة وشرح المحطة...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="studio-actions-row">
+                        <button class="btn-explain-simple" id="btnExplainSimple">
+                            <span>💡 اشرحلي بالعامية / بسطها لي!</span>
+                        </button>
+                        <button class="btn-magic-hint" id="btnMagicHint">
+                            <span>✨ تلميح سحري للمساعدة</span>
+                        </button>
+                    </div>
+
+                    <!-- Hint & Simple Explanation Display Box -->
+                    <div class="hint-display-box" id="hintDisplayBox">
+                        <div class="hint-title" id="hintTitleText">💡 التبسيط العامي:</div>
+                        <div class="hint-content" id="hintContentText">محتوى التبسيط يظهر هنا...</div>
+                    </div>
+
+                    <!-- Target Challenge Box -->
+                    <div class="challenge-box">
+                        <span class="challenge-badge">🎯 التحدي المطلوب لإنجاز المحطة</span>
+                        <h3 class="challenge-title">مهمتك السحرية في هذه المحطة:</h3>
+                        <p class="challenge-desc" id="challengeDescText">
+                            جاري تحميل التحدي المطلوب...
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Panel: Smart Editor & Live Simulator -->
+                <div class="studio-right">
+                    <div class="editor-top-bar">
+                        <div class="editor-brand">🐍 محرر الأكواد الذكي (Python Studio)</div>
+                        <button class="btn-run-code" id="btnRunStudioCode">
+                            <span>🚀 تشغيل الكود السحري</span>
+                        </button>
+                    </div>
+
+                    <div class="editor-pills-container" id="editorPillsContainer">
+                        <div class="editor-pills-label">✨ اضغط على أي كود مساعد لإضافته فوراً للمحرر:</div>
+                        <!-- Dynamic helper pills injected by JS -->
+                    </div>
+
+                    <textarea class="curriculum-editor-textarea" id="curriculumEditorTextarea" placeholder="اكتب كود بايثون هنا يا بطل..."></textarea>
+
+                    <!-- Output Console & Turtle Canvas -->
+                    <div class="simulator-output-box">
+                        <div class="output-header">
+                            <div class="output-title">🖥️ شاشة المحاكاة والمخرجات (Console & Canvas)</div>
+                            <button class="btn-clear-output" id="btnClearOutput">تنظيف الشاشة</button>
+                        </div>
+                        <div class="output-content-area" id="outputContentArea">
+                            <div class="output-log info"># شاشة المخرجات جاهزة. اضغط على "تشغيل الكود السحري" لرؤية النتيجة!</div>
+                        </div>
+                        <canvas class="turtle-canvas" id="turtleCanvas" width="500" height="300"></canvas>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Celebration Modal Popup -->
+    <div class="celebration-modal" id="celebrationModal" role="dialog" aria-modal="true">
+        <div class="celebration-box">
+            <div class="celebration-icon">🏆</div>
+            <h3 class="celebration-title" id="celebrationTitle">إجابة عبقرية!</h3>
+            <p class="celebration-text" id="celebrationText">لقد نجحت في حل التحدي واكتسبت 100 نقطة طاقة ووساماً جديداً!</p>
+            <button class="btn-next-station" id="btnCelebrationNext">
+                <span>🚀 الانتقال للمحطة التالية 🚀</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Final Certificate Modal Popup -->
+    <div class="celebration-modal" id="certModal" role="dialog" aria-modal="true">
+        <div class="celebration-box" style="max-width: 900px; padding: 40px;">
+            <div class="certificate-wrapper" id="printableCert" style="box-shadow: none; margin: 0;">
+                <div class="cert-border-outer">
+                    <div class="cert-border-inner">
+                        <div class="cert-header">
+                            <div class="cert-logo-area">
+                                <img src="./assets/navbar_logo.png" alt="Megaminds Logo" class="cert-logo">
+                            </div>
+                            <div class="cert-header-text">
+                                <span class="cert-subtitle">شهادة إنجاز وتفوق سحرية</span>
+                                <h2 class="cert-main-title">أكاديمية ميجامايندز</h2>
+                                <div class="cert-stars">★★★★★</div>
+                            </div>
+                            <div class="cert-badge-area">
+                                <div class="cert-gold-badge">
+                                    🏆
+                                    <span>Python Pro</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cert-body">
+                            <p class="cert-praise">تشهد أكاديمية ميجامايندز لتعليم البرمجة والذكاء الاصطناعي أن البطل الخارق</p>
+                            <h3 class="cert-student-name" id="certStudentNameDisplay">بطل ميجامايندز المبدع</h3>
+                            <p class="cert-text">قد أتم بنجاح وتفوق جميع محطات وتحديات المنهج التفاعلي المطور في</p>
+                            <h4 class="cert-course-title">لغة بايثون التفاعلية (Python Interactive Curriculum)</h4>
+                            <p class="cert-text-sub">
+                                وأثبت جدارة استثنائية في فهم المتغيرات، العمليات الحسابية، الشروط الذكية، حلقات التكرار، الرسم البرمجي بالسلحفاة، ومحاكاة منطق الألعاب. نحن فخورون بعبقريتك ومستقبلك العظيم!
+                            </p>
+                        </div>
+                        <div class="cert-footer">
+                            <div class="cert-footer-item">
+                                <span class="cert-label">تاريخ التتويج:</span>
+                                <span class="cert-value" id="certDateDisplay">17 مايو 2026</span>
+                            </div>
+                            <div class="cert-signature-area">
+                                <div class="cert-stamp">🌟 Megaminds Certified 🌟</div>
+                                <div class="cert-signature-line">إدارة التقييم والمناهج التفاعلية</div>
+                            </div>
+                            <div class="cert-footer-item">
+                                <span class="cert-label">رقم الاعتماد السحري:</span>
+                                <span class="cert-value">MM-PY-2026-XP600</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cert-preview-actions">
+                <button class="btn-cert-print" id="btnModalPrintCert">🖨️ طباعة / حفظ الشهادة PDF</button>
+                <button class="btn-cert-close" id="btnModalCloseCert">✕ إغلاق النافذة</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="app-footer" id="mainFooter">
+        <div class="footer-content">
+            <div class="footer-logo">أكاديمية ميجامايندز</div>
+            <p class="footer-desc">
+                المنصة الأولى لتعلم البرمجة، الذكاء الاصطناعي، وعلوم الروبوتكس من الصفر للأطفال والمراهقين في الوطن العربي. نهدف لبناء جيل مبتكر وقائد للمستقبل.
+            </p>
+            <div class="footer-hearts">💖 🚀 🌟 🤖 💡</div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 جميع الحقوق محفوظة لصالح أكاديمية ميجامايندز (Megaminds Academy).</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="./curriculum.js"></script>
+</body>
+</html>
