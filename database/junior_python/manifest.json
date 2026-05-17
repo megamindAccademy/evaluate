@@ -1,39 +1,15 @@
 {
   "course_id": "junior_python",
   "course_title": "🐍 بايثون للصغار - Python Junior",
-  "course_description": "Bridge the gap from blocks to real code! Program PicToBlox sprites using real Python statements, control Tobi's walking animations with built-in functions, code Addition Bots, build loop drawings, navigate maze games, catch apples with scoreboards, and script a fully active multi-car Street Racing game! 🐍🚗🎮✨",
+  "desc": "Bridge the gap from blocks to real code! Program PicToBlox sprites using real Python statements, control Tobi's walking animations with built-in functions, code Addition Bots, build loop drawings, navigate maze games, catch apples with scoreboards, and script a fully active multi-car Street Racing game! 🐍🚗🎮✨",
   "status": "active",
   "recap_file": "recap.json",
   "quizzes": [
-    {
-      "quiz_id": "junior_python_quiz_1",
-      "file": "quizzes/quiz1.json",
-      "title": "🐍 Python Challenge 1: Code Syntax & First Scripts"
-    },
-    {
-      "quiz_id": "junior_python_quiz_2",
-      "file": "quizzes/quiz2.json",
-      "title": "🐍 Python Challenge 2: Variables, Arithmetic & Functions"
-    },
-    {
-      "quiz_id": "junior_python_quiz_3",
-      "file": "quizzes/quiz3.json",
-      "title": "🐍 Python Challenge 3: Maze Choices & For Loop Squares"
-    },
-    {
-      "quiz_id": "junior_python_quiz_4",
-      "file": "quizzes/quiz4.json",
-      "title": "🐍 Python Challenge 4: While Loops & Bricker Physics"
-    },
-    {
-      "quiz_id": "junior_python_quiz_5",
-      "file": "quizzes/quiz5.json",
-      "title": "🐍 Python Challenge 5: Sprite Cloning & Catching Apples"
-    },
-    {
-      "quiz_id": "junior_python_quiz_6",
-      "file": "quizzes/quiz6.json",
-      "title": "🐍 Python Challenge 6: Object Classes & Street Racing"
-    }
+    "quiz1.json",
+    "quiz2.json",
+    "quiz3.json",
+    "quiz4.json",
+    "quiz5.json",
+    "quiz6.json"
   ]
 }
