@@ -1,0 +1,276 @@
+{
+  "course": "Godot Game Development 🎮",
+  "sessions": [
+    {
+      "session_title": "💡 Session 1: Welcome to Godot & Engine Setup",
+      "targets": [
+        "Install Godot Engine",
+        "Explore Editor Layout",
+        "Create first Node2D root"
+      ],
+      "blocks": [
+        "Node2D",
+        "Sprite2D",
+        "play_game"
+      ],
+      "project": "Godot Workspace Setup",
+      "points": [
+        {
+          "icon": "🎮",
+          "title": "What is Godot?",
+          "desc": "An open-source, highly lightweight, and powerful game engine that uses scenes and nodes to build 2D and 3D games.",
+          "example": "Creating a Node2D root to represent the game world."
+        },
+        {
+          "icon": "🧱",
+          "title": "Nodes & Scenes Architecture",
+          "desc": "Everything in Godot is a Node, and groups of nodes are structured hierarchically inside reusable Scenes.",
+          "code": "extends Sprite2D\n\nfunc _ready():\n    print(\"Hello from Sprite Node!\")"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 2: Nodes, Scenes, and GDScript Functions",
+      "targets": [
+        "Create custom player scripts",
+        "Understand _ready() and _process()",
+        "Print variable states"
+      ],
+      "blocks": [
+        "extends CharacterBody2D",
+        "func _ready()",
+        "func _process(delta)"
+      ],
+      "project": "Custom Node Scripting",
+      "points": [
+        {
+          "icon": "⚙️",
+          "title": "GDScript Core functions",
+          "desc": "GDScript is Python-like. The _ready() function runs once on startup, and _process(delta) runs once per frame for updates.",
+          "code": "extends CharacterBody2D\n\nfunc _ready():\n    print(\"Game Started!\")"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 3: Game Art & Animated Sprites",
+      "targets": [
+        "Import graphic assets",
+        "Set up AnimatedSprite2D node",
+        "Configure animation states"
+      ],
+      "blocks": [
+        "AnimatedSprite2D",
+        "play(\"idle\")",
+        "play(\"run\")"
+      ],
+      "project": "Hero Animation States",
+      "points": [
+        {
+          "icon": "🎨",
+          "title": "AnimatedSprite2D",
+          "desc": "A specific node to bundle pixel art frames together, allowing you to animate actions like running, jumping, and idling.",
+          "code": "$AnimatedSprite2D.play(\"run\")"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 4: Godot Movement & Logical Operators",
+      "targets": [
+        "Capture keyboard inputs",
+        "Define movement velocities",
+        "Apply operators for boundaries"
+      ],
+      "blocks": [
+        "Input.get_vector()",
+        "move_and_slide()",
+        "position += velocity"
+      ],
+      "project": "Bouncing Ball & Grid Controls",
+      "points": [
+        {
+          "icon": "🏃",
+          "title": "Player Vector Movement",
+          "desc": "Capturing directional keyboard mappings to manipulate coordinate coordinates using built-in Input structures.",
+          "code": "velocity = Input.get_vector(\"ui_left\", \"ui_right\", \"ui_up\", \"ui_down\") * 300\nmove_and_slide()"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 5: Software Development Life Cycle (SDLC) for Games",
+      "targets": [
+        "Map design ideas",
+        "Define development loops",
+        "Establish MVP rules"
+      ],
+      "blocks": [
+        "planning",
+        "design",
+        "testing",
+        "polishing"
+      ],
+      "project": "Pong Game GDD Design",
+      "points": [
+        {
+          "icon": "📋",
+          "title": "Game Design Document (GDD)",
+          "desc": "A roadmap document detailing how mechanics, sound, levels, and rules interact, ensuring team coordination prior to full coding.",
+          "example": "GDD definition for Pong: defining speed, paddle controls, and boundary collision guidelines."
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 6: Creating and Customizing UI",
+      "targets": [
+        "Add CanvasLayer root",
+        "Deploy Score Labels",
+        "Set up margins and layout anchors"
+      ],
+      "blocks": [
+        "CanvasLayer",
+        "Label",
+        "set_text()"
+      ],
+      "project": "Interactive Score Banner",
+      "points": [
+        {
+          "icon": "🖥️",
+          "title": "Control Nodes & CanvasLayers",
+          "desc": "UI layout nodes like Labels and Buttons remain locked to the viewer screen via CanvasLayers, ignoring camera rotations.",
+          "code": "$ScoreLabel.text = \"Score: \" + str(score)"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 7: User Interface Programming in Godot",
+      "targets": [
+        "Connect UI button signals",
+        "Handle button clicked triggers",
+        "Open and change scene targets"
+      ],
+      "blocks": [
+        "button_pressed()",
+        "get_tree().change_scene_to_file()",
+        "emit_signal()"
+      ],
+      "project": "Interactive Main Menu Screen",
+      "points": [
+        {
+          "icon": "🔌",
+          "title": "Node Signal Connections",
+          "desc": "Signals are Godot's event system that emit messages when nodes perform actions (like clicking buttons), triggering target functions.",
+          "code": "func _on_pressed():\n    get_tree().change_scene_to_file(\"res://game.tscn\")"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 8: Game Sound and Audio",
+      "targets": [
+        "Deploy AudioStreamPlayer2D node",
+        "Import sound wave assets",
+        "Trigger play streams in scripts"
+      ],
+      "blocks": [
+        "AudioStreamPlayer2D",
+        "play()",
+        "stop()"
+      ],
+      "project": "Sound Emitters for Collisions",
+      "points": [
+        {
+          "icon": "🔊",
+          "title": "Audio Streams",
+          "desc": "Triggering sound effect files dynamically to signal events like hits, background tracks, or level transitions to the user.",
+          "code": "$HitSoundPlayer.play()"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 9: Cameras & Parallax Backgrounds",
+      "targets": [
+        "Add Camera2D camera follow",
+        "Create layered ParallaxBackgrounds",
+        "Match parallax factor speed"
+      ],
+      "blocks": [
+        "Camera2D",
+        "ParallaxBackground",
+        "ParallaxLayer"
+      ],
+      "project": "Parallax Scrolling City backdrop",
+      "points": [
+        {
+          "icon": "🎥",
+          "title": "Parallax Visual Depth",
+          "desc": "Simulating depth by moving distant layers (like clouds or far buildings) slower than foreground player cameras.",
+          "example": "Set ParallaxLayer scale factors to (0.1, 0.1) for clouds, and (0.8, 0.8) for nearby trees."
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 10: Building Pong: Part 1 - Mechanics & Physics",
+      "targets": [
+        "Set up StaticBody2D paddles",
+        "Set up CharacterBody2D ball",
+        "Add bouncy physics material"
+      ],
+      "blocks": [
+        "StaticBody2D",
+        "CollisionShape2D",
+        "bounce()"
+      ],
+      "project": "Ball Physics & Collision boundaries",
+      "points": [
+        {
+          "icon": "⚽",
+          "title": "Ball Velocity Calculations",
+          "desc": "Using velocity vector properties and bounce mechanisms inside physical boundaries to keep the ball in motion.",
+          "code": "velocity = velocity.bounce(collision.get_normal())"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 11: Polishing Your Game: VFX & Particles",
+      "targets": [
+        "Set up GPUParticles2D particle node",
+        "Design explosive hit effects",
+        "Emit hit bursts dynamically"
+      ],
+      "blocks": [
+        "GPUParticles2D",
+        "emitting = true",
+        "one_shot = true"
+      ],
+      "project": "Particle Blast on Ball Collisions",
+      "points": [
+        {
+          "icon": "✨",
+          "title": "Visual FX (VFX) Burst",
+          "desc": "Using GPUParticles2D emitters to spray lightweight coordinate sparkles or dust shapes upon action impacts.",
+          "code": "$SparkleParticles.emitting = true"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 12: Building Pong: Part 2 - Complete Loop",
+      "targets": [
+        "Detect left/right goal zones",
+        "Increment scoreboard tally",
+        "Reset positions for next turn"
+      ],
+      "blocks": [
+        "Area2D",
+        "_on_body_entered()",
+        "reset_round()"
+      ],
+      "project": "Fully Playable Scoring Pong Game",
+      "points": [
+        {
+          "icon": "🏆",
+          "title": "Win & Goal Check Zones",
+          "desc": "Using Area2D zones to monitor and flag whenever ball body coordinates cross standard goal borders.",
+          "code": "func _on_body_entered(body):\n    body.global_position = Vector2(576, 324)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 6: API Feeds & Advanced Capstone",
+  "questions": [
+    {
+      "q": "Which component handles standard 'HTTP Requests' properties in Godot Game Development?",
+      "opts": [
+        "Aesthetic HTTP Requests Controller",
+        "Default HTTP Requests Interface",
+        "Custom HTTP Requests Data Handler",
+        "Standard HTTP Requests Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Godot Game Development framework."
+    },
+    {
+      "q": "Which component handles standard 'REST API integration' properties in Godot Game Development?",
+      "opts": [
+        "Aesthetic REST API integration Controller",
+        "Default REST API integration Interface",
+        "Custom REST API integration Data Handler",
+        "Standard REST API integration Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Godot Game Development framework."
+    },
+    {
+      "q": "Which component handles standard 'Data streams' properties in Godot Game Development?",
+      "opts": [
+        "Aesthetic Data streams Controller",
+        "Default Data streams Interface",
+        "Custom Data streams Data Handler",
+        "Standard Data streams Wrapper"
+      ],
+      "correct": 2,
+      "exp": "The 'Data streams' component is designed to manage functional Data streams layers inside the Godot Game Development framework."
+    },
+    {
+      "q": "Which component handles standard 'Final Deployment' properties in Godot Game Development?",
+      "opts": [
+        "Aesthetic Final Deployment Controller",
+        "Default Final Deployment Interface",
+        "Custom Final Deployment Data Handler",
+        "Standard Final Deployment Wrapper"
+      ],
+      "correct": 3,
+      "exp": "The 'Final Deployment' component is designed to manage functional Final Deployment layers inside the Godot Game Development framework."
+    },
+    {
+      "q": "Which component handles standard 'HTTP Requests' properties in Godot Game Development?",
+      "opts": [
+        "Aesthetic HTTP Requests Controller",
+        "Default HTTP Requests Interface",
+        "Custom HTTP Requests Data Handler",
+        "Standard HTTP Requests Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Godot Game Development framework."
+    },
+    {
+      "q": "Which component handles standard 'REST API integration' properties in Godot Game Development?",
+      "opts": [
+        "Aesthetic REST API integration Controller",
+        "Default REST API integration Interface",
+        "Custom REST API integration Data Handler",
+        "Standard REST API integration Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Godot Game Development framework."
+    },
+    {
+      "q": "Which component handles standard 'Data streams' properties in Godot Game Development?",
+      "opts": [
+        "Aesthetic Data streams Controller",
+        "Default Data streams Interface",
+        "Custom Data streams Data Handler",
+        "Standard Data streams Wrapper"
+      ],
+      "correct": 2,
+      "exp": "The 'Data streams' component is designed to manage functional Data streams layers inside the Godot Game Development framework."
+    },
+    {
+      "q": "Which component handles standard 'Final Deployment' properties in Godot Game Development?",
+      "opts": [
+        "Aesthetic Final Deployment Controller",
+        "Default Final Deployment Interface",
+        "Custom Final Deployment Data Handler",
+        "Standard Final Deployment Wrapper"
+      ],
+      "correct": 3,
+      "exp": "The 'Final Deployment' component is designed to manage functional Final Deployment layers inside the Godot Game Development framework."
+    },
+    {
+      "q": "Which component handles standard 'HTTP Requests' properties in Godot Game Development?",
+      "opts": [
+        "Aesthetic HTTP Requests Controller",
+        "Default HTTP Requests Interface",
+        "Custom HTTP Requests Data Handler",
+        "Standard HTTP Requests Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Godot Game Development framework."
+    },
+    {
+      "q": "Which component handles standard 'REST API integration' properties in Godot Game Development?",
+      "opts": [
+        "Aesthetic REST API integration Controller",
+        "Default REST API integration Interface",
+        "Custom REST API integration Data Handler",
+        "Standard REST API integration Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Godot Game Development framework."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Implement HTTP Requests Logic",
+      "desc": "Write a clean code snippet or blueprint implementing the standard HTTP Requests properties inside the Godot Game Development setup."
+    },
+    {
+      "title": "Optimize REST API integration Performance",
+      "desc": "Briefly explain the best practice guidelines to optimize REST API integration operations for user-centered design."
+    }
+  ]
+}
