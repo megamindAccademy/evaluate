@@ -67,20 +67,17 @@
             <div class="message-display" id="messageDisplay" role="alert" aria-live="polite"></div>
         </section>
 
-        <!-- Featured Interactive Curriculum Banner -->
-        <section class="curriculum-hero" style="max-width: 1250px; margin: 0 auto 70px; cursor: pointer;" onclick="window.location.href='./curriculum.html'">
-            <div class="curriculum-hero-bg-shapes"></div>
-            <div class="curriculum-hero-content">
-                <span class="curriculum-badge" style="background: #06d6a0; color: #023047; border-color: #023047;">🚀 قسم جديد بالموقع 🚀</span>
-                <h2 class="curriculum-title" style="font-size: 3.2rem;">المناهج التفاعلية: جزيرة بايثون السحرية 🐍</h2>
-                <p class="curriculum-desc" style="font-size: 1.4rem;">
-                    لا تقرأ فقط، بل عِش المغامرة! ادخل الآن إلى استوديو بايثون التفاعلي، واكتب الأكواد السحرية بنفسك، وشاهد نتيجتها ورسومات السلحفاة فوراً. اجمع الأوسمة واصنع ألعابك الخاصة!
-                </p>
-                <a href="./curriculum.html" class="btn-engineer-portal" style="background: linear-gradient(45deg, #ffb703, #fb8500); color: #023047; padding: 15px 35px; border-radius: 50px; font-weight: 900; font-size: 1.5rem; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; box-shadow: 0 10px 25px rgba(251, 133, 0, 0.4);">
-                    <span>ابدأ رحلة التعلم التفاعلي الآن! 🌟</span>
-                </a>
+        <!-- Interactive Curriculums Section (قسم المناهج التفاعلية المطور) -->
+        <section class="curriculums-section" id="curriculumsSection">
+            <div class="section-header">
+                <span class="curriculum-badge" style="background: #06d6a0; color: #023047; border-color: #023047; display: inline-block; margin-bottom: 15px;">🚀 المناهج التفاعلية الذكية (جديد!) 🚀</span>
+                <h2 class="section-title">المناهج التفاعلية لأبطال ميجامايندز</h2>
+                <p class="section-subtitle">لا تقرأ فقط، بل عِش المغامرة! اختر المنهج التفاعلي، واكتب الأكواد السحرية بنفسك، وشاهد نتيجتها فوراً مع نظام الأوسمة والمكافآت 🌟</p>
             </div>
-            <img src="./assets/megaminds_mascot.png" alt="شخصية ميجامايندز" class="curriculum-hero-mascot" style="max-width: 280px;">
+
+            <div class="quizzes-grid" id="dynamicCurriculumsGrid">
+                <!-- Dynamic Curriculum Cards will be injected here by script.js -->
+            </div>
         </section>
 
         <!-- Quizzes & Courses Section -->

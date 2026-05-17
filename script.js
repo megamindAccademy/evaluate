@@ -133,6 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalCloseBtn = document.getElementById('modalClose');
     const modalOkBtn = document.getElementById('modalOkBtn');
     const dynamicCoursesGrid = document.getElementById('dynamicCoursesGrid');
+    const dynamicCurriculumsGrid = document.getElementById('dynamicCurriculumsGrid');
 
     // Encouragement Button Click
     if (encourageBtn) {
@@ -165,9 +166,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ==========================================
-    // AUTO DISCOVERY OF COURSES
+    // AUTO DISCOVERY OF COURSES & CURRICULUMS
     // ==========================================
-    if (dynamicCoursesGrid) {
+    if (dynamicCoursesGrid || dynamicCurriculumsGrid) {
         fetch('./database/courses_index.json')
             .then(response => {
                 if (!response.ok) throw new Error('courses_index.json not found');
@@ -181,7 +182,12 @@ document.addEventListener('DOMContentLoaded', () => {
                             return res.json();
                         })
                         .then(manifest => {
-                            renderDiscoveredCourseCard(manifest, dynamicCoursesGrid, modalOverlay, modalTitle, modalText);
+                            if (dynamicCurriculumsGrid) {
+                                renderDiscoveredCurriculumCard(manifest, dynamicCurriculumsGrid, modalOverlay, modalTitle, modalText);
+                            }
+                            if (dynamicCoursesGrid) {
+                                renderDiscoveredCourseCard(manifest, dynamicCoursesGrid, modalOverlay, modalTitle, modalText);
+                            }
                         })
                         .catch(err => console.error(`Error discovering course ${courseId}:`, err));
                 });
@@ -189,6 +195,49 @@ document.addEventListener('DOMContentLoaded', () => {
             .catch(error => console.error('Error loading courses index:', error));
     }
 });
+
+// Render Discovered Curriculum Card Helper
+function renderDiscoveredCurriculumCard(manifest, gridEl, modalOverlay, modalTitle, modalText) {
+    const card = document.createElement('article');
+    card.className = 'curriculum-card';
+    card.id = `curr_card_${manifest.course_id}`;
+
+    const isActive = (manifest.status === 'active');
+    const badgeClass = isActive ? 'badge-active' : 'badge-upcoming';
+    const badgeText = isActive ? 'منهج تفاعلي 🌟' : 'قريباً ⏳';
+
+    card.innerHTML = `
+        <span class="card-badge ${badgeClass}">${badgeText}</span>
+        <div class="card-icon ${manifest.icon_bg_class || 'icon-main'}">${manifest.icon || '📚'}</div>
+        <h3 class="card-title">${manifest.course_title}</h3>
+        <p class="card-desc">${manifest.desc}</p>
+    `;
+
+    if (isActive) {
+        // Active Direct Link Button
+        const linkBtn = document.createElement('a');
+        linkBtn.href = `./curriculum.html?course=${manifest.course_id}`;
+        linkBtn.className = 'card-btn btn-curriculum-card';
+        linkBtn.innerHTML = `<span>📖 ادخل المنهج التفاعلي 🚀</span>`;
+        card.appendChild(linkBtn);
+    } else {
+        // Upcoming Modal Popup Button
+        const modalBtn = document.createElement('button');
+        modalBtn.className = 'card-btn btn-upcoming';
+        modalBtn.innerHTML = `<span>أنا مستعد للمغامرة! 💪</span>`;
+        modalBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (modalTitle) modalTitle.textContent = `منهج ${manifest.course_title}`;
+            if (modalText) modalText.textContent = manifest.upcoming_msg || 'هذا المنهج التفاعلي قيد التجهيز في مختبراتنا السحرية!';
+            if (modalOverlay) modalOverlay.classList.add('active');
+            playPopupSound();
+            triggerConfetti();
+        });
+        card.appendChild(modalBtn);
+    }
+
+    gridEl.appendChild(card);
+}
 
 // Render Discovered Course Card Helper
 function renderDiscoveredCourseCard(manifest, gridEl, modalOverlay, modalTitle, modalText) {
