@@ -267,8 +267,20 @@ function cleanBiDiText(text) {
     if (!hasArabic) {
         return `<span dir="ltr" style="display: inline-block; direction: ltr; unicode-bidi: bidi-override; font-family: 'Courier New', Courier, monospace; font-size: 1.1em; font-weight: bold;">${text}</span>`;
     } else {
-        // Wrap English code snippets/words inside Arabic text with LTR spans
         return text.replace(/([a-zA-Z0-9_().=/'"*#\-]+(?:[ ]+[a-zA-Z0-9_().=/'"*#\-]+)*)/g, '<span dir="ltr" style="display: inline-block; direction: ltr; unicode-bidi: isolate; font-family: \'Courier New\', Courier, monospace; font-size: 1.1em; font-weight: bold; padding: 0 4px; color: var(--primary);">$1</span>');
+    }
+}
+
+// Helper to detect if text is predominantly English (LTR) or Arabic (RTL)
+function getTextDirection(text) {
+    if (!text) return 'rtl';
+    const cleaned = text.replace(/[\u1F600-\u1F64F\u1F300-\u1F5FF\u1F680-\u1F6FF\u1F700-\u1F77F\u1F780-\u1F7FF\u1F800-\u1F8FF\u2600-\u26FF\u2700-\u27BF\u0020-\u003F\u00A0-\u00BF]/g, '').trim();
+    if (!cleaned) return 'rtl';
+    const firstChar = cleaned.charAt(0);
+    if (/[\u0600-\u06FF]/.test(firstChar)) {
+        return 'rtl';
+    } else {
+        return 'ltr';
     }
 }
 
@@ -287,9 +299,19 @@ function handleRegistrationSubmit(e) {
 function initRecapScreen() {
     if (!recapData) return;
 
-    if (recapTitleEl) recapTitleEl.textContent = recapData.recap_title;
+    const titleDir = getTextDirection(recapData.recap_title);
+    if (recapTitleEl) {
+        recapTitleEl.textContent = recapData.recap_title;
+        recapTitleEl.setAttribute('dir', titleDir);
+        recapTitleEl.style.textAlign = titleDir === 'ltr' ? 'left' : 'right';
+    }
+
+    const subText = `أهلاً بك يا بطل ${studentInfo.name} (مجموعة: ${studentInfo.group} مع المهندس ${studentInfo.teacher})! ${recapData.recap_subtitle}`;
+    const subDir = getTextDirection(recapData.recap_subtitle);
     if (recapSubtitleEl) {
-        recapSubtitleEl.textContent = `أهلاً بك يا بطل ${studentInfo.name} (مجموعة: ${studentInfo.group} مع المهندس ${studentInfo.teacher})! ${recapData.recap_subtitle}`;
+        recapSubtitleEl.textContent = subText;
+        recapSubtitleEl.setAttribute('dir', subDir);
+        recapSubtitleEl.style.textAlign = subDir === 'ltr' ? 'left' : 'right';
     }
 
     // Populate Recap Cards Grouped by Sessions
@@ -299,29 +321,37 @@ function initRecapScreen() {
         recapData.sessions.forEach(session => {
             const sessionGroup = document.createElement('div');
             sessionGroup.className = 'recap-session-group';
-            sessionGroup.style.gridColumn = '1 / -1';
-            sessionGroup.style.marginTop = '25px';
-            sessionGroup.style.marginBottom = '15px';
+            sessionGroup.style.width = '100%';
+            sessionGroup.style.marginTop = '35px';
+            sessionGroup.style.marginBottom = '20px';
 
+            const sessDir = getTextDirection(session.session_title);
             const sessionHeader = document.createElement('h3');
             sessionHeader.className = 'recap-session-title';
-            sessionHeader.style.fontSize = '1.8rem';
+            sessionHeader.setAttribute('dir', sessDir);
+            sessionHeader.style.textAlign = sessDir === 'ltr' ? 'left' : 'right';
+            sessionHeader.style.fontSize = '2.2rem';
+            sessionHeader.style.fontWeight = '900';
             sessionHeader.style.color = 'var(--tertiary-dark)';
-            sessionHeader.style.borderBottom = '3px solid var(--secondary)';
-            sessionHeader.style.paddingBottom = '10px';
+            sessionHeader.style.borderBottom = '4px solid var(--secondary)';
+            sessionHeader.style.paddingBottom = '12px';
             sessionHeader.textContent = session.session_title;
             sessionGroup.appendChild(sessionHeader);
             
             recapCardsGridEl.appendChild(sessionGroup);
 
             session.points.forEach(point => {
+                const cardDir = getTextDirection(point.desc);
                 const card = document.createElement('div');
                 card.className = 'recap-card';
+                card.setAttribute('dir', cardDir);
+                card.style.textAlign = cardDir === 'ltr' ? 'left' : 'right';
+
                 card.innerHTML = `
                     <div class="recap-card-icon">${point.icon}</div>
                     <div class="recap-card-content">
-                        <h4>${point.title}</h4>
-                        <p>${cleanBiDiText(point.desc)}</p>
+                        <h4 style="text-align: ${cardDir === 'ltr' ? 'left' : 'right'};">${point.title}</h4>
+                        <p style="text-align: ${cardDir === 'ltr' ? 'left' : 'right'};">${cleanBiDiText(point.desc)}</p>
                     </div>
                 `;
                 recapCardsGridEl.appendChild(card);
@@ -392,7 +422,10 @@ function renderCurrentQuestion() {
         if (taskEditorContainerEl) taskEditorContainerEl.style.display = 'block';
         
         if (editorLangTitleEl) editorLangTitleEl.textContent = `💻 محرر الأكواد والمهام (${manifestData.course_title})`;
-        if (taskHintTextEl) taskHintTextEl.innerHTML = cleanBiDiText(currentQ.task_hint || 'اكتب إجابتك أو كودك بتركيز وإبداع يا بطل!');
+        if (taskHintTextEl) {
+            taskHintTextEl.style.display = 'none';
+            taskHintTextEl.innerHTML = cleanBiDiText(currentQ.task_hint || 'اكتب إجابتك أو كودك بتركيز وإبداع يا بطل!');
+        }
         if (taskEditorTextareaEl) {
             taskEditorTextareaEl.value = '';
             taskEditorTextareaEl.disabled = false;
