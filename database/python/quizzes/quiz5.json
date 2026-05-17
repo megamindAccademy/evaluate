@@ -1,0 +1,68 @@
+{
+  "quiz_id": "python_quiz_5",
+  "quiz_title": "🐍 Python Challenge 5: For Loops & Custom Functions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which loop is generally preferred when you want to iterate over a pre-determined collection of elements like a list or characters of a string?",
+      "options": [
+        "while loop",
+        "for loop",
+        "infinite loop",
+        "do-while loop"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! A 'for' loop is the ideal structure to iterate over sequence collections, visiting each element in order automatically."
+    },
+    {
+      "id": 2,
+      "question": "If you write the expression range(5) in a Python loop statement, what sequence of numbers is generated?",
+      "options": [
+        "1, 2, 3, 4, 5",
+        "0, 1, 2, 3, 4",
+        "0, 1, 2, 3, 4, 5",
+        "5, 4, 3, 2, 1"
+      ],
+      "correct": 1,
+      "explanation": "Correct! The range(N) function starts at 0 by default and stops just before N, generating N distinct numbers: 0 through N-1."
+    },
+    {
+      "id": 3,
+      "question": "Which Python keyword is used to declare a customized, reusable function block in your code?",
+      "options": [
+        "function",
+        "def",
+        "func",
+        "declare"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The 'def' keyword (short for define) is used to declare custom functions, followed by the function name and parentheses."
+    },
+    {
+      "id": 4,
+      "question": "What is the difference between a function's parameters and a function's arguments?",
+      "options": [
+        "Arguments are defined inside the function body; parameters are what the function returns",
+        "Parameters are variables listed in the function declaration; arguments are the actual values passed in during calls",
+        "There is no difference between them",
+        "Parameters are numbers; arguments are text strings"
+      ],
+      "correct": 1,
+      "explanation": "Great! Parameters act as placeholder variables inside the def statement, and arguments are the real values you supply when calling it."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write a 'for' loop that iterates through numbers from 0 to 4 using the 'range' function, printing each number.",
+      "task_hint": "Write: for i in range(5): print(i)",
+      "explanation": "Perfect! Combining a for-loop with range(5) provides a clean way to loop exactly 5 times and access incrementing indices."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Define a function named 'greet_user' that takes a parameter 'name' and prints: 'Hello ' and the name parameter.",
+      "task_hint": "Write: def greet_user(name): print('Hello', name)",
+      "explanation": "Outstanding! Creating functions that accept parameter variables allows you to build highly personalized, reusable tools."
+    }
+  ]
+}

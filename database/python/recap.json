@@ -1,50 +1,245 @@
 {
-  "course_title": "بايثون (Python)",
-  "recap_title": "🐍 مراجعة سريعة لأبطال بايثون قبل التحدي!",
-  "recap_subtitle": "تعال نتذكر معاً أهم الأشياء السحرية التي تعلمناها في كورس بايثون بأكاديمية ميجامايندز مقسمة حسب الجلسات:",
+  "course_title": "Python Basics 🐍",
+  "recap_title": "🐍 Comprehensive Python Basics Recap for Young Coders!",
+  "recap_subtitle": "Hey, outstanding programmers! Let's take a look at the magical concepts and exciting scripts we created in our Python journey at Megaminds Academy. The sessions are grouped below:",
   "sessions": [
     {
-      "session_title": "💡 الجلسة الأولى: أساسيات التحدث مع الكمبيوتر والمربعات السحرية",
+      "session_title": "💡 Session 1: Introduction to Python & Variables",
       "points": [
         {
+          "icon": "🐍",
+          "title": "What is Python?",
+          "desc": "An incredibly popular, clean, high-level, and simple programming language that reads like plain English. It is heavily used in web building, data science, and Artificial Intelligence."
+        },
+        {
           "icon": "🖨️",
-          "title": "دالة الطباعة print()",
-          "desc": "هي الطريقة السحرية التي نستخدمها لنجعل الكمبيوتر يتكلم ويطبع النصوص أو الأرقام على الشاشة. مثال: print('Hello Megaminds')"
+          "title": "Printing via print()",
+          "desc": "The built-in function print() is our main channel to send messages from Python code, printing values, strings, or math outputs straight to the output screen."
         },
         {
           "icon": "📦",
-          "title": "المتغيرات (Variables)",
-          "desc": "هي صناديق ذكية نحفظ فيها البيانات (مثل الأرقام والنصوص) لنستعملها لاحقاً في الكود. مثال: score = 100"
+          "title": "Variables as Data Boxes",
+          "desc": "Variables are named, virtual boxes inside the computer memory used to store various data values (like text strings or integers) so we can reuse them later in our scripts."
         }
       ]
     },
     {
-      "session_title": "🛡️ الجلسة الثانية: الملاحظات السرية واتخاذ القرارات الذكية",
+      "session_title": "🧱 Session 2: Data Types, Inputs & Lists",
       "points": [
         {
-          "icon": "🛑",
-          "title": "التعليقات (Comments)",
-          "desc": "ملاحظات نكتبها لأنفسنا في الكود تبدأ بعلامة الشباك #، والكمبيوتر يتجاهلها تماماً ولا يقرأها. مثال: # هذا كود لحساب العمر"
+          "icon": "🏷️",
+          "title": "Python Data Types",
+          "desc": "Different kinds of data do different things! Core types include text strings (str), numbers (int, float), sequences (list, tuple), mappings (dict), and true/false states (bool)."
         },
+        {
+          "icon": "🗣️",
+          "title": "User Inputs via input()",
+          "desc": "The input() function pauses the program and allows visitors to type text. Note: input() always returns text as a string (str), so we convert it to numbers using int() or float() for math."
+        },
+        {
+          "icon": "📋",
+          "title": "Python Lists & Indexes",
+          "desc": "Lists store multiple items in a single variable using square brackets []. Elements are ordered, changeable, and zero-indexed (the first item is at index 0, the second at 1, etc.)."
+        }
+      ]
+    },
+    {
+      "session_title": "🧮 Session 3: Arithmetic & Logical Operators",
+      "points": [
+        {
+          "icon": "➕",
+          "title": "Math Operators",
+          "desc": "Python makes calculations easy! We use standard symbols: + (addition), - (subtraction), * (multiplication), and / (division) to compute complex mathematical values."
+        },
+        {
+          "icon": "⚖️",
+          "title": "Comparison & Assignment Operators",
+          "desc": "Assignment operators like = and += store values. Comparison operators like == (equals), != (not equals), >, and < check values, returning a True or False Boolean."
+        },
+        {
+          "icon": "🗣️",
+          "title": "String Indexing",
+          "desc": "A string acts like an unchangeable list of characters! We can extract individual characters using brackets, where the space character also counts as an index position."
+        }
+      ]
+    },
+    {
+      "session_title": "📂 Session 4: Tuples & Key-Value Dictionaries",
+      "points": [
+        {
+          "icon": "🔒",
+          "title": "Ordered & Immutable Tuples",
+          "desc": "Tuples store multiple items in a single variable using round brackets (). Unlike lists, tuples are immutable, meaning their elements cannot be changed or edited after creation."
+        },
+        {
+          "icon": "📖",
+          "title": "Dictionaries as Key-Value Pairs",
+          "desc": "Dictionaries store data in structured key:value pairs using curly brackets {}. They do not allow duplicate keys and let you retrieve values instantly using their unique keys."
+        },
+        {
+          "icon": "📊",
+          "title": "Comparing Python Data Structures",
+          "desc": "We use lists [] when items change, tuples () when items must stay constant for safety, and dictionaries {} when linking identifiers to specific descriptions."
+        }
+      ]
+    },
+    {
+      "session_title": "🔀 Session 5: If Conditions & While Loops",
+      "points": [
         {
           "icon": "🔀",
-          "title": "الجمل الشرطية (if / else)",
-          "desc": "تجعل برنامجنا ذكياً وتساعده على اتخاذ القرارات بناءً على الشروط. مثال: إذا كانت الدرجة أكبر من 50، اطبع ناجح!"
+          "title": "Smart Decision Making (if-elif-else)",
+          "desc": "If-statements check conditions to run specific blocks of code. We use 'elif' to check additional conditions, and 'else' as a fallback when all other tests fail."
+        },
+        {
+          "icon": "🔁",
+          "title": "Conditional Loop (while)",
+          "desc": "A while loop runs a block of code repeatedly as long as its condition remains True. We must increment our loop variable to avoid building a dangerous infinite loop!"
+        },
+        {
+          "icon": "🛑",
+          "title": "Loop Controls: break & continue",
+          "desc": "Use the 'break' statement to exit a loop immediately, and 'continue' to skip the remaining code in the current round and jump straight to the next loop cycle."
         }
       ]
     },
     {
-      "session_title": "🔄 الجلسة الثالثة: التكرار السحري واختصار الوقت",
+      "session_title": "🔄 Session 6: For Loops, Range & Nested Loops",
       "points": [
         {
-          "icon": "🔄",
-          "title": "الحلقات التكرارية (Loops)",
-          "desc": "مثل حلقة for و while، نستخدمها لتكرار الأوامر عدة مرات بسرعة وبدون تعب، مثل طباعة نجمة 10 مرات متتالية."
+          "icon": "📊",
+          "title": "For Loops & Sequences",
+          "desc": "A for-loop is used to iterate over sequence collections (lists, tuples, dicts) or characters in a string, performing an action for every element in order."
         },
         {
-          "icon": "🧮",
-          "title": "العمليات الحسابية (Math Operations)",
-          "desc": "الكمبيوتر عبقري في الحساب! ينفذ الضرب والقسمة أولاً (* و /) ثم يجمع ويطرح (+ و -). مثال: 3 + 5 * 2 = 13"
+          "icon": "📐",
+          "title": "The range() Function",
+          "desc": "Generates a sequence of numbers starting from 0 by default, incrementing by 1, and stopping before a specified number (e.g. range(5) yields 0, 1, 2, 3, 4)."
+        },
+        {
+          "icon": "🔳",
+          "title": "Nested Loops",
+          "desc": "A loop inside another loop! The inner loop completes all its cycles once for every single iteration of the outer loop, which is useful for grid coordinates."
+        }
+      ]
+    },
+    {
+      "session_title": "🔌 Session 7: Functions & Variable Scopes",
+      "points": [
+        {
+          "icon": "🛠️",
+          "title": "Writing Functions (def)",
+          "desc": "A function is a reusable block of code created using the def keyword. It only executes when explicitly called by its name followed by parentheses."
+        },
+        {
+          "icon": "📥",
+          "title": "Parameters vs. Arguments",
+          "desc": "Parameters are the variables defined in a function's parenthesis. Arguments are the actual, real values passed into the function when we call it."
+        },
+        {
+          "icon": "📤",
+          "title": "Returning Values",
+          "desc": "Functions perform work and can send results back to the caller using the 'return' statement, which also stops the function's execution immediately."
+        }
+      ]
+    },
+    {
+      "session_title": "🎨 Session 8: Python Libraries & Turtle Drawings",
+      "points": [
+        {
+          "icon": "📦",
+          "title": "Importing External Libraries",
+          "desc": "Libraries are pre-written modules that handle complex tasks so we don't write them from scratch. We search packages on PyPI and install them using pip."
+        },
+        {
+          "icon": "🐢",
+          "title": "Turtle Drawing Canvas",
+          "desc": "The built-in Turtle module allows us to control a virtual pen (turtle) on a graphic canvas to draw custom shapes, lines, and colorful geometric designs."
+        },
+        {
+          "icon": "🖌️",
+          "title": "Turtle Customizers",
+          "desc": "We can change pen colors, adjust pen sizes, set fill colors, and control turtle speeds using simple built-in methods like color(), pensize(), and speed()."
+        }
+      ]
+    },
+    {
+      "session_title": "🏗️ Session 9: Object-Oriented Programming (OOP)",
+      "points": [
+        {
+          "icon": "🏢",
+          "title": "Classes vs. Objects",
+          "desc": "A Class is a blueprint or template (like a blueprint for a Car). An Object is an actual instance created from that blueprint (like a specific red Tesla)."
+        },
+        {
+          "icon": "🧬",
+          "title": "The __init__ Constructor",
+          "desc": "A special, built-in initializer function that runs automatically whenever we create a new object, setting up its starting properties and variables."
+        },
+        {
+          "icon": "👉",
+          "title": "Understanding the self Parameter",
+          "desc": "The 'self' keyword points directly to the active object we are creating or modifying, letting us access and update its properties from within the class."
+        }
+      ]
+    },
+    {
+      "session_title": "🌐 Session 10: Web Automation & Web Servers",
+      "points": [
+        {
+          "icon": "🔌",
+          "title": "The requests Library",
+          "desc": "A powerful Python library used to interact with web servers by sending HTTP requests (like GET and POST) to fetch web pages or submit forms."
+        },
+        {
+          "icon": "🕵️‍♂️",
+          "title": "Brute Force & Hacking Scrips",
+          "desc": "A security concept where scripts systematically try dictionary combinations to crack weak passwords or test security robustness on local targets."
+        },
+        {
+          "icon": "🚀",
+          "title": "Web Servers with Flask",
+          "desc": "Flask is a micro web framework in Python that allows us to set up routes, receive browser connections, and run our own local web servers easily."
+        }
+      ]
+    },
+    {
+      "session_title": "🎮 Session 11: Ping Pong Game - Object Initialization",
+      "points": [
+        {
+          "icon": "📐",
+          "title": "Setting Up the Game Canvas",
+          "desc": "Using the Turtle library to open a custom graphics window, configure its width and height, set a dark theme background, and turn off auto-tracer updates."
+        },
+        {
+          "icon": "🏓",
+          "title": "Creating Paddles & Ball",
+          "desc": "Initializing turtle objects representing player paddles and a game ball. We customize their shapes to squares/circles and position them on the canvas."
+        },
+        {
+          "icon": "📏",
+          "title": "Visual Center Markers",
+          "desc": "Drawing dotted or solid lines down the center of our screen and setting up scoreboards using turtle.write() to show player scores in real-time."
+        }
+      ]
+    },
+    {
+      "session_title": "🕹️ Session 12: Ping Pong Game - Input Controls & Physics",
+      "points": [
+        {
+          "icon": "⌨️",
+          "title": "Key Bindings & Event Listening",
+          "desc": "Connecting paddle movement functions to specific keyboard keys (like 'W' and 'S' or Arrow Keys) using turtle.onkeypress() and turtle.listen()."
+        },
+        {
+          "icon": "⚽",
+          "title": "Ball Physics & Collision Rules",
+          "desc": "Updating ball positions in a while-loop. We detect border collisions to bounce the ball, and paddle coordinates to reverse the ball's horizontal velocity."
+        },
+        {
+          "icon": "🏆",
+          "title": "Scores & Resetting Play",
+          "desc": "When the ball passes a paddle, we credit a point to the opposing player, reset the ball to the center, and update the scoreboard dynamically."
         }
       ]
     }

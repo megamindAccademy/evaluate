@@ -1,73 +1,68 @@
 {
   "quiz_id": "python_quiz_3",
-  "quiz_title": "تحدي بايثون الثالث: الحلقات التكرارية والمغامرات المتقدمة",
+  "quiz_title": "🐍 Python Challenge 3: Tuples & Key-Value Dictionaries",
   "questions": [
     {
       "id": 1,
-      "question": "إذا أردنا تكرار أمر معين 5 مرات في بايثون، ماذا نستخدم؟",
+      "question": "Which type of brackets is standardly used to define a Tuple collection in Python?",
       "options": [
-        "if condition",
-        "for i in range(5):",
-        "repeat(5):",
-        "loop = 5"
+        "Square brackets [ ]",
+        "Curly brackets { }",
+        "Round brackets ( )",
+        "Angle brackets < >"
       ],
-      "correct": 1,
-      "explanation": "يا بطل ميجامايندز! حلقة for i in range(5) تُستخدم لتكرار الأوامر 5 مرات بكل سهولة."
+      "correct": 2,
+      "explanation": "Spot on! Tuples are constructed using round parentheses (), whereas lists use square brackets [], and dictionaries use curly brackets {}."
     },
     {
       "id": 2,
-      "question": "ما هي الحلقة التكرارية التي تستمر في العمل طالما أن الشرط صحيح (while)؟",
+      "question": "What is the primary difference between a Python List and a Python Tuple?",
       "options": [
-        "for loop",
-        "while loop",
-        "if loop",
-        "do loop"
+        "Tuples can only hold text strings",
+        "Lists are changeable (mutable), while Tuples are completely unchangeable (immutable)",
+        "Lists use parentheses; tuples use square brackets",
+        "There is no difference between them"
       ],
       "correct": 1,
-      "explanation": "عبقري! حلقة while تعني (طالما) وتستمر في التكرار طالما أن الشرط صحيح."
+      "explanation": "Correct! Tuples are immutable, which means once you declare their items, you cannot edit, add, or delete elements from them."
     },
     {
       "id": 3,
-      "question": "كيف ننشئ قائمة (List) تحتوي على ألوانك المفضلة في بايثون؟",
+      "question": "How are individual items represented inside a Python Dictionary collection?",
       "options": [
-        "colors = ['Red', 'Blue']",
-        "colors = (Red, Blue)",
-        "colors = {Red, Blue}",
-        "list colors = Red, Blue"
+        "As simple comma-separated single numbers",
+        "As ordered items starting from index [0]",
+        "As unique key:value pairs associated together",
+        "As unchangeable string lists"
       ],
-      "correct": 0,
-      "explanation": "رائع! في بايثون نستخدم الأقواس المربعة [] لإنشاء القوائم (Lists)."
+      "correct": 2,
+      "explanation": "Excellent! Dictionaries store data in key:value pairs (e.g. 'color':'red'), making it easy to map descriptive values to unique tags."
     },
     {
       "id": 4,
-      "question": "إذا كانت لدينا القائمة: items = ['Apple', 'Banana'] ، ما هو رقم فهرس (Index) كلمة Apple؟",
+      "question": "If you try to add a duplicate key to an existing Python dictionary, what will happen?",
       "options": [
-        "1",
-        "0",
-        "2",
-        "-1"
+        "The program will crash with an error",
+        "The old value will be overwritten by the new value since duplicate keys are not allowed",
+        "The dictionary will delete all its values",
+        "It will create a tuple inside the dictionary"
       ],
       "correct": 1,
-      "explanation": "أحسنت! في بايثون وفي معظم لغات البرمجة، العد يبدأ دائماً من الصفر 0."
+      "explanation": "Great! Dictionaries do not allow duplicate keys. Setting an existing key to a new value simply replaces the old value."
     },
     {
       "id": 5,
-      "question": "ما هي الكلمة التي نستخدمها لإيقاف الحلقة التكرارية والخروج منها فوراً في بايثون؟",
-      "options": [
-        "stop",
-        "exit",
-        "break",
-        "pause"
-      ],
-      "correct": 2,
-      "explanation": "ممتاز يا فنان! كلمة break تُستخدم لكسر الحلقة التكرارية والخروج منها."
+      "type": "task",
+      "question": "Simple Coding Task: Given the dictionary car = {'brand': 'Ford', 'year': 2020}. Write a Python statement to access and print the value of the 'brand' key.",
+      "task_hint": "Write: car = {'brand': 'Ford', 'year': 2020} then print(car['brand'])",
+      "explanation": "Perfect! You can fetch any value from a dictionary by putting its associated key name inside square brackets next to the dictionary variable."
     },
     {
       "id": 6,
       "type": "task",
-      "question": "تحدي البرمجة المفتوح (Task): اكتب كود بايثون يستخدم حلقة التكرار for لطباعة الأرقام من 1 إلى 5 على الشاشة!",
-      "task_hint": "تذكر استخدام for i in range(1, 6): ثم print(i)",
-      "explanation": "هذا التحدي يحتاج لإبداعك الخارق! تم تسجيل الكود الخاص بك في التقرير ليقوم المهندس المشرف بمراجعته وتقييمه قريباً."
+      "question": "Simple Coding Task: Create a tuple named 'fruits' containing three strings: 'apple', 'banana', 'cherry', and print the fruits tuple.",
+      "task_hint": "Write: fruits = ('apple', 'banana', 'cherry') then print(fruits)",
+      "explanation": "Outstanding! Creating collections using round brackets declares immutable tuples, securing your data from accidental changes."
     }
   ]
 }

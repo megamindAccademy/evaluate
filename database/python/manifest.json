@@ -1,7 +1,7 @@
 {
   "course_id": "python",
-  "course_title": "بايثون (Python)",
-  "desc": "لغة بايثون القوية والممتعة! تحدي كتابة الأكواد وحل الألغاز البرمجية بمهارة وسرعة.",
+  "course_title": "بايثون للمبتدئين (Python Basics)",
+  "desc": "Master the fundamentals of Python programming! Learn variables, lists, conditions, functions, custom Turtle drawings, object-oriented concepts, web automation, and design your own Ping Pong game. 🐍🚀",
   "icon": "🐍",
   "icon_bg_class": "icon-python",
   "status": "active",
@@ -10,6 +10,9 @@
   "quizzes": [
     "quiz1.json",
     "quiz2.json",
-    "quiz3.json"
+    "quiz3.json",
+    "quiz4.json",
+    "quiz5.json",
+    "quiz6.json"
   ]
 }

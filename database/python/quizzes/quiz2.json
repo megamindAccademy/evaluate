@@ -1,73 +1,68 @@
 {
   "quiz_id": "python_quiz_2",
-  "quiz_title": "تحدي بايثون الثاني: الشروط والقرارات الذكية",
+  "quiz_title": "🐍 Python Challenge 2: Operators & Math Calculations",
   "questions": [
     {
       "id": 1,
-      "question": "ما هي الكلمة السحرية التي نستخدمها في بايثون للتحقق من شرط معين (إذا كان...)؟",
+      "question": "Which Python arithmetic operator is used to perform division between two numbers?",
       "options": [
-        "when",
-        "if",
-        "check",
-        "loop"
+        "*",
+        "/",
+        "+",
+        "-"
       ],
       "correct": 1,
-      "explanation": "بطل حقيقي! الكلمة if تعني (إذا) وتُستخدم للتحقق من الشروط في البرمجة."
+      "explanation": "Spot on! The slash (/) character performs division, while the asterisk (*) is used for multiplication in Python."
     },
     {
       "id": 2,
-      "question": "إذا كان الشرط الأول خاطئاً وأردنا التحقق من شرط آخر، ماذا نستخدم في بايثون؟",
-      "options": [
-        "else",
-        "elif",
-        "then",
-        "otherwise"
-      ],
-      "correct": 1,
-      "explanation": "عبقري! كلمة elif هي اختصار لـ (else if) وتُستخدم للتحقق من شرط جديد."
-    },
-    {
-      "id": 3,
-      "question": "ما هي الدالة التي نستخدمها لأخذ نص أو إجابة من المستخدم (الطفل) في بايثون؟",
-      "options": [
-        "get()",
-        "receive()",
-        "input()",
-        "scan()"
-      ],
-      "correct": 2,
-      "explanation": "ممتاز! دالة input() تفتح صندوقاً للمستخدم ليكتب فيه إجابته للكمبيوتر."
-    },
-    {
-      "id": 4,
-      "question": "ما هو الرمز الذي نستخدمه للمقارنة بين قيمتين والتحقق من أنهما متساويتان تماماً في بايثون؟",
+      "question": "Which operator is used in Python to compare if two separate values are exactly equal to each other?",
       "options": [
         "=",
         "==",
         "!=",
-        "=>"
+        "equals"
       ],
       "correct": 1,
-      "explanation": "أحسنت! علامة == تُستخدم للمقارنة، بينما علامة = الواحدة تُستخدم لتخزين المتغيرات."
+      "explanation": "Correct! A single equals sign (=) assigns a value, whereas a double equals sign (==) is the comparison operator that checks equality."
+    },
+    {
+      "id": 3,
+      "question": "When using the logical operator 'and' (e.g. A and B), what must be the state of A and B for the entire condition to evaluate as True?",
+      "options": [
+        "Only A must be True",
+        "Only B must be True",
+        "Both A and B must be True",
+        "Both A and B must be False"
+      ],
+      "correct": 2,
+      "explanation": "Excellent! The 'and' operator requires all statements on both sides to be completely True to output a True result."
+    },
+    {
+      "id": 4,
+      "question": "When you capture user text using the input() function, what is the default data type of the returned value?",
+      "options": [
+        "Integer (int)",
+        "Boolean (bool)",
+        "String (str)",
+        "Float (float)"
+      ],
+      "correct": 2,
+      "explanation": "Great! The input() function always collects user input as text, which belongs to the string (str) data type, even if the user types numbers."
     },
     {
       "id": 5,
-      "question": "إذا كتبنا الكود التالي: if 10 > 5: print('Yes') ، ماذا سيطبع الكمبيوتر؟",
-      "options": [
-        "لا يطبع شيئاً",
-        "Yes",
-        "No",
-        "10"
-      ],
-      "correct": 1,
-      "explanation": "ذكاء خارق! بما أن 10 أكبر من 5 (شرط صحيح)، سيقوم الكمبيوتر بطباعة كلمة Yes."
+      "type": "task",
+      "question": "Simple Coding Task: Add two numbers, 15 and 25, and print their final combined sum.",
+      "task_hint": "Write: print(15 + 25)",
+      "explanation": "Perfect! Passing arithmetic expressions directly inside print() computes the value first and then displays the resulting sum."
     },
     {
       "id": 6,
       "type": "task",
-      "question": "تحدي البرمجة المفتوح (Task): اكتب كود بايثون يطلب من المستخدم إدخال عمره، ثم يطبع له 'أنت بطل كبير!' إذا كان عمره أكبر من 10 سنوات!",
-      "task_hint": "تذكر استخدام الجملة الشرطية if age > 10: ثم print('أنت بطل كبير!')",
-      "explanation": "هذا التحدي يحتاج لإبداعك الخارق! تم تسجيل الكود الخاص بك في التقرير ليقوم المهندس المشرف بمراجعته وتقييمه قريباً."
+      "question": "Simple Coding Task: Multiply the number 8 by the number 7, and print the multiplication result.",
+      "task_hint": "Write: print(8 * 7)",
+      "explanation": "Outstanding! The asterisk (*) is Python's standard multiplication operator used to compute mathematical products."
     }
   ]
 }

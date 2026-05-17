@@ -1,73 +1,68 @@
 {
   "quiz_id": "python_quiz_1",
-  "quiz_title": "تحدي بايثون الأول: الأساسيات السحرية",
+  "quiz_title": "🐍 Python Challenge 1: Basics, Variables & Lists",
   "questions": [
     {
       "id": 1,
-      "question": "ما هي الدالة السحرية التي نستخدمها لطباعة نص على الشاشة في لغة بايثون؟",
+      "question": "Which of the following describes Python's coding syntax most accurately?",
       "options": [
-        "echo('Hello')",
-        "print('Hello')",
-        "write('Hello')",
-        "output('Hello')"
+        "It is extremely complex and uses lots of math symbols",
+        "It is clean, readable, and feels similar to reading plain English",
+        "It can only run inside a browser",
+        "It does not support variables"
       ],
       "correct": 1,
-      "explanation": "ممتاز يا بطل! دالة print() هي المسؤولة عن الطباعة وإظهار النصوص على الشاشة في بايثون."
+      "explanation": "Spot on! Python is designed to be highly readable, making it one of the absolute best languages for beginners."
     },
     {
       "id": 2,
-      "question": "كيف نكتب متغيراً يحفظ اسمك في بايثون بشكل صحيح؟",
+      "question": "Which built-in function is used to output text, numbers, or variable values onto the console screen in Python?",
       "options": [
-        "name = 'Ahmed'",
-        "let name : Ahmed",
-        "variable name = Ahmed",
-        "int name = 'Ahmed'"
+        "input()",
+        "print()",
+        "type()",
+        "list()"
       ],
-      "correct": 0,
-      "explanation": "عبقري! في بايثون نكتب اسم المتغير، ثم علامة = ، ثم القيمة مباشرة بين علامتي تنصيص."
+      "correct": 1,
+      "explanation": "Correct! We use the print() function to send any text message or numeric calculation output straight to the screen."
     },
     {
       "id": 3,
-      "question": "ما هو الرمز الذي نستخدمه لكتابة تعليق (Comment) لا يقرأه الكمبيوتر في بايثون؟",
+      "question": "If you create a Python variable to store your name, which of the following is a valid variable declaration?",
       "options": [
-        "//",
-        "/*",
-        "#",
-        "<!--"
+        "name == 'Megaminds'",
+        "name = 'Megaminds'",
+        "1name = 'Megaminds'",
+        "print('Megaminds')"
       ],
-      "correct": 2,
-      "explanation": "أحسنت! علامة الشباك # تُستخدم لكتابة التعليقات والملاحظات في كود بايثون."
+      "correct": 1,
+      "explanation": "Great! We declare variables using a single equals sign (=) as the assignment operator, and names cannot start with numbers."
     },
     {
       "id": 4,
-      "question": "إذا أردنا حفظ رقم 10 في متغير اسمه x، ماذا نكتب؟",
+      "question": "In Python lists, what is the index number representing the very first item in the list?",
       "options": [
-        "x == 10",
-        "10 = x",
-        "x = 10",
-        "set x to 10"
+        "1",
+        "0",
+        "-1",
+        "first"
       ],
-      "correct": 2,
-      "explanation": "يا بطل ميجامايندز! نكتب اسم المتغير x على اليسار ثم علامة = ثم القيمة 10 على اليمين."
+      "correct": 1,
+      "explanation": "Awesome! Python lists are 0-indexed, meaning the first element is placed at index [0], the second at index [1], and so on."
     },
     {
       "id": 5,
-      "question": "ما هو ناتج العملية الحسابية (3 + 5 * 2) في بايثون؟",
-      "options": [
-        "16",
-        "13",
-        "352",
-        "10"
-      ],
-      "correct": 1,
-      "explanation": "ذكاء خارق! الكمبيوتر يقوم بعملية الضرب أولاً (5 * 2 = 10) ثم يجمع عليها (10 + 3 = 13)."
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python print statement to display the message: 'Welcome to Megaminds'",
+      "task_hint": "Write: print('Welcome to Megaminds')",
+      "explanation": "Perfect! Using double or single quotes around your text inside print() displays it cleanly on the console."
     },
     {
       "id": 6,
       "type": "task",
-      "question": "تحدي البرمجة المفتوح (Task): اكتب كود بايثون يطلب من المستخدم إدخال اسمه باستخدام دالة input()، ثم يطبع له رسالة ترحيبية مبهجة باستخدام دالة print()!",
-      "task_hint": "تذكر كتابة: name = input('ما اسمك؟') ثم print('أهلاً بك يا ' + name)",
-      "explanation": "هذا التحدي يحتاج لإبداعك الخارق! تم تسجيل الكود الخاص بك في التقرير ليقوم المهندس المشرف بمراجعته وتقييمه قريباً."
+      "question": "Simple Coding Task: Declare a variable named 'age' and assign it a numeric value of 12, then write a print statement to display the value of your 'age' variable.",
+      "task_hint": "Write: age = 12 then print(age)",
+      "explanation": "Outstanding! Variables act as data containers, and passing a variable name directly to print() outputs its current stored value."
     }
   ]
 }

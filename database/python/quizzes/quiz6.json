@@ -1,0 +1,68 @@
+{
+  "quiz_id": "python_quiz_6",
+  "quiz_title": "🐍 Python Challenge 6: OOP Blueprints & Game Development",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In Object-Oriented Programming (OOP), what is the relationship between a Class and an Object?",
+      "options": [
+        "An object is the blueprint, while a class is a variable",
+        "A class is a reusable code template (blueprint), while an object is a real, live instance created from it",
+        "They are the same thing",
+        "Classes are functions; objects are dictionaries"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The Class is the virtual design pattern (like a blueprint for a house), and the Object is the actual item built from that design."
+    },
+    {
+      "id": 2,
+      "question": "What is the primary function of the special built-in constructor method '__init__' inside a Python class?",
+      "options": [
+        "To delete objects from memory",
+        "To initialize and set up starting attributes and values for a new object automatically upon creation",
+        "To print text statements to the screen",
+        "To install libraries from PyPI"
+      ],
+      "correct": 1,
+      "explanation": "Correct! The __init__ constructor runs automatically when a new object is instantiated, defining its baseline properties."
+    },
+    {
+      "id": 3,
+      "question": "Which Python library is extremely useful for sending automated HTTP requests (like GET and POST) to fetch content from web servers?",
+      "options": [
+        "turtle",
+        "matplotlib",
+        "requests",
+        "numpy"
+      ],
+      "correct": 2,
+      "explanation": "Excellent! The 'requests' library allows your Python script to communicate with external web services and scrape websites."
+    },
+    {
+      "id": 4,
+      "question": "In our Ping Pong game built with the Turtle library, what is the default coordinate location of the turtle pen when the screen first launches?",
+      "options": [
+        "At the top left corner (0, 400)",
+        "At the center of the screen (0, 0)",
+        "At the bottom right corner (300, -300)",
+        "It starts at random coordinates"
+      ],
+      "correct": 1,
+      "explanation": "Great! Turtle graphics uses a standard cartesian graph where the center of the drawing window is located exactly at coordinates (0, 0)."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write Python code to import the 'turtle' library, and initialize a game screen object named 'win' by calling the turtle.Screen() constructor.",
+      "task_hint": "Write: import turtle then win = turtle.Screen()",
+      "explanation": "Perfect! Importing turtle and setting up Screen() creates the visual canvas window needed to draw shapes or build games."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Define a basic Python class named 'Student' with an initializer constructor method '__init__' that takes the parameter 'name' and stores it as an instance attribute: self.name = name.",
+      "task_hint": "Write: class Student: def __init__(self, name): self.name = name",
+      "explanation": "Outstanding! Creating constructors and assigning parameter values to 'self' is the foundational way to initialize custom object attributes in Python."
+    }
+  ]
+}

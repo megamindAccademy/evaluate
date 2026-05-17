@@ -1,0 +1,68 @@
+{
+  "quiz_id": "python_quiz_4",
+  "quiz_title": "🐍 Python Challenge 4: Decision Making & Loops",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the correct Python keyword used to check a secondary condition when the preceding 'if' statement evaluated as False?",
+      "options": [
+        "else if",
+        "elif",
+        "else",
+        "or if"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Python combines 'else' and 'if' into the short keyword 'elif' to test multiple conditions sequentially."
+    },
+    {
+      "id": 2,
+      "question": "What will happen if you write a 'while' loop but completely forget to increment or modify your control variable inside the loop?",
+      "options": [
+        "The loop will execute exactly once and then stop",
+        "It builds an infinite loop that continues running forever, which can freeze the program",
+        "The Python editor will automatically fix the error",
+        "It will convert the variable to a string list"
+      ],
+      "correct": 1,
+      "explanation": "Correct! If a loop's condition never becomes False, the loop continues to execute endlessly, resulting in an infinite loop."
+    },
+    {
+      "id": 3,
+      "question": "Which Python statement is used to immediately terminate a loop, jumping out of it entirely before its condition naturally expires?",
+      "options": [
+        "continue",
+        "stop",
+        "break",
+        "exit"
+      ],
+      "correct": 2,
+      "explanation": "Excellent! The 'break' statement is a loop controller that instantly stops and exits the closest wrapping loop block."
+    },
+    {
+      "id": 4,
+      "question": "What does the 'continue' statement do when encountered inside a running loop in Python?",
+      "options": [
+        "It stops the entire program immediately",
+        "It skips the remaining statements in the current iteration and jumps straight to the next loop cycle",
+        "It deletes all variables defined inside the loop",
+        "It prints the text 'continue' to the console"
+      ],
+      "correct": 1,
+      "explanation": "Great! The 'continue' keyword skips the rest of the current iteration, proceeding directly to check the loop's next condition."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: You have a variable: score = 75. Write an 'if' statement that checks if 'score' is greater than 50, and if it is, print the string 'Pass'.",
+      "task_hint": "Write: score = 75 then if score > 50: print('Pass')",
+      "explanation": "Perfect! Putting a colon after your test condition and indenting your print statement tells Python what to execute when the check passes."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Create a 'while' loop using a counter variable named 'i' initialized to 0. The loop should run as long as 'i' is less than 3, printing 'i' and incrementing it by 1 in each round.",
+      "task_hint": "Write: i = 0 then while i < 3: print(i); i += 1 (on separate lines)",
+      "explanation": "Outstanding! Using a clear loop counter variable and incrementing it ensures the while loop stops exactly when expected."
+    }
+  ]
+}
