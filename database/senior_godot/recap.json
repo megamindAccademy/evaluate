@@ -1,5 +1,5 @@
 {
-  "course": "Godot Game Development 🎮",
+  "course": "Godot Game Development",
   "sessions": [
     {
       "session_title": "💡 Session 1: Welcome to Godot & Engine Setup",
@@ -273,6 +273,6 @@
       ]
     }
   ],
-  "recap_title": "🎯 المراجعة السريعة والمصورة لكورس: تطوير الألعاب بمحرك Godot",
+  "recap_title": "🎯 المراجعة السريعة والمصورة لكورس: Godot Game Development",
   "recap_subtitle": "مرحباً بك يا بطل! هذه مراجعة سريعة ومدعمة بالأمثلة البرمجية والأشكال التوضيحية لكل جلسة تعلمتها في الكورس لمساعدتك على استذكار المفاهيم بكل سهولة ومتعة والاستعداد للاختبار الخارق! 🚀🌟"
 }

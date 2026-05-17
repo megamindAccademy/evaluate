@@ -1,6 +1,6 @@
 {
   "course_id": "python",
-  "course_title": "جزيرة بايثون السحرية (Python Island) 🐍",
+  "course_title": "Python Basics",
   "course_subtitle": "مرحباً بك في أمتع رحلة لتعلم لغة بايثون! هنا لن تقرأ فقط، بل ستعيش المغامرة وتكتب الأكواد السحرية بنفسك وتشاهد نتيجتها فوراً. افتح المحطات، اجمع الأوسمة، واصنع ألعابك ورسوماتك الخاصة لتصبح مبرمجاً خارقاً!",
   "xp_total": 600,
   "mascot_img": "./assets/megaminds_mascot.png",
@@ -17,8 +17,14 @@
       "challenge": "قم بطباعة الجملة السحرية <code>أنا بطل ميجامايندز</code> على الشاشة باستخدام أمر الطباعة print.",
       "starter_code": "# اكتب كود الطباعة هنا يا بطل:\n",
       "pills": [
-        { "label": "طباعة عبارة التحدي", "code": "print(\"أنا بطل ميجامايندز\")" },
-        { "label": "إنشاء متغير وطباعته", "code": "hero_name = \"أحمد\"\nprint(hero_name)" }
+        {
+          "label": "طباعة عبارة التحدي",
+          "code": "print(\"أنا بطل ميجامايندز\")"
+        },
+        {
+          "label": "إنشاء متغير وطباعته",
+          "code": "hero_name = \"أحمد\"\nprint(hero_name)"
+        }
       ],
       "validation_rules": {
         "required_output_text": "أنا بطل ميجامايندز",
@@ -37,8 +43,14 @@
       "challenge": "قم بضرب الرقمين 50 في 20 واطبع الناتج النهائي (1000) على الشاشة باستخدام أمر print.",
       "starter_code": "# احسب حاصل ضرب 50 في 20 واطبع الناتج:\n",
       "pills": [
-        { "label": "حساب مباشر للضرب", "code": "print(50 * 20)" },
-        { "label": "استخدام المتغيرات للحساب", "code": "x = 50\ny = 20\nprint(x * y)" }
+        {
+          "label": "حساب مباشر للضرب",
+          "code": "print(50 * 20)"
+        },
+        {
+          "label": "استخدام المتغيرات للحساب",
+          "code": "x = 50\ny = 20\nprint(x * y)"
+        }
       ],
       "validation_rules": {
         "required_output_text": "1000",
@@ -57,8 +69,14 @@
       "challenge": "قم بإنشاء متغير <code>score = 100</code> واستخدم شرط <code>if score == 100:</code> لطباعة عبارة <code>بطل خارق</code>.",
       "starter_code": "# أنشئ المتغير واكتب شرط التحقق:\nscore = 100\n",
       "pills": [
-        { "label": "شرط التحقق من الدرجة", "code": "score = 100\nif score == 100:\n    print(\"بطل خارق\")" },
-        { "label": "شرط مع Else", "code": "score = 100\nif score > 50:\n    print(\"بطل خارق\")\nelse:\n    print(\"حاول ثانية\")" }
+        {
+          "label": "شرط التحقق من الدرجة",
+          "code": "score = 100\nif score == 100:\n    print(\"بطل خارق\")"
+        },
+        {
+          "label": "شرط مع Else",
+          "code": "score = 100\nif score > 50:\n    print(\"بطل خارق\")\nelse:\n    print(\"حاول ثانية\")"
+        }
       ],
       "validation_rules": {
         "required_output_text": "بطل خارق",
@@ -77,11 +95,23 @@
       "challenge": "استخدم حلقة التكرار <code>for i in range(5):</code> لطباعة كلمة <code>ميجامايندز</code> 5 مرات متتالية على الشاشة.",
       "starter_code": "# استخدم حلقة for لطباعة الكلمة 5 مرات:\n",
       "pills": [
-        { "label": "حلقة تكرار for", "code": "for i in range(5):\n    print(\"ميجامايندز\")" },
-        { "label": "طباعة أرقام الحلقة", "code": "for i in range(5):\n    print(i)" }
+        {
+          "label": "حلقة تكرار for",
+          "code": "for i in range(5):\n    print(\"ميجامايندز\")"
+        },
+        {
+          "label": "طباعة أرقام الحلقة",
+          "code": "for i in range(5):\n    print(i)"
+        }
       ],
       "validation_rules": {
-        "required_keywords": ["ميجامايندز", "ميجامايندز", "ميجامايندز", "ميجامايندز", "ميجامايندز"],
+        "required_keywords": [
+          "ميجامايندز",
+          "ميجامايندز",
+          "ميجامايندز",
+          "ميجامايندز",
+          "ميجامايندز"
+        ],
         "required_canvas": false
       }
     },
@@ -97,8 +127,14 @@
       "challenge": "قم باستدعاء السلحفاة <code>import turtle</code> واجعلها ترسم دائرة خضراء باستخدام <code>turtle.color(\"green\")</code> و <code>turtle.circle(60)</code>.",
       "starter_code": "# استدعِ السلحفاة وارسم دائرة خضراء:\nimport turtle\n",
       "pills": [
-        { "label": "رسم دائرة خضراء", "code": "import turtle\nturtle.color(\"green\")\nturtle.circle(60)" },
-        { "label": "رسم مربع أحمر", "code": "import turtle\nturtle.color(\"red\")\nfor i in range(4):\n    turtle.forward(100)\n    turtle.right(90)" }
+        {
+          "label": "رسم دائرة خضراء",
+          "code": "import turtle\nturtle.color(\"green\")\nturtle.circle(60)"
+        },
+        {
+          "label": "رسم مربع أحمر",
+          "code": "import turtle\nturtle.color(\"red\")\nfor i in range(4):\n    turtle.forward(100)\n    turtle.right(90)"
+        }
       ],
       "validation_rules": {
         "required_canvas": true,
@@ -117,7 +153,10 @@
       "challenge": "قم بتهيئة متغيرات اللعبة <code>ball_speed = 10</code> و <code>paddle_pos = 50</code> واطبع العبارة الختامية <code>تم تشغيل لعبة Ping Pong بنجاح!</code> لمشاهدة المحاكاة!",
       "starter_code": "# تهيئة اللعبة وتشغيل المحاكاة:\nball_speed = 10\npaddle_pos = 50\n",
       "pills": [
-        { "label": "تشغيل محاكاة اللعبة", "code": "ball_speed = 10\npaddle_pos = 50\nprint(\"تم تشغيل لعبة Ping Pong بنجاح!\")" }
+        {
+          "label": "تشغيل محاكاة اللعبة",
+          "code": "ball_speed = 10\npaddle_pos = 50\nprint(\"تم تشغيل لعبة Ping Pong بنجاح!\")"
+        }
       ],
       "validation_rules": {
         "required_output_text": "تم تشغيل لعبة Ping Pong بنجاح!",

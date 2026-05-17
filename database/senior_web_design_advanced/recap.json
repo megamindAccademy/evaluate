@@ -1,5 +1,5 @@
 {
-  "course": "Web Design Advanced (JS/Bootstrap) 🚀",
+  "course": "Web Design Advanced",
   "sessions": [
     {
       "session_title": "💡 Session 1: Advanced HTML5 Semantics",
@@ -354,6 +354,6 @@
       ]
     }
   ],
-  "recap_title": "🎯 المراجعة السريعة والمصورة لكورس: تصميم الويب المتقدم JS & Bootstrap",
+  "recap_title": "🎯 المراجعة السريعة والمصورة لكورس: Web Design Advanced",
   "recap_subtitle": "مرحباً بك يا بطل! هذه مراجعة سريعة ومدعمة بالأمثلة البرمجية والأشكال التوضيحية لكل جلسة تعلمتها في الكورس لمساعدتك على استذكار المفاهيم بكل سهولة ومتعة والاستعداد للاختبار الخارق! 🚀🌟"
 }
