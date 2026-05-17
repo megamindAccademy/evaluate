@@ -1566,9 +1566,7 @@ body {
 .option-btn, 
 .q-text, 
 .q-student-answer, 
-.q-correct-answer, 
-.recap-desc, 
-.recap-card {
+.q-correct-answer {
     unicode-bidi: plaintext;
     text-align: right;
 }

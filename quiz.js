@@ -277,7 +277,12 @@ function cleanBiDiText(text) {
     if (!text) return '';
     const hasArabic = /[\u0600-\u06FF]/.test(text);
     if (!hasArabic) {
-        return `<span dir="ltr" style="display: inline-block; direction: ltr; unicode-bidi: bidi-override; font-family: 'Courier New', Courier, monospace; font-size: 1.1em; font-weight: bold;">${text}</span>`;
+        const isCode = /[(){}\[\]=/*#;]/.test(text) || /\b(def|import|print|echo|return|class|function|let|const|var|if|for|while)\b/.test(text);
+        if (isCode) {
+            return `<span dir="ltr" style="display: inline-block; direction: ltr; unicode-bidi: bidi-override; font-family: 'Courier New', Courier, monospace; font-size: 1.1em; font-weight: bold;">${text}</span>`;
+        } else {
+            return `<span dir="ltr" style="display: inline-block; direction: ltr; unicode-bidi: plaintext; font-family: inherit; text-align: left;">${text}</span>`;
+        }
     } else {
         return text.replace(/([a-zA-Z0-9_().=/'"*#\-]+(?:[ ]+[a-zA-Z0-9_().=/'"*#\-]+)*)/g, '<span dir="ltr" style="display: inline-block; direction: ltr; unicode-bidi: isolate; font-family: \'Courier New\', Courier, monospace; font-size: 1.1em; font-weight: bold; padding: 0 4px; color: var(--primary);">$1</span>');
     }
@@ -366,11 +371,17 @@ function initRecapScreen() {
                 card.setAttribute('dir', cardDir);
                 card.style.textAlign = cardDir === 'ltr' ? 'left' : 'right';
 
-                card.innerHTML = `
-                    <div class="recap-card-icon">${point.icon}</div>
-                    <div class="recap-card-content">
-                        <h4 style="text-align: ${cardDir === 'ltr' ? 'left' : 'right'};">${point.title}</h4>
-                        <p style="text-align: ${cardDir === 'ltr' ? 'left' : 'right'};">${cleanBiDiText(point.desc)}</p>
+                card.innerHTML = cardDir === 'ltr' ? `
+                    <div class="recap-card-icon" style="margin-right: 20px;">${point.icon}</div>
+                    <div class="recap-card-content" style="text-align: left; direction: ltr;">
+                        <h4 style="text-align: left; font-family: inherit; font-size: 1.8rem; font-weight: 900; color: var(--tertiary-dark); margin: 0 0 8px 0;">${point.title}</h4>
+                        <p style="text-align: left; font-family: inherit; font-size: 1.4rem; font-weight: normal; line-height: 1.8; color: #4a5568; margin: 0; unicode-bidi: plaintext;">${point.desc}</p>
+                    </div>
+                ` : `
+                    <div class="recap-card-icon" style="margin-left: 20px;">${point.icon}</div>
+                    <div class="recap-card-content" style="text-align: right; direction: rtl;">
+                        <h4 style="text-align: right; font-family: inherit; font-size: 1.8rem; font-weight: 900; color: var(--tertiary-dark); margin: 0 0 8px 0;">${point.title}</h4>
+                        <p style="text-align: right; font-family: inherit; font-size: 1.4rem; font-weight: normal; line-height: 1.8; color: #4a5568; margin: 0; unicode-bidi: plaintext;">${point.desc}</p>
                     </div>
                 `;
                 recapCardsGridEl.appendChild(card);
