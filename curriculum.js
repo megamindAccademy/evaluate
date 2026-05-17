@@ -2,6 +2,16 @@
 // CURRICULUM.JS - Dynamic Interactive Curriculum & Games Engine
 // ============================================================================
 
+// Initialize Firebase Analytics if available
+try {
+    if (typeof firebase !== 'undefined' && firebase.analytics) {
+        firebase.analytics();
+        console.log("Firebase Analytics initialized successfully in curriculum.js!");
+    }
+} catch (e) {
+    console.error("Firebase Analytics initialization error:", e);
+}
+
 // Web Audio API for synthesized cheerful sound effects
 const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 

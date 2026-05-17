@@ -139,6 +139,10 @@ try {
     if (typeof firebase !== 'undefined') {
         firebase.initializeApp(firebaseConfig);
         db = firebase.database();
+        if (firebase.analytics) {
+            firebase.analytics();
+            console.log("Firebase Analytics initialized successfully in quiz.js!");
+        }
         console.log("Firebase Realtime Database initialized successfully in quiz.js!");
     }
 } catch (e) {

@@ -5,9 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>بوابة أبطال ميجامايندز | Megaminds Academy</title>
     <meta name="description" content="بوابة اختبارات وتحديات أكاديمية ميجامايندز لتعليم البرمجة والذكاء الاصطناعي والروبوتكس للأطفال. مساحة مليئة بالتشجيع والدلع لأبطال المستقبل.">
-    <meta name="keywords" content="ميجامايندز, تعليم البرمجة للأطفال, اختبارات برمجة, روبوتكس, ذكاء اصطناعي, بايثون, سكراتش">
+    <meta name="keywords" content="ميجامايندز, تعليم البرمجة للأطفال, اختبارات برمجة, روبوتكس, ذكاء اصطناعي, بايثون, سكراتش, تفاعلي">
     <meta name="author" content="Megaminds Academy">
-    
+    <meta name="theme-color" content="#8338ec">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://megaminds-academy.com/portal/index.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="بوابة أبطال ميجامايندز | Megaminds Academy">
+    <meta property="og:description" content="بوابة اختبارات وتحديات أكاديمية ميجامايندز لتعليم البرمجة والذكاء الاصطناعي والروبوتكس للأطفال. مساحة مليئة بالتشجيع والدلع لأبطال المستقبل.">
+    <meta property="og:image" content="https://megaminds-academy.com/portal/assets/megaminds_mascot.png">
+    <meta property="og:url" content="https://megaminds-academy.com/portal/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Megaminds Academy">
+    <meta property="og:locale" content="ar_AR">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="بوابة أبطال ميجامايندز | Megaminds Academy">
+    <meta name="twitter:description" content="بوابة اختبارات وتحديات أكاديمية ميجامايندز لتعليم البرمجة والذكاء الاصطناعي والروبوتكس للأطفال. مساحة مليئة بالتشجيع والدلع لأبطال المستقبل.">
+    <meta name="twitter:image" content="https://megaminds-academy.com/portal/assets/megaminds_mascot.png">
+    <meta name="twitter:site" content="@MegamindsAcademy">
+
+    <!-- Preconnect & Resource Hints for Performance (Core Web Vitals) -->
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.gstatic.com">
+
+    <!-- JSON-LD Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "EducationalOrganization",
+          "@id": "https://megaminds-academy.com/#organization",
+          "name": "أكاديمية ميجامايندز - Megaminds Academy",
+          "url": "https://megaminds-academy.com",
+          "logo": "https://megaminds-academy.com/portal/assets/navbar_logo.png",
+          "description": "المنصة الأولى لتعلم البرمجة، الذكاء الاصطناعي، وعلوم الروبوتكس من الصفر للأطفال والمراهقين في الوطن العربي.",
+          "sameAs": [
+            "https://www.facebook.com/MegamindsAcademy",
+            "https://www.instagram.com/MegamindsAcademy"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://megaminds-academy.com/portal/#website",
+          "url": "https://megaminds-academy.com/portal/",
+          "name": "بوابة أبطال ميجامايندز",
+          "description": "بوابة اختبارات وتحديات أكاديمية ميجامايندز لتعليم البرمجة والذكاء الاصطناعي والروبوتكس للأطفال.",
+          "publisher": {
+            "@id": "https://megaminds-academy.com/#organization"
+          },
+          "inLanguage": "ar"
+        }
+      ]
+    }
+    </script>
+
     <!-- External CSS & Fonts -->
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -25,7 +80,7 @@
     <!-- Header Section -->
     <header class="app-header" id="mainHeader">
         <a href="https://megaminds-academy.com" class="logo-container" aria-label="موقع أكاديمية ميجامايندز">
-            <img src="./assets/navbar_logo.png" alt="شعار أكاديمية ميجامايندز" class="logo-icon">
+            <img src="./assets/navbar_logo.png" alt="شعار أكاديمية ميجامايندز" class="logo-icon" width="50" height="50" decoding="async">
             <span class="logo-text">أكاديمية ميجامايندز</span>
         </a>
         <div class="header-actions" style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
@@ -53,7 +108,7 @@
             </div>
             <div class="hero-mascot-container">
                 <div class="mascot-bg-glow"></div>
-                <img src="./assets/megaminds_mascot.png" alt="شخصية ميجامايندز الكرتونية لتشجيع الأطفال" class="hero-mascot" id="heroMascotImg">
+                <img src="./assets/megaminds_mascot.png" alt="شخصية ميجامايندز الكرتونية لتشجيع الأطفال" class="hero-mascot" id="heroMascotImg" width="400" height="400" fetchpriority="high" decoding="async">
             </div>
         </section>
 
@@ -84,22 +139,10 @@
         <section class="quizzes-section" id="quizzesSection">
             <div class="section-header">
                 <h2 class="section-title">مسارات واختبارات ميجامايندز</h2>
-                <p class="section-subtitle">اختر مسارك أو استكشف موقعنا الرئيسي لبدء رحلة التعلم</p>
+                <p class="section-subtitle">اختر مسارك أو اختبارك لبدء رحلة التحدي والمراجعة</p>
             </div>
 
             <div class="quizzes-grid" id="dynamicCoursesGrid">
-                <!-- Card 1: Main Academy Website (Static Active Link) -->
-                <article class="quiz-card" id="cardMainSite">
-                    <span class="card-badge badge-active">متاح الآن 🌟</span>
-                    <div class="card-icon icon-main">🌐</div>
-                    <h3 class="card-title">موقع الأكاديمية الرئيسي</h3>
-                    <p class="card-desc">
-                        استكشف جميع دوراتنا الممتعة في البرمجة، الروبوتات، والذكاء الاصطناعي، واحجز مقعدك لتصبح مبرمج المستقبل!
-                    </p>
-                    <a href="https://megaminds-academy.com" class="card-btn btn-active" target="_blank" rel="noopener noreferrer" id="btnMainSite">
-                        <span>زيارة موقع الأكاديمية 🚀</span>
-                    </a>
-                </article>
                 <!-- Dynamic Course Cards will be injected here by script.js -->
             </div>
         </section>
@@ -125,10 +168,17 @@
             </p>
             <div class="footer-hearts">💖 🚀 🌟 🤖 💡</div>
             <div class="footer-bottom">
+                <p class="footer-academy-link" style="margin-bottom: 10px; font-size: 1.4rem; color: #cbd5e1;">
+                    هذه البوابة التفاعلية تابعة رسمياً لـ <a href="https://megaminds-academy.com" target="_blank" rel="noopener noreferrer" style="color: #ffb703; text-decoration: underline; font-weight: bold;">أكاديمية ميجامايندز (Megaminds Academy)</a>.
+                </p>
                 <p>&copy; 2026 جميع الحقوق محفوظة لصالح أكاديمية ميجامايندز (Megaminds Academy).</p>
             </div>
         </div>
     </footer>
+
+    <!-- Firebase v8/v9 Compat CDN & Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics-compat.js"></script>
 
     <!-- JavaScript File -->
     <script src="./script.js"></script>

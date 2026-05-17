@@ -12,6 +12,16 @@ const messages = [
     "🏆 أنت بطل حقيقي! كل خطوة تخطوها في التعلم هي انتصار كبير نفتخر به!"
 ];
 
+// Initialize Firebase Analytics if available
+try {
+    if (typeof firebase !== 'undefined' && firebase.analytics) {
+        firebase.analytics();
+        console.log("Firebase Analytics initialized successfully in script.js!");
+    }
+} catch (e) {
+    console.error("Firebase Analytics initialization error:", e);
+}
+
 // Web Audio API for synthesized cheerful sound effects
 const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
