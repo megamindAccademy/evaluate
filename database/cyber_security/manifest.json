@@ -1,0 +1,15 @@
+{
+  "title": "Cyber Security 🛡️",
+  "description": "Master network defense, virtual hacking environments, data hashing algorithms, and malware analysis tools!",
+  "icon": "🛡️",
+  "status": "active",
+  "recap_file": "recap.json",
+  "quizzes": [
+    "quiz1.json",
+    "quiz2.json",
+    "quiz3.json",
+    "quiz4.json",
+    "quiz5.json",
+    "quiz6.json"
+  ]
+}

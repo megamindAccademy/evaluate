@@ -1,0 +1,269 @@
+{
+  "course": "Cyber Security 🛡️",
+  "sessions": [
+    {
+      "session_title": "💡 Session 1: Core Security Pillars",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Core Security Pillars Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Core Security Pillars",
+          "desc": "Understanding the CIA Triad (Confidentiality, Integrity, Availability) and the local legal frameworks.",
+          "example": "MFA implementation"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 2: Phishing Vectors",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Phishing Vectors Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Phishing Vectors",
+          "desc": "How hackers harvest user credentials via cloned login portals.",
+          "example": "Fake HTML login forms"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 3: Red vs Blue Teams",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Red vs Blue Teams Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Red vs Blue Teams",
+          "desc": "Offensive security actions versus active defense and incident response loops.",
+          "example": "Penetration tests"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 4: Operating Systems",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Operating Systems Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Operating Systems",
+          "desc": "Setting up safe Guest virtual machines in Oracle VM VirtualBox.",
+          "example": "Kali Linux installation"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 5: Linux Commands",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Linux Commands Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Linux Commands",
+          "desc": "Navigating Kali directories, listing files, and editing configurations.",
+          "example": "Nano editor scripts"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 6: Data Integrity",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Data Integrity Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Data Integrity",
+          "desc": "Using hashing algorithms to construct fingerprint files and verify data.",
+          "example": "SHA-256 checks"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 7: Password recovery",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Password recovery Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Password recovery",
+          "desc": "Dictionary recovery attacks using John the Ripper and HashCat.",
+          "example": "rockyou.txt dictionary"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 8: Sandbox Environments",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Sandbox Environments Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Sandbox Environments",
+          "desc": "Isolating network guests to analyze suspicious malware safely.",
+          "example": "VM Host-only networks"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 9: Static Malware Checks",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Static Malware Checks Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Static Malware Checks",
+          "desc": "Scanning executable header tags, imports, and signature properties.",
+          "example": "PEStudio scans"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 10: Dynamic Malware logs",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Dynamic Malware logs Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Dynamic Malware logs",
+          "desc": "Using Procmon and Process Hacker to monitor dynamic registry modifications.",
+          "example": "Registry key updates"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 11: Firewall Filtering",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Firewall Filtering Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Firewall Filtering",
+          "desc": "Configuring Linux IPTables to intercept ports and block IP ranges.",
+          "example": "IP port blocking"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 12: Public Keys Exchange",
+      "targets": [
+        "Learn basic concepts",
+        "Execute hand-on labs",
+        "Verify outcomes"
+      ],
+      "blocks": [
+        "security_core",
+        "shell_scripts",
+        "network_adapters"
+      ],
+      "project": "Public Keys Exchange Practical Lab",
+      "points": [
+        {
+          "icon": "🛡️",
+          "title": "Public Keys Exchange",
+          "desc": "Using RSA asymmetric key pairs to encrypt sensitive files securely.",
+          "example": "GnuPG key exchanges"
+        }
+      ]
+    }
+  ]
+}
