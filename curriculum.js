@@ -200,7 +200,7 @@ function fetchCourseGames(courseId) {
     if (studioSection) studioSection.classList.remove('active');
 
     // Fetch JSON file
-    fetch(`./database/${courseId}/games.json`)
+    fetch(`./database/${courseId}/games.json?v=` + Date.now())
         .then(response => {
             if (!response.ok) throw new Error("Games file not found");
             return response.json();

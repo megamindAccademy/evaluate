@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // AUTO DISCOVERY OF COURSES & CURRICULUMS
     // ==========================================
     if (dynamicCoursesGridJunior || dynamicCoursesGridSenior || dynamicCurriculumsGridJunior || dynamicCurriculumsGridSenior) {
-        fetch('./database/courses_index.json')
+        fetch('./database/courses_index.json?v=' + Date.now())
             .then(response => {
                 if (!response.ok) throw new Error('courses_index.json not found');
                 return response.json();
@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(coursesList => {
                 // Fetch all manifest files in parallel
                 const fetchPromises = coursesList.map(courseId => {
-                    return fetch(`./database/${courseId}/manifest.json`)
+                    return fetch(`./database/${courseId}/manifest.json?v=` + Date.now())
                         .then(res => {
                             if (!res.ok) throw new Error(`Manifest not found for ${courseId}`);
                             return res.json().then(manifest => ({ courseId, manifest }));

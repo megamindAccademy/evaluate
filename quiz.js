@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Fetch Course Manifest from Database
-    fetch(`./database/${currentCourse}/manifest.json`)
+    fetch(`./database/${currentCourse}/manifest.json?v=` + Date.now())
         .then(response => {
             if (!response.ok) throw new Error(`Manifest not found for course: ${currentCourse}`);
             return response.json();
@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(manifest => {
             manifestData = manifest;
             if (quizCourseTitleEl) quizCourseTitleEl.textContent = manifest.course_title;
-            return fetch(`./database/${currentCourse}/${manifest.recap_file}`);
+            return fetch(`./database/${currentCourse}/${manifest.recap_file}?v=` + Date.now());
         })
         .then(response => {
             if (!response.ok) throw new Error(`Recap file not found`);
