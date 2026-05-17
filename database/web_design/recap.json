@@ -1,0 +1,357 @@
+{
+  "course": "Web Design (HTML/CSS) 💻",
+  "sessions": [
+    {
+      "session_title": "💡 Session 1: HTML5 Structural elements",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - HTML5 Structural elements",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "HTML5 Structural elements",
+          "desc": "Writing headers, paragraphs, and formatting bold text.",
+          "example": "<h1>, <p>, <strong> tags"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 2: Hyperlinks & Images",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - Hyperlinks & Images",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "Hyperlinks & Images",
+          "desc": "Embedding local graphics and linking web pages.",
+          "example": "<img> and <a> tags"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 3: Lists & Division Blocks",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - Lists & Division Blocks",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "Lists & Division Blocks",
+          "desc": "Creating bulleted checklists and grouping items inside block wrappers.",
+          "example": "<ul> and <div> containers"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 4: Table Schedules",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - Table Schedules",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "Table Schedules",
+          "desc": "Aligning data rows inside table structures.",
+          "example": "<tr>, <th>, and <td> cells"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 5: External Stylesheets",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - External Stylesheets",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "External Stylesheets",
+          "desc": "Linking external CSS stylesheets to HTML pages.",
+          "example": "<link rel='stylesheet'> tags"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 6: CSS Typography",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - CSS Typography",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "CSS Typography",
+          "desc": "Configuring clean font families, text sizes, and alignments.",
+          "example": "Outfit font declarations"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 7: CSS Box Model layers",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - CSS Box Model layers",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "CSS Box Model layers",
+          "desc": "Managing element margins, borders, paddings, and sizing rules.",
+          "example": "box-sizing: border-box settings"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 8: CSS Shadows & Gradients",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - CSS Shadows & Gradients",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "CSS Shadows & Gradients",
+          "desc": "Applying linear gradients and soft drop shadows to components.",
+          "example": "linear-gradient background fills"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 9: CSS Absolute Coordinates",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - CSS Absolute Coordinates",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "CSS Absolute Coordinates",
+          "desc": "Configuring sticky headers and floating overlays.",
+          "example": "position: fixed navbar positioning"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 10: Flexbox Layout Axes",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - Flexbox Layout Axes",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "Flexbox Layout Axes",
+          "desc": "Aligning child elements along horizontal and vertical axes.",
+          "example": "justify-content: space-between flex settings"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 11: Flex Wrapping & Sizing",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - Flex Wrapping & Sizing",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "Flex Wrapping & Sizing",
+          "desc": "Creating responsive product grids that wrap cards neatly.",
+          "example": "flex-wrap: wrap spacing"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 12: CSS 2D Grid slices",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - CSS 2D Grid slices",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "CSS 2D Grid slices",
+          "desc": "Dividing page templates into columns and rows.",
+          "example": "grid-template-columns structures"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 13: Interactive HTML Forms",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - Interactive HTML Forms",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "Interactive HTML Forms",
+          "desc": "Capturing user inputs with text inputs and radio buttons.",
+          "example": "<form> and <input> arrays"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 14: CSS Interactive Hovers",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - CSS Interactive Hovers",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "CSS Interactive Hovers",
+          "desc": "Adding smooth transitions and scale effects to buttons.",
+          "example": ":hover transform scaling"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 15: Bakery Template: Header & Hero",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - Bakery Template: Header & Hero",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "Bakery Template: Header & Hero",
+          "desc": "Building a landing page navigation header and Call-to-Action banner.",
+          "example": "Bakery Hero banners"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 16: Bakery Template: About & Footer",
+      "targets": [
+        "Structure tags",
+        "Style elements",
+        "Deploy responsive grids"
+      ],
+      "blocks": [
+        "html_tags",
+        "css_properties",
+        "flexbox_grid"
+      ],
+      "project": "Bakery Page Segment - Bakery Template: About & Footer",
+      "points": [
+        {
+          "icon": "💻",
+          "title": "Bakery Template: About & Footer",
+          "desc": "Adding semantic body sections and a responsive dark-themed footer.",
+          "example": "Bakery responsive footers"
+        }
+      ]
+    }
+  ]
+}

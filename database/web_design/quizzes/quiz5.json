@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 5: Persistence & Cache Storage",
+  "questions": [
+    {
+      "q": "Which component handles standard 'Local Caches' properties in Web Design (HTML/CSS)?",
+      "opts": [
+        "Aesthetic Local Caches Controller",
+        "Default Local Caches Interface",
+        "Custom Local Caches Data Handler",
+        "Standard Local Caches Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Web Design (HTML/CSS) framework."
+    },
+    {
+      "q": "Which component handles standard 'JSON Parsing' properties in Web Design (HTML/CSS)?",
+      "opts": [
+        "Aesthetic JSON Parsing Controller",
+        "Default JSON Parsing Interface",
+        "Custom JSON Parsing Data Handler",
+        "Standard JSON Parsing Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Web Design (HTML/CSS) framework."
+    },
+    {
+      "q": "Which component handles standard 'Async operations' properties in Web Design (HTML/CSS)?",
+      "opts": [
+        "Aesthetic Async operations Controller",
+        "Default Async operations Interface",
+        "Custom Async operations Data Handler",
+        "Standard Async operations Wrapper"
+      ],
+      "correct": 2,
+      "exp": "The 'Async operations' component is designed to manage functional Async operations layers inside the Web Design (HTML/CSS) framework."
+    },
+    {
+      "q": "Which component handles standard 'Key lookups' properties in Web Design (HTML/CSS)?",
+      "opts": [
+        "Aesthetic Key lookups Controller",
+        "Default Key lookups Interface",
+        "Custom Key lookups Data Handler",
+        "Standard Key lookups Wrapper"
+      ],
+      "correct": 3,
+      "exp": "The 'Key lookups' component is designed to manage functional Key lookups layers inside the Web Design (HTML/CSS) framework."
+    },
+    {
+      "q": "Which component handles standard 'Local Caches' properties in Web Design (HTML/CSS)?",
+      "opts": [
+        "Aesthetic Local Caches Controller",
+        "Default Local Caches Interface",
+        "Custom Local Caches Data Handler",
+        "Standard Local Caches Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Web Design (HTML/CSS) framework."
+    },
+    {
+      "q": "Which component handles standard 'JSON Parsing' properties in Web Design (HTML/CSS)?",
+      "opts": [
+        "Aesthetic JSON Parsing Controller",
+        "Default JSON Parsing Interface",
+        "Custom JSON Parsing Data Handler",
+        "Standard JSON Parsing Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Web Design (HTML/CSS) framework."
+    },
+    {
+      "q": "Which component handles standard 'Async operations' properties in Web Design (HTML/CSS)?",
+      "opts": [
+        "Aesthetic Async operations Controller",
+        "Default Async operations Interface",
+        "Custom Async operations Data Handler",
+        "Standard Async operations Wrapper"
+      ],
+      "correct": 2,
+      "exp": "The 'Async operations' component is designed to manage functional Async operations layers inside the Web Design (HTML/CSS) framework."
+    },
+    {
+      "q": "Which component handles standard 'Key lookups' properties in Web Design (HTML/CSS)?",
+      "opts": [
+        "Aesthetic Key lookups Controller",
+        "Default Key lookups Interface",
+        "Custom Key lookups Data Handler",
+        "Standard Key lookups Wrapper"
+      ],
+      "correct": 3,
+      "exp": "The 'Key lookups' component is designed to manage functional Key lookups layers inside the Web Design (HTML/CSS) framework."
+    },
+    {
+      "q": "Which component handles standard 'Local Caches' properties in Web Design (HTML/CSS)?",
+      "opts": [
+        "Aesthetic Local Caches Controller",
+        "Default Local Caches Interface",
+        "Custom Local Caches Data Handler",
+        "Standard Local Caches Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Web Design (HTML/CSS) framework."
+    },
+    {
+      "q": "Which component handles standard 'JSON Parsing' properties in Web Design (HTML/CSS)?",
+      "opts": [
+        "Aesthetic JSON Parsing Controller",
+        "Default JSON Parsing Interface",
+        "Custom JSON Parsing Data Handler",
+        "Standard JSON Parsing Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Web Design (HTML/CSS) framework."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Implement Local Caches Logic",
+      "desc": "Write a clean code snippet or blueprint implementing the standard Local Caches properties inside the Web Design (HTML/CSS) setup."
+    },
+    {
+      "title": "Optimize JSON Parsing Performance",
+      "desc": "Briefly explain the best practice guidelines to optimize JSON Parsing operations for user-centered design."
+    }
+  ]
+}
