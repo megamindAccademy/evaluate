@@ -349,7 +349,8 @@ function initRecapScreen() {
             sessionGroup.style.marginTop = '35px';
             sessionGroup.style.marginBottom = '20px';
 
-            const sessDir = getTextDirection(session.session_title);
+            const sessionTitleText = session.session_title || session.title || `Session ${session.session_num || ''}`;
+            const sessDir = getTextDirection(sessionTitleText);
             const sessionHeader = document.createElement('h3');
             sessionHeader.className = 'recap-session-title';
             sessionHeader.setAttribute('dir', sessDir);
@@ -359,12 +360,40 @@ function initRecapScreen() {
             sessionHeader.style.color = 'var(--tertiary-dark)';
             sessionHeader.style.borderBottom = '4px solid var(--secondary)';
             sessionHeader.style.paddingBottom = '12px';
-            sessionHeader.textContent = session.session_title;
+            sessionHeader.textContent = sessionTitleText;
             sessionGroup.appendChild(sessionHeader);
             
             recapCardsGridEl.appendChild(sessionGroup);
 
-            session.points.forEach(point => {
+            // Handle points if defined (old structure) or map targets/blocks/project (new junior structure)
+            const pointsToRender = [];
+            if (session.points && Array.isArray(session.points)) {
+                pointsToRender.push(...session.points);
+            } else {
+                if (session.targets && Array.isArray(session.targets)) {
+                    pointsToRender.push({
+                        icon: "🎯",
+                        title: "Session Targets",
+                        desc: session.targets.join(", ")
+                    });
+                }
+                if (session.blocks && Array.isArray(session.blocks)) {
+                    pointsToRender.push({
+                        icon: "🧱",
+                        title: "Key Blocks & Code Concepts",
+                        desc: session.blocks.join(", ")
+                    });
+                }
+                if (session.project) {
+                    pointsToRender.push({
+                        icon: "🚀",
+                        title: "DIY Session Project",
+                        desc: session.project
+                    });
+                }
+            }
+
+            pointsToRender.forEach(point => {
                 const cardDir = getTextDirection(point.desc);
                 const card = document.createElement('div');
                 card.className = 'recap-card';
