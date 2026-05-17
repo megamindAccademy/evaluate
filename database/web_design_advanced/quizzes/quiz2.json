@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 2: Layout & Control Flow",
+  "questions": [
+    {
+      "q": "Which component handles standard 'Structure' properties in Web Design Advanced?",
+      "opts": [
+        "Aesthetic Structure Controller",
+        "Default Structure Interface",
+        "Custom Structure Data Handler",
+        "Standard Structure Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Web Design Advanced framework."
+    },
+    {
+      "q": "Which component handles standard 'Loop Controls' properties in Web Design Advanced?",
+      "opts": [
+        "Aesthetic Loop Controls Controller",
+        "Default Loop Controls Interface",
+        "Custom Loop Controls Data Handler",
+        "Standard Loop Controls Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Web Design Advanced framework."
+    },
+    {
+      "q": "Which component handles standard 'Resizing rules' properties in Web Design Advanced?",
+      "opts": [
+        "Aesthetic Resizing rules Controller",
+        "Default Resizing rules Interface",
+        "Custom Resizing rules Data Handler",
+        "Standard Resizing rules Wrapper"
+      ],
+      "correct": 2,
+      "exp": "The 'Resizing rules' component is designed to manage functional Resizing rules layers inside the Web Design Advanced framework."
+    },
+    {
+      "q": "Which component handles standard 'Positioning' properties in Web Design Advanced?",
+      "opts": [
+        "Aesthetic Positioning Controller",
+        "Default Positioning Interface",
+        "Custom Positioning Data Handler",
+        "Standard Positioning Wrapper"
+      ],
+      "correct": 3,
+      "exp": "The 'Positioning' component is designed to manage functional Positioning layers inside the Web Design Advanced framework."
+    },
+    {
+      "q": "Which component handles standard 'Structure' properties in Web Design Advanced?",
+      "opts": [
+        "Aesthetic Structure Controller",
+        "Default Structure Interface",
+        "Custom Structure Data Handler",
+        "Standard Structure Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Web Design Advanced framework."
+    },
+    {
+      "q": "Which component handles standard 'Loop Controls' properties in Web Design Advanced?",
+      "opts": [
+        "Aesthetic Loop Controls Controller",
+        "Default Loop Controls Interface",
+        "Custom Loop Controls Data Handler",
+        "Standard Loop Controls Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Web Design Advanced framework."
+    },
+    {
+      "q": "Which component handles standard 'Resizing rules' properties in Web Design Advanced?",
+      "opts": [
+        "Aesthetic Resizing rules Controller",
+        "Default Resizing rules Interface",
+        "Custom Resizing rules Data Handler",
+        "Standard Resizing rules Wrapper"
+      ],
+      "correct": 2,
+      "exp": "The 'Resizing rules' component is designed to manage functional Resizing rules layers inside the Web Design Advanced framework."
+    },
+    {
+      "q": "Which component handles standard 'Positioning' properties in Web Design Advanced?",
+      "opts": [
+        "Aesthetic Positioning Controller",
+        "Default Positioning Interface",
+        "Custom Positioning Data Handler",
+        "Standard Positioning Wrapper"
+      ],
+      "correct": 3,
+      "exp": "The 'Positioning' component is designed to manage functional Positioning layers inside the Web Design Advanced framework."
+    },
+    {
+      "q": "Which component handles standard 'Structure' properties in Web Design Advanced?",
+      "opts": [
+        "Aesthetic Structure Controller",
+        "Default Structure Interface",
+        "Custom Structure Data Handler",
+        "Standard Structure Wrapper"
+      ],
+      "correct": 0,
+      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Web Design Advanced framework."
+    },
+    {
+      "q": "Which component handles standard 'Loop Controls' properties in Web Design Advanced?",
+      "opts": [
+        "Aesthetic Loop Controls Controller",
+        "Default Loop Controls Interface",
+        "Custom Loop Controls Data Handler",
+        "Standard Loop Controls Wrapper"
+      ],
+      "correct": 1,
+      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Web Design Advanced framework."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Implement Structure Logic",
+      "desc": "Write a clean code snippet or blueprint implementing the standard Structure properties inside the Web Design Advanced setup."
+    },
+    {
+      "title": "Optimize Loop Controls Performance",
+      "desc": "Briefly explain the best practice guidelines to optimize Loop Controls operations for user-centered design."
+    }
+  ]
+}

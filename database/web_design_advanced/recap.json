@@ -1,0 +1,357 @@
+{
+  "course": "Web Design Advanced (JS/Bootstrap) 🚀",
+  "sessions": [
+    {
+      "session_title": "💡 Session 1: Advanced HTML5 Semantics",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - Advanced HTML5 Semantics",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "Advanced HTML5 Semantics",
+          "desc": "Structuring page contents for maximum SEO indexing and screen readers.",
+          "example": "<main> and <article> layout structures"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 2: CSS Keyframe Loops",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - CSS Keyframe Loops",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "CSS Keyframe Loops",
+          "desc": "Creating smooth animations that rotate loader icons infinitely.",
+          "example": "@keyframes spin routines"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 3: Responsive Media Rules",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - Responsive Media Rules",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "Responsive Media Rules",
+          "desc": "Hiding desktop panels on mobile screen sizes.",
+          "example": "@media (max-width: 768px) stylesheets"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 4: Bootstrap Class Utilities",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - Bootstrap Class Utilities",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "Bootstrap Class Utilities",
+          "desc": "Importing CDNs and applying padding margins to elements.",
+          "example": "p-3 shadow-sm border-0 cards"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 5: Bootstrap 12-Column Grids",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - Bootstrap 12-Column Grids",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "Bootstrap 12-Column Grids",
+          "desc": "Building responsive layouts that scale column sizes dynamically.",
+          "example": "col-12 col-md-4 spacing"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 6: Bootstrap Components",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - Bootstrap Components",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "Bootstrap Components",
+          "desc": "Deploying responsive navigation headers and popup modals.",
+          "example": "data-bs-toggle='modal' triggers"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 7: JavaScript core variables",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - JavaScript core variables",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "JavaScript core variables",
+          "desc": "Declaring let and const variables to manage local datasets.",
+          "example": "let age = 15; console.log() tests"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 8: JS Conditional Branching",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - JS Conditional Branching",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "JS Conditional Branching",
+          "desc": "Directing program paths using if-else logic.",
+          "example": "if (score >= 50) statements"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 9: JS Arrays & Objects",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - JS Arrays & Objects",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "JS Arrays & Objects",
+          "desc": "Structuring complex datasets as key-value pairs.",
+          "example": "const student = { name: 'Alice' }"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 10: JS Array Iterators",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - JS Array Iterators",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "JS Array Iterators",
+          "desc": "Looping through item lists programmatically.",
+          "example": ".forEach() and .map() arrays"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 11: JS Custom Functions",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - JS Custom Functions",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "JS Custom Functions",
+          "desc": "Creating reusable code blocks that process parameters and return outputs.",
+          "example": "const calcArea = (w, h) => w * h"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 12: DOM query selectors",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - DOM query selectors",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "DOM query selectors",
+          "desc": "Updating page text and styles dynamically.",
+          "example": "document.querySelector() methods"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 13: DOM click event listeners",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - DOM click event listeners",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "DOM click event listeners",
+          "desc": "Triggering actions when users click buttons.",
+          "example": "addEventListener('click') callbacks"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 14: Local Storage Persistence",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - Local Storage Persistence",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "Local Storage Persistence",
+          "desc": "Saving user color preferences to the browser cache.",
+          "example": "localStorage.setItem() JSON strings"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 15: Asynchronous API Fetch",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - Asynchronous API Fetch",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "Asynchronous API Fetch",
+          "desc": "Loading live weather reports using fetch.",
+          "example": "async/await REST API decodes"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 16: Capstone Single-Page App",
+      "targets": [
+        "Link Bootstrap CDN",
+        "Write JS variables",
+        "Manipulate DOM structures"
+      ],
+      "blocks": [
+        "bootstrap_classes",
+        "javascript_logic",
+        "dom_events"
+      ],
+      "project": "Dynamic Portal widget - Capstone Single-Page App",
+      "points": [
+        {
+          "icon": "🚀",
+          "title": "Capstone Single-Page App",
+          "desc": "Assembling a complete web application with dynamic DOMs and Local Storage.",
+          "example": "Polished dynamic Portfolio app"
+        }
+      ]
+    }
+  ]
+}
