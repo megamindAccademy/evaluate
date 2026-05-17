@@ -1,6 +1,4 @@
 {
-  "title": "Flutter Mobile Development 📱",
-  "description": "Build highly premium iOS and Android apps using a single codebase with Flutter and Dart!",
   "icon": "📱",
   "status": "active",
   "recap_file": "recap.json",
@@ -12,5 +10,7 @@
     "quiz5.json",
     "quiz6.json"
   ],
-  "course_id": "senior_flutter"
+  "course_id": "senior_flutter",
+  "course_title": "Flutter Mobile Development 📱",
+  "desc": "Build highly premium iOS and Android apps using a single codebase with Flutter and Dart!"
 }

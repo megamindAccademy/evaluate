@@ -1,6 +1,4 @@
 {
-  "title": "Godot Game Development 🎮",
-  "description": "Build exciting 2D/3D games from scratch using the lightweight Godot Engine and GDScript!",
   "icon": "🎮",
   "status": "active",
   "recap_file": "recap.json",
@@ -12,5 +10,7 @@
     "quiz5.json",
     "quiz6.json"
   ],
-  "course_id": "senior_godot"
+  "course_id": "senior_godot",
+  "course_title": "Godot Game Development 🎮",
+  "desc": "Build exciting 2D/3D games from scratch using the lightweight Godot Engine and GDScript!"
 }

@@ -1,6 +1,4 @@
 {
-  "title": "Web Design Advanced (JS/Bootstrap) 🚀",
-  "description": "Build lightning-fast responsive layouts using Bootstrap 5 classes, CSS animations, and dynamic JavaScript DOM mechanics!",
   "icon": "🚀",
   "status": "active",
   "recap_file": "recap.json",
@@ -12,5 +10,7 @@
     "quiz5.json",
     "quiz6.json"
   ],
-  "course_id": "senior_web_design_advanced"
+  "course_id": "senior_web_design_advanced",
+  "course_title": "Web Design Advanced (JS/Bootstrap) 🚀",
+  "desc": "Build lightning-fast responsive layouts using Bootstrap 5 classes, CSS animations, and dynamic JavaScript DOM mechanics!"
 }

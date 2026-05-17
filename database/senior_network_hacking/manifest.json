@@ -1,6 +1,4 @@
 {
-  "title": "Network & Hacking 🌐",
-  "description": "Dive deep into the OSI model, capture real network traffic in Wireshark, run Nmap audits, and block attacks!",
   "icon": "🌐",
   "status": "active",
   "recap_file": "recap.json",
@@ -12,5 +10,7 @@
     "quiz5.json",
     "quiz6.json"
   ],
-  "course_id": "senior_network_hacking"
+  "course_id": "senior_network_hacking",
+  "course_title": "Network & Hacking 🌐",
+  "desc": "Dive deep into the OSI model, capture real network traffic in Wireshark, run Nmap audits, and block attacks!"
 }

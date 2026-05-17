@@ -1,6 +1,4 @@
 {
-  "title": "Unity Game Development 🕹️",
-  "description": "Create standard 3D/2D games using the world-class Unity Engine and robust C# scripting!",
   "icon": "🕹️",
   "status": "active",
   "recap_file": "recap.json",
@@ -12,5 +10,7 @@
     "quiz5.json",
     "quiz6.json"
   ],
-  "course_id": "senior_unity"
+  "course_id": "senior_unity",
+  "course_title": "Unity Game Development 🕹️",
+  "desc": "Create standard 3D/2D games using the world-class Unity Engine and robust C# scripting!"
 }

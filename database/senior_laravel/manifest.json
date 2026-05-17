@@ -1,6 +1,4 @@
 {
-  "title": "Laravel PHP Web Development 🐘",
-  "description": "Build robust, database-driven backend web portals using the elegant PHP Laravel framework!",
   "icon": "🐘",
   "status": "active",
   "recap_file": "recap.json",
@@ -12,5 +10,7 @@
     "quiz5.json",
     "quiz6.json"
   ],
-  "course_id": "senior_laravel"
+  "course_id": "senior_laravel",
+  "course_title": "Laravel PHP Web Development 🐘",
+  "desc": "Build robust, database-driven backend web portals using the elegant PHP Laravel framework!"
 }

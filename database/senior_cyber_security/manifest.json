@@ -1,6 +1,4 @@
 {
-  "title": "Cyber Security 🛡️",
-  "description": "Master network defense, virtual hacking environments, data hashing algorithms, and malware analysis tools!",
   "icon": "🛡️",
   "status": "active",
   "recap_file": "recap.json",
@@ -12,5 +10,7 @@
     "quiz5.json",
     "quiz6.json"
   ],
-  "course_id": "senior_cyber_security"
+  "course_id": "senior_cyber_security",
+  "course_title": "Cyber Security 🛡️",
+  "desc": "Master network defense, virtual hacking environments, data hashing algorithms, and malware analysis tools!"
 }

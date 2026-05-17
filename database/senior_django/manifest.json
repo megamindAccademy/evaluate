@@ -1,6 +1,4 @@
 {
-  "title": "Django Backend Web Development 🐍",
-  "description": "Build highly scalable web applications, secure APIs, and relational databases using Django and Python!",
   "icon": "🐍",
   "status": "active",
   "recap_file": "recap.json",
@@ -12,5 +10,7 @@
     "quiz5.json",
     "quiz6.json"
   ],
-  "course_id": "senior_django"
+  "course_id": "senior_django",
+  "course_title": "Django Backend Web Development 🐍",
+  "desc": "Build highly scalable web applications, secure APIs, and relational databases using Django and Python!"
 }
