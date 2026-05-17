@@ -1,5 +1,5 @@
 // ============================================================================
-// CURRICULUM.JS - Interactive Python Curriculum & Custom Simulator
+// CURRICULUM.JS - Dynamic Interactive Curriculum & Games Engine
 // ============================================================================
 
 // Web Audio API for synthesized cheerful sound effects
@@ -128,187 +128,196 @@ function triggerConfetti() {
 }
 
 // ============================================================================
-// CURRICULUM DATABASE (6 INTERACTIVE STATIONS)
+// DYNAMIC STATE & JSON FETCHING
 // ============================================================================
-const stationsData = {
-    1: {
-        id: 1,
-        title: "المحطة 1: صندوق المتغيرات السحري",
-        story: "أهلاً بك يا بطل المستقبل في جزيرة بايثون! لغة بايثون ذكية جداً، وتستطيع التحدث وتخزين الكلمات والأرقام في صناديق سحرية نسميها (Variables). لكي تجعل بايثون يطبع كلاماً على الشاشة، نستخدم الكلمة السحرية <code>print</code>.",
-        simple: "تخيل أن المتغير (Variable) مثل كرتونة ألعابك! تكتب عليها من الخارج (لعبتي) وتضع بداخلها سيارة أو كرة. وعندما تريد أن تريها لأصدقائك تقول لبايثون <code>print(لعبتي)</code> فيخرجها فوراً!",
-        hint: "اكتب السطر السحري التالي في المحرر: <code>print(\"أنا بطل ميجامايندز\")</code> ثم اضغط تشغيل!",
-        challenge: "قم بطباعة الجملة السحرية <code>أنا بطل ميجامايندز</code> على الشاشة باستخدام أمر الطباعة print.",
-        starter_code: "# اكتب كود الطباعة هنا يا بطل:\n",
-        pills: [
-            { label: "طباعة عبارة التحدي", code: 'print("أنا بطل ميجامايندز")' },
-            { label: "إنشاء متغير وطباعته", code: 'hero_name = "أحمد"\nprint(hero_name)' }
-        ],
-        validator: (output, canvasUsed) => {
-            return output.includes("أنا بطل ميجامايندز");
-        }
-    },
-    2: {
-        id: 2,
-        title: "المحطة 2: آلة الحساب الذكية",
-        story: "بايثون يعشق الأرقام والرياضيات! يستطيع جمع وطرح وضرب وقسمة أرقام ضخمة جداً في جزء من الثانية دون أي خطأ. نستخدم علامة <code>+</code> للجمع، و <code>*</code> للضرب.",
-        simple: "بايثون عامل زي الكاشير السوبر مان! بتديه رقمين وتقوله اضربهم في بعض بيطلع الناتج في ثانية من غير ما يتعب ولا يحتاج آلة حاسبة!",
-        hint: "اكتب في المحرر: <code>result = 50 * 20</code> وفي السطر التالي <code>print(result)</code>.",
-        challenge: "قم بضرب الرقمين 50 في 20 واطبع الناتج النهائي (1000) على الشاشة باستخدام أمر print.",
-        starter_code: "# احسب حاصل ضرب 50 في 20 واطبع الناتج:\n",
-        pills: [
-            { label: "حساب مباشر للضرب", code: 'print(50 * 20)' },
-            { label: "استخدام المتغيرات للحساب", code: 'x = 50\ny = 20\nprint(x * y)' }
-        ],
-        validator: (output, canvasUsed) => {
-            return output.includes("1000");
-        }
-    },
-    3: {
-        id: 3,
-        title: "المحطة 3: حارس بوابة الشروط",
-        story: "لكي نصنع برامج وألعاب ذكية، يجب أن نجعل بايثون يتخذ قرارات بنفسه! نستخدم قاعدة الشروط <code>if / else</code>. إذا كانت كلمة السر صحيحة (if) افتح البوابة، وإلا (else) أغلق البوابة!",
-        simple: "زي شرطي المرور بالضبط! لو الإشارة خضراء (if) عدي بسلام، لو الإشارة حمراء (else) اقف مكانك فوراً!",
-        hint: "اكتب <code>score = 100</code> ثم في السطر التالي <code>if score == 100:</code> وتحته بمسافة <code>print(\"بطل خارق\")</code>.",
-        challenge: "قم بإنشاء متغير <code>score = 100</code> واستخدم شرط <code>if score == 100:</code> لطباعة عبارة <code>بطل خارق</code>.",
-        starter_code: "# أنشئ المتغير واكتب شرط التحقق:\nscore = 100\n",
-        pills: [
-            { label: "شرط التحقق من الدرجة", code: 'score = 100\nif score == 100:\n    print("بطل خارق")' },
-            { label: "شرط مع Else", code: 'score = 100\nif score > 50:\n    print("بطل خارق")\nelse:\n    print("حاول ثانية")' }
-        ],
-        validator: (output, canvasUsed) => {
-            return output.includes("بطل خارق");
-        }
-    },
-    4: {
-        id: 4,
-        title: "المحطة 4: دوامة التكرار العجيبة",
-        story: "المبرمج الذكي لا يكرر كتابة الأكواد! بدلاً من كتابة أمر الطباعة 5 مرات متتالية، نأمر بايثون بتكرار الأمر 5 مرات بجملة سحرية واحدة: <code>for i in range(5):</code>.",
-        simple: "زي المروحة الكهربائية! بدل ما تلف ريشة ريشة بإيدك، بتضغط على الزرار وهي بتلف لوحدها 500 مرة بدون توقف!",
-        hint: "اكتب <code>for i in range(5):</code> وتحتها بمسافة <code>print(\"ميجامايندز\")</code>.",
-        challenge: "استخدم حلقة التكرار <code>for i in range(5):</code> لطباعة كلمة <code>ميجامايندز</code> 5 مرات متتالية على الشاشة.",
-        starter_code: "# استخدم حلقة for لطباعة الكلمة 5 مرات:\n",
-        pills: [
-            { label: "حلقة تكرار for", code: 'for i in range(5):\n    print("ميجامايندز")' },
-            { label: "طباعة أرقام الحلقة", code: 'for i in range(5):\n    print(i)' }
-        ],
-        validator: (output, canvasUsed) => {
-            const matches = output.match(/ميجامايندز/g);
-            return matches && matches.length >= 5;
-        }
-    },
-    5: {
-        id: 5,
-        title: "المحطة 5: فنان السلحفاة الذكي",
-        story: "وصلنا لأمتع محطة فنية! سلحفاة بايثون السحرية (Turtle Graphics). يمكنك توجيه السلحفاة بالأوامر لترسم أشكالاً هندسية وفنية مذهلة بالألوان. نستخدم <code>import turtle</code> ثم أوامر الحركة والرسم.",
-        simple: "تخيل سلحفاة آلية صغيرة تمشي على ورقة ومربوط في ذيلها قلم ألوان! كلما قلت لها تقدمي للأمام (forward) أو استديري (right) تترك خطاً ملوناً وراءها!",
-        hint: "اكتب <code>import turtle</code> ثم <code>turtle.color(\"green\")</code> ثم <code>turtle.circle(60)</code>.",
-        challenge: "قم باستدعاء السلحفاة <code>import turtle</code> واجعلها ترسم دائرة خضراء باستخدام <code>turtle.color(\"green\")</code> و <code>turtle.circle(60)</code>.",
-        starter_code: "# استدعِ السلحفاة وارسم دائرة خضراء:\nimport turtle\n",
-        pills: [
-            { label: "رسم دائرة خضراء", code: 'import turtle\nturtle.color("green")\nturtle.circle(60)' },
-            { label: "رسم مربع أحمر", code: 'import turtle\nturtle.color("red")\nfor i in range(4):\n    turtle.forward(100)\n    turtle.right(90)' }
-        ],
-        validator: (output, canvasUsed) => {
-            return canvasUsed && (output.includes("circle") || output.includes("دائرة") || output.includes("رسم"));
-        }
-    },
-    6: {
-        id: 6,
-        title: "المحطة 6: مبرمج الألعاب الخارق",
-        story: "المحطة الختامية الكبرى في جزيرة بايثون! سنقوم بمحاكاة برمجة منطق لعبة كرة الطاولة الشهيرة (Ping Pong). سنحدد سرعة الكرة، موقع المضرب، ونحاكي اصطدام الكرة لتحقيق النصر!",
-        simple: "زي لعبة التنس في الملاهي! بنبرمج الكورة لما تخبط في المضرب ترجع تاني، ولما تعدي نحسب نقطة للبطل!",
-        hint: "اكتب <code>ball_speed = 10</code> و <code>paddle_pos = 50</code> ثم الجملة السحرية <code>print(\"تم تشغيل لعبة Ping Pong بنجاح!\")</code>.",
-        challenge: "قم بتهيئة متغيرات اللعبة <code>ball_speed = 10</code> و <code>paddle_pos = 50</code> واطبع العبارة الختامية <code>تم تشغيل لعبة Ping Pong بنجاح!</code> لمشاهدة المحاكاة!",
-        starter_code: "# تهيئة اللعبة وتشغيل المحاكاة:\nball_speed = 10\npaddle_pos = 50\n",
-        pills: [
-            { label: "تشغيل محاكاة اللعبة", code: 'ball_speed = 10\npaddle_pos = 50\nprint("تم تشغيل لعبة Ping Pong بنجاح!")' }
-        ],
-        validator: (output, canvasUsed) => {
-            return output.includes("تم تشغيل لعبة Ping Pong بنجاح!");
-        }
-    }
-};
-
-// ============================================================================
-// STATE MANAGEMENT & LOCAL STORAGE
-// ============================================================================
+let currentCourseId = 'python';
+let currentCourseData = null;
 let currentStationId = 1;
 let studentProgress = {
     xp: 0,
     completedStations: []
 };
 
-// Load progress from localStorage
+// Check URL param for initial course selection
+function getUrlCourseParam() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('course') || 'python';
+}
+
+// Load progress from localStorage for current course
 function loadProgress() {
-    const saved = localStorage.getItem('megaminds_python_progress');
+    const storageKey = `megaminds_progress_${currentCourseId}`;
+    const saved = localStorage.getItem(storageKey);
     if (saved) {
         try {
             studentProgress = JSON.parse(saved);
-        } catch(e) { console.error("Error parsing progress", e); }
+        } catch(e) {
+            studentProgress = { xp: 0, completedStations: [] };
+        }
+    } else {
+        studentProgress = { xp: 0, completedStations: [] };
     }
     updateUIProgress();
 }
 
 // Save progress to localStorage
 function saveProgress() {
-    localStorage.setItem('megaminds_python_progress', JSON.stringify(studentProgress));
+    const storageKey = `megaminds_progress_${currentCourseId}`;
+    localStorage.setItem(storageKey, JSON.stringify(studentProgress));
+    updateUIProgress();
+}
+
+// Fetch Course Games JSON dynamically
+function fetchCourseGames(courseId) {
+    currentCourseId = courseId;
+    loadProgress();
+
+    // Update active tab button styling
+    document.querySelectorAll('.course-tab-btn').forEach(btn => {
+        if (btn.getAttribute('data-course') === courseId) {
+            btn.classList.add('active');
+            btn.style.background = '#ffb703';
+            btn.style.color = '#023047';
+        } else {
+            btn.classList.remove('active');
+            btn.style.background = '#023047';
+            btn.style.color = '#ffffff';
+        }
+    });
+
+    // Hide studio section when switching courses
+    const studioSection = document.getElementById('studioSection');
+    if (studioSection) studioSection.classList.remove('active');
+
+    // Fetch JSON file
+    fetch(`./database/${courseId}/games.json`)
+        .then(response => {
+            if (!response.ok) throw new Error("Games file not found");
+            return response.json();
+        })
+        .then(data => {
+            currentCourseData = data;
+            renderCourseContent();
+        })
+        .catch(err => {
+            console.error(`Error loading games for ${courseId}:`, err);
+            alert("عذراً يا بطل! جاري تجهيز ألعاب وتحديات هذا المسار قريباً جداً.");
+        });
+}
+
+// Render dynamic course data into HTML
+function renderCourseContent() {
+    if (!currentCourseData) return;
+
+    // 1. Update Hero Banner
+    const heroTitle = document.querySelector('.curriculum-hero .curriculum-title');
+    const heroDesc = document.querySelector('.curriculum-hero .curriculum-desc');
+    const heroMascot = document.querySelector('.curriculum-hero .curriculum-hero-mascot');
+    
+    if (heroTitle) heroTitle.textContent = currentCourseData.course_title;
+    if (heroDesc) heroDesc.textContent = currentCourseData.course_subtitle;
+    if (heroMascot && currentCourseData.mascot_img) heroMascot.src = currentCourseData.mascot_img;
+
+    // 2. Update Journey Header
+    const journeyTitle = document.querySelector('.journey-section .journey-title');
+    if (journeyTitle) journeyTitle.textContent = `🗺️ خريطة محطات ${currentCourseData.course_title}`;
+
+    // 3. Render Badges Showcase
+    const badgesShowcase = document.getElementById('badgesShowcase');
+    if (badgesShowcase) {
+        badgesShowcase.innerHTML = '';
+        currentCourseData.stations.forEach(station => {
+            const badgeEl = document.createElement('div');
+            badgeEl.className = `badge-item ${studentProgress.completedStations.includes(station.id) ? 'earned' : ''}`;
+            badgeEl.id = `badge_${station.id}`;
+            badgeEl.setAttribute('title', station.badge_title);
+            badgeEl.textContent = station.badge_icon;
+            badgesShowcase.appendChild(badgeEl);
+        });
+    }
+
+    // 4. Render Journey Grid Cards
+    const journeyGrid = document.getElementById('journeyGrid');
+    if (journeyGrid) {
+        journeyGrid.innerHTML = '';
+        currentCourseData.stations.forEach(station => {
+            const isCompleted = studentProgress.completedStations.includes(station.id);
+            const isUnlocked = isCompleted || (station.id === 1) || studentProgress.completedStations.includes(station.id - 1);
+
+            let cardClass = isCompleted ? 'completed' : (isUnlocked ? 'active' : 'locked');
+            let badgeText = isCompleted ? 'مكتمل ✅' : (isUnlocked ? 'متاح الآن 🌟' : 'مغلق 🔒');
+            let btnText = isCompleted ? 'مراجعة التحدي 🔄' : (isUnlocked ? 'ابدأ المغامرة 🚀' : 'مغلق حالياً 🔒');
+
+            const article = document.createElement('article');
+            article.className = `station-card ${cardClass}`;
+            article.id = `station_${station.id}`;
+            article.setAttribute('data-station', station.id);
+
+            article.innerHTML = `
+                <span class="station-badge">${badgeText}</span>
+                <div class="station-number-icon">${station.badge_icon}</div>
+                <h3 class="station-title">${station.title}</h3>
+                <p class="station-desc">${station.desc}</p>
+                <button class="station-btn"><span>${btnText}</span></button>
+            `;
+
+            journeyGrid.appendChild(article);
+        });
+    }
+
     updateUIProgress();
 }
 
 // Update UI elements based on progress state
 function updateUIProgress() {
+    if (!currentCourseData) return;
+
     const xpCountText = document.getElementById('xpCountText');
     const xpProgressBar = document.getElementById('xpProgressBar');
     const btnClaimCert = document.getElementById('btnClaimCert');
 
+    const totalXp = currentCourseData.xp_total || 600;
+
     // Update XP text & bar
-    if (xpCountText) xpCountText.textContent = `${studentProgress.xp} / 600 XP`;
+    if (xpCountText) xpCountText.textContent = `${studentProgress.xp} / ${totalXp} XP`;
     if (xpProgressBar) {
-        const percentage = Math.min(100, (studentProgress.xp / 600) * 100);
+        const percentage = Math.min(100, (studentProgress.xp / totalXp) * 100);
         xpProgressBar.style.width = `${percentage}%`;
     }
 
-    // Update Badges Showcase & Station Cards
-    for (let i = 1; i <= 6; i++) {
-        const badgeEl = document.getElementById(`badge_${i}`);
-        const stationEl = document.getElementById(`station_${i}`);
+    // Update Badges Showcase & Station Cards dynamically
+    currentCourseData.stations.forEach(station => {
+        const badgeEl = document.getElementById(`badge_${station.id}`);
+        const stationEl = document.getElementById(`station_${station.id}`);
         
-        const isCompleted = studentProgress.completedStations.includes(i);
-        const isUnlocked = isCompleted || (i === 1) || studentProgress.completedStations.includes(i - 1);
+        const isCompleted = studentProgress.completedStations.includes(station.id);
+        const isUnlocked = isCompleted || (station.id === 1) || studentProgress.completedStations.includes(station.id - 1);
 
-        // Badge update
         if (badgeEl) {
-            if (isCompleted) {
-                badgeEl.classList.add('earned');
-            } else {
-                badgeEl.classList.remove('earned');
-            }
+            if (isCompleted) badgeEl.classList.add('earned');
+            else badgeEl.classList.remove('earned');
         }
 
-        // Station card update
         if (stationEl) {
-            stationEl.classList.remove('locked', 'active', 'completed');
+            stationEl.className = `station-card ${isCompleted ? 'completed' : (isUnlocked ? 'active' : 'locked')}`;
             const badgeSpan = stationEl.querySelector('.station-badge');
             const btnSpan = stationEl.querySelector('.station-btn span');
 
             if (isCompleted) {
-                stationEl.classList.add('completed');
                 if (badgeSpan) badgeSpan.textContent = "مكتمل ✅";
                 if (btnSpan) btnSpan.textContent = "مراجعة التحدي 🔄";
             } else if (isUnlocked) {
-                stationEl.classList.add('active');
                 if (badgeSpan) badgeSpan.textContent = "متاح الآن 🌟";
                 if (btnSpan) btnSpan.textContent = "ابدأ المغامرة 🚀";
             } else {
-                stationEl.classList.add('locked');
                 if (badgeSpan) badgeSpan.textContent = "مغلق 🔒";
                 if (btnSpan) btnSpan.textContent = "مغلق حالياً 🔒";
             }
         }
-    }
+    });
 
-    // Check if all 6 stations completed to show Claim Certificate button
-    if (studentProgress.completedStations.length >= 6) {
+    // Check if all stations completed to show Claim Certificate button
+    if (studentProgress.completedStations.length >= currentCourseData.stations.length) {
         if (btnClaimCert) btnClaimCert.classList.add('active');
     } else {
         if (btnClaimCert) btnClaimCert.classList.remove('active');
@@ -316,9 +325,11 @@ function updateUIProgress() {
 }
 
 // ============================================================================
-// CUSTOM PYTHON EDUCATIONAL SIMULATOR & INTERPRETER
+// CUSTOM SIMULATOR & JSON RULES VALIDATOR
 // ============================================================================
 function simulatePythonExecution(code, stationId) {
+    if (!currentCourseData) return;
+
     const outputArea = document.getElementById('outputContentArea');
     const turtleCanvas = document.getElementById('turtleCanvas');
     let canvasUsed = false;
@@ -326,7 +337,6 @@ function simulatePythonExecution(code, stationId) {
     if (!outputArea) return;
     outputArea.innerHTML = ''; // Clear previous output
 
-    // Helper to log to simulated console
     function logOutput(text, type = 'success') {
         const div = document.createElement('div');
         div.className = `output-log ${type}`;
@@ -334,7 +344,7 @@ function simulatePythonExecution(code, stationId) {
         outputArea.appendChild(div);
     }
 
-    logOutput(">>> جاري تشغيل كود بايثون السحري...", "info");
+    logOutput(`>>> جاري تشغيل كود ${currentCourseData.course_title} السحري...`, "info");
 
     // Reset Canvas
     if (turtleCanvas) {
@@ -346,7 +356,6 @@ function simulatePythonExecution(code, stationId) {
     let simulatedStdout = [];
     let pyVariables = {};
 
-    // Basic line-by-line simulation parser
     const lines = code.split('\n');
     let insideForLoop = false;
     let forLoopCount = 0;
@@ -356,32 +365,28 @@ function simulatePythonExecution(code, stationId) {
     try {
         for (let i = 0; i < lines.length; i++) {
             let line = lines[i].trim();
-            if (!line || line.startsWith('#')) continue; // Skip comments & empty lines
+            if (!line || line.startsWith('#')) continue;
 
-            // Check if inside for loop body (indented)
             if (insideForLoop) {
                 if (lines[i].startsWith('    ') || lines[i].startsWith('\t')) {
                     forLoopBody.push(line);
                     if (i === lines.length - 1) {
-                        // Execute loop body
                         executeForLoop(forLoopVar, forLoopCount, forLoopBody, pyVariables, simulatedStdout, logOutput);
                     }
                     continue;
                 } else {
-                    // Loop ended, execute it
                     executeForLoop(forLoopVar, forLoopCount, forLoopBody, pyVariables, simulatedStdout, logOutput);
                     insideForLoop = false;
                     forLoopBody = [];
                 }
             }
 
-            // 1. Variable Assignment (e.g. hero = "أحمد" or x = 50 * 20)
+            // 1. Variable Assignment
             if (line.includes('=') && !line.includes('==') && !line.startsWith('if') && !line.startsWith('for')) {
                 const parts = line.split('=');
                 const varName = parts[0].trim();
                 let varVal = parts[1].trim();
 
-                // Evaluate basic math if present
                 if (varVal.includes('*')) {
                     const mathParts = varVal.split('*');
                     const n1 = isNaN(mathParts[0].trim()) ? pyVariables[mathParts[0].trim()] : parseFloat(mathParts[0].trim());
@@ -405,11 +410,10 @@ function simulatePythonExecution(code, stationId) {
                 continue;
             }
 
-            // 2. Print Statement (e.g. print("Hello") or print(x))
+            // 2. Print Statement
             if (line.startsWith('print(') && line.endsWith(')')) {
                 let content = line.slice(6, -1).trim();
 
-                // Check math inside print
                 if (content.includes('*')) {
                     const mathParts = content.split('*');
                     const n1 = isNaN(mathParts[0].trim()) ? pyVariables[mathParts[0].trim()] : parseFloat(mathParts[0].trim());
@@ -428,7 +432,7 @@ function simulatePythonExecution(code, stationId) {
                 continue;
             }
 
-            // 3. If Statement (e.g. if score == 100:)
+            // 3. If Statement
             if (line.startsWith('if ') && line.endsWith(':')) {
                 let condition = line.slice(3, -1).trim();
                 let isTrue = false;
@@ -446,7 +450,6 @@ function simulatePythonExecution(code, stationId) {
                     isTrue = (left > right);
                 }
 
-                // Check next line for if body
                 if (i + 1 < lines.length && (lines[i+1].startsWith('    ') || lines[i+1].startsWith('\t'))) {
                     let nextLine = lines[i+1].trim();
                     if (isTrue) {
@@ -456,10 +459,9 @@ function simulatePythonExecution(code, stationId) {
                             logOutput(content, "success");
                         }
                     }
-                    i++; // skip if body line
-                    // check for else
+                    i++;
                     if (i + 1 < lines.length && lines[i+1].trim() === 'else:') {
-                        i++; // skip else line
+                        i++;
                         if (i + 1 < lines.length && (lines[i+1].startsWith('    ') || lines[i+1].startsWith('\t'))) {
                             let elseLine = lines[i+1].trim();
                             if (!isTrue) {
@@ -469,14 +471,14 @@ function simulatePythonExecution(code, stationId) {
                                     logOutput(content, "success");
                                 }
                             }
-                            i++; // skip else body line
+                            i++;
                         }
                     }
                 }
                 continue;
             }
 
-            // 4. For Loop Statement (e.g. for i in range(5):)
+            // 4. For Loop Statement
             if (line.startsWith('for ') && line.includes(' in range(') && line.endsWith('):')) {
                 const match = line.match(/for\s+(\w+)\s+in\s+range\((\d+)\):/);
                 if (match) {
@@ -528,7 +530,6 @@ function simulatePythonExecution(code, stationId) {
         logOutput(`عذراً يا بطل، هناك خطأ في الكود: ${err.message}`, "error");
     }
 
-    // Helper to execute for loop body in simulator
     function executeForLoop(varName, count, bodyLines, vars, stdoutEl, logEl) {
         logEl(`# جاري تكرار الأوامر ${count} مرات...`, "info");
         for (let c = 0; c < count; c++) {
@@ -544,24 +545,37 @@ function simulatePythonExecution(code, stationId) {
         }
     }
 
-    // Check station validation
-    const station = stationsData[stationId];
+    // Evaluate JSON Validation Rules
+    const station = currentCourseData.stations.find(s => s.id === stationId);
+    if (!station) return;
+
     const fullOutputText = simulatedStdout.join(' ') + ' ' + outputArea.textContent;
-    const isCorrect = station.validator(fullOutputText, canvasUsed);
+    const rules = station.validation_rules || {};
+    let isCorrect = true;
+
+    if (rules.required_output_text && !fullOutputText.includes(rules.required_output_text)) {
+        isCorrect = false;
+    }
+    if (rules.required_keywords) {
+        rules.required_keywords.forEach(kw => {
+            if (!fullOutputText.includes(kw)) isCorrect = false;
+        });
+    }
+    if (rules.required_canvas && !canvasUsed) {
+        isCorrect = false;
+    }
 
     if (isCorrect) {
         logOutput("\n✨ إجابة عبقرية! لقد نجحت في تحقيق التحدي المطلوب! ✨", "success");
         playSuccessFanfare();
         triggerConfetti();
 
-        // Award XP & unlock next
         if (!studentProgress.completedStations.includes(stationId)) {
             studentProgress.completedStations.push(stationId);
             studentProgress.xp += 100;
             saveProgress();
         }
 
-        // Show celebration modal
         setTimeout(() => {
             const modal = document.getElementById('celebrationModal');
             const cTitle = document.getElementById('celebrationTitle');
@@ -583,7 +597,9 @@ function simulatePythonExecution(code, stationId) {
 // DOM SETUP & EVENT LISTENERS
 // ============================================================================
 document.addEventListener('DOMContentLoaded', () => {
-    loadProgress();
+    // Initialize course from URL or default
+    const initialCourse = getUrlCourseParam();
+    fetchCourseGames(initialCourse);
 
     const journeyGrid = document.getElementById('journeyGrid');
     const studioSection = document.getElementById('studioSection');
@@ -603,6 +619,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnModalCloseCert = document.getElementById('btnModalCloseCert');
     const btnModalPrintCert = document.getElementById('btnModalPrintCert');
 
+    // Tab Bar Clicks
+    document.querySelectorAll('.course-tab-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const selectedCourse = e.target.getAttribute('data-course');
+            fetchCourseGames(selectedCourse);
+            playHappyChime();
+        });
+    });
+
     // 1. Station Card Click -> Open Studio Workspace
     if (journeyGrid) {
         journeyGrid.addEventListener('click', (e) => {
@@ -620,10 +645,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Open Studio Helper
     function openStudioForStation(stId) {
+        if (!currentCourseData) return;
         currentStationId = stId;
-        const station = stationsData[stId];
+        const station = currentCourseData.stations.find(s => s.id === stId);
+        if (!station) return;
 
         // Populate Studio Titles & Texts
         document.getElementById('studioTitleText').textContent = station.title;
@@ -648,18 +674,14 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        // Hide hint box initially
         if (hintDisplayBox) hintDisplayBox.classList.remove('active');
 
-        // Clear output
         const outputArea = document.getElementById('outputContentArea');
-        if (outputArea) outputArea.innerHTML = '<div class="output-log info"># شاشة المخرجات جاهزة. اضغط على "تشغيل الكود السحري" لرؤية النتيجة!</div>';
+        if (outputArea) outputArea.innerHTML = `<div class="output-log info"># شاشة المخرجات جاهزة. اضغط على "تشغيل الكود السحري" لرؤية النتيجة!</div>`;
 
-        // Hide turtle canvas
         const turtleCanvas = document.getElementById('turtleCanvas');
         if (turtleCanvas) turtleCanvas.classList.remove('active');
 
-        // Show Studio & Scroll
         if (studioSection) {
             studioSection.classList.add('active');
             studioSection.scrollIntoView({ behavior: 'smooth' });
@@ -698,9 +720,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // 5. Explain Simple Button
     if (btnExplainSimple) {
         btnExplainSimple.addEventListener('click', () => {
-            if (hintDisplayBox) {
+            if (!currentCourseData) return;
+            const station = currentCourseData.stations.find(s => s.id === currentStationId);
+            if (hintDisplayBox && station) {
                 hintTitleText.textContent = "💡 التبسيط العامي (بسطها لي):";
-                hintContentText.innerHTML = stationsData[currentStationId].simple;
+                hintContentText.innerHTML = station.simple;
                 hintDisplayBox.classList.add('active');
                 playHappyChime();
             }
@@ -710,9 +734,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // 6. Magic Hint Button
     if (btnMagicHint) {
         btnMagicHint.addEventListener('click', () => {
-            if (hintDisplayBox) {
+            if (!currentCourseData) return;
+            const station = currentCourseData.stations.find(s => s.id === currentStationId);
+            if (hintDisplayBox && station) {
                 hintTitleText.textContent = "✨ تلميح سحري للمساعدة:";
-                hintContentText.innerHTML = stationsData[currentStationId].hint;
+                hintContentText.innerHTML = station.hint;
                 hintDisplayBox.classList.add('active');
                 playHappyChime();
             }
@@ -723,7 +749,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnCelebrationNext) {
         btnCelebrationNext.addEventListener('click', () => {
             if (celebrationModal) celebrationModal.classList.remove('active');
-            if (currentStationId < 6) {
+            if (!currentCourseData) return;
+            if (currentStationId < currentCourseData.stations.length) {
                 openStudioForStation(currentStationId + 1);
             } else {
                 if (studioSection) studioSection.classList.remove('active');
@@ -738,8 +765,8 @@ document.addEventListener('DOMContentLoaded', () => {
         btnClaimCert.addEventListener('click', () => {
             const studentNameDisplay = document.getElementById('certStudentNameDisplay');
             const certDateDisplay = document.getElementById('certDateDisplay');
+            const certCourseTitle = document.querySelector('.cert-course-title');
             
-            // Try to get student name from localStorage if registered in quiz
             const regData = localStorage.getItem('megaminds_student_reg');
             if (regData) {
                 try {
@@ -750,7 +777,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 } catch(e){}
             }
 
-            // Set current date
+            if (certCourseTitle && currentCourseData) {
+                certCourseTitle.textContent = currentCourseData.course_title;
+            }
+
             if (certDateDisplay) {
                 const options = { year: 'numeric', month: 'long', day: 'numeric' };
                 certDateDisplay.textContent = new Date().toLocaleDateString('ar-EG', options);

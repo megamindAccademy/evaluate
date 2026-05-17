@@ -30,6 +30,7 @@ let loginFormEl, inputUsernameEl, inputPasswordEl, loginErrorEl;
 let btnLogoutEl, searchSubmissionsEl, filterStatusEl, submissionsGridEl;
 let totalSubmissionsCountEl, pendingSubmissionsCountEl;
 let studentEvalMetaEl, evalAnswersListEl, btnBackDashboardEl, btnSaveEvaluationEl, btnPrintEvalReportEl;
+let btnRestoreHiddenEl, hiddenSubmissionsCountEl;
 
 // App State
 let currentSubmissions = [];
@@ -63,6 +64,8 @@ document.addEventListener('DOMContentLoaded', () => {
     submissionsGridEl = document.getElementById('submissionsGrid');
     totalSubmissionsCountEl = document.getElementById('totalSubmissionsCount');
     pendingSubmissionsCountEl = document.getElementById('pendingSubmissionsCount');
+    btnRestoreHiddenEl = document.getElementById('btnRestoreHidden');
+    hiddenSubmissionsCountEl = document.getElementById('hiddenSubmissionsCount');
 
     studentEvalMetaEl = document.getElementById('studentEvalMeta');
     evalAnswersListEl = document.getElementById('evalAnswersList');
@@ -75,6 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnLogoutEl) btnLogoutEl.addEventListener('click', handleLogout);
     if (searchSubmissionsEl) searchSubmissionsEl.addEventListener('input', renderSubmissions);
     if (filterStatusEl) filterStatusEl.addEventListener('change', renderSubmissions);
+    if (btnRestoreHiddenEl) btnRestoreHiddenEl.addEventListener('click', restoreAllHiddenSubmissions);
     if (btnBackDashboardEl) btnBackDashboardEl.addEventListener('click', () => showView(viewDashboard));
     if (btnSaveEvaluationEl) btnSaveEvaluationEl.addEventListener('click', saveEvaluation);
     if (btnPrintEvalReportEl) btnPrintEvalReportEl.addEventListener('click', () => window.print());
@@ -162,13 +166,43 @@ function loadSubmissions() {
 }
 
 // Render Submissions Grid
+// Hide Submission Helper
+window.hideSubmission = function(subId) {
+    let hidden = JSON.parse(localStorage.getItem('megaminds_hidden_submissions') || '[]');
+    if (!hidden.includes(subId)) {
+        hidden.push(subId);
+        localStorage.setItem('megaminds_hidden_submissions', JSON.stringify(hidden));
+    }
+    renderSubmissions();
+};
+
+// Restore All Hidden Submissions Helper
+function restoreAllHiddenSubmissions() {
+    const hidden = JSON.parse(localStorage.getItem('megaminds_hidden_submissions') || '[]');
+    if (hidden.length === 0) {
+        alert('ℹ️ لا توجد إجابات مخفية حالياً.');
+        return;
+    }
+    localStorage.removeItem('megaminds_hidden_submissions');
+    renderSubmissions();
+    alert('✅ تم إظهار جميع الإجابات المخفية بنجاح!');
+}
+
+// Render Submissions Grid
 function renderSubmissions() {
     if (!submissionsGridEl) return;
 
     const query = searchSubmissionsEl ? searchSubmissionsEl.value.trim().toLowerCase() : '';
     const statusFilter = filterStatusEl ? filterStatusEl.value : '';
 
+    const hiddenSubmissions = JSON.parse(localStorage.getItem('megaminds_hidden_submissions') || '[]');
+    if (hiddenSubmissionsCountEl) {
+        hiddenSubmissionsCountEl.textContent = hiddenSubmissions.length;
+    }
+
     let filtered = currentSubmissions.filter(sub => {
+        if (hiddenSubmissions.includes(sub.id)) return false;
+
         const matchesQuery = !query || 
             (sub.studentName && sub.studentName.toLowerCase().includes(query)) ||
             (sub.groupName && sub.groupName.toLowerCase().includes(query)) ||
@@ -180,9 +214,9 @@ function renderSubmissions() {
     });
 
     // Update Stats
-    if (totalSubmissionsCountEl) totalSubmissionsCountEl.textContent = currentSubmissions.length;
+    if (totalSubmissionsCountEl) totalSubmissionsCountEl.textContent = filtered.length;
     if (pendingSubmissionsCountEl) {
-        pendingSubmissionsCountEl.textContent = currentSubmissions.filter(s => s.status === 'pending').length;
+        pendingSubmissionsCountEl.textContent = filtered.filter(s => s.status === 'pending').length;
     }
 
     submissionsGridEl.innerHTML = '';
@@ -201,9 +235,14 @@ function renderSubmissions() {
             <div>
                 <div class="sub-card-header">
                     <span class="sub-course">📘 ${sub.course}</span>
-                    <span class="sub-status ${sub.status === 'graded' ? 'graded' : 'pending'}">
-                        ${sub.status === 'graded' ? 'تم التقييم ✅' : 'بانتظار التقييم ⏳'}
-                    </span>
+                    <div class="sub-header-actions">
+                        <span class="sub-status ${sub.status === 'graded' ? 'graded' : 'pending'}">
+                            ${sub.status === 'graded' ? 'تم التقييم ✅' : 'بانتظار التقييم ⏳'}
+                        </span>
+                        <button class="btn-hide-sub" onclick="hideSubmission('${sub.id}')" title="إخفاء هذه الإجابة">
+                            <span>👁️‍🗨️ إخفاء</span>
+                        </button>
+                    </div>
                 </div>
                 <div class="sub-meta-list">
                     <div>👤 الطالب: <strong>${sub.studentName}</strong></div>
