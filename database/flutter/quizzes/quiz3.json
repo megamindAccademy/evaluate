@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 3: Dynamic Navigators & GridViews",
+  "questions": [
+    {
+      "q": "Which Flutter Widget element governs the dynamic Navigator.push() transitions in Dart mobile apps?",
+      "opts": [
+        "Default Navigator.push() transitions",
+        "Aesthetic Passing route parameters",
+        "Standard GridView grid scales",
+        "Custom Card styling"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Navigator.push() transitions manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Passing route parameters in Dart mobile apps?",
+      "opts": [
+        "Default Navigator.push() transitions",
+        "Aesthetic Passing route parameters",
+        "Standard GridView grid scales",
+        "Custom Card styling"
+      ],
+      "correct": 1,
+      "exp": "The Widget component Passing route parameters manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic GridView grid scales in Dart mobile apps?",
+      "opts": [
+        "Default Navigator.push() transitions",
+        "Aesthetic Passing route parameters",
+        "Standard GridView grid scales",
+        "Custom Card styling"
+      ],
+      "correct": 2,
+      "exp": "The Widget component GridView grid scales manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Card styling in Dart mobile apps?",
+      "opts": [
+        "Default Navigator.push() transitions",
+        "Aesthetic Passing route parameters",
+        "Standard GridView grid scales",
+        "Custom Card styling"
+      ],
+      "correct": 3,
+      "exp": "The Widget component Card styling manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Navigator.push() transitions in Dart mobile apps?",
+      "opts": [
+        "Default Navigator.push() transitions",
+        "Aesthetic Passing route parameters",
+        "Standard GridView grid scales",
+        "Custom Card styling"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Navigator.push() transitions manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Passing route parameters in Dart mobile apps?",
+      "opts": [
+        "Default Navigator.push() transitions",
+        "Aesthetic Passing route parameters",
+        "Standard GridView grid scales",
+        "Custom Card styling"
+      ],
+      "correct": 1,
+      "exp": "The Widget component Passing route parameters manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic GridView grid scales in Dart mobile apps?",
+      "opts": [
+        "Default Navigator.push() transitions",
+        "Aesthetic Passing route parameters",
+        "Standard GridView grid scales",
+        "Custom Card styling"
+      ],
+      "correct": 2,
+      "exp": "The Widget component GridView grid scales manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Card styling in Dart mobile apps?",
+      "opts": [
+        "Default Navigator.push() transitions",
+        "Aesthetic Passing route parameters",
+        "Standard GridView grid scales",
+        "Custom Card styling"
+      ],
+      "correct": 3,
+      "exp": "The Widget component Card styling manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Navigator.push() transitions in Dart mobile apps?",
+      "opts": [
+        "Default Navigator.push() transitions",
+        "Aesthetic Passing route parameters",
+        "Standard GridView grid scales",
+        "Custom Card styling"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Navigator.push() transitions manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Passing route parameters in Dart mobile apps?",
+      "opts": [
+        "Default Navigator.push() transitions",
+        "Aesthetic Passing route parameters",
+        "Standard GridView grid scales",
+        "Custom Card styling"
+      ],
+      "correct": 1,
+      "exp": "The Widget component Passing route parameters manages layout alignment inside mobile view grids."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Stateless Widget layout",
+      "desc": "Write a Dart welcome widget returning a Scaffold containing a centered text label."
+    },
+    {
+      "title": "Navigator Router script",
+      "desc": "Write a Dart navigator call that pushes a secondary screen onto the mobile navigation stack."
+    }
+  ]
+}

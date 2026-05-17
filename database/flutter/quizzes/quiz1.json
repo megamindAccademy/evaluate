@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 1: Declarative Dart & Layout roots",
+  "questions": [
+    {
+      "q": "Which Flutter Widget element governs the dynamic Dart main() root in Dart mobile apps?",
+      "opts": [
+        "Default Dart main() root",
+        "Aesthetic StatelessWidgets layout",
+        "Standard Row vs Column axes",
+        "Custom Text widgets labels"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Dart main() root manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic StatelessWidgets layout in Dart mobile apps?",
+      "opts": [
+        "Default Dart main() root",
+        "Aesthetic StatelessWidgets layout",
+        "Standard Row vs Column axes",
+        "Custom Text widgets labels"
+      ],
+      "correct": 1,
+      "exp": "The Widget component StatelessWidgets layout manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Row vs Column axes in Dart mobile apps?",
+      "opts": [
+        "Default Dart main() root",
+        "Aesthetic StatelessWidgets layout",
+        "Standard Row vs Column axes",
+        "Custom Text widgets labels"
+      ],
+      "correct": 2,
+      "exp": "The Widget component Row vs Column axes manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Text widgets labels in Dart mobile apps?",
+      "opts": [
+        "Default Dart main() root",
+        "Aesthetic StatelessWidgets layout",
+        "Standard Row vs Column axes",
+        "Custom Text widgets labels"
+      ],
+      "correct": 3,
+      "exp": "The Widget component Text widgets labels manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Dart main() root in Dart mobile apps?",
+      "opts": [
+        "Default Dart main() root",
+        "Aesthetic StatelessWidgets layout",
+        "Standard Row vs Column axes",
+        "Custom Text widgets labels"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Dart main() root manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic StatelessWidgets layout in Dart mobile apps?",
+      "opts": [
+        "Default Dart main() root",
+        "Aesthetic StatelessWidgets layout",
+        "Standard Row vs Column axes",
+        "Custom Text widgets labels"
+      ],
+      "correct": 1,
+      "exp": "The Widget component StatelessWidgets layout manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Row vs Column axes in Dart mobile apps?",
+      "opts": [
+        "Default Dart main() root",
+        "Aesthetic StatelessWidgets layout",
+        "Standard Row vs Column axes",
+        "Custom Text widgets labels"
+      ],
+      "correct": 2,
+      "exp": "The Widget component Row vs Column axes manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Text widgets labels in Dart mobile apps?",
+      "opts": [
+        "Default Dart main() root",
+        "Aesthetic StatelessWidgets layout",
+        "Standard Row vs Column axes",
+        "Custom Text widgets labels"
+      ],
+      "correct": 3,
+      "exp": "The Widget component Text widgets labels manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Dart main() root in Dart mobile apps?",
+      "opts": [
+        "Default Dart main() root",
+        "Aesthetic StatelessWidgets layout",
+        "Standard Row vs Column axes",
+        "Custom Text widgets labels"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Dart main() root manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic StatelessWidgets layout in Dart mobile apps?",
+      "opts": [
+        "Default Dart main() root",
+        "Aesthetic StatelessWidgets layout",
+        "Standard Row vs Column axes",
+        "Custom Text widgets labels"
+      ],
+      "correct": 1,
+      "exp": "The Widget component StatelessWidgets layout manages layout alignment inside mobile view grids."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Stateless Widget layout",
+      "desc": "Write a Dart welcome widget returning a Scaffold containing a centered text label."
+    },
+    {
+      "title": "Navigator Router script",
+      "desc": "Write a Dart navigator call that pushes a secondary screen onto the mobile navigation stack."
+    }
+  ]
+}

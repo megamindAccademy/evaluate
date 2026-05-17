@@ -1,0 +1,15 @@
+{
+  "title": "Flutter Mobile Development 📱",
+  "description": "Build highly premium iOS and Android apps using a single codebase with Flutter and Dart!",
+  "icon": "📱",
+  "status": "active",
+  "recap_file": "recap.json",
+  "quizzes": [
+    "quiz1.json",
+    "quiz2.json",
+    "quiz3.json",
+    "quiz4.json",
+    "quiz5.json",
+    "quiz6.json"
+  ]
+}

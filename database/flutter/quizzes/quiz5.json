@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 5: Persistent Shared Preferences storage",
+  "questions": [
+    {
+      "q": "Which Flutter Widget element governs the dynamic SharedPreferences cache keys in Dart mobile apps?",
+      "opts": [
+        "Default SharedPreferences cache keys",
+        "Aesthetic Saving JSON strings",
+        "Standard Async/Await Dart commands",
+        "Custom Local data logs"
+      ],
+      "correct": 0,
+      "exp": "The Widget component SharedPreferences cache keys manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Saving JSON strings in Dart mobile apps?",
+      "opts": [
+        "Default SharedPreferences cache keys",
+        "Aesthetic Saving JSON strings",
+        "Standard Async/Await Dart commands",
+        "Custom Local data logs"
+      ],
+      "correct": 1,
+      "exp": "The Widget component Saving JSON strings manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Async/Await Dart commands in Dart mobile apps?",
+      "opts": [
+        "Default SharedPreferences cache keys",
+        "Aesthetic Saving JSON strings",
+        "Standard Async/Await Dart commands",
+        "Custom Local data logs"
+      ],
+      "correct": 2,
+      "exp": "The Widget component Async/Await Dart commands manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Local data logs in Dart mobile apps?",
+      "opts": [
+        "Default SharedPreferences cache keys",
+        "Aesthetic Saving JSON strings",
+        "Standard Async/Await Dart commands",
+        "Custom Local data logs"
+      ],
+      "correct": 3,
+      "exp": "The Widget component Local data logs manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic SharedPreferences cache keys in Dart mobile apps?",
+      "opts": [
+        "Default SharedPreferences cache keys",
+        "Aesthetic Saving JSON strings",
+        "Standard Async/Await Dart commands",
+        "Custom Local data logs"
+      ],
+      "correct": 0,
+      "exp": "The Widget component SharedPreferences cache keys manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Saving JSON strings in Dart mobile apps?",
+      "opts": [
+        "Default SharedPreferences cache keys",
+        "Aesthetic Saving JSON strings",
+        "Standard Async/Await Dart commands",
+        "Custom Local data logs"
+      ],
+      "correct": 1,
+      "exp": "The Widget component Saving JSON strings manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Async/Await Dart commands in Dart mobile apps?",
+      "opts": [
+        "Default SharedPreferences cache keys",
+        "Aesthetic Saving JSON strings",
+        "Standard Async/Await Dart commands",
+        "Custom Local data logs"
+      ],
+      "correct": 2,
+      "exp": "The Widget component Async/Await Dart commands manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Local data logs in Dart mobile apps?",
+      "opts": [
+        "Default SharedPreferences cache keys",
+        "Aesthetic Saving JSON strings",
+        "Standard Async/Await Dart commands",
+        "Custom Local data logs"
+      ],
+      "correct": 3,
+      "exp": "The Widget component Local data logs manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic SharedPreferences cache keys in Dart mobile apps?",
+      "opts": [
+        "Default SharedPreferences cache keys",
+        "Aesthetic Saving JSON strings",
+        "Standard Async/Await Dart commands",
+        "Custom Local data logs"
+      ],
+      "correct": 0,
+      "exp": "The Widget component SharedPreferences cache keys manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Saving JSON strings in Dart mobile apps?",
+      "opts": [
+        "Default SharedPreferences cache keys",
+        "Aesthetic Saving JSON strings",
+        "Standard Async/Await Dart commands",
+        "Custom Local data logs"
+      ],
+      "correct": 1,
+      "exp": "The Widget component Saving JSON strings manages layout alignment inside mobile view grids."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Stateless Widget layout",
+      "desc": "Write a Dart welcome widget returning a Scaffold containing a centered text label."
+    },
+    {
+      "title": "Navigator Router script",
+      "desc": "Write a Dart navigator call that pushes a secondary screen onto the mobile navigation stack."
+    }
+  ]
+}

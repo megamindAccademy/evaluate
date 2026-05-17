@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 4: Asset loading & Sleek custom Themes",
+  "questions": [
+    {
+      "q": "Which Flutter Widget element governs the dynamic Image.asset path loading in Dart mobile apps?",
+      "opts": [
+        "Default Image.asset path loading",
+        "Aesthetic ThemeData swatch colors",
+        "Standard Icon overlays",
+        "Custom Aesthetic shapes"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Image.asset path loading manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic ThemeData swatch colors in Dart mobile apps?",
+      "opts": [
+        "Default Image.asset path loading",
+        "Aesthetic ThemeData swatch colors",
+        "Standard Icon overlays",
+        "Custom Aesthetic shapes"
+      ],
+      "correct": 1,
+      "exp": "The Widget component ThemeData swatch colors manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Icon overlays in Dart mobile apps?",
+      "opts": [
+        "Default Image.asset path loading",
+        "Aesthetic ThemeData swatch colors",
+        "Standard Icon overlays",
+        "Custom Aesthetic shapes"
+      ],
+      "correct": 2,
+      "exp": "The Widget component Icon overlays manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Aesthetic shapes in Dart mobile apps?",
+      "opts": [
+        "Default Image.asset path loading",
+        "Aesthetic ThemeData swatch colors",
+        "Standard Icon overlays",
+        "Custom Aesthetic shapes"
+      ],
+      "correct": 3,
+      "exp": "The Widget component Aesthetic shapes manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Image.asset path loading in Dart mobile apps?",
+      "opts": [
+        "Default Image.asset path loading",
+        "Aesthetic ThemeData swatch colors",
+        "Standard Icon overlays",
+        "Custom Aesthetic shapes"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Image.asset path loading manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic ThemeData swatch colors in Dart mobile apps?",
+      "opts": [
+        "Default Image.asset path loading",
+        "Aesthetic ThemeData swatch colors",
+        "Standard Icon overlays",
+        "Custom Aesthetic shapes"
+      ],
+      "correct": 1,
+      "exp": "The Widget component ThemeData swatch colors manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Icon overlays in Dart mobile apps?",
+      "opts": [
+        "Default Image.asset path loading",
+        "Aesthetic ThemeData swatch colors",
+        "Standard Icon overlays",
+        "Custom Aesthetic shapes"
+      ],
+      "correct": 2,
+      "exp": "The Widget component Icon overlays manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Aesthetic shapes in Dart mobile apps?",
+      "opts": [
+        "Default Image.asset path loading",
+        "Aesthetic ThemeData swatch colors",
+        "Standard Icon overlays",
+        "Custom Aesthetic shapes"
+      ],
+      "correct": 3,
+      "exp": "The Widget component Aesthetic shapes manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Image.asset path loading in Dart mobile apps?",
+      "opts": [
+        "Default Image.asset path loading",
+        "Aesthetic ThemeData swatch colors",
+        "Standard Icon overlays",
+        "Custom Aesthetic shapes"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Image.asset path loading manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic ThemeData swatch colors in Dart mobile apps?",
+      "opts": [
+        "Default Image.asset path loading",
+        "Aesthetic ThemeData swatch colors",
+        "Standard Icon overlays",
+        "Custom Aesthetic shapes"
+      ],
+      "correct": 1,
+      "exp": "The Widget component ThemeData swatch colors manages layout alignment inside mobile view grids."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Stateless Widget layout",
+      "desc": "Write a Dart welcome widget returning a Scaffold containing a centered text label."
+    },
+    {
+      "title": "Navigator Router script",
+      "desc": "Write a Dart navigator call that pushes a secondary screen onto the mobile navigation stack."
+    }
+  ]
+}

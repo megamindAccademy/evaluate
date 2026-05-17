@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 6: Rest APIs Fetching & JSON decodes",
+  "questions": [
+    {
+      "q": "Which Flutter Widget element governs the dynamic Http packages fetch in Dart mobile apps?",
+      "opts": [
+        "Default Http packages fetch",
+        "Aesthetic JSON parser arrays",
+        "Standard FutureBuilder dynamic frames",
+        "Custom Capstone apps"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Http packages fetch manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic JSON parser arrays in Dart mobile apps?",
+      "opts": [
+        "Default Http packages fetch",
+        "Aesthetic JSON parser arrays",
+        "Standard FutureBuilder dynamic frames",
+        "Custom Capstone apps"
+      ],
+      "correct": 1,
+      "exp": "The Widget component JSON parser arrays manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic FutureBuilder dynamic frames in Dart mobile apps?",
+      "opts": [
+        "Default Http packages fetch",
+        "Aesthetic JSON parser arrays",
+        "Standard FutureBuilder dynamic frames",
+        "Custom Capstone apps"
+      ],
+      "correct": 2,
+      "exp": "The Widget component FutureBuilder dynamic frames manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Capstone apps in Dart mobile apps?",
+      "opts": [
+        "Default Http packages fetch",
+        "Aesthetic JSON parser arrays",
+        "Standard FutureBuilder dynamic frames",
+        "Custom Capstone apps"
+      ],
+      "correct": 3,
+      "exp": "The Widget component Capstone apps manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Http packages fetch in Dart mobile apps?",
+      "opts": [
+        "Default Http packages fetch",
+        "Aesthetic JSON parser arrays",
+        "Standard FutureBuilder dynamic frames",
+        "Custom Capstone apps"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Http packages fetch manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic JSON parser arrays in Dart mobile apps?",
+      "opts": [
+        "Default Http packages fetch",
+        "Aesthetic JSON parser arrays",
+        "Standard FutureBuilder dynamic frames",
+        "Custom Capstone apps"
+      ],
+      "correct": 1,
+      "exp": "The Widget component JSON parser arrays manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic FutureBuilder dynamic frames in Dart mobile apps?",
+      "opts": [
+        "Default Http packages fetch",
+        "Aesthetic JSON parser arrays",
+        "Standard FutureBuilder dynamic frames",
+        "Custom Capstone apps"
+      ],
+      "correct": 2,
+      "exp": "The Widget component FutureBuilder dynamic frames manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Capstone apps in Dart mobile apps?",
+      "opts": [
+        "Default Http packages fetch",
+        "Aesthetic JSON parser arrays",
+        "Standard FutureBuilder dynamic frames",
+        "Custom Capstone apps"
+      ],
+      "correct": 3,
+      "exp": "The Widget component Capstone apps manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic Http packages fetch in Dart mobile apps?",
+      "opts": [
+        "Default Http packages fetch",
+        "Aesthetic JSON parser arrays",
+        "Standard FutureBuilder dynamic frames",
+        "Custom Capstone apps"
+      ],
+      "correct": 0,
+      "exp": "The Widget component Http packages fetch manages layout alignment inside mobile view grids."
+    },
+    {
+      "q": "Which Flutter Widget element governs the dynamic JSON parser arrays in Dart mobile apps?",
+      "opts": [
+        "Default Http packages fetch",
+        "Aesthetic JSON parser arrays",
+        "Standard FutureBuilder dynamic frames",
+        "Custom Capstone apps"
+      ],
+      "correct": 1,
+      "exp": "The Widget component JSON parser arrays manages layout alignment inside mobile view grids."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Stateless Widget layout",
+      "desc": "Write a Dart welcome widget returning a Scaffold containing a centered text label."
+    },
+    {
+      "title": "Navigator Router script",
+      "desc": "Write a Dart navigator call that pushes a secondary screen onto the mobile navigation stack."
+    }
+  ]
+}
