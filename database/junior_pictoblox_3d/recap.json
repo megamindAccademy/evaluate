@@ -1,0 +1,187 @@
+{
+  "course_title": "🧊 البرمجة ثلاثية الأبعاد للصغار - PicToBlox 3D",
+  "recap_subtitle": "Step into the magical third dimension, future game designers! Let's review the exciting 3D spaces, gravity physics, and camera actions we coded to build realistic virtual worlds. The 12 sessions are summarized below:",
+  "sessions": [
+    {
+      "session_num": 1,
+      "title": "Session 1: Introduction to 3D and XR Space",
+      "targets": [
+        "Explore 3D coordinates system (X, Y, Z)",
+        "Manipulate depth and height axes",
+        "Identify VR and XR game concepts"
+      ],
+      "blocks": [
+        "set 3D scale to",
+        "set 3D position X Y Z",
+        "camera look at"
+      ],
+      "project": "Constructing our first 3D scene with geometric shapes and cameras!"
+    },
+    {
+      "session_num": 2,
+      "title": "Session 2: 2D vs 3D Workspace & Cameras",
+      "targets": [
+        "Compare flat 2D stages to 3D depths",
+        "Set up camera viewpoints",
+        "Animate camera sweeps"
+      ],
+      "blocks": [
+        "move camera forward",
+        "set camera rotation",
+        "point camera to"
+      ],
+      "project": "Camera sweep animations! Creating a moving camera view around our 3D stage."
+    },
+    {
+      "session_num": 3,
+      "title": "Session 3: Enabling 3D Physics & Collisions",
+      "targets": [
+        "Understand virtual physics properties",
+        "Enable gravity on 3D objects",
+        "Configure physical collisions"
+      ],
+      "blocks": [
+        "enable physics for (sprite)",
+        "set bounce value to",
+        "set friction value to"
+      ],
+      "project": "Bouncy Cubes! Activating physics on boxes so they bounce, fall, and hit the stage realisticly!"
+    },
+    {
+      "session_num": 4,
+      "title": "Session 4: Gravity & Applied Forces",
+      "targets": [
+        "Simulate real-world gravity drops",
+        "Apply active push forces to objects",
+        "Solve falling slope coordinates"
+      ],
+      "blocks": [
+        "apply force X Y Z",
+        "set gravity to (value)",
+        "when touching physical ground"
+      ],
+      "project": "Bouncing slopes! Applying physical impulses to slide balls down inclined structures."
+    },
+    {
+      "session_num": 5,
+      "title": "Session 5: The Rube Goldberg Machine",
+      "targets": [
+        "Design chain-reaction physics systems",
+        "Troubleshoot block coordinates alignments",
+        "Optimize slopes friction values"
+      ],
+      "blocks": [
+        "create clone of physics object",
+        "set physical shape type",
+        "on physical collision"
+      ],
+      "project": "Rube Goldberg Machine - A chain reaction where falling balls push dominoes and trigger switches!"
+    },
+    {
+      "session_num": 6,
+      "title": "Session 6: Drive 3D Car in City",
+      "targets": [
+        "Define car movement steering blocks",
+        "Lock camera views to follow moving cars",
+        "Understand wheel collision shapes"
+      ],
+      "blocks": [
+        "move car speed (value)",
+        "steer car angle",
+        "attach camera to target sprite"
+      ],
+      "project": "3D Car Simulator - Drive a car through a virtual city, turning around borders with following cameras!"
+    },
+    {
+      "session_num": 7,
+      "title": "Session 7: Building the 3D Solar System",
+      "targets": [
+        "Understand circular orbit paths",
+        "Represent Sun, planets, and moons",
+        "Program planetary rotations speeds"
+      ],
+      "blocks": [
+        "rotate clockwise speed",
+        "orbit around target X Y Z",
+        "set 3D texture to planet"
+      ],
+      "project": "3D Solar System - Modeling all planets revolving around the central glowing Sun with authentic speeds!"
+    },
+    {
+      "session_num": 8,
+      "title": "Session 8: Lights, Lighting & Letter Glows",
+      "targets": [
+        "Explore lights components in 3D views",
+        "Place point lights and spotlights",
+        "Adjust light glow colors and intensities"
+      ],
+      "blocks": [
+        "add point light at X Y Z",
+        "set light color to",
+        "set light intensity to"
+      ],
+      "project": "Glowing Letters - Illuminating the academy logo using colored point lights placed on front panels!"
+    },
+    {
+      "session_num": 9,
+      "title": "Session 9: 3D Duck Hunt - Shoot Bullets",
+      "targets": [
+        "Prepare first-person shooting workspaces",
+        "Spawn bullet coordinates",
+        "Define bullet speeds vectors"
+      ],
+      "blocks": [
+        "spawn 3D object bullet",
+        "set bullet velocity X Y Z",
+        "when mouse clicked trigger"
+      ],
+      "project": "Aim and Fire! Cording the ability to spawn and launch 3D sphere projectiles when clicking the mouse!"
+    },
+    {
+      "session_num": 10,
+      "title": "Session 10: 3D Duck Hunt - Duck Deaths & Clones",
+      "targets": [
+        "Animate falling actions on hit",
+        "Use broadcast signals to trigger hits",
+        "Handle duck clone coordinate spawners"
+      ],
+      "blocks": [
+        "when I receive hit",
+        "create clone of duck",
+        "change Y velocity downward",
+        "delete this clone"
+      ],
+      "project": "Duck Hunter Actions - Making target ducks fall down realisticly and disappear when struck by bullets!"
+    },
+    {
+      "session_num": 11,
+      "title": "Session 11: 3D UI & Overlay Launch Screens",
+      "targets": [
+        "Design 2D overlay UI elements on 3D stages",
+        "Add start game buttons",
+        "Create health bar overlays"
+      ],
+      "blocks": [
+        "add UI overlay text",
+        "when button clicked start",
+        "hide UI panel"
+      ],
+      "project": "Game HUD - Crafting professional health labels and score displays on top of the 3D game camera!"
+    },
+    {
+      "session_num": 12,
+      "title": "Session 12: Sound Waves & Final Polish",
+      "targets": [
+        "Understand sound waves in gaming atmospheres",
+        "Add hit sounds and winning victory tunes",
+        "Polishing final game mechanics"
+      ],
+      "blocks": [
+        "play sound wave hit",
+        "play sound wave success",
+        "stop game loops"
+      ],
+      "project": "Polished Duck Hunter - Adding background tracks, laser blasts, and victory chimes to complete our 3D game!"
+    }
+  ]
+}

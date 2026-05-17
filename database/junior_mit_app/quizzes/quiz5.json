@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_mit_app_quiz_5",
+  "quiz_title": "📱 App Challenge 5: Spelling Beeps & Balloon Pops",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which block is used to calculate the length (total number of letters) of a text string?",
+      "options": [
+        "length (text)",
+        "join",
+        "split",
+        "replace"
+      ],
+      "correct": 0,
+      "explanation": "Correct! The 'length' text block counts how many characters exist in the input string."
+    },
+    {
+      "id": 2,
+      "question": "What component is used to trigger action blocks at specified time intervals or animate sprites?",
+      "options": [
+        "Canvas",
+        "Clock",
+        "Button",
+        "Image"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The Clock component contains timer events that trigger actions repeatedly based on time intervals."
+    },
+    {
+      "id": 3,
+      "question": "What is the time interval unit used in a Clock component (e.g. 1000 means 1 second)?",
+      "options": [
+        "Seconds",
+        "Milliseconds",
+        "Minutes",
+        "Microseconds"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Clocks use milliseconds (1 second = 1000 milliseconds)."
+    },
+    {
+      "id": 4,
+      "question": "Which block event runs repeatedly every time the clock timer interval completes?",
+      "options": [
+        "when Clock.Initialize",
+        "when Clock.Timer",
+        "when Clock.Click",
+        "when Clock.TimeReached"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The 'when Clock.Timer' event block contains code that runs automatically on every tick."
+    },
+    {
+      "id": 5,
+      "question": "What type of component can be placed INSIDE a Canvas, allows touch interaction, and can move around?",
+      "options": [
+        "Image",
+        "ImageSprite",
+        "Label",
+        "Button"
+      ],
+      "correct": 1,
+      "explanation": "Great! ImageSprite components are interactive 2D graphical sprites that can be dragged, clicked, and animated inside a Canvas component."
+    },
+    {
+      "id": 6,
+      "question": "Which block is called to move an ImageSprite to a completely random coordinate on a Canvas?",
+      "options": [
+        "call ImageSprite.MoveTo (x, y)",
+        "call ImageSprite.Clear",
+        "set ImageSprite.Visible to false",
+        "call ImageSprite.Initialize"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! 'call ImageSprite.MoveTo(x, y)' updates the sprite's position on the canvas coordinate grid."
+    },
+    {
+      "id": 7,
+      "question": "If you want to get a random X coordinate on a Canvas for a sprite, which block should you combine with MoveTo?",
+      "options": [
+        "Math.random block (random fraction)",
+        "random integer from (min) to (max) block",
+        "TextBox1.Text",
+        "Clock.Timer"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The green 'random integer from/to' block is perfect for selecting coordinates within canvas boundaries (e.g. 0 to Canvas.Width)."
+    },
+    {
+      "id": 8,
+      "question": "What event block is triggered immediately when a player touches or taps an ImageSprite on screen?",
+      "options": [
+        "when ImageSprite.Touched",
+        "when ImageSprite.Click",
+        "when ImageSprite.Dragged",
+        "when ImageSprite.EdgeReached"
+      ],
+      "correct": 0,
+      "explanation": "Great! 'when ImageSprite.Touched' is the primary trigger for tap-sensing games (like popping balloons)."
+    },
+    {
+      "id": 9,
+      "question": "If you want to double the speed of an ImageSprite's automatic movement clock, how should you adjust the TimerInterval?",
+      "options": [
+        "Increase it from 1000 to 2000",
+        "Decrease it from 1000 to 500",
+        "Set it to 0",
+        "Disable the clock"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Decreasing the timer interval makes it tick faster, shortening the delay between movements."
+    },
+    {
+      "id": 10,
+      "question": "Which property of a Clock component enables or disables its timer ticks?",
+      "options": [
+        "Clock.TimerInterval",
+        "Clock.TimerEnabled",
+        "Clock.Visible",
+        "Clock.TimerAlwaysFires"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Setting 'Clock.TimerEnabled' to true starts the timer; setting it to false stops all tick events."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to increase a global variable named 'Pops' by 1 when BalloonSprite is touched.",
+      "task_hint": "when BalloonSprite.Touched -> set global Pops to (get global Pops + 1)",
+      "explanation": "Outstanding! Tapping the sprite increments the score tracker, which is the core mechanic of clicker games!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to move BalloonSprite to X=100, Y=150 every time Clock1 ticks.",
+      "task_hint": "when Clock1.Timer -> call BalloonSprite.MoveTo(x=100, y=150)",
+      "explanation": "Perfect! This automates coordinates changes on every clock tick event!"
+    }
+  ]
+}

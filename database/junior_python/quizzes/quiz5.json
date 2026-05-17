@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_python_quiz_5",
+  "quiz_title": "🐍 Python Challenge 5: Sprite Cloning & Catching Apples",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is sprite cloning in PyScript game engines?",
+      "options": [
+        "Deleting a sprite file",
+        "Spawning dynamic, independent copies of a sprite at runtime to act as separate game elements!",
+        "Changing a sprite costume",
+        "Drawing lines"
+      ],
+      "correct": 1,
+      "explanation": "Correct! Sprite cloning duplicates instances during gameplay, ideal for spawning enemies or items."
+    },
+    {
+      "id": 2,
+      "question": "Which PicToBlox Python method is called to spawn a new clone copy of a sprite?",
+      "options": [
+        "sprite.create_clone()",
+        "sprite.clone()",
+        "clone_myself()",
+        "spawn()"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! `sprite.create_clone()` creates a duplicate instance of the parent sprite."
+    },
+    {
+      "id": 3,
+      "question": "Which Python decorator or function header defines the actions executed by a newly spawned clone copy?",
+      "options": [
+        "def when_clone_starts():",
+        "def when_start_as_clone():",
+        "def clone():",
+        "when_green_flag_clicked()"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The `when_start_as_clone()` function contains the independent thread logic for clones."
+    },
+    {
+      "id": 4,
+      "question": "What must you do to a clone copy when it reaches the bottom of the screen or hits a wall to clean up memory?",
+      "options": [
+        "Hide it",
+        "Delete it using the `sprite.delete_this_clone()` method",
+        "Reset the scoreboard",
+        "Stop all loops"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Deleting finished clones using `sprite.delete_this_clone()` frees system resources."
+    },
+    {
+      "id": 5,
+      "question": "In our falling chick spawner game, how do we make clones drop downward continuously?",
+      "options": [
+        "Increase their X coordinate",
+        "Reduce their Y coordinate by a speed offset inside a loop (sprite.change_y(-10))",
+        "Set bounce to 1",
+        "Rotate them 90 degrees"
+      ],
+      "correct": 1,
+      "explanation": "Great! Reducing the Y coordinate index causes sprites to fall vertically down the canvas."
+    },
+    {
+      "id": 6,
+      "question": "What is object-to-object collision detection in catching games?",
+      "options": [
+        "Tuning light intensity",
+        "Checking if coordinate bounding boxes of two active sprites intersect (e.g. apple hits bowl)",
+        "Changing backdrops",
+        "Reading a text question"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Collision detection checks if moving sprites overlap, triggering events (like catching items)."
+    },
+    {
+      "id": 7,
+      "question": "Where should falling items (like apples) be repositioned after they are caught or hit the bottom floor?",
+      "options": [
+        "At coordinate (0, 0)",
+        "Teleported back to a random horizontal X position at the top ceiling to fall again",
+        "Deleted forever",
+        "Placed inside variables"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Teleporting them back to a random ceiling coordinate restarts the falling loop seamlessly."
+    },
+    {
+      "id": 8,
+      "question": "Which Python function from the random module selects a random integer coordinate within a boundary range?",
+      "options": [
+        "random.rand()",
+        "random.randint(min, max)",
+        "random.choice()",
+        "randint()"
+      ],
+      "correct": 1,
+      "explanation": "Great! `random.randint(a, b)` returns a random integer between a and b, ideal for horizontal spawn spreads."
+    },
+    {
+      "id": 9,
+      "question": "In our Apple Catching game, how do we initialize our game scoreboard when the player clicks the Green Flag?",
+      "options": [
+        "set score to 10",
+        "score = 0",
+        "score += 1",
+        "score == 0"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Setting `score = 0` at startup resets the scoreboard for a fresh game."
+    },
+    {
+      "id": 10,
+      "question": "Why does the game difficulty increase as the player's score increases in catching games?",
+      "options": [
+        "Because the computer gets tired",
+        "We code the falling speed variable to increase proportional to the score, making items drop faster!",
+        "The screen shrinks",
+        "Friction rises"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Speeding up sprites relative to scores keeps gameplay challenging and fun!"
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write a Python script to spawn a clone of a sprite named 'Apple' when the Space key is pressed.",
+      "task_hint": "if sprite.iskeypressed('space'):\n    apple.create_clone()",
+      "explanation": "Outstanding! Binding cloning commands to key presses lets players trigger items interactively!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write a Python clone setup block: when a clone starts, it should teleport to X = random coordinate between -150 and 150, Y = 180.",
+      "task_hint": "def when_start_as_clone():\n    sprite.setx(random.randint(-150, 150))\n    sprite.sety(180)",
+      "explanation": "Perfect! Initializing clones at random ceiling coordinates spreads out falling items beautifully!"
+    }
+  ]
+}

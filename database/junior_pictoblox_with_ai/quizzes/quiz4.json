@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_with_ai_quiz_4",
+  "quiz_title": "🧠 AI Challenge 4: Voice Mazes & Smart Home Text NLP",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What type of machine learning training lets a computer classify spoken words or audio commands?",
+      "options": [
+        "Image Classifier",
+        "Audio Classifier",
+        "Text Classifier",
+        "Pose Classifier"
+      ],
+      "correct": 1,
+      "explanation": "Correct! An Audio Classifier trains on acoustic frequencies to recognize spoken words or sound profiles."
+    },
+    {
+      "id": 2,
+      "question": "How do you collect data samples to train a custom Audio Classifier model?",
+      "options": [
+        "By taking photos",
+        "By recording multiple short sound clips or voice recordings of the target commands (like 'Up', 'Down')",
+        "By typing paragraphs",
+        "By drawing squares"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Recording vocal repetitions compiles audio waveforms used to train acoustic nodes."
+    },
+    {
+      "id": 3,
+      "question": "Which game component is excellent to steer using vocal audio commands?",
+      "options": [
+        "A ball falling under gravity",
+        "A sprite inside a maze corridor (moving up, down on voice triggers)",
+        "A camera rotating in 3D",
+        "The paint editor"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Voice commands are perfect to steer maze sprites without keyboard arrows."
+    },
+    {
+      "id": 4,
+      "question": "What block trigger runs immediately when the Audio Classifier hears the specific word 'Right'?",
+      "options": [
+        "when green flag clicked",
+        "when heard (Right)",
+        "say Right",
+        "change X by 10"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The 'when heard (word)' block is an event listener that fires code when matching vocals are sensed."
+    },
+    {
+      "id": 5,
+      "question": "What does NLP stand for in advanced artificial intelligence?",
+      "options": [
+        "New Laser Projection",
+        "Natural Language Processing (teaching computers to understand written text sentences)",
+        "Next Loop Pathway",
+        "No Logic Position"
+      ],
+      "correct": 1,
+      "explanation": "Great! Natural Language Processing involves teaching computers to read, parse, and extract meaning from text statements."
+    },
+    {
+      "id": 6,
+      "question": "What is Text Classification in machine learning?",
+      "options": [
+        "Speaking words out loud",
+        "Training a model to identify the underlying intent or meaning of a typed sentence",
+        "Eraser tools on canvas",
+        "Cloning sprites"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Text classification maps natural sentences to specific logic categories (intents)."
+    },
+    {
+      "id": 7,
+      "question": "If a user types 'Turn on the lights' or 'It is dark here', what intent should a smart home NLP model classify these as?",
+      "options": [
+        "turn_off intent",
+        "turn_on intent",
+        "play_game intent",
+        "exit_app intent"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Both sentences share the same fundamental intent: activating the light source ('turn_on')."
+    },
+    {
+      "id": 8,
+      "question": "Which block returns the classified intent string of a natural sentence input?",
+      "options": [
+        "get classified intent of (phrase)",
+        "get face expression",
+        "get sound wave",
+        "is happy?"
+      ],
+      "correct": 0,
+      "explanation": "Great! The 'get classified intent' block parses text inputs and returns matching trained tags."
+    },
+    {
+      "id": 9,
+      "question": "How can you feed typed text inputs from a player into your NLP model?",
+      "options": [
+        "Using the 'ask () and wait' sensor block, then passing the 'answer' block into the text classifier",
+        "By dragging a button",
+        "Shaking the device",
+        "Enabling physics"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! Snapping the sensor's 'answer' block feeds typed inputs directly into the NLP text analyzer."
+    },
+    {
+      "id": 10,
+      "question": "In a Voice Maze game, if the sprite hears 'Left', what block sequence should run to slide it left?",
+      "options": [
+        "change Y by 10",
+        "change X by -10",
+        "set size to 0",
+        "delete clone"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Sliding horizontally left requires reducing the X coordinate value by a negative speed offset."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to make a sprite change X by 15 when the Audio Classifier hears the command 'Go'.",
+      "task_hint": "when heard 'Go' -> change X by 15",
+      "explanation": "Outstanding! Snapping coordinate adjustments to audio listeners automates voice navigation!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to ask 'How can I help?', analyze the user's answer, and turn a virtual lamp sprite green if the classified intent is 'lamp_on'.",
+      "task_hint": "ask 'How can I help?' and wait -> if get classified intent of (answer) == 'lamp_on' then set Lamp.Color to Green",
+      "explanation": "Perfect! This forms a highly responsive, conversational smart home NLP assistant!"
+    }
+  ]
+}

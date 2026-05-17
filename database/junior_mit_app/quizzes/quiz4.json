@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_mit_app_quiz_4",
+  "quiz_title": "📱 App Challenge 4: Math Quiz Screens & Variables",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How do you create a multi-screen application in MIT App Inventor?",
+      "options": [
+        "You can't, apps only have 1 screen",
+        "By clicking the 'Add Screen...' button in the Designer header",
+        "By shaking the phone",
+        "By drawing a square on canvas"
+      ],
+      "correct": 1,
+      "explanation": "Correct! The 'Add Screen...' button allows developers to create Screen2, Screen3, and more."
+    },
+    {
+      "id": 2,
+      "question": "Which control block is used to open a completely different screen inside your app?",
+      "options": [
+        "open another screen (screenName)",
+        "close screen",
+        "open another screen with start value",
+        "call screen"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! The 'open another screen' block takes a text string representing the exact name of the screen to open."
+    },
+    {
+      "id": 3,
+      "question": "What happens to the current screen when the 'close screen' block is executed?",
+      "options": [
+        "The phone shuts down",
+        "The current active screen is closed, returning the player to the previous screen",
+        "A new screen is added",
+        "The app is deleted"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The 'close screen' block terminates the current layout view, revealing the screen that opened it."
+    },
+    {
+      "id": 4,
+      "question": "If you want to send a player's score to a second screen (like a result screen), which block should you use?",
+      "options": [
+        "open another screen (screenName)",
+        "open another screen with start value (screenName, startValue)",
+        "set Screen2 to Score",
+        "call TextToSpeech"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The 'open another screen with start value' block opens the target page and passes variables or values along."
+    },
+    {
+      "id": 5,
+      "question": "How does the second screen retrieve the score or start value sent by the first screen?",
+      "options": [
+        "By calling TextToSpeech",
+        "Using the 'get start value' control block",
+        "Reading from TextBox1",
+        "Shaking the device"
+      ],
+      "correct": 1,
+      "explanation": "Great! The 'get start value' block returns the exact data value passed during screen transition."
+    },
+    {
+      "id": 6,
+      "question": "In a Math Quiz app, how do we initialize a global variable named 'Score' to 0?",
+      "options": [
+        "initialize global (Score) to (0)",
+        "set global (Score) to (1)",
+        "get start value",
+        "Label1.Text to 0"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! We use the orange 'initialize global variable to' block and snap a math 0 block to it."
+    },
+    {
+      "id": 7,
+      "question": "Which block increases our global variable 'Score' by 1 point when a player gets an answer right?",
+      "options": [
+        "set global (Score) to (0)",
+        "set global (Score) to (get global Score + 1)",
+        "change Score by 0",
+        "set Score to 1"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Getting the current value of the variable, adding 1, and saving it back is the correct syntax to increment counters."
+    },
+    {
+      "id": 8,
+      "question": "What block is used to make a choice or decision in blocks programming (e.g. check if player's answer is correct)?",
+      "options": [
+        "open another screen",
+        "if-then control block",
+        "initialize global",
+        "join block"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The 'if-then' control block checks a boolean condition and executes code inside if it is true."
+    },
+    {
+      "id": 9,
+      "question": "How can you check if the answer typed in TextBoxAnswer.Text is exactly equal to '10'?",
+      "options": [
+        "if TextBoxAnswer.Text = 10",
+        "if TextBoxAnswer.Text + 10",
+        "set TextBoxAnswer to 10",
+        "speak 10"
+      ],
+      "correct": 0,
+      "explanation": "Great! Tapping the comparison (=) math block inside the if condition checks matching answers."
+    },
+    {
+      "id": 10,
+      "question": "Which component is excellent for displaying the final score on the result screen?",
+      "options": [
+        "Canvas",
+        "TextBox",
+        "Label",
+        "ImageSprite"
+      ],
+      "correct": 2,
+      "explanation": "Perfect! A Label is perfect for displaying text values like 'Your Score is 5' by setting its Text property."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to navigate to a screen named 'ScreenResult' and pass the value of a global variable named 'Score' when a button is clicked.",
+      "task_hint": "when ButtonFinish.Click -> open another screen with start value(screenName='ScreenResult', startValue=get global Score)",
+      "explanation": "Outstanding! This is the standard procedure to pass game statistics across screens in App Inventor."
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code for an if statement: if TextBox1.Text is equal to '5', then set LabelFeedback.Text to 'Correct!', else set LabelFeedback.Text to 'Wrong!'",
+      "task_hint": "if TextBox1.Text == '5' then set LabelFeedback.Text to 'Correct!' else set LabelFeedback.Text to 'Wrong!'",
+      "explanation": "Perfect! Using if-else choices provides immediate feedback to students!"
+    }
+  ]
+}

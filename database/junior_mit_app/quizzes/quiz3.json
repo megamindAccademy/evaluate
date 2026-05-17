@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_mit_app_quiz_3",
+  "quiz_title": "📱 App Challenge 3: Let's Paint & Layout Styles",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which component allows users to physically paint, sketch, or draw lines using touch drag coordinates on screen?",
+      "options": [
+        "Image",
+        "Canvas",
+        "Label",
+        "HorizontalArrangement"
+      ],
+      "correct": 1,
+      "explanation": "Correct! The Canvas component is a touch-sensitive grid that lets players draw, paint, and move sprites."
+    },
+    {
+      "id": 2,
+      "question": "What event trigger is fired repeatedly as a user drags their finger across a Canvas component?",
+      "options": [
+        "when Canvas.Touched",
+        "when Canvas.Dragged",
+        "when Canvas.Flung",
+        "when Canvas.Initialize"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The 'when Canvas.Dragged' event provides coordinate properties (startX, startY, currentX, currentY) as the finger slides."
+    },
+    {
+      "id": 3,
+      "question": "Which block function from the Canvas component is called to draw a straight line between two coordinate points?",
+      "options": [
+        "call Canvas.DrawCircle",
+        "call Canvas.DrawLine",
+        "call Canvas.Clear",
+        "call Canvas.DrawPoint"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The 'call Canvas.DrawLine' block draws a line from (x1, y1) to (x2, y2)."
+    },
+    {
+      "id": 4,
+      "question": "If you want to draw a continuous line as the finger drags, which coordinate properties should you connect to DrawLine's x1, y1 and x2, y2?",
+      "options": [
+        "startX, startY and currentX, currentY",
+        "prevX, prevY and currentX, currentY",
+        "prevX, prevY and startX, startY",
+        "0, 0 and currentX, currentY"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Connecting prevX, prevY to x1, y1 and currentX, currentY to x2, y2 draws smooth, continuous paths without gaps."
+    },
+    {
+      "id": 5,
+      "question": "Which property of Canvas must you modify to change the color of the paint brush or lines?",
+      "options": [
+        "Canvas.BackgroundColor",
+        "Canvas.PaintColor",
+        "Canvas.LineWidth",
+        "Canvas.Visible"
+      ],
+      "correct": 1,
+      "explanation": "Great! The PaintColor property controls the color used to draw lines, circles, and text on the canvas."
+    },
+    {
+      "id": 6,
+      "question": "What block is used to clear or erase all lines and shapes painted on a Canvas component?",
+      "options": [
+        "call Canvas.DrawCircle",
+        "call Canvas.Clear",
+        "set Canvas.Visible to false",
+        "call Canvas.Reset"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The 'call Canvas.Clear' function wipes the canvas drawing surface completely clean."
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of the 'VerticalArrangement' layout component?",
+      "options": [
+        "To organize widgets side-by-side",
+        "To stack widgets vertically on top of each other",
+        "To turn buttons upside down",
+        "To play sound alerts"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! VerticalArrangement stacks components vertically from top to bottom."
+    },
+    {
+      "id": 8,
+      "question": "Which component width property should you select if you want a layout to stretch and fill the entire width of the phone screen?",
+      "options": [
+        "Automatic",
+        "Fill Parent",
+        "0 pixels",
+        "10 percent"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! 'Fill Parent' forces the component's width or height to expand and match its parent container container size."
+    },
+    {
+      "id": 9,
+      "question": "How can we increase the thickness of the line drawn on our canvas?",
+      "options": [
+        "Change Canvas.PaintColor",
+        "Change Canvas.LineWidth",
+        "Change Canvas.FontSize",
+        "Double tap the screen"
+      ],
+      "correct": 1,
+      "explanation": "Great! The LineWidth property determines the stroke thickness in pixels for drawn objects on the canvas."
+    },
+    {
+      "id": 10,
+      "question": "Which blocks drawer houses predefined color cards (like Red, Blue, Green) to connect to PaintColor?",
+      "options": [
+        "Math",
+        "Colors",
+        "Text",
+        "Logic"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The Colors blocks drawer contains a rich palette of primary and custom colors."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to draw a line on Canvas1 from the previous touch coordinates (prevX, prevY) to current coordinates (currentX, currentY) during a drag.",
+      "task_hint": "when Canvas1.Dragged -> call Canvas1.DrawLine(x1=prevX, y1=prevY, x2=currentX, y2=currentY)",
+      "explanation": "Outstanding! Connecting previous coordinates to current coordinates is the fundamental rule to paint smooth lines on screen!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to set the PaintColor of Canvas1 to Red when ButtonRed is clicked.",
+      "task_hint": "when ButtonRed.Click -> set Canvas1.PaintColor to Red",
+      "explanation": "Perfect! This simple layout handler lets players dynamically toggle their virtual paint colors."
+    }
+  ]
+}

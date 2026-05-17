@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_3d_quiz_4",
+  "quiz_title": "🧊 3D Challenge 4: Solar Systems & Letter Lights",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How can you simulate orbital paths of planets revolving around the Sun in our 3D Solar System?",
+      "options": [
+        "Using the 'orbit around' block connecting target coordinate X, Y, Z",
+        "Using say blocks",
+        "Moving in straight horizontal lines",
+        "Hiding the planet"
+      ],
+      "correct": 0,
+      "explanation": "Correct! The 'orbit around' block sweeps a sprite in circular paths around a focal coordinate."
+    },
+    {
+      "id": 2,
+      "question": "Which celestial body is at the absolute center of our Solar System model?",
+      "options": [
+        "The Earth",
+        "The Moon",
+        "The Sun",
+        "Jupiter"
+      ],
+      "correct": 2,
+      "explanation": "Excellent! The Sun is the gravity center around which all planets orbit."
+    },
+    {
+      "id": 3,
+      "question": "Which planetary motion is created when a planet revolves around its own internal center (creating day/night)?",
+      "options": [
+        "Orbiting",
+        "Internal rotation (spinning)",
+        "Translating",
+        "Bouncing"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Rotation (spinning) causes planets to spin on their own axis."
+    },
+    {
+      "id": 4,
+      "question": "If Earth takes 365 days to orbit the Sun and Mercury takes 88 days, how should we code their orbital speeds?",
+      "options": [
+        "Earth should be faster than Mercury",
+        "Mercury orbital speed should be set faster than Earth's orbital speed",
+        "Both should have the same speed",
+        "Set Earth speed to 0"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Mercury orbits closer and much faster, so we give it a higher orbital speed value."
+    },
+    {
+      "id": 5,
+      "question": "What type of light source radiates light beams equally in all directions (like a lightbulb or our Sun)?",
+      "options": [
+        "Spotlight",
+        "Point Light",
+        "Directional Light",
+        "Laser Light"
+      ],
+      "correct": 1,
+      "explanation": "Great! A Point Light acts like an incandescent bulb, illuminating surrounding objects 360-degrees around."
+    },
+    {
+      "id": 6,
+      "question": "Which block is used to set the color of an added virtual light source?",
+      "options": [
+        "set light color to (color)",
+        "set paint color",
+        "set background color",
+        "light power"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! 'set light color' changes the glow color (e.g. Red for hot warning, Yellow for cozy suns)."
+    },
+    {
+      "id": 7,
+      "question": "What property of a virtual light source controls how bright the light shines?",
+      "options": [
+        "Light Color",
+        "Light Intensity / Brightness",
+        "Light Scale",
+        "Light Width"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Intensity determines light output brightness; high intensity creates glaring glows."
+    },
+    {
+      "id": 8,
+      "question": "How do you make a planet look realistic (e.g. displaying oceans and continents on Earth)?",
+      "options": [
+        "Apply a planet sphere texture mapping",
+        "Color it solid blue",
+        "Type 'Earth' in a say block",
+        "Change its X coordinate"
+      ],
+      "correct": 0,
+      "explanation": "Great! Applying 3D texture maps wraps a planet graphic onto the sphere sprite body."
+    },
+    {
+      "id": 9,
+      "question": "Why did we place colored point lights in front of our alphabet letters project?",
+      "options": [
+        "To hide them",
+        "To make them look like glowing neon signs in a 3D night scene!",
+        "To speed up car physics",
+        "To count the letters"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Point lights cast glowing rays on letter panels, mimicking neon glow arts."
+    },
+    {
+      "id": 10,
+      "question": "What coordinate should match for a Moon orbiting around the Earth?",
+      "options": [
+        "The Moon's orbit center must get Earth's X, Y, Z coordinates",
+        "0, 0, 0",
+        "The Sun's position",
+        "X=1000"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! The Moon's orbital center must track the moving Earth, so it sweeps around the planet."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to make a planet sprite orbit around coordinates (0, 0, 0) at a speed of 5 degrees per tick.",
+      "task_hint": "orbit around X(0) Y(0) Z(0) speed(5)",
+      "explanation": "Outstanding! Snapping this block creates a beautiful, revolving planetary system!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to place a Point Light at coordinates X=0, Y=50, Z=100 with a bright Yellow color.",
+      "task_hint": "add point light at X(0) Y(50) Z(100) -> set light color to Yellow",
+      "explanation": "Perfect! This positions a radiant sun glow directly in the center of the 3D scene!"
+    }
+  ]
+}

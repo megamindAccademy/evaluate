@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_with_ai_quiz_1",
+  "quiz_title": "🧠 AI Challenge 1: Computer Vision & Face Detection",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the core branch of computer science that teaches computers how to see, hear, and make smart decisions like humans?",
+      "options": [
+        "Database Management",
+        "Artificial Intelligence (AI)",
+        "Typing Skills",
+        "Word Processing"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Artificial Intelligence enables computers to mimic human intelligence, speech, and sight."
+    },
+    {
+      "id": 2,
+      "question": "Which PicToBlox extension is used to recognize faces and track facial coordinates through cameras?",
+      "options": [
+        "Pen Extension",
+        "Face Detection",
+        "Lights Library",
+        "Music Maker"
+      ],
+      "correct": 1,
+      "explanation": "Correct! The Face Detection extension adds blocks to analyze camera frames for faces."
+    },
+    {
+      "id": 3,
+      "question": "Which block must be called first to reveal the live webcam video feed on your stage workspace?",
+      "options": [
+        "turn on video on stage with (0)% transparency",
+        "hide sprite",
+        "pen down",
+        "set size to 100%"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! Turning video on stage displays the live camera stream so coordinates can be mapped."
+    },
+    {
+      "id": 4,
+      "question": "Which block is called to force the AI computer to analyze a captured camera frame for human faces?",
+      "options": [
+        "move 10 steps",
+        "analyze image from (camera)",
+        "say hello",
+        "create clone"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! 'analyze image from camera' triggers the AI engine to scan the frame for facial structures."
+    },
+    {
+      "id": 5,
+      "question": "What coordinates does the AI return to help you track the center position of a detected face?",
+      "options": [
+        "Only X coordinate",
+        "Only Y coordinate",
+        "Both X and Y coordinates of the face",
+        "No coordinates"
+      ],
+      "correct": 2,
+      "explanation": "Spot on! The AI returns both X and Y coordinates, letting sprites follow your movements exactly."
+    },
+    {
+      "id": 6,
+      "question": "If you want a wizard hat sprite to follow your face on screen, what block script should you snap inside a forever loop?",
+      "options": [
+        "go to X(get face X) Y(get face Y)",
+        "move 100 steps",
+        "turn clockwise 15 degrees",
+        "set size to 0"
+      ],
+      "correct": 0,
+      "explanation": "Great! Running 'go to face X, Y' inside a forever loop makes the sprite stick to your face like a real filter!"
+    },
+    {
+      "id": 7,
+      "question": "Which face coordinate increases as you move your head vertically upward in front of your camera?",
+      "options": [
+        "Face X coordinate",
+        "Face Y coordinate",
+        "Face Z coordinate",
+        "Friction"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Upward vertical motion raises the Y coordinate value."
+    },
+    {
+      "id": 8,
+      "question": "Which face coordinate changes as you move your head horizontally left and right?",
+      "options": [
+        "Face X coordinate",
+        "Face Y coordinate",
+        "Face Z coordinate",
+        "Bounce"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! Left-to-right horizontal shifts modify the X coordinate value."
+    },
+    {
+      "id": 9,
+      "question": "How can you dynamically adjust the size of your face filter mask (e.g. funny glasses) when you lean closer to the camera?",
+      "options": [
+        "Set sprite size to a fixed 100%",
+        "Set sprite size to match the 'get face width' block value",
+        "Hide the sprite",
+        "Clear the screen"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The 'get face width' block increases as you get closer, scaling filters perfectly."
+    },
+    {
+      "id": 10,
+      "question": "Does the Face Detection extension require a functioning camera to track your face live?",
+      "options": [
+        "No, it reads your mind",
+        "Yes, it needs a working camera or webcam input to capture video frames",
+        "No, it only reads files",
+        "Only on weekends"
+      ],
+      "correct": 1,
+      "explanation": "Great! A camera is essential to capture the live feed analyzed by the face coordinates engine."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to turn on the camera and continuously analyze images inside a forever loop.",
+      "task_hint": "turn on video on stage -> forever (analyze image from camera)",
+      "explanation": "Outstanding! Placing the analysis block inside a forever loop ensures the AI scans frames repeatedly for real-time tracking!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to make a sprite go to the detected face's center coordinates X and Y.",
+      "task_hint": "go to X(get face X) Y(get face Y)",
+      "explanation": "Perfect! This simple script binds your filter sprites to the face coordinates instantly."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_3d_quiz_6",
+  "quiz_title": "🧊 3D Challenge 6: UI Canvas Overlays & Game Sounds",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the purpose of the 3D UI (User Interface) overlays in game design?",
+      "options": [
+        "To paint the background",
+        "To draw 2D labels, scores, and health bars directly on top of the 3D game screen!",
+        "To add gravity to bullets",
+        "To slow down the car"
+      ],
+      "correct": 1,
+      "explanation": "Correct! UI overlays display dashboard info (like points, health, or alerts) over the camera view."
+    },
+    {
+      "id": 2,
+      "question": "Which block is used to add text overlays onto your active 3D HUD canvas?",
+      "options": [
+        "add UI text (label, x, y)",
+        "say hello",
+        "create clone",
+        "pen down"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! 'add UI text' draws scoreboards and HUD data overlays onto specific flat screen coordinates."
+    },
+    {
+      "id": 3,
+      "question": "Why do sounds matter so much in interactive video games?",
+      "options": [
+        "They make the computer run faster",
+        "They bring life, atmosphere, and instant audio feedback (like blast alarms or success bells) to gameplay!",
+        "They scale 3D coordinates",
+        "They enable gravity"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Sound design enhances atmosphere and guides player feedback during events."
+    },
+    {
+      "id": 4,
+      "question": "What block is used to play a victory fanfare or laser blast sound from the Audio libraries?",
+      "options": [
+        "play sound wave (sound_name)",
+        "steer car",
+        "enable physics",
+        "set paint color"
+      ],
+      "correct": 0,
+      "explanation": "Spot on! 'play sound wave' launches loaded sound effects immediately when triggered."
+    },
+    {
+      "id": 5,
+      "question": "How can you display a glowing start button to players before the 3D game loads?",
+      "options": [
+        "By adding a UI button overlay that hides itself and starts gameplay loops when clicked",
+        "By turning off the light",
+        "By deleting the camera",
+        "By cloning the duck 100 times"
+      ],
+      "correct": 0,
+      "explanation": "Great! Pre-game screens use overlay UI buttons that initialize variables and clear templates on click."
+    },
+    {
+      "id": 6,
+      "question": "In our Duck Hunter HUD, which block increases a global variable 'Score' by 10 points when a duck clone is eliminated?",
+      "options": [
+        "set Score to 10",
+        "change global (Score) by (10)",
+        "set light intensity to 10",
+        "delete this clone"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The 'change variable by' block increments scores (e.g. +10 per successful hit)."
+    },
+    {
+      "id": 7,
+      "question": "Which block clears the UI text overlays when transitioning from the start screen to active gameplay?",
+      "options": [
+        "call Canvas.Clear",
+        "clear UI overlays / hide UI panel",
+        "stop all",
+        "pen up"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Hiding start overlays cleans the screen, revealing the 3D gaming space."
+    },
+    {
+      "id": 8,
+      "question": "What component triggers victory conditions when the player's score reaching 100 points?",
+      "options": [
+        "An if statement checking if Score = 100",
+        "A point light",
+        "A physics bounce setting",
+        "An AccelerometerSensor"
+      ],
+      "correct": 0,
+      "explanation": "Great! Logic checks (if score = 100 then show win screen) automate win conditions."
+    },
+    {
+      "id": 9,
+      "question": "What type of sound library should you search to find a laser sound effect for our rifle?",
+      "options": [
+        "Sci-Fi / Space drawer in Sound Library",
+        "Animals drawer",
+        "Sports drawer",
+        "Classical piano drawer"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! Laser blasts are Sci-Fi category files, fitting sci-fi crosshairs."
+    },
+    {
+      "id": 10,
+      "question": "How can you prevent shooting inputs from firing while the start screen overlay is active?",
+      "options": [
+        "Delete the camera",
+        "Use a global game variable 'game_active' (only fire if game_active = True)",
+        "Change bullet size to 0",
+        "Set gravity to 9.8"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Checking state variables (e.g. game_active = true) ensures scripts only run during active phases."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to display a UI text overlay saying 'Score: ' joined with the global variable 'Score' at coordinates X=20, Y=20.",
+      "task_hint": "add UI text(label=join('Score: ', get global Score), x=20, y=20)",
+      "explanation": "Outstanding! This displays a dynamic, self-updating score monitor on the player's HUD canvas!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to play a sound wave named 'victory_fanfare' and stop all scripts when a win check passes.",
+      "task_hint": "play sound wave('victory_fanfare') -> stop all",
+      "explanation": "Perfect! Audio cues combined with stop loops create neat, satisfying game conclusions!"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_python_quiz_3",
+  "quiz_title": "🐍 Python Challenge 3: Maze Choices & For Loop Squares",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a conditional 'if' statement do in a Python script?",
+      "options": [
+        "It loops code forever",
+        "It checks a boolean condition and executes the indented block of code ONLY if the condition is True!",
+        "It prints a name",
+        "It deletes the sprite"
+      ],
+      "correct": 1,
+      "explanation": "Correct! If statements introduce decision pathways, running code blocks conditionally on truths."
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to provide an alternative code path if the initial 'if' check evaluates as False?",
+      "options": [
+        "elseif",
+        "else",
+        "then",
+        "otherwise"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The `else:` block handles the fallback pathway, executing when the check fails."
+    },
+    {
+      "id": 3,
+      "question": "In Python, which comparison operator checks if two values are completely equal to each other?",
+      "options": [
+        "=",
+        "==",
+        "===",
+        "!="
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The double equals sign (`==`) checks mathematical equality, returning True or False."
+    },
+    {
+      "id": 4,
+      "question": "What must you do to all lines of code inside a Python function or if-statement block to show they belong to that block?",
+      "options": [
+        "Capitalize every word",
+        "Indent them (add 4 spaces or a Tab at the start of the line)",
+        "Wrap them in brackets",
+        "Nothing"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Python relies on indentation (leading spaces) to demarcate code blocks and nested structures."
+    },
+    {
+      "id": 5,
+      "question": "Which PicToBlox Python method checks if the active sprite is touching a color boundary red?",
+      "options": [
+        "sprite.istouching('red')",
+        "sprite.touchingcolor(255, 0, 0)",
+        "sprite.istouchingcolor([255, 0, 0])",
+        "sprite.color('red')"
+      ],
+      "correct": 2,
+      "explanation": "Great! `sprite.istouchingcolor()` accepts an RGB array (like [255, 0, 0] for red) to detect wall contacts."
+    },
+    {
+      "id": 6,
+      "question": "What does a 'loop' do in programming logic?",
+      "options": [
+        "It halts the computer",
+        "It repeats a block of code multiple times, saving us from writing the same lines over and over!",
+        "It changes the sprite coordinates",
+        "It erases the screen"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Loops automate repetitive routines, compressing code size effectively."
+    },
+    {
+      "id": 7,
+      "question": "Which loop block is best when you know exactly how many times you want to repeat an action (e.g. exactly 4 times)?",
+      "options": [
+        "while loop",
+        "for loop (using range)",
+        "if statement",
+        "forever loop"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The `for i in range(count):` loop is ideal for repeating commands a predefined number of times."
+    },
+    {
+      "id": 8,
+      "question": "What will `range(4)` yield in a Python for loop?",
+      "options": [
+        "1, 2, 3, 4",
+        "0, 1, 2, 3",
+        "4, 4, 4, 4",
+        "0, 4"
+      ],
+      "correct": 1,
+      "explanation": "Great! Python ranges start at 0 and run up to (but excluding) the target count, giving exactly four indices: 0, 1, 2, 3."
+    },
+    {
+      "id": 9,
+      "question": "How many degrees must a sprite turn at each corner to paint a perfect symmetric square on canvas?",
+      "options": [
+        "45 degrees",
+        "90 degrees",
+        "180 degrees",
+        "360 degrees"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Turning 90 degrees at four corners completes a 360-degree rotation, forming a square outline."
+    },
+    {
+      "id": 10,
+      "question": "What Python code draws a square by repeating a move and a 90-degree turn four times?",
+      "options": [
+        "for i in range(4):\n    sprite.move(100)\n    sprite.turnright(90)",
+        "for i in range(100):\n    sprite.move(4)",
+        "while x < 4:\n    sprite.move(100)",
+        "sprite.draw_square()"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! Looping motion and 90-degree rotations four times traces a square shape cleanly."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write a Python conditional statement: if the variable 'score' is equal to 10, print 'You Win!'.",
+      "task_hint": "if score == 10:\n    print('You Win!')",
+      "explanation": "Outstanding! Placing comparisons inside if headers routes winning triggers correctly!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write a Python for loop to repeat the print statement 'Hello' exactly 5 times.",
+      "task_hint": "for i in range(5):\n    print('Hello')",
+      "explanation": "Perfect! Python for loops combined with range blocks are excellent to automate repetitive prints!"
+    }
+  ]
+}

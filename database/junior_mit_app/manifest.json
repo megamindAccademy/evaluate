@@ -1,0 +1,39 @@
+{
+  "course_id": "junior_mit_app",
+  "course_title": "📱 تطبيقات الموبايل للصغار - MIT Mobile App",
+  "course_description": "Create your own interactive Android apps without writing complex code! Drag and drop buttons, build Text-to-Speech voices, code math calculators, draw canvas sketches, pop bouncing balloons, and challenge a smart AI in Rock-Paper-Scissors! 📱🎨🎮",
+  "status": "active",
+  "recap_file": "recap.json",
+  "quizzes": [
+    {
+      "quiz_id": "junior_mit_app_quiz_1",
+      "file": "quizzes/quiz1.json",
+      "title": "📱 App Challenge 1: Introduction & Talking Apps"
+    },
+    {
+      "quiz_id": "junior_mit_app_quiz_2",
+      "file": "quizzes/quiz2.json",
+      "title": "📱 App Challenge 2: Calculator & Animal Sounds"
+    },
+    {
+      "quiz_id": "junior_mit_app_quiz_3",
+      "file": "quizzes/quiz3.json",
+      "title": "📱 App Challenge 3: Let's Paint & Layout Styles"
+    },
+    {
+      "quiz_id": "junior_mit_app_quiz_4",
+      "file": "quizzes/quiz4.json",
+      "title": "📱 App Challenge 4: Math Quiz Screens & Variables"
+    },
+    {
+      "quiz_id": "junior_mit_app_quiz_5",
+      "file": "quizzes/quiz5.json",
+      "title": "📱 App Challenge 5: Spelling Beeps & Balloon Pops"
+    },
+    {
+      "quiz_id": "junior_mit_app_quiz_6",
+      "file": "quizzes/quiz6.json",
+      "title": "📱 App Challenge 6: Shake Sensors & Game Logic"
+    }
+  ]
+}

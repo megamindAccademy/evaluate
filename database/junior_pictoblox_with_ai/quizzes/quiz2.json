@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_with_ai_quiz_2",
+  "quiz_title": "🧠 AI Challenge 2: Face Landmarks & Object Scans",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What are facial landmarks in computer vision?",
+      "options": [
+        "Big buildings on a map",
+        "Specific coordinate points tracked on a face (like eyes, nose, mouth corners, and jawline)",
+        "Colors in the paint editor",
+        "Custom sounds"
+      ],
+      "correct": 1,
+      "explanation": "Correct! Landmarks are specific skeletal coordinate dots mapped onto facial features."
+    },
+    {
+      "id": 2,
+      "question": "How many landmark points are typically tracked on a human face by standard AI systems?",
+      "options": [
+        "Only 1 point",
+        "Exactly 4 points",
+        "Over 68 coordinate landmark points",
+        "None"
+      ],
+      "correct": 2,
+      "explanation": "Excellent! Advanced AI face meshes map 68+ coordinate landmarks to track fine details."
+    },
+    {
+      "id": 3,
+      "question": "Which landmark point should a funny mustache filter sprite track to align perfectly above the mouth?",
+      "options": [
+        "Left Eye",
+        "Nose tip / Mouth center coordinates",
+        "Right Ear",
+        "Forehead"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Positioning the mustache at the nose tip or mouth center landmarks ensures authentic alignments."
+    },
+    {
+      "id": 4,
+      "question": "Which block checks if a player is smiling or displaying a happy emotion?",
+      "options": [
+        "is expression (happy)?",
+        "get face X",
+        "say happy",
+        "play sound happy"
+      ],
+      "correct": 0,
+      "explanation": "Spot on! The expression block checks if active facial muscle configurations match 'happy', returning true/false."
+    },
+    {
+      "id": 5,
+      "question": "Which of these emotions can the PicToBlox AI Face Detection identify?",
+      "options": [
+        "Red, Blue, and Green",
+        "Happy, Sad, Angry, and Surprised",
+        "Fast and Slow",
+        "Hot and Cold"
+      ],
+      "correct": 1,
+      "explanation": "Great! The AI analyzes muscle structures to identify basic human emotions: happiness, sadness, anger, surprise, etc."
+    },
+    {
+      "id": 6,
+      "question": "How is Machine Learning different from standard pre-programmed coding?",
+      "options": [
+        "It uses more colors",
+        "Instead of writing fixed rules, we feed the computer data/images so it learns how to recognize patterns itself!",
+        "It does not use blocks",
+        "It turns off the camera"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Machine Learning trains algorithms on datasets to discover rules dynamically, mimicking natural learning."
+    },
+    {
+      "id": 7,
+      "question": "Which block is called to analyze camera feeds for everyday items (like bottles, cups, or laptops)?",
+      "options": [
+        "analyze image for (object)",
+        "analyze face",
+        "pen down",
+        "steer car"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! 'analyze image for object' scans frames for general everyday objects from pre-trained datasets."
+    },
+    {
+      "id": 8,
+      "question": "How can you count how many cups are sitting on your desk using Object Detection?",
+      "options": [
+        "Set size to 100",
+        "Use the 'get count of detected objects' block",
+        "Ask a text question",
+        "Change backdrop"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The count block returns the integer count of identified objects on stage."
+    },
+    {
+      "id": 9,
+      "question": "Which block returns the label name (like 'cup' or 'person') of the first detected object?",
+      "options": [
+        "get name of object (1)",
+        "get face width",
+        "is expression?",
+        "say hello"
+      ],
+      "correct": 0,
+      "explanation": "Great! The 'get name of object' block returns the category label string identified by the scanner."
+    },
+    {
+      "id": 10,
+      "question": "If you want a label sprite to print out the emotion of the user, what block combination should you write?",
+      "options": [
+        "set label text to (get face X)",
+        "set label text to (get face expression)",
+        "set label text to (1)",
+        "hide variable"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Setting text to 'get face expression' dynamically prints the active emotion string."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to check if the face expression is happy, and if so, say 'Great smile!'.",
+      "task_hint": "if is expression happy? then say 'Great smile!'",
+      "explanation": "Outstanding! Combining expression checks with conditional branching creates smart, interactive emotion readers!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to analyze a camera frame for objects, and say the name of the first detected item.",
+      "task_hint": "analyze image for object -> say (get name of object 1)",
+      "explanation": "Perfect! This simple script creates a fully functioning real-time object identifier!"
+    }
+  ]
+}

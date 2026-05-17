@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_mit_app_quiz_1",
+  "quiz_title": "📱 App Challenge 1: Introduction & Talking Apps",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary web-based platform we use to build Android mobile applications without coding?",
+      "options": [
+        "Scratch Desktop",
+        "MIT App Inventor",
+        "Python IDLE",
+        "PicToBlox"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! MIT App Inventor is our drag-and-drop tool to construct real mobile apps."
+    },
+    {
+      "id": 2,
+      "question": "Which view in MIT App Inventor is used to select and design how your app looks (adding buttons, textboxes, and labels)?",
+      "options": [
+        "Blocks View",
+        "Designer View",
+        "Code View",
+        "Database View"
+      ],
+      "correct": 1,
+      "explanation": "Correct! Designer View is where we place buttons, labels, images, and arrange the look of our user interface."
+    },
+    {
+      "id": 3,
+      "question": "Which view is used to program the actions and logic of your application using drag-and-drop puzzle blocks?",
+      "options": [
+        "Blocks View",
+        "Designer View",
+        "Styling View",
+        "Physics View"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! Blocks View is where we script the application logic, variables, and math operators."
+    },
+    {
+      "id": 4,
+      "question": "What component should you drag in if you want to display static descriptive titles or text outputs on the screen?",
+      "options": [
+        "Button",
+        "Label",
+        "TextBox",
+        "ImageSprite"
+      ],
+      "correct": 1,
+      "explanation": "Great! A Label is designed specifically for displaying static or updated text, unlike a button that clicks or a textbox that takes inputs."
+    },
+    {
+      "id": 5,
+      "question": "Which non-visible component allows your phone to read words out loud to the player?",
+      "options": [
+        "Sound Recorder",
+        "TextToSpeech",
+        "AccelerometerSensor",
+        "SpeechRecognizer"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The TextToSpeech component converts typed text strings into virtual spoken audio outputs."
+    },
+    {
+      "id": 6,
+      "question": "What block trigger is fired immediately when a user taps or touches a button component on the phone screen?",
+      "options": [
+        "when Button.GotFocus",
+        "when Button.Click",
+        "when Button.LongClick",
+        "when Button.TouchDown"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The 'when Button.Click' event block is the standard block to run scripts when a button is tapped."
+    },
+    {
+      "id": 7,
+      "question": "How can you test and run your MIT App Inventor app live on a real physical Android phone?",
+      "options": [
+        "Using the AI Companion mobile app",
+        "By exporting a text document",
+        "By calling customer support",
+        "You cannot run it on real phones"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! Using the MIT AI Companion app lets you scan QR codes to test your running app live!"
+    },
+    {
+      "id": 8,
+      "question": "Under which drawer in the Designer Palette can you find buttons, labels, and textboxes?",
+      "options": [
+        "Layout",
+        "Media",
+        "User Interface",
+        "Sensors"
+      ],
+      "correct": 2,
+      "explanation": "Correct! The User Interface drawer houses standard user widgets like buttons, textboxes, checkboxes, and labels."
+    },
+    {
+      "id": 9,
+      "question": "Is the TextToSpeech component visible on the actual phone screen during gameplay?",
+      "options": [
+        "Yes, it looks like a mouth",
+        "No, it is a non-visible component that runs in the background",
+        "Yes, it displays text on the screen",
+        "Only when the phone is shaking"
+      ],
+      "correct": 1,
+      "explanation": "Great! Non-visible components (like sensors and voices) do not display widgets on the interface but provide great tools in the background."
+    },
+    {
+      "id": 10,
+      "question": "In which drawer in the Blocks panel can you find logic blocks (like true/false or equals)?",
+      "options": [
+        "Math",
+        "Text",
+        "Logic",
+        "Lists"
+      ],
+      "correct": 2,
+      "explanation": "Perfect! The Logic drawer contains comparison blocks, true, false, and logical and/or/not operators."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to make the TextToSpeech1 voice say 'Hello Developer' when Button1 is clicked.",
+      "task_hint": "when Button1.Click -> call TextToSpeech1.Speak(message='Hello Developer')",
+      "explanation": "Outstanding! Attaching the Speak block inside the Button.Click event script activates the text reader immediately upon clicking!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to get the text entered by the player from TextBox1 and speak it using TextToSpeech1.",
+      "task_hint": "call TextToSpeech1.Speak(message=TextBox1.Text)",
+      "explanation": "Perfect! Passing the TextBox1.Text property into the speak function dynamically vocalizes any text strings input by the user."
+    }
+  ]
+}

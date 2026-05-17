@@ -1,0 +1,188 @@
+{
+  "course_title": "🐍 بايثون للصغار - Python Junior",
+  "recap_subtitle": "Step up to real text coding, superstar programmers! Let's review the syntax structures, loops, and custom classes we coded inside PicToBlox to command sprites using the power of Python. The 12 sessions are summarized below:",
+  "sessions": [
+    {
+      "session_num": 1,
+      "title": "Session 1: Text-Based Coding & Python Intro",
+      "targets": [
+        "Differentiate block-based coding from text-based coding",
+        "Understand basic Python syntax",
+        "Execute your very first Python print statement"
+      ],
+      "blocks": [
+        "print('Welcome to Megaminds')",
+        "Syntax syntax markers",
+        "Console output logs"
+      ],
+      "project": "Write My First Program - Code a script that prints a welcoming developer message to the console screen!"
+    },
+    {
+      "session_num": 2,
+      "title": "Session 2: Built-in Functions & walking Tobi",
+      "targets": [
+        "Explore pre-defined built-in Python functions",
+        "Control active sprites movements using coordinates functions",
+        "Animate costume cycles"
+      ],
+      "blocks": [
+        "sprite.move(10)",
+        "sprite.nextcostume()",
+        "sprite.wait(0.5)"
+      ],
+      "project": "Introduce Yourself with Tobi - Scripting Tobi to move forward, wave, and cycle costumes to animate walking!"
+    },
+    {
+      "session_num": 3,
+      "title": "Session 3: Variables, Data Types & Operators",
+      "targets": [
+        "Define Python variables for number/text storage",
+        "Identify string (str) and integer (int) data types",
+        "Use mathematical arithmetic operators"
+      ],
+      "blocks": [
+        "score = 0",
+        "name = 'Tobi'",
+        "total = num1 + num2",
+        "sprite.say(str)"
+      ],
+      "project": "Addition Bot - An interactive math bot that takes two typed numbers, sums them up, and speaks the answer!"
+    },
+    {
+      "session_num": 4,
+      "title": "Session 4: Custom Functions & parameters",
+      "targets": [
+        "Declare custom functions using the 'def' keyword",
+        "Pass values using parameters and arguments",
+        "Calculate dimensional metrics"
+      ],
+      "blocks": [
+        "def calculate_area(side):",
+        "return side * side",
+        "calculate_area(5)"
+      ],
+      "project": "Cube Calculator - Defining reusable mathematical functions to compute the volume and area of cubes instantly!"
+    },
+    {
+      "session_num": 5,
+      "title": "Session 5: Conditionals & Maze beetles",
+      "targets": [
+        "Understand control structures flowcharts",
+        "Use 'if' and 'else' conditional logic branches",
+        "Sense coordinate borders and color walls"
+      ],
+      "blocks": [
+        "if sprite.istouching('wall'):",
+        "else:",
+        "sprite.turnleft(90)"
+      ],
+      "project": "Beetle in Maze - Command a beetle to navigate maze corridors, turning left or reversing when hitting red boundaries!"
+    },
+    {
+      "session_num": 6,
+      "title": "Session 6: For Loops & Geometric Drawings",
+      "targets": [
+        "Understand the concept of looping mechanisms",
+        "Write 'for' loops with range limits",
+        "Draw repeating geometric shapes"
+      ],
+      "blocks": [
+        "for i in range(4):",
+        "sprite.move(100)",
+        "sprite.turnright(90)"
+      ],
+      "project": "Square Painter - Drawing perfectly symmetric squares by looping motion and angle rotation commands exactly 4 times!"
+    },
+    {
+      "session_num": 7,
+      "title": "Session 7: While Loops & loop limits",
+      "targets": [
+        "Write conditional loops using the 'while' keyword",
+        "Prevent dangerous infinite loops by updating counters",
+        "Trace coordinate boundaries"
+      ],
+      "blocks": [
+        "while x < 200:",
+        "x += 10",
+        "sprite.setx(x)"
+      ],
+      "project": "Boundary Patrol - Controlling sprites to march back and forth along boundaries using condition loops!"
+    },
+    {
+      "session_num": 8,
+      "title": "Session 8: Review & Ball Bricker Game",
+      "targets": [
+        "Review variables, loops, and conditions",
+        "Animate bouncing paddle physics",
+        "Check brick collision hits"
+      ],
+      "blocks": [
+        "if sprite.istouching('paddle'):",
+        "ball.bounce()",
+        "score += 5"
+      ],
+      "project": "Ball Bricker - Coding a classic paddle arcade game, bouncing balls to crush target brick grids!"
+    },
+    {
+      "session_num": 9,
+      "title": "Session 9: Sprite Cloning in Python",
+      "targets": [
+        "Understand cloning mechanics in Python environments",
+        "Spawn independent sprite copies",
+        "Define clone motion routines"
+      ],
+      "blocks": [
+        "sprite.create_clone()",
+        "when_clone_starts():",
+        "delete_this_clone()"
+      ],
+      "project": "Chick Spawner - Spawning a swarm of fluffy yellow chick clones falling down coordinates when space is tapped!"
+    },
+    {
+      "session_num": 10,
+      "title": "Session 10: Catching Apples with Scoreboards",
+      "targets": [
+        "Track scores and speeds with variables",
+        "Detect object-to-object collisions",
+        "Initialize starting score conditions"
+      ],
+      "blocks": [
+        "score = 0",
+        "if apple.istouching('bowl'):",
+        "score += 1",
+        "apple.reset()"
+      ],
+      "project": "Apple Catcher - Catch falling red apples in a bowl to rack up points, increasing speed as points mount!"
+    },
+    {
+      "session_num": 11,
+      "title": "Session 11: Introduction to Custom Classes & Objects",
+      "targets": [
+        "Understand object-oriented programming (OOP)",
+        "Define custom classes with initial properties",
+        "Instantiate active class objects"
+      ],
+      "blocks": [
+        "class Car:",
+        "def __init__(self, color, speed):",
+        "my_car = Car('red', 10)"
+      ],
+      "project": "Street Racing Part 1 - Defining object blueprints for speed racing cars with distinct color properties!"
+    },
+    {
+      "session_num": 12,
+      "title": "Session 12: Inter-Sprite Communications & Backdrops",
+      "targets": [
+        "Control secondary sprites from main scripts",
+        "Switch backdrop scenes dynamically",
+        "Complete final polished gaming loop"
+      ],
+      "blocks": [
+        "sprite.switchbackdrop('city')",
+        "other_sprite.trigger_action()",
+        "game_over()"
+      ],
+      "project": "Street Racing Part 2 - Complete racing game with steering opponent AI cars, border checks, and finish overlays!"
+    }
+  ]
+}

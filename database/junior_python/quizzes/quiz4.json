@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_python_quiz_4",
+  "quiz_title": "🐍 Python Challenge 4: While Loops & Bricker Physics",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary difference between a 'for' loop and a 'while' loop?",
+      "options": [
+        "While loops are faster",
+        "A for loop repeats a fixed number of times; a while loop repeats continuously as long as a check condition remains True!",
+        "For loops do not use indentation",
+        "While loops only run on mobile phones"
+      ],
+      "correct": 1,
+      "explanation": "Correct! While loops check conditions repeatedly, looping indefinitely until the check evaluates as False."
+    },
+    {
+      "id": 2,
+      "question": "What dangerous bug occurs if the while loop's condition never becomes False (e.g. while True)?",
+      "options": [
+        "The code deletes itself",
+        "An infinite loop that freezes the program or crashes the computer!",
+        "The sprite turns yellow",
+        "Nothing"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Infinite loops occur when conditions never fail, locking the processor threads indefinitely."
+    },
+    {
+      "id": 3,
+      "question": "How can you prevent an infinite loop when counting in a while loop?",
+      "options": [
+        "By turning off the screen",
+        "By incrementing the counter variable inside the loop block (e.g. x += 1 or x = x + 1)",
+        "Using a return statement",
+        "By printing 'stop'"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Updating the check counter inside the loop body eventually violates the loop header check, stopping it safely."
+    },
+    {
+      "id": 4,
+      "question": "What shorthand operator is used in Python to add 10 to a variable named 'x'?",
+      "options": [
+        "x =+ 10",
+        "x += 10",
+        "x ++ 10",
+        "x + 10"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The `+=` operator is a concise assignment shorthand for addition (x = x + 10)."
+    },
+    {
+      "id": 5,
+      "question": "In our Ball Bricker game, what Python block check detects if the ball hits the player's paddle?",
+      "options": [
+        "if ball.istouching('paddle'):",
+        "if ball == paddle:",
+        "while ball.paddle:",
+        "ball.touching()"
+      ],
+      "correct": 0,
+      "explanation": "Great! `sprite.istouching(target)` checks object-to-object collisions in PicToBlox Python."
+    },
+    {
+      "id": 6,
+      "question": "If the ball hits the ceiling in our bouncing physics script, how do we reverse its vertical speed?",
+      "options": [
+        "Set speed to 0",
+        "Multiply its vertical speed variable by -1 (speed_y = -speed_y)",
+        "Delete the ball",
+        "Switch the backdrop"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Multiplying velocity vectors by -1 flips direction signs, bouncing the ball realistically."
+    },
+    {
+      "id": 7,
+      "question": "Which block command is called to set a sprite's horizontal X-coordinate directly to a variable value?",
+      "options": [
+        "sprite.setx(value)",
+        "sprite.move(value)",
+        "sprite.sety(value)",
+        "sprite.go(value)"
+      ],
+      "correct": 0,
+      "explanation": "Spot on! `sprite.setx(x_coord)` teleports the sprite horizontally to the specified position index."
+    },
+    {
+      "id": 8,
+      "question": "If you want to continuously run game loops inside a main PyScript, which loop setup is standard?",
+      "options": [
+        "for i in range(1):",
+        "while True:",
+        "if game_active:",
+        "def game_loop():"
+      ],
+      "correct": 1,
+      "explanation": "Great! `while True:` sets up an infinite animation/physics processing tick loop for game cycles."
+    },
+    {
+      "id": 9,
+      "question": "How do you break or exit out of a 'while True' game loop programmatically?",
+      "options": [
+        "Using the 'break' keyword inside an if check",
+        "Using the 'exit' keyword",
+        "Turning off the camera",
+        "Saying 'stop'"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! The `break` statement halts the innermost active loop, escaping instantly."
+    },
+    {
+      "id": 10,
+      "question": "In our Ball Bricker scoreboard, what operator statement adds 5 points to our 'score' variable when a brick is shattered?",
+      "options": [
+        "score = 5",
+        "score += 5",
+        "score == 5",
+        "add 5 to score"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! `score += 5` increments the score variable by 5 points."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write a Python while loop that repeats as long as a counter variable 'count' is less than 5, incrementing 'count' by 1 inside.",
+      "task_hint": "while count < 5:\n    count += 1",
+      "explanation": "Outstanding! Updating the check counter inside the loop body prevents infinite loop freezes!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write a Python collision check: if the ball sprite is touching the 'brick' sprite, increment score by 10 and reverse ball speed Y variable 'speed_y'.",
+      "task_hint": "if ball.istouching('brick'):\n    score += 10\n    speed_y = -speed_y",
+      "explanation": "Perfect! This automates scoring and physical coordinate bounce logic!"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_mit_app_quiz_6",
+  "quiz_title": "📱 App Challenge 6: Shake Sensors & Game Logic",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which physical movement sensor allows your app to detect when a user is physically moving or shaking their device?",
+      "options": [
+        "Clock",
+        "AccelerometerSensor",
+        "SoundSensor",
+        "SpeechRecognizer"
+      ],
+      "correct": 1,
+      "explanation": "Correct! The AccelerometerSensor detects physical acceleration, tilts, and rapid shakes of the smartphone."
+    },
+    {
+      "id": 2,
+      "question": "What event trigger is fired when the phone is physically shaken back and forth?",
+      "options": [
+        "when AccelerometerSensor.Shaking",
+        "when AccelerometerSensor.AccelerationChanged",
+        "when AccelerometerSensor.Click",
+        "when AccelerometerSensor.Initialize"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! The 'when AccelerometerSensor.Shaking' block is designed to run scripts when physical shake is detected."
+    },
+    {
+      "id": 3,
+      "question": "How can you create a list of possible choices (like 'Rock', 'Paper', 'Scissors') in App Inventor blocks?",
+      "options": [
+        "Using 'make a list' block and snap text blocks in it",
+        "By typing them in TextBox1",
+        "Creating 3 different labels",
+        "Lists are created automatically"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! The 'make a list' block from the Lists drawer groups multiple items together."
+    },
+    {
+      "id": 4,
+      "question": "Which block is used to pick a random choice out of a defined list of items?",
+      "options": [
+        "pick a random item (list)",
+        "select list item (list, index)",
+        "length of list",
+        "add items to list"
+      ],
+      "correct": 0,
+      "explanation": "Spot on! The 'pick a random item' block takes a list as input and selects an item at random."
+    },
+    {
+      "id": 5,
+      "question": "What index number represents the very first item in an App Inventor list (remember: App Inventor is 1-indexed)?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Any number"
+      ],
+      "correct": 1,
+      "explanation": "Great! Unlike Python or JavaScript which are 0-indexed, App Inventor lists start at index 1."
+    },
+    {
+      "id": 6,
+      "question": "How do you check if the random choice picked by the AI is equal to the choice picked by the player?",
+      "options": [
+        "Use logical comparisons inside if statement (AIChoice = PlayerChoice)",
+        "set AIChoice to PlayerChoice",
+        "open another screen",
+        "call TextToSpeech"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! Using the comparison (=) math or text block inside an if condition checks match states."
+    },
+    {
+      "id": 7,
+      "question": "Which block is used to check multiple conditions consecutively (e.g. check if win, else check if lose, else tie)?",
+      "options": [
+        "if-then",
+        "if-then-else",
+        "if-then-elseif-else",
+        "for-each loop"
+      ],
+      "correct": 2,
+      "explanation": "Spot on! The 'if-then-elseif-else' block provides multiple condition branches for advanced game rules."
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of the 'close screen' block?",
+      "options": [
+        "To shut down the phone screen",
+        "To terminate the active screen and return to the previous layer",
+        "To restart the application",
+        "To delete variables"
+      ],
+      "correct": 1,
+      "explanation": "Great! 'close screen' closes the active view layer cleanly, freeing resources."
+    },
+    {
+      "id": 9,
+      "question": "What occurs if you shake the phone in our Canvas Painter app if the shake event calls 'call Canvas.Clear'?",
+      "options": [
+        "The canvas switches colors",
+        "The painted drawing is completely wiped off, like a magic sketch toy!",
+        "The app closes",
+        "A sound is played"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Shaking physical sensors triggers a wipe function, clearing coordinate arrays instantly."
+    },
+    {
+      "id": 10,
+      "question": "In a Rock-Paper-Scissors list, what is the length of a list containing ['Rock', 'Paper', 'Scissors']?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correct": 2,
+      "explanation": "Perfect! There are exactly three elements in the list, so the length is 3."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to clear Canvas1 when the AccelerometerSensor1 detects a shake.",
+      "task_hint": "when AccelerometerSensor1.Shaking -> call Canvas1.Clear()",
+      "explanation": "Outstanding! Attaching Clear to the Shaking event creates a magic sketch-and-shake experience!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to select a random item from a global list variable named 'Choices' and save it in a global variable named 'AIChoice'.",
+      "task_hint": "set global AIChoice to pick a random item(list=get global Choices)",
+      "explanation": "Perfect! Selecting random items from lists is the fundamental rule to build virtual opponent choices!"
+    }
+  ]
+}

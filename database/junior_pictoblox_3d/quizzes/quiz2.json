@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_3d_quiz_2",
+  "quiz_title": "🧊 3D Challenge 2: Physics Bounces & Bumper Gravity",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What must you do to make a 3D object fall down, bounce, and collide realistically in your game?",
+      "options": [
+        "Change its color",
+        "Enable physics property for that object",
+        "Increase its size",
+        "Hide the sprite"
+      ],
+      "correct": 1,
+      "explanation": "Correct! Enabling physics makes the computer apply gravity, mass, friction, and collisions to the object."
+    },
+    {
+      "id": 2,
+      "question": "Which force pulls all physical objects downward toward the ground coordinate in a physics simulation?",
+      "options": [
+        "Friction",
+        "Bounce",
+        "Gravity",
+        "Speed"
+      ],
+      "correct": 2,
+      "explanation": "Excellent! Gravity is the force that pulls physical objects down toward the floor."
+    },
+    {
+      "id": 3,
+      "question": "Which physical property determines how high a ball will rebound or leap when it impacts the ground?",
+      "options": [
+        "Friction",
+        "Bounce / Restitution",
+        "Mass",
+        "Size"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The bounce value (restitution) controls how much energy is retained during impacts, creating bouncy rebounds."
+    },
+    {
+      "id": 4,
+      "question": "Which physical property creates resistance and slows down an object as it slides across a flat floor?",
+      "options": [
+        "Bounce",
+        "Friction",
+        "Gravity",
+        "Velocity"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Friction acts as a braking force, slowing down sliding blocks or rolling balls."
+    },
+    {
+      "id": 5,
+      "question": "What occurs if you set an object's bounce value to '1'?",
+      "options": [
+        "It won't bounce at all",
+        "It bounces back up with 100% of its speed, preserving all its height",
+        "It disappears",
+        "It goes sideways"
+      ],
+      "correct": 1,
+      "explanation": "Correct! A bounce value of 1 represents a perfectly elastic collision, returning full height."
+    },
+    {
+      "id": 6,
+      "question": "What occurs if you set an object's bounce value to '0'?",
+      "options": [
+        "It bounces forever",
+        "It hits the ground and stops dead without rebounding at all",
+        "It falls slower",
+        "It floats upward"
+      ],
+      "correct": 1,
+      "explanation": "Great! A bounce of 0 means the object retains no kinetic rebound, landing flat."
+    },
+    {
+      "id": 7,
+      "question": "Which block is used to activate forces (push impulses) on a physical object in a specific direction?",
+      "options": [
+        "apply force X() Y() Z()",
+        "enable physics",
+        "set bounce to 0",
+        "move 10 steps"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! The 'apply force' block delivers a directional push (impulse) along X, Y, or Z axes."
+    },
+    {
+      "id": 8,
+      "question": "In a physics game, what happens when a ball lands on an inclined slope with low friction?",
+      "options": [
+        "It flies upward",
+        "It slides down the slope smoothly due to gravity and low friction",
+        "It stops moving",
+        "It rotates counter-clockwise"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Low friction allows gravity to slide the physical ball down the slope with ease."
+    },
+    {
+      "id": 9,
+      "question": "What happens if a physical sprite touches another physical sprite during simulation?",
+      "options": [
+        "They pass through each other",
+        "They trigger a collision event, stopping or bouncing off each other",
+        "The game crashes",
+        "Their colors swap"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Collisions prevent physical bodies from intersecting, causing realistic bounces and shifts."
+    },
+    {
+      "id": 10,
+      "question": "To make a flat ground block that supports other falling boxes without falling itself under gravity, what type of physics object must it be?",
+      "options": [
+        "Dynamic physical body",
+        "Static / Fixed physical body",
+        "Invisible body",
+        "Air body"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! A static physical body is solid and triggers collisions but is locked in place, never falling down."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write physics block pseudo-code to enable physics on a sprite named 'Ball1' and set its bounce property to 0.8.",
+      "task_hint": "enable physics for('Ball1') -> set bounce value of('Ball1') to 0.8",
+      "explanation": "Outstanding! Enabling physics first allows Ball1 to recognize bounce values, creating realistic rebounds."
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write physics block pseudo-code to apply an upward physical force of 500 units along the Y-axis to push a sprite named 'Rocket' upward.",
+      "task_hint": "apply force X(0) Y(500) Z(0) to('Rocket')",
+      "explanation": "Perfect! Applying positive Y force propels the physics body vertically into the air!"
+    }
+  ]
+}

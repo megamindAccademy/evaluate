@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_3d_quiz_5",
+  "quiz_title": "🧊 3D Challenge 5: Duck Aiming Vectors & Bullet Spawns",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In our 3D First-Person Duck Hunter, what does first-person perspective mean?",
+      "options": [
+        "Viewing the character from high above",
+        "Viewing the game world directly through the player's own virtual eyes",
+        "Looking at the screen sideways",
+        "A text description only"
+      ],
+      "correct": 1,
+      "explanation": "Correct! First-person view locks the camera to the player's coordinate eyes, aiming outward."
+    },
+    {
+      "id": 2,
+      "question": "Which 3D coordinate represents the projectile trajectory vector to fire a bullet straight forward in depth?",
+      "options": [
+        "Adding force along horizontal X axis",
+        "Adding velocity along depth Z axis",
+        "Adding size to Y axis",
+        "Keeping velocity at 0"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Pushing bullets along the depth Z axis shoots them forward into the virtual horizon."
+    },
+    {
+      "id": 3,
+      "question": "Which mouse event trigger is used to spawn and fire a bullet in our 3D shooter?",
+      "options": [
+        "when mouse moved",
+        "when mouse clicked (mouse down)",
+        "when mouse hover",
+        "when screen closes"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Clicking the mouse (or tapping screen) triggers the shooting script, launching projectile clones."
+    },
+    {
+      "id": 4,
+      "question": "What 3D shape is ideal for a bullet projectile in a duck hunting game?",
+      "options": [
+        "Box shape",
+        "Sphere / Ball shape",
+        "Cylinder shape",
+        "Text shape"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Spheres represent bullet balls perfectly in 3D physics."
+    },
+    {
+      "id": 5,
+      "question": "What block is used to spawn a clone of a bullet at the player's camera position?",
+      "options": [
+        "create clone of (bullet)",
+        "move camera 10 steps",
+        "set scale to 0",
+        "pen down"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! Cloning is the core mechanic to spawn individual flying bullets on every mouse click."
+    },
+    {
+      "id": 6,
+      "question": "How do you make the camera look around in 3D space when the player moves the mouse?",
+      "options": [
+        "Change bullet color",
+        "Map mouse movement coordinates (X, Y) to camera rotations",
+        "Turn off the screen",
+        "Set camera scale to 2"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Tracking mouse motion and pivoting camera angle accordingly lets players look around the 3D world interactively!"
+    },
+    {
+      "id": 7,
+      "question": "What event block triggers scripts in other sprites immediately when a target duck is hit by a bullet?",
+      "options": [
+        "when green flag clicked",
+        "broadcast (message)",
+        "wait 1 seconds",
+        "stop all"
+      ],
+      "correct": 1,
+      "explanation": "Great! Broadcasting sends a signal across all running scripts, alerting sprites of the hit event."
+    },
+    {
+      "id": 8,
+      "question": "When a target duck sprite receives a 'hit' broadcast signal, what action should it perform to animate death?",
+      "options": [
+        "Grow larger and spin",
+        "Trigger physics gravity or downward Y velocity to make it fall down and disappear",
+        "Teleport to the Sun",
+        "Say 'Hello'"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Pulling the dead duck down along the Y-axis simulates gravitational falling realisticly."
+    },
+    {
+      "id": 9,
+      "question": "How can you check if a bullet has collided with or touched a flying duck in 3D space?",
+      "options": [
+        "Using collision sensing or touching sprite blocks",
+        "Checking screen width",
+        "Tuning light intensity",
+        "Listening to sounds"
+      ],
+      "correct": 0,
+      "explanation": "Spot on! 'touching (sprite)' or physics collision events identify impacts."
+    },
+    {
+      "id": 10,
+      "question": "Where should a bullet be spawned initially when the player clicks to fire?",
+      "options": [
+        "At coordinate (0, 0, -1000)",
+        "At the exact current coordinate position of the Player Camera",
+        "Behind the Sun",
+        "At random coordinates"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Spawning the bullet at the camera coordinate makes it emerge directly from the player's weapon viewpoint."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to spawn a clone of 'Bullet' at the Camera's current coordinates when the mouse is down (clicked).",
+      "task_hint": "when mouse down? -> create clone of 'Bullet' -> set 3D position of clone to camera position",
+      "explanation": "Outstanding! Placing spawned bullet clones at the camera position is the core rule of first-person shooting games!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to slide a target duck clone down by changing its Y coordinate by -15 per tick when it receives a 'duck_hit' broadcast.",
+      "task_hint": "when I receive 'duck_hit' -> repeat 20 (change 3D position Y by -15) -> delete this clone",
+      "explanation": "Perfect! This creates a falling gravity death animation, deleting the target when complete!"
+    }
+  ]
+}

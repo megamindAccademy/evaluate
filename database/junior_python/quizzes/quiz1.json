@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_python_quiz_1",
+  "quiz_title": "🐍 Python Challenge 1: Code Syntax & First Scripts",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the key difference between block-based coding (like Scratch) and text-based coding (like Python)?",
+      "options": [
+        "Blocks use colors; text uses no colors",
+        "Instead of dragging puzzle pieces, you type instructions using lines of written text and syntax rules!",
+        "Blocks are for computers; text is for phones",
+        "There is no difference"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Text coding requires typing logic out using precise character syntax rules instead of snapping blocks."
+    },
+    {
+      "id": 2,
+      "question": "Which text-based programming language is highly popular, easy to read, and used by top engineering companies?",
+      "options": [
+        "HTML",
+        "Python",
+        "CSS",
+        "C++"
+      ],
+      "correct": 1,
+      "explanation": "Correct! Python is famous for its simple, clean syntax and immense power in AI and backend systems."
+    },
+    {
+      "id": 3,
+      "question": "What is the correct Python statement to display the message 'Hello Megaminds' in the output console?",
+      "options": [
+        "say('Hello Megaminds')",
+        "print('Hello Megaminds')",
+        "display('Hello Megaminds')",
+        "write Hello Megaminds"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The `print()` function is Python's standard output method to print messages onto the console screen."
+    },
+    {
+      "id": 4,
+      "question": "In Python code, what characters must you wrap around literal text strings (like words) to avoid syntax errors?",
+      "options": [
+        "Parentheses () only",
+        "Quotation marks (either single '' or double \"\")",
+        "Square brackets []",
+        "Curly braces {}"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Standard text values (strings) must be encased in single or double quotes so the interpreter knows they are literal words."
+    },
+    {
+      "id": 5,
+      "question": "What will happen if you write print('Hello) without the closing quotation mark in your Python script?",
+      "options": [
+        "It prints 'Hello' anyway",
+        "It triggers a SyntaxError, and the program halts",
+        "It plays a chime sound",
+        "It turns the text green"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Unbalanced quotation marks trigger syntax parser errors, halting execution immediately."
+    },
+    {
+      "id": 6,
+      "question": "What is a 'built-in function' in Python programming?",
+      "options": [
+        "A function that is broken",
+        "A pre-written function already provided by Python that we can call to do work instantly (like print)",
+        "A function that paints buildings",
+        "A hidden secret block"
+      ],
+      "correct": 1,
+      "explanation": "Great! Built-in functions (like print, input, len) are ready-to-use tools built directly into the language compiler."
+    },
+    {
+      "id": 7,
+      "question": "In PicToBlox Python scripting, what built-in command is called to advance Tobi the sprite 10 steps forward?",
+      "options": [
+        "tobi.step(10)",
+        "sprite.move(10)",
+        "sprite.go(10)",
+        "walk(10)"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The `sprite.move(steps)` method commands the active sprite forward along its facing angle."
+    },
+    {
+      "id": 8,
+      "question": "Which command switches Tobi the sprite to his next visual character pose to animate walking?",
+      "options": [
+        "sprite.nextcostume()",
+        "sprite.wait(1)",
+        "sprite.scale(100)",
+        "sprite.switch_costume()"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! `sprite.nextcostume()` cycles through the sprite's loaded costume frames, creating animation loops."
+    },
+    {
+      "id": 9,
+      "question": "What command halts or delays your Python script's execution for exactly half a second (0.5 seconds)?",
+      "options": [
+        "sprite.wait(0.5)",
+        "time.sleep(500)",
+        "sprite.stop(0.5)",
+        "pause(0.5)"
+      ],
+      "correct": 0,
+      "explanation": "Spot on! The `sprite.wait(seconds)` function pauses the script execution for the specified floating-point duration."
+    },
+    {
+      "id": 10,
+      "question": "Why do we add wait delays between nextcostume calls when animating a walking sprite?",
+      "options": [
+        "To save computer electricity",
+        "Without wait delays, the computer cycles costumes too rapidly for human eyes to track!",
+        "To change the background",
+        "To add points"
+      ],
+      "correct": 1,
+      "explanation": "Great! Adding minor delays (like 0.1s or 0.2s) paces the frame cycles, yielding smooth walking animations."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write a Python print statement to display the greeting message: 'Welcome to Python'",
+      "task_hint": "print('Welcome to Python')",
+      "explanation": "Outstanding! Using print wraps the string argument and outputs it to the console screen!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write a Python script calling PicToBlox methods to make Tobi walk by moving 50 steps and switching to his next costume.",
+      "task_hint": "sprite.move(50)\nsprite.nextcostume()",
+      "explanation": "Perfect! Sequencing motion and costume calls creates active locomotion scripts!"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_python_quiz_2",
+  "quiz_title": "🐍 Python Challenge 2: Variables, Arithmetic & Functions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a Variable in Python programming?",
+      "options": [
+        "A type of loop structure",
+        "A named container in the computer's memory used to store values that can be referenced and changed!",
+        "A sound recorder",
+        "An image file"
+      ],
+      "correct": 1,
+      "explanation": "Correct! Variables act as data containers, binding values to named keys in script memory."
+    },
+    {
+      "id": 2,
+      "question": "Which of these is the correct Python syntax to assign the number 10 to a variable named 'score'?",
+      "options": [
+        "10 = score",
+        "score = 10",
+        "score == 10",
+        "set score to 10"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The single equals sign (=) is Python's assignment operator, storing the value on the right into the name on the left."
+    },
+    {
+      "id": 3,
+      "question": "Which data type in Python represents literal text words wrapped in quotes (e.g. 'Tobi')?",
+      "options": [
+        "Integer (int)",
+        "Floating-point (float)",
+        "String (str)",
+        "Boolean (bool)"
+      ],
+      "correct": 2,
+      "explanation": "Perfect! String (str) data types represent character lines wrapped in quotation cards."
+    },
+    {
+      "id": 4,
+      "question": "Which data type represents whole round numbers without decimals (e.g. 5 or -100)?",
+      "options": [
+        "String",
+        "Integer (int)",
+        "Float",
+        "List"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Integers (int) represent whole positive or negative numbers without fractions."
+    },
+    {
+      "id": 5,
+      "question": "Which Python mathematical operator is used to calculate the sum (addition) of two variables?",
+      "options": [
+        "*",
+        "+",
+        "-",
+        "/"
+      ],
+      "correct": 1,
+      "explanation": "Great! The plus sign (+) is the addition operator."
+    },
+    {
+      "id": 6,
+      "question": "What symbol represents the multiplication operator in Python code?",
+      "options": [
+        "x",
+        "*",
+        "+",
+        "/"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The asterisk (*) is Python's multiplication operator (e.g. 5 * 2 calculates 10)."
+    },
+    {
+      "id": 7,
+      "question": "How can you declare a custom, reusable function in Python?",
+      "options": [
+        "Using the 'def' keyword followed by the function name and parentheses",
+        "Using the 'function' keyword",
+        "Typing def = function",
+        "Functions are created automatically"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! The `def` keyword declares a custom function (e.g. `def my_func():`)."
+    },
+    {
+      "id": 8,
+      "question": "What are parameters in a custom Python function definition?",
+      "options": [
+        "The output answers",
+        "Variable names listed in the function definition that accept input arguments when the function is called",
+        "Loop counters",
+        "Errors in syntax"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Parameters act as local variable placeholders within the function definition, receiving passed arguments."
+    },
+    {
+      "id": 9,
+      "question": "What is the return value of a function calling 'return side * side' if the parameter side is passed as 5?",
+      "options": [
+        "5",
+        "10",
+        "25",
+        "50"
+      ],
+      "correct": 2,
+      "explanation": "Great! 5 * 5 calculates 25, which the return statement passes back to the caller."
+    },
+    {
+      "id": 10,
+      "question": "How do you call a function named 'say_hello' that accepts no arguments?",
+      "options": [
+        "say_hello",
+        "say_hello()",
+        "call say_hello",
+        "run say_hello"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Parentheses `()` are the execution operator, triggering the function logic."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write Python code to define a variable named 'points' and set its value to 100.",
+      "task_hint": "points = 100",
+      "explanation": "Outstanding! Storing numbers into variable names is the base rule of game scoreboards!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write a Python custom function definition named 'double_num' that accepts one parameter 'x' and returns its value multiplied by 2.",
+      "task_hint": "def double_num(x):\n    return x * 2",
+      "explanation": "Perfect! Reusable functions streamline complex mathematical algorithms!"
+    }
+  ]
+}

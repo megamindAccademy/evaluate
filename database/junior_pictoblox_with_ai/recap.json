@@ -1,0 +1,187 @@
+{
+  "course_title": "🧠 الذكاء الاصطناعي للصغار - PicToBlox with AI",
+  "recap_subtitle": "Welcome, future AI scientists! Let's review the magical face filters, machine learning classifiers, voice recognizers, and hand-pose trackers we coded to teach computers how to see, hear, and think. Here is our 12-session summary:",
+  "sessions": [
+    {
+      "session_num": 1,
+      "title": "Session 1: Face Detection & AI Concept",
+      "targets": [
+        "Explore what Artificial Intelligence means",
+        "Use the Face Detection extension in PicToBlox",
+        "Recognize face coordinate centers using camera feeds"
+      ],
+      "blocks": [
+        "turn on camera on stage",
+        "analyze image from camera",
+        "get face coordinate X / Y"
+      ],
+      "project": "Face Scanner! Teaching the computer to detect your face and snap coordinate boxes around it."
+    },
+    {
+      "session_num": 2,
+      "title": "Session 2: Designing a Face Filter App",
+      "targets": [
+        "Set sprite coordinates to match face positions",
+        "Handle scaling based on face width",
+        "Revise broadcast signals on detection"
+      ],
+      "blocks": [
+        "go to X(get face X) Y(get face Y)",
+        "set size to (face width)",
+        "broadcast face_detected"
+      ],
+      "project": "Funny Face Filter - Make custom mustache or wizard hat sprites follow your nose or head coordinates!"
+    },
+    {
+      "session_num": 3,
+      "title": "Session 3: Face Landmarks & Expressions",
+      "targets": [
+        "Identify face landmarks points (eyes, nose, mouth)",
+        "Recognize happiness, sadness, or surprise emotions",
+        "Code expression logic checkers"
+      ],
+      "blocks": [
+        "is expression (happy)?",
+        "get landmark (nose) coordinate",
+        "say expression"
+      ],
+      "project": "Emotion Reader - A smart scanner that says 'Cheer up!' if you frown, and throws confetti if you smile!"
+    },
+    {
+      "session_num": 4,
+      "title": "Session 4: Machine Learning & Object Scanners",
+      "targets": [
+        "Differentiate pre-programmed AI from Machine Learning",
+        "Detect everyday items using cameras",
+        "Count scanned items on screen"
+      ],
+      "blocks": [
+        "analyze image for object",
+        "get count of detected objects",
+        "get object name"
+      ],
+      "project": "Object Scanner - Scan items on your desk (like cups, keys, or pencils) and hear the computer name them!"
+    },
+    {
+      "session_num": 5,
+      "title": "Session 5: ML Image Classifiers training",
+      "targets": [
+        "Understand the Machine Learning Environment",
+        "Train custom images models with multiple classes",
+        "Classify elephants, giraffes, or face masks"
+      ],
+      "blocks": [
+        "load image classifier model",
+        "identify class from camera",
+        "get prediction confidence"
+      ],
+      "project": "Mask Checker - Train a model with photos to recognize and warn if a person is wearing a medical mask or not!"
+    },
+    {
+      "session_num": 6,
+      "title": "Session 6: ML Custom Object Detection models",
+      "targets": [
+        "Draw bounding labels boxes on custom items",
+        "Train object recognizers with sample photos",
+        "Display bounding coordinates"
+      ],
+      "blocks": [
+        "load object detection model",
+        "get detected object X / Y coordinate",
+        "set size to width"
+      ],
+      "project": "Stationery Tracker - Training your own ML box to detect and circle bottles or pens on your desk!"
+    },
+    {
+      "session_num": 7,
+      "title": "Session 7: ML Audio Classification & Voice Maze",
+      "targets": [
+        "Train acoustic models with multiple sound samples",
+        "Code direction commands using voice tags",
+        "Solve maze games using vocal triggers"
+      ],
+      "blocks": [
+        "load audio classification model",
+        "when heard (word) trigger",
+        "change X / Y by speed"
+      ],
+      "project": "Voice-Controlled Maze - Steer a beetle through a complex maze using vocal commands: Up, Down, Left, and Right!"
+    },
+    {
+      "session_num": 8,
+      "title": "Session 8: ML Text Classification & NLP Smart Lights",
+      "targets": [
+        "Explore Natural Language Processing (NLP)",
+        "Train text models with word intents",
+        "Control output scripts using typed phrases"
+      ],
+      "blocks": [
+        "load text classification model",
+        "get classified intent of (phrase)",
+        "if intent is turn_on"
+      ],
+      "project": "Smart Lamp NLP - Turn virtual room lamps on or off by typing organic phrases like 'It is dark here' or 'Shut it down'!"
+    },
+    {
+      "session_num": 9,
+      "title": "Session 9: Body Pose Detection & Clown Makers",
+      "targets": [
+        "Recognize human body coordinate skeletons",
+        "Develop body part counters",
+        "Animate props on hand/shoulder/head positions"
+      ],
+      "blocks": [
+        "analyze body pose",
+        "get skeleton coordinate (right shoulder)",
+        "draw skeletal segments"
+      ],
+      "project": "Clown Suit Maker - Place funny virtual hats, bow ties, and clown noses onto active skeletal joints!"
+    },
+    {
+      "session_num": 10,
+      "title": "Session 10: Hand Pose Trackers & Finger Mazes",
+      "targets": [
+        "Track 21 individual hand landmarks",
+        "Connect index finger coordinates to mouse movements",
+        "Solve mazes using finger coordinates"
+      ],
+      "blocks": [
+        "analyze hand pose",
+        "get hand landmark (index finger tip)",
+        "go to X(finger X) Y(finger Y)"
+      ],
+      "project": "Air Finger Maze - Guide characters through maze corridors by pointing your finger in front of the webcam!"
+    },
+    {
+      "session_num": 11,
+      "title": "Session 11: Rocketship Space Hand Pilots",
+      "targets": [
+        "Track skeletal coordinates speed vectors",
+        "Trigger laser blasts when hands touch",
+        "Map vertical hand height to rocket fly height"
+      ],
+      "blocks": [
+        "get hand Y coordinate",
+        "if distance < 50 trigger laser",
+        "change background speed"
+      ],
+      "project": "Hand-Controlled Rocket - Steer a spaceship up and down in deep space by waving your palm, firing lasers on hand claps!"
+    },
+    {
+      "session_num": 12,
+      "title": "Session 12: Air Painting Canvas and Gestures",
+      "targets": [
+        "Read coordinates of active fingertip joints",
+        "Toggle virtual pens on pinch triggers",
+        "Draw continuous lines in empty air"
+      ],
+      "blocks": [
+        "is hand pinching?",
+        "pen down",
+        "pen up",
+        "clear canvas"
+      ],
+      "project": "Air Painter - Write and draw glowing lines in empty air by pinching your fingers in front of your computer camera!"
+    }
+  ]
+}

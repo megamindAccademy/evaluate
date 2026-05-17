@@ -1,0 +1,189 @@
+{
+  "course_title": "📱 تطبيقات الموبايل للصغار - MIT Mobile App",
+  "recap_subtitle": "Hello, creative mobile app developers! Let's explore the awesome layouts, buttons, and sensors we used to build real Android applications on our phones. Here is a recap of our 12 amazing sessions:",
+  "sessions": [
+    {
+      "session_num": 1,
+      "title": "Session 1: Getting Started with App Inventor",
+      "targets": [
+        "Explore MIT App Inventor interface",
+        "Understand Designer vs Blocks view",
+        "Place a button on the virtual viewer screen"
+      ],
+      "blocks": [
+        "Button.Click event",
+        "Designer components library",
+        "Viewer screen canvas"
+      ],
+      "project": "Designing our first simple screen with interactive buttons!"
+    },
+    {
+      "session_num": 2,
+      "title": "Session 2: The 'Say It' Text-to-Speech App",
+      "targets": [
+        "Handle Textbox character inputs",
+        "Use Text-to-Speech component",
+        "Connect inputs to speech sound triggers"
+      ],
+      "blocks": [
+        "call TextToSpeech.Speak",
+        "TextBox.Text values",
+        "Button.Click triggers"
+      ],
+      "project": "Say It! - An app that reads aloud whatever secret message you type into the textbox!"
+    },
+    {
+      "session_num": 3,
+      "title": "Session 3: Simple Math Calculator App",
+      "targets": [
+        "Understand mathematical addition (+) and subtraction (-)",
+        "Use 2 text boxes for number inputs",
+        "Change label display values"
+      ],
+      "blocks": [
+        "set Label.Text to",
+        "Math Addition (+)",
+        "Math Subtraction (-)",
+        "TextBox1.Text"
+      ],
+      "project": "Simple Calculator - Enter two numbers, press plus or minus, and see the correct answer instantly!"
+    },
+    {
+      "session_num": 4,
+      "title": "Session 4: My Favorite Animal Switcher",
+      "targets": [
+        "Import graphic photos into assets",
+        "Trigger picture swaps dynamically",
+        "Toggle labels text descriptive fields"
+      ],
+      "blocks": [
+        "set Image.Picture to",
+        "String filename.png",
+        "Button clicked events"
+      ],
+      "project": "My Favorite Animal - Press animal buttons to switch pictures to lions, cats, or panda bears!"
+    },
+    {
+      "session_num": 5,
+      "title": "Session 5: Let's Paint Canvas Drawing App",
+      "targets": [
+        "Use the Canvas component for coordinate drawing",
+        "Change line widths and paint brush colors",
+        "Understand canvas drag behaviors"
+      ],
+      "blocks": [
+        "when Canvas.Dragged",
+        "call Canvas.DrawLine",
+        "set Canvas.PaintColor to"
+      ],
+      "project": "Let's Paint! - Draw lines on your phone screen, pick your favorite brush colors, and sketch master arts!"
+    },
+    {
+      "session_num": 6,
+      "title": "Session 6: Arranging Layouts & Alignments",
+      "targets": [
+        "Use HorizontalArrangement container components",
+        "Organize buttons side by side",
+        "Understand Vertical alignments"
+      ],
+      "blocks": [
+        "HorizontalArrangement properties",
+        "Width and Height fill parent",
+        "Component nesting"
+      ],
+      "project": "Polishing the Painter app with a horizontal palette layout at the bottom!"
+    },
+    {
+      "session_num": 7,
+      "title": "Session 7: The Math Quiz App (Setup Screens)",
+      "targets": [
+        "Create multi-screen applications",
+        "Set up Screen1, Screen2, and Screen3 workspaces",
+        "Use navigation buttons"
+      ],
+      "blocks": [
+        "open another screen (screenName)",
+        "Designer add screen button",
+        "Screen initialization"
+      ],
+      "project": "Math Quiz Screen Setup - Creating multiple interactive screens for starting and loading quiz questions!"
+    },
+    {
+      "session_num": 8,
+      "title": "Session 8: Passing Data Between Screens",
+      "targets": [
+        "Carry scores or statistics between screens",
+        "Handle math quiz score variables",
+        "Check player answers"
+      ],
+      "blocks": [
+        "open another screen with start value",
+        "get start value",
+        "if-then matching checks"
+      ],
+      "project": "Math Quiz Game Rules - Keeping score of player answers and displaying a winning result page at the end!"
+    },
+    {
+      "session_num": 9,
+      "title": "Session 9: Spell My Name Aloud App",
+      "targets": [
+        "Parse letters of a typed name input",
+        "Understand text strings indexes",
+        "Trigger timed voice outputs"
+      ],
+      "blocks": [
+        "Text split/segment blocks",
+        "Text length calculator",
+        "Iterative speaker voice"
+      ],
+      "project": "Spell My Name! - Type in your name and hear the phone spell it out loud, letter by letter!"
+    },
+    {
+      "session_num": 10,
+      "title": "Session 10: Pop the Balloon Game!",
+      "targets": [
+        "Understand ImageSprite components on canvas",
+        "Use Clock timer components to randomize positions",
+        "Increase score count on sprites clicks"
+      ],
+      "blocks": [
+        "when ImageSprite.Touched",
+        "set ImageSprite.X / Y to",
+        "when Clock.Timer",
+        "Math pick random"
+      ],
+      "project": "Pop the Balloon! - Pop the balloon before the timer ticks and randomizes its position to gain high scores!"
+    },
+    {
+      "session_num": 11,
+      "title": "Session 11: Accelerometer Shaking Sensors",
+      "targets": [
+        "Use the Accelerometer physical movement sensor",
+        "Recognize shaking events",
+        "Reset game configurations with motion"
+      ],
+      "blocks": [
+        "when AccelerometerSensor.Shaking",
+        "set Canvas.BackgroundImage",
+        "call Canvas.Clear"
+      ],
+      "project": "Magic Shake Eraser - Shake your Android phone physically in your hand to clear and erase canvas drawings!"
+    },
+    {
+      "session_num": 12,
+      "title": "Session 12: Rock, Paper, Scissors Game",
+      "targets": [
+        "Create list variables",
+        "Make random selection from lists for virtual AI player",
+        "Check win, lose, and tie states"
+      ],
+      "blocks": [
+        "pick a random item (list)",
+        "make a list",
+        "if-then-else comparison",
+        "set Label.Text"
+      ],
+      "project": "Rock-Paper-Scissors! - Tap buttons to play against the computer AI and see who gets crowned the absolute champion!"
+    }
+  ]
+}

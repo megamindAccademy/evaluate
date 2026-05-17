@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_with_ai_quiz_6",
+  "quiz_title": "🧠 AI Challenge 6: Rocket Controls & Air Painters",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How can you pilot a deep-space Rocketship game using hand movements?",
+      "options": [
+        "By mapping the vertical Y height of your palm to the rocket's Y coordinate in a loop",
+        "By clicking the keyboard arrows",
+        "By turning off the light",
+        "By deleting clones"
+      ],
+      "correct": 0,
+      "explanation": "Correct! Mapping palm height coordinate to spaceship coordinate lets players steer by waving hands vertically."
+    },
+    {
+      "id": 2,
+      "question": "Which gesture can trigger laser weapon fires in a hand-controlled space simulator?",
+      "options": [
+        "A rapid hand clap (sensing palms touching or distance < 50 pixels)",
+        "Closing your eyes",
+        "Turning around",
+        "Low friction values"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! Measuring relative palm coordinate distances triggers action events (like weapons) on proximity benchmarks."
+    },
+    {
+      "id": 3,
+      "question": "What is Air Painting?",
+      "options": [
+        "Painting the walls of your room",
+        "Drawing continuous glowing lines on a virtual stage canvas by waving your fingers in the air in front of a webcam!",
+        "A 3D city car race",
+        "Text messaging NLP"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Air Painting uses hand tracking coordinates to trail drawings onto stage canvases without paintbrushes."
+    },
+    {
+      "id": 4,
+      "question": "Which finger joint coordinates are mapped to draw paths on the canvas in an Air Painter?",
+      "options": [
+        "Wrist coordinates",
+        "Active Index Finger Tip coordinates",
+        "Knee joint",
+        "Point light"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The index fingertip coordinates act as the virtual crayon tip on the canvas grid."
+    },
+    {
+      "id": 5,
+      "question": "How do you start drawing in Air Painter (pen down) versus moving without drawing (pen up)?",
+      "options": [
+        "Use pinch gestures: pen down when fingers pinch, pen up when fingers separate!",
+        "By shaking the phone",
+        "By asking a text question",
+        "By playing a victory wave"
+      ],
+      "correct": 0,
+      "explanation": "Great! Pinch gestural checks toggle the virtual pen down and up, creating authentic touchless drawing states."
+    },
+    {
+      "id": 6,
+      "question": "Which block from the Pen extension draws paths behind a moving sprite?",
+      "options": [
+        "pen down",
+        "pen up",
+        "erase all",
+        "set pen size to 5"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! The 'pen down' block tells the sprite to drag its virtual ink across coordinates."
+    },
+    {
+      "id": 7,
+      "question": "Which block stops a sprite from drawing lines as it moves?",
+      "options": [
+        "pen down",
+        "pen up",
+        "erase all",
+        "set pen color to blue"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The 'pen up' block lifts the virtual marker off the canvas, stopping paths."
+    },
+    {
+      "id": 8,
+      "question": "What block wipes out the air-drawn doodles on your canvas, resetting your screen?",
+      "options": [
+        "erase all / clear",
+        "pen up",
+        "hide sprite",
+        "stop all"
+      ],
+      "correct": 0,
+      "explanation": "Great! 'erase all' wipes the drawing layer clean instantly."
+    },
+    {
+      "id": 9,
+      "question": "What happens to the rocket speed variable in our game if we wave our hand extremely rapidly upward?",
+      "options": [
+        "It remains 0",
+        "We can increase speed by calculating height changes between ticks, creating kinetic steering!",
+        "The rocket crashes",
+        "Friction drops to 0"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Dynamic coordinate shifts map to game velocity variables, elevating speeds proportional to motion."
+    },
+    {
+      "id": 10,
+      "question": "Why do we combine hand tracking coordinates with standard block loops?",
+      "options": [
+        "To shut down the script",
+        "To continually update coordinates, ensuring smooth, real-time responsive cursor actions",
+        "To change backdrops",
+        "To count the planets"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Continuous sensing loops track movements frame-by-frame, keeping interactions fluid."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to paint a trail behind your finger if pinch is detected: if hand pinching then pen down, else pen up.",
+      "task_hint": "if is hand pinching? then pen down else pen up",
+      "explanation": "Outstanding! Toggling pen states using pinch checks is the fundamental rule to paint in mid-air!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to erase all drawings and reset a scoreboard variable named 'Doodles' to 0 when space is pressed.",
+      "task_hint": "when space key pressed -> erase all -> set Doodles to 0",
+      "explanation": "Perfect! This simple script binds canvas wipes and value clears to quick event keytriggers!"
+    }
+  ]
+}

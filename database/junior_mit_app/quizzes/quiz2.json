@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_mit_app_quiz_2",
+  "quiz_title": "📱 App Challenge 2: Calculator & Animal Sounds",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What component is used to allow players to type in and input their own custom text or numbers?",
+      "options": [
+        "Label",
+        "TextBox",
+        "Button",
+        "Image"
+      ],
+      "correct": 1,
+      "explanation": "Correct! TextBox components let users type letters or numbers into the running app."
+    },
+    {
+      "id": 2,
+      "question": "In a calculator app, which block is used to add the numerical values of TextBox1 and TextBox2 together?",
+      "options": [
+        "TextBox1.Text + TextBox2.Text (using Math + block)",
+        "join TextBox1 and TextBox2",
+        "set TextBox1 to TextBox2",
+        "clear TextBox1"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! We use the green Math (+) addition block and pass in the text values of both input boxes."
+    },
+    {
+      "id": 3,
+      "question": "What does a green Math minus (-) block do?",
+      "options": [
+        "Combines two words together",
+        "Subtracts the second number from the first number",
+        "Clears the screen",
+        "Plays a warning sound"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The Math (-) block computes the subtraction difference between two numbers."
+    },
+    {
+      "id": 4,
+      "question": "Which property of a Label component must you modify to change the words displayed on screen?",
+      "options": [
+        "Label.Width",
+        "Label.Text",
+        "Label.BackgroundColor",
+        "Label.Visible"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Changing the Label.Text property updates the printed text visible to players."
+    },
+    {
+      "id": 5,
+      "question": "How do you place multiple buttons side-by-side (horizontally) in MIT App Inventor?",
+      "options": [
+        "Drag them on top of each other",
+        "Place them inside a HorizontalArrangement layout component",
+        "Change button height to 0",
+        "Shake the phone"
+      ],
+      "correct": 1,
+      "explanation": "Correct! Layout arrangements like HorizontalArrangement organize components next to each other neatly."
+    },
+    {
+      "id": 6,
+      "question": "Which component is used to display animal pictures or graphic assets on your application screen?",
+      "options": [
+        "Canvas",
+        "Image",
+        "Label",
+        "Button"
+      ],
+      "correct": 1,
+      "explanation": "Great! The Image component is designed to display static or dynamic pictures by setting its Picture property."
+    },
+    {
+      "id": 7,
+      "question": "What value must you set the Image.Picture property to if you want to display an uploaded file named 'cat.png'?",
+      "options": [
+        "TextBox1.Text",
+        "cat.png",
+        "TextToSpeech1",
+        "1"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Setting the Picture property to the exact string filename of an uploaded asset swaps the image instantly."
+    },
+    {
+      "id": 8,
+      "question": "Which math block checks if two numbers are completely equal to each other?",
+      "options": [
+        "Math (=) comparison block",
+        "Math (+) block",
+        "join block",
+        "Text length block"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! The Math (=) comparison block checks if values are mathematically identical, returning true or false."
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of the 'join' block found in the Text blocks drawer?",
+      "options": [
+        "To connect to the internet",
+        "To glue or concatenate two or more text strings together into one long sentence",
+        "To delete text lines",
+        "To add numbers"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The 'join' block concatenates multiple string inputs together (e.g. 'Hello ' and 'Tobi' becomes 'Hello Tobi')."
+    },
+    {
+      "id": 10,
+      "question": "If you want to clear the typed text from TextBox1, what value should you set TextBox1.Text to?",
+      "options": [
+        "An empty text block \"\"",
+        "0",
+        "clear",
+        "TextBox1.Width"
+      ],
+      "correct": 0,
+      "explanation": "Great! Setting a textbox text to an empty string \"\" clears it out, preparing it for fresh inputs."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to set the text of LabelResult to the sum (+) of TextBox1.Text and TextBox2.Text when ButtonAdd is clicked.",
+      "task_hint": "when ButtonAdd.Click -> set LabelResult.Text to (TextBox1.Text + TextBox2.Text)",
+      "explanation": "Perfect! Setting the LabelResult text to the sum of the inputs displays the calculation result clearly on the screen!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to switch Image1's displayed picture to 'panda.png' when ButtonPanda is clicked.",
+      "task_hint": "when ButtonPanda.Click -> set Image1.Picture to 'panda.png'",
+      "explanation": "Outstanding! Toggling the Image.Picture property dynamically changes the graphical asset shown on the interface."
+    }
+  ]
+}

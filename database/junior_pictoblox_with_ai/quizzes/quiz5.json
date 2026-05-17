@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_with_ai_quiz_5",
+  "quiz_title": "🧠 AI Challenge 5: Body Pose Counters & Hand Trackers",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the purpose of the Pose Classifier / Human Body Detection extension?",
+      "options": [
+        "To paint background tracks",
+        "To detect human skeletons, joint coordinates, and track body postures using cameras",
+        "To play piano sounds",
+        "To steer a 3D city car"
+      ],
+      "correct": 1,
+      "explanation": "Correct! Body detection tracks human joint coordinates (head, shoulders, elbows, knees) skeleton configurations."
+    },
+    {
+      "id": 2,
+      "question": "Which body joint coordinate represents the center of a player's head?",
+      "options": [
+        "Right Shoulder",
+        "Nose / Forehead coordinate",
+        "Left Knee",
+        "Ankle"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The Nose landmark represents the center of the head, ideal for placing funny virtual hats."
+    },
+    {
+      "id": 3,
+      "question": "How can you build a 'Body-Part-Counter' (like counting physical push-ups or squats)?",
+      "options": [
+        "By checking if joint Y-coordinates cycle below and above a threshold boundary in a loop",
+        "By scaling sprites to 200%",
+        "By changing the backdrop color",
+        "By playing a victory chime"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! Tracking Y coordinate peaks of joint coordinates automates physical exercise counters."
+    },
+    {
+      "id": 4,
+      "question": "How does Hand Pose detection differ from general body posture tracking?",
+      "options": [
+        "It is slower",
+        "It focuses specifically on tracking hands, palms, and 21 detailed finger coordinate joints!",
+        "It doesn't use cameras",
+        "It deletes clones"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Hand pose trackers map 21 detailed landmarks on palms and fingers for precise gesture inputs."
+    },
+    {
+      "id": 5,
+      "question": "Which finger coordinate represents the absolute top tip of your pointing finger?",
+      "options": [
+        "Wrist landmark",
+        "Index Finger Tip landmark",
+        "Thumb base",
+        "Pinky joint"
+      ],
+      "correct": 1,
+      "explanation": "Great! The index finger tip landmark tracks pointing gestures, ideal for hover coordinates."
+    },
+    {
+      "id": 6,
+      "question": "If you want a pointer sprite to follow your hand tip, what block coordinates should you set inside a forever loop?",
+      "options": [
+        "go to X(get hand X) Y(get hand Y)",
+        "move 10 steps",
+        "turn clockwise 90 degrees",
+        "pen up"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! Moving the sprite to hand X and Y coordinates binds it to your finger movement on the video feed."
+    },
+    {
+      "id": 7,
+      "question": "How can you trigger a virtual click event using hand gestures?",
+      "options": [
+        "By covering your eyes",
+        "Checking if the distance between thumb tip and index tip is extremely close (detecting a pinch gesture)",
+        "Shaking your head",
+        "Closing the app"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Measuring finger-tip proximity (pinch checks) serves as an interactive air click trigger."
+    },
+    {
+      "id": 8,
+      "question": "Which block is called to start analyzing camera frames for body skeletons?",
+      "options": [
+        "analyze body pose",
+        "analyze face",
+        "enable physics",
+        "clear canvas"
+      ],
+      "correct": 0,
+      "explanation": "Great! 'analyze body pose' triggers the skeletal tracking algorithm on the active frame."
+    },
+    {
+      "id": 9,
+      "question": "What happens if a skeletal joint coordinate is not visible to the webcam?",
+      "options": [
+        "The computer crashes",
+        "The AI returns low confidence coordinates or waits until the joint is visible again",
+        "A sound is played",
+        "The sprite turns red"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! The AI coordinates rely on visibility; low confidence coordinates are ignored to prevent erratic jumps."
+    },
+    {
+      "id": 10,
+      "question": "In a Clown Maker app, what block script anchors a virtual red nose sprite to your face?",
+      "options": [
+        "go to X(get skeleton Nose X) Y(get skeleton Nose Y)",
+        "set bounce to 1",
+        "orbit around Sun",
+        "change scale by 10"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! Centering the nose sprite on the Nose skeletal landmark creates a funny clown face overlay!"
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to analyze body pose and position a hat sprite at the coordinates of the 'Nose' joint skeleton.",
+      "task_hint": "analyze body pose -> set 3D position X(get skeleton Nose X) Y(get skeleton Nose Y) Z(0)",
+      "explanation": "Outstanding! Placing filters at joint skeleton landmarks anchors props realistically in real-time!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to track hand pose and place the cursor sprite at the Index Finger Tip coordinate.",
+      "task_hint": "analyze hand pose -> go to X(get hand landmark Index Finger Tip X) Y(get hand landmark Index Finger Tip Y)",
+      "explanation": "Perfect! This simple linkage creates a fully interactive virtual mouse pointer!"
+    }
+  ]
+}

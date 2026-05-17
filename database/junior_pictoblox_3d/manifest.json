@@ -1,0 +1,39 @@
+{
+  "course_id": "junior_pictoblox_3d",
+  "course_title": "🧊 البرمجة ثلاثية الأبعاد للصغار - PicToBlox 3D",
+  "course_description": "Step into the magical third dimension! Learn X-Y-Z coordinates, script camera animations, enable physics gravity, friction, and collisions, build automated Rube Goldberg machines, steer 3D racing cars, model the Solar System, and code a 3D First-Person Duck Hunter game! 🧊🚗🪐🏹",
+  "status": "active",
+  "recap_file": "recap.json",
+  "quizzes": [
+    {
+      "quiz_id": "junior_pictoblox_3d_quiz_1",
+      "file": "quizzes/quiz1.json",
+      "title": "🧊 3D Challenge 1: Coordinates & Cameras"
+    },
+    {
+      "quiz_id": "junior_pictoblox_3d_quiz_2",
+      "file": "quizzes/quiz2.json",
+      "title": "🧊 3D Challenge 2: Physics Bounces & Bumper Gravity"
+    },
+    {
+      "quiz_id": "junior_pictoblox_3d_quiz_3",
+      "file": "quizzes/quiz3.json",
+      "title": "🧊 3D Challenge 3: Goldberg Machines & Car Steering"
+    },
+    {
+      "quiz_id": "junior_pictoblox_3d_quiz_4",
+      "file": "quizzes/quiz4.json",
+      "title": "🧊 3D Challenge 4: Solar Systems & Letter Lights"
+    },
+    {
+      "quiz_id": "junior_pictoblox_3d_quiz_5",
+      "file": "quizzes/quiz5.json",
+      "title": "🧊 3D Challenge 5: Duck Aiming Vectors & Bullet Spawns"
+    },
+    {
+      "quiz_id": "junior_pictoblox_3d_quiz_6",
+      "file": "quizzes/quiz6.json",
+      "title": "🧊 3D Challenge 6: UI Canvas Overlays & Game Sounds"
+    }
+  ]
+}

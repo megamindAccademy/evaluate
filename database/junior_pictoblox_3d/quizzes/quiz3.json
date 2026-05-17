@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_3d_quiz_3",
+  "quiz_title": "🧊 3D Challenge 3: Goldberg Machines & Car Steering",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a Rube Goldberg Machine in physics game design?",
+      "options": [
+        "A fast racing car",
+        "A complex chain-reaction machine where one physics action triggers another to achieve a simple goal",
+        "A painting editor tool",
+        "A space rocket"
+      ],
+      "correct": 1,
+      "explanation": "Correct! Rube Goldberg machines utilize chain-reaction physics (e.g. ball hits dominos, domino pushes lever)."
+    },
+    {
+      "id": 2,
+      "question": "If you want to create multiple identical balls in your Rube Goldberg machine without making new sprites, what block should you use?",
+      "options": [
+        "pen down",
+        "create clone of (myself / Ball)",
+        "set scale to 100%",
+        "camera look at"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Cloning generates duplicate active physical balls dynamically during runtime."
+    },
+    {
+      "id": 3,
+      "question": "In a 3D Car Simulator game, which block is used to steer the tires and drive the car around corners?",
+      "options": [
+        "steer car angle (degrees)",
+        "move car speed",
+        "pen up",
+        "enable physics"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! The 'steer car' block angles the wheels, turning the chassis as it drives forward."
+    },
+    {
+      "id": 4,
+      "question": "How can we make a camera follow closely behind our 3D car as it moves through the city?",
+      "options": [
+        "Place a point light in the car",
+        "Attach the camera to the target car sprite using follow offset blocks",
+        "Keep camera static at 0, 0, 0",
+        "Rotate camera clockwise"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Attaching the camera lock-follow offset to the car keeps the player in the center of view while driving."
+    },
+    {
+      "id": 5,
+      "question": "What makes a 3D car's tires grip the road and steer effectively without spinning out of control?",
+      "options": [
+        "Setting bounce to 1",
+        "Physical friction between the wheels and the street surface",
+        "Turning physics off",
+        "Playing music"
+      ],
+      "correct": 1,
+      "explanation": "Great! Friction provides traction, letting tires push against the asphalt to turn."
+    },
+    {
+      "id": 6,
+      "question": "If a ball slides off the edge of a Rube Goldberg slope, why does it travel in a downward curve?",
+      "options": [
+        "Due to friction",
+        "Due to the combined forward speed force and downward pull of gravity physics",
+        "Low bounce values",
+        "Camera rotation"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Gravity pulls it down while its horizontal inertia keeps it moving forward, creating a realistic curve!"
+    },
+    {
+      "id": 7,
+      "question": "Which physical body shape is ideal for a spherical rolling marble inside a track?",
+      "options": [
+        "Box shape",
+        "Sphere shape",
+        "Mesh shape",
+        "Cylinder shape"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The 'sphere' shape is optimized for round objects, ensuring smooth roll physics."
+    },
+    {
+      "id": 8,
+      "question": "Why do we sometimes need to adjust and fine-tune physical coordinates of dominoes in a Goldberg chain?",
+      "options": [
+        "To change their colors",
+        "To ensure they align perfectly so the falling ball strikes them centered, triggering the fall",
+        "To make them look bigger",
+        "To test the camera"
+      ],
+      "correct": 1,
+      "explanation": "Great! Alignment troubleshooting is key in physics to ensure chain-reactions don't miss or break."
+    },
+    {
+      "id": 9,
+      "question": "What blocks drawer contains physical templates and body settings in PicToBlox 3D?",
+      "options": [
+        "Motion",
+        "Physics 3D",
+        "Variables",
+        "Control"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The 'Physics 3D' extension drawer houses all blocks for gravity, mass, force, and bounce settings."
+    },
+    {
+      "id": 10,
+      "question": "What block removes a physical ball clone once it falls off the bottom screen to save memory?",
+      "options": [
+        "hide sprite",
+        "delete this clone",
+        "stop all",
+        "pen up"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! 'delete this clone' removes the finished sprite clone, preventing resource leaks."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to drive a 3D car sprite forward at speed 15 and steer it at a 30-degree angle when the Right Arrow key is pressed.",
+      "task_hint": "when right arrow key pressed -> move car speed(15) -> steer car angle(30)",
+      "explanation": "Outstanding! Connecting keypress triggers to speed and steering enables interactive driving!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to delete a ball clone when its Y-coordinate drops below -300.",
+      "task_hint": "if y position < -300 then delete this clone",
+      "explanation": "Perfect! Discarding falling items maintains smooth physics gameplay!"
+    }
+  ]
+}

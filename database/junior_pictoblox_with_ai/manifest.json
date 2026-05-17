@@ -1,0 +1,39 @@
+{
+  "course_id": "junior_pictoblox_with_ai",
+  "course_title": "🧠 الذكاء الاصطناعي للصغار - PicToBlox with AI",
+  "course_description": "Dive into the future of technology! Program computer vision face detectors, overlay funny face masks, recognize emotion landmarks, build real-time object scanners, train machine learning classifiers for animals, navigate mazes using voice commands, and control smart homes with text NLP! 🧠🔍🗣️⚡",
+  "status": "active",
+  "recap_file": "recap.json",
+  "quizzes": [
+    {
+      "quiz_id": "junior_pictoblox_with_ai_quiz_1",
+      "file": "quizzes/quiz1.json",
+      "title": "🧠 AI Challenge 1: Computer Vision & Face Detection"
+    },
+    {
+      "quiz_id": "junior_pictoblox_with_ai_quiz_2",
+      "file": "quizzes/quiz2.json",
+      "title": "🧠 AI Challenge 2: Face Landmarks & Object Scans"
+    },
+    {
+      "quiz_id": "junior_pictoblox_with_ai_quiz_3",
+      "file": "quizzes/quiz3.json",
+      "title": "🧠 AI Challenge 3: ML Image & Object Classifiers"
+    },
+    {
+      "quiz_id": "junior_pictoblox_with_ai_quiz_4",
+      "file": "quizzes/quiz4.json",
+      "title": "🧠 AI Challenge 4: Voice Mazes & Smart Home Text NLP"
+    },
+    {
+      "quiz_id": "junior_pictoblox_with_ai_quiz_5",
+      "file": "quizzes/quiz5.json",
+      "title": "🧠 AI Challenge 5: Body Pose Counters & Hand Trackers"
+    },
+    {
+      "quiz_id": "junior_pictoblox_with_ai_quiz_6",
+      "file": "quizzes/quiz6.json",
+      "title": "🧠 AI Challenge 6: Rocket Controls & Air Painters"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_python_quiz_6",
+  "quiz_title": "🐍 Python Challenge 6: Object Classes & Street Racing",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does Object-Oriented Programming (OOP) mean in Python?",
+      "options": [
+        "Writing code backwards",
+        "A programming paradigm that uses 'classes' as blueprints to instantiate 'objects' with shared properties and methods!",
+        "Using no variables",
+        "Using only text print logs"
+      ],
+      "correct": 1,
+      "explanation": "Correct! OOP uses classes to bundle data attributes and method behaviors into distinct objects."
+    },
+    {
+      "id": 2,
+      "question": "What is a Class in Python programming?",
+      "options": [
+        "A school course",
+        "A structural blueprint or template used to create individual objects with custom attributes",
+        "A loop command",
+        "An image asset"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Classes serve as blueprints (e.g. class Car defines wheels, colors, speeds)."
+    },
+    {
+      "id": 3,
+      "question": "Which keyword is used to declare a new class in Python code?",
+      "options": [
+        "def",
+        "class",
+        "object",
+        "blueprint"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! The `class` keyword declares custom classes (e.g. `class Player:`)."
+    },
+    {
+      "id": 4,
+      "question": "What is the name of Python's special initializer function used to set up object properties when a new object is created?",
+      "options": [
+        "def init():",
+        "def __init__(self):",
+        "def start(self):",
+        "def class():"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The constructor method `__init__(self)` initializes properties when a class is instantiated."
+    },
+    {
+      "id": 5,
+      "question": "What does the 'self' parameter represent inside Python class methods?",
+      "options": [
+        "A secret password",
+        "The specific object instance that is currently calling the method, letting us access its unique variables!",
+        "The computer processor",
+        "A list index"
+      ],
+      "correct": 1,
+      "explanation": "Great! `self` binds variables and methods to the specific calling instance (e.g. `self.speed`)."
+    },
+    {
+      "id": 6,
+      "question": "If we instantiate an object: my_car = Car('red', 12), what are 'red' and 12?",
+      "options": [
+        "Errors in logic",
+        "Arguments passed to the __init__ constructor to set that car's color and speed properties!",
+        "Class names",
+        "Loops"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! These arguments initialize the custom instance values of the new car object."
+    },
+    {
+      "id": 7,
+      "question": "In a Street Racing game, how do we make different enemy cars travel at different speeds using OOP?",
+      "options": [
+        "By writing different scripts for each car",
+        "By instantiating each enemy car object with a different 'speed' attribute value from the Car class!",
+        "By deleting the sprites",
+        "By changing background colors"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! OOP lets us spawn 100 cars with distinct speed properties from a single clean class block!"
+    },
+    {
+      "id": 8,
+      "question": "Which PicToBlox method changes the background scene to 'city_street' during gameplay transitions?",
+      "options": [
+        "sprite.move()",
+        "sprite.switchbackdrop('city_street')",
+        "sprite.background()",
+        "nextcostume()"
+      ],
+      "correct": 1,
+      "explanation": "Great! `sprite.switchbackdrop(scene_name)` changes the active backdrop canvas."
+    },
+    {
+      "id": 9,
+      "question": "How can one sprite's script trigger a response or change backdrop in a secondary sprite's script?",
+      "options": [
+        "By looking at it",
+        "Using broadcast signals to trigger events in other sprites!",
+        "Deleting variables",
+        "It is impossible"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Broadcasting coordinate updates or triggers bridges communications across separate scripts."
+    },
+    {
+      "id": 10,
+      "question": "What occurs when the player's car collides with an obstacle border in our racing game?",
+      "options": [
+        "The computer shuts down",
+        "An if check detects the collision, halts the loops, and displays a 'Game Over' backdrop!",
+        "The car turns yellow",
+        "Friction doubles"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Collision checks automate game-over states, locking speed coordinates to 0."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write a Python class definition named 'Car' with a constructor setting the properties 'color' and 'speed'.",
+      "task_hint": "class Car:\n    def __init__(self, color, speed):\n        self.color = color\n        self.speed = speed",
+      "explanation": "Outstanding! Declaring properties in class constructors sets up robust object-oriented blueprints!"
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write Python code to instantiate an object named 'player_car' from the 'Car' class with color='blue' and speed=15.",
+      "task_hint": "player_car = Car('blue', 15)",
+      "explanation": "Perfect! This creates an active car object with custom blue color and 15 speed variables!"
+    }
+  ]
+}

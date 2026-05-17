@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_with_ai_quiz_3",
+  "quiz_title": "🧠 AI Challenge 3: ML Image & Object Classifiers",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the Machine Learning Environment used for in PicToBlox?",
+      "options": [
+        "To paint 3D city buildings",
+        "To collect data samples, train custom ML models, and test them inside our scripts",
+        "To record audio waves",
+        "To delete variables"
+      ],
+      "correct": 1,
+      "explanation": "Correct! The ML Environment is our training suite to feed samples and generate custom neural models."
+    },
+    {
+      "id": 2,
+      "question": "What is the very first phase required to build a custom Image Classifier?",
+      "options": [
+        "Writing code loops",
+        "Collecting and labelling training image samples (data collection)",
+        "Deleting sprites",
+        "Playing sound waves"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Data collection (loading photos and grouping them into labeled classes) is the core first phase of machine learning."
+    },
+    {
+      "id": 3,
+      "question": "Why do we feed the ML model multiple different photos of the same object (e.g. 50 photos of an elephant)?",
+      "options": [
+        "To fill up hard drive space",
+        "To teach the model to recognize the object from different angles, distances, and lighting!",
+        "To speed up the camera transparency",
+        "It is not necessary"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Diverse image samples enhance training, teaching the model robust generalization patterns."
+    },
+    {
+      "id": 4,
+      "question": "Which block is used to load your custom-trained Image Classifier model into your PicToBlox project?",
+      "options": [
+        "load image classifier model",
+        "enable physics",
+        "pen down",
+        "steer car"
+      ],
+      "correct": 0,
+      "explanation": "Spot on! The 'load image classifier model' block fetches your trained weights into script memory."
+    },
+    {
+      "id": 5,
+      "question": "What block returns the prediction confidence percentage (how sure the computer is about its scan classification)?",
+      "options": [
+        "get face width",
+        "get prediction confidence",
+        "get count of objects",
+        "is happy?"
+      ],
+      "correct": 1,
+      "explanation": "Great! The confidence rating (0 to 100%) indicates how certain the model is about its classification."
+    },
+    {
+      "id": 6,
+      "question": "How can we build a Mask Detector that warns people who aren't wearing medical masks?",
+      "options": [
+        "Train a model with two classes: 'Mask' and 'No Mask', then check predictions in an if-else block!",
+        "Set gravity to 9.8",
+        "Change camera transparency",
+        "Add a point light"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! Training a two-class binary image classifier and wrapping it in if-else statements solves this security check cleanly."
+    },
+    {
+      "id": 7,
+      "question": "What is Custom Object Detection in machine learning?",
+      "options": [
+        "Counting how many faces are happy",
+        "Training a model to identify specific custom items (like your private pen or bottle) and locate their bounding boxes",
+        "Drawing canvas lines",
+        "Hiding variables"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Custom Object Detection localizes items on screen, drawing boundary coordinates around them."
+    },
+    {
+      "id": 8,
+      "question": "What does a bounding box represent in object detection scanners?",
+      "options": [
+        "A box containing code variables",
+        "The rectangular coordinate boundary drawn around a detected item on the video feed",
+        "The background scene grid",
+        "A sound effect card"
+      ],
+      "correct": 1,
+      "explanation": "Great! Bounding boxes show exactly where an item resides in the camera's coordinates grid."
+    },
+    {
+      "id": 9,
+      "question": "What happens after you finish training your custom ML model in the editor?",
+      "options": [
+        "The project is wiped out",
+        "You export the model and can immediately interact with its custom prediction blocks in your scripts!",
+        "The computer shuts down",
+        "You must write code in C++"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! Once trained, custom blocks representing your classes become available in the ML drawer."
+    },
+    {
+      "id": 10,
+      "question": "Under which block drawer can you find your loaded machine learning blocks?",
+      "options": [
+        "Control drawer",
+        "Machine Learning extension drawer",
+        "Variables drawer",
+        "Math drawer"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Pre-trained classification blocks live under the 'Machine Learning' extension drawer."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to load a trained image classifier model and identify the class of a live camera feed.",
+      "task_hint": "load image classifier model -> identify class from camera",
+      "explanation": "Outstanding! Loading the model and running real-time frame checks is the standard pipeline to classify feeds."
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write block pseudo-code to check if the identified class is 'No Mask', and if so, play a warning beep sound.",
+      "task_hint": "if identified class == 'No Mask' then play sound 'warning_beep'",
+      "explanation": "Perfect! This simple script creates a highly useful automated safety checker!"
+    }
+  ]
+}

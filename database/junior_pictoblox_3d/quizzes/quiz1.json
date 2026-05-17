@@ -1,0 +1,140 @@
+{
+  "quiz_id": "junior_pictoblox_3d_quiz_1",
+  "quiz_title": "🧊 3D Challenge 1: Coordinates & Cameras",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many coordinate axes exist in a 3D workspace (unlike 2D flat stages)?",
+      "options": [
+        "1 axis",
+        "2 axes",
+        "3 axes (X, Y, Z)",
+        "4 axes"
+      ],
+      "correct": 2,
+      "explanation": "Spot on! The 3D space adds depth to width and height, introducing X, Y, and Z axes."
+    },
+    {
+      "id": 2,
+      "question": "Which axis represents the depth or distance (how far or close an object is to the screen) in a 3D editor?",
+      "options": [
+        "X axis",
+        "Y axis",
+        "Z axis",
+        "W axis"
+      ],
+      "correct": 2,
+      "explanation": "Correct! The Z-axis controls depth, making sprites appear near or far away."
+    },
+    {
+      "id": 3,
+      "question": "Which axis represents horizontal width movement (left and right) on a coordinate grid?",
+      "options": [
+        "X axis",
+        "Y axis",
+        "Z axis",
+        "All of them"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! The X-axis represents horizontal motion (left/right)."
+    },
+    {
+      "id": 4,
+      "question": "Which axis represents vertical height movement (up and down) on the stage grid?",
+      "options": [
+        "X axis",
+        "Y axis",
+        "Z axis",
+        "None"
+      ],
+      "correct": 1,
+      "explanation": "Great! The Y-axis represents vertical motion (up/down)."
+    },
+    {
+      "id": 5,
+      "question": "What happens if we scale a 3D object to X=2, Y=2, Z=2?",
+      "options": [
+        "It becomes invisible",
+        "It doubles in size across all dimensions",
+        "It changes color to red",
+        "It falls down"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Scaling by 2 doubles the width, height, and depth, making the object twice as big!"
+    },
+    {
+      "id": 6,
+      "question": "What component determines what view of the 3D world is currently displayed on screen?",
+      "options": [
+        "The Sprite",
+        "The Camera",
+        "The Lamp",
+        "The Paint Editor"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The virtual Camera defines the viewer's eye position and look-direction."
+    },
+    {
+      "id": 7,
+      "question": "Which block is called to force the camera to keep focusing or looking at a specific moving sprite?",
+      "options": [
+        "camera look at (target)",
+        "move camera 10 steps",
+        "hide camera",
+        "rotate clockwise"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! The 'camera look at' block automatically pivots the camera view to trace the target sprite."
+    },
+    {
+      "id": 8,
+      "question": "What does XR stand for in modern immersive gaming?",
+      "options": [
+        "X-Ray Radiation",
+        "Extended Reality (Virtual/Augmented Reality)",
+        "Extra Rotation",
+        "Extreme Racing"
+      ],
+      "correct": 1,
+      "explanation": "Correct! Extended Reality includes Virtual, Augmented, and Mixed realities under one hood."
+    },
+    {
+      "id": 9,
+      "question": "If you want to move the camera forward towards the scene, which camera command is used?",
+      "options": [
+        "move camera forward (steps)",
+        "rotate camera",
+        "scale camera",
+        "delete camera"
+      ],
+      "correct": 0,
+      "explanation": "Great! The 'move camera forward' block pushes the camera viewpoint along its depth path."
+    },
+    {
+      "id": 10,
+      "question": "What block is used to set the initial X, Y, Z coordinate positions of a 3D sprite?",
+      "options": [
+        "set 3D position X() Y() Z()",
+        "set size to 100%",
+        "go to random position",
+        "pen down"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! The 'set 3D position' block positions a sprite precisely in the three-dimensional space."
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "question": "Coding Task: Write 3D block pseudo-code to position a sprite at X=50, Y=100, Z=-200.",
+      "task_hint": "set 3D position X(50) Y(100) Z(-200)",
+      "explanation": "Outstanding! Placing coordinates correctly distributes sprites accurately in depth and height."
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "question": "Coding Task: Write 3D block pseudo-code to make the virtual camera look at a sprite named 'HeroCar'.",
+      "task_hint": "camera look at(target='HeroCar')",
+      "explanation": "Perfect! Snapping this block focuses the user's view directly on the player's car!"
+    }
+  ]
+}
