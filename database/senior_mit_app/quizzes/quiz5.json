@@ -1,0 +1,150 @@
+{
+  "quiz_title": "النموذج الخامس: لعبة الحظ الذكية وبوابة العيادات المتكاملة",
+  "quick_brief": "تحدي الأسبوع الخامس: اختبر مهاراتك المتقدمة في برمجة قواعد اتخاذ القرار العشوائي وتصميم عمارة التطبيقات الضخمة متعددة الشاشات كعيادة الطبيب الذكي!",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "أي كتل برمجية تُستخدم لاختيار عنصر عشوائي تماماً من قائمة الاختيارات (حجر، ورقة، مقص) لمحاكاة ذكاء الهاتف؟",
+      "options": [
+        "pick a random item",
+        "select list item",
+        "add items to list",
+        "is in list"
+      ],
+      "correct": "pick a random item",
+      "score": 10
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "عند بناء تطبيقات ضخمة تتكون من شاشات متعددة (مثل تطبيق العيادة الطبيب)، كيف نقوم بإرسال اسم المريض المسجل إلى شاشة الحجز المتقدمة؟",
+      "options": [
+        "استخدام open another screen with start value",
+        "استخدام close screen",
+        "استخدام Canvas.DrawPoint",
+        "استخدام TextToSpeech"
+      ],
+      "correct": "استخدام open another screen with start value",
+      "score": 10
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "أي لبنة نستخدمها داخل الشاشة الثانية لاستقبال وقراءة القيمة المرسلة إليها (اسم المريض مثلاً) من الشاشة الأولى؟",
+      "options": [
+        "get start value",
+        "open another screen",
+        "TinyDB1.GetValue",
+        "select list item"
+      ],
+      "correct": "get start value",
+      "score": 10
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "في لعبة حجر ورقة مقص، لمقارنة تعادل الاختيارات، نتحقق من الشرط المنطقي:",
+      "options": [
+        "if get userChoice = get pcChoice",
+        "if get userChoice > get pcChoice",
+        "if get userChoice and get pcChoice",
+        "if get userChoice is empty"
+      ],
+      "correct": "if get userChoice = get pcChoice",
+      "score": 10
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "تطبيق العيادة الطبية المتكامل يتكون من عدة شاشات، أي شاشة تُستخدم لحساب أسعار الخدمات الطبية وحجز موعد الكشف؟",
+      "options": [
+        "Welcome Screen",
+        "Sign up Screen",
+        "Clinic Screen",
+        "Pharma Screen"
+      ],
+      "correct": "Clinic Screen",
+      "score": 10
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "أي خاصية في عناصر التحديد (CheckBox) تُستخدم للتحقق برمجياً مما إذا كان المستخدم قد حدد خياراً طبياً معيناً كخدمة كشف الأسنان؟",
+      "options": [
+        "Checked",
+        "Text",
+        "Visible",
+        "FontBold"
+      ],
+      "correct": "Checked",
+      "score": 10
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "إذا قمنا بفتح الشاشة بكود open another screen with start value (screenName = \"Home\", startValue = \"مرحبا\"). ما هي القيمة التي سترجعها get start value في الشاشة Home؟",
+      "options": [
+        "Home",
+        "مرحبا",
+        "فارغ",
+        "خطأ برمي"
+      ],
+      "correct": "مرحبا",
+      "score": 10
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "لتحديث فاتورة الحساب للمريض وزيادتها بمقدار 50 دولار عند تحديد خدمة طبية، نكتب المعادلة:",
+      "options": [
+        "set global total to (get global total + 50)",
+        "set global total to 50",
+        "set global total to (50 - get global total)",
+        "set global total to 0"
+      ],
+      "correct": "set global total to (get global total + 50)",
+      "score": 10
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "أي عنصر برمي نستخدمه لعرض خيارات عيادات الطبيب (أسنان، عيون، أطفال) في قائمة منسدلة يختار المستخدم منها خياراً واحداً؟",
+      "options": [
+        "SpinnerComponent",
+        "TextBox",
+        "PasswordTextBox",
+        "ImageSprite"
+      ],
+      "correct": "SpinnerComponent",
+      "score": 10
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "عند بناء تطبيق طبي، للحصول على رقم عشوائي كود حجز الطبيب للمريض، نستخدم لبنة:",
+      "options": [
+        "random integer from 1000 to 9999",
+        "absolute value",
+        "square root",
+        "length of list"
+      ],
+      "correct": "random integer from 1000 to 9999",
+      "score": 10
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "text": "اكتب الكود البرمجي لاختيار عنصر عشوائي من قائمة تحتوي على العناصر ('حجر'، 'ورق'، 'مقص') وإسناد القيمة لمتغير اسمه global_pc.",
+      "correct_code": "set global_pc to call pick a random item (list = create empty list [\"حجر\", \"ورق\", \"مقص\"])",
+      "score": 20
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "text": "اكتب كود الانتقال إلى شاشة اسمها 'ClinicScreen' مع إرسال القيمة النصية 'عيادة العيون' كقيمة بداية للمريض.",
+      "correct_code": "call open another screen with start value (screenName = \"ClinicScreen\", startValue = \"عيادة العيون\")",
+      "score": 20
+    }
+  ]
+}

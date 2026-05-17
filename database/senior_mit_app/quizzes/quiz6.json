@@ -1,0 +1,150 @@
+{
+  "quiz_title": "النموذج السادس: دمج الذكاء الاصطناعي التوليدي ChatGPT وصانع الصور",
+  "quick_brief": "تحدي الأسبوع السادس والأخير: اختبر مهاراتك المتقدمة جداً في ربط تطبيقاتك بأحدث نماذج الذكاء الاصطناعي التوليدي ChatGPT وتوليد اللوحات الفنية بـ ImageBot!",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "ما هو المكون الذكي المتقدم (AI Component) في App Inventor الذي يتيح ربط تطبيقك بنماذج الذكاء الاصطناعي ChatGPT لإجراء محادثات نصية ذكية؟",
+      "options": [
+        "ChatBot",
+        "ImageBot",
+        "WebComponent",
+        "TinyDB"
+      ],
+      "correct": "ChatBot",
+      "score": 10
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "أي دالة برمجية نستخدمها لإرسال سؤال المستخدم النصي إلى خوادم الذكاء الاصطناعي ChatGPT للحصول على الإجابة؟",
+      "options": [
+        "call ChatBot1.PostText",
+        "call ChatBot1.Speak",
+        "call ChatBot1.GetText",
+        "set ChatBot1.Token to"
+      ],
+      "correct": "call ChatBot1.PostText",
+      "score": 10
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "أي حدث برمي يُنفذ تلقائياً بمجرد استلام التطبيق لإجابة الذكاء الاصطناعي ChatGPT بنجاح وعرضها للمستخدم؟",
+      "options": [
+        "when ChatBot1.GotResponse",
+        "when ChatBot1.Click",
+        "when ChatBot1.Initialize",
+        "when ChatBot1.ErrorOccurred"
+      ],
+      "correct": "when ChatBot1.GotResponse",
+      "score": 10
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "ما هي أداة الذكاء الاصطناعي المتخصصة (Component) في توليد لوحات فنية وصور مذهلة بمجرد وصفها نصياً باللغة الإنجليزية؟",
+      "options": [
+        "ImageSprite",
+        "ImageBot",
+        "ChatBot",
+        "WebServices"
+      ],
+      "correct": "ImageBot",
+      "score": 10
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "أي دالة برمجية نستخدمها لإرسال الوصف النصي للمشهد (Prompt) لتوليد الصورة السحرية بواسطة أداة الـ ImageBot؟",
+      "options": [
+        "call ImageBot1.CreateImage (prompt)",
+        "call ImageBot1.GetImage",
+        "set ImageBot1.Picture to",
+        "call Web1.Get"
+      ],
+      "correct": "call ImageBot1.CreateImage (prompt)",
+      "score": 10
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "أي حدث برمي يتم تنفيذه تلقائياً بمجرد اكتمال توليد الصورة بنجاح ووصولها إلى هاتف المستخدم؟",
+      "options": [
+        "when ImageBot1.ImageCreated",
+        "when ImageBot1.GotResponse",
+        "when ImageBot1.Touched",
+        "when ImageBot1.Initialize"
+      ],
+      "correct": "when ImageBot1.ImageCreated",
+      "score": 10
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "في حدث ImageCreated(image)، أي خاصية في عنصر الصورة (ImageComponent) نقوم بإسناد الصورة المولدة إليها لتظهر للمستخدم على الشاشة؟",
+      "options": [
+        "Picture",
+        "Visible",
+        "Width",
+        "Height"
+      ],
+      "correct": "Picture",
+      "score": 10
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "لإنشاء تطبيق مساعد ذكي يستمع لأسئلة المستخدم صوتياً وينطق بالإجابة صوتياً، نقوم بدمج الذكاء الاصطناعي ChatGPT مع الأدوات المساعدة:",
+      "options": [
+        "SpeechRecognizer و TextToSpeech",
+        "Canvas و ImageSprite",
+        "TinyDB و ListView",
+        "Sound و Spinner"
+      ],
+      "correct": "SpeechRecognizer و TextToSpeech",
+      "score": 10
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "ما هو المصطلح الفني (Prompt) المستخدم في عالم الذكاء الاصطناعي للتعبير عن الوصف النصي الذي يكتبه المستخدم لتوجيه الآلة لتصميم صورة أو كتابة نص؟",
+      "options": [
+        "Prompt",
+        "Token",
+        "API Key",
+        "JSON Decode"
+      ],
+      "correct": "Prompt",
+      "score": 10
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "ما هي الفائدة الجوهرية من استخدام الذكاء الاصطناعي التوليدي داخل تطبيقات الهواتف الذكية؟",
+      "options": [
+        "توفير طاقة بطارية الهاتف",
+        "جعل التطبيق ذكياً، تفاعلياً، وقادراً على فهم وتوليد المحتوى المعقد فورياً",
+        "تسريع تحميل شاشة تسجيل الدخول",
+        "الرسم على الـ Canvas بشكل أسرع"
+      ],
+      "correct": "جعل التطبيق ذكياً، تفاعلياً، وقادراً على فهم وتوليد المحتوى المعقد فورياً",
+      "score": 10
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "text": "اكتب الكود البرمجي لإرسال السؤال المكتوب في TextBox1 إلى خبير الذكاء الاصطناعي ChatBot1 عند النقر على زر الإرسال.",
+      "correct_code": "when Button_Send.Click\ndo call ChatBot1.PostText (question = get TextBox1.Text)",
+      "score": 20
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "text": "اكتب الكود البرمجي لاستلام الصورة المولدة في حدث ImageCreated وتعيينها كصورة لعنصر مسمى Image_Result.",
+      "correct_code": "when ImageBot1.ImageCreated (image)\ndo set Image_Result.Picture to get image",
+      "score": 20
+    }
+  ]
+}

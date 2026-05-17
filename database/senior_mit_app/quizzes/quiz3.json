@@ -1,0 +1,150 @@
+{
+  "quiz_title": "النموذج الثالث: الشاشات المتعددة وتأمين الدخول بقاعدة البيانات",
+  "quick_brief": "تحدي الأسبوع الثالث: اختبر معرفتك في كيفية الانتقال الآمن بين شاشات التطبيق المتعددة، والتحقق من كلمات المرور وحفظ البيانات محلياً بـ TinyDB!",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "ما هي اللبنة البرمجية (Block) الصحيحة في قسم Control للانتقال وفتح شاشة جديدة في التطبيق؟",
+      "options": [
+        "open another screen (screenName)",
+        "close screen",
+        "initialize screen",
+        "get start value"
+      ],
+      "correct": "open another screen (screenName)",
+      "score": 10
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "ما هو صندوق الإدخال المناسب لكتابة الأرقام السرية بحيث تظهر على شكل نقاط سوداء لحماية خصوصية المستخدم؟",
+      "options": [
+        "TextBox",
+        "Label",
+        "PasswordTextBox",
+        "ListView"
+      ],
+      "correct": "PasswordTextBox",
+      "score": 10
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "أي قاعدة بيانات محلية نستخدمها لحفظ بيانات الطالب (كاسمه وعمره) بشكل دائم داخل ذاكرة الهاتف؟",
+      "options": [
+        "TinyWebDB",
+        "TinyDB",
+        "CloudDB",
+        "FirebaseDB"
+      ],
+      "correct": "TinyDB",
+      "score": 10
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "ما هي اللبنة المستخدمة لتخزين قيمة معينة في قاعدة البيانات TinyDB تحت وسم (Tag) محدد؟",
+      "options": [
+        "call TinyDB1.StoreValue",
+        "call TinyDB1.GetValue",
+        "call TinyDB1.ClearAll",
+        "call TinyDB1.ClearTag"
+      ],
+      "correct": "call TinyDB1.StoreValue",
+      "score": 10
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "عند استدعاء call TinyDB1.GetValue، ما هي وظيفة مدخل valueIfTagNotThere؟",
+      "options": [
+        "تحديد القيمة التي سيتم حفظها بشكل دائم في السيرفر",
+        "تحديد القيمة الافتراضية التي تعود إذا لم نجد هذا الوسم (Tag) محفوظاً مسبقاً",
+        "تغيير اسم قاعدة البيانات",
+        "مسح البيانات بالكامل"
+      ],
+      "correct": "تحديد القيمة الافتراضية التي تعود إذا لم نجد هذا الوسم (Tag) محفوظاً مسبقاً",
+      "score": 10
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "أي وسم مقارنة منطقي (Logical Block) نستخدمه للتحقق من تطابق البريد الإلكتروني وكلمة المرور معاً في نفس الوقت؟",
+      "options": [
+        "and",
+        "or",
+        "not",
+        "equal (=)"
+      ],
+      "correct": "and",
+      "score": 10
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "ما هو الحدث البرمجي الذي يتم تنفيذه تلقائياً بمجرد فتح الشاشة وبدء التطبيق لتهيئة البيانات واستعراضها؟",
+      "options": [
+        "when Screen1.Initialize",
+        "when Screen1.Click",
+        "when Screen1.BackPressed",
+        "when Screen1.OtherScreenClosed"
+      ],
+      "correct": "when Screen1.Initialize",
+      "score": 10
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "كيف نقوم بإغلاق الشاشة الحالية والرجوع تلقائياً إلى الشاشة السابقة؟",
+      "options": [
+        "استدعاء close screen",
+        "استدعاء open another screen",
+        "استدعاء TinyDB1.ClearAll",
+        "تغيير خاصية Visible إلى False"
+      ],
+      "correct": "استدعاء close screen",
+      "score": 10
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "في الكود: call TinyDB1.StoreValue(tag=\"score\", valueToStore=100)، ما هو الـ Tag هنا؟",
+      "options": [
+        "valueToStore",
+        "score",
+        "100",
+        "TinyDB1"
+      ],
+      "correct": "score",
+      "score": 10
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "أي شرط نستخدمه لتنفيذ كتل معينة إذا كانت البيانات صحيحة، وكتل أخرى بديلة إذا كانت البيانات خاطئة؟",
+      "options": [
+        "if-then",
+        "if-then-else",
+        "while-do",
+        "for-range"
+      ],
+      "correct": "if-then-else",
+      "score": 10
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "text": "اكتب كود التحقق: إذا كان النص في TextBox1 يساوي 'megaminds' قم بفتح شاشة اسمها 'AdminScreen'.",
+      "correct_code": "if get TextBox1.Text = \"megaminds\"\nthen call open another screen (screenName = \"AdminScreen\")",
+      "score": 20
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "text": "اكتب الكود لحفظ درجات الطالب المخزنة في متغير اسمه global_points داخل قاعدة البيانات TinyDB1 بالوسم 'student_points'.",
+      "correct_code": "call TinyDB1.StoreValue (tag = \"student_points\", valueToStore = get global_points)",
+      "score": 20
+    }
+  ]
+}

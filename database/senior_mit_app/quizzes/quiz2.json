@@ -1,0 +1,150 @@
+{
+  "quiz_title": "النموذج الثاني: القطة المتحركة والأوامر الصوتية",
+  "quick_brief": "تحدي الأسبوع الثاني: اختبر مهارتك في برمجة الكائنات المتحركة (ImageSprite)، وتفعيل التحكم الصوتي وتحويل الصوت إلى نصوص مقروءة ومسموعة!",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "ما هو الكائن المتحرك الذي يجب وضعه داخل Canvas لعرض صور متحركة وتفاعلية كألعاب القنص؟",
+      "options": [
+        "ImageComponent",
+        "ImageSprite",
+        "BallComponent",
+        "ListPicker"
+      ],
+      "correct": "ImageSprite",
+      "score": 10
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "أي حدث برمجى يُنفذ تلقائياً بمجرد أن يلمس إصبع المستخدم عنصر الـ ImageSprite؟",
+      "options": [
+        "when ImageSprite1.Touched",
+        "when ImageSprite1.Flung",
+        "when ImageSprite1.Dragged",
+        "when ImageSprite1.CollidedWith"
+      ],
+      "correct": "when ImageSprite1.Touched",
+      "score": 10
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "أي خاصية نستخدمها لجعل كائن الـ ImageSprite يتحرك تلقائياً بسرعة محددة دون توقف؟",
+      "options": [
+        "Interval",
+        "Speed",
+        "Heading",
+        "Visible"
+      ],
+      "correct": "Speed",
+      "score": 10
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "ما هي الأداة غير المرئية التي تستخدم محرك جوجل لتحويل نطق وكلام المستخدم الصوتي إلى نص مكتوب؟",
+      "options": [
+        "TextToSpeech",
+        "SpeechRecognizer",
+        "SoundRecorder",
+        "PlayerComponent"
+      ],
+      "correct": "SpeechRecognizer",
+      "score": 10
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "أي أمر نستخدمه لتوجيه هاتف الذكي لنطق وقراءة نص مكتوب بصوت بشري واضح؟",
+      "options": [
+        "call TextToSpeech1.Speak",
+        "call SpeechRecognizer1.GetText",
+        "call Sound1.Play",
+        "set Label1.Text to"
+      ],
+      "correct": "call TextToSpeech1.Speak",
+      "score": 10
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "في لعبة صيد القطة، لتغيير موقع القطة عشوائياً، نستخدم دالة لإنشاء رقم عشوائي وهي:",
+      "options": [
+        "random fraction",
+        "random integer",
+        "square root",
+        "absolute value"
+      ],
+      "correct": "random integer",
+      "score": 10
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "أي حدث يتم استدعاؤه تلقائياً في أداة التعرف على الصوت بعد انتهاء المستخدم من الكلام مباشرة وتوافر النص؟",
+      "options": [
+        "when SpeechRecognizer1.BeforeGettingText",
+        "when SpeechRecognizer1.AfterGettingText",
+        "when SpeechRecognizer1.Initialize",
+        "when SpeechRecognizer1.Click"
+      ],
+      "correct": "when SpeechRecognizer1.AfterGettingText",
+      "score": 10
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "لتحديث نتيجة النقاط وزيادتها بمقدار 1 في كل مرة يصيب فيها اللاعب الهدف، نكتب المعادلة:",
+      "options": [
+        "set global score to (get global score + 1)",
+        "set global score to 1",
+        "set global score to (get global score * 1)",
+        "set global score to 0"
+      ],
+      "correct": "set global score to (get global score + 1)",
+      "score": 10
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "ما هي الأداة (Component) المناسبة لإحداث اهتزاز طفيف في الهاتف (Vibrate) عند الضغط على زر معين كألعاب القتال؟",
+      "options": [
+        "Sound",
+        "Player",
+        "Camcorder",
+        "SpeechRecognizer"
+      ],
+      "correct": "Sound",
+      "score": 10
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "أي خاصية تحدد زاوية واتجاه حركة القطة المتحركة داخل لوحة الرسم Canvas؟",
+      "options": [
+        "Speed",
+        "Heading",
+        "Interval",
+        "X-Y Coordinates"
+      ],
+      "correct": "Heading",
+      "score": 10
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "text": "اكتب الكود البرمجي لنقل كائن اسمه CatSprite تلقائياً إلى الإحداثيات العشوائية X=150 و Y=رقم عشوائي من 1 إلى 300 عند ملامسته.",
+      "correct_code": "when CatSprite.Touched (x, y)\ndo call CatSprite.MoveTo (150, random integer 1 to 300)",
+      "score": 20
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "text": "اكتب الكود لتشغيل أداة التعرف على الكلام SpeechRecognizer1 فور قيام المستخدم بالنقر على زر التحدث المسمى Button_Speak.",
+      "correct_code": "when Button_Speak.Click\ndo call SpeechRecognizer1.GetText",
+      "score": 20
+    }
+  ]
+}

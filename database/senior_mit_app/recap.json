@@ -1,0 +1,279 @@
+{
+  "course": "برمجة تطبيقات الهاتف الذكي (MIT App Inventor)",
+  "recap_title": "🎯 المراجعة السريعة والمصورة لكورس: برمجة تطبيقات الهاتف الذكي (MIT App Inventor)",
+  "recap_subtitle": "مرحباً بك يا بطل! هذه مراجعة سريعة ومدعمة بالأمثلة البرمجية والأشكال التوضيحية لكل جلسة تعلمتها في الكورس لمساعدتك على استذكار المفاهيم بكل سهولة ومتعة والاستعداد للاختبار الخارق! 🚀🌟",
+  "sessions": [
+    {
+      "session_num": 1,
+      "session_title": "Session 1: Introduction & App Inventor Interface",
+      "points": [
+        {
+          "title": "التعرف على بيئة MIT App Inventor",
+          "desc": "بيئة مجانية لتصميم وبرمجة تطبيقات الهواتف الذكية بنظام السحب والإفلات للكتل البرمجية (Blocks). تتكون من شاشة التصميم (Designer) وشاشة البرمجة (Blocks).",
+          "icon": "💻",
+          "blocksArray": [
+            "Designer Screen",
+            "Blocks Screen",
+            "Palette",
+            "Viewer",
+            "Properties"
+          ]
+        },
+        {
+          "title": "إضافة العناصر الأساسية (Button & Label)",
+          "desc": "استخدم Label لعرض النصوص والتعليمات على الشاشة، واستخدم Button لتلقي نقرات المستخدم وتفعيل الأوامر البرمجية.",
+          "icon": "🖱️",
+          "code": "when Button1.Click\ndo set Label1.Text to \"أهلاً بك في عالم برمجة التطبيقات!\"",
+          "example": "تغيير لون خلفية الشاشة عند الضغط على زر الترحيب."
+        }
+      ]
+    },
+    {
+      "session_num": 2,
+      "session_title": "Session 2: Layouts & Canvas (Whiteboard Painting App)",
+      "points": [
+        {
+          "title": "تنظيم الشاشة باستخدام Layouts",
+          "desc": "استخدام HorizontalArrangement لترتيب العناصر أفقياً، و TableArrangement لترتيبها على شكل جدول لتنظيم شاشة التطبيق كالمحترفين.",
+          "icon": "📏",
+          "blocksArray": [
+            "HorizontalArrangement",
+            "VerticalArrangement",
+            "TableArrangement"
+          ]
+        },
+        {
+          "title": "استخدام Canvas للرسم والتلوين",
+          "desc": "عنصر Canvas يتيح للمستخدم الرسم الحر بإصبعه، وتغيير ألوان الرسم عند لمس أزرار الألوان المحددة.",
+          "icon": "🎨",
+          "code": "when Canvas1.Dragged (startX, startY, prevX, prevY, currentX, currentY)\ndo call Canvas1.DrawLine (prevX, prevY, currentX, currentY)",
+          "example": "تطبيق لوحة رسم ذكية (Whiteboard Paint App) ترسم خطوطاً ملونة بحركة الإصبع."
+        }
+      ]
+    },
+    {
+      "session_num": 3,
+      "session_title": "Session 3: ImageSprites & Touching (Catch the Cat Game)",
+      "points": [
+        {
+          "title": "إضافة الكائنات المتحركة (ImageSprite)",
+          "desc": "عنصر متحرك يوضع داخل Canvas ويتميز بخصائص الحركة والسرعة والاتجاه وتفاعل اللمس.",
+          "icon": "🐱",
+          "blocksArray": [
+            "ImageSprite",
+            "Canvas1",
+            "Clock Timer"
+          ]
+        },
+        {
+          "title": "برمجة لمس الكائن (Touch Event)",
+          "desc": "برمجة اللمس لزيادة النقاط وتغيير موقع الكائن عشوائياً بمجرد لمسه لمحاكاة تحدي الألعاب التفاعلية.",
+          "icon": "🎯",
+          "code": "when ImageSprite1.Touched (x, y)\ndo set global score to (get global score + 1)\ncall ImageSprite1.MoveTo (random integer 1 to 300, random integer 1 to 300)",
+          "example": "لعبة صيد القطة السريعة (Catch the Cat Game) لزيادة النقاط مع كل لمسة ناجحة."
+        }
+      ]
+    },
+    {
+      "session_num": 4,
+      "session_title": "Session 4: Audio & Voice Controls (Speech Calculator)",
+      "points": [
+        {
+          "title": "التعرف على الصوت (SpeechRecognizer)",
+          "desc": "أداة غير مرئية تستخدم محرك جوجل لتحويل كلام المستخدم الصوتي إلى نص مكتوب يمكن معالجته برمجياً.",
+          "icon": "🎙️",
+          "blocksArray": [
+            "SpeechRecognizer1",
+            "TextToSpeech1"
+          ]
+        },
+        {
+          "title": "تحويل النص إلى كلام مسموع (TextToSpeech)",
+          "desc": "أداة تقوم بنطق النصوص المكتوبة بأصوات بشرية واضحة وممتازة للتحدث مع المستخدم تلقائياً.",
+          "icon": "🗣️",
+          "code": "when SpeechRecognizer1.AfterGettingText (result)\ndo set Label_Result.Text to get result\ncall TextToSpeech1.Speak (join \"لقد قلت: \" get result)",
+          "example": "تطبيق الحاسبة الصوتية (Speech Calculator) تنفذ العمليات الحسابية وتنطق الناتج صوتياً للمستخدم."
+        }
+      ]
+    },
+    {
+      "session_num": 5,
+      "session_title": "Session 5: Multi-Screen & Login Validation App",
+      "points": [
+        {
+          "title": "إضافة وإدارة الشاشات المتعددة",
+          "desc": "طريقة الانتقال بين الشاشات باستخدام كتل فتح وإغلاق الشاشات لتنسيق خطوات استخدام التطبيق.",
+          "icon": "📱",
+          "blocksArray": [
+            "open another screen (screenName)",
+            "close screen"
+          ]
+        },
+        {
+          "title": "التحقق من صحة البيانات والسرية",
+          "desc": "استخدام PasswordTextBox لحماية كلمات المرور، والتحقق من تطابق البريد وكلمة السر قبل السماح بالدخول.",
+          "icon": "🔒",
+          "code": "if (get TextBox_Email.Text = \"admin@megaminds.com\") and (get PasswordTextBox1.Text = \"12345\")\nthen call open another screen (screenName = \"HomeScreen\")\nelse set Label_Error.Text to \"البيانات غير صحيحة!\"",
+          "example": "تطبيق شاشة تسجيل الدخول الآمنة للتحقق من هوية الطالب وكلمة مروره قبل فتح الشاشة الرئيسية."
+        }
+      ]
+    },
+    {
+      "session_num": 6,
+      "session_title": "Session 6: Advanced Screens & Local DB (TinyDB Profile App)",
+      "points": [
+        {
+          "title": "قاعدة البيانات المحلية (TinyDB)",
+          "desc": "عنصر غير مرئي لتخزين وحفظ بيانات المستخدم كالنصوص والصور بشكل دائم في ذاكرة الهاتف حتى عند إغلاق التطبيق.",
+          "icon": "💾",
+          "blocksArray": [
+            "TinyDB1.StoreValue",
+            "TinyDB1.GetValue"
+          ]
+        },
+        {
+          "title": "استرجاع البيانات المحفوظة",
+          "desc": "قراءة البيانات المخزنة مسبقاً وتعبئتها تلقائياً في واجهة التطبيق لتعزيز تجربة المستخدم الشخصية.",
+          "icon": "🔄",
+          "code": "// حفظ البيانات\ncall TinyDB1.StoreValue (tag = \"username\", valueToStore = TextBox_Name.Text)\n// استرجاع البيانات\nset Label_Welcome.Text to call TinyDB1.GetValue (tag = \"username\", valueIfTagNotThere = \"مستخدم جديد\")",
+          "example": "تطبيق تعديل الملف الشخصي (Profile Editor) يحفظ اسم الطالب وعمره وصورته الشخصية بشكل دائم."
+        }
+      ]
+    },
+    {
+      "session_num": 7,
+      "session_title": "Session 7: Edge Collisions & Bounce Physics (Pong Ball Game)",
+      "points": [
+        {
+          "title": "الكرة البرمجية والتصادم (Ball Component)",
+          "desc": "عنصر كروي متحرك يوضع داخل Canvas ويمتلك خصائص ارتداد تلقائي وفيزيائي عند الاصطدام بالحواف والحدود الشاشات.",
+          "icon": "⚽",
+          "blocksArray": [
+            "Ball1.EdgeReached",
+            "Ball1.Bounce",
+            "ImageSprite Paddle"
+          ]
+        },
+        {
+          "title": "حساب زاوية الارتداد عند التصادم",
+          "desc": "برمجة ارتداد الكرة عند ملامستها لمضرب اللاعب المتحرك لإنشاء تجارب ألعاب تفاعلية واقعية ومسلية.",
+          "icon": "📐",
+          "code": "when Ball1.CollidedWith (other)\ndo set Ball1.Heading to (360 - get Ball1.Heading)\ncall Sound_Ping.Play",
+          "example": "لعبة بينج بونج الكلاسيكية (Pong Ball Game) لحساب النقاط وحفظ أفضل نتيجة برقم قياسي."
+        }
+      ]
+    },
+    {
+      "session_num": 8,
+      "session_title": "Session 8: Data Lists & ListView (To-Do List App)",
+      "points": [
+        {
+          "title": "إدارة المصفوفات والقوائم (Lists)",
+          "desc": "استخدام المصفوفات البرمجية لتخزين وتجميع عدة نصوص أو مهام في متغير واحد منظم للبيانات.",
+          "icon": "📋",
+          "blocksArray": [
+            "create empty list",
+            "add items to list",
+            "remove list item"
+          ]
+        },
+        {
+          "title": "عرض البيانات في ListView",
+          "desc": "عنصر تفاعلي لعرض مصفوفة المهام على الشاشة بشكل منظم يتيح للمستخدم استعراض وحذف العناصر بنقرة واحدة.",
+          "icon": "⚡",
+          "code": "when Button_Add.Click\ndo add items to list (list = get global taskList, item = TextBox_NewTask.Text)\nset ListView_Tasks.Elements to get global taskList\nset TextBox_NewTask.Text to \"\"",
+          "example": "تطبيق منظم المهام اليومية (To-Do List App) يتيح كتابة مهام جديدة، استعراضها، وحذف المهام المكتملة."
+        }
+      ]
+    },
+    {
+      "session_num": 9,
+      "session_title": "Session 9: Random Choice Logic (Rock Paper Scissors Game)",
+      "points": [
+        {
+          "title": "الاختيار العشوائي من القوائم",
+          "desc": "أداة لاختيار عنصر عشوائي تماماً من قائمة برمجية، وتستخدم بكثرة في برمجة الذكاء الاصطناعي للألعاب المنافسة.",
+          "icon": "🎲",
+          "blocksArray": [
+            "pick a random item",
+            "if-then-else if"
+          ]
+        },
+        {
+          "title": "برمجة قواعد المقارنة وحساب الفائز",
+          "desc": "استخدام الشروط البرمجية لمقارنة اختيار المستخدم مع اختيار الهاتف العشوائي وتحديد الفائز مع إضافة صوت حماسي.",
+          "icon": "🏆",
+          "code": "set global pcChoice to call pick a random item (list = create empty list [\"حجر\", \"ورق\", \"مقص\"])\nif (get global userChoice = get global pcChoice)\nthen set Label_Status.Text to \"تعادل!\"\nelse if (get global userChoice = \"حجر\" and get global pcChoice = \"مقص\")\nthen set Label_Status.Text to \"أنت الفائز! 🎉\"",
+          "example": "لعبة حجر ورقة مقص التفاعلية ضد الهاتف الذكي مع حساب إحصائيات الفوز والخسارة."
+        }
+      ]
+    },
+    {
+      "session_num": 10,
+      "session_title": "Session 10: Multi-screen Advanced Architecture (Medical Clinic App)",
+      "points": [
+        {
+          "title": "هندسة التطبيقات الكبيرة ومعايير UX",
+          "desc": "تصميم نظام متكامل يتكون من 6 شاشات متصلة وتمرير البيانات بين الشاشات لتسجيل المرضى وحجز المواعيد.",
+          "icon": "🏥",
+          "blocksArray": [
+            "open another screen with start value",
+            "get start value"
+          ]
+        },
+        {
+          "title": "نظام حجز العيادات والصيدلية الرقمية",
+          "desc": "بناء شاشات متخصصة للعيادات لعرض التخصصات المتاحة وحساب الفاتورة للمريض، وشاشة للصيدلية لشراء الأدوية.",
+          "icon": "💊",
+          "code": "// الانتقال إلى شاشة العيادة مع إرسال اسم المريض\ncall open another screen with start value (screenName = \"ClinicScreen\", startValue = get studentInfo.name)\n// استلام الاسم في شاشة العيادة\nset Label_PatientName.Text to get start value",
+          "example": "تطبيق عيادة الطبيب الذكي المتكامل (Smart Clinic App) لحجز العيادات وصرف الروشتات الطبية."
+        }
+      ]
+    },
+    {
+      "session_num": 11,
+      "session_title": "Session 11: Generative AI & Web Services (ChatGPT Assistant)",
+      "points": [
+        {
+          "title": "مقدمة في دمج الذكاء الاصطناعي بالتطبيقات",
+          "desc": "استخدام أدوات الويب لربط التطبيق بنماذج الذكاء الاصطناعي الذكية لإرسال الأسئلة واستقبال إجابات نصية عبقرية.",
+          "icon": "🤖",
+          "blocksArray": [
+            "ChatBot Component",
+            "Web.PostText",
+            "Json Text Decode"
+          ]
+        },
+        {
+          "title": "برمجة مساعدك الصوتي الذكي (AI Assistant)",
+          "desc": "دمج الذكاء الاصطناعي التوليدي مع SpeechRecognizer لإنشاء مساعد ذكي يستمع لك ويسألك ويجيبك بصوته.",
+          "icon": "💬",
+          "code": "when ChatBot1.GotResponse (response)\ndo set Label_AIResponse.Text to get response\ncall TextToSpeech1.Speak (get response)",
+          "example": "تطبيق مساعد الذكاء الاصطناعي الشخصي (ChatGPT Personal Assistant) للاستعلام وحل الواجبات المدرسية صوتياً."
+        }
+      ]
+    },
+    {
+      "session_num": 12,
+      "session_title": "Session 12: Advanced AI Components (ImageCreator DALL-E App)",
+      "points": [
+        {
+          "title": "توليد الصور بالذكاء الاصطناعي (ImageBot)",
+          "desc": "مكون متقدم جداً يتيح للتطبيق إرسال وصف نصي باللغة الإنجليزية إلى سيرفرات توليد الصور لتصميم لوحة فنية فورية وعرضها.",
+          "icon": "🎨",
+          "blocksArray": [
+            "ImageBot1.CreateImage",
+            "ImageBot1.ImageCreated"
+          ]
+        },
+        {
+          "title": "تنزيل وعرض اللوحات الفنية المولدة",
+          "desc": "تلقي رابط الصورة المولدة بالذكاء الاصطناعي وتعيينها كخلفية لـ Canvas أو حفظها في ذاكرة الهاتف تلقائياً.",
+          "icon": "🖼️",
+          "code": "when Button_Generate.Click\ndo call ImageBot1.CreateImage (prompt = TextBox_Prompt.Text)\n\nwhen ImageBot1.ImageCreated (image)\ndo set Image_Result.Picture to get image",
+          "example": "تطبيق صانع الصور السحري (AI Image Creator Studio) يولد لوحات فنية مذهلة من مجرد وصف كلمات مكتوبة."
+        }
+      ]
+    }
+  ]
+}

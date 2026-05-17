@@ -1,0 +1,150 @@
+{
+  "quiz_title": "النموذج الأول: أساسيات الواجهة ولوحة الرسم",
+  "quick_brief": "تحدي الأسبوع الأول: اختبر معلوماتك في أساسيات واجهة التطبيق وكيفية إضافة الأزرار واستخدام Canvas للرسم الحر بحركة الإصبع!",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "أي شاشة في بيئة MIT App Inventor تُستخدم لتصميم شكل التطبيق وإضافة الأزرار والصور؟",
+      "options": [
+        "شاشة البرمجة (Blocks Screen)",
+        "شاشة التصميم (Designer Screen)",
+        "شاشة التصدير (Export Screen)",
+        "قاعدة البيانات (TinyDB)"
+      ],
+      "correct": "شاشة التصميم (Designer Screen)",
+      "score": 10
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "ما هو العنصر المناسب لعرض نصوص توضيحية أو تعليمات للمستخدم ولا يمكن للمستخدم الكتابة بداخله مباشرة؟",
+      "options": [
+        "Button",
+        "TextBox",
+        "Label",
+        "Canvas"
+      ],
+      "correct": "Label",
+      "score": 10
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "أي حدث (Event Block) يُستخدم لتشغيل كتل برمجية معينة بمجرد قيام المستخدم بالنقر على زر معين؟",
+      "options": [
+        "when Button1.Click",
+        "when Button1.Dragged",
+        "when Button1.TouchUp",
+        "when Button1.Initialize"
+      ],
+      "correct": "when Button1.Click",
+      "score": 10
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "ما هو الترتيب (Layout) المناسب لوضع زرين بجانب بعضهما البعض أفقياً على الشاشة؟",
+      "options": [
+        "VerticalArrangement",
+        "HorizontalArrangement",
+        "TableArrangement",
+        "CanvasLayout"
+      ],
+      "correct": "HorizontalArrangement",
+      "score": 10
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "أي عنصر تفاعلي يسمح للمستخدم بالرسم الحر بإصبعه ويحتوي على أحداث اللمس والسحب؟",
+      "options": [
+        "Image",
+        "ListView",
+        "Canvas",
+        "PasswordTextBox"
+      ],
+      "correct": "Canvas",
+      "score": 10
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "كيف نقوم برسم خط مستمر على الـ Canvas عند سحب الإصبع؟",
+      "options": [
+        "باستخدام حدث Click واستدعاء DrawCircle",
+        "باستخدام حدث Dragged واستدعاء DrawLine",
+        "باستخدام حدث Touched واستدعاء Clear",
+        "باستخدام حدث Dragged واستدعاء DrawPoint"
+      ],
+      "correct": "باستخدام حدث Dragged واستدعاء DrawLine",
+      "score": 10
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "ما هي الأداة (Component) المناسبة لتنظيم العناصر على الشاشة على شكل شبكة من الصفوف والأعمدة؟",
+      "options": [
+        "HorizontalScrollArrangement",
+        "TableArrangement",
+        "VerticalScrollArrangement",
+        "ListPicker"
+      ],
+      "correct": "TableArrangement",
+      "score": 10
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "عند كتابة الكود: set Label1.TextColor to Red، ما الذي سيحدث للنص في التطبيق؟",
+      "options": [
+        "سيتغير حجم الخط",
+        "سيتغير لون الخط إلى الأحمر",
+        "سيختفي النص تماماً",
+        "سيتغير محتوى النص إلى كلمة Red"
+      ],
+      "correct": "سيتغير لون الخط إلى الأحمر",
+      "score": 10
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "أي خاصية في شاشة الخصائص (Properties) تُستخدم لتغيير النص المكتوب داخل الزر؟",
+      "options": [
+        "Name",
+        "Text",
+        "Width",
+        "Visible"
+      ],
+      "correct": "Text",
+      "score": 10
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "في شاشة البرمجة (Blocks Screen)، تحت أي قسم نجد اللبنات البرمجية الأساسية مثل الشروط (if) وحلقات التكرار؟",
+      "options": [
+        "Variables",
+        "Procedures",
+        "Control",
+        "Logic"
+      ],
+      "correct": "Control",
+      "score": 10
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "text": "اكتب الكتل البرمجية (Blocks) لتغيير لون الرسم في Canvas1 إلى اللون الأزرق (Blue) بمجرد الضغط على زر اسمه Button_Blue.",
+      "correct_code": "when Button_Blue.Click\ndo set Canvas1.PaintColor to Blue",
+      "score": 20
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "text": "اكتب الكود البرمجي لمسح كل الرسومات الموجودة وتنظيف لوحة Canvas1 عند النقر على زر اسمه Button_Clear.",
+      "correct_code": "when Button_Clear.Click\ndo call Canvas1.Clear",
+      "score": 20
+    }
+  ]
+}

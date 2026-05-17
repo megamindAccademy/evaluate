@@ -1,0 +1,150 @@
+{
+  "quiz_title": "النموذج الرابع: تصادم الكرات وقوائم المهام المنظمة",
+  "quick_brief": "تحدي الأسبوع الرابع: اختبر مهاراتك الرياضية والفيزيائية في برمجة اصطدام وارتداد الكرات (Ball Component) وعرض وإدارة المهام في الـ ListView!",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "أي عنصر برمي متحرك يوضع داخل Canvas ويمتلك شكلاً كروياً وخصائص فيزيائية جاهزة للارتداد؟",
+      "options": [
+        "ImageSprite",
+        "Ball",
+        "Button",
+        "TableArrangement"
+      ],
+      "correct": "Ball",
+      "score": 10
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "أي حدث برمي يُنفذ تلقائياً بمجرد ملامسة الكرة المتحركة لحافة أو حدود لوحة الرسم Canvas؟",
+      "options": [
+        "when Ball1.EdgeReached",
+        "when Ball1.CollidedWith",
+        "when Ball1.NoLongerCollidingWith",
+        "when Ball1.Flung"
+      ],
+      "correct": "when Ball1.EdgeReached",
+      "score": 10
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "لجعل الكرة ترتد تلقائياً عند اصطدامها بأي حافة، نستخدم الدالة البرمجية:",
+      "options": [
+        "call Ball1.Bounce (edge)",
+        "call Ball1.MoveTo (x, y)",
+        "set Ball1.Heading to",
+        "set Ball1.Speed to"
+      ],
+      "correct": "call Ball1.Bounce (edge)",
+      "score": 10
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "ما هي اللبنة البرمجية المستخدمة لإنشاء مصفوفة (قائمة برمجية فارغة) لتخزين المهام بداخلها؟",
+      "options": [
+        "create empty list",
+        "add items to list",
+        "select list item",
+        "length of list"
+      ],
+      "correct": "create empty list",
+      "score": 10
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "أي عنصر واجهة نستخدمه لعرض القائمة البرمجية (List) على شاشة التطبيق بشكل عمودي تفاعلي؟",
+      "options": [
+        "TextBox",
+        "ListView",
+        "Label",
+        "PasswordTextBox"
+      ],
+      "correct": "ListView",
+      "score": 10
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "أي خاصية في عنصر الـ ListView يجب إسناد القائمة إليها لعرض محتوياتها فوراً على الشاشة للمستخدم؟",
+      "options": [
+        "Elements",
+        "Selection",
+        "TextSize",
+        "Visible"
+      ],
+      "correct": "Elements",
+      "score": 10
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "عند حدوث تصادم بين الكرة Ball1 ومضرب اللاعب، لتغيير اتجاه الكرة لترتد بشكل واقعي، نعدل زاوية الحركة المسمى بـ:",
+      "options": [
+        "Heading",
+        "Speed",
+        "Interval",
+        "Radius"
+      ],
+      "correct": "Heading",
+      "score": 10
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "أي لبنة نستخدمها لإضافة مهمة جديدة يكتبها المستخدم إلى مصفوفتنا البرمجية المسمى global taskList؟",
+      "options": [
+        "add items to list (list, item)",
+        "remove list item (list, index)",
+        "replace list item (list, index)",
+        "create empty list"
+      ],
+      "correct": "add items to list (list, item)",
+      "score": 10
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "عند برمجة ارتداد الكرة عند ملامسة المضرب، كيف نعرف الكائن الآخر الذي تصادمت معه الكرة؟",
+      "options": [
+        "باستخدام متغير edge المحلي",
+        "باستخدام متغير other المحلي المتاح بالحدث",
+        "باستخدام قيمة X و Y",
+        "باستخدام عنصر TinyDB"
+      ],
+      "correct": "باستخدام متغير other المحلي المتاح بالحدث",
+      "score": 10
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "ما هي اللبنة التي تعطينا عدد العناصر الإجمالي المخزنة داخل مصفوفة برمجية معينة؟",
+      "options": [
+        "length of list",
+        "is list empty",
+        "list to csv row",
+        "reverse list"
+      ],
+      "correct": "length of list",
+      "score": 10
+    },
+    {
+      "id": 11,
+      "type": "task",
+      "text": "اكتب الكود البرمجي لجعل الكرة Ball1 ترتد عند ملامسة الحواف باستخدام متغير الحافة المحلي المسمى edge.",
+      "correct_code": "when Ball1.EdgeReached (edge)\ndo call Ball1.Bounce (get edge)",
+      "score": 20
+    },
+    {
+      "id": 12,
+      "type": "task",
+      "text": "اكتب الكود لإضافة النص المكتوب داخل TextBox1 إلى قائمة المهام البرمجية المسماة global_myTasks.",
+      "correct_code": "add items to list (list = get global_myTasks, item = get TextBox1.Text)",
+      "score": 20
+    }
+  ]
+}
