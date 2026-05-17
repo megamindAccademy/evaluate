@@ -345,6 +345,62 @@ function handleRegistrationSubmit(e) {
     initRecapScreen();
 }
 
+// Helper to render beautiful visual blocks/code for recap screens
+function renderRecapVisualBlock(blockText, courseId) {
+    const text = blockText.trim();
+    const isPython = courseId.includes('python') || courseId === 'ai';
+    
+    if (isPython) {
+        return `<code style="background: #1e1e2f; color: #f8f8f2; padding: 5px 11px; border-radius: 8px; font-family: 'Consolas', 'Courier New', monospace; font-size: 1.3rem; border: 1px solid #313244; box-shadow: inset 0 1px 3px rgba(0,0,0,0.2); margin: 4px; display: inline-block; direction: ltr; text-align: left;">${text}</code>`;
+    }
+    
+    // Block-based coding visual rendering style
+    const lowerText = text.toLowerCase();
+    let bg = '#4c97ff'; // Motion blue
+    let border = '#2972d6';
+    let color = 'white';
+    
+    if (lowerText.startsWith('when') || lowerText.includes('click') || lowerText.includes('shake') || lowerText.includes('receive') || lowerText.includes('pressed')) {
+        bg = '#ffbf00'; // Event yellow
+        border = '#e6ac00';
+        color = '#1e293b';
+    } else if (lowerText.includes('if ') || lowerText.includes('repeat') || lowerText.includes('forever') || lowerText.includes('wait') || lowerText.includes('stop')) {
+        bg = '#ffab19'; // Control orange
+        border = '#cf8b10';
+        color = 'white';
+    } else if (lowerText.includes('say') || lowerText.includes('costume') || lowerText.includes('show') || lowerText.includes('hide') || lowerText.includes('looks') || lowerText.includes('backdrop') || lowerText.includes('text overlay')) {
+        bg = '#9966ff'; // Looks purple
+        border = '#774ecc';
+        color = 'white';
+    } else if (lowerText.includes('sound') || lowerText.includes('play') || lowerText.includes('beep') || lowerText.includes('audio')) {
+        bg = '#cf63cf'; // Sound pink
+        border = '#a84fa8';
+        color = 'white';
+    } else if (lowerText.includes('touching') || lowerText.includes('key') || lowerText.includes('mouse') || lowerText.includes('sensing') || lowerText.includes('sensor')) {
+        bg = '#4cbfe6'; // Sensing cyan
+        border = '#2da1c7';
+        color = 'white';
+    } else if (lowerText.includes('physics') || lowerText.includes('force') || lowerText.includes('gravity') || lowerText.includes('bounce') || lowerText.includes('collision') || lowerText.includes('velocity')) {
+        bg = '#0fbd8c'; // Physics green
+        border = '#0b8e69';
+        color = 'white';
+    } else if (lowerText.includes('face') || lowerText.includes('landmark') || lowerText.includes('ml ') || lowerText.includes('ai ') || lowerText.includes('model') || lowerText.includes('vision') || lowerText.includes('detect') || lowerText.includes('recogni')) {
+        bg = '#2da1c7'; // AI dark cyan
+        border = '#1a7a99';
+        color = 'white';
+    } else if (lowerText.includes('pen ') || lowerText.includes('erase') || lowerText.includes('draw')) {
+        bg = '#0fbd8c'; // Pen green
+        border = '#0b8e69';
+        color = 'white';
+    }
+    
+    return `
+        <div style="background: ${bg}; color: ${color}; padding: 6px 14px; border-radius: 8px 4px 4px 8px; font-family: 'Outfit', sans-serif; font-weight: bold; font-size: 1.25rem; display: inline-flex; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 6px solid ${border}; border-top: 2px solid rgba(255,255,255,0.25); margin: 4px; transition: transform 0.2s; cursor: default; user-select: none;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            ${text}
+        </div>
+    `;
+}
+
 // 1. Initialize Recap Screen (Grouped by Sessions)
 function initRecapScreen() {
     if (!recapData) return;
@@ -411,7 +467,8 @@ function initRecapScreen() {
                     pointsToRender.push({
                         icon: "🧱",
                         title: "Key Blocks & Code Concepts",
-                        desc: session.blocks.join(", ")
+                        desc: session.blocks.join(", "),
+                        blocksArray: session.blocks
                     });
                 }
                 if (session.project) {
@@ -430,17 +487,51 @@ function initRecapScreen() {
                 card.setAttribute('dir', cardDir);
                 card.style.textAlign = cardDir === 'ltr' ? 'left' : 'right';
 
+                // Construct elements for blocks, code, and examples
+                let blocksHtml = '';
+                if (point.blocksArray && Array.isArray(point.blocksArray)) {
+                    blocksHtml = `
+                        <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px; width: 100%; direction: ltr; justify-content: flex-start; text-align: left;">
+                            ${point.blocksArray.map(b => renderRecapVisualBlock(b, currentCourse)).join('')}
+                        </div>
+                    `;
+                }
+
+                let codeHtml = '';
+                if (point.code) {
+                    codeHtml = `
+                        <div class="recap-card-code" style="background: #1e1e2f; color: #f8f8f2; padding: 12px 16px; border-radius: 12px; font-family: 'Consolas', 'Courier New', monospace; font-size: 1.25rem; margin-top: 12px; border-left: 4px solid var(--primary); text-align: left; direction: ltr; box-shadow: inset 0 2px 8px rgba(0,0,0,0.3); overflow-x: auto; white-space: pre-wrap; word-break: break-all; width: 100%;">${point.code}</div>
+                    `;
+                }
+
+                let exampleHtml = '';
+                if (point.example) {
+                    const exDir = getTextDirection(point.example);
+                    exampleHtml = `
+                        <div class="recap-card-example" style="background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px 14px; border-radius: 10px; font-size: 1.3rem; margin-top: 12px; font-weight: 500; display: flex; align-items: center; gap: 8px; direction: ${exDir}; text-align: ${exDir === 'ltr' ? 'left' : 'right'}; width: 100%;">
+                            <span>💡 <strong>مثال:</strong></span>
+                            <span>${point.example}</span>
+                        </div>
+                    `;
+                }
+
                 card.innerHTML = cardDir === 'ltr' ? `
                     <div class="recap-card-icon" style="margin-right: 20px;">${point.icon}</div>
-                    <div class="recap-card-content" style="text-align: left; direction: ltr;">
+                    <div class="recap-card-content" style="text-align: left; direction: ltr; flex: 1;">
                         <h4 style="text-align: left; font-family: inherit; font-size: 1.8rem; font-weight: 900; color: var(--tertiary-dark); margin: 0 0 8px 0;">${point.title}</h4>
                         <p style="text-align: left; font-family: inherit; font-size: 1.4rem; font-weight: normal; line-height: 1.8; color: #4a5568; margin: 0; unicode-bidi: plaintext;">${point.desc}</p>
+                        ${blocksHtml}
+                        ${codeHtml}
+                        ${exampleHtml}
                     </div>
                 ` : `
                     <div class="recap-card-icon" style="margin-left: 20px;">${point.icon}</div>
-                    <div class="recap-card-content" style="text-align: right; direction: rtl;">
+                    <div class="recap-card-content" style="text-align: right; direction: rtl; flex: 1;">
                         <h4 style="text-align: right; font-family: inherit; font-size: 1.8rem; font-weight: 900; color: var(--tertiary-dark); margin: 0 0 8px 0;">${point.title}</h4>
                         <p style="text-align: right; font-family: inherit; font-size: 1.4rem; font-weight: normal; line-height: 1.8; color: #4a5568; margin: 0; unicode-bidi: plaintext;">${point.desc}</p>
+                        ${blocksHtml}
+                        ${codeHtml}
+                        ${exampleHtml}
                     </div>
                 `;
                 recapCardsGridEl.appendChild(card);

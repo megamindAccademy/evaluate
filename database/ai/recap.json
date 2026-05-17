@@ -9,17 +9,20 @@
         {
           "icon": "🧠",
           "title": "AI vs. Machine Learning vs. Deep Learning",
-          "desc": "Artificial Intelligence (AI) simulates human intelligence. Machine Learning (ML) lets systems learn from data over time. Deep Learning (DL) uses complex neural networks mimicking human brain cells and requires massive data."
+          "desc": "Artificial Intelligence (AI) simulates human intelligence. Machine Learning (ML) lets systems learn from data over time. Deep Learning (DL) uses complex neural networks mimicking human brain cells and requires massive data.",
+          "example": "AI: Smart systems. ML: Learns from data over time. DL: Neural networks mimicking brain cells."
         },
         {
           "icon": "🎯",
           "title": "K-Nearest Neighbor (K-NN) Algorithm",
-          "desc": "One of the simplest supervised learning methods. It classifies a new, unknown item based on the majority vote of its closest neighbors in a graphic space."
+          "desc": "One of the simplest supervised learning methods. It classifies a new, unknown item based on the majority vote of its closest neighbors in a graphic space.",
+          "example": "Classifies an unknown coordinate point based on the majority vote of its coordinate neighbors."
         },
         {
           "icon": "📐",
           "title": "Euclidean Distance",
-          "desc": "The geometric distance representing the shortest straight line between two coordinate points on a graph, used by K-NN to identify the nearest neighbors."
+          "desc": "The geometric distance representing the shortest straight line between two coordinate points on a graph, used by K-NN to identify the nearest neighbors.",
+          "code": "# Shortest straight line distance between (x1, y1) and (x2, y2):\ndistance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)"
         }
       ]
     },
@@ -29,17 +32,20 @@
         {
           "icon": "👀",
           "title": "Human vs. Computer Vision",
-          "desc": "Human vision is biological (eyes & brain). Computer vision is an artificial system using digital cameras and machine learning algorithms to capture and interpret visual data."
+          "desc": "Human vision is biological (eyes & brain). Computer vision is an artificial system using digital cameras and machine learning algorithms to capture and interpret visual data.",
+          "example": "Human: biological vision (eyes). Computer: digital camera streams + matrix pixel arrays."
         },
         {
           "icon": "🐍",
           "title": "OpenCV Library for Computer Vision",
-          "desc": "A huge, powerful Python library designed to process images/videos and solve computer vision problems. Install it using the terminal command: pip install opencv-python."
+          "desc": "A huge, powerful Python library designed to process images/videos and solve computer vision problems. Install it using the terminal command: pip install opencv-python.",
+          "code": "import cv2\n# Read image into pixel matrix grid:\nimg = cv2.imread(\"photo.jpg\")\ncv2.imshow(\"OpenCV Window\", img)"
         },
         {
           "icon": "🕵️‍♂️",
           "title": "Haar Cascade Face Detection",
-          "desc": "A fast feature-based algorithm that calculates differences in light and dark pixel intensities (Haar-like features) to quickly locate and box human faces."
+          "desc": "A fast feature-based algorithm that calculates differences in light and dark pixel intensities (Haar-like features) to quickly locate and box human faces.",
+          "code": "face_cascade = cv2.CascadeClassifier(\"haarcascade_frontalface_default.xml\")\nfaces = face_cascade.detectMultiScale(gray_img, 1.1, 4)\nfor (x, y, w, h) in faces:\n    cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)"
         }
       ]
     },
@@ -49,17 +55,20 @@
         {
           "icon": "🚀",
           "title": "Automation via PyWhatKit",
-          "desc": "An easy-to-use library in Python to automate daily tasks like sending instant WhatsApp messages or playing videos on YouTube using simple Python commands. Install it via: pip install pywhatkit."
+          "desc": "An easy-to-use library in Python to automate daily tasks like sending instant WhatsApp messages or playing videos on YouTube using simple Python commands. Install it via: pip install pywhatkit.",
+          "code": "import pywhatkit\n# Instantly launch and search YouTube:\npywhatkit.playonyt(\"AI & Robotics for Kids\")\n# Send WhatsApp text automatically:\npywhatkit.sendwhatmsg(\"+20123456789\", \"Hello! 🌟\", 15, 30)"
         },
         {
           "icon": "💬",
           "title": "Generative AI & LLMs (ChatGPT)",
-          "desc": "ChatGPT is an AI chatbot by OpenAI built on Large Language Models (LLM). GPT stands for Generative Pre-trained Transformer, which excels in understanding and generating human-like text."
+          "desc": "ChatGPT is an AI chatbot by OpenAI built on Large Language Models (LLM). GPT stands for Generative Pre-trained Transformer, which excels in understanding and generating human-like text.",
+          "example": "Generative AI: Models trained on huge datasets that synthesize human-like texts, voices, or drawings."
         },
         {
           "icon": "⚖️",
           "title": "Rule-Based Bots vs. Generative AI",
-          "desc": "Traditional bots follow fixed, pre-programmed scripts and cannot handle unexpected replies. Generative AI models learn continuously, understanding flexible, natural language conversation."
+          "desc": "Traditional bots follow fixed, pre-programmed scripts and cannot handle unexpected replies. Generative AI models learn continuously, understanding flexible, natural language conversation.",
+          "example": "Rule-Based: follow strict 'if' logic paths. Generative AI: dynamically understands flexible sentence intents."
         }
       ]
     },
@@ -69,17 +78,20 @@
         {
           "icon": "🧱",
           "title": "WotNot Chatbot Platform",
-          "desc": "A visual, no-code drag-and-drop chatbot builder that allows us to construct interactive chat scripts and deploy them easily to websites, WhatsApp, or Messenger."
+          "desc": "A visual, no-code drag-and-drop chatbot builder that allows us to construct interactive chat scripts and deploy them easily to websites, WhatsApp, or Messenger.",
+          "example": "Visually drag and snap options, greetings, and fields to assemble customer care chat workflows."
         },
         {
           "icon": "📢",
           "title": "Send Message Block",
-          "desc": "A simple chatbot block designed to display greetings, helpful tips, or product details to the user without expecting or waiting for a reply."
+          "desc": "A simple chatbot block designed to display greetings, helpful tips, or product details to the user without expecting or waiting for a reply.",
+          "example": "Chat node designed to display a text prompt, e.g. \"Hi! How can Megaminds help you today?\""
         },
         {
           "icon": "🔀",
           "title": "Collect Input & Options Blocks",
-          "desc": "Collect Input asks a question and stores the visitor's answer as a variable. Options displays clickable buttons to branch the chat path based on user choice."
+          "desc": "Collect Input asks a question and stores the visitor's answer as a variable. Options displays clickable buttons to branch the chat path based on user choice.",
+          "example": "Collect Input: asks a question and stores reply. Options: offers quick clickable choice buttons."
         }
       ]
     },
@@ -89,17 +101,20 @@
         {
           "icon": "🕸️",
           "title": "Convolutional Neural Networks (CNN)",
-          "desc": "A subclass of deep learning neural networks specifically engineered to process visual inputs (images and videos) by mimicking how the brain extracts features."
+          "desc": "A subclass of deep learning neural networks specifically engineered to process visual inputs (images and videos) by mimicking how the brain extracts features.",
+          "example": "Network: Input Image -> Feature Convolutions -> Pooling Downsizing -> 1D Flattening -> Dense Categories Output"
         },
         {
           "icon": "🔄",
           "title": "Weight Sharing in CNNs",
-          "desc": "Unlike Fully Connected (FC) networks, CNN layers share weights across adjacent pixels, which drastically reduces computational parameters and preserves local patterns."
+          "desc": "Unlike Fully Connected (FC) networks, CNN layers share weights across adjacent pixels, which drastically reduces computational parameters and preserves local patterns.",
+          "example": "Adjacent pixels share a single weight filter, saving massive compute memory during convolutions."
         },
         {
           "icon": "📊",
           "title": "CNN Layers & Matplotlib Visualization",
-          "desc": "A CNN contains Convolutional (feature extraction), Pooling (downsizing), Flattening (1D conversion), and Dense (classification) layers. We plot results with Matplotlib (pip install matplotlib)."
+          "desc": "A CNN contains Convolutional (feature extraction), Pooling (downsizing), Flattening (1D conversion), and Dense (classification) layers. We plot results with Matplotlib (pip install matplotlib).",
+          "code": "import matplotlib.pyplot as plt\nplt.plot(history['accuracy'], label='Accuracy')\nplt.title(\"CNN Model Performance\")\nplt.show()"
         }
       ]
     },
@@ -109,17 +124,20 @@
         {
           "icon": "🎯",
           "title": "Google Teachable Machine",
-          "desc": "An awesome Google web tool to train classification models with your camera or pictures, and export them as a lightweight TensorFlow Lite (.tflite) file and labels.txt."
+          "desc": "An awesome Google web tool to train classification models with your camera or pictures, and export them as a lightweight TensorFlow Lite (.tflite) file and labels.txt.",
+          "example": "Online camera portal. Categorize photos -> Train neural model -> Export lightweight 'model.tflite' file."
         },
         {
           "icon": "📓",
           "title": "Running TFLite inside Jupyter Notebook",
-          "desc": "We load the model using the TFLite Interpreter, use NumPy for mathematical matrix operations, and Pillow (PIL) to open, manipulate, and resize test images."
+          "desc": "We load the model using the TFLite Interpreter, use NumPy for mathematical matrix operations, and Pillow (PIL) to open, manipulate, and resize test images.",
+          "code": "import tensorflow as tf\ninterpreter = tf.lite.Interpreter(model_path=\"model.tflite\")\ninterpreter.allocate_tensors()"
         },
         {
           "icon": "🖼️",
           "title": "Image Pre-processing (Normalization)",
-          "desc": "Images are loaded as coordinate matrices. We normalize pixels by dividing by 255.0 to scale them between 0 and 1, and add a Batch Dimension so our TFLite model can read the input."
+          "desc": "Images are loaded as coordinate matrices. We normalize pixels by dividing by 255.0 to scale them between 0 and 1, and add a Batch Dimension so our TFLite model can read the input.",
+          "code": "# Scale image pixels 0-255 down to 0.0-1.0:\nnormalized = img / 255.0\n# Expand batch dimension shape to [1, 224, 224, 3]:\ninput_data = np.expand_dims(normalized, axis=0)"
         }
       ]
     },
@@ -129,17 +147,20 @@
         {
           "icon": "📋",
           "title": "Machine Learning Steps",
-          "desc": "Every project follows 5 phases: 1) Problem definition, 2) Data collection, 3) Data preparation, 4) Model training, and 5) Evaluation to test accuracy."
+          "desc": "Every project follows 5 phases: 1) Problem definition, 2) Data collection, 3) Data preparation, 4) Model training, and 5) Evaluation to test accuracy.",
+          "example": "1) Define Goal -> 2) Collect Data -> 3) Prepare Data -> 4) Train Model -> 5) Evaluate Accuracy"
         },
         {
           "icon": "🗑️",
           "title": "Garbage In, Garbage Out Rule",
-          "desc": "An essential data science rule: if the training data is low quality, badly labeled, or contains errors, the trained model's predictions will be completely inaccurate."
+          "desc": "An essential data science rule: if the training data is low quality, badly labeled, or contains errors, the trained model's predictions will be completely inaccurate.",
+          "example": "If your training drawings are badly labeled, cropped, or blurry, your trained AI model will make terrible predictions."
         },
         {
           "icon": "🎨",
           "title": "Drawing Datasets (ML for Kids)",
-          "desc": "We hand-drew visual shapes (Hearts, Stars, Flowers) with paint tools (gathering 15 drawings per class) and uploaded them to ML for Kids to teach the computer shape features."
+          "desc": "We hand-drew visual shapes (Hearts, Stars, Flowers) with paint tools (gathering 15 drawings per class) and uploaded them to ML for Kids to teach the computer shape features.",
+          "example": "Draw 15+ geometric vectors (Star, Heart, Square) to populate label buckets for classifier training."
         }
       ]
     },
@@ -149,17 +170,20 @@
         {
           "icon": "🔗",
           "title": "APIs (Application Programming Interfaces)",
-          "desc": "A software bridge that allows your Python code to request shape predictions from an online trained model and fetch the predicted labels instantly using a secure API Key."
+          "desc": "A software bridge that allows your Python code to request shape predictions from an online trained model and fetch the predicted labels instantly using a secure API Key.",
+          "code": "import requests\n# Request prediction from online model API:\nresponse = requests.post(API_URL, headers=headers, json=data)\nprediction = response.json()"
         },
         {
           "icon": "📂",
           "title": "Requirements File (requirements.txt)",
-          "desc": "A text file listing all library dependencies needed for your project, allowing a developer to install all packages at once with a single command: pip install -r requirements.txt."
+          "desc": "A text file listing all library dependencies needed for your project, allowing a developer to install all packages at once with a single command: pip install -r requirements.txt.",
+          "code": "# File requirements.txt:\nopencv-python\nmatplotlib\nnumpy\nmediapipe\ncvzone\n# Install all with: pip install -r requirements.txt"
         },
         {
           "icon": "🔄",
           "title": "Batch Predictions & Loops",
-          "desc": "Writing Python for-loops to iterate over multiple unseen testing images, pass them to our API, and output the predicted class name along with the model's confidence level %."
+          "desc": "Writing Python for-loops to iterate over multiple unseen testing images, pass them to our API, and output the predicted class name along with the model's confidence level %.",
+          "code": "test_photos = [\"cat1.jpg\", \"cat2.jpg\", \"dog1.jpg\"]\nfor photo in test_photos:\n    result = model.predict(photo)\n    print(f\"File: {photo} -> Prediction: {result}\")"
         }
       ]
     },
@@ -169,17 +193,20 @@
         {
           "icon": "📦",
           "title": "Face Detection vs. Object Detection",
-          "desc": "Face detection only looks for faces. Object detection identifies and labels hundreds of different categories (e.g. cars, dogs, people) and frames their coordinate positions (Bounding Boxes)."
+          "desc": "Face detection only looks for faces. Object detection identifies and labels hundreds of different categories (e.g. cars, dogs, people) and frames their coordinate positions (Bounding Boxes).",
+          "example": "Face Detection: locates faces only. Object Detection: labels 100+ items with coordinate boundary boxes."
         },
         {
           "icon": "📡",
           "title": "OpenCV DNN Module",
-          "desc": "A highly optimized Deep Neural Network module within OpenCV that allows developers to import pre-trained deep learning weights and network architectures easily."
+          "desc": "A highly optimized Deep Neural Network module within OpenCV that allows developers to import pre-trained deep learning weights and network architectures easily.",
+          "code": "net = cv2.dnn.readNetFromTensorflow(\"frozen_inference_graph.pb\", \"config.pbtxt\")"
         },
         {
           "icon": "⚙️",
           "title": "Model Input Calibration",
-          "desc": "Configuring model input scales, dimensions (like 320x320 with setInputSize), mean values, and channel swapping (swapRB) so the model processes camera streams correctly."
+          "desc": "Configuring model input scales, dimensions (like 320x320 with setInputSize), mean values, and channel swapping (swapRB) so the model processes camera streams correctly.",
+          "code": "# Format camera frame scale and dimensions to match network layers:\nblob = cv2.dnn.blobFromImage(frame, 1.0/127.5, (320, 320), (127.5, 127.5, 127.5), swapRB=True)"
         }
       ]
     },
@@ -189,17 +216,20 @@
         {
           "icon": "🛸",
           "title": "Roboflow Computer Vision Suite",
-          "desc": "A scond-to-none web platform to collect custom images, draw bounding boxes (annotation/labeling), organize datasets, train deep learning models, and test them live."
+          "desc": "A scond-to-none web platform to collect custom images, draw bounding boxes (annotation/labeling), organize datasets, train deep learning models, and test them live.",
+          "example": "Computer Vision Portal: Upload photos -> Annotate boxes -> Augment -> Train & download prediction scripts."
         },
         {
           "icon": "✏️",
           "title": "Image Annotation (Labeling)",
-          "desc": "The process of drawing rectangles around target items (e.g., cups, toy robots) in photos and assigning their class names so the model understands exactly what to detect."
+          "desc": "The process of drawing rectangles around target items (e.g., cups, toy robots) in photos and assigning their class names so the model understands exactly what to detect.",
+          "example": "Draw box tags directly around items in dataset images to teach the AI what coordinates represent objects."
         },
         {
           "icon": "⚡",
           "title": "Deploying Custom Models",
-          "desc": "Once trained on Roboflow, we test model accuracy using our webcam and download pre-made Python deployment scripts to run custom detection algorithms locally."
+          "desc": "Once trained on Roboflow, we test model accuracy using our webcam and download pre-made Python deployment scripts to run custom detection algorithms locally.",
+          "code": "from roboflow import Roboflow\nrf = Roboflow(api_key=\"YOUR_API_KEY\")\nproject = rf.workspace().project(\"custom-detection\")\nmodel = project.version(1).model"
         }
       ]
     },
@@ -209,17 +239,20 @@
         {
           "icon": "🖖",
           "title": "MediaPipe & cvzone Hand Tracking",
-          "desc": "MediaPipe tracks high-speed body landmarks, and cvzone wraps this in simple, developer-friendly Python functions. Install them using: pip install cvzone mediapipe."
+          "desc": "MediaPipe tracks high-speed body landmarks, and cvzone wraps this in simple, developer-friendly Python functions. Install them using: pip install cvzone mediapipe.",
+          "code": "from cvzone.HandTrackingModule import HandDetector\nimport cv2\n\ndetector = HandDetector(detectionCon=0.8, maxHands=2)\n# Inside loop:\nhands, img = detector.findHands(img)"
         },
         {
           "icon": "📍",
           "title": "21 Hand Landmarks Map",
-          "desc": "The tracking model detects the palm first (Palm Detection) and then maps 21 digital coordinate points representing joints and fingertips on the hand in 3D space."
+          "desc": "The tracking model detects the palm first (Palm Detection) and then maps 21 digital coordinate points representing joints and fingertips on the hand in 3D space.",
+          "example": "High-speed palm coordinate tracker that maps 21 skeletal joints representing palm and fingertip positions."
         },
         {
           "icon": "☝️",
           "title": "Counting Raised Fingers (fingersUp)",
-          "desc": "A fantastic function in cvzone's HandDetector that checks coordinates and returns a binary list indicating which fingers are currently raised (e.g. [0, 1, 1, 0, 0])."
+          "desc": "A fantastic function in cvzone's HandDetector that checks coordinates and returns a binary list indicating which fingers are currently raised (e.g. [0, 1, 1, 0, 0]).",
+          "code": "# Returns raised state: [Thumb, Index, Middle, Ring, Pinky]:\nfingers = detector.fingersUp(hand1)\nprint(fingers) # e.g. [0, 1, 1, 0, 0] (Index & Middle up)"
         }
       ]
     },
@@ -229,17 +262,20 @@
         {
           "icon": "⏳",
           "title": "Countdown Timer (cv2.putText)",
-          "desc": "Overlaying a visual countdown timer (3, 2, 1) on the game stream using cv2.putText() with custom fonts, colors, and scales to prompt players to make gestures on time."
+          "desc": "Overlaying a visual countdown timer (3, 2, 1) on the game stream using cv2.putText() with custom fonts, colors, and scales to prompt players to make gestures on time.",
+          "code": "if timer_seconds > 0:\n    cv2.putText(img, f\"Time: {timer_seconds}\", (50, 50), \n                cv2.FONT_HERSHEY_PLAIN, 3, (0, 255, 0), 3)"
         },
         {
           "icon": "⚖️",
           "title": "Game Decision Logic",
-          "desc": "Representing choices numerically (Rock=1, Paper=2, Scissors=3). We compare inputs: Player wins if (P=1, AI=3), (P=2, AI=1), or (P=3, AI=2). Otherwise, the AI wins."
+          "desc": "Representing choices numerically (Rock=1, Paper=2, Scissors=3). We compare inputs: Player wins if (P=1, AI=3), (P=2, AI=1), or (P=3, AI=2). Otherwise, the AI wins.",
+          "code": "# Rock=1, Paper=2, Scissors=3:\nif player == 1 and ai == 3:   # Rock beats Scissors\n    print(\"Player Wins!\")\nelif player == ai:\n    print(\"Tie!\")"
         },
         {
           "icon": "🏆",
           "title": "Scoreboards and Victory Screen",
-          "desc": "Tracking player/AI scores in lists, updating them dynamically on screen at the end of each round, and drawing cheerful visual overlays to celebrate the winning champion!"
+          "desc": "Tracking player/AI scores in lists, updating them dynamically on screen at the end of each round, and drawing cheerful visual overlays to celebrate the winning champion!",
+          "code": "cv2.putText(img, f\"Player: {player_score}\", (50, 100), cv2.FONT_HERSHEY_DUPLEX, 1, (255, 0, 0), 2)\ncv2.putText(img, f\"AI: {ai_score}\", (400, 100), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 0, 255), 2)"
         }
       ]
     }

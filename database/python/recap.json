@@ -9,17 +9,20 @@
         {
           "icon": "🐍",
           "title": "What is Python?",
-          "desc": "An incredibly popular, clean, high-level, and simple programming language that reads like plain English. It is heavily used in web building, data science, and Artificial Intelligence."
+          "desc": "An incredibly popular, clean, high-level, and simple programming language that reads like plain English. It is heavily used in web building, data science, and Artificial Intelligence.",
+          "example": "A clean, high-level language. Example: print(\"Hello, Python!\")"
         },
         {
           "icon": "🖨️",
           "title": "Printing via print()",
-          "desc": "The built-in function print() is our main channel to send messages from Python code, printing values, strings, or math outputs straight to the output screen."
+          "desc": "The built-in function print() is our main channel to send messages from Python code, printing values, strings, or math outputs straight to the output screen.",
+          "code": "print(\"Welcome to Megaminds Academy! 🚀\")\nprint(5 + 10)  # Prints 15"
         },
         {
           "icon": "📦",
           "title": "Variables as Data Boxes",
-          "desc": "Variables are named, virtual boxes inside the computer memory used to store various data values (like text strings or integers) so we can reuse them later in our scripts."
+          "desc": "Variables are named, virtual boxes inside the computer memory used to store various data values (like text strings or integers) so we can reuse them later in our scripts.",
+          "code": "player_name = \"Tobi\"\nscore = 10\nprint(player_name)\nprint(score)"
         }
       ]
     },
@@ -29,17 +32,20 @@
         {
           "icon": "🏷️",
           "title": "Python Data Types",
-          "desc": "Different kinds of data do different things! Core types include text strings (str), numbers (int, float), sequences (list, tuple), mappings (dict), and true/false states (bool)."
+          "desc": "Different kinds of data do different things! Core types include text strings (str), numbers (int, float), sequences (list, tuple), mappings (dict), and true/false states (bool).",
+          "code": "name = \"Alice\"       # String (str)\nage = 14             # Integer (int)\nheight = 1.65        # Float (float)\nis_winner = True     # Boolean (bool)"
         },
         {
           "icon": "🗣️",
           "title": "User Inputs via input()",
-          "desc": "The input() function pauses the program and allows visitors to type text. Note: input() always returns text as a string (str), so we convert it to numbers using int() or float() for math."
+          "desc": "The input() function pauses the program and allows visitors to type text. Note: input() always returns text as a string (str), so we convert it to numbers using int() or float() for math.",
+          "code": "# Always returns a string:\nuser_choice = input(\"Enter your choice: \")\n# Convert to numbers for math:\nage = int(input(\"Enter your age: \"))"
         },
         {
           "icon": "📋",
           "title": "Python Lists & Indexes",
-          "desc": "Lists store multiple items in a single variable using square brackets []. Elements are ordered, changeable, and zero-indexed (the first item is at index 0, the second at 1, etc.)."
+          "desc": "Lists store multiple items in a single variable using square brackets []. Elements are ordered, changeable, and zero-indexed (the first item is at index 0, the second at 1, etc.).",
+          "code": "colors = [\"red\", \"green\", \"blue\"]\nprint(colors[0])  # prints \"red\"\ncolors.append(\"yellow\") # Adds item to end"
         }
       ]
     },
@@ -49,17 +55,20 @@
         {
           "icon": "➕",
           "title": "Math Operators",
-          "desc": "Python makes calculations easy! We use standard symbols: + (addition), - (subtraction), * (multiplication), and / (division) to compute complex mathematical values."
+          "desc": "Python makes calculations easy! We use standard symbols: + (addition), - (subtraction), * (multiplication), and / (division) to compute complex mathematical values.",
+          "code": "sum = 10 + 5       # 15\nproduct = 4 * 3   # 12\ndivision = 10 / 3  # 3.3333333333333335"
         },
         {
           "icon": "⚖️",
           "title": "Comparison & Assignment Operators",
-          "desc": "Assignment operators like = and += store values. Comparison operators like == (equals), != (not equals), >, and < check values, returning a True or False Boolean."
+          "desc": "Assignment operators like = and += store values. Comparison operators like == (equals), != (not equals), >, and < check values, returning a True or False Boolean.",
+          "code": "x = 10\nx += 5   # x is now 15\nis_greater = (x > 12)  # True"
         },
         {
           "icon": "🗣️",
           "title": "String Indexing",
-          "desc": "A string acts like an unchangeable list of characters! We can extract individual characters using brackets, where the space character also counts as an index position."
+          "desc": "A string acts like an unchangeable list of characters! We can extract individual characters using brackets, where the space character also counts as an index position.",
+          "code": "msg = \"Python\"\nprint(msg[0])  # Prints 'P'\nprint(msg[-1]) # Prints 'n' (last char)"
         }
       ]
     },
@@ -69,17 +78,20 @@
         {
           "icon": "🔒",
           "title": "Ordered & Immutable Tuples",
-          "desc": "Tuples store multiple items in a single variable using round brackets (). Unlike lists, tuples are immutable, meaning their elements cannot be changed or edited after creation."
+          "desc": "Tuples store multiple items in a single variable using round brackets (). Unlike lists, tuples are immutable, meaning their elements cannot be changed or edited after creation.",
+          "code": "coordinates = (10, 20)  # Cannot be changed!\n# coordinates[0] = 15 -> Error!"
         },
         {
           "icon": "📖",
           "title": "Dictionaries as Key-Value Pairs",
-          "desc": "Dictionaries store data in structured key:value pairs using curly brackets {}. They do not allow duplicate keys and let you retrieve values instantly using their unique keys."
+          "desc": "Dictionaries store data in structured key:value pairs using curly brackets {}. They do not allow duplicate keys and let you retrieve values instantly using their unique keys.",
+          "code": "student = {\n    \"name\": \"Tobi\",\n    \"age\": 12,\n    \"grade\": \"A\"\n}\nprint(student[\"name\"]) # \"Tobi\""
         },
         {
           "icon": "📊",
           "title": "Comparing Python Data Structures",
-          "desc": "We use lists [] when items change, tuples () when items must stay constant for safety, and dictionaries {} when linking identifiers to specific descriptions."
+          "desc": "We use lists [] when items change, tuples () when items must stay constant for safety, and dictionaries {} when linking identifiers to specific descriptions.",
+          "code": "my_list = [1, 2]     # list [] (changeable)\nmy_tuple = (1, 2)    # tuple () (unchangeable)\nmy_dict = {\"a\": 1}   # dict {} (key:value)"
         }
       ]
     },
@@ -89,17 +101,20 @@
         {
           "icon": "🔀",
           "title": "Smart Decision Making (if-elif-else)",
-          "desc": "If-statements check conditions to run specific blocks of code. We use 'elif' to check additional conditions, and 'else' as a fallback when all other tests fail."
+          "desc": "If-statements check conditions to run specific blocks of code. We use 'elif' to check additional conditions, and 'else' as a fallback when all other tests fail.",
+          "code": "score = 85\nif score >= 90:\n    print(\"Excellent!\")\nelif score >= 75:\n    print(\"Great job!\")\nelse:\n    print(\"Keep practicing!\")"
         },
         {
           "icon": "🔁",
           "title": "Conditional Loop (while)",
-          "desc": "A while loop runs a block of code repeatedly as long as its condition remains True. We must increment our loop variable to avoid building a dangerous infinite loop!"
+          "desc": "A while loop runs a block of code repeatedly as long as its condition remains True. We must increment our loop variable to avoid building a dangerous infinite loop!",
+          "code": "count = 1\nwhile count <= 5:\n    print(\"Count:\", count)\n    count += 1"
         },
         {
           "icon": "🛑",
           "title": "Loop Controls: break & continue",
-          "desc": "Use the 'break' statement to exit a loop immediately, and 'continue' to skip the remaining code in the current round and jump straight to the next loop cycle."
+          "desc": "Use the 'break' statement to exit a loop immediately, and 'continue' to skip the remaining code in the current round and jump straight to the next loop cycle.",
+          "code": "while True:\n    answer = input(\"Type 'exit' to stop: \")\n    if answer == \"exit\":\n        break # terminates loop immediately"
         }
       ]
     },
@@ -109,17 +124,20 @@
         {
           "icon": "📊",
           "title": "For Loops & Sequences",
-          "desc": "A for-loop is used to iterate over sequence collections (lists, tuples, dicts) or characters in a string, performing an action for every element in order."
+          "desc": "A for-loop is used to iterate over sequence collections (lists, tuples, dicts) or characters in a string, performing an action for every element in order.",
+          "code": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfor fruit in fruits:\n    print(\"I love\", fruit)"
         },
         {
           "icon": "📐",
           "title": "The range() Function",
-          "desc": "Generates a sequence of numbers starting from 0 by default, incrementing by 1, and stopping before a specified number (e.g. range(5) yields 0, 1, 2, 3, 4)."
+          "desc": "Generates a sequence of numbers starting from 0 by default, incrementing by 1, and stopping before a specified number (e.g. range(5) yields 0, 1, 2, 3, 4).",
+          "code": "# Generates numbers from 0 to 4:\nfor i in range(5):\n    print(\"Step:\", i)"
         },
         {
           "icon": "🔳",
           "title": "Nested Loops",
-          "desc": "A loop inside another loop! The inner loop completes all its cycles once for every single iteration of the outer loop, which is useful for grid coordinates."
+          "desc": "A loop inside another loop! The inner loop completes all its cycles once for every single iteration of the outer loop, which is useful for grid coordinates.",
+          "code": "for row in range(3):\n    for col in range(3):\n        print(f\"({row}, {col})\", end=\" \")\n    print()"
         }
       ]
     },
@@ -129,17 +147,20 @@
         {
           "icon": "🛠️",
           "title": "Writing Functions (def)",
-          "desc": "A function is a reusable block of code created using the def keyword. It only executes when explicitly called by its name followed by parentheses."
+          "desc": "A function is a reusable block of code created using the def keyword. It only executes when explicitly called by its name followed by parentheses.",
+          "code": "def greet_user(name):\n    return \"Hello, \" + name + \"! 🌟\"\n\n# Call it:\nmsg = greet_user(\"Alice\")\nprint(msg)"
         },
         {
           "icon": "📥",
           "title": "Parameters vs. Arguments",
-          "desc": "Parameters are the variables defined in a function's parenthesis. Arguments are the actual, real values passed into the function when we call it."
+          "desc": "Parameters are the variables defined in a function's parenthesis. Arguments are the actual, real values passed into the function when we call it.",
+          "code": "def show_age(name, age): # name, age are parameters\n    print(name, \"is\", age)\n\nshow_age(\"Tobi\", 12)     # \"Tobi\", 12 are arguments"
         },
         {
           "icon": "📤",
           "title": "Returning Values",
-          "desc": "Functions perform work and can send results back to the caller using the 'return' statement, which also stops the function's execution immediately."
+          "desc": "Functions perform work and can send results back to the caller using the 'return' statement, which also stops the function's execution immediately.",
+          "code": "def add(a, b):\n    return a + b\n\nresult = add(10, 5)\nprint(result) # 15"
         }
       ]
     },
@@ -149,17 +170,20 @@
         {
           "icon": "📦",
           "title": "Importing External Libraries",
-          "desc": "Libraries are pre-written modules that handle complex tasks so we don't write them from scratch. We search packages on PyPI and install them using pip."
+          "desc": "Libraries are pre-written modules that handle complex tasks so we don't write them from scratch. We search packages on PyPI and install them using pip.",
+          "code": "import random\nnum = random.randint(1, 10)\nprint(\"Random:\", num)"
         },
         {
           "icon": "🐢",
           "title": "Turtle Drawing Canvas",
-          "desc": "The built-in Turtle module allows us to control a virtual pen (turtle) on a graphic canvas to draw custom shapes, lines, and colorful geometric designs."
+          "desc": "The built-in Turtle module allows us to control a virtual pen (turtle) on a graphic canvas to draw custom shapes, lines, and colorful geometric designs.",
+          "code": "import turtle\nt = turtle.Turtle()\nt.forward(100)\nt.left(90)\nturtle.done()"
         },
         {
           "icon": "🖌️",
           "title": "Turtle Customizers",
-          "desc": "We can change pen colors, adjust pen sizes, set fill colors, and control turtle speeds using simple built-in methods like color(), pensize(), and speed()."
+          "desc": "We can change pen colors, adjust pen sizes, set fill colors, and control turtle speeds using simple built-in methods like color(), pensize(), and speed().",
+          "code": "t.color(\"blue\")\nt.pensize(5)\nt.speed(10)\nt.begin_fill()\nt.circle(50)\nt.end_fill()"
         }
       ]
     },
@@ -169,17 +193,20 @@
         {
           "icon": "🏢",
           "title": "Classes vs. Objects",
-          "desc": "A Class is a blueprint or template (like a blueprint for a Car). An Object is an actual instance created from that blueprint (like a specific red Tesla)."
+          "desc": "A Class is a blueprint or template (like a blueprint for a Car). An Object is an actual instance created from that blueprint (like a specific red Tesla).",
+          "code": "class Hero:\n    def speak(self):\n        return \"Laser Blast! ⚡\"\n\n# Create object instances:\nhero1 = Hero()\nprint(hero1.speak())"
         },
         {
           "icon": "🧬",
           "title": "The __init__ Constructor",
-          "desc": "A special, built-in initializer function that runs automatically whenever we create a new object, setting up its starting properties and variables."
+          "desc": "A special, built-in initializer function that runs automatically whenever we create a new object, setting up its starting properties and variables.",
+          "code": "class Hero:\n    def __init__(self, name, power):\n        self.name = name       # Property\n        self.power = power     # Property"
         },
         {
           "icon": "👉",
           "title": "Understanding the self Parameter",
-          "desc": "The 'self' keyword points directly to the active object we are creating or modifying, letting us access and update its properties from within the class."
+          "desc": "The 'self' keyword points directly to the active object we are creating or modifying, letting us access and update its properties from within the class.",
+          "code": "class Dog:\n    def __init__(self, name):\n        self.name = name # self links to the unique object"
         }
       ]
     },
@@ -189,17 +216,20 @@
         {
           "icon": "🔌",
           "title": "The requests Library",
-          "desc": "A powerful Python library used to interact with web servers by sending HTTP requests (like GET and POST) to fetch web pages or submit forms."
+          "desc": "A powerful Python library used to interact with web servers by sending HTTP requests (like GET and POST) to fetch web pages or submit forms.",
+          "code": "import requests\nresponse = requests.get(\"https://api.github.com\")\nprint(response.status_code) # 200"
         },
         {
           "icon": "🕵️‍♂️",
           "title": "Brute Force & Hacking Scrips",
-          "desc": "A security concept where scripts systematically try dictionary combinations to crack weak passwords or test security robustness on local targets."
+          "desc": "A security concept where scripts systematically try dictionary combinations to crack weak passwords or test security robustness on local targets.",
+          "code": "# Educational concept - testing password strengths:\npasswords = [\"123456\", \"qwerty\", \"megaminds123\"]\nfor password in passwords:\n    if check_strength(password) == \"weak\":\n        print(password, \"is unsafe!\")"
         },
         {
           "icon": "🚀",
           "title": "Web Servers with Flask",
-          "desc": "Flask is a micro web framework in Python that allows us to set up routes, receive browser connections, and run our own local web servers easily."
+          "desc": "Flask is a micro web framework in Python that allows us to set up routes, receive browser connections, and run our own local web servers easily.",
+          "code": "from flask import Flask\napp = Flask(__name__)\n\n@app.route(\"/\")\ndef home():\n    return \"<h1>Welcome to Megaminds Server! 🌐</h1>\"\n\nif __name__ == \"__main__\":\n    app.run(port=5000)"
         }
       ]
     },
@@ -209,17 +239,20 @@
         {
           "icon": "📐",
           "title": "Setting Up the Game Canvas",
-          "desc": "Using the Turtle library to open a custom graphics window, configure its width and height, set a dark theme background, and turn off auto-tracer updates."
+          "desc": "Using the Turtle library to open a custom graphics window, configure its width and height, set a dark theme background, and turn off auto-tracer updates.",
+          "code": "import turtle\nwin = turtle.Screen()\nwin.title(\"Ping Pong Game\")\nwin.bgcolor(\"black\")\nwin.setup(width=800, height=600)\nwin.tracer(0) # turn off auto updates"
         },
         {
           "icon": "🏓",
           "title": "Creating Paddles & Ball",
-          "desc": "Initializing turtle objects representing player paddles and a game ball. We customize their shapes to squares/circles and position them on the canvas."
+          "desc": "Initializing turtle objects representing player paddles and a game ball. We customize their shapes to squares/circles and position them on the canvas.",
+          "code": "paddle = turtle.Turtle()\npaddle.speed(0)\npaddle.shape(\"square\")\npaddle.color(\"white\")\npaddle.shapesize(stretch_wid=5, stretch_len=1)\npaddle.penup()\npaddle.goto(-350, 0)"
         },
         {
           "icon": "📏",
           "title": "Visual Center Markers",
-          "desc": "Drawing dotted or solid lines down the center of our screen and setting up scoreboards using turtle.write() to show player scores in real-time."
+          "desc": "Drawing dotted or solid lines down the center of our screen and setting up scoreboards using turtle.write() to show player scores in real-time.",
+          "code": "pen = turtle.Turtle()\npen.speed(0)\npen.color(\"white\")\npen.penup()\npen.hideturtle()\npen.goto(0, 260)\npen.write(\"Player A: 0  Player B: 0\", align=\"center\", font=(\"Courier\", 24, \"normal\"))"
         }
       ]
     },
@@ -229,17 +262,20 @@
         {
           "icon": "⌨️",
           "title": "Key Bindings & Event Listening",
-          "desc": "Connecting paddle movement functions to specific keyboard keys (like 'W' and 'S' or Arrow Keys) using turtle.onkeypress() and turtle.listen()."
+          "desc": "Connecting paddle movement functions to specific keyboard keys (like 'W' and 'S' or Arrow Keys) using turtle.onkeypress() and turtle.listen().",
+          "code": "def paddle_up():\n    y = paddle.ycor()\n    paddle.sety(y + 20)\n\nwin.listen()\nwin.onkeypress(paddle_up, \"w\") # calls paddle_up when W is pressed"
         },
         {
           "icon": "⚽",
           "title": "Ball Physics & Collision Rules",
-          "desc": "Updating ball positions in a while-loop. We detect border collisions to bounce the ball, and paddle coordinates to reverse the ball's horizontal velocity."
+          "desc": "Updating ball positions in a while-loop. We detect border collisions to bounce the ball, and paddle coordinates to reverse the ball's horizontal velocity.",
+          "code": "# Inside game loop:\nball.setx(ball.xcor() + ball.dx)\nball.sety(ball.ycor() + ball.dy)\n\n# Border collision:\nif ball.ycor() > 290:\n    ball.sety(290)\n    ball.dy *= -1 # reverse direction"
         },
         {
           "icon": "🏆",
           "title": "Scores & Resetting Play",
-          "desc": "When the ball passes a paddle, we credit a point to the opposing player, reset the ball to the center, and update the scoreboard dynamically."
+          "desc": "When the ball passes a paddle, we credit a point to the opposing player, reset the ball to the center, and update the scoreboard dynamically.",
+          "code": "# If ball goes past left paddle:\nif ball.xcor() < -390:\n    ball.goto(0, 0)\n    ball.dx *= -1\n    score_b += 1\n    update_scoreboard()"
         }
       ]
     }
