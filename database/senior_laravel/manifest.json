@@ -11,5 +11,6 @@
     "quiz4.json",
     "quiz5.json",
     "quiz6.json"
-  ]
+  ],
+  "course_id": "senior_laravel"
 }
