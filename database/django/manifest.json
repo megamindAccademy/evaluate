@@ -1,0 +1,15 @@
+{
+  "title": "Django Backend Web Development 🐍",
+  "description": "Build highly scalable web applications, secure APIs, and relational databases using Django and Python!",
+  "icon": "🐍",
+  "status": "active",
+  "recap_file": "recap.json",
+  "quizzes": [
+    "quiz1.json",
+    "quiz2.json",
+    "quiz3.json",
+    "quiz4.json",
+    "quiz5.json",
+    "quiz6.json"
+  ]
+}

@@ -11,5 +11,6 @@
   "network_hacking",
   "ui_ux",
   "web_design",
-  "web_design_advanced"
+  "web_design_advanced",
+  "django"
 ]
