@@ -1,5 +1,5 @@
 {
-  "course_title": "🧠 الذكاء الاصطناعي للصغار - PicToBlox with AI",
+  "course_title": "PicToBlox with AI",
   "recap_subtitle": "Welcome, future AI scientists! Let's review the magical face filters, machine learning classifiers, voice recognizers, and hand-pose trackers we coded to teach computers how to see, hear, and think. Here is our 12-session summary:",
   "sessions": [
     {
@@ -183,5 +183,6 @@
       ],
       "project": "Air Painter - Write and draw glowing lines in empty air by pinching your fingers in front of your computer camera!"
     }
-  ]
+  ],
+  "course": "PicToBlox with AI"
 }

@@ -1,6 +1,6 @@
 {
   "course_id": "junior_mit_app",
-  "course_title": "📱 تطبيقات الموبايل للصغار - MIT Mobile App",
+  "course_title": "MIT Mobile App",
   "desc": "Create your own interactive Android apps without writing complex code! Drag and drop buttons, build Text-to-Speech voices, code math calculators, draw canvas sketches, pop bouncing balloons, and challenge a smart AI in Rock-Paper-Scissors! 📱🎨🎮",
   "status": "active",
   "recap_file": "recap.json",

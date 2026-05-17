@@ -1,6 +1,6 @@
 {
   "course_id": "junior_pictoblox_3d",
-  "course_title": "🧊 البرمجة ثلاثية الأبعاد للصغار - PicToBlox 3D",
+  "course_title": "PicToBlox 3D",
   "desc": "Step into the magical third dimension! Learn X-Y-Z coordinates, script camera animations, enable physics gravity, friction, and collisions, build automated Rube Goldberg machines, steer 3D racing cars, model the Solar System, and code a 3D First-Person Duck Hunter game! 🧊🚗🪐🏹",
   "status": "active",
   "recap_file": "recap.json",

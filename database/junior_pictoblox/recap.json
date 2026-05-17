@@ -1,5 +1,5 @@
 {
-  "course_title": "Junior PicToBlox 🤖",
+  "course_title": "PicToBlox",
   "recap_title": "🤖 Exciting Junior PicToBlox Recap for Young Creators!",
   "recap_subtitle": "Welcome, creative game makers! Let's explore the magical drag-and-drop code blocks and cool game projects we built in our Junior PicToBlox course. Review the sessions below:",
   "sessions": [
@@ -279,5 +279,6 @@
         }
       ]
     }
-  ]
+  ],
+  "course": "PicToBlox"
 }

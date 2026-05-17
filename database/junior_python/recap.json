@@ -1,5 +1,5 @@
 {
-  "course_title": "🐍 بايثون للصغار - Python Junior",
+  "course_title": "Python Junior",
   "recap_subtitle": "Step up to real text coding, superstar programmers! Let's review the syntax structures, loops, and custom classes we coded inside PicToBlox to command sprites using the power of Python. The 12 sessions are summarized below:",
   "sessions": [
     {
@@ -184,5 +184,6 @@
       ],
       "project": "Street Racing Part 2 - Complete racing game with steering opponent AI cars, border checks, and finish overlays!"
     }
-  ]
+  ],
+  "course": "Python Junior"
 }

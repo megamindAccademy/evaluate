@@ -1,5 +1,5 @@
 {
-  "course_title": "📱 تطبيقات الموبايل للصغار - MIT Mobile App",
+  "course_title": "MIT Mobile App",
   "recap_subtitle": "Hello, creative mobile app developers! Let's explore the awesome layouts, buttons, and sensors we used to build real Android applications on our phones. Here is a recap of our 12 amazing sessions:",
   "sessions": [
     {
@@ -185,5 +185,6 @@
       ],
       "project": "Rock-Paper-Scissors! - Tap buttons to play against the computer AI and see who gets crowned the absolute champion!"
     }
-  ]
+  ],
+  "course": "MIT Mobile App"
 }

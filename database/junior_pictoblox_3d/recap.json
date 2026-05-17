@@ -1,5 +1,5 @@
 {
-  "course_title": "🧊 البرمجة ثلاثية الأبعاد للصغار - PicToBlox 3D",
+  "course_title": "PicToBlox 3D",
   "recap_subtitle": "Step into the magical third dimension, future game designers! Let's review the exciting 3D spaces, gravity physics, and camera actions we coded to build realistic virtual worlds. The 12 sessions are summarized below:",
   "sessions": [
     {
@@ -183,5 +183,6 @@
       ],
       "project": "Polished Duck Hunter - Adding background tracks, laser blasts, and victory chimes to complete our 3D game!"
     }
-  ]
+  ],
+  "course": "PicToBlox 3D"
 }

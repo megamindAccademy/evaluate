@@ -1,6 +1,6 @@
 {
   "course_id": "junior_python",
-  "course_title": "🐍 بايثون للصغار - Python Junior",
+  "course_title": "Python Junior",
   "desc": "Bridge the gap from blocks to real code! Program PicToBlox sprites using real Python statements, control Tobi's walking animations with built-in functions, code Addition Bots, build loop drawings, navigate maze games, catch apples with scoreboards, and script a fully active multi-car Street Racing game! 🐍🚗🎮✨",
   "status": "active",
   "recap_file": "recap.json",
