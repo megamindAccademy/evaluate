@@ -83,6 +83,63 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnSaveEvaluationEl) btnSaveEvaluationEl.addEventListener('click', saveEvaluation);
     if (btnPrintEvalReportEl) btnPrintEvalReportEl.addEventListener('click', () => window.print());
 
+    // Dashboard Section Tabs Switching Logic
+    const tabSubmissionsBtn = document.getElementById('tabSubmissionsBtn');
+    const tabAidsBtn = document.getElementById('tabAidsBtn');
+    const tabSettingsBtn = document.getElementById('tabSettingsBtn');
+    const sectionSubmissions = document.getElementById('sectionSubmissions');
+    const sectionTeachingAids = document.getElementById('sectionTeachingAids');
+    const sectionSettings = document.getElementById('sectionSettings');
+
+    const switchDashTab = (activeTabBtn, activeSection) => {
+        [tabSubmissionsBtn, tabAidsBtn, tabSettingsBtn].forEach(b => b && b.classList.remove('active'));
+        [sectionSubmissions, sectionTeachingAids, sectionSettings].forEach(s => s && (s.style.display = 'none'));
+        
+        if (activeTabBtn) activeTabBtn.classList.add('active');
+        if (activeSection) activeSection.style.display = 'block';
+    };
+
+    if (tabSubmissionsBtn) tabSubmissionsBtn.addEventListener('click', () => switchDashTab(tabSubmissionsBtn, sectionSubmissions));
+    if (tabAidsBtn) tabAidsBtn.addEventListener('click', () => switchDashTab(tabAidsBtn, sectionTeachingAids));
+    if (tabSettingsBtn) tabSettingsBtn.addEventListener('click', () => switchDashTab(tabSettingsBtn, sectionSettings));
+
+    // Clear LocalStorage Logic
+    const btnClearLocalStorage = document.getElementById('btnClearLocalStorage');
+    const clearStorageSuccess = document.getElementById('clearStorageSuccess');
+
+    if (btnClearLocalStorage) {
+        btnClearLocalStorage.addEventListener('click', () => {
+            if (confirm('⚠️ هل أنت متأكد من رغبتك في مسح جميع البيانات والتخزين المحلي وتصفير النظام بالكامل؟')) {
+                localStorage.clear();
+                if (clearStorageSuccess) clearStorageSuccess.style.display = 'block';
+                setTimeout(() => {
+                    window.location.reload();
+                }, 2000);
+            }
+        });
+    }
+
+    // Auto-discover Teaching Aids
+    const teachingAidsContainer = document.getElementById('teachingAidsContainer');
+    if (teachingAidsContainer) {
+        fetch('./database/courses_index.json')
+            .then(res => res.json())
+            .then(coursesList => {
+                coursesList.forEach(courseId => {
+                    fetch(`./database/${courseId}/teaching_aids.json`)
+                        .then(r => {
+                            if (!r.ok) throw new Error('No teaching aids');
+                            return r.json();
+                        })
+                        .then(aidsData => {
+                            renderTeachingAidsGroup(aidsData, teachingAidsContainer);
+                        })
+                        .catch(e => {}); // Silent catch for courses without aids
+                });
+            })
+            .catch(err => console.error('Error loading courses index for aids:', err));
+    }
+
     // Check Login State
     const isLoggedIn = sessionStorage.getItem('engineer_logged_in') === 'true';
     if (isLoggedIn) {
@@ -93,6 +150,157 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+// Render Discovered Teaching Aids Group Helper
+function renderTeachingAidsGroup(data, containerEl) {
+    const groupEl = document.createElement('div');
+    groupEl.className = 'teaching-aid-group';
+    groupEl.style.cssText = 'background: rgba(255,255,255,0.95); border-radius: 20px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); border: 2px solid #edf2f7;';
+
+    groupEl.innerHTML = `
+        <h4 style="font-size: 2rem; color: #8338ec; margin-bottom: 25px; border-bottom: 2px dashed #e0cffc; padding-bottom: 10px;">
+            ${data.course_title}
+        </h4>
+        <div class="aids-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px;"></div>
+    `;
+
+    const gridEl = groupEl.querySelector('.aids-grid');
+
+    data.aids.forEach(aid => {
+        const card = document.createElement('div');
+        card.className = 'aid-card';
+        card.style.cssText = 'background: #fff; border-radius: 16px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.05); border: 2px solid #edf2f7; display: flex; flex-direction: column; justify-content: space-between;';
+
+        let interactiveArea = '';
+
+        if (aid.type === 'variable_box') {
+            interactiveArea = `
+                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #fff9f2; border-radius: 16px; border: 3px dashed #ff7b00; text-align: center;">
+                    <div style="font-size: 1.6rem; margin-bottom: 15px;">📦 الصندوق السحري (المتغير x): <strong id="varBoxVal_${aid.id}" style="color: #ff7b00; font-size: 2rem; background: #fff; padding: 5px 15px; border-radius: 10px; border: 2px solid #ff7b00;">${aid.init_val || 'فارغ'}</strong></div>
+                    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+                        ${(aid.options || []).map((opt, i) => `<button class="btn-var-opt" onclick="document.getElementById('varBoxVal_${aid.id}').textContent = '${opt}'; if(typeof playPopupSound === 'function') playPopupSound(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 8px 16px; font-size: 1.3rem; font-weight: bold; border-radius: 12px; background: #ffb703; color: #023047; border: none; cursor: pointer; box-shadow: 0 4px 10px rgba(255,183,3,0.3); transition: transform 0.2s;">اسحب: ${opt}</button>`).join('')}
+                    </div>
+                </div>
+            `;
+        } else if (aid.type === 'traffic_light') {
+            interactiveArea = `
+                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #e2f8fa; border-radius: 16px; border: 3px dashed #219ebc; text-align: center;">
+                    <div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 20px;">
+                        <div id="lightRed_${aid.id}" style="width: 50px; height: 50px; border-radius: 50%; background: #ff006e; opacity: 0.3; box-shadow: 0 0 15px #ff006e; border: 3px solid #023047;"></div>
+                        <div id="lightGreen_${aid.id}" style="width: 50px; height: 50px; border-radius: 50%; background: #06d6a0; opacity: 1; box-shadow: 0 0 15px #06d6a0; border: 3px solid #023047;"></div>
+                    </div>
+                    <div id="carStatus_${aid.id}" style="font-size: 1.8rem; font-weight: bold; color: #06d6a0; margin-bottom: 15px;">🚗 الإشارة خضراء (else: go) - السيارة تنطلق بسلام!</div>
+                    <div style="display: flex; gap: 15px; justify-content: center;">
+                        <button onclick="document.getElementById('lightRed_${aid.id}').style.opacity = '1'; document.getElementById('lightGreen_${aid.id}').style.opacity = '0.3'; document.getElementById('carStatus_${aid.id}').textContent = '🛑 الإشارة حمراء (if red: stop) - السيارة تتوقف!'; document.getElementById('carStatus_${aid.id}').style.color = '#ff006e'; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 10px 20px; font-size: 1.4rem; font-weight: bold; border-radius: 12px; background: #ff006e; color: #fff; border: none; cursor: pointer;">أحمر (قف 🛑)</button>
+                        <button onclick="document.getElementById('lightGreen_${aid.id}').style.opacity = '1'; document.getElementById('lightRed_${aid.id}').style.opacity = '0.3'; document.getElementById('carStatus_${aid.id}').textContent = '🚗 الإشارة خضراء (else: go) - السيارة تنطلق بسلام!'; document.getElementById('carStatus_${aid.id}').style.color = '#06d6a0'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 10px 20px; font-size: 1.4rem; font-weight: bold; border-radius: 12px; background: #06d6a0; color: #023047; border: none; cursor: pointer;">أخضر (انطلق 🚗)</button>
+                    </div>
+                </div>
+            `;
+        } else if (aid.type === 'loop_factory') {
+            interactiveArea = `
+                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #f5f3ff; border-radius: 16px; border: 3px dashed #8338ec; text-align: center;">
+                    <div style="font-size: 1.6rem; margin-bottom: 15px;">📦 الهدايا المغلفة: <strong id="loopCount_${aid.id}" style="color: #8338ec; font-size: 2.2rem;">0 / 5</strong></div>
+                    <div id="loopBar_${aid.id}" style="width: 100%; height: 20px; background: #edf2f7; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
+                        <div id="loopProgress_${aid.id}" style="width: 0%; height: 100%; background: linear-gradient(45deg, #8338ec, #ff006e); transition: width 0.3s;"></div>
+                    </div>
+                    <button onclick="let c = 0; let int = setInterval(() => { c++; document.getElementById('loopCount_${aid.id}').textContent = c + ' / 5'; document.getElementById('loopProgress_${aid.id}').style.width = (c*20) + '%'; if(typeof playPopupSound === 'function') playPopupSound(); if(c === 5) { clearInterval(int); if(typeof triggerConfetti === 'function') triggerConfetti(); if(typeof playHappyChime === 'function') playHappyChime(); } }, 800);" style="padding: 12px 30px; font-size: 1.4rem; font-weight: bold; border-radius: 12px; background: #8338ec; color: #fff; border: none; cursor: pointer; box-shadow: 0 6px 15px rgba(131,56,236,0.4);">🚀 تشغيل حلقة التكرار for i in range(5)</button>
+                </div>
+            `;
+        } else if (aid.type === 'block_train') {
+            interactiveArea = `
+                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #fff9f2; border-radius: 16px; border: 3px dashed #ffb703; text-align: center;">
+                    <div id="trainArea_${aid.id}" style="display: flex; gap: 10px; justify-content: center; margin-bottom: 20px; min-height: 60px; align-items: center; background: #fff; padding: 15px; border-radius: 12px; border: 2px solid #ffb703;">
+                        <span style="color: #888; font-size: 1.3rem;">اسحب وركب البلوكات هنا بالترتيب لتشغيل القطار...</span>
+                    </div>
+                    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+                        <button onclick="document.getElementById('trainArea_${aid.id}').innerHTML = '<div style=\\'background:#ffb703; padding:8px 15px; border-radius:10px; font-weight:bold; color:#023047;\\'>🟡 عند النقر على العلم</div>'; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 8px 15px; background: #ffb703; color: #023047; border: none; border-radius: 10px; font-weight: bold; cursor: pointer;">1. حدث النقر 🟡</button>
+                        <button onclick="document.getElementById('trainArea_${aid.id}').innerHTML += '<div style=\\'background:#219ebc; padding:8px 15px; border-radius:10px; font-weight:bold; color:#fff;\\'>🔵 تحرك 10 خطوات</div>'; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 8px 15px; background: #219ebc; color: #fff; border: none; border-radius: 10px; font-weight: bold; cursor: pointer;">2. الحركة 🔵</button>
+                        <button onclick="document.getElementById('trainArea_${aid.id}').innerHTML += '<div style=\\'background:#8338ec; padding:8px 15px; border-radius:10px; font-weight:bold; color:#fff;\\'>🟣 قل مرحباً</div>'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 8px 15px; background: #8338ec; color: #fff; border: none; border-radius: 10px; font-weight: bold; cursor: pointer;">3. الهيئة 🟣</button>
+                    </div>
+                </div>
+            `;
+        } else if (aid.type === 'xy_hunt') {
+            interactiveArea = `
+                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #f0f8ff; border-radius: 16px; border: 3px dashed #219ebc; text-align: center;">
+                    <div style="position: relative; width: 100%; height: 160px; background: #e2f8fa; border-radius: 12px; border: 2px solid #219ebc; overflow: hidden; margin-bottom: 20px;">
+                        <div style="position: absolute; top: 50%; left: 0; width: 100%; height: 2px; background: #023047; opacity: 0.3;"></div>
+                        <div style="position: absolute; top: 0; left: 50%; width: 2px; height: 100%; background: #023047; opacity: 0.3;"></div>
+                        <div id="catSprite_${aid.id}" style="position: absolute; top: 70px; left: 140px; font-size: 2.5rem; transition: all 0.5s;">🐱</div>
+                        <div id="treasure_${aid.id}" style="position: absolute; top: 20px; left: 240px; font-size: 2.2rem;">💎</div>
+                    </div>
+                    <button onclick="document.getElementById('catSprite_${aid.id}').style.top = '20px'; document.getElementById('catSprite_${aid.id}').style.left = '240px'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 10px 25px; font-size: 1.4rem; font-weight: bold; border-radius: 12px; background: #219ebc; color: #fff; border: none; cursor: pointer;">اذهب إلى الكنز (X: 100, Y: 50) 🚀</button>
+                </div>
+            `;
+        } else if (aid.type === 'ai_trainer') {
+            interactiveArea = `
+                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #fef6fb; border-radius: 16px; border: 3px dashed #ff006e; text-align: center;">
+                    <div style="font-size: 1.5rem; margin-bottom: 15px;">📊 بيانات التدريب: تفاح (<strong id="appleCnt_${aid.id}">0</strong>) | موز (<strong id="bananaCnt_${aid.id}">0</strong>)</div>
+                    <div style="display: flex; gap: 15px; justify-content: center; margin-bottom: 20px;">
+                        <button onclick="let c = parseInt(document.getElementById('appleCnt_${aid.id}').textContent)+1; document.getElementById('appleCnt_${aid.id}').textContent = c; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 10px 20px; font-size: 1.5rem; background: #ff006e; color: #fff; border: none; border-radius: 12px; cursor: pointer;">🍎 إضافة تفاح</button>
+                        <button onclick="let c = parseInt(document.getElementById('bananaCnt_${aid.id}').textContent)+1; document.getElementById('bananaCnt_${aid.id}').textContent = c; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 10px 20px; font-size: 1.5rem; background: #ffb703; color: #023047; border: none; border-radius: 12px; cursor: pointer;">🍌 إضافة موز</button>
+                    </div>
+                    <button onclick="if(parseInt(document.getElementById('appleCnt_${aid.id}').textContent) > 0 && parseInt(document.getElementById('bananaCnt_${aid.id}').textContent) > 0) { alert('🤖 الروبوت: لقد تعلمت بنجاح! هذه الصورة الجديدة هي: تفاحة 🍎 (بنسبة ثقة 98%)'); if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti(); } else { alert('⚠️ الروبوت: من فضلك قم بتزويدي بصور التفاح والموز أولاً لأتعلم!'); }" style="padding: 12px 30px; font-size: 1.4rem; font-weight: bold; background: #8338ec; color: #fff; border: none; border-radius: 12px; cursor: pointer;">🧪 اختبار الروبوت بصورة جديدة 🚀</button>
+                </div>
+            `;
+        } else if (aid.type === 'face_landmarks') {
+            interactiveArea = `
+                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #f5f3ff; border-radius: 16px; border: 3px dashed #8338ec; text-align: center;">
+                    <div style="position: relative; width: 140px; height: 140px; margin: 0 auto 20px; background: #edf2f7; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 5rem; border: 3px solid #8338ec;">
+                        🙂
+                        <div id="glasses_${aid.id}" style="position: absolute; top: 35px; left: 15px; font-size: 4rem; display: none;">🕶️</div>
+                        <div id="hat_${aid.id}" style="position: absolute; top: -35px; left: 25px; font-size: 4.5rem; display: none;">🎩</div>
+                    </div>
+                    <div style="display: flex; gap: 15px; justify-content: center;">
+                        <button onclick="document.getElementById('glasses_${aid.id}').style.display = 'block'; if(typeof playPopupSound === 'function') playPopupSound();" style="padding: 10px 20px; font-size: 1.3rem; font-weight: bold; background: #219ebc; color: #fff; border: none; border-radius: 12px; cursor: pointer;">تحديد العينين (🕶️)</button>
+                        <button onclick="document.getElementById('hat_${aid.id}').style.display = 'block'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 10px 20px; font-size: 1.3rem; font-weight: bold; background: #ff006e; color: #fff; border: none; border-radius: 12px; cursor: pointer;">تحديد الرأس (🎩)</button>
+                    </div>
+                </div>
+            `;
+        } else if (aid.type === 'circuit_builder') {
+            interactiveArea = `
+                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #fff9f2; border-radius: 16px; border: 3px dashed #ffb703; text-align: center;">
+                    <div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-bottom: 20px; font-size: 3rem;">
+                        🔋 <span id="wire_${aid.id}" style="color: #ff006e;">--/--</span> <span id="led_${aid.id}" style="filter: grayscale(1);">💡</span>
+                    </div>
+                    <button onclick="document.getElementById('wire_${aid.id}').textContent = '-----'; document.getElementById('led_${aid.id}').style.filter = 'grayscale(0) drop-shadow(0 0 15px #ffb703)'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 12px 30px; font-size: 1.4rem; font-weight: bold; background: #ffb703; color: #023047; border: none; border-radius: 12px; cursor: pointer; box-shadow: 0 6px 15px rgba(255,183,3,0.4);">🔌 إغلاق الدائرة الكهربائية ⚡</button>
+                </div>
+            `;
+        } else if (aid.type === 'ultrasonic_radar') {
+            interactiveArea = `
+                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #e2f8fa; border-radius: 16px; border: 3px dashed #219ebc; text-align: center;">
+                    <div style="position: relative; width: 100%; height: 80px; background: #edf2f7; border-radius: 12px; overflow: hidden; margin-bottom: 20px; display: flex; align-items: center;">
+                        <div id="carRadar_${aid.id}" style="position: absolute; left: 10px; font-size: 3rem; transition: left 1s;">🚗</div>
+                        <div style="position: absolute; right: 10px; font-size: 3rem; border-right: 5px solid #ff006e; padding-right: 10px;">🧱</div>
+                    </div>
+                    <button onclick="document.getElementById('carRadar_${aid.id}').style.left = 'calc(100% - 90px)'; setTimeout(() => { alert('🚨 الرادار: تحذير! تم اكتشاف جدار على مسافة 10 سم. التوقف التلقائي مفعل!'); if(typeof playPopupSound === 'function') playPopupSound(); if(typeof triggerConfetti === 'function') triggerConfetti(); }, 1000);" style="padding: 12px 30px; font-size: 1.4rem; font-weight: bold; background: #219ebc; color: #fff; border: none; border-radius: 12px; cursor: pointer; box-shadow: 0 6px 15px rgba(33,158,188,0.4);">📡 تشغيل رادار السيارة والاقتراب 🚀</button>
+                </div>
+            `;
+        } else if (aid.type === 'pet_snap') {
+            interactiveArea = `
+                <div class="aid-interactive-box" style="margin: 20px 0; padding: 20px; background: #fff9f2; border-radius: 16px; border: 3px dashed #ff7b00; text-align: center;">
+                    <div style="display: flex; justify-content: center; align-items: center; gap: 30px; margin-bottom: 20px;">
+                        <div style="background: #ff7b00; color: #fff; padding: 15px 25px; border-radius: 16px; font-size: 1.6rem; font-weight: bold;">🍖 بلوك: أطعم الكلب</div>
+                        <div id="dogPet_${aid.id}" style="font-size: 4.5rem; transition: transform 0.3s;">🐶 💤</div>
+                    </div>
+                    <button onclick="document.getElementById('dogPet_${aid.id}').textContent = '🐶 🍖 (يهز ذيله فرحاً!)'; document.getElementById('dogPet_${aid.id}').style.transform = 'scale(1.2)'; if(typeof playHappyChime === 'function') playHappyChime(); if(typeof triggerConfetti === 'function') triggerConfetti();" style="padding: 12px 30px; font-size: 1.4rem; font-weight: bold; background: #ffb703; color: #023047; border: none; border-radius: 12px; cursor: pointer; box-shadow: 0 6px 15px rgba(255,183,3,0.4);">تشغيل قصة إطعام الكلب 🚀</button>
+                </div>
+            `;
+        }
+
+        card.innerHTML = `
+            <div>
+                <h5 style="font-size: 1.7rem; color: #023047; margin-bottom: 10px;">${aid.title}</h5>
+                <p style="font-size: 1.3rem; color: #5c677d; line-height: 1.6;">${aid.desc}</p>
+                ${interactiveArea}
+            </div>
+            <div style="text-align: left; margin-top: 15px;">
+                <span style="font-size: 1.1rem; background: #edf2f7; color: #5c677d; padding: 4px 12px; border-radius: 8px; font-weight: bold;">جاهز للتشغيل في الحصة 🌟</span>
+            </div>
+        `;
+        gridEl.appendChild(card);
+    });
+
+    containerEl.appendChild(groupEl);
+}
 // View Navigation Helper
 function showView(viewEl) {
     [viewLogin, viewDashboard, viewEvaluation].forEach(v => { if (v) v.classList.remove('active'); });
