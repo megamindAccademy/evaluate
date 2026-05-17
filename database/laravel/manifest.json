@@ -1,0 +1,15 @@
+{
+  "title": "Laravel PHP Web Development 🐘",
+  "description": "Build robust, database-driven backend web portals using the elegant PHP Laravel framework!",
+  "icon": "🐘",
+  "status": "active",
+  "recap_file": "recap.json",
+  "quizzes": [
+    "quiz1.json",
+    "quiz2.json",
+    "quiz3.json",
+    "quiz4.json",
+    "quiz5.json",
+    "quiz6.json"
+  ]
+}

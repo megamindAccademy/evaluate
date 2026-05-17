@@ -1,0 +1,373 @@
+{
+  "course": "Laravel PHP Web Development 🐘",
+  "sessions": [
+    {
+      "session_title": "💡 Session 1: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 1 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 2: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 2 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 3: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 3 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 4: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 4 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 5: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 5 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 6: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 6 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 7: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 7 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 8: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 8 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 9: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 9 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 10: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 10 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 11: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 11 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 12: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 12 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 13: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 13 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 14: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 14 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 15: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 15 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    },
+    {
+      "session_title": "💡 Session 16: Laravel MVC Core Web backend",
+      "targets": [
+        "Explore MVC layouts",
+        "Write Route rules",
+        "Build Blade templates"
+      ],
+      "blocks": [
+        "Route::get()",
+        "Controller",
+        "Blade",
+        "Migration"
+      ],
+      "project": "Session 16 MVC Database sandbox",
+      "points": [
+        {
+          "icon": "🐘",
+          "title": "Laravel Routing & Eloquent ORM",
+          "desc": "Binding HTTP request urls to dynamic controllers, using Blade layout variables, and database Eloquent ORMs.",
+          "code": "Route::get('/welcome', function () {\n    return view('welcome', ['name' => 'Megaminds Student']);\n});"
+        }
+      ]
+    }
+  ]
+}

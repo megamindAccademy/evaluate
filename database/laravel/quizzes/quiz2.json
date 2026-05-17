@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Quiz 2: Blade Loops & Template components",
+  "questions": [
+    {
+      "q": "Which Laravel PHP element manages the database @extends layout blocks within MVC web backends?",
+      "opts": [
+        "Default @extends layout blocks",
+        "Aesthetic @foreach database loops",
+        "Standard @if comparisons",
+        "Custom CSS stylesheet links"
+      ],
+      "correct": 0,
+      "exp": "The Laravel PHP utility @extends layout blocks manages relational models securely."
+    },
+    {
+      "q": "Which Laravel PHP element manages the database @foreach database loops within MVC web backends?",
+      "opts": [
+        "Default @extends layout blocks",
+        "Aesthetic @foreach database loops",
+        "Standard @if comparisons",
+        "Custom CSS stylesheet links"
+      ],
+      "correct": 1,
+      "exp": "The Laravel PHP utility @foreach database loops manages relational models securely."
+    },
+    {
+      "q": "Which Laravel PHP element manages the database @if comparisons within MVC web backends?",
+      "opts": [
+        "Default @extends layout blocks",
+        "Aesthetic @foreach database loops",
+        "Standard @if comparisons",
+        "Custom CSS stylesheet links"
+      ],
+      "correct": 2,
+      "exp": "The Laravel PHP utility @if comparisons manages relational models securely."
+    },
+    {
+      "q": "Which Laravel PHP element manages the database CSS stylesheet links within MVC web backends?",
+      "opts": [
+        "Default @extends layout blocks",
+        "Aesthetic @foreach database loops",
+        "Standard @if comparisons",
+        "Custom CSS stylesheet links"
+      ],
+      "correct": 3,
+      "exp": "The Laravel PHP utility CSS stylesheet links manages relational models securely."
+    },
+    {
+      "q": "Which Laravel PHP element manages the database @extends layout blocks within MVC web backends?",
+      "opts": [
+        "Default @extends layout blocks",
+        "Aesthetic @foreach database loops",
+        "Standard @if comparisons",
+        "Custom CSS stylesheet links"
+      ],
+      "correct": 0,
+      "exp": "The Laravel PHP utility @extends layout blocks manages relational models securely."
+    },
+    {
+      "q": "Which Laravel PHP element manages the database @foreach database loops within MVC web backends?",
+      "opts": [
+        "Default @extends layout blocks",
+        "Aesthetic @foreach database loops",
+        "Standard @if comparisons",
+        "Custom CSS stylesheet links"
+      ],
+      "correct": 1,
+      "exp": "The Laravel PHP utility @foreach database loops manages relational models securely."
+    },
+    {
+      "q": "Which Laravel PHP element manages the database @if comparisons within MVC web backends?",
+      "opts": [
+        "Default @extends layout blocks",
+        "Aesthetic @foreach database loops",
+        "Standard @if comparisons",
+        "Custom CSS stylesheet links"
+      ],
+      "correct": 2,
+      "exp": "The Laravel PHP utility @if comparisons manages relational models securely."
+    },
+    {
+      "q": "Which Laravel PHP element manages the database CSS stylesheet links within MVC web backends?",
+      "opts": [
+        "Default @extends layout blocks",
+        "Aesthetic @foreach database loops",
+        "Standard @if comparisons",
+        "Custom CSS stylesheet links"
+      ],
+      "correct": 3,
+      "exp": "The Laravel PHP utility CSS stylesheet links manages relational models securely."
+    },
+    {
+      "q": "Which Laravel PHP element manages the database @extends layout blocks within MVC web backends?",
+      "opts": [
+        "Default @extends layout blocks",
+        "Aesthetic @foreach database loops",
+        "Standard @if comparisons",
+        "Custom CSS stylesheet links"
+      ],
+      "correct": 0,
+      "exp": "The Laravel PHP utility @extends layout blocks manages relational models securely."
+    },
+    {
+      "q": "Which Laravel PHP element manages the database @foreach database loops within MVC web backends?",
+      "opts": [
+        "Default @extends layout blocks",
+        "Aesthetic @foreach database loops",
+        "Standard @if comparisons",
+        "Custom CSS stylesheet links"
+      ],
+      "correct": 1,
+      "exp": "The Laravel PHP utility @foreach database loops manages relational models securely."
+    }
+  ],
+  "tasks": [
+    {
+      "title": "PHP Route definition",
+      "desc": "Write a Laravel PHP Route rule returning a 'welcome' Blade view passing a title string."
+    },
+    {
+      "title": "Artisan Migration columns",
+      "desc": "Write a PHP database migration function that declares title and descriptions string columns inside a table."
+    }
+  ]
+}
