@@ -345,6 +345,17 @@ function handleRegistrationSubmit(e) {
     initRecapScreen();
 }
 
+// Helper to escape HTML tags to prevent rendering conflicts on code examples
+function escapeHtml(text) {
+    if (typeof text !== 'string') return text;
+    return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
 // Helper to render beautiful visual blocks/code for recap screens
 function renderRecapVisualBlock(blockText, courseId) {
     const text = blockText.trim();
@@ -500,7 +511,7 @@ function initRecapScreen() {
                 let codeHtml = '';
                 if (point.code) {
                     codeHtml = `
-                        <div class="recap-card-code" style="background: #1e1e2f; color: #f8f8f2; padding: 12px 16px; border-radius: 12px; font-family: 'Consolas', 'Courier New', monospace; font-size: 1.25rem; margin-top: 12px; border-left: 4px solid var(--primary); text-align: left; direction: ltr; box-shadow: inset 0 2px 8px rgba(0,0,0,0.3); overflow-x: auto; white-space: pre-wrap; word-break: break-all; width: 100%;">${point.code}</div>
+                        <div class="recap-card-code" style="background: #1e1e2f; color: #f8f8f2; padding: 12px 16px; border-radius: 12px; font-family: 'Consolas', 'Courier New', monospace; font-size: 1.25rem; margin-top: 12px; border-left: 4px solid var(--primary); text-align: left; direction: ltr; box-shadow: inset 0 2px 8px rgba(0,0,0,0.3); overflow-x: auto; white-space: pre-wrap; word-break: break-all; width: 100%;">${escapeHtml(point.code)}</div>
                     `;
                 }
 
@@ -510,7 +521,7 @@ function initRecapScreen() {
                     exampleHtml = `
                         <div class="recap-card-example" style="background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px 14px; border-radius: 10px; font-size: 1.3rem; margin-top: 12px; font-weight: 500; display: flex; align-items: center; gap: 8px; direction: ${exDir}; text-align: ${exDir === 'ltr' ? 'left' : 'right'}; width: 100%;">
                             <span>💡 <strong>مثال:</strong></span>
-                            <span>${point.example}</span>
+                            <span>${escapeHtml(point.example)}</span>
                         </div>
                     `;
                 }
