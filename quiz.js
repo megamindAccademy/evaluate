@@ -321,12 +321,16 @@ function initRecapScreen() {
         recapTitleEl.style.textAlign = titleDir === 'ltr' ? 'left' : 'right';
     }
 
-    const subText = `أهلاً بك يا بطل ${studentInfo.name} (مجموعة: ${studentInfo.group} مع المهندس ${studentInfo.teacher})! ${recapData.recap_subtitle}`;
     const subDir = getTextDirection(recapData.recap_subtitle);
     if (recapSubtitleEl) {
-        recapSubtitleEl.textContent = subText;
-        recapSubtitleEl.setAttribute('dir', subDir);
-        recapSubtitleEl.style.textAlign = subDir === 'ltr' ? 'left' : 'right';
+        recapSubtitleEl.innerHTML = `
+            <div dir="rtl" style="text-align: right; font-weight: bold; margin-bottom: 15px; color: var(--primary); font-size: 1.6rem;">
+                👋 أهلاً بك يا بطل <span style="color: var(--warning);">${studentInfo.name}</span> (مجموعة: ${studentInfo.group} | إشراف المهندس: ${studentInfo.teacher})!
+            </div>
+            <div dir="${subDir}" style="text-align: ${subDir === 'ltr' ? 'left' : 'right'}; font-size: 1.5rem; color: #4a5568; line-height: 1.8; background: #f8fafc; padding: 18px 24px; border-radius: 16px; border: 1px solid #e2e8f0; border-left: ${subDir === 'ltr' ? '8px solid var(--secondary)' : '1px solid #e2e8f0'}; border-right: ${subDir === 'rtl' ? '8px solid var(--secondary)' : '1px solid #e2e8f0'}; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+                ${recapData.recap_subtitle}
+            </div>
+        `;
     }
 
     // Populate Recap Cards Grouped by Sessions
