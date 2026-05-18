@@ -1,15 +1,15 @@
-// Encouraging and pampering messages for kids (رسايل تشجيعية ودلع للأطفال)
+// Encouraging and pampering messages for kids (encouraging and pampering messages for children)
 const messages = [
-    "🌟 يا بطل ميجامايندز الخارق! ذكائك يضيء العالم كله، استمر يا مبدع!",
-    "🚀 أنت عبقري المستقبل! كل سطر كود تكتبه يجعلك أقرب لتحقيق أحلامك الكبيرة!",
-    "💖 يا سكر الأكاديمية! ابتسامتك الجميلة وحماسك للتعلم يفرح قلوبنا جميعاً!",
-    "🤖 يا مهندس الروبوتات الذكي! أفكارك مذهلة ومستقبلك مشرق مثل النجوم!",
-    "✨ يا نجم البرمجة اللامع! لا يوجد شيء صعب عليك، أنت بطل التحديات!",
-    "🎉 حماسك رائع يا فنان! نحن فخورون جداً بوجودك معنا في عائلة ميجامايندز!",
+    "🌟 Hey Megaminds Super Hero! Your intelligence lights up the whole world. Keep it up, creator!",
+    "🚀 You are the genius of the future! Every line of code you write gets you closer to achieving your big dreams!",
+    "💖 Oh academy sugar! Your beautiful smile and enthusiasm for learning warm the hearts of all of us!",
+    "🤖 Oh smart robotics engineer! Your ideas are amazing and your future is bright like the stars!",
+    "✨ Oh shining star of programming! There is nothing difficult for you, you are the champion of challenges!",
+    "🎉 Your enthusiasm is amazing, artist! We are so proud to have you in the Megaminds family!",
     "💡 يا صاحب الأفكار الذهبية! تفكيرك الإبداعي سيجعل العالم مكاناً أجمل بكثير!",
     "👑 يا ملك التقنية الصغير! واصل إبداعك، الأكاديمية كلها تصفق لنجاحك!",
-    "🌈 يا شمس ميجامايندز المشرقة! تعلمك اليوم يصنع مستقبلك العظيم غداً!",
-    "🏆 أنت بطل حقيقي! كل خطوة تخطوها في التعلم هي انتصار كبير نفتخر به!"
+    "🌈 Oh Megaminds sunshine! Your learning today creates your great future tomorrow!",
+    "🏆You are a real hero! Every step you take in learning is a great victory that we are proud of!"
 ];
 
 // --- FIREBASE REALTIME DATABASE CONFIGURATION ---
@@ -260,7 +260,7 @@ function renderDiscoveredCurriculumCard(manifest, gridEl, modalOverlay, modalTit
 
     const isActive = (manifest.status === 'active');
     const badgeClass = isActive ? 'badge-active' : 'badge-upcoming';
-    const badgeText = isActive ? 'منهج تفاعلي 🌟' : 'قريباً ⏳';
+    const badgeText = isActive ? 'Interactive approach 🌟' : 'Soon ⏳';
 
     card.innerHTML = `
         <span class="card-badge ${badgeClass}">${badgeText}</span>
@@ -274,17 +274,17 @@ function renderDiscoveredCurriculumCard(manifest, gridEl, modalOverlay, modalTit
         const linkBtn = document.createElement('a');
         linkBtn.href = `./curriculum.html?course=${manifest.course_id}`;
         linkBtn.className = 'card-btn btn-curriculum-card';
-        linkBtn.innerHTML = `<span>📖 ادخل المنهج التفاعلي 🚀</span>`;
+        linkBtn.innerHTML = `<span>📖 Enter the interactive curriculum 🚀</span>`;
         card.appendChild(linkBtn);
     } else {
         // Upcoming Modal Popup Button
         const modalBtn = document.createElement('button');
         modalBtn.className = 'card-btn btn-upcoming';
-        modalBtn.innerHTML = `<span>أنا مستعد للمغامرة! 💪</span>`;
+        modalBtn.innerHTML = `<span>I'm ready for adventure! 💪</span>`;
         modalBtn.addEventListener('click', (e) => {
             e.preventDefault();
-            if (modalTitle) modalTitle.textContent = `منهج ${manifest.course_title}`;
-            if (modalText) modalText.textContent = manifest.upcoming_msg || 'هذا المنهج التفاعلي قيد التجهيز في مختبراتنا السحرية!';
+            if (modalTitle) modalTitle.textContent = `${manifest.course_title} approach`;
+            if (modalText) modalText.textContent = manifest.upcoming_msg || 'This interactive curriculum is being prepared in our magic labs!';
             if (modalOverlay) modalOverlay.classList.add('active');
             playPopupSound();
             triggerConfetti();
@@ -303,7 +303,7 @@ function renderDiscoveredCourseCard(manifest, gridEl, modalOverlay, modalTitle, 
 
     const isActive = (manifest.status === 'active');
     const badgeClass = isActive ? 'badge-active' : 'badge-upcoming';
-    const badgeText = isActive ? 'متاح الآن 🌟' : 'قريباً ⏳';
+    const badgeText = isActive ? 'Available now 🌟' : 'Soon ⏳';
 
     card.innerHTML = `
         <span class="card-badge ${badgeClass}">${badgeText}</span>
@@ -317,17 +317,17 @@ function renderDiscoveredCourseCard(manifest, gridEl, modalOverlay, modalTitle, 
         const linkBtn = document.createElement('a');
         linkBtn.href = `./quiz.html?course=${manifest.course_id}`;
         linkBtn.className = 'card-btn btn-active';
-        linkBtn.innerHTML = `<span>ابدأ التحدي والاختبار 🚀</span>`;
+        linkBtn.innerHTML = `<span>Start the challenge and test 🚀</span>`;
         card.appendChild(linkBtn);
     } else {
         // Upcoming Modal Popup Button
         const modalBtn = document.createElement('button');
         modalBtn.className = 'card-btn btn-upcoming';
-        modalBtn.innerHTML = `<span>أنا مستعد للتحدي! 💪</span>`;
+        modalBtn.innerHTML = `<span>I'm ready for the challenge! 💪</span>`;
         modalBtn.addEventListener('click', (e) => {
             e.preventDefault();
-            if (modalTitle) modalTitle.textContent = `اختبار ${manifest.course_title}`;
-            if (modalText) modalText.textContent = manifest.upcoming_msg || 'هذا التحدي قيد التجهيز في مختبراتنا!';
+            if (modalTitle) modalTitle.textContent = `Test ${manifest.course_title}`;
+            if (modalText) modalText.textContent = manifest.upcoming_msg || 'This challenge is being prepared in our laboratories!';
             if (modalOverlay) modalOverlay.classList.add('active');
             playPopupSound();
             triggerConfetti();

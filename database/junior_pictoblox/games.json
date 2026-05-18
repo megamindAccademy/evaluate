@@ -1,139 +1,139 @@
 {
   "course_id": "junior_pictoblox",
   "course_title": "PicToBlox",
-  "course_subtitle": "مرحباً بك يا بطل المستقبل الصغير في أمتع رحلة لتعلم البرمجة بالبلوكات التفاعلية! هنا ستصنع قصصك الكرتونية، تعزف الموسيقى، وتلعب مع الحيوانات الأليفة. افتح المحطات وابدأ المرح!",
+  "course_subtitle": "Welcome, little future hero, on the most enjoyable journey to learn programming with interactive blocks! Here you will create your own cartoon stories, play music, and play with pets. Open the stations and start the fun!",
   "xp_total": 600,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
       "badge_icon": "🧱",
-      "badge_title": "وسام مركب البلوكات (Blocks)",
-      "title": "المحطة 1: تركيب البلوكات السحرية (Blocks)",
-      "desc": "تعلم كيف تسحب وتركب البلوكات البرمجية الملونة فوق بعضها لتصنع برجاً من الأوامر الذكية.",
-      "story": "أهلاً بك يا بطلنا الصغير في عالم بيكتوبلوكس! البرمجة هنا سهلة وممتعة جداً، تشبه لعبة المكعبات. نسحب البلوك الأزرق ونركبه تحت البلوك الأصفر ليتصلوا ببعض بصوت (كليك) جميل!",
-      "simple": "زي لعبة المكعبات والليجو! بتركب مكعب فوق مكعب عشان تبني بيت أو عربية، وهنا بنركب بلوك فوق بلوك عشان نعمل كود سحري!",
-      "hint": "اكتب في المحرر: <code>print(\"تم تركيب البلوكات البرمجية بنجاح\")</code> ثم اضغط تشغيل!",
-      "challenge": "قم بطباعة الجملة السحرية <code>تم تركيب البلوكات البرمجية بنجاح</code> لمحاكاة تركيب البلوكات.",
-      "starter_code": "# محاكاة تركيب البلوكات في بيكتوبلوكس:\n",
+      "badge_title": "Blocks Composite Medal",
+      "title": "Station 1: Installing the Magic Blocks",
+      "desc": "Learn how to drag and stack colorful code blocks on top of each other to create a tower of smart commands.",
+      "story": "Welcome, our little hero, to the world of PictoBlox! Programming here is very easy and fun, similar to playing cubes. We pull the blue block and install it under the yellow block so that they connect with each other with a beautiful click sound!",
+      "simple": "Like bricks and legos! You put a cube on top of a cube to build a house or a car, and here we put a block on top of a block to create a magic code!",
+      "hint": "Type in the editor: <code>print(\"Blocks installed successfully\")</code> and press Run!",
+      "challenge": "Print the magic statement <code>Blocks installed successfully</code> to simulate block installation.",
+      "starter_code": "# Simulate block installation in PictoBlocks:",
       "pills": [
         {
-          "label": "تركيب البلوكات",
-          "code": "print(\"تم تركيب البلوكات البرمجية بنجاح\")"
+          "label": "Block installation",
+          "code": "print(\"The software blocks were installed successfully\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم تركيب البلوكات البرمجية بنجاح",
+        "required_output_text": "The software blocks have been installed successfully",
         "required_canvas": false
       }
     },
     {
       "id": 2,
       "badge_icon": "🏃",
-      "badge_title": "وسام محرك الأبطال (Animation)",
-      "title": "المحطة 2: تحريك الشخصيات (Animation)",
-      "desc": "اجعل شخصيتك الكرتونية المفضلة تقفز وتتحرك يميناً ويساراً على المنصة الجميلة!",
-      "story": "شخصيات بيكتوبلوكس تحب الحركة والقفز! نستخدم بلوك الحركة (اقفز للأعلى) لنجعل الكائن يرتفع في الهواء ثم يهبط بسلام على الأرض.",
-      "simple": "زي النطيطة (الترامبولين) في الملاهي! بتنط لفوق وتنزل تاني وتفرح مع أصحابك!",
-      "hint": "اكتب <code>print(\"الشخصية تقفز للأعلى وتتحرك بمهارة\")</code>.",
-      "challenge": "قم بطباعة العبارة السحرية <code>الشخصية تقفز للأعلى وتتحرك بمهارة</code> لمحاكاة حركة القفز.",
-      "starter_code": "# محاكاة حركة القفز للشخصية:\n",
+      "badge_title": "Champions Engine Medal (Animation)",
+      "title": "Station 2: Animation",
+      "desc": "Make your favorite cartoon character jump and move left and right on the beautiful platform!",
+      "story": "Pictoblox characters love to move and jump! We use the movement block (jump up) to make the object rise into the air and then land safely on the ground.",
+      "simple": "Like a trampoline in an amusement park! You jump up and down again and have fun with your friends!",
+      "hint": "Type <code>print(\"The character jumps up and moves skillfully\")</code>.",
+      "challenge": "Print the magic phrase <code>Character Jumps Up and Moves Skill</code> to simulate a jumping action.",
+      "starter_code": "# Simulate the character's jumping movement:",
       "pills": [
         {
-          "label": "تشغيل قفزة الشخصية",
-          "code": "print(\"الشخصية تقفز للأعلى وتتحرك بمهارة\")"
+          "label": "Run character jump",
+          "code": "print(\"The character jumps up and moves skillfully\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "الشخصية تقفز للأعلى وتتحرك بمهارة",
+        "required_output_text": "The character jumps up and moves skillfully",
         "required_canvas": false
       }
     },
     {
       "id": 3,
       "badge_icon": "🎵",
-      "badge_title": "وسام المايسترو الصغير (Music)",
-      "title": "المحطة 3: الموسيقى والأصوات (Sounds)",
-      "desc": "أضف أصواتاً مرحة وموسيقى تصويرية جميلة لقصتك الكرتونية لتصبح أكثر متعة وحيوية!",
-      "story": "القصص الجميلة تحتاج إلى أصوات وموسيقى! في بيكتوبلوكس نذهب إلى قسم الأصوات الوردي ونختار (شغل صوت القطة المواء) أو نركب نغمات موسيقية مبهجة.",
-      "simple": "زي البيانو اللعبة! بتدوس على الزراير عشان تطلع نغمات مختلفة وتغني معاها!",
-      "hint": "اكتب <code>print(\"تشغيل الموسيقى والأصوات المرحة\")</code>.",
-      "challenge": "قم بطباعة الجملة السحرية <code>تشغيل الموسيقى والأصوات المرحة</code> لمحاكاة تشغيل الصوت.",
-      "starter_code": "# محاكاة تشغيل الأصوات والموسيقى:\n",
+      "badge_title": "Junior Maestro Medal (Music)",
+      "title": "Station 3: Music and Sounds",
+      "desc": "Add fun sounds and a beautiful soundtrack to your cartoon story to make it more fun and lively!",
+      "story": "Beautiful stories need sounds and music! In PictoBlox we go to the pink sounds section and choose (play the sound of the cat meowing) or install cheerful musical tones.",
+      "simple": "Piano costume game! You step on the buttons to bring out different tunes and sing along!",
+      "hint": "Type <code>print(\"Play music and fun sounds\")</code>.",
+      "challenge": "Print the magic phrase <code>Play Music and Fun Sounds</code> to simulate sound playback.",
+      "starter_code": "# Simulate playing sounds and music:",
       "pills": [
         {
-          "label": "تشغيل الموسيقى المرحة",
-          "code": "print(\"تشغيل الموسيقى والأصوات المرحة\")"
+          "label": "Play fun music",
+          "code": "print(\"Play music and fun sounds\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تشغيل الموسيقى والأصوات المرحة",
+        "required_output_text": "Play fun music and sounds",
         "required_canvas": false
       }
     },
     {
       "id": 4,
       "badge_icon": "🐶",
-      "badge_title": "وسام صديق الحيوانات (Pet Game)",
-      "title": "المحطة 4: إطعام الحيوان الأليف (Pet Game)",
-      "desc": "برمج قصة تفاعلية لطيفة لإطعام الكلب الصغير (طعام الكلب) واجعله يفرح ويهز ذيله!",
-      "story": "الحيوانات الأليفة تحتاج لرعايتنا! سنقوم ببرمجة قصة تفاعلية: عندما نضغط على طبق الطعام، يتحرك الكلب نحوه ويأكل ثم يقول (شكراً لك يا صديقي!).",
-      "simple": "زي لما بتأكل القطة أو العصفورة في البيت! بتفرح بيك وبتحس بحبك وحنانك ليها!",
-      "hint": "اكتب <code>print(\"الكلب يتناول الطعام ويفرح كثيراً\")</code>.",
-      "challenge": "قم بطباعة عبارة <code>الكلب يتناول الطعام ويفرح كثيراً</code> لمحاكاة إطعام الحيوان الأليف.",
-      "starter_code": "# محاكاة قصة إطعام الكلب الصغير:\n",
+      "badge_title": "Pet Game Medal",
+      "title": "Station 4: Feed the Pet (Pet Game)",
+      "desc": "Program a cute interactive story to feed your little dog (dog food) and make him rejoice and wag his tail!",
+      "story": "Pets need our care! We will program an interactive story: when we click on the food dish, the dog moves towards it, eats, and then says (Thank you, my friend!).",
+      "simple": "Like when a cat or bird eats at home! She is happy with you and feels your love and affection for her!",
+      "hint": "Type <code>print(\"The dog is eating and is very happy\")</code>.",
+      "challenge": "Print the phrase <code>The dog is eating and is very happy</code> to simulate feeding the pet.",
+      "starter_code": "# Simulate the story of feeding the little dog:",
       "pills": [
         {
-          "label": "إطعام الكلب الأليف",
-          "code": "print(\"الكلب يتناول الطعام ويفرح كثيراً\")"
+          "label": "Feed the pet dog",
+          "code": "print(\"The dog eats food and is very happy\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "الكلب يتناول الطعام ويفرح كثيراً",
+        "required_output_text": "The dog eats food and is very happy",
         "required_canvas": false
       }
     },
     {
       "id": 5,
       "badge_icon": "🎨",
-      "badge_title": "وسام الفنان الملون (Colors)",
-      "title": "المحطة 5: لعبة تطابق الألوان (Color Match)",
-      "desc": "اصنع لعبة ذكية لتطابق الألوان، واجعل المنصة تتلون باللون الصحيح عند اختيار البلوك المناسب!",
-      "story": "الألوان تجعل عالمنا جميلاً! سنبرمج لعبة تطابق: إذا اخترنا التفاحة يظهر اللون الأحمر، وإذا اخترنا الموز يظهر اللون الأصفر الجميل.",
-      "simple": "زي كراسة التلوين السحرية! بتختار القلم المناسب وتلون الشجرة بالأخضر والشمس بالأصفر عشان تطلع لوحة فنية!",
-      "hint": "اكتب <code>print(\"تطابق الألوان صحيح بنسبة 100%\")</code>.",
-      "challenge": "قم بطباعة الجملة السحرية <code>تطابق الألوان صحيح بنسبة 100%</code> لمحاكاة لعبة الألوان.",
-      "starter_code": "# محاكاة لعبة تطابق الألوان:\n",
+      "badge_title": "Colors Artist Medal",
+      "title": "Station 5: Color Match",
+      "desc": "Make a smart color matching game, and make the platform turn the correct color when you choose the right block!",
+      "story": "Colors make our world beautiful! We will program a matching game: if we choose the apple, the color red appears, and if we choose the banana, the beautiful yellow color appears.",
+      "simple": "Magic coloring book costume! You choose the appropriate pen and color the tree green and the sun yellow to create an artistic painting!",
+      "hint": "Type <code>print(\"Colors match 100% correct\")</code>.",
+      "challenge": "Print the magic sentence <code>Match colors 100% correct</code> to simulate a color game.",
+      "starter_code": "# Color matching game simulation:",
       "pills": [
         {
-          "label": "تطابق الألوان 100%",
-          "code": "print(\"تطابق الألوان صحيح بنسبة 100%\")"
+          "label": "100% color match",
+          "code": "print(\"Color matching 100% correct\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تطابق الألوان صحيح بنسبة 100%",
+        "required_output_text": "Color matching is 100% correct.",
         "required_canvas": false
       }
     },
     {
       "id": 6,
       "badge_icon": "🎈",
-      "badge_title": "وسام بطل البالونات (Balloon Pop)",
-      "title": "المحطة 6: تحدي فرقعة البالونات الكبرى",
-      "desc": "المحطة الختامية الكبرى! برمجة لعبة فرقعة البالونات الملونة التي تطير في السماء واحتفال البطل بالنصر!",
-      "story": "المحطة الختامية الكبرى في جونيور بيكتوبلوكس! سنقوم بمحاكاة برمجة لعبة فرقعة البالونات. البالونات تطير للأعلى، وعندما ننقر عليها تنفجر بصوت (بوب) مضحك ونجمع النجوم!",
-      "simple": "زي لعبة تنشين البالونات في العيد! بتنشن على البالونة وتفرقعها وتكسب اللعبة الهدية!",
-      "hint": "اكتب <code>print(\"تم تشغيل لعبة فرقعة البالونات وفوز البطل الصغير!\")</code>.",
-      "challenge": "قم بطباعة العبارة الختامية <code>تم تشغيل لعبة فرقعة البالونات وفوز البطل الصغير!</code> للاحتفال بإنجاز أول قصة ألعاب لك!",
-      "starter_code": "# تشغيل محاكاة لعبة البالونات الختامية:\n",
+      "badge_title": "Balloon Pop Medal",
+      "title": "Station 6: The Great Balloon Popping Challenge",
+      "desc": "The grand final stop! Programming the game of popping colorful balloons that fly in the sky and celebrating the hero's victory!",
+      "story": "The grand finale stop at Junior Pictoblox! We will simulate programming a balloon popping game. The balloons fly up, and when we tap them they explode with a funny \"pop\" sound and we collect stars!",
+      "simple": "Like a balloon popping game for Eid! You hit the balloon and pop it, and you win the game and the gift!",
+      "hint": "Type <code>print(\"The balloon popping game has been played and the little hero wins!\")</code>.",
+      "challenge": "Print the closing phrase <code>The balloon popping game has been played and the little hero has won!</code> to celebrate the completion of your first game story!",
+      "starter_code": "# Run the closing balloon game simulation:",
       "pills": [
         {
-          "label": "فرقعة البالونات الكبرى",
-          "code": "print(\"تم تشغيل لعبة فرقعة البالونات وفوز البطل الصغير!\")"
+          "label": "Big balloon popping",
+          "code": "print(\"The balloon popping game has been played and the little hero has won!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم تشغيل لعبة فرقعة البالونات وفوز البطل الصغير!",
+        "required_output_text": "The balloon popping game has been played and the little hero wins!",
         "required_canvas": false
       }
     }

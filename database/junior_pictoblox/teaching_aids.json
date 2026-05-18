@@ -1,11 +1,11 @@
 {
   "course_id": "junior_pictoblox",
-  "course_title": "جونيور بيكتوبلوكس 👶",
+  "course_title": "Junior pictoblocks 👶",
   "aids": [
     {
       "id": "jp_pet_snap",
-      "title": "🐶 بازل الحيوانات الأليفة (Pet Action Snap)",
-      "desc": "قم بتوصيل بلوك (أطعم الكلب) بصورة الكلب وهو يأكل ويهز ذيله لشرح مبدأ السبب والنتيجة للأطفال الصغار بأسلوب كرتوني مبهج.",
+      "title": "🐶Pet Action Snap",
+      "desc": "Connect the Feed the Dog block with a picture of a dog eating and wagging its tail to explain the principle of cause and effect to young children in a delightful cartoon style.",
       "type": "pet_snap"
     }
   ]

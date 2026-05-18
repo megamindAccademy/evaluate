@@ -1,139 +1,139 @@
 {
   "course_id": "junior_mit_app",
   "course_title": "MIT Mobile App",
-  "course_subtitle": "مرحباً بك يا بطل المستقبل في عالم صناعة تطبيقات الموبايل! هنا ستصنع تطبيقات حقيقية للأندرويد تتحدث بصوتك، تحسب الأرقام، وترسم بالألوان. افتح المحطات واصنع تطبيقك الأول!",
+  "course_subtitle": "Welcome, future champion in the world of mobile application manufacturing! Here you will create real Android applications that speak with your voice, calculate numbers, and draw with colors. Open the terminals and create your first app!",
   "xp_total": 600,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
       "badge_icon": "🗣️",
-      "badge_title": "وسام التطبيق المتحدث (TTS)",
-      "title": "المحطة 1: التطبيق المتحدث (Text-to-Speech)",
-      "desc": "تعلم كيف تبرمج زر الموبايل ليقوم بتحويل النص المكتوب إلى كلام مسموع (Text-to-Speech) بلهجة جميلة.",
-      "story": "أهلاً بك يا مطور التطبيقات الصغير! الموبايل ذكي جداً ويستطيع قراءة أي نص بصوت عالٍ. نستخدم أداة (Text-to-Speech) ونبرمج الزر ليقول العبارة الترحيبية عند الضغط عليه.",
-      "simple": "زي المساعد الصوتي سيري (Siri) أو جوجل! بتكتبله كلام وهو بينطقه بصوته الآلي المميز عشان يساعد الناس اللي مش بتعرف تقرا!",
-      "hint": "اكتب في المحرر: <code>print(\"مرحباً بكم في تطبيق ميجامايندز للموبايل\")</code> ثم اضغط تشغيل!",
-      "challenge": "قم بطباعة الجملة السحرية <code>مرحباً بكم في تطبيق ميجامايندز للموبايل</code> لمحاكاة نطق الموبايل.",
-      "starter_code": "# محاكاة نطق الموبايل للكلام المكتوب:\n",
+      "badge_title": "Application Speaker Medal (TTS)",
+      "title": "Station 1: Text-to-Speech app",
+      "desc": "Learn how to program the mobile button to convert written text into audible speech (Text-to-Speech) with a beautiful accent.",
+      "story": "Welcome, little app developer! The mobile phone is very smart and can read any text out loud. We use the Text-to-Speech tool and program the button to say the welcome phrase when pressed.",
+      "simple": "Like the voice assistant Siri or Google! You write words to him and he speaks them in his distinctive robotic voice in order to help people who cannot read!",
+      "hint": "Type in the editor: <code>print(\"Welcome to the Megaminds Mobile App\")</code> and press Run!",
+      "challenge": "Print the magic sentence <code>Welcome to the Megaminds mobile app</code> to simulate mobile pronunciation.",
+      "starter_code": "# Simulate mobile pronunciation of written speech:",
       "pills": [
         {
-          "label": "تشغيل نطق التطبيق",
-          "code": "print(\"مرحباً بكم في تطبيق ميجامايندز للموبايل\")"
+          "label": "Turn on the pronunciation app",
+          "code": "print(\"Welcome to the Megaminds mobile application\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "مرحباً بكم في تطبيق ميجامايندز للموبايل",
+        "required_output_text": "Welcome to the Megaminds mobile application",
         "required_canvas": false
       }
     },
     {
       "id": 2,
       "badge_icon": "🧮",
-      "badge_title": "وسام الآلة الحاسبة (Calculator)",
-      "title": "المحطة 2: الآلة الحاسبة وأصوات الحيوانات",
-      "desc": "برمج تطبيق آلة حاسبة ذكية تجمع الأرقام وتصدر صوت قطة (مواء) جميل عند ظهور النتيجة!",
-      "story": "التطبيقات تجعل الحساب ممتعاً! نبرمج خانتين لإدخال الأرقام، وعند الضغط على زر (جمع)، يحسب التطبيق الناتج ويشغل ملف صوت كرتوني لتشجيع المستخدم.",
-      "simple": "زي الآلة الحاسبة في الموبايل بس بدلع! كل ما تطلع النتيجة تطلعلك صوت احتفال أو صوت حيوان أليف يفرحك!",
-      "hint": "اكتب <code>calc = 50 + 50</code> ثم <code>print(\"النتيجة 100 مع تشغيل صوت المواء!\")</code>.",
-      "challenge": "قم بطباعة العبارة السحرية <code>النتيجة 100 مع تشغيل صوت المواء!</code> لمحاكاة الآلة الحاسبة.",
-      "starter_code": "# محاكاة تطبيق الآلة الحاسبة التفاعلية:\n",
+      "badge_title": "Calculator Medal",
+      "title": "Station 2: Calculator and animal sounds",
+      "desc": "Program a smart calculator application that adds numbers and emits a beautiful cat sound (meow) when the result appears!",
+      "story": "Apps make counting fun! We program two fields to enter numbers, and when the (add) button is pressed, the application calculates the result and plays a cartoon sound file to encourage the user.",
+      "simple": "Like a calculator on a mobile phone, but it's better! Every time the result comes out, you get the sound of a celebration or the sound of a pet that makes you happy!",
+      "hint": "Type <code>calc = 50 + 50</code> then <code>print(\"Score 100 with meow sound playing!\")</code>.",
+      "challenge": "Print the magic phrase <code>Score 100 with the meow sound playing!</code> to simulate a calculator.",
+      "starter_code": "# Interactive calculator app simulation:",
       "pills": [
         {
-          "label": "حساب وتنزيل الصوت",
-          "code": "print(\"النتيجة 100 مع تشغيل صوت المواء!\")"
+          "label": "Calculate and download audio",
+          "code": "print(\"Score 100 with meow sound playing!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "النتيجة 100 مع تشغيل صوت المواء!",
+        "required_output_text": "Score 100 with the meow sound playing!",
         "required_canvas": false
       }
     },
     {
       "id": 3,
       "badge_icon": "🎨",
-      "badge_title": "وسام الرسام الصغير (Canvas)",
-      "title": "المحطة 3: تطبيق الرسام السحري (Canvas)",
-      "desc": "استخدم لوحة الرسم (Canvas) لبرمجة تطبيق يتيح للمستخدم الرسم بإصبعه على شاشة الموبايل بالألوان!",
-      "story": "شاشة الموبايل تتحول إلى لوحة رسم سحرية! نستخدم عنصر (Canvas) ونبرمج حدث (عند سحب الإصبع) ليرسم خطوطاً ملونة ويغير حجم القلم بسهولة.",
-      "simple": "زي التابلت وكراسة الرسم الرقمية! بتمشي صباعك على الشاشة وتختار اللون الأحمر أو الأزرق وتعمل أحلى رسومات!",
-      "hint": "اكتب <code>print(\"تم تشغيل تطبيق الرسام والرسم بالإصبع بنجاح\")</code>.",
-      "challenge": "قم بطباعة عبارة <code>تم تشغيل تطبيق الرسام والرسم بالإصبع بنجاح</code> لمحاكاة تطبيق الرسام.",
-      "starter_code": "# محاكاة تطبيق الرسام على الموبايل:\n",
+      "badge_title": "Junior Painter Medal (Canvas)",
+      "title": "Stop 3: Canvas",
+      "desc": "Use Canvas to program an application that allows the user to draw with his finger on the mobile screen in color!",
+      "story": "The mobile screen turns into a magic drawing board! We use the Canvas element and program an event (when the finger is dragged) to draw colored lines and change the size of the pen easily.",
+      "simple": "Like a tablet and a digital sketchbook! You walk your finger across the screen, choose red or blue, and create the most beautiful drawings!",
+      "hint": "Type <code>print(\"Paint and Finger Paint was launched successfully\")</code>.",
+      "challenge": "Print <code>Paint and Finger Drawing Application Launched Successfully</code> to emulate the Paint application.",
+      "starter_code": "# Simulating the paint application on mobile:",
       "pills": [
         {
-          "label": "تشغيل تطبيق الرسام",
-          "code": "print(\"تم تشغيل تطبيق الرسام والرسم بالإصبع بنجاح\")"
+          "label": "Run the Paint application",
+          "code": "print(\"The Paint and Finger Drawing application was launched successfully\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم تشغيل تطبيق الرسام والرسم بالإصبع بنجاح",
+        "required_output_text": "The Paint and Finger Drawing application ran successfully",
         "required_canvas": false
       }
     },
     {
       "id": 4,
       "badge_icon": "❓",
-      "badge_title": "وسام مسابقة الذكاء (Quiz App)",
-      "title": "المحطة 4: تطبيق مسابقة الذكاء (Quiz)",
-      "desc": "اصنع تطبيق مسابقة ذكية يعرض الأسئلة ويحسب النقاط في متغير (Score) عند اختيار الإجابة الصحيحة.",
-      "story": "تطبيقات المسابقات تنشط العقل! نبرمج شاشة تعرض سؤالاً وأزراراً للاختيارات. إذا ضغط المستخدم على الإجابة الصحيحة، تظهر رسالة تهنئة ويزداد عداد النقاط.",
-      "simple": "زي برنامج من سيربح المليون! بيطلعلك السؤال و4 اختيارات، ولو جاوبت صح الرصيد بيزيد وتتنقل للسؤال اللي بعده!",
-      "hint": "اكتب <code>print(\"إجابة صحيحة! تم إضافة 10 نقاط لرصيدك\")</code>.",
-      "challenge": "قم بطباعة رسالة التهنئة <code>إجابة صحيحة! تم إضافة 10 نقاط لرصيدك</code> لمحاكاة تطبيق المسابقة.",
-      "starter_code": "# محاكاة تطبيق مسابقة الذكاء:\n",
+      "badge_title": "Intelligence Competition Medal (Quiz App)",
+      "title": "Station 4: IQ application",
+      "desc": "Create a smart competition application that displays questions and calculates points in the Score variable when the correct answer is chosen.",
+      "story": "Competition applications activate the mind! We program a screen that displays a question and buttons for choices. If the user clicks on the correct answer, a congratulatory message appears and the point counter increases.",
+      "simple": "Like Who Wants to be a Millionaire! You will be given the question and 4 choices, and if you answer correctly, your balance will increase and you will move to the next question!",
+      "hint": "Type <code>print(\"Correct answer! 10 points added to your score\")</code>.",
+      "challenge": "Print the congratulatory message <code> Correct answer! 10 points have been added to your balance</code> to simulate the competition application.",
+      "starter_code": "# Intelligence quiz application simulation:",
       "pills": [
         {
-          "label": "إجابة مسابقة الذكاء",
-          "code": "print(\"إجابة صحيحة! تم إضافة 10 نقاط لرصيدك\")"
+          "label": "IQ quiz answer",
+          "code": "print(\"Correct answer! 10 points have been added to your balance\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "إجابة صحيحة! تم إضافة 10 نقاط لرصيدك",
+        "required_output_text": "Correct answer! 10 points have been added to your balance",
         "required_canvas": false
       }
     },
     {
       "id": 5,
       "badge_icon": "🎈",
-      "badge_title": "وسام بطل البالونات (Balloon Pop)",
-      "title": "المحطة 5: تطبيق فرقعة البالونات",
-      "desc": "برمج لعبة ممتعة لفرقعة البالونات المتحركة على شاشة الموبايل عند لمسها بالإصبع!",
-      "story": "الألعاب الحركية على الموبايل ممتعة جداً! نبرمج كائنات كرتونية على شكل بالونات تتحرك عشوائياً، وعند لمسها (TouchDown)، تنفجر ويصدر صوت فرقعة جميل.",
-      "simple": "زي ألعاب الموبايل الشهيرة! بتفضل تضغط بصباعك بسرعة على البالونات اللي بتطير عشان تفرقعها كلها وتكسب التحدي!",
-      "hint": "اكتب <code>print(\"تم فرقعة البالونة بنجاح واحتساب النقطة\")</code>.",
-      "challenge": "قم بطباعة الجملة السحرية <code>تم فرقعة البالونة بنجاح واحتساب النقطة</code> لمحاكاة اللعبة.",
-      "starter_code": "# محاكاة لعبة فرقعة البالونات:\n",
+      "badge_title": "Balloon Pop Medal",
+      "title": "Station 5: Balloon popping application",
+      "desc": "Program a fun game to pop moving balloons on the mobile screen when you touch them with your finger!",
+      "story": "Action games on mobile are so much fun! We program cartoon objects in the form of balloons that move randomly, and when touched (TouchDown), they explode and make a beautiful popping sound.",
+      "simple": "Like famous mobile games! You prefer to quickly press your finger on the flying balloons in order to pop them all and win the challenge!",
+      "hint": "Type <code>print(\"The balloon was popped successfully and the point was calculated\")</code>.",
+      "challenge": "Print the magic sentence <code>The balloon was popped successfully and the point was calculated</code> to simulate the game.",
+      "starter_code": "# Balloon popping game simulation:",
       "pills": [
         {
-          "label": "فرقعة البالونة",
-          "code": "print(\"تم فرقعة البالونة بنجاح واحتساب النقطة\")"
+          "label": "Pop the balloon",
+          "code": "print(\"The balloon was popped successfully and the point was calculated\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم فرقعة البالونة بنجاح واحتساب النقطة",
+        "required_output_text": "The balloon was successfully popped and the point was calculated",
         "required_canvas": false
       }
     },
     {
       "id": 6,
       "badge_icon": "📳",
-      "badge_title": "وسام حساس الاهتزاز (Sensor)",
-      "title": "المحطة 6: تطبيق حجر ورقة مقص بالاهتزاز",
-      "desc": "المحطة الختامية الكبرى! استخدم حساس الاهتزاز (Accelerometer) لتلعب حجر ورقة مقص عند هز الموبايل!",
-      "story": "المحطة الختامية الكبرى في تطبيقات الموبايل! نستخدم حساس الاهتزاز في الموبايل (Accelerometer). عندما يقوم اللاعب بهز الموبايل بقوة، يختار التطبيق عشوائياً حجر أو ورقة أو مقص ويعلن الفائز!",
-      "simple": "زي اللعبة السحرية! بتهز الموبايل في إيدك وأول ما توقف تلاقي الشاشة مطلعالك صورة حجر أو ورقة وتلعب مع أصحابك!",
-      "hint": "اكتب <code>print(\"تم هز الموبايل وتشغيل لعبة حجر ورقة مقص بنجاح!\")</code>.",
-      "challenge": "قم بطباعة العبارة الختامية <code>تم هز الموبايل وتشغيل لعبة حجر ورقة مقص بنجاح!</code> للاحتفال بتخرجك كمطور تطبيقات محترف!",
-      "starter_code": "# محاكاة حساس الاهتزاز واللعبة الختامية:\n",
+      "badge_title": "Vibration sensor medal",
+      "title": "Station 6: Vibrating stone paper scissors application",
+      "desc": "The grand final stop! Use the Accelerometer to play rock-paper-scissors when shaking your phone!",
+      "story": "The big final stop on mobile applications! We use the vibration sensor in the mobile phone (Accelerometer). When the player shakes the mobile phone vigorously, the application randomly chooses rock, paper, or scissors and announces the winner!",
+      "simple": "Magic game costume! You shake the mobile phone in your hand, and as soon as you stop, the screen shows you an image of a stone or a piece of paper, and you play with your friends!",
+      "hint": "Type <code>print(“The mobile phone was shaken and the rock-paper-scissors game was successfully played!”)</code>.",
+      "challenge": "Print the closing phrase <code>The mobile phone has been shaken and the rock-paper-scissors game has been successfully played!</code> to celebrate your graduation as a professional application developer!",
+      "starter_code": "# Vibration sensor simulation and closing game:",
       "pills": [
         {
-          "label": "هز الموبايل واللعب",
-          "code": "print(\"تم هز الموبايل وتشغيل لعبة حجر ورقة مقص بنجاح!\")"
+          "label": "Shake the mobile and play",
+          "code": "print(\"The mobile phone was shaken and the rock-paper-scissors game played successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم هز الموبايل وتشغيل لعبة حجر ورقة مقص بنجاح!",
+        "required_output_text": "The mobile phone was shaken and the rock-paper-scissors game played successfully!",
         "required_canvas": false
       }
     }
