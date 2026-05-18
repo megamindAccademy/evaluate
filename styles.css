@@ -1635,7 +1635,7 @@ body {
 .q-student-answer, 
 .q-correct-answer {
     unicode-bidi: plaintext;
-    text-align: right;
+    text-align: start;
 }
 
 .code-box, 
@@ -2340,6 +2340,21 @@ code {
     color: var(--tertiary-dark);
     line-height: 1.8;
     font-weight: 700;
+    unicode-bidi: plaintext;
+    text-align: start;
+}
+
+.mascot-text p, 
+.mascot-text li, 
+.mascot-text h3, 
+.mascot-text h4,
+.challenge-desc,
+.homework-card-desc,
+.mascot-text div,
+.game-container-card p,
+.game-container-card li {
+    unicode-bidi: plaintext;
+    text-align: start;
 }
 
 .mascot-text h3 {
