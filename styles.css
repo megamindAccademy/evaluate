@@ -2306,10 +2306,11 @@ code {
     display: flex;
     gap: 25px;
     align-items: flex-start;
-    background: var(--bg-gradient-1);
-    padding: 25px;
-    border-radius: var(--radius-md);
-    border: 3px dashed var(--primary);
+    background: linear-gradient(135deg, #fffaf0, #e2f8fa);
+    padding: 30px;
+    border-radius: 30px;
+    border: 4px dashed var(--primary);
+    box-shadow: 0 12px 30px rgba(255, 123, 0, 0.08);
 }
 
 .mascot-guide-img {
@@ -2326,13 +2327,18 @@ code {
 }
 
 .mascot-name {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 900;
-    color: var(--primary);
-    margin-bottom: 5px;
-    display: flex;
+    color: var(--primary-dark);
+    margin-bottom: 10px;
+    display: inline-flex;
     align-items: center;
     gap: 8px;
+    background: var(--secondary);
+    padding: 6px 18px;
+    border-radius: 20px;
+    border: 2px solid var(--primary);
+    box-shadow: 0 4px 10px rgba(255, 183, 3, 0.3);
 }
 
 .mascot-text {
@@ -2395,14 +2401,30 @@ code {
 }
 
 .mascot-text ul, .mascot-text ol {
-    margin: 18px 25px 25px 0;
-    padding-right: 15px;
+    margin: 25px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style-position: outside;
 }
 
 .mascot-text li {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     line-height: 1.8;
     font-weight: 700;
+    background: rgba(255, 255, 255, 0.55);
+    padding: 12px 20px;
+    border-radius: 16px;
+    border: 2px dashed rgba(33, 158, 188, 0.15);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+}
+
+.mascot-text li:hover {
+    transform: translateY(-3px) scale(1.01);
+    background: #ffffff;
+    border-color: var(--primary-light);
+    box-shadow: 0 10px 25px rgba(255, 123, 0, 0.12);
 }
 
 .mascot-text li b {
