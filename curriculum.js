@@ -696,6 +696,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function applyAutoDirection(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        const elements = container.querySelectorAll('ol, ul, li, p, h3, h4, div');
+        elements.forEach(el => {
+            el.setAttribute('dir', 'auto');
+        });
+        container.setAttribute('dir', 'auto');
+    }
+
     function openStudioForStation(stId) {
         if (!currentCourseData) return;
         currentStationId = stId;
@@ -707,6 +717,9 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('coachLessonText').innerHTML = station.story;
         document.getElementById('challengeDescText').innerHTML = station.challenge;
         document.getElementById('curriculumEditorTextarea').value = station.starter_code;
+
+        applyAutoDirection('coachLessonText');
+        applyAutoDirection('challengeDescText');
 
         // Reset and set active tab to Story & Challenge
         document.querySelectorAll('.studio-tab-btn').forEach(b => {
@@ -726,6 +739,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (homework) {
             document.getElementById('studioHomeworkTitle').textContent = homework.title;
             document.getElementById('studioHomeworkDesc').innerHTML = homework.desc;
+            applyAutoDirection('studioHomeworkDesc');
             
             const codeBox = document.getElementById('studioHomeworkCodeBox');
             if (codeBox) {
@@ -818,6 +832,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (hintDisplayBox && station) {
                 hintTitleText.textContent = "💡 التبسيط العامي (بسطها لي):";
                 hintContentText.innerHTML = station.simple;
+                applyAutoDirection('hintContentText');
                 hintDisplayBox.classList.add('active');
                 playHappyChime();
             }
@@ -832,6 +847,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (hintDisplayBox && station) {
                 hintTitleText.textContent = "✨ تلميح سحري للمساعدة:";
                 hintContentText.innerHTML = station.hint;
+                applyAutoDirection('hintContentText');
                 hintDisplayBox.classList.add('active');
                 playHappyChime();
             }

@@ -2352,7 +2352,9 @@ code {
 .homework-card-desc,
 .mascot-text div,
 .game-container-card p,
-.game-container-card li {
+.game-container-card li,
+.mascot-text ol,
+.mascot-text ul {
     unicode-bidi: plaintext;
     text-align: start;
 }
