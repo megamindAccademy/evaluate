@@ -29,6 +29,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Turtle Geometry & Maze Navigation Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Turtle Geometry & Maze Navigation'. Specifically, design a feature demonstrating: 'Draw mazes and move freely' using the starter template below!",
+        "code": "# Home Challenge: Turtle Geometry & Maze Navigation Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Turtle Geometry & Maze Navigation Simulator\n# Write your creative solution here!"
       }
     },
@@ -56,6 +57,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Variables & Interactive Inputs Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Variables & Interactive Inputs'. Specifically, design a feature demonstrating: 'Calculate distances and multiply values' using the starter template below!",
+        "code": "# Home Challenge: Variables & Interactive Inputs Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Variables & Interactive Inputs Simulator\n# Write your creative solution here!"
       }
     },
@@ -83,6 +85,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: String Operations & Advanced Shapes Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'String Operations & Advanced Shapes'. Specifically, design a feature demonstrating: 'Drawing complex geometric shapes' using the starter template below!",
+        "code": "# Home Challenge: String Operations & Advanced Shapes Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: String Operations & Advanced Shapes Simulator\n# Write your creative solution here!"
       }
     },
@@ -110,6 +113,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Conditional Logic & Branching Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Conditional Logic & Branching'. Specifically, design a feature demonstrating: 'Programming the conditions for the direction of the turtle's movement' using the starter template below!",
+        "code": "# Home Challenge: Conditional Logic & Branching Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Conditional Logic & Branching Simulator\n# Write your creative solution here!"
       }
     },
@@ -137,6 +141,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Iteration & Geometric Polygons (Traffic Controller) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Iteration & Geometric Polygons (Traffic Controller)'. Specifically, design a feature demonstrating: 'Drawing polygons and traffic light system' using the starter template below!",
+        "code": "# Home Challenge: Iteration & Geometric Polygons (Traffic Controller) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Iteration & Geometric Polygons (Traffic Controller) Simulator\n# Write your creative solution here!"
       }
     },
@@ -164,6 +169,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Parallel Loops & Simulations (Turtle Race) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Parallel Loops & Simulations (Turtle Race)'. Specifically, design a feature demonstrating: 'Turtle Race game' using the starter template below!",
+        "code": "# Home Challenge: Parallel Loops & Simulations (Turtle Race) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Parallel Loops & Simulations (Turtle Race) Simulator\n# Write your creative solution here!"
       }
     },
@@ -191,6 +197,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Key-Value Dictionaries (Smart Quiz App) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Key-Value Dictionaries (Smart Quiz App)'. Specifically, design a feature demonstrating: 'Smart question bank and competitions application' using the starter template below!",
+        "code": "# Home Challenge: Key-Value Dictionaries (Smart Quiz App) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Key-Value Dictionaries (Smart Quiz App) Simulator\n# Write your creative solution here!"
       }
     },
@@ -218,6 +225,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Advanced Algorithms - Recursion (Factorial & Spiral) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Advanced Algorithms - Recursion (Factorial & Spiral)'. Specifically, design a feature demonstrating: 'Drawing spirals and calculating the factorial (Factorial)' using the starter template below!",
+        "code": "# Home Challenge: Advanced Algorithms - Recursion (Factorial & Spiral) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Advanced Algorithms - Recursion (Factorial & Spiral) Simulator\n# Write your creative solution here!"
       }
     },
@@ -245,6 +253,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Debugging Workshop & Code Refactoring Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Debugging Workshop & Code Refactoring'. Specifically, design a feature demonstrating: 'Correct missing comparisons and symbols' using the starter template below!",
+        "code": "# Home Challenge: Debugging Workshop & Code Refactoring Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Debugging Workshop & Code Refactoring Simulator\n# Write your creative solution here!"
       }
     },
@@ -272,6 +281,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Dynamic Lists & Data Structures Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Dynamic Lists & Data Structures'. Specifically, design a feature demonstrating: 'Arranging and filtering software data' using the starter template below!",
+        "code": "# Home Challenge: Dynamic Lists & Data Structures Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Dynamic Lists & Data Structures Simulator\n# Write your creative solution here!"
       }
     },
@@ -299,6 +309,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Validation & Exception Handling Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Validation & Exception Handling'. Specifically, design a feature demonstrating: 'Verify that integers are entered' using the starter template below!",
+        "code": "# Home Challenge: Validation & Exception Handling Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Validation & Exception Handling Simulator\n# Write your creative solution here!"
       }
     },
@@ -326,6 +337,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Capstone Project - Attendance & Report System Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Capstone Project - Attendance & Report System'. Specifically, design a feature demonstrating: 'Save attendance reports in real text files' using the starter template below!",
+        "code": "# Home Challenge: Capstone Project - Attendance & Report System Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Capstone Project - Attendance & Report System Simulator\n# Write your creative solution here!"
       }
     }

@@ -743,9 +743,10 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const codeBox = document.getElementById('studioHomeworkCodeBox');
             if (codeBox) {
+                const hwCode = homework.code || homework.starter_code || '';
                 codeBox.innerHTML = `
                     <div style="position:relative; margin-top:10px;">
-                        <pre style="background:#023047; color:#06d6a0; padding:15px; border-radius:10px; font-family:monospace; direction:ltr; text-align:left; overflow-x:auto; font-size:1.1rem; line-height:1.5;"><code>${homework.code.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</code></pre>
+                        <pre style="background:#023047; color:#06d6a0; padding:15px; border-radius:10px; font-family:monospace; direction:ltr; text-align:left; overflow-x:auto; font-size:1.1rem; line-height:1.5;"><code>${hwCode.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</code></pre>
                         <button class="btn-copy-hw-code" style="position:absolute; top:10px; left:10px; background:#ffb703; color:#023047; border:none; padding:6px 12px; border-radius:6px; font-size:0.95rem; font-weight:800; cursor:pointer; transition:all 0.2s;">
                             📋 نسخ كود البداية للمحرر
                         </button>
@@ -756,7 +757,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 codeBox.querySelector('.btn-copy-hw-code').addEventListener('click', () => {
                     const textarea = document.getElementById('curriculumEditorTextarea');
                     if (textarea) {
-                        textarea.value = homework.code;
+                        textarea.value = hwCode;
                         playHappyChime();
                         alert("🎉 تم نسخ كود البداية إلى محرر الأكواد السحري بنجاح! اذهب لعلامة '📘 الشرح والتحدي' للبدء في حله.");
                     }

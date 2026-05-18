@@ -29,6 +29,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 1: LAN & WAN setups Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1: LAN & WAN setups'. Specifically, design a feature demonstrating: 'LAN & WAN setups' using the starter template below!",
+        "code": "# Home Challenge: Session 1: LAN & WAN setups Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 1: LAN & WAN setups Simulator\n# Write your creative solution here!"
       }
     },
@@ -56,6 +57,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 2: 7 Layers OSI Model Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2: 7 Layers OSI Model'. Specifically, design a feature demonstrating: '7 Layers OSI Model' using the starter template below!",
+        "code": "# Home Challenge: Session 2: 7 Layers OSI Model Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 2: 7 Layers OSI Model Simulator\n# Write your creative solution here!"
       }
     },
@@ -83,6 +85,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 3: TCP/IP 3-Way Handshake Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3: TCP/IP 3-Way Handshake'. Specifically, design a feature demonstrating: 'TCP/IP 3-Way Handshake' using the starter template below!",
+        "code": "# Home Challenge: Session 3: TCP/IP 3-Way Handshake Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 3: TCP/IP 3-Way Handshake Simulator\n# Write your creative solution here!"
       }
     },
@@ -110,6 +113,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 4: Addressing & Subnetting Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4: Addressing & Subnetting'. Specifically, design a feature demonstrating: 'Addressing & Subnetting' using the starter template below!",
+        "code": "# Home Challenge: Session 4: Addressing & Subnetting Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 4: Addressing & Subnetting Simulator\n# Write your creative solution here!"
       }
     },
@@ -137,6 +141,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 5: Terminal Diagnostics Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5: Terminal Diagnostics'. Specifically, design a feature demonstrating: 'Terminal Diagnostics' using the starter template below!",
+        "code": "# Home Challenge: Session 5: Terminal Diagnostics Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 5: Terminal Diagnostics Simulator\n# Write your creative solution here!"
       }
     },
@@ -164,6 +169,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 6: Packet Capturing Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6: Packet Capturing'. Specifically, design a feature demonstrating: 'Packet Capturing' using the starter template below!",
+        "code": "# Home Challenge: Session 6: Packet Capturing Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 6: Packet Capturing Simulator\n# Write your creative solution here!"
       }
     },
@@ -191,6 +197,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 7: Network Port Scanning Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7: Network Port Scanning'. Specifically, design a feature demonstrating: 'Network Port Scanning' using the starter template below!",
+        "code": "# Home Challenge: Session 7: Network Port Scanning Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 7: Network Port Scanning Simulator\n# Write your creative solution here!"
       }
     },
@@ -218,6 +225,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 8: ARP Poisoning MITM Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8: ARP Poisoning MITM'. Specifically, design a feature demonstrating: 'ARP Poisoning MITM' using the starter template below!",
+        "code": "# Home Challenge: Session 8: ARP Poisoning MITM Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 8: ARP Poisoning MITM Simulator\n# Write your creative solution here!"
       }
     },
@@ -245,6 +253,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 9: DNS Cache Spoofing Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9: DNS Cache Spoofing'. Specifically, design a feature demonstrating: 'DNS Cache Spoofing' using the starter template below!",
+        "code": "# Home Challenge: Session 9: DNS Cache Spoofing Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 9: DNS Cache Spoofing Simulator\n# Write your creative solution here!"
       }
     },
@@ -272,6 +281,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 10: Wireless Network Auditing Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10: Wireless Network Auditing'. Specifically, design a feature demonstrating: 'Wireless Network Auditing' using the starter template below!",
+        "code": "# Home Challenge: Session 10: Wireless Network Auditing Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 10: Wireless Network Auditing Simulator\n# Write your creative solution here!"
       }
     },
@@ -299,6 +309,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 11: Firewall Port Filters Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11: Firewall Port Filters'. Specifically, design a feature demonstrating: 'Firewall Port Filters' using the starter template below!",
+        "code": "# Home Challenge: Session 11: Firewall Port Filters Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 11: Firewall Port Filters Simulator\n# Write your creative solution here!"
       }
     },
@@ -326,6 +337,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 12: VPN Tunnel Encryption Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12: VPN Tunnel Encryption'. Specifically, design a feature demonstrating: 'VPN Tunnel Encryption' using the starter template below!",
+        "code": "# Home Challenge: Session 12: VPN Tunnel Encryption Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 12: VPN Tunnel Encryption Simulator\n# Write your creative solution here!"
       }
     }

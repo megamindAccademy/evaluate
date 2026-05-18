@@ -29,6 +29,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 1: HTML5 Structural elements Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1: HTML5 Structural elements'. Specifically, design a feature demonstrating: 'HTML5 Structural elements' using the starter template below!",
+        "code": "# Home Challenge: Session 1: HTML5 Structural elements Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 1: HTML5 Structural elements Simulator\n# Write your creative solution here!"
       }
     },
@@ -56,6 +57,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 2: Hyperlinks & Images Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2: Hyperlinks & Images'. Specifically, design a feature demonstrating: 'Hyperlinks & Images' using the starter template below!",
+        "code": "# Home Challenge: Session 2: Hyperlinks & Images Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 2: Hyperlinks & Images Simulator\n# Write your creative solution here!"
       }
     },
@@ -83,6 +85,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 3: Lists & Division Blocks Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3: Lists & Division Blocks'. Specifically, design a feature demonstrating: 'Lists & Division Blocks' using the starter template below!",
+        "code": "# Home Challenge: Session 3: Lists & Division Blocks Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 3: Lists & Division Blocks Simulator\n# Write your creative solution here!"
       }
     },
@@ -110,6 +113,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 4: Table Schedules Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4: Table Schedules'. Specifically, design a feature demonstrating: 'Table Schedules' using the starter template below!",
+        "code": "# Home Challenge: Session 4: Table Schedules Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 4: Table Schedules Simulator\n# Write your creative solution here!"
       }
     },
@@ -137,6 +141,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 5: External Stylesheets Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5: External Stylesheets'. Specifically, design a feature demonstrating: 'External Stylesheets' using the starter template below!",
+        "code": "# Home Challenge: Session 5: External Stylesheets Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 5: External Stylesheets Simulator\n# Write your creative solution here!"
       }
     },
@@ -164,6 +169,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 6: CSS Typography Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6: CSS Typography'. Specifically, design a feature demonstrating: 'CSS Typography' using the starter template below!",
+        "code": "# Home Challenge: Session 6: CSS Typography Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 6: CSS Typography Simulator\n# Write your creative solution here!"
       }
     },
@@ -191,6 +197,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 7: CSS Box Model layers Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7: CSS Box Model layers'. Specifically, design a feature demonstrating: 'CSS Box Model layers' using the starter template below!",
+        "code": "# Home Challenge: Session 7: CSS Box Model layers Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 7: CSS Box Model layers Simulator\n# Write your creative solution here!"
       }
     },
@@ -218,6 +225,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 8: CSS Shadows & Gradients Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8: CSS Shadows & Gradients'. Specifically, design a feature demonstrating: 'CSS Shadows & Gradients' using the starter template below!",
+        "code": "# Home Challenge: Session 8: CSS Shadows & Gradients Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 8: CSS Shadows & Gradients Simulator\n# Write your creative solution here!"
       }
     },
@@ -245,6 +253,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 9: CSS Absolute Coordinates Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9: CSS Absolute Coordinates'. Specifically, design a feature demonstrating: 'CSS Absolute Coordinates' using the starter template below!",
+        "code": "# Home Challenge: Session 9: CSS Absolute Coordinates Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 9: CSS Absolute Coordinates Simulator\n# Write your creative solution here!"
       }
     },
@@ -272,6 +281,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 10: Flexbox Layout Axes Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10: Flexbox Layout Axes'. Specifically, design a feature demonstrating: 'Flexbox Layout Axes' using the starter template below!",
+        "code": "# Home Challenge: Session 10: Flexbox Layout Axes Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 10: Flexbox Layout Axes Simulator\n# Write your creative solution here!"
       }
     },
@@ -299,6 +309,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 11: Flex Wrapping & Sizing Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11: Flex Wrapping & Sizing'. Specifically, design a feature demonstrating: 'Flex Wrapping & Sizing' using the starter template below!",
+        "code": "# Home Challenge: Session 11: Flex Wrapping & Sizing Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 11: Flex Wrapping & Sizing Simulator\n# Write your creative solution here!"
       }
     },
@@ -326,6 +337,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 12: CSS 2D Grid slices Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12: CSS 2D Grid slices'. Specifically, design a feature demonstrating: 'CSS 2D Grid slices' using the starter template below!",
+        "code": "# Home Challenge: Session 12: CSS 2D Grid slices Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 12: CSS 2D Grid slices Simulator\n# Write your creative solution here!"
       }
     },
@@ -353,6 +365,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 13: Interactive HTML Forms Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 13: Interactive HTML Forms'. Specifically, design a feature demonstrating: 'Interactive HTML Forms' using the starter template below!",
+        "code": "# Home Challenge: Session 13: Interactive HTML Forms Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 13: Interactive HTML Forms Simulator\n# Write your creative solution here!"
       }
     },
@@ -380,6 +393,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 14: CSS Interactive Hovers Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 14: CSS Interactive Hovers'. Specifically, design a feature demonstrating: 'CSS Interactive Hovers' using the starter template below!",
+        "code": "# Home Challenge: Session 14: CSS Interactive Hovers Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 14: CSS Interactive Hovers Simulator\n# Write your creative solution here!"
       }
     },
@@ -407,6 +421,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 15: Bakery Template: Header & Hero Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 15: Bakery Template: Header & Hero'. Specifically, design a feature demonstrating: 'Bakery Template: Header & Hero' using the starter template below!",
+        "code": "# Home Challenge: Session 15: Bakery Template: Header & Hero Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 15: Bakery Template: Header & Hero Simulator\n# Write your creative solution here!"
       }
     },
@@ -434,6 +449,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 16: Bakery Template: About & Footer Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 16: Bakery Template: About & Footer'. Specifically, design a feature demonstrating: 'Bakery Template: About & Footer' using the starter template below!",
+        "code": "# Home Challenge: Session 16: Bakery Template: About & Footer Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 16: Bakery Template: About & Footer Simulator\n# Write your creative solution here!"
       }
     }

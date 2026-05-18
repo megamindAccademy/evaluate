@@ -29,6 +29,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 1: Core Security Pillars Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1: Core Security Pillars'. Specifically, design a feature demonstrating: 'Core Security Pillars' using the starter template below!",
+        "code": "# Home Challenge: Session 1: Core Security Pillars Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 1: Core Security Pillars Simulator\n# Write your creative solution here!"
       }
     },
@@ -56,6 +57,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 2: Phishing Vectors Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2: Phishing Vectors'. Specifically, design a feature demonstrating: 'Phishing Vectors' using the starter template below!",
+        "code": "# Home Challenge: Session 2: Phishing Vectors Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 2: Phishing Vectors Simulator\n# Write your creative solution here!"
       }
     },
@@ -83,6 +85,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 3: Red vs Blue Teams Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3: Red vs Blue Teams'. Specifically, design a feature demonstrating: 'Red vs Blue Teams' using the starter template below!",
+        "code": "# Home Challenge: Session 3: Red vs Blue Teams Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 3: Red vs Blue Teams Simulator\n# Write your creative solution here!"
       }
     },
@@ -110,6 +113,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 4: Operating Systems Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4: Operating Systems'. Specifically, design a feature demonstrating: 'Operating Systems' using the starter template below!",
+        "code": "# Home Challenge: Session 4: Operating Systems Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 4: Operating Systems Simulator\n# Write your creative solution here!"
       }
     },
@@ -137,6 +141,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 5: Linux Commands Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5: Linux Commands'. Specifically, design a feature demonstrating: 'Linux Commands' using the starter template below!",
+        "code": "# Home Challenge: Session 5: Linux Commands Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 5: Linux Commands Simulator\n# Write your creative solution here!"
       }
     },
@@ -164,6 +169,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 6: Data Integrity Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6: Data Integrity'. Specifically, design a feature demonstrating: 'Data Integrity' using the starter template below!",
+        "code": "# Home Challenge: Session 6: Data Integrity Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 6: Data Integrity Simulator\n# Write your creative solution here!"
       }
     },
@@ -191,6 +197,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 7: Password recovery Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7: Password recovery'. Specifically, design a feature demonstrating: 'Password recovery' using the starter template below!",
+        "code": "# Home Challenge: Session 7: Password recovery Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 7: Password recovery Simulator\n# Write your creative solution here!"
       }
     },
@@ -218,6 +225,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 8: Sandbox Environments Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8: Sandbox Environments'. Specifically, design a feature demonstrating: 'Sandbox Environments' using the starter template below!",
+        "code": "# Home Challenge: Session 8: Sandbox Environments Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 8: Sandbox Environments Simulator\n# Write your creative solution here!"
       }
     },
@@ -245,6 +253,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 9: Static Malware Checks Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9: Static Malware Checks'. Specifically, design a feature demonstrating: 'Static Malware Checks' using the starter template below!",
+        "code": "# Home Challenge: Session 9: Static Malware Checks Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 9: Static Malware Checks Simulator\n# Write your creative solution here!"
       }
     },
@@ -272,6 +281,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 10: Dynamic Malware logs Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10: Dynamic Malware logs'. Specifically, design a feature demonstrating: 'Dynamic Malware logs' using the starter template below!",
+        "code": "# Home Challenge: Session 10: Dynamic Malware logs Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 10: Dynamic Malware logs Simulator\n# Write your creative solution here!"
       }
     },
@@ -299,6 +309,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 11: Firewall Filtering Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11: Firewall Filtering'. Specifically, design a feature demonstrating: 'Firewall Filtering' using the starter template below!",
+        "code": "# Home Challenge: Session 11: Firewall Filtering Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 11: Firewall Filtering Simulator\n# Write your creative solution here!"
       }
     },
@@ -326,6 +337,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 12: Public Keys Exchange Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12: Public Keys Exchange'. Specifically, design a feature demonstrating: 'Public Keys Exchange' using the starter template below!",
+        "code": "# Home Challenge: Session 12: Public Keys Exchange Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 12: Public Keys Exchange Simulator\n# Write your creative solution here!"
       }
     }

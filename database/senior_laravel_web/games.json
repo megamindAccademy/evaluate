@@ -29,6 +29,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Laravel Installation & Setup Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Laravel Installation & Setup'. Specifically, design a feature demonstrating: 'Running your first Laravel project' using the starter template below!",
+        "code": "# Home Challenge: Laravel Installation & Setup Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Laravel Installation & Setup Simulator\n# Write your creative solution here!"
       }
     },
@@ -56,6 +57,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: MVC Architecture & Basic Routing Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'MVC Architecture & Basic Routing'. Specifically, design a feature demonstrating: 'Writing basic routes' using the starter template below!",
+        "code": "# Home Challenge: MVC Architecture & Basic Routing Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: MVC Architecture & Basic Routing Simulator\n# Write your creative solution here!"
       }
     },
@@ -83,6 +85,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Advanced Routing & Groups Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Advanced Routing & Groups'. Specifically, design a feature demonstrating: 'Named paths and path groups' using the starter template below!",
+        "code": "# Home Challenge: Advanced Routing & Groups Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Advanced Routing & Groups Simulator\n# Write your creative solution here!"
       }
     },
@@ -110,6 +113,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Blade Templating Engine Basics Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Blade Templating Engine Basics'. Specifically, design a feature demonstrating: 'Designing the unified structure of the site (Master Layout)' using the starter template below!",
+        "code": "# Home Challenge: Blade Templating Engine Basics Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Blade Templating Engine Basics Simulator\n# Write your creative solution here!"
       }
     },
@@ -137,6 +141,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Advanced Blade Directives Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Advanced Blade Directives'. Specifically, design a feature demonstrating: 'View interactive product listings' using the starter template below!",
+        "code": "# Home Challenge: Advanced Blade Directives Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Advanced Blade Directives Simulator\n# Write your creative solution here!"
       }
     },
@@ -164,6 +169,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Controllers (Logic Managers) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Controllers (Logic Managers)'. Specifically, design a feature demonstrating: 'Connecting paths to controllers' using the starter template below!",
+        "code": "# Home Challenge: Controllers (Logic Managers) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Controllers (Logic Managers) Simulator\n# Write your creative solution here!"
       }
     },
@@ -191,6 +197,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Database Schemas & Migrations Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Database Schemas & Migrations'. Specifically, design a feature demonstrating: 'Design product tables and cakes' using the starter template below!",
+        "code": "# Home Challenge: Database Schemas & Migrations Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Database Schemas & Migrations Simulator\n# Write your creative solution here!"
       }
     },
@@ -218,6 +225,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Database Seeding & Faker Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Database Seeding & Faker'. Specifically, design a feature demonstrating: 'Advanced mock data generation' using the starter template below!",
+        "code": "# Home Challenge: Database Seeding & Faker Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Database Seeding & Faker Simulator\n# Write your creative solution here!"
       }
     },
@@ -245,6 +253,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Introduction to Eloquent ORM Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Introduction to Eloquent ORM'. Specifically, design a feature demonstrating: 'Fast query and search script' using the starter template below!",
+        "code": "# Home Challenge: Introduction to Eloquent ORM Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Introduction to Eloquent ORM Simulator\n# Write your creative solution here!"
       }
     },
@@ -272,6 +281,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Forms & CSRF Protection Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Forms & CSRF Protection'. Specifically, design a feature demonstrating: 'Site protected by @csrf' using the starter template below!",
+        "code": "# Home Challenge: Forms & CSRF Protection Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Forms & CSRF Protection Simulator\n# Write your creative solution here!"
       }
     },
@@ -299,6 +309,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Form Validation & Errors Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Form Validation & Errors'. Specifically, design a feature demonstrating: 'Display warning and error messages' using the starter template below!",
+        "code": "# Home Challenge: Form Validation & Errors Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Form Validation & Errors Simulator\n# Write your creative solution here!"
       }
     },
@@ -326,6 +337,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Database CRUD Operations (Part 1) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Database CRUD Operations (Part 1)'. Specifically, design a feature demonstrating: 'Add cake products to the database' using the starter template below!",
+        "code": "# Home Challenge: Database CRUD Operations (Part 1) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Database CRUD Operations (Part 1) Simulator\n# Write your creative solution here!"
       }
     },
@@ -353,6 +365,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Database CRUD Operations (Part 2) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Database CRUD Operations (Part 2)'. Specifically, design a feature demonstrating: 'Delete an item from the store' using the starter template below!",
+        "code": "# Home Challenge: Database CRUD Operations (Part 2) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Database CRUD Operations (Part 2) Simulator\n# Write your creative solution here!"
       }
     },
@@ -380,6 +393,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: User Authentication (Login & Register) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'User Authentication (Login & Register)'. Specifically, design a feature demonstrating: 'Verify and confirm the buyer's account' using the starter template below!",
+        "code": "# Home Challenge: User Authentication (Login & Register) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: User Authentication (Login & Register) Simulator\n# Write your creative solution here!"
       }
     },
@@ -407,6 +421,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: File Uploading & Image Storage Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'File Uploading & Image Storage'. Specifically, design a feature demonstrating: 'Save and display product images' using the starter template below!",
+        "code": "# Home Challenge: File Uploading & Image Storage Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: File Uploading & Image Storage Simulator\n# Write your creative solution here!"
       }
     },
@@ -434,6 +449,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Mega Project - Dynamic Cake Shop Website Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Mega Project - Dynamic Cake Shop Website'. Specifically, design a feature demonstrating: 'Browse and book dream cakes' using the starter template below!",
+        "code": "# Home Challenge: Mega Project - Dynamic Cake Shop Website Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Mega Project - Dynamic Cake Shop Website Simulator\n# Write your creative solution here!"
       }
     }

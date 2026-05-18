@@ -29,6 +29,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Introduction & App Inventor Interface Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Introduction & App Inventor Interface'. Specifically, design a feature demonstrating: 'Add basic elements (Button & Label)' using the starter template below!",
+        "code": "# Home Challenge: Introduction & App Inventor Interface Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Introduction & App Inventor Interface Simulator\n# Write your creative solution here!"
       }
     },
@@ -56,6 +57,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Layouts & Canvas (Whiteboard Painting App) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Layouts & Canvas (Whiteboard Painting App)'. Specifically, design a feature demonstrating: 'Use Canvas for drawing and painting' using the starter template below!",
+        "code": "# Home Challenge: Layouts & Canvas (Whiteboard Painting App) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Layouts & Canvas (Whiteboard Painting App) Simulator\n# Write your creative solution here!"
       }
     },
@@ -83,6 +85,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: ImageSprites & Touching (Catch the Cat Game) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'ImageSprites & Touching (Catch the Cat Game)'. Specifically, design a feature demonstrating: 'Programming to touch the object (Touch Event)' using the starter template below!",
+        "code": "# Home Challenge: ImageSprites & Touching (Catch the Cat Game) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: ImageSprites & Touching (Catch the Cat Game) Simulator\n# Write your creative solution here!"
       }
     },
@@ -110,6 +113,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Audio & Voice Controls (Speech Calculator) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Audio & Voice Controls (Speech Calculator)'. Specifically, design a feature demonstrating: 'Convert text to speech (TextToSpeech)' using the starter template below!",
+        "code": "# Home Challenge: Audio & Voice Controls (Speech Calculator) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Audio & Voice Controls (Speech Calculator) Simulator\n# Write your creative solution here!"
       }
     },
@@ -137,6 +141,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Multi-Screen & Login Validation App Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Multi-Screen & Login Validation App'. Specifically, design a feature demonstrating: 'Data validation and confidentiality' using the starter template below!",
+        "code": "# Home Challenge: Multi-Screen & Login Validation App Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Multi-Screen & Login Validation App Simulator\n# Write your creative solution here!"
       }
     },
@@ -164,6 +169,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Advanced Screens & Local DB (TinyDB Profile App) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Advanced Screens & Local DB (TinyDB Profile App)'. Specifically, design a feature demonstrating: 'Recover saved data' using the starter template below!",
+        "code": "# Home Challenge: Advanced Screens & Local DB (TinyDB Profile App) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Advanced Screens & Local DB (TinyDB Profile App) Simulator\n# Write your creative solution here!"
       }
     },
@@ -191,6 +197,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Edge Collisions & Bounce Physics (Pong Ball Game) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Edge Collisions & Bounce Physics (Pong Ball Game)'. Specifically, design a feature demonstrating: 'Calculating the bounce angle upon collision' using the starter template below!",
+        "code": "# Home Challenge: Edge Collisions & Bounce Physics (Pong Ball Game) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Edge Collisions & Bounce Physics (Pong Ball Game) Simulator\n# Write your creative solution here!"
       }
     },
@@ -218,6 +225,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Data Lists & ListView (To-Do List App) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Data Lists & ListView (To-Do List App)'. Specifically, design a feature demonstrating: 'Display data in ListView' using the starter template below!",
+        "code": "# Home Challenge: Data Lists & ListView (To-Do List App) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Data Lists & ListView (To-Do List App) Simulator\n# Write your creative solution here!"
       }
     },
@@ -245,6 +253,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Random Choice Logic (Rock Paper Scissors Game) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Random Choice Logic (Rock Paper Scissors Game)'. Specifically, design a feature demonstrating: 'Programming comparison rules and calculating the winner' using the starter template below!",
+        "code": "# Home Challenge: Random Choice Logic (Rock Paper Scissors Game) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Random Choice Logic (Rock Paper Scissors Game) Simulator\n# Write your creative solution here!"
       }
     },
@@ -272,6 +281,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Multi-screen Advanced Architecture (Medical Clinic App) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Multi-screen Advanced Architecture (Medical Clinic App)'. Specifically, design a feature demonstrating: 'Digital clinic and pharmacy reservation system' using the starter template below!",
+        "code": "# Home Challenge: Multi-screen Advanced Architecture (Medical Clinic App) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Multi-screen Advanced Architecture (Medical Clinic App) Simulator\n# Write your creative solution here!"
       }
     },
@@ -299,6 +309,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Generative AI & Web Services (ChatGPT Assistant) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Generative AI & Web Services (ChatGPT Assistant)'. Specifically, design a feature demonstrating: 'Programming your AI Assistant' using the starter template below!",
+        "code": "# Home Challenge: Generative AI & Web Services (ChatGPT Assistant) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Generative AI & Web Services (ChatGPT Assistant) Simulator\n# Write your creative solution here!"
       }
     },
@@ -326,6 +337,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Advanced AI Components (ImageCreator DALL-E App) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Advanced AI Components (ImageCreator DALL-E App)'. Specifically, design a feature demonstrating: 'Download and view generated artboards' using the starter template below!",
+        "code": "# Home Challenge: Advanced AI Components (ImageCreator DALL-E App) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Advanced AI Components (ImageCreator DALL-E App) Simulator\n# Write your creative solution here!"
       }
     }

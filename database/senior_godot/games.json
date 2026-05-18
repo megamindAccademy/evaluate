@@ -29,6 +29,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 1: Welcome to Godot & Engine Setup Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1: Welcome to Godot & Engine Setup'. Specifically, design a feature demonstrating: 'Nodes & Scenes Architecture' using the starter template below!",
+        "code": "# Home Challenge: Session 1: Welcome to Godot & Engine Setup Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 1: Welcome to Godot & Engine Setup Simulator\n# Write your creative solution here!"
       }
     },
@@ -56,6 +57,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 2: Nodes, Scenes, and GDScript Functions Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2: Nodes, Scenes, and GDScript Functions'. Specifically, design a feature demonstrating: 'GDScript Core functions' using the starter template below!",
+        "code": "# Home Challenge: Session 2: Nodes, Scenes, and GDScript Functions Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 2: Nodes, Scenes, and GDScript Functions Simulator\n# Write your creative solution here!"
       }
     },
@@ -83,6 +85,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 3: Game Art & Animated Sprites Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3: Game Art & Animated Sprites'. Specifically, design a feature demonstrating: 'AnimatedSprite2D' using the starter template below!",
+        "code": "# Home Challenge: Session 3: Game Art & Animated Sprites Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 3: Game Art & Animated Sprites Simulator\n# Write your creative solution here!"
       }
     },
@@ -110,6 +113,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 4: Godot Movement & Logical Operators Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4: Godot Movement & Logical Operators'. Specifically, design a feature demonstrating: 'Player Vector Movement' using the starter template below!",
+        "code": "# Home Challenge: Session 4: Godot Movement & Logical Operators Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 4: Godot Movement & Logical Operators Simulator\n# Write your creative solution here!"
       }
     },
@@ -137,6 +141,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 5: Software Development Life Cycle (SDLC) for Games Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5: Software Development Life Cycle (SDLC) for Games'. Specifically, design a feature demonstrating: 'Game Design Document (GDD)' using the starter template below!",
+        "code": "# Home Challenge: Session 5: Software Development Life Cycle (SDLC) for Games Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 5: Software Development Life Cycle (SDLC) for Games Simulator\n# Write your creative solution here!"
       }
     },
@@ -164,6 +169,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 6: Creating and Customizing UI Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6: Creating and Customizing UI'. Specifically, design a feature demonstrating: 'Control Nodes & CanvasLayers' using the starter template below!",
+        "code": "# Home Challenge: Session 6: Creating and Customizing UI Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 6: Creating and Customizing UI Simulator\n# Write your creative solution here!"
       }
     },
@@ -191,6 +197,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 7: User Interface Programming in Godot Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7: User Interface Programming in Godot'. Specifically, design a feature demonstrating: 'Node Signal Connections' using the starter template below!",
+        "code": "# Home Challenge: Session 7: User Interface Programming in Godot Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 7: User Interface Programming in Godot Simulator\n# Write your creative solution here!"
       }
     },
@@ -218,6 +225,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 8: Game Sound and Audio Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8: Game Sound and Audio'. Specifically, design a feature demonstrating: 'Audio Streams' using the starter template below!",
+        "code": "# Home Challenge: Session 8: Game Sound and Audio Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 8: Game Sound and Audio Simulator\n# Write your creative solution here!"
       }
     },
@@ -245,6 +253,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 9: Cameras & Parallax Backgrounds Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9: Cameras & Parallax Backgrounds'. Specifically, design a feature demonstrating: 'Parallax Visual Depth' using the starter template below!",
+        "code": "# Home Challenge: Session 9: Cameras & Parallax Backgrounds Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 9: Cameras & Parallax Backgrounds Simulator\n# Write your creative solution here!"
       }
     },
@@ -272,6 +281,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 10: Building Pong: Part 1 - Mechanics & Physics Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10: Building Pong: Part 1 - Mechanics & Physics'. Specifically, design a feature demonstrating: 'Ball Velocity Calculations' using the starter template below!",
+        "code": "# Home Challenge: Session 10: Building Pong: Part 1 - Mechanics & Physics Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 10: Building Pong: Part 1 - Mechanics & Physics Simulator\n# Write your creative solution here!"
       }
     },
@@ -299,6 +309,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 11: Polishing Your Game: VFX & Particles Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11: Polishing Your Game: VFX & Particles'. Specifically, design a feature demonstrating: 'Visual FX (VFX) Burst' using the starter template below!",
+        "code": "# Home Challenge: Session 11: Polishing Your Game: VFX & Particles Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 11: Polishing Your Game: VFX & Particles Simulator\n# Write your creative solution here!"
       }
     },
@@ -326,6 +337,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Session 12: Building Pong: Part 2 - Complete Loop Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12: Building Pong: Part 2 - Complete Loop'. Specifically, design a feature demonstrating: 'Win & Goal Check Zones' using the starter template below!",
+        "code": "# Home Challenge: Session 12: Building Pong: Part 2 - Complete Loop Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Session 12: Building Pong: Part 2 - Complete Loop Simulator\n# Write your creative solution here!"
       }
     }

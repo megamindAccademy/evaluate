@@ -29,6 +29,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: PHP Installation & Basic Syntax Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'PHP Installation & Basic Syntax'. Specifically, design a feature demonstrating: 'Variables and printing in PHP' using the starter template below!",
+        "code": "# Home Challenge: PHP Installation & Basic Syntax Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: PHP Installation & Basic Syntax Simulator\n# Write your creative solution here!"
       }
     },
@@ -56,6 +57,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Logical Conditions in PHP Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Logical Conditions in PHP'. Specifically, design a feature demonstrating: 'Check test scores' using the starter template below!",
+        "code": "# Home Challenge: Logical Conditions in PHP Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Logical Conditions in PHP Simulator\n# Write your creative solution here!"
       }
     },
@@ -83,6 +85,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Loops in PHP Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Loops in PHP'. Specifically, design a feature demonstrating: 'Countdown to the missile launch' using the starter template below!",
+        "code": "# Home Challenge: Loops in PHP Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Loops in PHP Simulator\n# Write your creative solution here!"
       }
     },
@@ -110,6 +113,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Functions & Scope Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Functions & Scope'. Specifically, design a feature demonstrating: 'Purchasing invoice calculation function' using the starter template below!",
+        "code": "# Home Challenge: Functions & Scope Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Functions & Scope Simulator\n# Write your creative solution here!"
       }
     },
@@ -137,6 +141,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: OOP Introduction (Classes & Objects) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'OOP Introduction (Classes & Objects)'. Specifically, design a feature demonstrating: 'Car object template design' using the starter template below!",
+        "code": "# Home Challenge: OOP Introduction (Classes & Objects) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: OOP Introduction (Classes & Objects) Simulator\n# Write your creative solution here!"
       }
     },
@@ -164,6 +169,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: OOP Encapsulation & Properties Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'OOP Encapsulation & Properties'. Specifically, design a feature demonstrating: 'Protecting the customer's bank balance' using the starter template below!",
+        "code": "# Home Challenge: OOP Encapsulation & Properties Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: OOP Encapsulation & Properties Simulator\n# Write your creative solution here!"
       }
     },
@@ -191,6 +197,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: OOP Inheritance & Polymorphism Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'OOP Inheritance & Polymorphism'. Specifically, design a feature demonstrating: 'Programming animal objects' using the starter template below!",
+        "code": "# Home Challenge: OOP Inheritance & Polymorphism Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: OOP Inheritance & Polymorphism Simulator\n# Write your creative solution here!"
       }
     },
@@ -218,6 +225,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: OOP Abstraction & Interfaces Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'OOP Abstraction & Interfaces'. Specifically, design a feature demonstrating: 'Electronic payment gateways application' using the starter template below!",
+        "code": "# Home Challenge: OOP Abstraction & Interfaces Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: OOP Abstraction & Interfaces Simulator\n# Write your creative solution here!"
       }
     },
@@ -245,6 +253,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Introduction to Relational Databases Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Introduction to Relational Databases'. Specifically, design a feature demonstrating: 'Links and software keys' using the starter template below!",
+        "code": "# Home Challenge: Introduction to Relational Databases Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Introduction to Relational Databases Simulator\n# Write your creative solution here!"
       }
     },
@@ -272,6 +281,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Database Normalization & Design Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Database Normalization & Design'. Specifically, design a feature demonstrating: 'Design cake hangers and orders' using the starter template below!",
+        "code": "# Home Challenge: Database Normalization & Design Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Database Normalization & Design Simulator\n# Write your creative solution here!"
       }
     },
@@ -299,6 +309,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Real Practice - Company Database Design Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Real Practice - Company Database Design'. Specifically, design a feature demonstrating: 'Linking the employee to his administrative department' using the starter template below!",
+        "code": "# Home Challenge: Real Practice - Company Database Design Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Real Practice - Company Database Design Simulator\n# Write your creative solution here!"
       }
     },
@@ -326,6 +337,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Real Practice - Social Media Blog DB Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Real Practice - Social Media Blog DB'. Specifically, design a feature demonstrating: 'Link comments to publishers' articles' using the starter template below!",
+        "code": "# Home Challenge: Real Practice - Social Media Blog DB Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Real Practice - Social Media Blog DB Simulator\n# Write your creative solution here!"
       }
     },
@@ -353,6 +365,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Laravel API Framework & Setup Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Laravel API Framework & Setup'. Specifically, design a feature demonstrating: 'API paths file for phones' using the starter template below!",
+        "code": "# Home Challenge: Laravel API Framework & Setup Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Laravel API Framework & Setup Simulator\n# Write your creative solution here!"
       }
     },
@@ -380,6 +393,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Laravel Controllers & API Routing Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Laravel Controllers & API Routing'. Specifically, design a feature demonstrating: 'Pass variables and return responses' using the starter template below!",
+        "code": "# Home Challenge: Laravel Controllers & API Routing Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Laravel Controllers & API Routing Simulator\n# Write your creative solution here!"
       }
     },
@@ -407,6 +421,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Migrations & Seeders for APIs Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Migrations & Seeders for APIs'. Specifically, design a feature demonstrating: 'Run data seeds locally' using the starter template below!",
+        "code": "# Home Challenge: Migrations & Seeders for APIs Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Migrations & Seeders for APIs Simulator\n# Write your creative solution here!"
       }
     },
@@ -434,6 +449,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Eloquent Models for APIs Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Eloquent Models for APIs'. Specifically, design a feature demonstrating: 'Protect users' sensitive data' using the starter template below!",
+        "code": "# Home Challenge: Eloquent Models for APIs Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Eloquent Models for APIs Simulator\n# Write your creative solution here!"
       }
     },
@@ -461,6 +477,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: API Form Validation & JSON Errors Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'API Form Validation & JSON Errors'. Specifically, design a feature demonstrating: 'Structured error responses in JSON' using the starter template below!",
+        "code": "# Home Challenge: API Form Validation & JSON Errors Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: API Form Validation & JSON Errors Simulator\n# Write your creative solution here!"
       }
     },
@@ -488,6 +505,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Eloquent CRUD API Database Actions Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Eloquent CRUD API Database Actions'. Specifically, design a feature demonstrating: 'Update the product price via the phone interface' using the starter template below!",
+        "code": "# Home Challenge: Eloquent CRUD API Database Actions Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Eloquent CRUD API Database Actions Simulator\n# Write your creative solution here!"
       }
     },
@@ -515,6 +533,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: REST API Design Standards (Part 1) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'REST API Design Standards (Part 1)'. Specifically, design a feature demonstrating: 'Standard API link format' using the starter template below!",
+        "code": "# Home Challenge: REST API Design Standards (Part 1) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: REST API Design Standards (Part 1) Simulator\n# Write your creative solution here!"
       }
     },
@@ -542,6 +561,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: REST API Design Standards (Part 2) Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'REST API Design Standards (Part 2)'. Specifically, design a feature demonstrating: 'Returns the success code of adding the cake' using the starter template below!",
+        "code": "# Home Challenge: REST API Design Standards (Part 2) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: REST API Design Standards (Part 2) Simulator\n# Write your creative solution here!"
       }
     },
@@ -569,6 +589,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Mobile API Security & Sanitization Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Mobile API Security & Sanitization'. Specifically, design a feature demonstrating: 'Filter and clean search fields' using the starter template below!",
+        "code": "# Home Challenge: Mobile API Security & Sanitization Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Mobile API Security & Sanitization Simulator\n# Write your creative solution here!"
       }
     },
@@ -596,6 +617,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Live Project API - Cake Store Backend Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Live Project API - Cake Store Backend'. Specifically, design a feature demonstrating: 'Cake reservation link to mobile application' using the starter template below!",
+        "code": "# Home Challenge: Live Project API - Cake Store Backend Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Live Project API - Cake Store Backend Simulator\n# Write your creative solution here!"
       }
     },
@@ -623,6 +645,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Flutter App Integration - Connecting APIs Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Flutter App Integration - Connecting APIs'. Specifically, design a feature demonstrating: 'Call the cake review link in Flutter' using the starter template below!",
+        "code": "# Home Challenge: Flutter App Integration - Connecting APIs Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Flutter App Integration - Connecting APIs Simulator\n# Write your creative solution here!"
       }
     },
@@ -650,6 +673,7 @@
       "homework": {
         "title": "🏠 Magic Home Challenge: Flutter Live Data Rendering & Update Builder",
         "desc": "Great work! At home, practice creating a custom model or code simulating 'Flutter Live Data Rendering & Update'. Specifically, design a feature demonstrating: 'View reserved cake on phone' using the starter template below!",
+        "code": "# Home Challenge: Flutter Live Data Rendering & Update Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Flutter Live Data Rendering & Update Simulator\n# Write your creative solution here!"
       }
     }
