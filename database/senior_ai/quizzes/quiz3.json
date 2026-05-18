@@ -4,65 +4,65 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is the primary difference between Face Detection and Object Detection?",
+      "question": "What does the abbreviation 'GPT' stand for in OpenAI's chatbot assistant ChatGPT?",
       "options": [
-        "Face detection only works on webcams; object detection only on video files",
-        "Face detection exclusively finds faces; object detection identifies and locates multiple object categories (cars, animals, etc.) using Bounding Boxes",
-        "There is no difference between them",
-        "Object detection does not use neural networks"
+        "Generative Pre-trained Transformer",
+        "General Pixel Tool",
+        "Global Program Tester",
+        "Graphic Python Template"
       ],
-      "correct": 1,
-      "explanation": "Perfect! Face detection is limited to human faces, whereas Object Detection can locate, frame, and identify a wide range of different objects simultaneously."
+      "correct": 0,
+      "explanation": "Perfect! GPT stands for Generative Pre-trained Transformer, which is a powerful deep learning model architecture trained on massive texts to generate human-like writing."
     },
     {
       "id": 2,
-      "question": "What does DNN stand for in the context of computer vision and OpenCV?",
+      "question": "What is the primary difference between traditional Rule-Based Bots and Generative AI models?",
       "options": [
-        "Data Neural Network",
-        "Deep Neural Networks",
-        "Digital Number Navigator",
-        "Device Node Network"
+        "Rule-Based bots only work on smartphones; Generative AI only works on laptops",
+        "Rule-Based bots follow strict, fixed, pre-programmed 'if' paths and cannot handle unexpected replies; Generative AI dynamically understands flexible human language intent and generates new custom answers",
+        "Generative AI cannot understand text inputs at all",
+        "Rule-Based bots learn continuously from data while Generative AI cannot learn"
       ],
       "correct": 1,
-      "explanation": "Correct! DNN stands for Deep Neural Networks, which is the specialized module in OpenCV used to run highly optimized pre-trained deep models."
+      "explanation": "Correct! Rule-based bots are limited by pre-defined scripts, whereas Generative AI models leverage advanced natural language patterns to generate creative, conversational answers."
     },
     {
       "id": 3,
-      "question": "Which OpenCV class is specifically designed to load and calibrate deep learning models for object detection easily?",
+      "question": "Which Python library do we import to easily automate daily tasks like launching YouTube searches or scheduling WhatsApp messages with a single line of code?",
       "options": [
-        "cv2.imread",
-        "cv2.imshow",
-        "cv2.dnn_DetectionModel",
-        "cv2.VideoCapture"
+        "Matplotlib",
+        "cvzone",
+        "PyWhatKit",
+        "NumPy"
       ],
       "correct": 2,
-      "explanation": "Excellent! cv2.dnn_DetectionModel is a high-level API wrapper in OpenCV that manages scales, sizes, and colors of inputs for deep models."
+      "explanation": "Excellent! PyWhatKit is an incredibly simple, developer-friendly automation module that handles web searching and instant messaging actions."
     },
     {
       "id": 4,
-      "question": "What is the Roboflow web platform used for in computer vision workflows?",
+      "question": "What are Large Language Models (LLMs) in artificial intelligence?",
       "options": [
-        "Writing print loops in python",
-        "Managing files, annotating/labeling images with boxes, and training customized computer vision models",
-        "Sending WhatsApp messages programmatically",
-        "Reversing and sorting integer lists"
+        "Large screens used to display text coding scripts",
+        "Smart neural networks trained on huge text datasets to understand, generate, and translate human-like writing",
+        "Special databases that only record phone numbers",
+        "Traditional bots that can only output fixed error messages"
       ],
       "correct": 1,
-      "explanation": "Great! Roboflow is a full scond-to-none workspace where developers upload images, draw boxes to annotate classes, and train custom object detection neural networks."
+      "explanation": "Great! Large Language Models are advanced deep learning neural networks capable of performing an extremely wide range of natural language processing tasks."
     },
     {
       "id": 5,
       "type": "task",
-      "question": "Simple Coding Task: You read a line from a file containing leading spaces and a newline character: line = '   chair \\n'. Write a Python statement to strip all these trailing and leading whitespaces/newlines and print the clean string.",
-      "task_hint": "Write: line = '   chair \\n' then clean_line = line.strip() then print(clean_line)",
-      "explanation": "Fantastic! The strip() function is highly useful when cleaning labels loaded from configuration text files."
+      "question": "Simple Coding Task: Define a string variable named 'gpt_model' with the text value 'GPT-4', and print: 'Running: ' followed by your variable.",
+      "task_hint": "Write: gpt_model = 'GPT-4' then print('Running:', gpt_model)",
+      "explanation": "Outstanding! Using model configuration variables is standard practice when switching API model backends."
     },
     {
       "id": 6,
       "type": "task",
-      "question": "Simple Coding Task: Write a Python script to split the string text = 'dog,cat,car' by its commas into a standard list of items named 'classes', and print the list.",
-      "task_hint": "Write: text = 'dog,cat,car' then classes = text.split(',') then print(classes)",
-      "explanation": "Spot on! The split() function splits a single string into a clean list of individual items using the separator you specify."
+      "question": "Simple Coding Task: Write a Python statement to print the exact string: 'Automation script initialized'.",
+      "task_hint": "Write: print('Automation script initialized')",
+      "explanation": "Perfect! Validating script initialization confirms that all external libraries like PyWhatKit have loaded cleanly."
     }
   ]
 }

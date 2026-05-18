@@ -4,65 +4,65 @@
   "questions": [
     {
       "id": 1,
-      "question": "Which Google framework is highly popular for real-time tracking of body joints, face mesh, and hand movements?",
+      "question": "What is WotNot in conversational Artificial Intelligence?",
       "options": [
-        "MediaPipe",
-        "Matplotlib",
-        "PyWhatKit",
-        "WotNot"
+        "A Python library used to draw coordinate lines",
+        "A visual, no-code drag-and-drop chatbot builder platform used to easily design interactive chat scripts",
+        "A physical hardware chip placed in system cameras",
+        "A database that stores raw color pixels"
       ],
-      "correct": 0,
-      "explanation": "Perfect! MediaPipe is a state-of-the-art framework developed by Google for high-speed coordinate tracking of hands, face, and pose."
+      "correct": 1,
+      "explanation": "Perfect! WotNot is an excellent no-code visual workspace where anyone can build, test, and deploy interactive conversational bots."
     },
     {
       "id": 2,
-      "question": "How many coordinate points (Landmarks) does the MediaPipe framework map and track on a single human hand?",
+      "question": "What is the primary function of the 'Send Message' block in visual chatbot flowcharts?",
       "options": [
-        "5 points",
-        "10 points",
-        "21 distinct coordinate points",
-        "50 points"
+        "To collect the user's phone number",
+        "To display a greeting, information, or tips to the visitor without requiring or waiting for any response",
+        "To delete previous chatbot variables",
+        "To shut down the live webcam feed"
       ],
-      "correct": 2,
-      "explanation": "Awesome! MediaPipe tracks 21 distinct coordinate landmarks representing the wrist, joints, and tips of all 5 fingers on each hand."
+      "correct": 1,
+      "explanation": "Awesome! The Send Message block is designed to output static text messages, making it perfect for greeting and guiding visitors."
     },
     {
       "id": 3,
-      "question": "What is the return type of the fingersUp() method in cvzone's HandDetector class?",
+      "question": "Which visual chatbot block is designed to ask a question and store the visitor's typed answer inside a named variable?",
       "options": [
-        "A single number representing the camera height",
-        "A list of 5 integers (0 or 1) indicating which fingers are currently raised",
-        "An image of the tracked hand",
-        "The player's username"
+        "Send Message block",
+        "Collect Input block",
+        "Options block",
+        "Delete block"
       ],
       "correct": 1,
-      "explanation": "Spot on! fingersUp() returns a list like [0, 1, 1, 0, 0] where 1 means the finger is open/extended and 0 means it is closed."
+      "explanation": "Spot on! The Collect Input block queries the user and captures their text response, letting you utilize that variable later in the flow."
     },
     {
       "id": 4,
-      "question": "Which property IDs are used in OpenCV's cap.set() function to adjust the webcam frame Width and Height respectively?",
+      "question": "In WotNot, which block displays quick clickable buttons to allow the chat path to split into different branches based on the user's choice?",
       "options": [
-        "1 and 2",
-        "3 (for Width) and 4 (for Height)",
-        "5 and 6",
-        "10 and 20"
+        "Collect Input block",
+        "Send Message block",
+        "Options block",
+        "Wait block"
       ],
-      "correct": 1,
-      "explanation": "Great! In OpenCV, property ID 3 sets the frame width, and property ID 4 sets the frame height of the video capture source."
+      "correct": 2,
+      "explanation": "Great! The Options block allows you to construct branch pathways in the chatbot logic, redirecting the user based on which button they press."
     },
     {
       "id": 5,
       "type": "task",
-      "question": "Simple Coding Task: Write a Python statement to read the next frame from an initialized webcam capture object named 'cap', storing the output values in 'success' and 'img'.",
-      "task_hint": "Write: success, img = cap.read()",
-      "explanation": "Excellent! cap.read() captures and decodes the next video frame, returning True in success if successful, along with the image matrix."
+      "question": "Simple Coding Task: Define a string variable named 'visitor_choice' set to the value 'Learn AI', and print: 'User chose: ' concatenated with your variable.",
+      "task_hint": "Write: visitor_choice = 'Learn AI' then print('User chose:', visitor_choice)",
+      "explanation": "Outstanding! Simulating option variables allows you to test branch routing rules in Python logic."
     },
     {
       "id": 6,
       "type": "task",
-      "question": "Simple Coding Task: Write a Python statement to resize an image stored in a variable named 'img' to a Width of 300 and a Height of 200 using OpenCV's resize function, and store the output in 'resized_img'.",
-      "task_hint": "Write: resized_img = cv2.resize(img, (300, 200))",
-      "explanation": "Perfect! Resizing matrices ensures that visual inputs match the strict layer input dimensions required by neural network models."
+      "question": "Simple Coding Task: Write a Python statement to print the exact string: 'No-code chatbot flow online'.",
+      "task_hint": "Write: print('No-code chatbot flow online')",
+      "explanation": "Perfect! Successfully validating chatbot flow initialization ensures that welcoming nodes are ready to greet users."
     }
   ]
 }

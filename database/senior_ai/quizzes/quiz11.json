@@ -1,0 +1,68 @@
+{
+  "quiz_id": "ai_quiz_11",
+  "quiz_title": "Artificial Intelligence - Challenge 11",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which state-of-the-art framework developed by Google is popular for real-time tracking of body joints, face meshes, and skeletons?",
+      "options": [
+        "WotNot",
+        "PyWhatKit",
+        "MediaPipe",
+        "Matplotlib"
+      ],
+      "correct": 2,
+      "explanation": "Perfect! MediaPipe is Google's highly-optimized cross-platform framework for tracking skeletal landmarks on faces, hands, and bodies."
+    },
+    {
+      "id": 2,
+      "question": "How many coordinate joints (landmarks) does the MediaPipe Hand module map and track on a single human hand?",
+      "options": [
+        "5 landmarks",
+        "10 landmarks",
+        "21 distinct skeletal landmarks",
+        "50 landmarks"
+      ],
+      "correct": 2,
+      "explanation": "Awesome! MediaPipe tracks 21 distinct 3D landmarks representing the wrist, knuckles, joint nodes, and fingertip coordinates."
+    },
+    {
+      "id": 3,
+      "question": "What is returned when you call the detector.fingersUp() method in cvzone's HandDetector?",
+      "options": [
+        "A single decimal showing camera height",
+        "A binary list of 5 values (0 or 1) representing the open/closed state of each finger",
+        "An image matrix overlay of the hand",
+        "The computer's webcam index"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! fingersUp() returns a list like [0, 1, 1, 0, 0] where 1 indicates that the finger (Thumb, Index, Middle, Ring, Pinky) is open, and 0 means it is closed."
+    },
+    {
+      "id": 4,
+      "question": "In OpenCV's cap.set() function, which property IDs are used to configure the webcam frame Width and Height?",
+      "options": [
+        "Property ID 1 for Width, 2 for Height",
+        "Property ID 3 for Width, 4 for Height",
+        "Property ID 5 for Width, 6 for Height",
+        "Property ID 10 for Width, 20 for Height"
+      ],
+      "correct": 1,
+      "explanation": "Great! OpenCV maps video properties numerically: ID 3 is the width, and ID 4 is the height of the captured video stream."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: You have a finger state list: fingers = [0, 1, 1, 0, 0]. Write a Python statement using the list .count(1) method to find how many fingers are up, and print the count.",
+      "task_hint": "Write: fingers = [0, 1, 1, 0, 0] then print(fingers.count(1))",
+      "explanation": "Outstanding! Counting instances of 1 in the fingers list calculates how many fingers the detector has spotted as raised."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to print the exact string: 'Hand landmarks successfully initialized!'.",
+      "task_hint": "Write: print('Hand landmarks successfully initialized!')",
+      "explanation": "Perfect! Successfully initializing hand landmarks tracks skeletons at high speeds, ready to trigger computer vision actions."
+    }
+  ]
+}

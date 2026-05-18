@@ -4,42 +4,18 @@
   "questions": [
     {
       "id": 1,
-      "question": "What does GPT stand for in OpenAI's generative language assistant ChatGPT?",
+      "question": "What is Google Teachable Machine primarily used for in machine learning?",
       "options": [
-        "Generative Pre-trained Transformer",
-        "General Pixel Tool",
-        "Global Program Tester",
-        "Graphic Python Template"
+        "To write and compile python lists",
+        "To easily train image or voice classification models directly in the web browser, and export them for local code use",
+        "To automatically send scheduled WhatsApp messages",
+        "To create physical robot joints"
       ],
-      "correct": 0,
-      "explanation": "Perfect! GPT stands for Generative Pre-trained Transformer, which is a state-of-the-art neural network architecture trained to generate text."
+      "correct": 1,
+      "explanation": "Perfect! Google Teachable Machine is an outstanding visual tool that simplifies training custom classification models without complex coding."
     },
     {
       "id": 2,
-      "question": "In Convolutional Neural Networks (CNNs), what is the function of the Pooling Layer?",
-      "options": [
-        "To double the spatial width of the image",
-        "To reduce the spatial size (downsize) of images to save computation while retaining important visual features",
-        "To delete the configuration files",
-        "To compile basic python prints"
-      ],
-      "correct": 1,
-      "explanation": "Excellent! Pooling (such as Max Pooling) downsamples feature maps to reduce computational overhead and prevent overfitting."
-    },
-    {
-      "id": 3,
-      "question": "Which CNN step converts multi-dimensional feature maps (2D matrices) into a single-dimension (1D) array so they can be processed by dense classification layers?",
-      "options": [
-        "Convolution Layer",
-        "Pooling Layer",
-        "Flattening Layer",
-        "Activation Function"
-      ],
-      "correct": 2,
-      "explanation": "Spot on! Flattening linearizes a multi-dimensional spatial tensor into a single continuous 1D vector suited for classic Dense neural connections."
-    },
-    {
-      "id": 4,
       "question": "Why do we normalize image pixel values by dividing them by 255.0 before feeding them to a trained machine learning model?",
       "options": [
         "To make the picture larger on the monitor",
@@ -51,18 +27,42 @@
       "explanation": "Correct! Scaling inputs (Normalizing) to [0.0, 1.0] prevents mathematical gradient explosion and helps deep learning models converge much faster during training."
     },
     {
+      "id": 3,
+      "question": "What is the lightweight format used to export trained classifiers from Google's Teachable Machine so they can run super-fast on mobile phones and small computers?",
+      "options": [
+        ".docx",
+        ".pdf",
+        ".tflite (TensorFlow Lite)",
+        ".mp3"
+      ],
+      "correct": 2,
+      "explanation": "Awesome! TensorFlow Lite (.tflite) is highly optimized for local inference on desktop CPUs and mobile hardware."
+    },
+    {
+      "id": 4,
+      "question": "Why do we add a batch dimension (e.g. shape [1, 224, 224, 3]) using np.expand_dims before passing an image to our TFLite model?",
+      "options": [
+        "Because deep learning models are programmed to always expect a list (batch) of images as input, even if we are only testing one image",
+        "To change the color channels from BGR to RGB",
+        "To delete unnecessary coordinate points",
+        "To activate the webcam connection"
+      ],
+      "correct": 0,
+      "explanation": "Great! Expanding dimensions adds a batch size of 1, satisfying the model input shape requirement for tensor calculations."
+    },
+    {
       "id": 5,
       "type": "task",
-      "question": "Simple Coding Task: Write a Python statement to import the 'numpy' library as 'np', create a 1D NumPy array containing the values [1, 2, 3], and print it.",
-      "task_hint": "Write: import numpy as np then arr = np.array([1, 2, 3]) then print(arr)",
-      "explanation": "Outstanding! NumPy arrays are highly optimized for fast, vectorized mathematical calculations required in machine learning."
+      "question": "Simple Coding Task: Write a Python statement to normalize a list of raw pixel values pixels = [0.0, 127.5, 255.0] by dividing each by 255.0, and print the normalized list.",
+      "task_hint": "Write: pixels = [0.0, 127.5, 255.0] then normalized = [p / 255.0 for p in pixels] then print(normalized)",
+      "explanation": "Outstanding! Scaling pixel matrices between 0.0 and 1.0 ensures coordinate inputs remain mathematically stable."
     },
     {
       "id": 6,
       "type": "task",
-      "question": "Simple Coding Task: You have a NumPy array of raw pixel values: pixels = np.array([127.0, 255.0]). Write a Python statement to normalize it by dividing all values by 255.0, and print the normalized array.",
-      "task_hint": "Write: normalized = pixels / 255.0 then print(normalized)",
-      "explanation": "Perfect! Vectorized calculations in NumPy execute mathematical division across all elements simultaneously, making image normalization incredibly fast."
+      "question": "Simple Coding Task: Write a Python statement to print the exact string: 'TFLite image classifier loaded successfully'.",
+      "task_hint": "Write: print('TFLite image classifier loaded successfully')",
+      "explanation": "Perfect! Validating TFLite model load confirms that the binary weights are compiled and ready to receive camera matrices."
     }
   ]
 }

@@ -1,0 +1,68 @@
+{
+  "quiz_id": "ai_quiz_8",
+  "quiz_title": "Artificial Intelligence - Challenge 8",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary benefit of using a 'requirements.txt' file in Python development?",
+      "options": [
+        "It stores high-resolution image arrays",
+        "It records your highest game scores",
+        "It lists all third-party package dependencies so they can be easily installed on any machine",
+        "It runs loops to verify API status"
+      ],
+      "correct": 2,
+      "explanation": "Correct! requirements.txt outlines all library dependencies required to run your script, ensuring workspace consistency across development devices."
+    },
+    {
+      "id": 2,
+      "question": "Which terminal command is used to automatically download and install all external modules listed in a project's 'requirements.txt' file?",
+      "options": [
+        "pip install requirements.txt",
+        "pip install -r requirements.txt",
+        "python install requirements.txt",
+        "run requirements.txt"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The '-r' flag stands for 'requirement', instructing pip to read and install all packages enumerated in the specified text file."
+    },
+    {
+      "id": 3,
+      "question": "What does the abbreviation 'API' stand for in software and AI engineering?",
+      "options": [
+        "Application Programming Interface",
+        "Artificial Program Integrator",
+        "Algorithmic Performance Index",
+        "Automatic Pixel Inspector"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! API stands for Application Programming Interface, which serves as a secure bridge allowing different software applications to talk and exchange data."
+    },
+    {
+      "id": 4,
+      "question": "Why do we pass a secure 'API Key' when sending prediction requests to a trained machine learning model hosted online?",
+      "options": [
+        "To make the images print faster",
+        "To authenticate our request and prove we have permission to use the custom trained model",
+        "Because python functions will not execute without keys",
+        "To increase the coordinate size of bounding boxes"
+      ],
+      "correct": 1,
+      "explanation": "Excellent! API Keys are unique security tokens used to authenticate requests, ensuring that only authorized users can query or consume the online model."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Define a string variable named 'api_key' with the text value 'secure_key_123', and print: 'Active Key: ' concatenated with your variable.",
+      "task_hint": "Write: api_key = 'secure_key_123' then print('Active Key:', api_key)",
+      "explanation": "Outstanding! Securing key constants in variables allows you to update connection credentials easily in your configuration."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to print the exact string: 'API Connection Successful'.",
+      "task_hint": "Write: print('API Connection Successful')",
+      "explanation": "Perfect! Validating network responses confirms that secure handshakes and data pipelines are fully functional."
+    }
+  ]
+}

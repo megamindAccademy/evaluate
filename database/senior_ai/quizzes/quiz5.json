@@ -4,65 +4,65 @@
   "questions": [
     {
       "id": 1,
-      "question": "In our Rock-Paper-Scissors game, where (1=Rock, 2=Paper, 3=Scissors), which logical rule set dictates that the Player wins?",
+      "question": "Which deep learning network architecture is designed specifically to automatically extract visual features from images and classify them?",
       "options": [
-        "Player chooses 1 and AI chooses 2",
-        "Player chooses 2 and AI chooses 3",
-        "Player chooses 2 and AI chooses 1 OR Player chooses 1 and AI chooses 3 OR Player chooses 3 and AI chooses 2",
-        "When both choose the same value"
+        "Fully Connected Network",
+        "Relational Database",
+        "Convolutional Neural Network (CNN)",
+        "K-NN Classifier"
       ],
       "correct": 2,
-      "explanation": "Correct! Paper (2) covers Rock (1); Rock (1) smashes Scissors (3); and Scissors (3) cuts Paper (2). These are the three victory cases for the player."
+      "explanation": "Spot on! CNNs utilize specialized filters that slide across images to extract edges, textures, and shape features automatically."
     },
     {
       "id": 2,
-      "question": "Which OpenCV function is used to draw or write textual overlays (like the countdown '3, 2, 1') directly onto the camera feed?",
+      "question": "What is the primary advantage of 'Weight Sharing' in Convolutional Neural Networks (CNNs) compared to Fully Connected (FC) networks?",
       "options": [
-        "cv2.drawText()",
-        "cv2.putText()",
-        "cv2.write()",
-        "cv2.print()"
+        "It colors the images automatically",
+        "It drastically reduces the number of computational parameters and leverages local pixel correlations",
+        "It deletes unused images from the drive",
+        "It allows users to write zero lines of code"
       ],
       "correct": 1,
-      "explanation": "Perfect! cv2.putText() allows you to overlay custom text strings with custom font styles, scales, colors, and line thicknesses directly on image frames."
+      "explanation": "Amazing! Weight sharing permits a single filter weight to be reused across different parts of the image, keeping the calculation parameters very low."
     },
     {
       "id": 3,
-      "question": "What is the lightweight format used to export trained classifiers from Google's Teachable Machine so they can be run in Python and mobile apps?",
+      "question": "In Convolutional Neural Networks (CNNs), what is the primary role of the Pooling Layer?",
       "options": [
-        ".docx",
-        ".pdf",
-        ".tflite (TensorFlow Lite)",
-        ".mp3"
+        "To double the spatial width of the image",
+        "To reduce the spatial size (downsize) of image feature maps to save computation and memory while retaining important features",
+        "To delete the configuration files",
+        "To compile basic python prints"
       ],
-      "correct": 2,
-      "explanation": "Awesome! TensorFlow Lite (.tflite) is highly optimized for local inference on desktop CPUs and mobile hardware."
+      "correct": 1,
+      "explanation": "Excellent! Pooling (such as Max Pooling) downsamples feature maps to reduce computational overhead and prevent overfitting."
     },
     {
       "id": 4,
-      "question": "What is the main purpose of creating a 'requirements.txt' file in Python projects?",
+      "question": "Which CNN step converts multi-dimensional feature maps (2D matrices) into a single-dimension (1D) array so they can be processed by dense classification layers?",
       "options": [
-        "To save camera pixels in a text file",
-        "To record player points",
-        "To specify all package dependencies so they can be installed all at once on any computer",
-        "To run countdown loops automatically"
+        "Convolution Layer",
+        "Pooling Layer",
+        "Flattening Layer",
+        "Activation Function"
       ],
       "correct": 2,
-      "explanation": "Great! Putting packages in requirements.txt allows any new user to install all the dependencies using pip install -r requirements.txt in one go."
+      "explanation": "Spot on! Flattening linearizes a multi-dimensional spatial tensor into a single continuous 1D vector suited for classic Dense neural connections."
     },
     {
       "id": 5,
       "type": "task",
-      "question": "Simple Coding Task: Write a simple Python function named 'is_tie' that takes two parameters 'player' and 'ai', and returns True if they chose the same move (are equal), and False otherwise.",
-      "task_hint": "Write: def is_tie(player, ai): return player == ai",
-      "explanation": "Outstanding! Comparing equality between the player's and computer's moves is the first step in assessing a game state."
+      "question": "Simple Coding Task: Write a Python statement to define a list named 'layers' containing the strings 'Conv' and 'Pool', and print it.",
+      "task_hint": "Write: layers = ['Conv', 'Pool'] then print(layers)",
+      "explanation": "Outstanding! Listing the sequential layers is the first step in assembling sequential neural models."
     },
     {
       "id": 6,
       "type": "task",
-      "question": "Simple Coding Task: Write a Python statement to import the 'time' module, store the current system time in a variable named 'now', and print the value.",
-      "task_hint": "Write: import time then now = time.time() then print(now)",
-      "explanation": "Perfect! time.time() returns the total seconds since epoch, which is highly useful when constructing non-blocking game countdown timers."
+      "question": "Simple Coding Task: Write a Python statement to print the exact string: 'CNN architecture configured successfully'.",
+      "task_hint": "Write: print('CNN architecture configured successfully')",
+      "explanation": "Perfect! Successfully defining layers ensures feature maps filter and downsize correctly before classification."
     }
   ]
 }

@@ -1,0 +1,68 @@
+{
+  "quiz_id": "ai_quiz_10",
+  "quiz_title": "Artificial Intelligence - Challenge 10",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary role of the Roboflow web platform in customized computer vision pipelines?",
+      "options": [
+        "To write and compile python console prints",
+        "To upload, draw bounding boxes (annotate), organize datasets, train, and test custom object detection models",
+        "To execute WhatsApp automation scripts",
+        "To install pywhatkit libraries"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Roboflow is a comprehensive computer vision developer suite designed to manage dataset preparation, labeling, augmentation, and model training."
+    },
+    {
+      "id": 2,
+      "question": "What does 'Image Annotation' (Labeling) mean when preparing custom datasets?",
+      "options": [
+        "Drawing rectangles (Bounding Boxes) around target objects in photos and assigning their correct class labels",
+        "Dividing pixel arrays by 255.0 to scale them",
+        "Deleting low quality files from the dataset",
+        "Opening the camera stream on the computer"
+      ],
+      "correct": 0,
+      "explanation": "Spot on! Annotating is the essential task of drawing boxes and labeling coordinates, telling the neural network exactly what visual features map to what class names."
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of setting a 'Confidence Threshold' when running an object detection model?",
+      "options": [
+        "To increase the pixel scale of coordinates",
+        "To filter out weak, low-probability predictions and display only high-certainty bounding boxes",
+        "To swap Red and Blue color channels",
+        "To count fingers on tracked hands"
+      ],
+      "correct": 1,
+      "explanation": "Correct! If the model predicts a coordinate block is a class but has a low confidence rating (like 15%), we set a threshold (like 50%) to suppress it as a false positive."
+    },
+    {
+      "id": 4,
+      "question": "Is it possible to train and deploy a custom object detection model using a small number of pictures?",
+      "options": [
+        "No, models always require billions of files",
+        "Yes, using custom annotation platforms like Roboflow, we can augment and train a robust model with very few images",
+        "Yes, but only if we do not use bounding boxes",
+        "No, custom models can only be built by Google teams"
+      ],
+      "correct": 1,
+      "explanation": "Great! With Roboflow's powerful transfer learning and image augmentations, developers can train customized object detection structures with very few images."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python script to check if a bounding box confidence score 'conf = 0.78' is greater than a threshold of 0.50, and if so, print the string 'Valid Detection'.",
+      "task_hint": "Write: conf = 0.78 then if conf > 0.50: print('Valid Detection')",
+      "explanation": "Outstanding! Conditional thresholds are a standard filter applied to deep learning coordinates before rendering bounding boxes."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to print the exact string: 'Roboflow project annotated successfully'.",
+      "task_hint": "Write: print('Roboflow project annotated successfully')",
+      "explanation": "Perfect! Successfully completing annotation is the foundation of custom deep learning models."
+    }
+  ]
+}

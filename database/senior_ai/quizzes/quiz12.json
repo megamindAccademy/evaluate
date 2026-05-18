@@ -1,0 +1,68 @@
+{
+  "quiz_id": "ai_quiz_12",
+  "quiz_title": "Artificial Intelligence - Challenge 12",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which set of numbers represent the choices of Rock, Paper, and Scissors in our custom game comparison logic?",
+      "options": [
+        "Rock = 0, Paper = 0, Scissors = 0",
+        "Rock = 1, Paper = 2, Scissors = 3",
+        "Rock = 10, Paper = 20, Scissors = 30",
+        "Rock = 5, Paper = 9, Scissors = 6"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Representing choices as numbers (1=Rock, 2=Paper, 3=Scissors) simplifies writing comparison checks in Python."
+    },
+    {
+      "id": 2,
+      "question": "Under which set of conditions does the Player win the round against the AI in Rock-Paper-Scissors?",
+      "options": [
+        "When choices are equal (player == ai)",
+        "When Player has 1 (Rock) & AI has 3 (Scissors), OR Player has 2 (Paper) & AI has 1 (Rock), OR Player has 3 (Scissors) & AI has 2 (Paper)",
+        "When Player chooses 1 (Rock) and AI has 2 (Paper)",
+        "When Player chooses 3 (Scissors) and AI has 1 (Rock)"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Rock (1) beats Scissors (3); Paper (2) beats Rock (1); and Scissors (3) beats Paper (2). These are the three winning paths for the player."
+    },
+    {
+      "id": 3,
+      "question": "Which OpenCV function is used to overlay text, scores, or timers directly onto the video frames?",
+      "options": [
+        "cv2.drawText()",
+        "cv2.write()",
+        "cv2.putText()",
+        "cv2.print()"
+      ],
+      "correct": 2,
+      "explanation": "Correct! cv2.putText() is the standard method used to overlay text strings on visual matrices, allowing you to define font styles, sizes, and colors."
+    },
+    {
+      "id": 4,
+      "question": "In OpenCV's putText function, what color is represented by the BGR tuple (255, 0, 255)?",
+      "options": [
+        "Green",
+        "Blue",
+        "Magenta / Purple (mixture of Blue and Red)",
+        "Red"
+      ],
+      "correct": 2,
+      "explanation": "Excellent! OpenCV handles colors in Blue-Green-Red (BGR) order. (255, 0, 255) represents a mixture of Blue (255) and Red (255) with Green (0), forming Magenta."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to check if player choice (player = 2) beats AI choice (ai = 1) using 'and', and print the string 'Player wins!'.",
+      "task_hint": "Write: player = 2 then ai = 1 then if player == 2 and ai == 1: print('Player wins!')",
+      "explanation": "Outstanding! Conditional assertions correctly decide the round winner based on mapped inputs."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to print the exact string: 'Rock Paper Scissors game rules active'.",
+      "task_hint": "Write: print('Rock Paper Scissors game rules active')",
+      "explanation": "Perfect! Successfully writing rules and scoreboards concludes our 12-session Artificial Intelligence journey at Megaminds!"
+    }
+  ]
+}

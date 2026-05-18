@@ -1,0 +1,68 @@
+{
+  "quiz_id": "ai_quiz_7",
+  "quiz_title": "Artificial Intelligence - Challenge 7",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the correct sequence of the 5 critical steps of any Machine Learning project?",
+      "options": [
+        "Training, Problem definition, Data collection, Evaluation, Coding",
+        "Problem definition, Data collection, Data preparation, Model training, Evaluation",
+        "Data collection, Coding, Uploading, Testing, Pushing",
+        "Importing libraries, Calling APIs, Building forms, Showing plots, Printing outputs"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! The standard data science workflow goes from defining the problem, gathering data, cleaning/preparing it, training the algorithm, to evaluating final accuracy."
+    },
+    {
+      "id": 2,
+      "question": "What does the essential data science golden rule 'Garbage In, Garbage Out' mean?",
+      "options": [
+        "You must delete your code files when you get an error",
+        "If you feed the model low-quality, noisy, or badly labeled training data, the predictions will be completely inaccurate",
+        "Webcams require clean glass lenses to capture faces",
+        "The computer will run out of storage space if you store too many photos"
+      ],
+      "correct": 1,
+      "explanation": "Amazing! AI models only learn from what we show them. If our training data has errors or messy labeling, the trained model will perform poorly."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is considered a primary method of Data Collection in machine learning workflows?",
+      "options": [
+        "Finding pre-made datasets online, using public datasets, or drawing/capturing your own custom examples",
+        "Writing infinite print loops",
+        "Shutting down the server webcam",
+        "Only importing standard libraries like math"
+      ],
+      "correct": 0,
+      "explanation": "Excellent! Data collection is flexible: we can leverage existing data sources online or capture custom images manually."
+    },
+    {
+      "id": 4,
+      "question": "In our custom drawing dataset on ML for Kids, how many coordinate images did we collect for each class bucket (Heart, Star, Flower)?",
+      "options": [
+        "1 drawing",
+        "15 drawings per class",
+        "100 drawings per class",
+        "Zero drawings"
+      ],
+      "correct": 1,
+      "explanation": "Great! We collected 15 custom drawings per class to provide the classification model with enough representative examples of shape features."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to define a dictionary named 'shapes_count' with the keys 'Heart' and 'Star' set to the integer value 15, and print it.",
+      "task_hint": "Write: shapes_count = {'Heart': 15, 'Star': 15} then print(shapes_count)",
+      "explanation": "Outstanding! Using dictionaries to record dataset distributions is standard practice in data analysis."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to print the string: 'Data collection step complete!'.",
+      "task_hint": "Write: print('Data collection step complete!')",
+      "explanation": "Perfect! Marking the completion of lifecycle phases helps in tracking complex automated training workflows."
+    }
+  ]
+}

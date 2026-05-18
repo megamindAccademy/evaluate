@@ -4,65 +4,65 @@
   "questions": [
     {
       "id": 1,
-      "question": "Which deep learning network architecture is designed specifically to extract visual features from images and classify them?",
+      "question": "What is the primary difference between biological Human Vision and Computer Vision?",
       "options": [
-        "Fully Connected Network",
-        "Convolutional Neural Network (CNN)",
-        "Relational Database",
-        "K-NN Classifier"
+        "Human vision only functions during daytime; computer vision works anytime",
+        "Human vision utilizes eyes and brain cells to interpret light; computer vision uses digital cameras, pixel arrays, and algorithms to capture and decode visual data",
+        "There is no difference between them, both use biological cells",
+        "Computer vision does not require electric power to capture images"
       ],
       "correct": 1,
-      "explanation": "Spot on! CNNs utilize specialized filters that slide across images to extract edges, textures, and shape features automatically."
+      "explanation": "Perfect! Human vision is biological, whereas computer vision is an artificial intelligence system that processes digital image matrices to understand environments."
     },
     {
       "id": 2,
-      "question": "What is the primary advantage of 'Weight Sharing' in Convolutional Neural Networks (CNNs) compared to Fully Connected (FC) networks?",
+      "question": "Which OpenCV function is used to initialize the camera feed and capture live video frames from your default system webcam?",
       "options": [
-        "It colors the images automatically",
-        "It drastically reduces the number of computational parameters and leverages local pixel correlations",
-        "It deletes unused images from the drive",
-        "It allows users to write zero lines of code"
+        "cv2.imread()",
+        "cv2.imshow()",
+        "cv2.VideoCapture(0)",
+        "cv2.waitKey()"
       ],
-      "correct": 1,
-      "explanation": "Amazing! Weight sharing permits a single filter weight to be reused across different parts of the image, keeping the calculation parameters very low."
+      "correct": 2,
+      "explanation": "Great! cv2.VideoCapture(0) targets the primary system camera (index 0) and initiates capturing video streams."
     },
     {
       "id": 3,
-      "question": "Which library do we import in Python to generate beautiful charts, bar plots, and show graphical visual images?",
+      "question": "Which algorithm in OpenCV relies on light and dark intensity differences (Haar-like features) to quickly locate and box human faces?",
       "options": [
-        "PyWhatKit",
-        "NumPy",
-        "Matplotlib",
-        "cvzone"
+        "K-NN Classifier",
+        "CNN pooling",
+        "Haar Cascade",
+        "Roboflow API"
       ],
       "correct": 2,
-      "explanation": "Correct! Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python."
+      "explanation": "Awesome! Haar Cascade is a fast, feature-based machine learning algorithm used to detect facial structures in real-time."
     },
     {
       "id": 4,
-      "question": "Which library do we use in Python to easily automate daily actions such as sending WhatsApp messages or opening videos on YouTube?",
+      "question": "Which command must be executed in the terminal to download and install the OpenCV library for Python?",
       "options": [
-        "Matplotlib",
-        "cvzone",
-        "PyWhatKit",
-        "NumPy"
+        "pip install opencv-python",
+        "python install cv2",
+        "install opencv",
+        "pip install cv2"
       ],
-      "correct": 2,
-      "explanation": "Excellent! PyWhatKit is an incredibly simple, developer-friendly automation module that handles instant messaging and browser actions."
+      "correct": 0,
+      "explanation": "Excellent! The package name in the Python Package Index (PyPI) is opencv-python, which contains all cv2 functions."
     },
     {
       "id": 5,
       "type": "task",
-      "question": "Simple Coding Task: Write a Python statement to import the pyplot module from the matplotlib library as 'plt', and print the string 'Library loaded'.",
-      "task_hint": "Write: import matplotlib.pyplot as plt then print('Library loaded')",
-      "explanation": "Great! matplotlib.pyplot is standardly imported as plt to make visualizing plots and image matrices easy and fast."
+      "question": "Simple Coding Task: Write a Python statement to import the OpenCV library (cv2) and print its version using the double underscore version property.",
+      "task_hint": "Write: import cv2 then print(cv2.__version__)",
+      "explanation": "Perfect! Verifying the installed OpenCV version confirms that the library is active and ready in your environment."
     },
     {
       "id": 6,
       "type": "task",
-      "question": "Simple Coding Task: Write a simple Python function named 'calculate_square' that takes a single number 'x', returns its squared value, and then print the result of calling your function with the number 4.",
-      "task_hint": "Write: def calculate_square(x): return x * x then print(calculate_square(4))",
-      "explanation": "Outstanding! Creating math functions is a core component when calculating loss rates or training models in deep learning."
+      "question": "Simple Coding Task: Write a Python statement to print the string: 'Face detection system active!'.",
+      "task_hint": "Write: print('Face detection system active!')",
+      "explanation": "Great! Confirming the activation of Haar Cascade classifiers ensures your face detection boxes are ready to draw."
     }
   ]
 }

@@ -1,0 +1,68 @@
+{
+  "quiz_id": "ai_quiz_9",
+  "quiz_title": "Artificial Intelligence - Challenge 9",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary difference between Face Detection and Object Detection?",
+      "options": [
+        "Face detection only works on photos; object detection only on live webcams",
+        "Face detection exclusively finds human faces; object detection identifies, labels, and frames coordinates (Bounding Boxes) for hundreds of object classes simultaneously",
+        "There is no difference between them, both only locate faces",
+        "Face detection uses neural networks; object detection only uses mathematical division"
+      ],
+      "correct": 1,
+      "explanation": "Spot on! Face detection is a highly specialized task, whereas Object Detection locates and labels coordinates for varied objects like cars, bicycles, and laptops."
+    },
+    {
+      "id": 2,
+      "question": "What does DNN stand for in the context of computer vision and OpenCV?",
+      "options": [
+        "Digital Number Network",
+        "Deep Neural Networks",
+        "Data Node Navigator",
+        "Device Name Network"
+      ],
+      "correct": 1,
+      "explanation": "Correct! DNN stands for Deep Neural Networks, which is the specialized, highly-optimized module inside OpenCV used to execute pre-trained deep learning structures."
+    },
+    {
+      "id": 3,
+      "question": "Which OpenCV class is specifically engineered to easily load, scale, and swap channels of input images for deep learning detection architectures?",
+      "options": [
+        "cv2.imread",
+        "cv2.dnn_DetectionModel",
+        "cv2.imshow",
+        "cv2.VideoCapture"
+      ],
+      "correct": 1,
+      "explanation": "Great! cv2.dnn_DetectionModel provides an efficient, clean API to import trained deep weights and configs, managing image sizes and normalization variables automatically."
+    },
+    {
+      "id": 4,
+      "question": "What is the role of the strip() function when parsing label files in Python?",
+      "options": [
+        "It splits coordinate strings into comma lists",
+        "It normalizes pixel coordinates by dividing by 255.0",
+        "It removes all whitespaces, tabs, and newline characters (\\n) from the beginning and the end of the text string",
+        "It turns on the webcam stream"
+      ],
+      "correct": 2,
+      "explanation": "Excellent! The strip() method is invaluable when loading label arrays from configuration documents, removing raw trailing carriage returns and whitespaces."
+    },
+    {
+      "id": 5,
+      "type": "task",
+      "question": "Simple Coding Task: Strip all leading and trailing spaces/newlines from the raw string variable raw_label = '  car \\n', and print the cleaned string.",
+      "task_hint": "Write: raw_label = '  car \\n' then clean_label = raw_label.strip() then print(clean_label)",
+      "explanation": "Outstanding! Stripping whitespace ensures that string comparisons match label dictionary indexes exactly."
+    },
+    {
+      "id": 6,
+      "type": "task",
+      "question": "Simple Coding Task: Write a Python statement to print the exact string: 'OpenCV DNN model configured successfully!'.",
+      "task_hint": "Write: print('OpenCV DNN model configured successfully!')",
+      "explanation": "Perfect! Successfully configuring input dimension parameters guarantees that network layers ingest coordinates correctly without resizing faults."
+    }
+  ]
+}

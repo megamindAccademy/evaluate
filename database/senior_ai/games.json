@@ -1,140 +1,380 @@
 {
-  "course_id": "ai",
-  "course_title": "Artificial Intelligence",
-  "course_subtitle": "Welcome to the world of artificial intelligence and machine learning! Here you will create smart systems that recognize faces, simulate ChatGPT, and play rock-paper-scissors with you programmatically. Unlock stations and discover the secrets of the future!",
-  "xp_total": 600,
+  "course_id": "senior_ai",
+  "course_title": "Artificial Intelligence Lab 🧠",
+  "course_subtitle": "Step into the magical laboratory of AI and Deep Learning! Train custom object classifiers, unlock neural networks, detect faces in real-time, and build high-speed computer vision games in Python! 🚀🤖",
+  "xp_total": 1200,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
       "badge_icon": "🎯",
-      "badge_title": "Smart Classifier Medal (K-NN)",
-      "title": "Station 1: K-Nearest Neighbor (K-NN) algorithm",
-      "desc": "Learn how AI classifies new objects based on their nearest neighbors in geometric distance.",
-      "story": "Welcome, future scientist, to the Artificial Intelligence Laboratory! In order to make the computer recognize objects, we use a simple and intelligent algorithm called (K-NN). It ranks any unknown element according to the majority of its nearest neighbors!",
-      "simple": "Imagine that you are in a new school and you do not know where to sit! If you find 3 students who love programming sitting at one desk, and one student who loves drawing at another desk, naturally you will sit with the majority of your neighbors who are into programming!",
-      "hint": "Type in the editor: <code>print(\"Object was successfully classified using K-NN\")</code> and press Run!",
-      "challenge": "Print the magic statement <code>Item was classified successfully using K-NN</code> to simulate the working of the nearest neighbor algorithm.",
-      "starter_code": "# Simulate the K-NN algorithm for data classification:\nneighbors = 3",
+      "badge_title": "Smart Classifier Medal",
+      "title": "Station 1: Introduction to AI & K-NN Classifier 🧱",
+      "desc": "Discover the magical differences between AI, Machine Learning, and Deep Learning, and write your first K-NN distance algorithm!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>Introduction to AI vs. Machine Learning vs. Deep Learning</li><li>Examples of AI (Virtual Assistants, Self-Driving Cars, Robotics)</li><li>What is an Algorithm?</li><li>The K-NN (K-Nearest Neighbor) Supervised Learning algorithm</li><li>How K-NN works step-by-step</li></ul><hr><h3>📘 AI vs. Machine Learning vs. Deep Learning</h3><ul><li><b>Artificial Intelligence (AI):</b> The ability of a machine to imitate intelligent human behavior (like Siri, self-driving cars, or robot chess players).</li><li><b>Machine Learning (ML):</b> A special application of AI that allows a system to automatically learn and improve from experience without being explicitly programmed (like product recommendations and image classification).</li><li><b>Deep Learning (DL):</b> An advanced type of machine learning that uses complex neural networks with many layers to train models on big datasets.</li></ul><h3>📐 What is an Algorithm?</h3>An algorithm is a step-by-step procedure used to solve a problem or perform a computation, acting like a highly detailed recipe for the computer to follow.<h3>🎯 The K-NN (K-Nearest Neighbor) Algorithm</h3>K-NN is one of the simplest supervised learning algorithms. It classifies a new, unknown data point based on the majority vote of its closest coordinate neighbors in a graphic space!<h3>📐 Euclidean Distance Formula</h3>To find the closest neighbors, K-NN uses Euclidean Distance, which represents the shortest straight line between two coordinate points:<br><code>distance = sqrt((x2 - x1)**2 + (y2 - y1)**2)</code>",
+      "simple": "AI is like a super-smart robot, Machine Learning is how it learns by practicing, and Deep Learning is a brain-like neural network! The K-NN algorithm is like deciding where to sit at school: if most programming kids sit at a desk next to you, you classify yourself as a programmer too!",
+      "hint": "Use Python's exponentiation <code>**2</code> and square root to calculate distance. Write: <code>import math</code> then <code>x1, y1 = 6, 2</code> and <code>x2, y2 = 3, 5</code>, calculate <code>dist = math.sqrt((x2-x1)**2 + (y2-y1)**2)</code> and print the distance.",
+      "challenge": "Write a Python script to calculate the Euclidean distance between a new point (x1=6, y1=2) and a neighboring training point (x2=3, y2=5). Print the calculated value on the screen.",
+      "starter_code": "# Calculate Euclidean distance between points (6,2) and (3,5):\nimport math\n\nx1, y1 = 6, 2\nx2, y2 = 3, 5\n\n# Write the distance formula here and print the result:",
       "pills": [
         {
-          "label": "Run K-NN classification",
-          "code": "print(\"The item was successfully classified using K-NN\")"
+          "label": "Calculate K-NN distance",
+          "code": "import math\nx1, y1 = 6, 2\nx2, y2 = 3, 5\ndist = math.sqrt((x2-x1)**2 + (y2-y1)**2)\nprint(\"Euclidean distance:\", dist)"
+        },
+        {
+          "label": "Print AI definition",
+          "code": "print(\"AI: Imitates human behavior. ML: Learns from experience. DL: Brain-like neural nets!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "The item was successfully classified using K-NN",
+        "required_output_text": "Euclidean distance:",
         "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: Predict coordinates!",
+        "desc": "Suppose we have a dataset of coordinate points, where each point is labeled either 'red' or 'blue'. Write a Python script to calculate the distance between a new point at (x1=6, y1=2) and a training point at (x2=1, y2=1). Print the distance and print: 'Homework Session 1 Complete!'.",
+        "code": "# Calculate distance between (6,2) and (1,1):\nimport math\n\n# Calculate distance and print completion message here:"
       }
     },
     {
       "id": 2,
       "badge_icon": "📷",
-      "badge_title": "Face Detector Medal (OpenCV)",
-      "title": "Station 2: Detect faces with the camera (OpenCV)",
-      "desc": "Use the Computer Vision (OpenCV) library and the Haar Cascade algorithm to identify and draw boxes around heroes' faces!",
-      "story": "The computer can see through the digital camera! We use the famous Python library (OpenCV) and pass it a fast algorithm that searches for light differences in the face (Haar Cascade) to draw a box around it immediately.",
-      "simple": "Like Snapchat and Instagram filters! As soon as you open the camera, the artificial intelligence recognizes the location of your eyes and nostrils and applies a filter to them in a second!",
-      "hint": "Type <code>import cv2</code> and then in the next line <code>print(\"OpenCV camera and face detection turned on!\")</code>.",
-      "challenge": "Call the vision library <code>import cv2</code> and print the statement <code>OpenCV camera and face detection turned on!</code>.",
-      "starter_code": "# Call the OpenCV library and run the camera:",
+      "badge_title": "Face Detector Medal",
+      "title": "Station 2: Computer Vision & Face Detection with OpenCV 📷",
+      "desc": "Discover how the computer sees the world, import the legendary OpenCV library, and locate hero faces!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>Human vs. Computer Vision systems</li><li>Required Libraries (NumPy and OpenCV)</li><li>Installing packages using the terminal</li><li>What is OpenCV?</li><li>The Haar Cascade face detection algorithm</li></ul><hr><h3>👁️ Human Vision vs. Computer Vision</h3><ul><li><b>Human Vision System:</b> A biological system composed of eyes, optic nerves, and brain cells that perceive and interpret visual data instantly in real-time.</li><li><b>Computer Vision System:</b> An artificial AI system designed to emulate human vision. It uses digital cameras, image pixel grids, and algorithms to capture and extract information from visual streams.</li></ul><h3>📥 Required Packages</h3>To build vision systems, we import two essential libraries:<ul><li><b>Numpy:</b> For fast mathematical grid and matrix array calculations.</li><li><b>OpenCV (opencv-python):</b> A powerful open-source library packed with tools to solve computer vision problems. Install it using the terminal command: <code>pip install opencv-python</code></li></ul><h3>🕵️‍♂️ Haar Cascade Face Detection</h3>OpenCV uses the Haar Cascade Algorithm to identify faces. It detects 'Haar-like features' (areas of dark and light region intensities) and calculates the sum differences to quickly isolate facial shapes (like eyes, nose bridge, and cheeks).",
+      "simple": "The human eyes send pictures to the brain, and the camera sends pixel coordinate numbers to OpenCV! The Haar Cascade is like Snapchat filters; it searches for light and shadow patterns on your face to draw a rectangular box around it immediately!",
+      "hint": "Import <code>cv2</code> and check its active version by printing <code>cv2.__version__</code> on the screen.",
+      "challenge": "Write a Python script that imports the OpenCV library (cv2) and prints the string <code>OpenCV camera and face detection turned on!</code> to the console.",
+      "starter_code": "# Import OpenCV and print the initialization message:",
       "pills": [
         {
-          "label": "Turn on face detection",
+          "label": "Import OpenCV library",
           "code": "import cv2\nprint(\"OpenCV camera and face detection turned on!\")"
+        },
+        {
+          "label": "Check cv2 version",
+          "code": "import cv2\nprint(\"OpenCV version is:\", cv2.__version__)"
         }
       ],
       "validation_rules": {
         "required_output_text": "OpenCV camera and face detection turned on!",
         "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: Display Images!",
+        "desc": "Write a simple Python script using OpenCV to print a message confirming that you can read and display image frames. Print: 'Image loaded and displayed successfully!'.",
+        "code": "# Write OpenCV display confirmation program here:"
       }
     },
     {
       "id": 3,
       "badge_icon": "💬",
-      "badge_title": "Linguistic Mind Medal (ChatGPT)",
-      "title": "Station 3: Huge Language Models (ChatGPT)",
-      "desc": "Discover how generative AI models (LLMs) work and how they understand and generate texts that mimic humans exactly.",
-      "story": "ChatGPT is not magic, but rather a generative artificial intelligence model trained on billions of texts and books to understand the context of speech and generate smart, coherent answers!",
-      "simple": "The genius robot writer costume! He read all the books in the world, and when you ask him a question, he thinks of the most appropriate words and puts them together in a beautiful and convincing way!",
-      "hint": "Type <code>ai_reply = “Welcome, AI hero”</code> and then <code>print(ai_reply)</code>.",
-      "challenge": "Create a variable <code>ai_reply=\"Hello, AI Hero\"</code> and print it to the screen.",
-      "starter_code": "# Simulate GPT Smart Reply Chat:",
+      "badge_title": "Linguistic Mind Medal",
+      "title": "Station 3: Automation with PyWhatKit & ChatGPT 🤖",
+      "desc": "Explore automatic message scripting using PyWhatKit and dive into generative AI (ChatGPT) and Large Language Models!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>What is PyWhatKit and how does it automate tasks?</li><li>Installing PyWhatKit</li><li>What is ChatGPT and Generative AI?</li><li>What does GPT stand for?</li><li>Rule-Based Bots vs. Generative AI</li></ul><hr><h3>🚀 Automation with PyWhatKit</h3>PyWhatKit is an easy-to-use Python library with various helpful automation features. It allows us to automate repetitive tasks like sending WhatsApp messages or opening videos on YouTube using simple Python commands! Install it using the command: <code>pip install pywhatkit</code>.<h3>💬 ChatGPT & Large Language Models (LLM)</h3>ChatGPT is a natural language processing tool driven by AI technology developed by OpenAI. It is built on top of GPT-3.5 and GPT-4 families of Large Language Models (LLM) neural networks.<h3>💡 What does GPT stand for?</h3><b>Generative Pre-trained Transformer:</b> A type of neural network trained on billions of text books to answer questions, summarize paragraphs, and even write coding scripts!<h3>⚖️ Rule-Based Bots vs. Generative AI</h3><ul><li><b>Rule-Based Bots:</b> Traditional chatbots that follow strict, pre-programmed rules ('if this, then do that'). They cannot understand context or unexpected replies.</li><li><b>Generative AI:</b> Smart models that continuously learn, understanding flexible human conversations and generating new custom responses!</li></ul>",
+      "simple": "PyWhatKit is like a robot servant that automatically clicks links for you! Rule-based bots are like vending machines (they only give what's pre-programmed). ChatGPT is like a super-intelligent robot writer who read all the books in the world and can write you customized stories!",
+      "hint": "Simulate a chatbot reply: create a variable named <code>ai_reply</code> and set it to <code>\"Welcome, AI Hero\"</code>, then print it.",
+      "challenge": "Create a variable named <code>ai_reply</code> with the text value <code>\"Welcome, AI Hero\"</code> and print it to simulate a smart generative response.",
+      "starter_code": "# Create the generative AI reply and print it:",
       "pills": [
         {
-          "label": "Generate a smart response",
+          "label": "Simulate GPT reply",
           "code": "ai_reply = \"Welcome, AI Hero\"\nprint(ai_reply)"
+        },
+        {
+          "label": "Explain GPT",
+          "code": "print(\"GPT stands for Generative Pre-trained Transformer!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Welcome, AI hero",
+        "required_output_text": "Welcome, AI Hero",
         "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: PyWhatKit automations!",
+        "desc": "Write a Python script that prints the command you would run in the terminal to install pywhatkit, and then prints: 'Automation library is ready!'.",
+        "code": "# Print installation command and automation status:"
       }
     },
     {
       "id": 4,
-      "badge_icon": "🤖",
-      "badge_title": "Bot Engineer Medal (WotNot)",
-      "title": "Station 4: Building the interactive chatbot",
-      "desc": "Learn the logic of building an interactive chatbot that asks the user his name and suggests learning paths.",
-      "story": "The smart chatbot saves time and serves thousands of visitors at the same moment! The bot asks questions, stores answers, and guides the user based on their choices.",
-      "simple": "Robot customer service employee uniform! He asks you (Welcome, what would you like to buy?) and when you choose, he takes you to the appropriate section immediately without waiting!",
-      "hint": "Type <code>print(\"Welcome to Megaminds, what's your favorite track?\")</code>.",
-      "challenge": "Print the bot's welcome message: <code>Welcome to Megaminds, what's your favorite track?</code>.",
-      "starter_code": "# Write a chatbot welcome message:",
+      "badge_icon": "🌐",
+      "badge_title": "Bot Engineer Medal",
+      "title": "Station 4: No-Code Chatbots with WotNot 🤖",
+      "desc": "Discover the logic of building visual interactive bots without code, and simulate chat flow pathways!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>What is the WotNot chatbot platform?</li><li>Visual no-code flow chart builders</li><li>Understanding essential chatbot blocks</li><li>Send Message block vs. Collect Input block</li><li>Options block for branching conversation flows</li></ul><hr><h3>🧱 WotNot Chatbot Platform</h3>WotNot is the best no-code chatbot platform that lets developers build AI bots easily without writing code. You can visually design a chat script and deploy it to websites, Facebook Messenger, or WhatsApp. Visit <code>app.wotnot.io</code> to start building!<h3>🛠️ Critical Chatbot Blocks</h3><ul><li><b>Send Message:</b> This block displays a greeting, a tip, or information to the visitor. It only sends text and does not require or wait for a response back from the user.</li><li><b>Collect Input:</b> This block asks a question (like 'What is your age?') and waits for the user to type an answer, storing the text response as a variable.</li><li><b>Options:</b> This block displays clickable buttons (like '1. Learn Python', '2. Learn Robotics'). It allows the conversation to branch into different paths based on what the user selects.</li></ul>",
+      "simple": "WotNot is like playing with Lego blocks to build a talking robot! The 'Send Message' block is like the robot saying 'Hello!', the 'Collect Input' block is like the robot asking for your name, and the 'Options' block lets you click buttons to choose different games!",
+      "hint": "Write a print statement that asks the user for their favorite track: <code>print(\"Welcome to Megaminds, what's your favorite track?\")</code>.",
+      "challenge": "Print the bot's welcome and option message to the screen: <code>Welcome to Megaminds, what's your favorite track?</code>.",
+      "starter_code": "# Simulate WotNot options welcome message:",
       "pills": [
         {
           "label": "Bot welcome message",
-          "code": "print(\"Welcome to Megaminds, what is your favorite track?\")"
+          "code": "print(\"Welcome to Megaminds, what's your favorite track?\")"
+        },
+        {
+          "label": "Print bot action info",
+          "code": "print(\"WotNot block: Options selected. Branching chat flow!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Welcome to Megaminds, what is your favorite track?",
+        "required_output_text": "Welcome to Megaminds, what's your favorite track?",
         "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: Visual Bot Flow!",
+        "desc": "Explain in comments how WotNot branching option flows help the user, and write a program to print: 'WotNot Bot Flow Configured!'.",
+        "code": "# Explain Options blocks in comments:\n# \n\n# Print configuration message:"
       }
     },
     {
       "id": 5,
       "badge_icon": "🕸️",
-      "badge_title": "Neural Networks Medal (CNN)",
-      "title": "Station 5: Image Neural Networks (CNN)",
-      "desc": "Learn about CNNs that mimic human brain cells and use filtering layers to extract image features.",
-      "story": "Convolutional Neural Networks (CNN) are the secret behind computer recognition of images of cats, dogs, and cars! The network scans the image with small layers of filters to extract lines, colors, and features.",
-      "simple": "Like Detective Conan when he looks with a magnifying glass! He scans the picture one by one and looks for fingerprints and fine features to find out who owns the picture!",
-      "hint": "Type <code>print(\"Image scanned and features successfully extracted by CNN\")</code>.",
-      "challenge": "Print the magic phrase <code>The image has been scanned and features successfully extracted by CNN</code> to simulate a neural network.",
-      "starter_code": "# Simulate filtering layers in CNN:",
+      "badge_title": "Neural Networks Medal",
+      "title": "Station 5: Deep Learning & CNN Architecture 🕸️",
+      "desc": "Dive deep into neural network layers, weight sharing, and build a convolutional network coordinate architecture!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>Deep Learning & how it simulates the human brain</li><li>Human Brain neurons vs. Computer</li><li>Image Representation (Pixels stored in Coordinate arrays)</li><li>Supervised vs. Unsupervised Learning</li><li>What is a CNN (Convolutional Neural Network)?</li><li>CNN Layers: Convolutional, Pooling, Flattening, Dense</li><li>Matplotlib for data visualization</li></ul><hr><h3>🧠 Human Brain vs. Computer</h3>Our brains consist of 100 billion nerve cells (neurons) that detect, receive, and transmit visual features. In Deep Learning, we attempt to simulate this behavior using artificial networks!<h3>🕸️ What is a CNN?</h3>A <b>Convolutional Neural Network (CNN)</b> is a deep learning algorithm specially designed for working with images and videos. Unlike Fully Connected (FC) networks, CNN layers share filter weights (Weight Sharing) to dramatically reduce calculation parameters and preserve local pixel patterns!<h3>🛠️ The Four Essential CNN Layers:</h3><ol><li><b>Convolutional Layer:</b> Slides filters across the pixel grid to find edges and extract features.</li><li><b>Pooling Layer:</b> Downsizes the feature maps to save computing memory while keeping the most important information.</li><li><b>Flattening Layer:</b> Converts a multi-dimensional 2D image matrix into a single 1D linear array.</li><li><b>Dense (Full Connection) Layer:</b> Links every neuron to classify the image category.</li></ol>",
+      "simple": "Your brain classifies a drawing by looking at lines and corners first. A CNN does the exact same thing! It takes an image, extracts features using 'filters' in the Convolution layer, downsizes it in the Pooling layer, flattens it, and then guesses what's in the picture!",
+      "hint": "Define a list named <code>cnn_layers</code> with the layers: <code>[\"Convolutional\", \"Pooling\", \"Flattening\", \"Dense\"]</code> and print it.",
+      "challenge": "Create a Python list named <code>cnn_layers</code> containing the four core CNN layers in order and print the list to the screen.",
+      "starter_code": "# Create CNN layers list and print it:",
       "pills": [
         {
-          "label": "Run CNN scan",
-          "code": "print(\"The image was successfully scanned and features extracted by CNN\")"
+          "label": "Define CNN layers",
+          "code": "cnn_layers = [\"Convolutional\", \"Pooling\", \"Flattening\", \"Dense\"]\nprint(cnn_layers)"
+        },
+        {
+          "label": "Explain weight sharing",
+          "code": "print(\"CNN weight sharing preserves local pixel structures and saves memory!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "The image was scanned and features were successfully extracted by CNN",
+        "required_output_text": "['Convolutional', 'Pooling', 'Flattening', 'Dense']",
         "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: Matplotlib Charts!",
+        "desc": "Write a Python script that prints the command to install matplotlib, and then prints: 'Matplotlib chart generated!'.",
+        "code": "# Print install command and chart confirmation:"
       }
     },
     {
       "id": 6,
-      "badge_icon": "🏆",
-      "badge_title": "Challenge Champion Medal (Rock Paper Scissors)",
-      "title": "Station 6: Programmer of the rock-paper-scissors game",
-      "desc": "The grand final stop! Programming the logic of an interactive game (rock, paper, scissors) against artificial intelligence and calculating the winner.",
-      "story": "The grand final stop in the Artificial Intelligence Lab! We will program the rules of the game (Rock, Paper, Scissors). We determine player choice and computer choice, and apply comparison rules to find out who wins!",
-      "simple": "Play the famous game with your friends! The paper covers the stone, the stone breaks the scissors, and the scissors cuts the paper! We program these rules so that the computer understands who won!",
-      "hint": "Type <code>player = \"paper\"</code>, <code>ai = \"stone\"</code>, then <code>print(\"Player wins! Paper covers stone!\")</code>.",
-      "challenge": "Initialize the variables and print the closing statement <code>Player wins! The paper covers the stone!</code>To celebrate the great victory!",
-      "starter_code": "# Programming the rules for the player to win the game:\nplayer = \"sheet\"\nai = \"stone\"",
+      "badge_icon": "🐱",
+      "badge_title": "Image Classifier Medal",
+      "title": "Station 6: Cats vs. Dogs Classification with TFLite 🐱🐶",
+      "desc": "Train a model on Google Teachable Machine, export a lightweight TFLite file, and normalize visual pixels!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>Google Teachable Machine (teacheablemachine.withgoogle.com)</li><li>Exporting trained models (.tflite and labels.txt)</li><li>Using NumPy and Pillow (PIL) libraries in Python</li><li>Image Load Function details</li><li>Image Pre-processing & Normalization (scaling pixels by dividing by 255.0)</li><li>Adding Batch Dimension shape (np.expand_dims)</li></ul><hr><h3>🎯 Google Teachable Machine</h3>Teachable Machine is a scond-to-none website from Google that lets you train classification models using your camera, voice, or pictures! You upload images into class labels, click Train, and export the trained classifier.<h3>📦 TFLite (TensorFlow Lite)</h3>We export models as lightweight <code>.tflite</code> files, optimized to run super-fast on mobile phones and small computers.<h3>🖼️ Image Pre-processing & Pixel Normalization</h3>Computers read images as 2D grids of pixel intensity numbers (0 to 255). To help neural networks calculate faster and prevent errors, we perform **Normalization** by dividing the pixel values by 255.0. This scales all coordinates beautifully between 0.0 and 1.0! We also add a batch dimension (shape [1, 224, 224, 3]) using <code>np.expand_dims</code> because models expect inputs in batches.",
+      "simple": "Teachable Machine lets you teach a computer using your webcam or photos! Normalizing is like shrinking giant giant numbers between 0 and 255 into tiny friendly numbers between 0.0 and 1.0, so the AI model's brain doesn't get a headache calculating them!",
+      "hint": "Divide a raw pixel value list <code>[127.0, 255.0]</code> by <code>255.0</code> to normalize them and print the result.",
+      "challenge": "Write a Python script that normalizes a list of raw pixel values <code>[127.0, 255.0]</code> by dividing them by <code>255.0</code>, and print the normalized array.",
+      "starter_code": "# Normalize raw pixels and print the scaled values:\nraw_pixels = [127.0, 255.0]\n\n# Scale them between 0.0 and 1.0 and print:",
       "pills": [
         {
-          "label": "Announcing the player's victory",
-          "code": "player = \"sheet\"\nai = \"stone\"\nprint(\"The player wins! The paper covers the stone!\")"
+          "label": "Pixel normalization",
+          "code": "raw_pixels = [127.0, 255.0]\nnormalized = [p / 255.0 for p in raw_pixels]\nprint(\"Normalized pixels:\", normalized)"
+        },
+        {
+          "label": "Print batch expansion info",
+          "code": "import numpy as np\nimg = np.zeros((224, 224, 3))\nbatch_img = np.expand_dims(img, axis=0)\nprint(\"Shape expanded to:\", batch_img.shape)"
         }
       ],
       "validation_rules": {
-        "required_output_text": "The player wins! The paper covers the stone!",
+        "required_output_text": "Normalized pixels:",
         "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: TFLite Loading!",
+        "desc": "Explain in comments why we divide pixels by 255.0. Write a program to print: 'TFLite Model Loaded Successfully!'.",
+        "code": "# Explain normalization in comments:\n# \n\n# Print loading statement:"
+      }
+    },
+    {
+      "id": 7,
+      "badge_icon": "📝",
+      "badge_title": "Data Collector Medal",
+      "title": "Station 7: Hand Drawing Recognition - Data Collection 📝",
+      "desc": "Master the 5 critical stages of Machine Learning, avoid the 'Garbage In, Garbage Out' trap, and organize datasets!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>Hand drawing recognition project overview</li><li>The 5 Critical Steps of Machine Learning</li><li>Data Collection: finding online, pre-made, or drawing your own datasets</li><li>The essential 'Garbage In, Garbage Out' rule</li><li>Drawing datasets (Hearts, Stars, Flowers) using ML for Kids</li></ul><hr><h3>🔄 The 5 Steps of Machine Learning Projects</h3>Every professional artificial intelligence project follows these five steps:<ol><li><b>Problem Definition:</b> Decide exactly what problem you want your AI model to solve.</li><li><b>Data Collection:</b> Gather high-quality training examples (images, voice recordings, or coordinate lists).</li><li><b>Data Preparation:</b> Clean and format the data (normalizing, cropping, and naming labels).</li><li><b>Model Training:</b> Feed the dataset into an algorithm so it learns the features.</li><li><b>Evaluation:</b> Test the trained model's accuracy on brand-new, unseen data.</li></ol><h3>🗑️ The 'Garbage In, Garbage Out' Rule</h3>This is the number-one golden rule of Data Science! If your training data is of low quality, badly cropped, or incorrectly labeled, your trained AI model will make terrible, garbage predictions. Quality data equals quality AI!<h3>🎨 Creating Custom Datasets</h3>In this project, we draw 15 different coordinate drawings of Hearts, Stars, and Flowers inside <i>ML for Kids</i>, teaching the computer the distinct vectors and features of each shape.",
+      "simple": "Before training a dog, you must show it treats! Machine Learning is the same: first we must collect clean drawings. The 'Garbage In, Garbage Out' rule means that if you teach a robot using bad, messy drawings, the robot will make silly mistakes and fail its tests!",
+      "hint": "Create a dictionary named <code>dataset</code> with labels <code>'Heart'</code>, <code>'Star'</code>, and <code>'Flower'</code> set to 15 drawings each, and print the dictionary.",
+      "challenge": "Create a Python dictionary named <code>dataset</code> containing the labels <code>'Heart'</code>, <code>'Star'</code>, and <code>'Flower'</code> with a count of 15 drawings each. Print the dataset to the screen.",
+      "starter_code": "# Create drawing dataset counts dictionary and print it:",
+      "pills": [
+        {
+          "label": "Define dataset dictionary",
+          "code": "dataset = {'Heart': 15, 'Star': 15, 'Flower': 15}\nprint(dataset)"
+        },
+        {
+          "label": "Print ML steps",
+          "code": "print(\"ML Steps: 1.Problem, 2.Collection, 3.Preparation, 4.Training, 5.Evaluation\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "{'Heart': 15, 'Star': 15, 'Flower': 15}",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: Garbage In, Garbage Out!",
+        "desc": "Write a Python script that prints the 5 steps of Machine Learning projects line-by-line, and then prints: 'Data collection dataset successfully configured!'.",
+        "code": "# Print the 5 ML steps and dataset configuration message:"
+      }
+    },
+    {
+      "id": 8,
+      "badge_icon": "🔌",
+      "badge_title": "API Connector Medal",
+      "title": "Station 8: Drawing Recognition - API & Coding 🔌",
+      "desc": "Assemble a python requirements.txt file, explore API keys, and connect your model to Python!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>Recapping custom drawings datasets</li><li>Training the model</li><li>What is a Requirements File (requirements.txt) and why we use it?</li><li>Installing requirements via terminal</li><li>Understanding APIs (Application Programming Interfaces)</li><li>Using secure API Keys to get live shape predictions</li></ul><hr><h3>📦 Requirements File (requirements.txt)</h3>A <code>requirements.txt</code> file is a standard text file that lists all external library dependencies required by a Python project. It allows developers to configure their workspace and install all modules at once with one command:<br><code>pip install -r requirements.txt</code><h3>🔗 What is an API?</h3>An <b>API (Application Programming Interface)</b> is a digital software bridge that allows your Python code to talk to an online server. We send the user's test drawing to the ML for Kids online model server using a secure **API Key**, and the server sends back the classification prediction instantly!<h3>🔄 Iterating Predictions</h3>We write Python loops to iterate through a list of new drawings, query the model API, extract the predicted label, and print the model's confidence level percentage (how sure the AI is!).",
+      "simple": "An API is like a waiter in a restaurant: you ask for a shape prediction (the order), the API takes it to the trained AI model (the kitchen), and brings you back the result (the food)! Secure API keys act like your private password so only your code can talk to the model!",
+      "hint": "Define a list of libraries: <code>['numpy', 'opencv-python', 'requests']</code> and loop to print each with 'pip install'.",
+      "challenge": "Write a Python script that defines a list of required project packages: <code>['numpy', 'opencv-python', 'requests']</code> and loops over them, printing <code>'Installing:'</code> followed by the package name.",
+      "starter_code": "# Define libraries list and loop to simulate installation:\nlibs = ['numpy', 'opencv-python', 'requests']\n\n# Loop and print each library:",
+      "pills": [
+        {
+          "label": "Loop required libraries",
+          "code": "libs = ['numpy', 'opencv-python', 'requests']\nfor lib in libs:\n    print(\"Installing:\", lib)"
+        },
+        {
+          "label": "Print API query status",
+          "code": "print(\"API post request sent successfully. Prediction returned!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Installing: numpy",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: Package Requirements!",
+        "desc": "Write a Python script that prints the exact command used to install packages from a requirements file, and then prints: 'All required libraries installed successfully!'.",
+        "code": "# Print pip install requirements command:"
+      }
+    },
+    {
+      "id": 9,
+      "badge_icon": "👁️",
+      "badge_title": "Object Detector Medal",
+      "title": "Station 9: Object Detection with OpenCV DNN 👁️",
+      "desc": "Differentiate face detection from object detection, load deep weights in DNN, and clean data text!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>Face Detection vs. Object Detection</li><li>What is Object Detection? (Bounding Boxes and category Labels)</li><li>What is OpenCV's DNN module?</li><li>Using cv2.dnn_DetectionModel class wrapper</li><li>Loading trained weights (.pb) and configs (.pbtxt)</li><li>Text manipulation: reading files ('rt'), .strip(), and .split() functions</li></ul><hr><h3>📦 Face Detection vs. Object Detection</h3><ul><li><b>Face Detection:</b> Looks exclusively for human face shapes.</li><li><b>Object Detection:</b> A powerful computer vision technique that identifies, labels, and locates hundreds of different object categories (like cars, cups, dogs, and pedestrians) in images or live camera streams, framing them in <b>Bounding Boxes</b>.</li></ul><h3>📡 OpenCV DNN Module</h3>The **DNN (Deep Neural Network)** module in OpenCV is highly optimized to run pre-trained neural networks. We use the class <code>cv2.dnn_DetectionModel</code> to easily load binary weights (containing the model's intelligence) and network configurations (describing the layer layouts).<h3>⚙️ String Cleanups during Label Loading</h3>When loading object class labels from text files, we write Python string cleaners:<ul><li><code>strip()</code>: Removes leading/trailing spaces and newline symbols (<code>\\n</code>).</li><li><code>split()</code>: Breaks a coordinate string into individual words or elements based on a separator.</li></ul>",
+      "simple": "Face detection only looks for eyes and noses. Object detection looks for everything! It places a rectangle (Bounding Box) around a chair, a phone, or a cup and labels it. DNN is like a super-fast engine in OpenCV that runs massive, pre-trained neural networks!",
+      "hint": "Clean a raw class label string <code>\"   person \\n\"</code> using the <code>.strip()</code> function and print it.",
+      "challenge": "Clean up the raw class label string <code>\"   person \\n\"</code> by stripping all trailing and leading whitespaces/newlines, and print the clean string.",
+      "starter_code": "# Strip spaces and newlines from class name and print:\nraw_class = \"   person \\n\"\n\n# Strip and print:",
+      "pills": [
+        {
+          "label": "Strip string text",
+          "code": "raw_class = \"   person \\n\"\nclean_class = raw_class.strip()\nprint(\"Cleaned label:\", clean_class)"
+        },
+        {
+          "label": "Split labels list",
+          "code": "classes_str = \"dog,cat,car\"\nclasses_list = classes_str.split(',')\nprint(\"Classes parsed:\", classes_list)"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Cleaned label: person",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: Pre-trained DNN Models!",
+        "desc": "Write a Python script that sets the model input size to (320, 320), and prints: 'Model Loaded Successfully!'.",
+        "code": "# Set model size and print success:"
+      }
+    },
+    {
+      "id": 10,
+      "badge_icon": "🏷️",
+      "badge_title": "Annotation Medal",
+      "title": "Station 10: Custom Object Detection with Roboflow 🏷️",
+      "desc": "Collect custom image datasets, annotate bounding boxes on Roboflow, and filter model predictions!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>Designing custom object classifiers</li><li>Deploying computer vision models with few images</li><li>Introduction to Roboflow (roboflow.com)</li><li>Image Annotation (drawing and labeling Bounding Boxes)</li><li>Training custom neural network structures</li><li>Testing custom models live with webcams</li><li>Filtering predictions using confidence thresholds</li></ul><hr><h3>⚡ What is Roboflow?</h3>Roboflow is a scond-to-none web portal designed to organize custom datasets! Even with a small number of custom pictures, you can annotate, train, and deploy professional object detection models easily.<h3>✏️ Image Annotation (Labeling)</h3>Annotation is the process of drawing box coordinates around your specific custom items (like a customized toy robot or keyholder) and labeling them with their class names. This teaches the custom neural network exactly what to search for!<h3>⚖️ Confidence Thresholds</h3>When testing models, the AI outputs a confidence score (from 0% to 100%) indicating how sure it is about each Bounding Box prediction. We set a **Confidence Threshold** (e.g., 50%) to ignore weak, incorrect guesses and show only true, high-confidence detections!",
+      "simple": "Roboflow is like an online art studio where you upload pictures and draw rectangles around toys, labeling them so the computer learns their shapes. The confidence threshold is like a filter: if a robot says 'I am only 20% sure this is a car,' we filter it out so we only see smart, high-percentage answers!",
+      "hint": "Write a loop that checks a list of scores <code>[0.85, 0.42, 0.95, 0.30]</code> and prints only values greater than <code>0.50</code>.",
+      "challenge": "Iterate through a list of bounding box confidence levels <code>[0.85, 0.42, 0.95, 0.30]</code>. Print each confidence score only if it is greater than the threshold of <code>0.50</code>.",
+      "starter_code": "# Filter predictions with a 0.50 confidence threshold:\nscores = [0.85, 0.42, 0.95, 0.30]\nthreshold = 0.50\n\n# Loop and print scores exceeding the threshold:",
+      "pills": [
+        {
+          "label": "Filter confidence scores",
+          "code": "scores = [0.85, 0.42, 0.95, 0.30]\nfor s in scores:\n    if s > 0.50:\n        print(\"High confidence score:\", s)"
+        },
+        {
+          "label": "Print annotation message",
+          "code": "print(\"Roboflow Annotation: coordinates labeled and dataset augmented!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "High confidence score: 0.85",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: Custom Class Training!",
+        "desc": "Explain in comments how you would train a custom object model in Roboflow, and write a program to print: 'Custom Roboflow Model Trained!'.",
+        "code": "# Describe Roboflow steps in comments:\n# \n\n# Print custom model confirmation:"
+      }
+    },
+    {
+      "id": 11,
+      "badge_icon": "✋",
+      "badge_title": "Joint Tracker Medal",
+      "title": "Station 11: Hand Tracking Game - MediaPipe & cvzone ✋",
+      "desc": "Track skeletal joints in real-time, configure camera properties, and count raised fingers!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>Required packages: cvzone, mediapipe, opencv-python</li><li>Launching the webcam capture stream</li><li>Configuring capture properties (Width Property ID = 3, Height Property ID = 4)</li><li>Resizing and scaling image backgrounds using cv2.resize()</li><li>Understanding MediaPipe Palm Detection vs. Hand Landmarks</li><li>Tracking the 21 hand landmarks on joint skeletons</li><li>Counting raised fingers using the fingersUp() method</li></ul><hr><h3>✋ MediaPipe & cvzone Skeletons</h3><ul><li><b>MediaPipe:</b> A fantastic Google framework designed to perform high-speed body tracking, joint skeletons, and face meshes.</li><li><b>cvzone:</b> A brilliant package that wraps OpenCV and MediaPipe in extremely simple, developer-friendly Python statements. Install them using: <code>pip install cvzone mediapipe</code></li></ul><h3>🎥 Setting Video Properties</h3>When starting the camera, we adjust the frame sizes using property IDs:<ul><li><b>Property ID 3:</b> Changes the webcam frame Width.</li><li><b>Property ID 4:</b> Changes the webcam frame Height.</li></ul><h3>📍 Skeletons & Bounding Landmarks</h3>MediaPipe runs a high-speed **Palm Detection** first to crop the hand area. Then it maps **21 distinct hand landmarks** representing skeletal coordinates, allowing us to count raised fingers instantly using the <code>fingersUp()</code> method!",
+      "simple": "MediaPipe is like a digital skeletal glove that snaps coordinate trackers to your wrist and finger joints! It detects 21 key points on your hand. The fingersUp() function returns a list like [0, 1, 1, 0, 0] to show that only your Index and Middle fingers are raised!",
+      "hint": "Count how many 1s are in a finger state list <code>[0, 1, 1, 0, 0]</code> using the <code>.count(1)</code> list method and print it.",
+      "challenge": "Write a Python script that counts how many fingers are currently raised in a finger state list <code>[0, 1, 1, 0, 0]</code> (where 1 means raised), and prints the count.",
+      "starter_code": "# Count open fingers inside list:\nfingers = [0, 1, 1, 0, 0]\n\n# Count 1s in the list and print the count:",
+      "pills": [
+        {
+          "label": "Count raised fingers",
+          "code": "fingers = [0, 1, 1, 0, 0]\nraised_count = fingers.count(1)\nprint(\"Raised fingers:\", raised_count)"
+        },
+        {
+          "label": "Check property IDs",
+          "code": "print(\"Property Width ID: 3, Height ID: 4 successfully set!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Raised fingers: 2",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: Webcam Frame Capture!",
+        "desc": "Write a Python script that imports cv2, and prints: 'Frame loaded successfully!' if success = True.",
+        "code": "# Simulate frame read confirmation:"
+      }
+    },
+    {
+      "id": 12,
+      "badge_icon": "🎮",
+      "badge_title": "Game Master Medal",
+      "title": "Station 12: Rock-Paper-Scissors Game Logic 🎮",
+      "desc": "The grand finale! Program the countdown timer, check victory conditions, and build the ultimate scoreboard!",
+      "story": "<h3>🎯 Session Agenda:</h3><ul><li>Non-blocking game loops and state variables (startGame, stateResult)</li><li>Constructing countdown timers using cv2.putText()</li><li>Numeric choice mapping (Rock = 1, Paper = 2, Scissors = 3)</li><li>Decision logic rules: Player wins if (P=1, AI=3), (P=2, AI=1), or (P=3, AI=2)</li><li>Maintaining scoreboard score list trackers</li></ul><hr><h3>🎮 The Interactive Game Loop</h3>In this final stop, we merge everything into a unified game! We use state variables like <code>startGame</code> to trigger rounds and <code>stateResult</code> to track if the computer has decided a winner.<h3>⏳ Countdown overlays</h3>We draw a countdown timer (3, 2, 1) directly on the screen using <code>cv2.putText()</code>, which overlays custom BGR colored text strings at precise coordinates.<h3>⚖️ Victory Comparison Logic</h3>To calculate who wins each round, we map choices numerically (Rock = 1, Paper = 2, Scissors = 3). We apply logical conditions:<ul><li><b>Player Victory conditions:</b><br>1. Player has Rock (1) and AI has Scissors (3)<br>2. Player has Paper (2) and AI has Rock (1)<br>3. Player has Scissors (3) and AI has Paper (2)</li><li>If choices are equal, it's a tie round! Otherwise, the AI wins the round!</li></ul>",
+      "simple": "We code the game rules so the computer knows who smashes whom! Rock (1) beats Scissors (3), Paper (2) beats Rock (1), and Scissors (3) beats Paper (2). We draw these scores and numbers right on your camera feed using cv2.putText()!",
+      "hint": "Write a condition checking if player choice is 2 and AI choice is 1, and print: <code>Player wins! Paper covers Rock.</code>.",
+      "challenge": "Program the final victory check! Given <code>player = 2</code> (Paper) and <code>ai = 1</code> (Rock), write a conditional statement to check if the player won, and print the victory message.",
+      "starter_code": "# Program the Rock-Paper-Scissors comparison victory check:\nplayer = 2  # Paper\nai = 1      # Rock\n\n# Write conditions to check if player won, and print victory message:",
+      "pills": [
+        {
+          "label": "Run victory check",
+          "code": "player = 2\nai = 1\nif player == 2 and ai == 1:\n    print(\"Player wins! Paper covers Rock.\")"
+        },
+        {
+          "label": "Print tie condition",
+          "code": "player = 3\nai = 3\nif player == ai:\n    print(\"It is a tie! Both chose same move.\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Player wins! Paper covers Rock.",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "📝 Home Challenge: Ultimate Scoreboard!",
+        "desc": "Finalize your game logic! Write a script that tracks scores in a list: scores = [0, 0] (AI score at index 0, Player score at index 1). If player wins, increment player score and print: 'Scoreboard updated: [scores]'.",
+        "code": "# Track game scores and print updated scoreboard:"
       }
     }
   ]

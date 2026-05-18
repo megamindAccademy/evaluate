@@ -16,6 +16,18 @@
     },
     {
       "id": 2,
+      "question": "What is the best definition of an 'Algorithm' in computer science?",
+      "options": [
+        "A step-by-step procedure or set of rules to solve a problem",
+        "A physical hardware cable in the computer",
+        "A standard loop that never terminates",
+        "A computer screen graphics resolution"
+      ],
+      "correct": 0,
+      "explanation": "Correct! An algorithm is like a highly detailed recipe that the computer follows step-by-step to compute results."
+    },
+    {
+      "id": 3,
       "question": "In the K-NN (K-Nearest Neighbor) algorithm, how does the computer calculate the closeness between coordinate data points?",
       "options": [
         "Using Euclidean Distance (straight-line distance)",
@@ -27,35 +39,23 @@
       "explanation": "Correct! Euclidean Distance is the standard mathematical formula used to find the shortest straight line between points on a graph."
     },
     {
-      "id": 3,
-      "question": "Which OpenCV function is used to initialize the camera feed and capture live video from your default webcam?",
-      "options": [
-        "cv2.imread()",
-        "cv2.imshow()",
-        "cv2.VideoCapture(0)",
-        "cv2.waitKey()"
-      ],
-      "correct": 2,
-      "explanation": "Great! cv2.VideoCapture(0) targets your computer's primary webcam (index 0) and starts capturing live frames."
-    },
-    {
       "id": 4,
-      "question": "Which algorithm in OpenCV relies on light and dark contrast features (Haar-like features) to quickly detect faces in images?",
+      "question": "How does the K-NN (K-Nearest Neighbor) algorithm decide the classification category of a new, unknown data point?",
       "options": [
-        "K-NN Classifier",
-        "Haar Cascade",
-        "CNN pooling",
-        "Roboflow API"
+        "It takes a majority vote of the categories of its closest neighbors in the graphic space",
+        "It asks the user to select the category manually",
+        "It deletes other training points from the database",
+        "It selects a random category every time"
       ],
-      "correct": 1,
-      "explanation": "Awesome! Haar Cascade is a powerful, lightweight machine learning object detection algorithm used to detect facial structures."
+      "correct": 0,
+      "explanation": "Great! K-NN counts the categories of the 'K' nearest points, and assigns the majority vote category to the unknown point."
     },
     {
       "id": 5,
       "type": "task",
-      "question": "Simple Coding Task: Write a Python script to import the OpenCV library (cv2) and print its version using the double underscore version property.",
-      "task_hint": "Write: import cv2 then print(cv2.__version__)",
-      "explanation": "Perfect! Checking cv2.__version__ is a standard way to verify OpenCV is correctly installed and active in your Python environment."
+      "question": "Simple Coding Task: Write a Python statement to import the math library, and print the square root of 9 using math.sqrt().",
+      "task_hint": "Write: import math then print(math.sqrt(9))",
+      "explanation": "Perfect! Checking mathematical roots is the core foundation of calculating Euclidean geometric distances."
     },
     {
       "id": 6,
