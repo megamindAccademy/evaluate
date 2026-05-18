@@ -1,99 +1,99 @@
 {
   "course_id": "junior_python",
   "course_title": "Python Junior",
-  "course_subtitle": "مرحباً بك يا مبرمج المستقبل في رحلة الانتقال من البلوكات إلى الأكواد الحقيقية! هنا ستكتب أوامر بايثون لتحريك توبي، صنع بوت الحساب، ورسم المربعات. افتح المحطات واكتب أول سطر كود حقيقي!",
+  "course_subtitle": "Welcome, future programmer, to the journey of moving from blocks to real codes! Here you will write Python commands to animate Toby, create a calculation bot, and draw squares. Open the terminals and write your first real line of code!",
   "xp_total": 600,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
       "badge_icon": "📝",
-      "badge_title": "وسام الكود الأول (Syntax)",
-      "title": "المحطة 1: كتابة أول كود بايثون حقيقي",
-      "desc": "تعلم كيف تستبدل البلوكات وتكتب أمر الطباعة الأول (print) بلغة بايثون الحقيقية.",
-      "story": "أهلاً بك يا بطل المستقبل في عالم الأكواد الحقيقية! لقد كبرت الآن وأصبحت جاهزاً لكتابة الأوامر بنفسك بدلاً من سحب البلوكات. نستخدم الكلمة السحرية <code>print</code> لنجعل بايثون يتحدث.",
-      "simple": "زي لما بتكبر وتتنقل من القلم الرصاص للقلم الجاف! هنا بنسيب البلوكات ونبدأ نكتب كود حقيقي زي المبرمجين الكبار في الشركات العالمية!",
-      "hint": "اكتب في المحرر: <code>print(\"أنا مبرمج بايثون صغير وخارق\")</code> ثم اضغط تشغيل!",
-      "challenge": "قم بطباعة الجملة السحرية <code>أنا مبرمج بايثون صغير وخارق</code> لمحاكاة كتابة الكود.",
-      "starter_code": "# اكتب أول كود بايثون حقيقي هنا:\n",
+      "badge_title": "First Code Medal (Syntax)",
+      "title": "Station 1: Write your first real Python code",
+      "desc": "Learn how to replace blocks and write the first print command in real Python.",
+      "story": "Welcome, future champion, to the world of real codes! You are now grown up and ready to type commands yourself instead of pulling blocks. We use the magic word <code>print</code> to make Python talk.",
+      "simple": "Like when you grow up and move from pencil to pen! Here we put the blocks in place and start writing real code like great programmers in international companies!",
+      "hint": "Type in the editor: <code>print(\"I'm a super little Python programmer\")</code> and press Run!",
+      "challenge": "Print the magic sentence <code>I'm a super little Python programmer</code> to simulate writing code.",
+      "starter_code": "# Write your first real Python code here:",
       "pills": [
         {
-          "label": "طباعة أول كود",
-          "code": "print(\"أنا مبرمج بايثون صغير وخارق\")"
+          "label": "Print the first code",
+          "code": "print(\"I'm a super little Python programmer\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "أنا مبرمج بايثون صغير وخارق",
+        "required_output_text": "I'm a super junior Python programmer",
         "required_canvas": false
       }
     },
     {
       "id": 2,
       "badge_icon": "🚶",
-      "badge_title": "وسام محرك توبي (Animation)",
-      "title": "المحطة 2: تحريك الدب توبي بالأكواد",
-      "desc": "اكتب كود بايثون البرمجي لتجعل الدب توبي (Tobi) يتحرك 10 خطوات للأمام على المنصة!",
-      "story": "الدب توبي ينتظر أوامرك البرمجية! بدلاً من بلوك الحركة، نكتب السطر البرمجي <code>tobi.forward(10)</code> ليتحرك توبي للأمام بمهارة.",
-      "simple": "زي الريموت كنترول! بتكتب الأمر للروبوت توبي وهو بينفذه بالحرف الواحد ويمشي على المسرح قدامك!",
-      "hint": "اكتب <code>print(\"تحرك الدب توبي 10 خطوات للأمام\")</code>.",
-      "challenge": "قم بطباعة العبارة السحرية <code>تحرك الدب توبي 10 خطوات للأمام</code> لمحاكاة حركة الكائن.",
-      "starter_code": "# محاكاة تحريك الدب توبي بكود بايثون:\n",
+      "badge_title": "Wissam Toby Engine (Animation)",
+      "title": "Station 2: Animating Toby Bear with codes",
+      "desc": "Write a Python code to make Tobi the bear move 10 steps forward on the platform!",
+      "story": "Toby Bear is waiting for your programming commands! Instead of the movement block, we write the line <code>tobi.forward(10)</code> to make Tobi move forward skillfully.",
+      "simple": "Like a remote control! You write the command to the robot Toby, and he executes it word for word and walks on the stage in front of you!",
+      "hint": "Type <code>print(\"Toby Bear moved 10 steps forward\")</code>.",
+      "challenge": "Print the magic phrase <code>Toby Bear moves 10 steps forward</code> to simulate the sprite's movement.",
+      "starter_code": "# Simulate animating Toby Bear with Python code:",
       "pills": [
         {
-          "label": "تحريك الدب توبي",
-          "code": "print(\"تحرك الدب توبي 10 خطوات للأمام\")"
+          "label": "Move Toby Bear",
+          "code": "print(\"Toby Bear moved 10 steps forward\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تحرك الدب توبي 10 خطوات للأمام",
+        "required_output_text": "Toby Bear moved 10 steps forward",
         "required_canvas": false
       }
     },
     {
       "id": 3,
       "badge_icon": "🤖",
-      "badge_title": "وسام بوت الحساب (Addition Bot)",
-      "title": "المحطة 3: برمجة بوت الحساب الذكي",
-      "desc": "اصنع بوت حساب يطلب رقمين من المستخدم ويجمعهما في متغير (sum) ويطبع النتيجة فوراً!",
-      "story": "بايثون يعشق الرياضيات! نبرمج بوت الحساب ليخزن الرقم الأول والثاني في صناديق المتغيرات، ثم يجمعهما باستخدام علامة <code>+</code> ويطبع النتيجة.",
-      "simple": "زي الكاشير الآلي! بتديه الأسعار وهو بيجمعها في ثانية ويطلعلك الفاتورة النهائية مظبوطة 100%!",
-      "hint": "اكتب <code>total = 30 + 40</code> ثم <code>print(\"مجموع الرقمين هو:\", total)</code>.",
-      "challenge": "قم بإنشاء متغير `total = 30 + 40` واطبع العبارة `مجموع الرقمين هو: 70` على الشاشة.",
-      "starter_code": "# محاكاة بوت الحساب الذكي في بايثون:\n",
+      "badge_title": "Wissam Account Bot (Addition Bot)",
+      "title": "Station 3: Programming the smart calculation bot",
+      "desc": "Create a calculation bot that requests two numbers from the user, combines them into a variable (sum), and prints the result immediately!",
+      "story": "Python loves mathematics! We program the calculation bot to store the first and second numbers in variable bins, then combine them using the <code>+</code> tag and print the result.",
+      "simple": "Like an automated cashier! You give him the prices and he collects them in a second and gives you the final invoice that is 100% accurate!",
+      "hint": "Type <code>total = 30 + 40</code> and then <code>print(\"The sum of the two numbers is:\", total)</code>.",
+      "challenge": "Create a variable `total = 30 + 40` and print the statement `The sum of the two numbers is: 70` on the screen.",
+      "starter_code": "# Simulate an intelligent calculation bot in Python:",
       "pills": [
         {
-          "label": "حساب وطباعة المجموع",
-          "code": "total = 30 + 40\nprint(\"مجموع الرقمين هو:\", total)"
+          "label": "Calculate and print the total",
+          "code": "total = 30 + 40\nprint(\"The sum of the two numbers is:\", total)"
         }
       ],
       "validation_rules": {
-        "required_output_text": "مجموع الرقمين هو: 70",
+        "required_output_text": "The sum of the two numbers is: 70",
         "required_canvas": false
       }
     },
     {
       "id": 4,
       "badge_icon": "🔄",
-      "badge_title": "وسام فنان التكرار (For Loop)",
-      "title": "المحطة 4: رسم المربع بحلقة التكرار",
-      "desc": "استخدم حلقة التكرار (for loop) لتجعل بايثون يكرر أمر الحركة والالتفاف 4 مرات ليرسم مربعاً!",
-      "story": "المبرمج الذكي يوفر الأسطر! بدلاً من كتابة أمر الحركة 4 مرات لرسم المربع، نستخدم حلقة التكرار <code>for i in range(4):</code> لتقوم بالعمل بدلاً عنا.",
-      "simple": "زي العجلة الدوارة! بتلف 4 لفات وكل لفة ترسم ضلع لحد ما يكمل المربع الجميل!",
-      "hint": "اكتب <code>for i in range(4):</code> وتحتها بمسافة <code>print(\"رسم ضلع المربع\")</code>.",
-      "challenge": "استخدم حلقة التكرار لطباعة <code>رسم ضلع المربع</code> 4 مرات متتالية.",
-      "starter_code": "# محاكاة رسم المربع بحلقة التكرار for:\n",
+      "badge_title": "Repeat Artist Medal (For Loop)",
+      "title": "Station 4: Draw the box with the loop",
+      "desc": "Use a for loop to make Python repeat the move and wrap command 4 times to draw a square!",
+      "story": "The smart programmer saves the lines! Instead of typing the motion command 4 times to draw the box, we use the <code>for i in range(4):</code> loop to do the work for us.",
+      "simple": "Like a ferris wheel! You wind 4 turns and each roll draws an edge until it completes the beautiful square!",
+      "hint": "Type <code>for i in range(4):</code> and below it with a space <code>print(\"Draw the side of the square\")</code>.",
+      "challenge": "Use the loop to print <code>square side plot</code> 4 times in a row.",
+      "starter_code": "# Simulate drawing a box with a for loop:",
       "pills": [
         {
-          "label": "حلقة رسم المربع",
-          "code": "for i in range(4):\n    print(\"رسم ضلع المربع\")"
+          "label": "Square drawing ring",
+          "code": "for i in range(4):\n    print(\"Draw the side of the square\")"
         }
       ],
       "validation_rules": {
         "required_keywords": [
-          "رسم ضلع المربع",
-          "رسم ضلع المربع",
-          "رسم ضلع المربع",
-          "رسم ضلع المربع"
+          "Draw a side of a square",
+          "Draw a side of a square",
+          "Draw a side of a square",
+          "Draw a side of a square"
         ],
         "required_canvas": false
       }
@@ -101,44 +101,44 @@
     {
       "id": 5,
       "badge_icon": "🍎",
-      "badge_title": "وسام صائد التفاح (Apple Game)",
-      "title": "المحطة 5: لعبة صيد التفاح بالأكواد",
-      "desc": "برمج لعبة صيد التفاح المتساقط باستخدام أوامر بايثون واجعل متغير النقاط يزداد بمهارة!",
-      "story": "برمجة الألعاب تصبح أكثر إثارة بالأكواد! نبرمج التفاحة لتسقط لأسفل (تغيير Y)، ونبرمج السلة لتتحرك يميناً ويساراً، وعند التلامس نزيد النقاط.",
-      "simple": "زي ألعاب الأتاري الشهيرة! بتحرك السبت تحت التفاح اللي بيقع وتجمع أكبر عدد من النقاط!",
-      "hint": "اكتب <code>print(\"تم صيد التفاحة وزيادة النقاط البرمجية\")</code>.",
-      "challenge": "قم بطباعة الجملة السحرية <code>تم صيد التفاحة وزيادة النقاط البرمجية</code> لمحاكاة اللعبة.",
-      "starter_code": "# محاكاة لعبة صيد التفاح في بايثون:\n",
+      "badge_title": "Apple Hunter Medal (Apple Game)",
+      "title": "Station 5: Apple hunting game with codes",
+      "desc": "Program a falling apple catch game using Python commands and make the score variable subtly increment!",
+      "story": "Game programming becomes more exciting with codes! We program the apple to fall down (change Y), and we program the basket to move left and right, and upon contact we increase the points.",
+      "simple": "Like the famous Atari games! You move on Saturday under the apple that falls and collect the most points!",
+      "hint": "Type <code>print(\"The apple is caught and code points are increased\")</code>.",
+      "challenge": "Print the magic sentence <code>The apple was caught and code points increased</code> to simulate the game.",
+      "starter_code": "# Apple hunting game simulation in Python:",
       "pills": [
         {
-          "label": "صيد التفاحة",
-          "code": "print(\"تم صيد التفاحة وزيادة النقاط البرمجية\")"
+          "label": "Apple hunting",
+          "code": "print(\"The apple was caught and the code points increased\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم صيد التفاحة وزيادة النقاط البرمجية",
+        "required_output_text": "The apple was caught and the code points increased",
         "required_canvas": false
       }
     },
     {
       "id": 6,
       "badge_icon": "🏎️",
-      "badge_title": "وسام بطل السباق (Street Racing)",
-      "title": "المحطة 6: لعبة سباق السيارات الكبرى",
-      "desc": "المحطة الختامية الكبرى! برمجة لعبة سباق سيارات الشوارع وتفادي الحواجز باستخدام لغة بايثون الحقيقية!",
-      "story": "المحطة الختامية الكبرى في بايثون للصغار! سنقوم ببرمجة لعبة سباق السيارات. نتحكم في سيارة البطل بالأسهم، ونولد سيارات وحواجز عشوائية في الطريق، ومن يتجاوزها يفوز بالكأس!",
-      "simple": "زي ألعاب سباق العربيات في الملاهي! بتسوق وتتفادى العربيات التانية اللي جاية في وشك عشان توصل لخط النهاية وتكسب السباق!",
-      "hint": "اكتب <code>print(\"تم تشغيل لعبة سباق السيارات الكبرى وفوز البطل الصغير!\")</code>.",
-      "challenge": "قم بطباعة العبارة الختامية <code>تم تشغيل لعبة سباق السيارات الكبرى وفوز البطل الصغير!</code> للاحتفال بإنجاز أول لعبة بايثون كاملة لك!",
-      "starter_code": "# محاكاة تشغيل لعبة سباق السيارات الختامية:\n",
+      "badge_title": "Street Racing Champion Medal",
+      "title": "Stop 6: Grand Prix Race Game",
+      "desc": "The grand final stop! Programming a street car racing and obstacle avoidance game using the real Python language!",
+      "story": "The big final stop in Python for little ones! We will program a car racing game. We control the hero's car with arrows, generate random cars and barriers on the road, and whoever passes them wins the trophy!",
+      "simple": "Like car racing games in amusement parks! You drive and avoid other cars coming your way in order to reach the finish line and win the race!",
+      "hint": "Type <code>print(\"The grand car racing game has been played and the little hero has won!\")</code>.",
+      "challenge": "Print the closing statement <code>The grand car racing game has been played and the little hero has won!</code> to celebrate the completion of your first full Python game!",
+      "starter_code": "# Car racing game running simulation conclusion:",
       "pills": [
         {
-          "label": "تشغيل سباق السيارات",
-          "code": "print(\"تم تشغيل لعبة سباق السيارات الكبرى وفوز البطل الصغير!\")"
+          "label": "Run car race",
+          "code": "print(\"The grand car racing game has been played and the little hero has won!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم تشغيل لعبة سباق السيارات الكبرى وفوز البطل الصغير!",
+        "required_output_text": "The grand car racing game is on and the little hero wins!",
         "required_canvas": false
       }
     }

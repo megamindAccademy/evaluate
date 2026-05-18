@@ -1,25 +1,30 @@
 {
   "course_id": "python",
-  "course_title": "بايثون للمبتدئين 🐍",
+  "course_title": "Python for beginners 🐍",
   "aids": [
     {
       "id": "py_var_box",
-      "title": "📦 لعبة صندوق المتغيرات السحري (Variables)",
-      "desc": "لعبة تفاعلية تشرح للأطفال كيف يخزن المتغير قيمة واحدة في الذاكرة وكيف تتغير القيمة عند إدخال قيمة جديدة. اسحب القيم وضعها في الصندوق لتجربة التخصيص (x = 5).",
+      "title": "📦 Magic Variables Box game",
+      "desc": "An interactive game that explains to children how a variable stores a single value in memory and how the value changes when a new value is entered. Drag the values ​​and place them in the box to experiment with the customization (x = 5).",
       "type": "variable_box",
-      "init_val": "فارغ",
-      "options": ["الرقم 5 🔢", "كلمة 'ميجامايندز' 💬", "بطة سحرية 🦆", "الرقم 100 💯"]
+      "init_val": "empty",
+      "options": [
+        "Number 5 🔢",
+        "The word 'Megaminds' 💬",
+        "Magic duck 🦆",
+        "The number is 100 💯"
+      ]
     },
     {
       "id": "py_traffic_light",
-      "title": "🚦 لعبة إشارة المرور الشرطية (If/Else)",
-      "desc": "محاكاة ممتعة لشرح الجمل الشرطية؛ تحكم في إشارة المرور لتوضيح متى تتوقف السيارة (if red: stop) ومتى تنطلق (else: go) مع أصوات تفاعلية.",
+      "title": "🚦 Traffic light police game (If/Else)",
+      "desc": "Fun simulation for explaining conditional sentences; Control the traffic light to show when the car stops (if red: stop) and when to go (else: go) with interactive sounds.",
       "type": "traffic_light"
     },
     {
       "id": "py_loop_factory",
-      "title": "🔄 مصنع التكرار والتغليف (For/While Loops)",
-      "desc": "شغّل الروبوت ليقوم بتغليف 5 هدايا متتالية باستخدام حلقة التكرار (for i in range(5)) لمشاهدة العداد التفاعلي خطوة بخطوة.",
+      "title": "🔄 Looping and wrapping factory (For/While Loops)",
+      "desc": "Trigger the robot to wrap 5 gifts in a row using the loop (for i in range(5)) to see the interactive timer step by step.",
       "type": "loop_factory"
     }
   ]

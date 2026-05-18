@@ -1,15 +1,15 @@
 {
   "course": "Python Problem-Solving",
   "recap_title": "🎯 Quick & Visual Recap: Python Problem-Solving",
-  "recap_subtitle": "مرحباً بك يا بطل! هذه مراجعة سريعة ومدعمة بالأمثلة البرمجية والأشكال التوضيحية لكل جلسة تعلمتها في الكورس لمساعدتك على استذكار المفاهيم بكل سهولة ومتعة والاستعداد للاختبار الخارق! 🚀🌟",
+  "recap_subtitle": "Welcome, hero! This is a quick review supported by programming examples and illustrations for each session you learned in the course to help you remember the concepts with ease and fun and prepare for the super exam! 🚀🌟",
   "sessions": [
     {
       "session_num": 1,
       "session_title": "Session 1: Turtle Geometry & Maze Navigation",
       "points": [
         {
-          "title": "مكتبة الرسم بالبايثون (Turtle)",
-          "desc": "مكتبة رسومية ممتازة في بايثون لتمثيل الإحداثيات وحركة الكائنات البرمجية ورسم الأشكال الهندسية.",
+          "title": "Python drawing library (Turtle)",
+          "desc": "An excellent graphical library in Python for representing coordinates, movement of software objects, and drawing geometric shapes.",
           "icon": "🐢",
           "blocksArray": [
             "import turtle",
@@ -19,11 +19,11 @@
           ]
         },
         {
-          "title": "رسم المتاهات والتحرك الحر",
-          "desc": "برمجة السلحفاة للتحرك للأمام والخلف والدوران بزوايا قائمة لرسم متاهات هندسية دقيقة وعالية الجمال.",
+          "title": "Draw mazes and move freely",
+          "desc": "Programming the turtle to move forward, backward, and rotate at right angles to draw beautiful, precise geometric mazes.",
           "icon": "🎮",
           "code": "import turtle\nt = turtle.Turtle()\nt.forward(100)\nt.left(90)\nt.forward(50)",
-          "example": "رسم متاهة ثنائية الأبعاد بحركة السلحفاة خطوة بخطوة."
+          "example": "Drawing a 2D maze with turtle action step by step."
         }
       ]
     },
@@ -32,8 +32,8 @@
       "session_title": "Session 2: Variables & Interactive Inputs",
       "points": [
         {
-          "title": "حجز المتغيرات والمدخلات التفاعلية",
-          "desc": "استخدام دالة input لاستقبال نصوص وأرقام من المستخدم وتخزينها في متغيرات برمجية مجهزة.",
+          "title": "Reserve variables and interactive inputs",
+          "desc": "Using the input function to receive texts and numbers from the user and store them in prepared software variables.",
           "icon": "📟",
           "blocksArray": [
             "input()",
@@ -43,11 +43,11 @@
           ]
         },
         {
-          "title": "حساب المسافات وضرب القيم",
-          "desc": "تمرير المدخلات الرقمية التي يكتبها المستخدم لتوجيه حركة السلحفاة ديناميكياً على الشاشة.",
+          "title": "Calculate distances and multiply values",
+          "desc": "Passing digital inputs typed by the user to dynamically direct the turtle's movement on the screen.",
           "icon": "🧮",
-          "code": "steps = int(input(\"أدخل عدد خطوات السلحفاة: \"))\nt.forward(steps)",
-          "example": "تطبيق يسأل المستخدم عن طول ضلع المربع ويقوم برسمه فوراً."
+          "code": "steps = int(input(\"Enter the number of steps of the turtle: \"))\nt.forward(steps)",
+          "example": "An application that asks the user about the side length of a square and draws it immediately."
         }
       ]
     },
@@ -56,8 +56,8 @@
       "session_title": "Session 3: String Operations & Advanced Shapes",
       "points": [
         {
-          "title": "معالجة السلاسل النصية (Strings)",
-          "desc": "دمج النصوص وتغيير حالتها البرمجية لترتيب وعرض رسائل الترحيب والمخرجات بذكاء.",
+          "title": "Manipulating text strings",
+          "desc": "Merge texts and change their code state to intelligently arrange and display welcome messages and outputs.",
           "icon": "🔤",
           "blocksArray": [
             "String Concatenation",
@@ -67,11 +67,11 @@
           ]
         },
         {
-          "title": "رسم أشكال هندسية مركبة ومعقدة",
-          "desc": "رسم نجوم ومضلعات معقدة بزوايا متفاوتة وتلوينها بناءً على اختيارات المستخدم النصية المفضلة.",
+          "title": "Drawing complex geometric shapes",
+          "desc": "Draw complex stars and polygons at varying angles and color them based on the user's preferred text choices.",
           "icon": "✨",
-          "code": "color = input(\"اختر لون السلحفاة (red, blue): \").strip().lower()\nt.color(color)",
-          "example": "كتابة اسم الطالب مدمجاً بعبارات ترحيبية ملونة على لوحة الرسم."
+          "code": "color = input(\"Choose the color of the turtle (red, blue): \").strip().lower()\nt.color(color)",
+          "example": "Writing the student's name combined with colorful welcome phrases on the drawing board."
         }
       ]
     },
@@ -80,8 +80,8 @@
       "session_title": "Session 4: Conditional Logic & Branching",
       "points": [
         {
-          "title": "الشروط المنطقية واتخاذ القرار (If-Else)",
-          "desc": "توجيه البرنامج لتنفيذ أكواد مخصصة فقط عند مطابقة شروط معينة باستخدام الكلمات المحجوزة if و else.",
+          "title": "Logical conditions and decision making (If-Else)",
+          "desc": "Instructing the program to execute custom code only when certain conditions are matched using reserved words if and else.",
           "icon": "🚦",
           "blocksArray": [
             "if condition:",
@@ -90,11 +90,11 @@
           ]
         },
         {
-          "title": "برمجة شروط اتجاه حركة السلحفاة",
-          "desc": "التحقق من اختيار اتجاه السير (أمام، يسار) وتعديل الحركة والزوايا بناءً على جودة وسلامة الشرط.",
+          "title": "Programming the conditions for the direction of the turtle's movement",
+          "desc": "Verifying the choice of travel direction (forward, left) and adjusting movement and angles based on the quality and safety of the condition.",
           "icon": "🔄",
-          "code": "direction = input(\"إلى أين تتجه؟ (left/right): \")\nif direction == \"left\":\n    t.left(90)\nelse:\n    t.right(90)",
-          "example": "تطبيق يفحص درجة حرارة الجو وينصحك بارتداء ملابس ثقيلة."
+          "code": "direction = input(\"Where are you heading? (left/right):\")\nif direction == \"left\":\n    t.left(90)\nelse:\n    t.right(90)",
+          "example": "An application that checks the air temperature and advises you to wear heavy clothes."
         }
       ]
     },
@@ -103,8 +103,8 @@
       "session_title": "Session 5: Iteration & Geometric Polygons (Traffic Controller)",
       "points": [
         {
-          "title": "حلقات التكرار (For Loops)",
-          "desc": "تكرار تنفيذ الأكواد لعدد محدد من المرات باستخدام for ومجال الأرقام range لتسريع المهام البرمجية.",
+          "title": "For Loops",
+          "desc": "Repeating code execution a specified number of times using for and range to speed up programming tasks.",
           "icon": "🔄",
           "blocksArray": [
             "for i in range(n):",
@@ -113,11 +113,11 @@
           ]
         },
         {
-          "title": "رسم المضلعات ونظام إشارة المرور",
-          "desc": "رسم أشكال هندسية منتظمة (مثل المربع والسداسي) وتطبيق برمجي لمحاكاة نظام إشارة المرور الذكي.",
+          "title": "Drawing polygons and traffic light system",
+          "desc": "Drawing regular geometric shapes (such as square and hexagon) and applying software to simulate an intelligent traffic light system.",
           "icon": "🚥",
           "code": "for i in range(4):\n    t.forward(100)\n    t.left(90)",
-          "example": "تطبيق محاكاة إشارة المرور (أحمر قف، أصفر استعد، أخضر انطلق) بالبايثون."
+          "example": "Traffic light simulation application (red stop, yellow standby, green go) in Python."
         }
       ]
     },
@@ -126,8 +126,8 @@
       "session_title": "Session 6: Parallel Loops & Simulations (Turtle Race)",
       "points": [
         {
-          "title": "المصفوفات والتكرار المتوازي",
-          "desc": "المرور والتنقل عبر قوائم البيانات المتوازية لحساب المعدلات ومجموع النقاط للطلاب بصيغة آلية.",
+          "title": "Arrays and parallel iteration",
+          "desc": "Passing and navigating through parallel data lists to calculate grades and total points for students in an automated format.",
           "icon": "📊",
           "blocksArray": [
             "Parallel list iteration",
@@ -136,11 +136,11 @@
           ]
         },
         {
-          "title": "لعبة سباق السلاحف السريع (Turtle Race)",
-          "desc": "محاكاة سباق ثلاث سلاسل ملونة تتحرك بمسافات عشوائية وحساب السلحفاة الفائزة وعرض إعلان فوزها.",
+          "title": "Turtle Race game",
+          "desc": "Simulating a race of three colored strings moving at random distances, calculating the winning turtle and displaying an announcement of its victory.",
           "icon": "🏁",
           "code": "import random\ndistances = [random.randint(50, 150) for _ in range(3)]\nwinner = distances.index(max(distances))",
-          "example": "سباق سلاسل ملونة (أحمر، أزرق، أخضر) يفوز فيه عشوائي لحساب الاحتمالات."
+          "example": "A race of colored strings (red, blue, green) with a random win to calculate the odds."
         }
       ]
     },
@@ -149,8 +149,8 @@
       "session_title": "Session 7: Key-Value Dictionaries (Smart Quiz App)",
       "points": [
         {
-          "title": "القواميس البرمجية (Dictionaries)",
-          "desc": "بنية بيانات متقدمة لحفظ السجلات وتخزين القيم باستخدام مفاتيح مميزة بدلاً من الفهارس الرقمية.",
+          "title": "Dictionaries",
+          "desc": "An advanced data structure for keeping records and storing values ​​using distinct keys instead of numeric indexes.",
           "icon": "📖",
           "blocksArray": [
             "my_dict = {}",
@@ -159,11 +159,11 @@
           ]
         },
         {
-          "title": "تطبيق بنك الأسئلة والمسابقات الذكي",
-          "desc": "استخدام القواميس لتخزين الأسئلة وإجاباتها النموذجية والتحقق من إجابات الطلاب مع حساب مجموع درجاتهم.",
+          "title": "Smart question bank and competitions application",
+          "desc": "Use dictionaries to store questions and their model answers and check students' answers while calculating their total score.",
           "icon": "🏆",
-          "code": "question = {\"q\": \"ما هي عاصمة مصر؟\", \"a\": \"القاهرة\"}\nanswer = input(question[\"q\"])\nif answer == question[\"a\"]:\n    print(\"إجابة صحيحة! 🎉\")",
-          "example": "تطبيق شاشة لوحة تحكم الطالب لحفظ معلوماته وعمره وموضوعه المفضل."
+          "code": "question = {\"q\": \"What is the capital of Egypt?\", \"a\": \"Cairo\"}\nanswer = input(question[\"q\"])\nif answer == question[\"a\"]:\n    print(\"Correct answer! 🎉\")",
+          "example": "Student control panel screen application to save his information, age, and favorite subject."
         }
       ]
     },
@@ -172,21 +172,21 @@
       "session_title": "Session 8: Advanced Algorithms - Recursion (Factorial & Spiral)",
       "points": [
         {
-          "title": "الخوارزميات التكرارية (Recursion)",
-          "desc": "تقنية ذكية ومتقدمة تقوم فيها الدالة البرمجية باستدعاء نفسها لحل مشكلات معقدة وصعبة خطوة بخطوة.",
+          "title": "Recursion algorithms",
+          "desc": "An intelligent and advanced technology in which the software function calls itself to solve complex and difficult problems step by step.",
           "icon": "🌀",
           "blocksArray": [
-            "Base Case (شرط التوقف)",
+            "Base Case",
             "Recursive Call",
             "Stack Overflow prevention"
           ]
         },
         {
-          "title": "رسم الحلزونات وحساب المضروب (Factorial)",
-          "desc": "رسم حلزون هندسي رائع أو حساب مضروب الأعداد (مثل مضروب 5 = 120)، وبرمجة محاكاة روبوت تنظيف الغرف.",
+          "title": "Drawing spirals and calculating the factorial (Factorial)",
+          "desc": "Draw a cool geometric spiral, calculate the factorial of numbers (such as 5 factorial = 120), and program a simulation of a housekeeping robot.",
           "icon": "🧹",
           "code": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n - 1)",
-          "example": "رسم حلزوني هندسي رائع يتناقص حجمه تلقائياً حتى شرط التوقف صفر."
+          "example": "A wonderful geometric spiral drawing that automatically decreases in size until the stopping condition is zero."
         }
       ]
     },
@@ -195,8 +195,8 @@
       "session_title": "Session 9: Debugging Workshop & Code Refactoring",
       "points": [
         {
-          "title": "اكتشاف وإصلاح الأخطاء البرمجية (Debugging)",
-          "desc": "تنمية تفكير المطور المحترف بالتدريب على رصد الأخطاء الإملائية والمنطقية وإصلاح المسافات البادئة وعلامات الترقيم.",
+          "title": "Debugging",
+          "desc": "Developing the thinking of a professional developer through training in spotting spelling and logical errors and correcting indentations and punctuation marks.",
           "icon": "🛡️",
           "blocksArray": [
             "SyntaxError",
@@ -206,11 +206,11 @@
           ]
         },
         {
-          "title": "تصحيح المقارنات والرموز المفقودة",
-          "desc": "تصحيح كتابة المكتبات، وضع الفواصل والنقطتان الرأسيتان المفقودتان، والتحقق من تحويل المدخلات لنوعها الرقمي.",
+          "title": "Correct missing comparisons and symbols",
+          "desc": "Corrected library typing, inserted missing commas and colons, and checked input conversion to numeric type.",
           "icon": "🧹",
-          "code": "# خطأ شائع: age = input() ; if age > 10:\n# التصحيح المعتمد:\nage = int(input(\"أدخل عمرك: \"))\nif age > 10:\n    print(\"أنت أكبر من 10 سنوات!\")",
-          "example": "إصلاح سكربت رسم هندسي معطل وإعادة تشغيله بنجاح باهر."
+          "code": "#Common error: age = input() ; if age > 10:\n# Approved correction:\nage = int(input(\"Enter your age: \"))\nif age > 10:\n    print(\"You are over 10 years old!\")",
+          "example": "Fixed a broken engineering drawing script and restarted it with great success."
         }
       ]
     },
@@ -219,8 +219,8 @@
       "session_title": "Session 10: Dynamic Lists & Data Structures",
       "points": [
         {
-          "title": "إدارة القوائم الديناميكية (Lists)",
-          "desc": "استخدام دوال الإضافة والحذف والتعديل المتقدمة لإدارة قوائم المشتريات والمهام للطلاب بكفاءة وسلاسة.",
+          "title": "Managing dynamic lists",
+          "desc": "Use advanced add, delete, and edit functions to manage student shopping lists and tasks efficiently and seamlessly.",
           "icon": "📋",
           "blocksArray": [
             "list.append()",
@@ -230,11 +230,11 @@
           ]
         },
         {
-          "title": "ترتيب وتصفية البيانات البرمجية",
-          "desc": "إضافة عناصر جديدة إلى المصفوفة، فرزها أبجدياً أو رقمياً، وحذف السجلات المكتملة بنقرة تفاعلية.",
+          "title": "Arranging and filtering software data",
+          "desc": "Add new items to the array, sort them alphabetically or numerically, and delete completed records with an interactive click.",
           "icon": "⚡",
-          "code": "fruits = [\"تفاح\", \"موز\"]\nfruits.append(\"مانجو\")\nfruits.sort()\nprint(fruits)",
-          "example": "تطبيق إدارة قائمة المشتريات التفاعلي مع ترتيب الأسعار تلقائياً."
+          "code": "fruits = [\"apple\", \"banana\"]\nfruits.append(\"Mango\")\nfruits.sort()\nprint(fruits)",
+          "example": "Interactive shopping list management app with automatic price ordering."
         }
       ]
     },
@@ -243,8 +243,8 @@
       "session_title": "Session 11: Validation & Exception Handling",
       "points": [
         {
-          "title": "تأكيد سلامة البيانات ومعالجة الاستثناءات",
-          "desc": "حماية البرنامج من الانهيار المفاجئ عند إدخال نصوص بدلاً من أرقام باستخدام كتل try و except الفعالة.",
+          "title": "Ensure data integrity and handle exceptions",
+          "desc": "Protect the program from sudden crash when entering text instead of numbers using efficient try and except blocks.",
           "icon": "🛑",
           "blocksArray": [
             "try:",
@@ -254,11 +254,11 @@
           ]
         },
         {
-          "title": "التحقق من إدخال الأعداد الصحيحة",
-          "desc": "إجبار المستخدم على إدخال أعداد صحيحة وموجبة ومعاودة السؤال حتى تكون البيانات المدخلة مطابقة 100%.",
+          "title": "Verify that integers are entered",
+          "desc": "Forcing the user to enter integer and positive numbers and repeat the question until the entered data matches 100%.",
           "icon": "⚠️",
-          "code": "while True:\n    try:\n        num = int(input(\"أدخل رقم إيجابي: \"))\n        if num > 0: break\n    except ValueError:\n        print(\"من فضلك اكتب أرقام فقط!\")",
-          "example": "تأمين مربع استقبال عمر المريض لضمان جودة وتناسق بيانات السجلات."
+          "code": "while True:\n    try:\n        num = int(input(\"Enter positive number: \"))\n        if num > 0: break\n    exceptValueError:\n        print(\"Please type only numbers!\")",
+          "example": "Secure the patient age receiving box to ensure the quality and consistency of record data."
         }
       ]
     },
@@ -267,8 +267,8 @@
       "session_title": "Session 12: Capstone Project - Attendance & Report System",
       "points": [
         {
-          "title": "المشروع التتويجي الخارق: نظام رصد الغياب والحضور",
-          "desc": "تجميع كل المفاهيم لبناء تطبيق متكامل يسأل عن عدد الطلاب، يؤمن صحة المدخلات، ويقوم برصد حضور وغياب الطلاب ديناميكياً.",
+          "title": "Super Capstone Project: Absence and Attendance Monitoring System",
+          "desc": "Collecting all the concepts to build an integrated application that asks about the number of students, ensures the validity of the inputs, and monitors the attendance and absence of students dynamically.",
           "icon": "🎓",
           "blocksArray": [
             "Datetime formatting",
@@ -278,11 +278,11 @@
           ]
         },
         {
-          "title": "حفظ تقارير الحضور في ملفات نصية حقيقية",
-          "desc": "كتابة ملخص رصد الغياب وحسابه ونسبة الحضور وتخزين التقرير في ملف نصي خارجي باسم اليوم المحدث.",
+          "title": "Save attendance reports in real text files",
+          "desc": "Writing a summary of monitoring absence, calculating it and the attendance rate, and storing the report in an external text file with the name of the updated day.",
           "icon": "💾",
-          "code": "import datetime\nwith open(f\"attendance_{datetime.date.today()}.txt\", \"w\", encoding=\"utf-8\") as file:\n    file.write(\"تقرير الحضور والغياب ليوم: \" + str(datetime.date.today()))",
-          "example": "تصدير وحفظ ملف نصي حقيقي يحتوي على تقارير حضور الفصل الدراسي بأكمله!"
+          "code": "import datetime\nwith open(f\"attendance_{datetime.date.today()}.txt\", \"w\", encoding=\"utf-8\") as file:\n    file.write(\"Attendance and absence report for the day: \" + str(datetime.date.today()))",
+          "example": "Export and save a real text file containing attendance reports for the entire semester!"
         }
       ]
     }

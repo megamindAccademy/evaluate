@@ -1,59 +1,59 @@
 {
   "course_id": "senior_python",
-  "course_title": "جزيرة بايثون السحرية (Python Island)",
-  "course_subtitle": "مرحباً بك في أمتع رحلة لتعلم لغة بايثون! هنا لن تقرأ فقط، بل ستعيش المغامرة وتكتب الأكواد السحرية بنفسك وتشاهد نتيجتها فوراً. افتح المحطات، اجمع الأوسمة، واصنع ألعابك ورسوماتك الخاصة لتصبح مبرمجاً خارقاً!",
+  "course_title": "Magical Python Island",
+  "course_subtitle": "Welcome to the most enjoyable journey to learn the Python language! Here you will not only read, but you will live the adventure and write the magic codes yourself and see the results immediately. Unlock stations, collect badges, create your own games and drawings and become a super programmer!",
   "xp_total": 1200,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
       "badge_icon": "📦",
-      "badge_title": "وسام الصندوق السحري (المتغيرات)",
-      "title": "المحطة 1: مقدمة البايثون ودالة print والمتغيرات 🧱",
-      "desc": "اكتشف تاريخ لغة بايثون الرائعة، وتعلم دالة الطباعة وقواعد تسمية المتغيرات كالمحترفين!",
-      "story": "مرحباً بك يا بطل المستقبل في جزيرة بايثون السحرية! 🐍 لغة بايثون هي لغة برمجة قوية وسهلة الفهم للغاية، وتستخدم في مجالات مذهلة مثل الذكاء الاصطناعي، وتطوير الألعاب، وحماية الأنظمة! اليوم سنتعلم دالة الطباعة <code>print()</code> لعرض النصوص على الشاشة، وكيفية تخزين البيانات داخل صناديق سحرية نسميها المتغيرات (Variables)!<br><br><b>💡 قواعد تسمية الصناديق البرمجية (Variables):</b><br>1. يجب أن يبدأ الاسم بحرف فقط (مثل name1 وليس 1name).<br>2. لا نستخدم كلمات برمجية محجوزة (مثل int, if, for, print).<br>3. استخدام أسماء معبرة ومفهومة (مثل length وليس x).<br>4. طريقة سنام الجمل Camel Case (مثل firstName) أو Pascal Case (مثل FirstName).<br>5. بايثون حساس جداً لحالة الأحرف (name تختلف تماماً عن Name)!<br>6. نربط المتغير بالنصوص باستخدام علامة الجمع (+).",
-      "simple": "دالة الطباعة <code>print()</code> هي مكبر الصوت الخاص ببايثون! أي نص تضعه بين قوسين وعلامات تنصيص <code>\" \"</code> سيقوم بايثون بمناداته بصوت عالٍ على الشاشة! والمتغير هو صندوق تكتب عليه اسماً وتضع بداخله قيمة لتستعملها لاحقاً.",
-      "hint": "اكتب السطر السحري التالي في المحرر: <code>print(\"مرحباً بك في أكاديمية ميجامايندز! 🚀\")</code> ثم اضغط تشغيل!",
-      "challenge": "قم بكتابة برنامج بلغة بايثون يستخدم دالة print() لطباعة الجملة السحرية التالية: <code>مرحباً بك في أكاديمية ميجامايندز! 🚀</code> لتكسب 100 نقطة طاقة وتفتح المحطة التالية!",
-      "starter_code": "# اكتب دالة الطباعة هنا يا بطل لطباعة الترحيب:\n",
+      "badge_title": "Magic Chest Medal (variants)",
+      "title": "Station 1: Introduction to Python, the print function, and variables 🧱",
+      "desc": "Discover the fascinating history of Python, and learn the print function and variable naming rules like a pro!",
+      "story": "Welcome, future hero, to the magical island of Python! 🐍 Python is a powerful and very easy to understand programming language, used in amazing fields like artificial intelligence, game development, and system protection! Today we will learn the <code>print()</code> function to display texts on the screen, and how to store data inside magic boxes that we call Variables!<br><br><b>💡 Rules for naming code boxes (Variables):</b><br>1. The name must begin with a letter only (eg name1, not 1name).<br>2. We do not use reserved words (such as int, if, for, print).<br>3. Use expressive and understandable names (such as length, not x).<br>4. Camel Case (such as firstName) or Pascal Case (such as FirstName).<br>5. Python is very case sensitive (name is completely different from Name)!<br>6. We connect the variable to the strings using the plus sign (+).",
+      "simple": "The <code>print()</code> function is Python's speaker! Any text you enclose in brackets and quotation marks <code>\" \"</code> will be called out loud by Python on the screen! A variable is a box in which you write a name and place a value inside it to use later.",
+      "hint": "Type the following magic line in the editor: <code>print(\"Welcome to Megaminds Academy! 🚀\")</code> and press Run!",
+      "challenge": "Write a Python program that uses the print() function to print the following magic statement: <code>Welcome to Megaminds Academy! 🚀</code>To earn 100 energy points and unlock the next station!",
+      "starter_code": "# Write the print function here, hero, to print the greeting:",
       "pills": [
         {
-          "label": "طباعة عبارة الترحيب",
-          "code": "print(\"مرحباً بك في أكاديمية ميجامايندز! 🚀\")"
+          "label": "Print the welcome message",
+          "code": "print(\"Welcome to Megaminds Academy! 🚀\")"
         },
         {
-          "label": "تعريف متغير وطباعته",
-          "code": "hero_name = \"سوبر بايثون\"\nprint(\"البطل: \" + hero_name)"
+          "label": "Define a variable and print it",
+          "code": "hero_name = \"Super Python\"\nprint(\"Hero: \" + hero_name)"
         }
       ],
       "validation_rules": {
-        "required_output_text": "مرحباً بك في أكاديمية ميجامايندز! 🚀",
+        "required_output_text": "Welcome to Megaminds Academy! 🚀",
         "required_canvas": false
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 1)",
-        "desc": "1. قم بكتابة برنامج بلغة بايثون يستخدم دالة print() لطباعة جملة قصيرة ومفيدة مكونة من 3 كلمات.<br>2. قم بإنشاء متغير (Variable) باسم message، وعين له القيمة النصية \"hello world\"، ثم قم بطباعة هذا المتغير على الشاشة لتتأكد من عمله!",
-        "code": "# 1. اكتب دالة الطباعة هنا لجملة من 3 كلمات\nprint(\"...\")\n\n# 2. أنشئ المتغير واطبعه هنا\nmessage = \"hello world\"\nprint(...)"
+        "title": "📝 Magic Home Challenge (Homework - Session 1)",
+        "desc": "1. Write a program in Python that uses the print() function to print a short, useful sentence consisting of 3 words.<br>2. Create a Variable named message, assign it the text value “hello world,” then print this variable on the screen to make sure it works!",
+        "code": "#1. Write the print function here for a 3-word sentence\nprint(\"...\")\n\n#2. Create the variable and print it here\nmessage = \"hello world\"\nprint(...)"
       }
     },
     {
       "id": 2,
       "badge_icon": "🧪",
-      "badge_title": "وسام كاشف البيانات والمدخلات (Data Types)",
-      "title": "المحطة 2: أنواع البيانات ودالة المدخلات والقوائم 🧪",
-      "desc": "تعلم أنواع البيانات البرمجية، واستقبل مدخلات المستخدمين، وتحكم في القوائم السحرية!",
-      "story": "بايثون يصنف البيانات ليفهمها جيداً! هناك النصوص String (str)، والأرقام الصحيحة Integer (int)، والأعشار Float، والقيم المنطقية Boolean (True/False). كما نتعلم دالة استقبال المدخلات <code>input()</code> لاستقبال كتابة الأبطال، والقوائم السحرية List لتخزين عدة عناصر في صندوق واحد مرتب!<br><br><b>💡 استخدام الأقواس في البرمجة:</b><br>- الأقواس الدائرية <code>()</code>: لتمرير البيانات الإضافية أو استدعاء الدوال.<br>- الأقواس المربعة <code>[]</code>: لتعريف وإعلان القوائم (Lists).<br>- الأقواس المتعرجة <code>{}</code>: لإدخال قيم القواميس (Dictionaries).<br><br><b>🎒 القوائم السحرية (Lists) وعملياتها:</b><br>- الإضافة في النهاية: <code>append()</code><br>- إضافة قائمة أخرى: <code>extend()</code><br>- الإدخال في مكان محدد: <code>insert()</code><br>- الترتيب تصاعدياً: <code>sort()</code><br>- الترتيب تنازلياً: <code>sort(reverse=True)</code><br>- الحذف: <code>remove()</code> أو <code>clear()</code>",
-      "simple": "نوع البيانات هو مثل شكل اللعبة: مكعب، كرة، أو عروسة! وبايثون يحتاج لمعرفة نوع اللعبة ليعرف كيف يلعب بها. والقائمة List هي مثل مقلمة ألوانك؛ تضع فيها عناصر كثيرة مرتبة وتبدأ فهارسها دائماً من الصفر (0)!",
-      "hint": "لتعريف قائمة وطباعة نوعها، استخدم: <code>my_list = [5, 9, 6]\nprint(type(my_list))</code>",
-      "challenge": "قم بإنشاء قائمة سحرية تحتوي على الأرقام: <code>[5, 9, 6]</code> ثم اطبع نوع هذه القائمة على الشاشة باستخدام دالة <code>print()</code> ودالة <code>type()</code>.",
-      "starter_code": "# أنشئ القائمة واطبع نوعها:\n",
+      "badge_title": "Data Types Detector Medal",
+      "title": "Station 2: Data types, input function, and lists 🧪",
+      "desc": "Learn programming data types, receive user input, and master magic menus!",
+      "story": "Python classifies data to understand it well! There are String (str), Integer (int), Float, and Boolean (True/False). We also learn the function of receiving inputs <code>input()</code> to receive the writing of heroes, and the magic lists List to store several items in one arranged box!<br><br><b>💡 Using parentheses in programming:</b><br>- Circular brackets <code>()</code>: to pass additional data or call functions.<br>- Square brackets <code>[]</code>: to define and declare lists.<br>- Parentheses Zigzag <code>{}</code>: To enter dictionary values.<br><br><b>🎒 Magic lists (Lists) and their operations:</b><br>- Adding at the end: <code>append()</code><br>- Adding another list: <code>extend()</code><br>- Inserting at a specific place: <code>insert()</code><br>- Arranging in ascending order: <code>sort()</code><br> - Sort descending: <code>sort(reverse=True)</code><br> - Delete: <code>remove()</code> or <code>clear()</code>",
+      "simple": "The data type is like the shape of a game: cube, sphere, or doll! Python needs to know the type of game to know how to play it. The List is like your color palette; You put many elements in it in order, and their indexes always start from zero (0)!",
+      "hint": "To define a list and print its type, use: <code>my_list = [5, 9, 6]\nprint(type(my_list))</code>",
+      "challenge": "Create a magic list containing the numbers: <code>[5, 9, 6]</code> and then print the type of this list to the screen using the <code>print()</code> function and the <code>type()</code> function.",
+      "starter_code": "# Create the list and print its type:",
       "pills": [
         {
-          "label": "طباعة نوع القائمة",
+          "label": "Print list type",
           "code": "my_list = [5, 9, 6]\nprint(type(my_list))"
         },
         {
-          "label": "إضافة عنصر للقائمة السحرية",
+          "label": "Add an item to the magic list",
           "code": "my_list = [5, 9, 6]\nmy_list.append(7)\nprint(my_list)"
         }
       ],
@@ -62,29 +62,29 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 2)",
-        "desc": "1. قم بإنشاء متغير باسم name وضعي فيه اسمكِ، ثم استخدم دالة type() لمعرفة ونوع المتغير وطباعته.<br>2. قم بإنشاء قائمة تحتوي على الأرقام: [5, 9, 6, 7, 2, 5, 4] ثم قم بالعمليات التالية:<br>- الوصول لعنصر وطباعته.<br>- تعديل قيمة أحد العناصر.<br>- إضافة رقم جديد في نهاية القائمة باستخدام append().<br>- إدراج رقم جديد في فهرس محدد باستخدام insert().",
-        "code": "# 1. معرفة نوع المتغير\nname = \"yourName\"\nprint(...)\n\n# 2. عمليات القائمة السحرية\nnums = [5, 9, 6, 7, 2, 5, 4]\n# اكتب عمليات القوائم هنا"
+        "title": "📝 Magic Home Challenge (Homework - Session 2)",
+        "desc": "1. Create a variable named name and put your name in it, then use the type() function to find out the type of the variable and print it.<br>2. Create a list containing the numbers: [5, 9, 6, 7, 2, 5, 4] and then perform the following operations:<br>- Access an item and print it.<br>- Modify the value of one of the items.<br>- Add a new number at the end of the list using append().<br>- Insert a new number into a specified index using insert().",
+        "code": "#1. Find out the type of the variable\nname = \"yourName\"\nprint(...)\n\n#2. Magic menu operations\nnums = [5, 9, 6, 7, 2, 5, 4]\n# Write list operations here"
       }
     },
     {
       "id": 3,
       "badge_icon": "➕",
-      "badge_title": "وسام المايسترو الحسابي (Operators)",
-      "title": "المحطة 3: العمليات الحسابية والمنطقية وتصميم الدوال ➕",
-      "desc": "تعلم استخدام المعاملات الحسابية والمنطقية وتعرف على النصوص كقوائم والدوال البرمجية!",
-      "story": "المعاملات البرمجية (Operators) هي الرموز السحرية للعمليات: الحسابية (+, -, *, /)، المقارنة (==, !=, >, <) والمنطقية (and, or, not). كما سنتعلم أن النصوص هي مجرد قوائم من الحروف المرتبة بفهارس تبدأ من 0، وسنتعلم المفهوم الأول للدوال البرمجية كآلات تقوم بمهام محددة!<br><br><b>💡 الأنواع العددية والتحويلات:</b><br>- الأرقام في بايثون إما عدد صحيح (int)، عشري (float)، أو مركب (complex).<br>- يمكننا التحويل من نوع لآخر بسهولة (مثال: <code>float(5)</code> تعطينا <code>5.0</code>).",
-      "simple": "الرموز الحسابية مثل الجمع والضرب هي أدوات بايثون السحرية! وبايثون يستطيع تحويل الأرقام العشرية float لـ int والعكس بسهولة. والنصوص مثل كلمة \"Python\" هي طابور من الحروف؛ أول حرف واقف في فهرس 0!",
-      "hint": "اضرب الرقمين 5 في 10 باستخدام: <code>print(5 * 10)</code>",
-      "challenge": "قم بضرب الرقمين 5 في 10 واطبع الناتج النهائي (50) على الشاشة باستخدام المعامل الحسابي الضرب.",
-      "starter_code": "# احسب واطبع ناتج 5 * 10:\n",
+      "badge_title": "Maestro Arithmetic Medal (Operators)",
+      "title": "Station 3: Arithmetic and logical operations and function design ➕",
+      "desc": "Learn to use arithmetic and logical operators and learn about texts such as lists and programming functions!",
+      "story": "Operators are the magic symbols for operations: arithmetic (+, -, *, /), comparison (==, !=, >, <) and logical (and, or, not). We will also learn that texts are merely lists of letters arranged with indexes starting from 0, and we will learn the first concept of software functions as machines that perform specific tasks!<br><br><b>💡 Numerical types and conversions:</b><br>- Numbers in Python are either integer (int), decimal (float), or complex (complex).<br>- We can convert from one type to another easily (example: <code>float(5)</code> gives us <code>5.0</code>).",
+      "simple": "Arithmetic symbols like addition and multiplication are Python's magic tools! Python can easily convert float to int and vice versa. Text, like the word \"Python\", is a queue of letters; The first standing letter at index 0!",
+      "hint": "Multiply the two numbers 5 by 10 using: <code>print(5 * 10)</code>",
+      "challenge": "Multiply the two numbers 5 by 10 and print the final result (50) on the screen using the arithmetic multiplier.",
+      "starter_code": "# Calculate and print the result of 5 * 10:",
       "pills": [
         {
-          "label": "حساب الضرب",
+          "label": "Multiplication calculation",
           "code": "print(5 * 10)"
         },
         {
-          "label": "طباعة أول حرف في نص",
+          "label": "Prints the first character in text",
           "code": "word = \"Python\"\nprint(word[0])"
         }
       ],
@@ -93,30 +93,30 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 3)",
-        "desc": "1. استخدم دالة input() لاستقبال اسم المستخدم وطباعة رسالة ترحيبية مخصصة له.<br>2. إذا كان لديك NUM1 = 5 و NUM2 = 10، قم بكتابة برنامج يوضح أمثلة على:<br>- العمليات الحسابية (+, -, *, /)<br>- عمليات التعيين (=, +=)<br>- عمليات المقارنة (==, !=, >, <)<br>- العمليات المنطقية (and, or, not)",
-        "code": "# 1. الترحيب بالمستخدم\nuser_name = input(\"...\")\nprint(...)\n\n# 2. تطبيق المعاملات البرمجية\nNUM1 = 5\nNUM2 = 10\n# اكتب مقارناتك الحسابية والمنطقية هنا"
+        "title": "📝 Magic Home Challenge (Homework - Session 3)",
+        "desc": "1. Use the input() function to receive the user name and print a personalized welcome message for it.<br>2. If you have NUM1 = 5 and NUM2 = 10, write a program that shows examples of:<br>- Arithmetic operations (+, -, *, /)<br>- Assignment operations (=, +=)<br>- Comparison operations (==, !=, >, <)<br>- Logical operations (and, or, not)",
+        "code": "#1. User welcome\nuser_name = input(\"...\")\nprint(...)\n\n#2. Implement software transactions\nNUM1 = 5\nNUM2 = 10\n# Write your arithmetic and logical comparisons here"
       }
     },
     {
       "id": 4,
       "badge_icon": "🔒",
-      "badge_title": "وسام حارس الخزائن (Tuples & Dictionaries)",
-      "title": "المحطة 4: الصف الثابت والقواميس البرمجية 🔒📖",
-      "desc": "اكتشف الفروق الجوهرية بين الصفوف الثابتة Tuples والقواميس Dictionaries المخزنة بالمفاتيح!",
-      "story": "الصف الثابت (Tuple) هو صندوق سحري لتخزين البيانات ولكنه غير قابل للتعديل أو التغيير أبداً (Immutable)، ويكتب بالأقواس الدائرية (). أما القاموس (Dictionary) فهو مخزن فائق الذكاء يعتمد على المفتاح والقيمة (Key:Value)، ويكتب بالأقواس المتعرجة {}!<br><br><b>⚖️ المقارنة الكبرى بين الهياكل البرمجية:</b><br>- القائمة (List): مرتبة، قابلة للتعديل، تسمح بالتكرار <code>[]</code><br>- الصف الثابت (Tuple): مرتب، غير قابل للتعديل، يسمح بالتكرار <code>()</code><br>- القاموس (Dictionary): مرتب، قابل للتعديل، لا يسمح بتكرار المفاتيح أبداً <code>{}</code>",
-      "simple": "الصف الثابت (Tuple) مثل كارت ميموري محمي ضد الكتابة؛ تقرأ منه فقط ولا يمكنك التعديل عليه! والقاموس (Dictionary) مثل دفتر تليفونات تكتب فيه الاسم (Key) وجنبه رقم التليفون (Value) لتجده في ثانية واحدة دون عناء البحث في طوابير القائمة!",
-      "hint": "لإنشاء قاموس وجلب اسم البطل، اكتب: <code>agent = {\"name\": \"Falcon\"}\nprint(agent[\"name\"])</code>",
-      "challenge": "قم بإنشاء قاموس يحتوي على المفتاح <code>name</code> وقيمته <code>Falcon</code> واطبع هذه القيمة على الشاشة.",
-      "starter_code": "# أنشئ القاموس واطبع قيمة name:\n",
+      "badge_title": "Order of the Keeper of the Treasury (Tuples & Dictionaries)",
+      "title": "Station 4: Static class and programming dictionaries 🔒📖",
+      "desc": "Discover the fundamental differences between tuples and dictionaries stored with keys!",
+      "story": "A tuple is a magic box for storing data, but it is never modified or changed. It is written in brackets (). As for the dictionary, it is a very intelligent store that depends on the key and the value (Key:Value), and is written with curly braces {}!<br><br><b>⚖️ The biggest comparison between programming structures:</b><br>- List: ordered, editable, allows repetition <code>[]</code><br>- Tuple: ordered, unmodifiable, allows repetition <code>()</code><br>- Dictionary: organized, editable, never allows duplicate keys <code>{}</code>",
+      "simple": "A fixed row (tuple) such as a write-protected memory card; You only read from it and you cannot edit it! The dictionary is like a phone book in which you write the name (Key) and next to the phone number (Value) so you can find it in one second without the hassle of searching in the list queues!",
+      "hint": "To create a dictionary and fetch the hero name, type: <code>agent = {\"name\": \"Falcon\"}\nprint(agent[\"name\"])</code>",
+      "challenge": "Create a dictionary containing the key <code>name</code> and its value <code>Falcon</code> and print this value to the screen.",
+      "starter_code": "# Create the dictionary and print the name value:",
       "pills": [
         {
-          "label": "جلب قيمة من قاموس",
+          "label": "Fetch value from dictionary",
           "code": "agent = {\"name\": \"Falcon\"}\nprint(agent[\"name\"])"
         },
         {
-          "label": "تعريف صف ثابت Tuple",
-          "code": "my_tuple = (\"تفاح\", \"موز\")\nprint(my_tuple)"
+          "label": "Definition of a fixed tuple",
+          "code": "my_tuple = (\"apple\", \"banana\")\nprint(my_tuple)"
         }
       ],
       "validation_rules": {
@@ -124,30 +124,30 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 4)",
-        "desc": "1. تحدي التعديل على Tuple: لديك صف ثابت يحتوي على أسماء. قم بتحويله إلى قائمة، ثم أضف اسماً جديداً وقم بتعديل اسم موجود بالفعل، ثم أعد القائمة إلى صف ثابت واطبعه.<br>2. قاموس درجات الطلاب: أنشئ قاموساً يحتوي على 3 طلاب ودرجاتهم. قم بطباعته. ثم قم بإضافة طالب جديد وتحديث درجة طالب آخر واطبع القاموس المحدث.",
-        "code": "# 1. التعديل على الصف الثابت\nnames_tuple = (\"أحمد\", \"سارة\", \"يوسف\")\nnames_list = list(names_tuple)\n# أضف وعدل هنا...\n\n# 2. قاموس درجات الطلاب\nscores = {\"أحمد\": 90, \"سارة\": 95, \"يوسف\": 88}\n# اكتب عمليات الإضافة والتحديث هنا"
+        "title": "📝 Magic Home Challenge (Homework - Session 4)",
+        "desc": "1. Tuple modification challenge: You have a fixed tuple containing names. Convert it to a list, then add a new name and modify an existing name, then return the list to a fixed row and print it.<br>2. Student Grades Dictionary: Create a dictionary containing 3 students and their grades. Print it. Then add a new student, update another student's grade, and print the updated dictionary.",
+        "code": "#1. Editing the fixed row\nnames_tuple = (\"Ahmed\", \"Sarah\", \"Youssef\")\nnames_list = list(names_tuple)\n# Add and edit here...\n\n#2. Dictionary of student grades\nscores = {\"Ahmed\": 90, \"Sarah\": 95, \"Youssef\": 88}\n# Write addition and update operations here"
       }
     },
     {
       "id": 5,
       "badge_icon": "🚦",
-      "badge_title": "وسام حارس البوابات (If/Else & While)",
-      "title": "المحطة 5: الشروط البرمجية وحلقات التكرار While 🚦🔄",
-      "desc": "اجعل كودك ذكياً يتخذ القرارات البرمجية، وتعلم كيفية تكرار الأكواد باستخدام حلقة While!",
-      "story": "الشرط البرمجي (If/Elif/Else) يجعل برنامجك يتخذ قرارات بناءً على المقارنات المنطقية. وحلقة التكرار While Loop تقوم بتكرار الكود طالما أن الشرط صحيح. تذكر دائماً تحديث متغير العد حتى لا تدخل في حلقة تكرار لا نهائية تسبّب تعليق الجهاز!<br><br><b>🛑 معاملات التحكم والحلقات:</b><br>- <code>Break</code>: تنهي وتوقف حلقة التكرار تماماً وتخرج منها فوراً.<br>- <code>Continue</code>: توقف الدورة الحالية فقط وتنتقل للدورة التالية مباشرة.<br>- <code>Else في While</code>: سطر كود يتم تشغيله مرة واحدة فقط عند انتهاء الشرط وأفول صلاحيته.",
-      "simple": "الجملة الشرطية مثل حارس بوابة النادي: لو معاك كارنيه (if) ادخل، لو مش معاك (else) يرفض! وحلقة While مثل عداد الثواني يكرر اللف طالما الوقت لم ينتهِ!",
-      "hint": "أنشئ حلقة While تطبع الأرقام من 1 إلى 3: <code>i = 1\nwhile i <= 3:\n    print(i)\n    i += 1</code>",
-      "challenge": "استخدم حلقة التكرار While لطباعة الأرقام من 1 إلى 3 متتالية على الشاشة.",
-      "starter_code": "# اكتب حلقة while لطباعة الأرقام من 1 لـ 3:\n",
+      "badge_title": "Gatekeeper Medal (If/Else & While)",
+      "title": "Station 5: Programming conditions and while loops",
+      "desc": "Make your code smart to make programming decisions, and learn how to iterate code using a while loop!",
+      "story": "An If/Elif/Else condition makes your program make decisions based on logical comparisons. The While Loop repeats the code as long as the condition is true. Always remember to update the counting variable so that you do not enter an infinite loop that causes the device to hang! And its expiration date.",
+      "simple": "The conditional sentence is like the club's gatekeeper: If you have a card, enter. If you don't have (else), he refuses! The while loop is like a second counter that repeats the winding as long as the time does not expire!",
+      "hint": "Create a While loop that prints the numbers 1 through 3: <code>i = 1\nwhile i <= 3:\n    print(i)\n    i += 1</code>",
+      "challenge": "Use the While loop to print numbers 1 through 3 consecutively on the screen.",
+      "starter_code": "# Write a while loop to print numbers from 1 to 3:",
       "pills": [
         {
-          "label": "طباعة 1 لـ 3 بـ While",
+          "label": "Print 1 for 3 with While",
           "code": "i = 1\nwhile i <= 3:\n    print(i)\n    i += 1"
         },
         {
-          "label": "شرط If بسيط",
-          "code": "age = 20\nif age >= 18:\n    print(\"بالغ\")"
+          "label": "A simple If condition",
+          "code": "age=20\nif age >= 18:\n    print(\"adult\")"
         }
       ],
       "validation_rules": {
@@ -159,123 +159,123 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 5)",
-        "desc": "1. قم بإنشاء متغير age = 25. اكتب برنامجاً باستخدام If و Elif و Else يفحص الآتي:<br>- إذا كان العمر أصغر من 0، يطبع \"Invalid age\".<br>- إذا كان العمر أصغر من 18، يطبع \"child\".<br>- إذا كان العمر أصغر من 65، يطبع \"Adult\".<br>- غير ذلك، يطبع \"Senior\".<br>2. قم بإنشاء قائمة تحتوي على أرقام، واستخدم حلقة While للمرور على عناصر القائمة وطباعة كل رقم على حدة.",
-        "code": "# 1. فحص فئات العمر\nage = 25\n# اكتب جمل الشرط هنا\n\n# 2. التكرار بـ While على قائمة\nnumbers = [10, 20, 30, 40]\n# اكتب حلقة التكرار هنا"
+        "title": "📝 Magic Home Challenge (Homework - Session 5)",
+        "desc": "1. Create a variable age = 25. Write a program using If, Elif, and Else that checks the following:<br>- If age is smaller than 0, prints “Invalid age”.<br>- If age is smaller than 18, prints “child”.<br>- If age is smaller than 65, prints “Adult”.<br>- Otherwise, prints “Senior”.<br>2. Create a list containing numbers, and use a while loop to loop through the list items and print each number individually.",
+        "code": "#1. Check age groups\nage=25\n# Write conditional statements here\n\n#2. Iterate with While over a list\nnumbers = [10, 20, 30, 40]\n# Write the loop here"
       }
     },
     {
       "id": 6,
       "badge_icon": "🔄",
-      "badge_title": "وسام سيد التكرار (For & Nested Loops)",
-      "title": "المحطة 6: حلقات التكرار For والدوال المتداخلة 🔄🌀",
-      "desc": "تعلم التكرار على القوائم والنصوص، دالة range() السحرية، وتصميم حلقات تكرار متداخلة!",
-      "story": "حلقة For Loop ممتازة للمرور والتكرار على متسلسلات مثل القوائم والنصوص! ودالة <code>range()</code> تتيح لنا تكرار الكود لعدد محدد مسبقاً. والحلقات المتداخلة (Nested Loops) هي حلقة تكرار داخل حلقة أخرى لرسم أشكال ثنائية الأبعاد وتصميم مصفوفات فنية مذهلة!",
-      "simple": "حلقة For مثل موزع الهدايا؛ يمر على كل ولد في الطابور ويعطيه بالونة! والحلقات المتداخلة مثل رسم جدول صفوف وأعمدة؛ تمر على كل صف وتلون كل المربعات اللي فيه!",
-      "hint": "اكتب حلقة For تطبع كلمة ميجامايندز 4 مرات متتالية: <code>for i in range(4):\n    print(\"ميجامايندز\")</code>",
-      "challenge": "استخدم حلقة التكرار for مع دالة range لطباعة الكلمة <code>ميجامايندز</code> 4 مرات متتالية.",
-      "starter_code": "# اكتب حلقة For لطباعة الكلمة 4 مرات:\n",
+      "badge_title": "Medal of the Master of Repetition (For & Nested Loops)",
+      "title": "Station 6: For loops and nested functions 🔄🌀",
+      "desc": "Learn to iterate over lists and strings, the magic range() function, and design nested loops!",
+      "story": "For Loop is great for traversing and iterating over sequences like lists and texts! The <code>range()</code> function allows us to iterate the code a predefined number. Nested loops are a repeating loop inside another loop to draw 2D shapes and design amazing artistic matrices!",
+      "simple": "For ring like gift dispenser; He passes every boy in line and gives him a balloon! Nested loops are like drawing a table of rows and columns; Go through each row and color all the squares in it!",
+      "hint": "Write a For loop that prints the word Megaminds 4 times in a row: <code>for i in range(4):\n    print(\"Megaminds\")</code>",
+      "challenge": "Use a for loop with the range function to print the word <code>MegaMinds</code> 4 times in a row.",
+      "starter_code": "# Write a For loop to print the word 4 times:",
       "pills": [
         {
-          "label": "تكرار الكلمة 4 مرات",
-          "code": "for i in range(4):\n    print(\"ميجامايندز\")"
+          "label": "Repeat the word 4 times",
+          "code": "for i in range(4):\n    print(\"Megaminds\")"
         },
         {
-          "label": "تكرار بالأرقام",
+          "label": "Repeat numbers",
           "code": "for i in range(1, 5):\n    print(i)"
         }
       ],
       "validation_rules": {
         "required_keywords": [
-          "ميجامايندز",
-          "ميجامايندز",
-          "ميجامايندز",
-          "ميجامايندز"
+          "Megaminds",
+          "Megaminds",
+          "Megaminds",
+          "Megaminds"
         ],
         "required_canvas": false
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 6)",
-        "desc": "اكتب برنامجاً بلغة بايثون يستخدم حلقة تكرار For لطباعة الأرقام من 1 إلى 10، واستخدم دالة range() لإنشاء هذه الأرقام وتوليدها تلقائياً.",
-        "code": "# اكتب حلقة For مع دالة range هنا لطباعة الأرقام من 1 لـ 10\nfor i in range(1, 11):\n    print(...)"
+        "title": "📝 Magic Home Challenge (Homework - Session 6)",
+        "desc": "Write a Python program that uses a For loop to print numbers from 1 to 10, and use the range() function to generate these numbers automatically.",
+        "code": "# Write a For loop with range function here to print numbers from 1 to 10\nfor i in range(1, 11):\n    print(...)"
       }
     },
     {
       "id": 7,
       "badge_icon": "⚙️",
-      "badge_title": "وسام مخترع الآلات (def Functions)",
-      "title": "المحطة 7: بناء وتصميم الدوال البرمجية (Functions) ⚙️",
-      "desc": "تعلم إنشاء الآلات البرمجية الخاصة بك باستخدام def، واستدعائها وتمرير المعاملات البرمجية!",
-      "story": "الدالة (Function) هي كتلة برمجية منظمة لا تعمل إلا عند استدعائها! ننشئها باستخدام الكلمة المفتاحية <code>def</code> ونمرر إليها بيانات تسمى وسائط (Arguments) ونرجع النواتج بـ <code>return</code>.<br><br><b>💡 الوسائط العشوائية والقيم الافتراضية:</b><br>- الوسائط العشوائية <code>*args</code>: نضع نجمة <code>*</code> قبل الاسم إذا لم نكن نعرف عدد الوسائط الممررة.<br>- القيمة الافتراضية: نحدد قيمة افتراضية للمعامل في حال تم استدعاء الدالة بدون وسيط (مثل <code>name=\"بطل\"</code>).",
-      "simple": "الدالة مثل آلة صنع العصير البرمجية! تصنعها مرة واحدة، وكلما أردت عصير فواكه، تناديها وتعطيها الفاكهة (Parameters) فتعطيك العصير اللذيذ (Return) دون كتابة خطوات التقطيع والعصر مجدداً!",
-      "hint": "اكتب دالة ترحيب بسيطة: <code>def greet():\n    print(\"ميجامايندز\")\ngreet()</code>",
-      "challenge": "قم بتعريف دالة تسمى <code>greet</code> تقوم بطباعة كلمة <code>ميجامايندز</code> على الشاشة، ثم قم باستدعائها.",
-      "starter_code": "# عرّف الدالة greet واستدعها:\n",
+      "badge_title": "Inventor of Machines Medal (def Functions)",
+      "title": "Station 7: Building and designing software functions (Functions) ⚙️",
+      "desc": "Learn to create your own code machines using def, calling them and passing code parameters!",
+      "story": "A function is an organized block of programming that only works when called! We create it using the keyword <code>def</code> and pass data to it called arguments and return the results with <code>return</code>.<br><br><b>💡 Arbitrary arguments and default values:</b><br>- Random arguments <code>*args</code>: We put an asterisk <code>*</code> before the name if we do not know the number of arguments passed.<br>- Default value: We specify a default value for the parameter if the function is called without An intermediary (such as <code>name=\"hero\"</code>).",
+      "simple": "The function is like a software juice machine! You make it once, and whenever you want fruit juice, you call it and give it the fruit (Parameters), and it gives you the delicious juice (Return) without writing the steps for cutting and squeezing again!",
+      "hint": "Write a simple greeting function: <code>def greet():\n    print(\"Megaminds\")\ngreet()</code>",
+      "challenge": "Define a function called <code>greet</code> that prints the word <code>MegaMinds</code> to the screen, and then call it.",
+      "starter_code": "# Define and call the greet function:",
       "pills": [
         {
-          "label": "دالة ترحيبية بسيطة",
-          "code": "def greet():\n    print(\"ميجامايندز\")\n\ngreet()"
+          "label": "Simple hello function",
+          "code": "def greet():\n    print(\"Megaminds\")\n\ngreet()"
         },
         {
-          "label": "دالة بجمع رقمين",
+          "label": "A function that adds two numbers",
           "code": "def add(a, b):\n    return a + b\nprint(add(5, 10))"
         }
       ],
       "validation_rules": {
-        "required_output_text": "ميجامايندز",
+        "required_output_text": "Megaminds",
         "required_canvas": false
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 7)",
-        "desc": "1. استخدم دالة input() لاستقبال اسم المستخدم، ثم اكتب دالة تقوم بطباعة رسالة ترحيبية مخصصة تحتوي على هذا الاسم.<br>2. اكتب دالة باسم check_number تستقبل رقماً كمعامل، وتفحص ما إذا كان الرقم زوجياً (Even) أو فردياً (Odd) وترجع الإجابة.",
-        "code": "# 1. دالة الترحيب بالاسم المكتوب\ndef greet_user(name):\n    # اكتب كود الترحيب هنا\n    pass\n\n# 2. دالة فحص الرقم زوجي أم فردي\ndef check_number(num):\n    # اكتب كود الفحص والإرجاع هنا\n    pass"
+        "title": "📝 Magic Home Challenge (Homework - Session 7)",
+        "desc": "1. Use the input() function to receive the username, then write a function that prints a custom welcome message containing this name.<br>2. Write a function called check_number that takes a number as a parameter, checks whether the number is even or odd and returns the answer.",
+        "code": "#1. Greeting function by written name\ndef greet_user(name):\n    # Type the welcome code here\n    pass. pass\n\n#2. Function to check whether a number is even or odd\ndef check_number(num):\n    # Write the scan and return code here\n    pass. pass"
       }
     },
     {
       "id": 8,
       "badge_icon": "🐢",
-      "badge_title": "وسام رسام السلحفاة الخارقة (Turtle Graphics)",
-      "title": "المحطة 8: مكتبات بايثون ورسوم السلحفاة التفاعلية 🐢🎨",
-      "desc": "تحكم في سلحفاة بايثون الرائعة لترسم لوحات فنية وتصميمات هندسية خلابة بالألوان!",
-      "story": "مكتبات بايثون هي أكواد جاهزة كتبها مبرمجون آخرون! سنستخدم مكتبة <code>turtle</code> الرائعة لإنشاء سلحفاة برمجية تتحرك على الشاشة وترسم خطوطاً وأشكالاً هندسية مذهلة بالزوايا والألوان!<br><br><b>📐 محاور الرسم والتصدير:</b><br>- نملك محورين (x, y) و 4 أرباع لرسم الأشكال.<br>- يمكننا تحويل الكود لملف تنفيذي (.exe) يفتح مباشرة على أي جهاز بدون بايثون باستخدام أداة auto-py-to-exe المذهلة!",
-      "simple": "السلحفاة Turtle هي صديقتنا الرسامة! تعطيها أوامر: تحركي للأمام (forward)، دوري لليمين (right)، غيري لونك (color)، فترسم لك لوحات رائعة على لوحة الرسم السحرية!",
-      "hint": "اكتب كود رسم دائرة زرقاء: <code>import turtle\nturtle.color(\"blue\")\nturtle.circle(50)</code>",
-      "challenge": "قم باستيراد مكتبة السلحفاة <code>import turtle</code> واجعلها ترسم دائرة بلون أزرق <code>blue</code> ونصف قطر 50 بكسل.",
-      "starter_code": "# استورد السلحفاة وارسم الدائرة الزرقاء:\nimport turtle\n",
+      "badge_title": "Turtle Graphics Artist Medal",
+      "title": "Station 8: Python libraries and interactive turtle graphics 🐢🎨",
+      "desc": "Control the adorable Python turtle to create colorful artistic paintings and geometric designs!",
+      "story": "Python libraries are ready-made codes written by other programmers! We will use the amazing <code>turtle</code> library to create a turtle that moves on the screen and draws amazing lines and geometric shapes with angles and colors!<br><br><b>📐 Drawing and exporting axes:</b><br>- We have 2 axes (x, y) and 4 quadrants for drawing shapes.<br>- We can convert the code into an executable file (.exe) that opens directly on any device without Python using the amazing auto-py-to-exe tool!",
+      "simple": "Turtle is our painter friend! You give it commands: move forward, turn right, change your color, and it draws wonderful paintings for you on the magic drawing board!",
+      "hint": "Write the code to draw a blue circle: <code>import turtle\nturtle.color(\"blue\")\nturtle.circle(50)</code>",
+      "challenge": "Import the <code>import turtle</code> library and make it draw a circle with a blue color <code>blue</code> and a radius of 50 pixels.",
+      "starter_code": "# Import the turtle and draw the blue circle:\nimport turtle",
       "pills": [
         {
-          "label": "رسم دائرة زرقاء",
+          "label": "Draw a blue circle",
           "code": "import turtle\nturtle.color(\"blue\")\nturtle.circle(50)"
         },
         {
-          "label": "رسم مربع ملون",
+          "label": "Draw a colored square",
           "code": "import turtle\nturtle.color(\"orange\")\nfor i in range(4):\n    turtle.forward(80)\n    turtle.right(90)"
         }
       ],
       "validation_rules": {
         "required_canvas": true,
-        "required_output_text": "رسم دائرة"
+        "required_output_text": "Draw a circle"
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 8)",
-        "desc": "قم بكتابة برنامج متكامل يستخدم مكتبة السلحفاة Turtle لإنشاء كائن سلحفاة جديد، واستخدم الأوامر والدوران التكراري لرسم مربع كامل، وتأكد من إغلاق نافذة الرسم عند الضغط عليها بالماوس.",
-        "code": "import turtle\nt = turtle.Turtle()\n# 1. ارسم المربع باستخدام حلقة تكرار أو الأوامر المتتالية\n\n# 2. اجعل النافذة تقفل عند الضغط عليها\nturtle.exitonclick()"
+        "title": "📝 Magic Home Challenge (Homework - Session 8)",
+        "desc": "Write a complete program that uses the Turtle library to create a new turtle object, use commands and looping to draw a perfect square, and make sure the drawing window closes when you click it with the mouse.",
+        "code": "import turtle\nt = turtle.Turtle()\n#1. Draw the box using loop or successive commands\n\n#2. Make the window lock when pressed\nturtle.exitonclick()"
       }
     },
     {
       "id": 9,
       "badge_icon": "🧬",
-      "badge_title": "وسام المهندس المعماري البرمجي (OOP Classes)",
-      "title": "المحطة 9: البرمجة كائنية التوجه وبناء الكلاسات 🧬",
-      "desc": "تعلم كيف تصبح مهندساً معمارياً برمجياً! صمم قوالب البناء (Classes) وتفريخ كائنات حقيقية!",
-      "story": "البرمجة كائنية التوجه (OOP) هي أسلوب برمجي لتنظيم الكود ككائنات في العالم الحقيقي! نصمم الفئة <code>Class</code> كقالب عام، وننشئ منها كائنات <code>Objects</code> مفرخة تملك خصائص مخصصة ودالة بناء <code>__init__</code>!<br><br><b>🔮 الكلمة السحرية self:</b><br>- تعتبر <code>self</code> وسيطاً إجبارياً وأساسياً في أي دالة نكتبها داخل الكلاس؛ لتشير إلى الكائن الحالي الذي نعمل عليه الآن ونقوم بتغيير خصائصه وحفظها.",
-      "simple": "الفئة (Class) هي مثل قطاعة بسكويت على شكل نجمة! والنسخ المفرخة (Objects) هي حبات البسكويت الحقيقية التي نخرجها من القطاعة ونضع عليها ألواناً ونكهات مختلفة وتأكلها بسعادة!",
-      "hint": "اكتب كلاس بطل بسيط: <code>class Hero:\n    def __init__(self, name):\n        self.name = name\nh = Hero(\"Flash\")\nprint(h.name)</code>",
-      "challenge": "قم بإنشاء كلاس <code>Hero</code> يحتوي على دالة بناء <code>__init__</code> لتخصيص الاسم <code>name</code>، ثم فرّخ بطلاً باسم <code>Flash</code> واطبع اسمه.",
-      "starter_code": "# ابْنِ الكلاس وفرّخ كائن البطل:\n",
+      "badge_title": "Software Architect Medal (OOP Classes)",
+      "title": "Station 9: Object-oriented programming and building classes 🧬",
+      "desc": "Learn how to become a software architect! Design building blocks (Classes) and hatch real creatures!",
+      "story": "Object-oriented programming (OOP) is a programming approach to organizing code as real-world objects! We design the class <code>Class</code> as a general template, and create spawned <code>Objects</code> objects from it with custom properties and a constructor function <code>__init__</code>!<br><br><b>🔮 The magic word self:</b><br>- <code>self</code> is an obligatory and essential argument in any function we write inside the class. To indicate the current object that we are working on now and changing and saving its properties.",
+      "simple": "Class is like a star-shaped cookie cutter! The hatched copies (Objects) are real biscuits that we take out of the cutter and put different colors and flavors on them and they eat them happily!",
+      "hint": "Write a simple hero class: <code>class Hero:\n    def __init__(self, name):\n        self.name = name\nh = Hero(\"Flash\")\nprint(h.name)</code>",
+      "challenge": "Create a <code>Hero</code> class containing a <code>__init__</code> constructor to assign the name <code>name</code>, then spawn a hero named <code>Flash</code> and print its name.",
+      "starter_code": "# Build the class and spawn the hero sprite:",
       "pills": [
         {
-          "label": "إنشاء كلاس وبطل",
+          "label": "Create a class and champion",
           "code": "class Hero:\n    def __init__(self, name):\n        self.name = name\n\nh = Hero(\"Flash\")\nprint(h.name)"
         }
       ],
@@ -284,25 +284,25 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 9)",
-        "desc": "1. قم بتعريف كلاس يسمى Person يمثل شخصاً حقيقياً. يجب أن يملك الكلاس خاصيتين هما: name و age، ويتم تهيئتهما داخل دالة البناء __init__().<br>2. أضف دالة داخل الكلاس تسمى greet() تقوم بطباعة رسالة ترحيبية تحتوي على اسم الشخص وعمره بتنسيق جميل.<br>3. قم بإنشاء كائن جديد باسم person1 ومرر له اسماً وعمراً، ثم استدعِ دالة greet() لتتأكد من ظهور التحية المخصصة في الشاشة.",
-        "code": "class Person:\n    # 1. اكتب دالة البناء __init__ هنا\n    \n    # 2. اكتب دالة greet هنا\n    pass\n\n# 3. أنشئ الكائن person1 واستدعِ دالة greet()"
+        "title": "📝 Magic Home Challenge (Homework - Session 9)",
+        "desc": "1. Define a class called Person that represents a real person. The class must have two properties: name and age, which are initialized inside the constructor function __init__().<br>2. Add a function inside the class called greet() that prints a greeting message containing the person's name and age in a beautiful format.<br>3. Create a new object named person1 and pass it a name and age, then call the greet() function to ensure that the custom greeting appears on the screen.",
+        "code": "class Person:\n    #1. Write the constructor function __init__ here\n    \n    #2. Write the greet function here\n    pass. pass\n\n#3. Create the person1 object and call the greet() function"
       }
     },
     {
       "id": 10,
       "badge_icon": "💻",
-      "badge_title": "وسام خبير الحماية السيبرانية (Cyber Hacking)",
-      "title": "المحطة 10: معمل اختراق الويب وحماية الخوادم 💻🔒",
-      "desc": "تعلم كيف تعمل هجمات التخمين Brute-Force وحماية خوادم Flask البرمجية!",
-      "story": "في معمل الحماية والهاكر الأخلاقي، سنتعلم كيف يعمل الاختراق عبر هجوم التخمين Brute-Force باستخدام مكتبة <code>requests</code> لإرسال طلبات الويب للمواقع، وكيفية بناء وحماية خوادم الويب البرمجية باستخدام مكتبة بايثون الخفيفة <code>Flask</code> وتوجيه الروابط (Routes)!",
-      "simple": "الهاكر الأخلاقي هو حارس قلعتنا الرقمية! يتعلم كيف يفكر المخترقون عن طريق تجربة كلمات مرور عشوائية بسرعة فائقة من ملف قاموس (dictionary list) ليتمكن من غلق كل الثغرات وتأمين الخادم Flask الخاص به!",
-      "hint": "اكتب كود طباعة نجاح تشغيل خادم Flask: <code>print(\"Flask Server Active\")</code>",
-      "challenge": "قم بمحاكاة تشغيل خادم Flask عن طريق طباعة العبارة <code>Flask Server Active</code> لتشغيل المحاكي السحابي!",
-      "starter_code": "# اطبع عبارة تنشيط خادم Flask السحري:\n",
+      "badge_title": "Cyber ​​Hacking Expert Medal",
+      "title": "Station 10: Web Hacking and Server Protection Lab 💻🔒",
+      "desc": "Learn how Brute-Force attacks work and protect your Flask servers!",
+      "story": "In the Security and Ethical Hacker Lab, we will learn how Brute-Force hacking works using the <code>requests</code> library to send web requests to websites, and how to build and protect coded web servers using the lightweight Python library <code>Flask</code> and Routes!",
+      "simple": "The ethical hacker is the guardian of our digital castle! He learns how hackers think by trying random passwords very quickly from a dictionary list file so that he can close all the loopholes and secure his Flask server!",
+      "hint": "Write the code to print the successful startup of the Flask Server: <code>print(\"Flask Server Active\")</code>",
+      "challenge": "Simulate running a Flask Server by printing the <code>Flask Server Active</code> statement to run the cloud simulator!",
+      "starter_code": "# Print the magic Flask server activation statement:",
       "pills": [
         {
-          "label": "تنشيط خادم Flask",
+          "label": "Activate Flask server",
           "code": "print(\"Flask Server Active\")"
         }
       ],
@@ -311,25 +311,25 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 10)",
-        "desc": "قم بمحاكاة وتعديل معمل الاختراق في حاسوبك:<br>1. قم بتغيير اسم المستخدم وكلمة المرور الحقيقية داخل كود server.py.<br>2. قم بتعديل وإضافة كلمة مرورك الجديدة داخل ملف القاموس (wordlist.txt أو top-100.txt).<br>3. قم بتشغيل سكربت الهجوم hack.py لتشاهد كيف يقوم بايثون باختراق الخادم تلقائياً وتخمين الباسورد الجديد.<br>4. التقط لقطة شاشة (Screenshot) لنجاح الهجوم وظهور الباسورد المخترق وأرسلها لمهندسك!",
-        "code": "# 1. كود الخادم server.py\n# admin_user = \"new_admin\"\n# admin_pass = \"your_secret_pass\"\n\n# 2. كود الهجوم hack.py\n# قم بتشغيل السكربت لتخمين كلمة السر بنجاح!"
+        "title": "📝 Magic Home Challenge (Homework - Session 10)",
+        "desc": "Simulate and modify the hacking lab on your computer:<br>1. Change the real username and password inside the server.py.<br>2 code. Edit and add your new password inside the dictionary file (wordlist.txt or top-100.txt).<br>3. Run the hack.py attack script to see how Python automatically hacks the server and guesses the new password.<br>4. Take a screenshot of the success of the attack and the appearance of the hacked password and send it to your engineer!",
+        "code": "#1. Server code server.py\n# admin_user = \"new_admin\"\n# admin_pass = \"your_secret_pass\"\n\n#2. hack.py attack code\n# Run the script to successfully guess the password!"
       }
     },
     {
       "id": 11,
       "badge_icon": "🏓",
-      "badge_title": "وسام مصمم الألعاب الكلاسيكية (Ping Pong Part 1)",
-      "title": "المحطة 11: بناء لعبة البنج بونج - الجزء الأول 🏓",
-      "desc": "صمم شاشة اللعبة السحرية وهيئ الكرة والمضارب وأزرار التحكم باستخدام مكتبة السلحفاة!",
-      "story": "سنبدأ مشروعنا الأضخم والأمتع! برمجة وتصميم لعبة كرة الطاولة الكلاسيكية (Ping Pong) من الصفر! في هذا الجزء، سنقوم بتهيئة شاشة الرسم السوداء، وتعديل سرعة التحديث بـ tracer(0)، وتصميم المضربين والكرة ككائنات سلحفاة برمجية مستقلة، ونربط حركة الأزرار بأوامر لوحة المفاتيح!",
-      "simple": "نحن نصنع لعبة متكاملة بأيدينا! ننشئ شاشة سوداء للمباراة، ونضع مضربين ملونين يتحركان للأعلى والأسفل، ونبرمج أزرار الكيبورد (W/S) و(الأسهم) لتتحكم بهما وتستعد للمباراة الحماسية!",
-      "hint": "اكتب كود طباعة نجاح تهيئة شاشة اللعبة: <code>print(\"Ping Pong Screen Initialized\")</code>",
-      "challenge": "قم بطباعة عبارة <code>Ping Pong Screen Initialized</code> لتأكيد تهيئة شاشة اللعبة بنجاح وبدء محاكي حركة المضارب.",
-      "starter_code": "# اطبع عبارة تهيئة شاشة المباراة:\n",
+      "badge_title": "Classic Game Designer Medal (Ping Pong Part 1)",
+      "title": "Station 11: Building a ping pong game - Part 1 🏓",
+      "desc": "Design the magical game screen and configure the ball, paddles and control buttons using the Turtle library!",
+      "story": "سنبدأ مشروعنا الأضخم والأمتع! برمجة وتصميم لعبة كرة الطاولة الكلاسيكية (Ping Pong) من الصفر! In this part, we'll configure the black drawing screen, adjust the refresh speed with tracer(0), design the paddles and ball as independent turtle objects, and associate button movement with keyboard commands!",
+      "simple": "We make a complete game with our own hands! We create a black screen for the match, place two colored paddles that move up and down, program the keyboard buttons (W/S) and (arrows) to control them, and get ready for the exciting match!",
+      "hint": "Write the code to print the game screen initialization success: <code>print(\"Ping Pong Screen Initialized\")</code>",
+      "challenge": "Print the <code>Ping Pong Screen Initialized</code> statement to confirm that the game screen was successfully initialized and started the racket movement simulator.",
+      "starter_code": "# Print the match screen initialization statement:",
       "pills": [
         {
-          "label": "تأكيد تهيئة شاشة اللعبة",
+          "label": "Confirm the game screen configuration",
           "code": "print(\"Ping Pong Screen Initialized\")"
         }
       ],
@@ -338,25 +338,25 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 11)",
-        "desc": "قم بتثبيت وتجربة مكتبة الألعاب الكلاسيكية الجاهزة freegames عن طريق كتابة الأمر التالي في محطة الأوامر:<br>pip install freegames<br>ثم قم بتشغيل إحدى الألعاب المضمنة مثل لعبة الثعبان (snake) أو البونج (pong) للتسلية والتعلم، واكتشف كيف تمت كتابتها!",
-        "code": "# 1. افتح محطة الأوامر (CMD) وثبت المكتبة:\n# pip install freegames\n\n# 2. قم بتشغيل لعبة الثعبان البرمجية للمتعة والتجربة:\n# python -m freegames.snake"
+        "title": "📝 Magic Home Challenge (Homework - Session 11)",
+        "desc": "Install and try out the freegames library of classic games by typing the following command into the command terminal: <br>pip install freegames<br>Then play one of the built-in games like Snake or Pong for fun and learning, and discover how they were written!",
+        "code": "#1. Open the command terminal (CMD) and install the library:\n# pip install freegames\n\n#2. Play the snake programming game for fun and experience:\n# python -m freegames.snake"
       }
     },
     {
       "id": 12,
       "badge_icon": "🏆",
-      "badge_title": "وسام مطور الألعاب الأسطوري (Ping Pong Part 2)",
-      "title": "المحطة 12: بناء لعبة البنج بونج - الجزء الثاني 🏓🏆",
-      "desc": "أكمل فيزياء اللعبة وحركة الكرة واصطدامات المضارب والذكاء الاصطناعي واحتفل بالنصر الخارق!",
-      "story": "المحطة الأسطورية الختامية لرحلتنا العظيمة! سنكمل فيزياء اللعبة كاملة: حركة الكرة السلسة في محورين (dx, dy)، الارتداد المثير عند اصطدام الكرة بالجدران العلوية والسفلية، فيزياء الاصطدام بالمضارب لإعادتها للملعب، وحساب النتيجة والأهداف مع ذكاء اصطناعي ذكي للكمبيوتر!",
-      "simple": "الكرة تتحرك وتصطدم كأنها حقيقية! نبرمج اللعبة لتفهم متى تصطدم الكرة بالمضرب فترتد، ومتى تعبر المضرب فنحسب هدفاً، ونجعل الكمبيوتر يلعب ضدنا بذكاء اصطناعي حماسي وممتع للغاية!",
-      "hint": "اكتب كود طباعة نجاح اكتمال اللعبة: <code>print(\"Ping Pong Game Completed\")</code>",
-      "challenge": "اطبع العبارة الأسطورية <code>Ping Pong Game Completed</code> لتشغيل المحاكي الختامي الكامل للعبة البنج بونج ولعب المباراة النهائية ضد الذكاء الاصطناعي!",
-      "starter_code": "# اطبع عبارة اكتمال المشروع الأسطوري:\n",
+      "badge_title": "Legendary Game Developer Medal (Ping Pong Part 2)",
+      "title": "Station 12: Building a ping pong game - Part 2 🏓🏆",
+      "desc": "Complete the game's physics, ball movement, racket collisions and AI and celebrate a superlative victory!",
+      "story": "The final legendary stop of our great journey! We will complete the full physics of the game: the smooth movement of the ball in two axes (dx, dy), the exciting bounce when the ball hits the upper and lower walls, the physics of hitting rackets to return them to the court, and calculating the score and goals with a smart computer AI!",
+      "simple": "The ball moves and collides as if it were real! We program the game to understand when the ball hits the racket and bounces, and when it crosses the racket, we calculate a goal, and we make the computer play against us with a very enthusiastic and fun artificial intelligence!",
+      "hint": "Type the code to print the game completion success: <code>print(\"Ping Pong Game Completed\")</code>",
+      "challenge": "Print the legendary phrase <code>Ping Pong Game Completed</code> to run the complete Ping Pong finale simulator and play the final match against the AI!",
+      "starter_code": "# Print the legendary project completion statement:",
       "pills": [
         {
-          "label": "تأكيد اكتمال المشروع",
+          "label": "Confirm project completion",
           "code": "print(\"Ping Pong Game Completed\")"
         }
       ],
@@ -365,9 +365,9 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "📝 التحدي المنزلي السحري (Homework - Session 12)",
-        "desc": "تهانينا يا بطلنا العظيم! لقد أتممت مسار بايثون للتأسيس بنجاح مبهر! واجبك الأخير الممتع:<br>1. قم بتجميع وتعبئة لعبة البنج بونج الكاملة الخاصة بك إلى ملف تنفيذي (.exe) مستقل باستخدام أداة auto-py-to-exe.<br>2. أرسل الملف التنفيذي لعائلتك وأصدقائك ليلعبوا لعبتك البرمجية المذهلة ويشهدوا على عبقريتك التكنولوجية!<br>3. احصل على نسختك من شهادتك الرسمية من بوابة المهندس!",
-        "code": "# 1. للتعبئة لـ exe:\n# pip install auto-py-to-exe\n# python -m auto_py_to_exe\n\n# 2. شارك اللعبة مع أصدقائك واحتفل بنجاحك الرائع! 🎉"
+        "title": "📝 Magic Home Challenge (Homework - Session 12)",
+        "desc": "Congratulations, our great hero! You have completed the Python Foundation Path with great success! Your final fun assignment:<br>1. Compile and package your complete ping pong game into a standalone executable (.exe) file using the auto-py-to-exe tool.<br>2. Send the executable to your family and friends so they can play your amazing programming game and witness your technological genius!<br>3. Get your copy of your official certificate from the Engineer Portal!",
+        "code": "#1. To pack for exe:\n# pip install auto-py-to-exe\n# python -m auto_py_to_exe\n\n#2. Share the game with your friends and celebrate your great success! 🎉"
       }
     }
   ]

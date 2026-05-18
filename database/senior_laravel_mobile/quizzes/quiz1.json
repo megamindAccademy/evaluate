@@ -1,11 +1,11 @@
 {
   "quiz_title": "Laravel Mobile API Backend - Challenge 1",
-  "quick_brief": "تحدي الأسبوع الأول لـ API: اختبر مهاراتك البرمجية الأساسية في قواعد كتابة لغة PHP، تعريف المتغيرات، وفحص الشروط التفاعلية!",
+  "quick_brief": "API Week 1 Challenge: Test your basic programming skills in PHP grammar, defining variables, and examining interactive conditions!",
   "questions": [
     {
       "id": 1,
       "type": "mcq",
-      "text": "أي وسم من الوسوم التالية يُستخدم لتهيئة بدء كتابة كود برمي بلغة PHP؟",
+      "text": "Which of the following tags is used to initialize writing code in PHP?",
       "options": [
         "<php>",
         "<?php",
@@ -18,7 +18,7 @@
     {
       "id": 2,
       "type": "mcq",
-      "text": "كيف نقوم بالإعلان وتعريف متغير جديد وتخزين قيم فيه بلغة PHP؟",
+      "text": "How do we declare and define a new variable and store values ​​in it in PHP?",
       "options": [
         "var myVar = 10;",
         "myVar = 10;",
@@ -31,7 +31,7 @@
     {
       "id": 3,
       "type": "mcq",
-      "text": "ما هو الأمر البرمي المستخدم لطباعة وعرض نصوص على المتصفح بلغة PHP؟",
+      "text": "What is the script command used to print and display text on the browser in PHP?",
       "options": [
         "print_to_screen",
         "echo",
@@ -44,20 +44,20 @@
     {
       "id": 4,
       "type": "mcq",
-      "text": "أي رمز يُستخدم في لغة PHP لربط ودمج سلسلتين نصيتين معاً (String Concatenation)؟",
+      "text": "What code is used in PHP to connect two strings together?",
       "options": [
-        "علامة الجمع (+)",
-        "النقطة (.)",
-        "علامة الضرب (*)",
-        "علامة الربط (&)"
+        "plus sign (+)",
+        "point (.)",
+        "Multiplication sign (*)",
+        "anchor sign (&)"
       ],
-      "correct": "النقطة (.)",
+      "correct": "point (.)",
       "score": 10
     },
     {
       "id": 5,
       "type": "mcq",
-      "text": "أي عبارة برمجية منطقية تُستخدم لاتخاذ قرار مشروط وتنفيذ كود بديل إذا لم يتحقق الشرط الأول؟",
+      "text": "Which logical statement is used to make a conditional decision and execute alternative code if the first condition is not met?",
       "options": [
         "if-else",
         "for loop",
@@ -70,80 +70,80 @@
     {
       "id": 6,
       "type": "mcq",
-      "text": "ما هي النتيجة الصحيحة لطباعة الكود التالي: $x = 10; $y = \"10\"; echo $x === $y;؟",
+      "text": "What is the correct result for printing the following code: $x = 10; $y = \"10\"; echo $x === $y;?",
       "options": [
-        "يطبع 1 (صحيح)",
-        "يطبع 0 أو لا شيء (لأنهما مختلفان في النوع)",
-        "يعود بخطأ برمي",
-        "يطبع 10"
+        "prints 1 (correct)",
+        "prints 0 or nothing (because they are different in type)",
+        "Returns with a throwing error",
+        "prints 10"
       ],
-      "correct": "يطبع 0 أو لا شيء (لأنهما مختلفان في النوع)",
+      "correct": "prints 0 or nothing (because they are different in type)",
       "score": 10
     },
     {
       "id": 7,
       "type": "mcq",
-      "text": "عند استخدام كود الشرط: if ($age >= 18) { echo 'سينيور'; }، ماذا يطبع للسن 18؟",
+      "text": "When using condition code: if ($age >= 18) { echo 'Senior'; }, What is printed for age 18?",
       "options": [
-        "جونيور",
-        "سينيور",
-        "لا شيء",
-        "خطأ برمي"
+        "Junior",
+        "Senior",
+        "nothing",
+        "Throwing error"
       ],
-      "correct": "سينيور",
+      "correct": "Senior",
       "score": 10
     },
     {
       "id": 8,
       "type": "mcq",
-      "text": "ما هي الفائدة الأساسية لتثبيت خادم XAMPP على جهاز الكمبيوتر المكتبي؟",
+      "text": "What is the main benefit of installing XAMPP server on desktop computer?",
       "options": [
-        "تسريع ألعاب الفيديو",
-        "توفير بيئة الخادم المحلي Apache وقاعدة البيانات MySQL ومفسر PHP لتجربة الأكواد",
-        "حماية نظام التشغيل من الفيروسات",
-        "تعديل الصور اللقطات"
+        "Speed ​​up video games",
+        "Providing local Apache server environment, MySQL database, and PHP interpreter to test the codes",
+        "Protecting the operating system from viruses",
+        "Edit photos stills"
       ],
-      "correct": "توفير بيئة الخادم المحلي Apache وقاعدة البيانات MySQL ومفسر PHP لتجربة الأكواد",
+      "correct": "Providing local Apache server environment, MySQL database, and PHP interpreter to test the codes",
       "score": 10
     },
     {
       "id": 9,
       "type": "mcq",
-      "text": "أي علامة ننهي بها كل سطر برمي مكتوب بلغة PHP لتفادي أخطاء المترجم البرمي؟",
+      "text": "What tag do we use to end every line written in PHP to avoid errors of the Permian compiler?",
       "options": [
-        "نقطة (.)",
-        "فاصلة منقوطة (;)",
-        "نقطتان رأسيتان (:)",
-        "علامة تعجب (!)"
+        "a point (.)",
+        "Semicolon (;)",
+        "Two vertical dots (:)",
+        "exclamation mark (!)"
       ],
-      "correct": "فاصلة منقوطة (;)",
+      "correct": "Semicolon (;)",
       "score": 10
     },
     {
       "id": 10,
       "type": "mcq",
-      "text": "كيف نقوم بعمل تعليق لسطر واحد (Comment) في PHP لتوضيح الكود للمبرمجين الآخرين؟",
+      "text": "How do we make a one-line comment in PHP to explain the code to other programmers?",
       "options": [
-        "# تعليق",
-        "// تعليق",
-        "/* تعليق */",
-        "جميع الخيارات صحيحة"
+        "# comment",
+        "// comment",
+        "/* comment */",
+        "All options are correct"
       ],
-      "correct": "جميع الخيارات صحيحة",
+      "correct": "All options are correct",
       "score": 10
     },
     {
       "id": 11,
       "type": "task",
-      "text": "اكتب الكود البرمجي لتعريف متغير اسمه '$age' وتخزين القيمة '15' فيه، ثم كتابة شرط لطباعة كلمة 'أهلاً بك يا سينيور' إذا كان العمر أكبر من أو يساوي 10 سنوات.",
-      "correct_code": "$age = 15;\nif ($age >= 10) {\n    echo \"أهلاً بك يا سينيور\";\n}",
+      "text": "Write code to define a variable named '$age' and store the value '15' in it, then write a condition to print the word 'Welcome, Senior' if the age is greater than or equal to 10 years.",
+      "correct_code": "$age = 15;\nif ($age >= 10) {\n    echo \"Hello, Senior\";\n}",
       "score": 20
     },
     {
       "id": 12,
       "type": "task",
-      "text": "اكتب كوداً يربط نصين معاً: متغير أول اسمه '$part1' بقيمة 'عالم ' ومتغير ثاني اسمه '$part2' بقيمة 'ميجامايندز'، واطبع ناتج دمج النصين.",
-      "correct_code": "$part1 = \"عالم \";\n$part2 = \"ميجامايندز\";\necho $part1 . $part2;",
+      "text": "Write code that links two strings together: a first variable named '$part1' with the value 'world' and a second variable named '$part2' with the value 'megaminds', and print the result of combining the two strings.",
+      "correct_code": "$part1 = \"world\";\n$part2 = \"MegaMinds\";\necho $part1 . $part2;",
       "score": 20
     }
   ]

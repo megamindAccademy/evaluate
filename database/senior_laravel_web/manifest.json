@@ -1,7 +1,7 @@
 {
   "course_id": "senior_laravel_web",
   "course_title": "Laravel PHP Backend (Web)",
-  "desc": "احترف تطوير مواقع الويب الديناميكية والشاملة من الصفر! تعلم هندسة MVC، وتصميم قواعد البيانات وبناء الجداول باستخدام Migrations، وبرمجة محرك قوالب العرض Blade، وتنفيذ كامل العمليات الحسابية وقاعدة البيانات CRUD، وتأمين حماية الجلسات وتسجيل المستخدمين لبناء موقع متجر كعك متكامل تفاعلي! 🐘💻",
+  "desc": "Master the development of dynamic and comprehensive websites from scratch! Learn MVC architecture, database design and table building using Migrations, programming the Blade template engine, implementing full arithmetic and database CRUD operations, securing session protection and registering users to build a fully interactive cake shop website! 🐘💻",
   "icon": "🐘",
   "icon_bg_class": "icon-python",
   "status": "active",

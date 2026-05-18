@@ -1,11 +1,11 @@
 {
   "quiz_title": "MIT App Inventor (Senior) - Challenge 5",
-  "quick_brief": "تحدي الأسبوع الخامس: اختبر مهاراتك المتقدمة في برمجة قواعد اتخاذ القرار العشوائي وتصميم عمارة التطبيقات الضخمة متعددة الشاشات كعيادة الطبيب الذكي!",
+  "quick_brief": "Week 5 Challenge: Test your advanced skills in programming random decision-making rules and designing the architecture of huge multi-screen applications such as a smart doctor’s clinic!",
   "questions": [
     {
       "id": 1,
       "type": "mcq",
-      "text": "أي كتل برمجية تُستخدم لاختيار عنصر عشوائي تماماً من قائمة الاختيارات (حجر، ورقة، مقص) لمحاكاة ذكاء الهاتف؟",
+      "text": "Which block of code is used to select a completely random item from a list of choices (rock, paper, scissors) to simulate phone intelligence?",
       "options": [
         "pick a random item",
         "select list item",
@@ -18,20 +18,20 @@
     {
       "id": 2,
       "type": "mcq",
-      "text": "عند بناء تطبيقات ضخمة تتكون من شاشات متعددة (مثل تطبيق العيادة الطبيب)، كيف نقوم بإرسال اسم المريض المسجل إلى شاشة الحجز المتقدمة؟",
+      "text": "When building large applications consisting of multiple screens (such as a doctor's office application), how do we send the registered patient name to the advanced booking screen?",
       "options": [
-        "استخدام open another screen with start value",
-        "استخدام close screen",
-        "استخدام Canvas.DrawPoint",
-        "استخدام TextToSpeech"
+        "Use open another screen with start value",
+        "Use close screen",
+        "Use Canvas.DrawPoint",
+        "Use TextToSpeech"
       ],
-      "correct": "استخدام open another screen with start value",
+      "correct": "Use open another screen with start value",
       "score": 10
     },
     {
       "id": 3,
       "type": "mcq",
-      "text": "أي لبنة نستخدمها داخل الشاشة الثانية لاستقبال وقراءة القيمة المرسلة إليها (اسم المريض مثلاً) من الشاشة الأولى؟",
+      "text": "Which brick do we use inside the second screen to receive and read the value sent to it (the patient’s name, for example) from the first screen?",
       "options": [
         "get start value",
         "open another screen",
@@ -44,7 +44,7 @@
     {
       "id": 4,
       "type": "mcq",
-      "text": "في لعبة حجر ورقة مقص، لمقارنة تعادل الاختيارات، نتحقق من الشرط المنطقي:",
+      "text": "In the game rock-paper-scissors, to compare the equivalence of choices, we check the logical condition:",
       "options": [
         "if get userChoice = get pcChoice",
         "if get userChoice > get pcChoice",
@@ -57,7 +57,7 @@
     {
       "id": 5,
       "type": "mcq",
-      "text": "تطبيق العيادة الطبية المتكامل يتكون من عدة شاشات، أي شاشة تُستخدم لحساب أسعار الخدمات الطبية وحجز موعد الكشف؟",
+      "text": "The integrated medical clinic application consists of several screens. Which screen is used to calculate prices for medical services and book an examination appointment?",
       "options": [
         "Welcome Screen",
         "Sign up Screen",
@@ -70,7 +70,7 @@
     {
       "id": 6,
       "type": "mcq",
-      "text": "أي خاصية في عناصر التحديد (CheckBox) تُستخدم للتحقق برمجياً مما إذا كان المستخدم قد حدد خياراً طبياً معيناً كخدمة كشف الأسنان؟",
+      "text": "Which property in the CheckBox element is used to programmatically check whether the user has selected a specific medical option such as a dental check-up service?",
       "options": [
         "Checked",
         "Text",
@@ -83,20 +83,20 @@
     {
       "id": 7,
       "type": "mcq",
-      "text": "إذا قمنا بفتح الشاشة بكود open another screen with start value (screenName = \"Home\", startValue = \"مرحبا\"). ما هي القيمة التي سترجعها get start value في الشاشة Home؟",
+      "text": "If we open another screen with start value (screenName = \"Home\", startValue = \"Hello\"). What value will get start value return in the Home screen?",
       "options": [
         "Home",
-        "مرحبا",
-        "فارغ",
-        "خطأ برمي"
+        "Welcome",
+        "empty",
+        "Throwing error"
       ],
-      "correct": "مرحبا",
+      "correct": "Welcome",
       "score": 10
     },
     {
       "id": 8,
       "type": "mcq",
-      "text": "لتحديث فاتورة الحساب للمريض وزيادتها بمقدار 50 دولار عند تحديد خدمة طبية، نكتب المعادلة:",
+      "text": "To update the patient's bill and increase it by $50 when selecting a medical service, we write the equation:",
       "options": [
         "set global total to (get global total + 50)",
         "set global total to 50",
@@ -109,7 +109,7 @@
     {
       "id": 9,
       "type": "mcq",
-      "text": "أي عنصر برمي نستخدمه لعرض خيارات عيادات الطبيب (أسنان، عيون، أطفال) في قائمة منسدلة يختار المستخدم منها خياراً واحداً؟",
+      "text": "Which HTML element do we use to display the doctor's office options (teeth, eyes, children) in a drop-down list from which the user can choose one option?",
       "options": [
         "SpinnerComponent",
         "TextBox",
@@ -122,7 +122,7 @@
     {
       "id": 10,
       "type": "mcq",
-      "text": "عند بناء تطبيق طبي، للحصول على رقم عشوائي كود حجز الطبيب للمريض، نستخدم لبنة:",
+      "text": "When building a medical application, to get a random number of doctor's reservation code for a patient, we use a building block:",
       "options": [
         "random integer from 1000 to 9999",
         "absolute value",
@@ -135,15 +135,15 @@
     {
       "id": 11,
       "type": "task",
-      "text": "اكتب الكود البرمجي لاختيار عنصر عشوائي من قائمة تحتوي على العناصر ('حجر'، 'ورق'، 'مقص') وإسناد القيمة لمتغير اسمه global_pc.",
-      "correct_code": "set global_pc to call pick a random item (list = create empty list [\"حجر\", \"ورق\", \"مقص\"])",
+      "text": "Write code to select a random item from a list containing items ('rock', 'paper', 'scissors') and assign the value to a variable named global_pc.",
+      "correct_code": "set global_pc to call pick a random item (list = create empty list [\"stone\", \"paper\", \"scissors\"])",
       "score": 20
     },
     {
       "id": 12,
       "type": "task",
-      "text": "اكتب كود الانتقال إلى شاشة اسمها 'ClinicScreen' مع إرسال القيمة النصية 'عيادة العيون' كقيمة بداية للمريض.",
-      "correct_code": "call open another screen with start value (screenName = \"ClinicScreen\", startValue = \"عيادة العيون\")",
+      "text": "Type the code to go to a screen called 'ClinicScreen', sending the text value 'Eye Clinic' as the starting value for the patient.",
+      "correct_code": "call open another screen with start value (screenName = \"ClinicScreen\", startValue = \"Eye Clinic\")",
       "score": 20
     }
   ]

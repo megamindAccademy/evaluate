@@ -1,139 +1,139 @@
 {
   "course_id": "junior_pictoblox_3d",
   "course_title": "PicToBlox 3D",
-  "course_subtitle": "مرحباً بك في عالم البرمجة ثلاثية الأبعاد الساحر! هنا ستتحكم في الكاميرات، تطبق قوانين الجاذبية والفيزياء، وتبني المجموعة الشمسية وألعاب التصويب ثلاثية الأبعاد. افتح المحطات وادخل البعد الثالث!",
+  "course_subtitle": "Welcome to the magical world of 3D programming! Here you will control cameras, apply the laws of gravity and physics, build a solar system and play 3D shooting games. Open the terminals and enter the third dimension!",
   "xp_total": 600,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
       "badge_icon": "🧊",
-      "badge_title": "وسام البعد الثالث (3D Coordinates)",
-      "title": "المحطة 1: الإحداثيات والكاميرا ثلاثية الأبعاد",
-      "desc": "تعلم كيف تتحكم في الإحداثيات الثلاثية (X, Y, Z) وتوجه الكاميرا لتدور حول الشخصيات بمهارة.",
-      "story": "أهلاً بك يا بطل المستقبل في عالم 3D! الشاشة هنا ليست مسطحة، بل تحتوي على عمق (Z) بالإضافة للطول والعرض. نستخدم بلوكات الكاميرا لنجعلها تدور حول الكائن ونراه من كل الاتجاهات.",
-      "simple": "زي ألعاب البلايستيشن 3D (مثل فورتنايت وماين كرافت)! بتقدر تلف الكاميرا وتشوف ظهر الشخصية والجنب وتعيش جوه اللعبة بجد!",
-      "hint": "اكتب في المحرر: <code>print(\"تم ضبط الكاميرا والإحداثيات ثلاثية الأبعاد بنجاح\")</code> ثم اضغط تشغيل!",
-      "challenge": "قم بطباعة الجملة السحرية <code>تم ضبط الكاميرا والإحداثيات ثلاثية الأبعاد بنجاح</code> لمحاكاة الكاميرا.",
-      "starter_code": "# محاكاة الكاميرا والإحداثيات 3D:\n",
+      "badge_title": "3D Coordinates Medal",
+      "title": "Station 1: Coordinates and 3D camera",
+      "desc": "Learn how to control the triple coordinates (X, Y, Z) and direct the camera to revolve around the characters skillfully.",
+      "story": "Welcome, future hero, to the 3D world! The screen here is not flat, but rather has a depth (Z) in addition to height and width. We use camera blocks to make it revolve around the object and see it from all directions.",
+      "simple": "Like 3D PlayStation games (such as Fortnite and Minecraft)! You can turn the camera and see the character's back and side and truly live the game!",
+      "hint": "Type in the editor: <code>print(\"Camera and 3D coordinates set successfully\")</code> and press Run!",
+      "challenge": "Print the magic statement <code>Camera and 3D coordinates were set successfully</code> to simulate the camera.",
+      "starter_code": "# Camera simulation and 3D coordinates:",
       "pills": [
         {
-          "label": "ضبط الكاميرا 3D",
-          "code": "print(\"تم ضبط الكاميرا والإحداثيات ثلاثية الأبعاد بنجاح\")"
+          "label": "3D camera settings",
+          "code": "print(\"The camera and 3D coordinates have been set successfully\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم ضبط الكاميرا والإحداثيات ثلاثية الأبعاد بنجاح",
+        "required_output_text": "The camera and 3D coordinates have been set successfully",
         "required_canvas": false
       }
     },
     {
       "id": 2,
       "badge_icon": "🍎",
-      "badge_title": "وسام الجاذبية والفيزياء (Physics)",
-      "title": "المحطة 2: الجاذبية والفيزياء الواقعية",
-      "desc": "فعل محرك الفيزياء واجعل الكرة تسقط بفعل الجاذبية وتصطدم بالأرض وترتد بشكل واقعي تماماً!",
-      "story": "الفيزياء تجعل الألعاب حقيقية! نستخدم بلوكات الفيزياء (تفعيل الجاذبية) لنجعل الأشياء تسقط لأسفل وتصطدم بالجدران وترتد حسب مرونتها ووزنها.",
-      "simple": "زي الكورة الكاوتش الحقيقية! لما تسيبها من إيدك بتقع على الأرض وتتنطط كذا مرة لحد ما تقف لوحدها بفعل الجاذبية!",
-      "hint": "اكتب <code>print(\"سقطت الكرة واصطدمت بالأرض بفعل الجاذبية\")</code>.",
-      "challenge": "قم بطباعة العبارة السحرية <code>سقطت الكرة واصطدمت بالأرض بفعل الجاذبية</code> لمحاكاة الفيزياء.",
-      "starter_code": "# محاكاة الجاذبية والفيزياء 3D:\n",
+      "badge_title": "Gravity and Physics Medal",
+      "title": "Station 2: Gravity and realistic physics",
+      "desc": "Activate the physics engine and make the ball fall due to gravity, hit the ground and bounce in a completely realistic way!",
+      "story": "Physics makes the games real! We use physics blocks (activating gravity) to make objects fall down, hit walls, and bounce based on their flexibility and weight.",
+      "simple": "Like real football! When you let it go, it falls to the ground and bounces several times until it stands on its own due to gravity!",
+      "hint": "Type <code>print(\"The ball fell and hit the ground due to gravity\")</code>.",
+      "challenge": "Print the magic phrase <code>The ball falls and hits the ground due to gravity</code> to simulate physics.",
+      "starter_code": "# Gravity simulation and 3D physics:",
       "pills": [
         {
-          "label": "تشغيل الجاذبية",
-          "code": "print(\"سقطت الكرة واصطدمت بالأرض بفعل الجاذبية\")"
+          "label": "Gravity run",
+          "code": "print(\"The ball fell and hit the ground due to gravity\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "سقطت الكرة واصطدمت بالأرض بفعل الجاذبية",
+        "required_output_text": "The ball fell and hit the ground due to gravity",
         "required_canvas": false
       }
     },
     {
       "id": 3,
       "badge_icon": "🚗",
-      "badge_title": "وسام السائق الماهر (3D Car)",
-      "title": "المحطة 3: توجيه سيارة السباق ثلاثية الأبعاد",
-      "desc": "برمج سيارة سباق 3D لتتحرك للأمام وتلتف يميناً ويساراً في مسار السباق المذهل!",
-      "story": "قيادة السيارات ثلاثية الأبعاد حماسية جداً! نبرمج عجلات السيارة لتستجيب لأسهم الكيبورد، ونضيف قوة دفع للمحرك لتنطلق السيارة في المضمار ثلاثي الأبعاد.",
-      "simple": "زي ألعاب نيد فور سبيد (Need for Speed)! بتسوق العربية وتدوس بنزين وتلف يمين وشمال وسط العمارات والمضمار!",
-      "hint": "اكتب <code>print(\"انطلقت سيارة السباق ثلاثية الأبعاد بمهارة\")</code>.",
-      "challenge": "قم بطباعة الجملة السحرية <code>انطلقت سيارة السباق ثلاثية الأبعاد بمهارة</code> لمحاكاة حركة السيارة.",
-      "starter_code": "# محاكاة سيارة السباق 3D:\n",
+      "badge_title": "Skilled Driver Medal (3D Car)",
+      "title": "Station 3: Steering the 3D race car",
+      "desc": "Program your 3D racing car to move forward and turn left and right on the amazing race track!",
+      "story": "Driving 3D cars is very exciting! We program the car's wheels to respond to keyboard arrows, and we add momentum to the engine to send the car off the 3D track.",
+      "simple": "Need for Speed ​​games! You drive the car, step on gasoline, and damage the right and left of the middle of the buildings and the track!",
+      "hint": "Type <code>print(\"The 3D race car took off skillfully\")</code>.",
+      "challenge": "Print the magic sentence <code>The 3D racing car sped off</code> to simulate the movement of the car.",
+      "starter_code": "# Racing car simulator 3D:",
       "pills": [
         {
-          "label": "تشغيل سيارة السباق",
-          "code": "print(\"انطلقت سيارة السباق ثلاثية الأبعاد بمهارة\")"
+          "label": "Run a race car",
+          "code": "print(\"The 3D racing car started off skillfully\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "انطلقت سيارة السباق ثلاثية الأبعاد بمهارة",
+        "required_output_text": "The 3D racing car started skillfully",
         "required_canvas": false
       }
     },
     {
       "id": 4,
       "badge_icon": "🪐",
-      "badge_title": "وسام الفلكي الصغير (Solar System)",
-      "title": "المحطة 4: محاكاة المجموعة الشمسية",
-      "desc": "اصنع نموذجاً ثلاثي الأبعاد للمجموعة الشمسية واجعل الكواكب تدور حول الشمس بسرعات مختلفة!",
-      "story": "الفضاء الخارجي مذهل في البعد الثالث! نضع مجسماً للشمس في المركز، ونبرمج كوكب الأرض وباقي الكواكب لتدور في مدارات دائرية مستمرة بسرعات متفاوتة.",
-      "simple": "زي القبة السماوية في المتحف! بتشوف الكواكب مجسمة وبتلف حوالين الشمس في نظام بديع ومذهل!",
-      "hint": "اكتب <code>print(\"الكواكب تدور حول الشمس في مدارات ثلاثية الأبعاد\")</code>.",
-      "challenge": "قم بطباعة عبارة <code>الكواكب تدور حول الشمس في مدارات ثلاثية الأبعاد</code> لمحاكاة حركة الكواكب.",
-      "starter_code": "# محاكاة دوران المجموعة الشمسية 3D:\n",
+      "badge_title": "Junior Astronomer Medal (Solar System)",
+      "title": "Station 4: Solar system simulation",
+      "desc": "Make a 3D model of the solar system and make the planets revolve around the sun at different speeds!",
+      "story": "Outer space is amazing in the third dimension! We place a model of the sun in the center, and program the Earth and the rest of the planets to rotate in continuous circular orbits at varying speeds.",
+      "simple": "Planetarium costume in the museum! You see the planets in holograms and orbiting around the sun in a wonderful and amazing system!",
+      "hint": "Type <code>print(\"The planets orbit the Sun in 3D orbits\")</code>.",
+      "challenge": "Print the statement <code>The planets orbit the sun in 3D orbits</code> to simulate the motion of the planets.",
+      "starter_code": "# 3D solar system rotation simulation:",
       "pills": [
         {
-          "label": "دوران الكواكب 3D",
-          "code": "print(\"الكواكب تدور حول الشمس في مدارات ثلاثية الأبعاد\")"
+          "label": "Planetary rotation 3D",
+          "code": "print(\"The planets revolve around the sun in three-dimensional orbits\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "الكواكب تدور حول الشمس في مدارات ثلاثية الأبعاد",
+        "required_output_text": "The planets revolve around the sun in three-dimensional orbits",
         "required_canvas": false
       }
     },
     {
       "id": 5,
       "badge_icon": "🏹",
-      "badge_title": "وسام القناص الماهر (Vectors)",
-      "title": "المحطة 5: لعبة صيد البط ثلاثية الأبعاد",
-      "desc": "برمج حركة وتوجيه القناص 3D لاصطياد البط الطائر في السماء واحتساب النقاط بمهارة!",
-      "story": "ألعاب التصويب تتطلب دقة في المتجهات (Vectors)! نبرمج حركة المؤشر ثلاثي الأبعاد ليتابع حركة البط الطائر، وعند إطلاق النار نتحقق من حدوث الاصطدام (Raycasting).",
-      "simple": "زي لعبة صيد البط بالمسدس في الملاهي! بتنشن على البطة اللي بتطير وتضرب عشان تقع وتكسب الجايزة!",
-      "hint": "اكتب <code>print(\"تم اصطياد البطة الطائرة واحتساب النقطة 3D\")</code>.",
-      "challenge": "قم بطباعة الجملة السحرية <code>تم اصطياد البطة الطائرة واحتساب النقطة 3D</code> لمحاكاة لعبة الصيد.",
-      "starter_code": "# محاكاة لعبة صيد البط 3D:\n",
+      "badge_title": "Skilled Sniper Medal (Vectors)",
+      "title": "Station 5: 3D duck hunting game",
+      "desc": "Program the movement and direction of the 3D sniper to hunt ducks flying in the sky and score points skillfully!",
+      "story": "Shooting games require precision in vectors! We program the movement of the 3D cursor to follow the movement of flying ducks, and when shooting we check whether a collision has occurred (Raycasting).",
+      "simple": "Like a duck hunting game with a gun in an amusement park! You shout at the duck that is flying and hit it so that it falls and wins the prize!",
+      "hint": "Type <code>print(\"The flying duck is caught and the 3D point is calculated\")</code>.",
+      "challenge": "Print the magic sentence <code>The flying duck has been caught and calculate the 3D point</code> to simulate a hunting game.",
+      "starter_code": "#Duck hunting game simulator 3D:",
       "pills": [
         {
-          "label": "صيد البطة 3D",
-          "code": "print(\"تم اصطياد البطة الطائرة واحتساب النقطة 3D\")"
+          "label": "Duck hunting 3D",
+          "code": "print(\"The flying duck was caught and the 3D point was calculated\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم اصطياد البطة الطائرة واحتساب النقطة 3D",
+        "required_output_text": "The flying duck is caught and the 3D point is counted",
         "required_canvas": false
       }
     },
     {
       "id": 6,
       "badge_icon": "🏆",
-      "badge_title": "وسام مطور الألعاب 3D (Game UI)",
-      "title": "المحطة 6: واجهات وأصوات اللعبة 3D",
-      "desc": "المحطة الختامية الكبرى! دمج لوحة النتائج (UI Canvas) والمؤثرات الصوتية لإخراج لعبتك ثلاثية الأبعاد بشكل احترافي!",
-      "story": "المحطة الختامية الكبرى في عالم 3D! سنقوم بدمج واجهة المستخدم (UI Overlay) لتعرض النقاط وعداد الطاقة، مع تشغيل موسيقى تصويرية مجسمة لتكتمل تحفتك الفنية!",
-      "simple": "زي شاشة التلفزيون في الماتش! اللعبة شغالة 3D في الخلفية، ومكتوب النتيجة والوقت من فوق بوضوح تام!",
-      "hint": "اكتب <code>print(\"تم تشغيل اللعبة ثلاثية الأبعاد بالكامل بنجاح وفوز البطل!\")</code>.",
-      "challenge": "قم بطباعة العبارة الختامية <code>تم تشغيل اللعبة ثلاثية الأبعاد بالكامل بنجاح وفوز البطل!</code> للاحتفال بإنجاز لعبتك المجسمة الأولى!",
-      "starter_code": "# محاكاة تشغيل اللعبة 3D الختامية:\n",
+      "badge_title": "3D Game Developer Medal (Game UI)",
+      "title": "Station 6: 3D game interfaces and sounds",
+      "desc": "The grand final stop! Combine scoreboard (UI Canvas) and sound effects to bring out your 3D game like a professional!",
+      "story": "The grand final stop in the 3D world! We'll integrate a UI Overlay to display points and a power meter, with a surround soundtrack to complete your masterpiece!",
+      "simple": "Like the TV screen in the match! The game is running in 3D in the background, and the score and time are written above very clearly!",
+      "hint": "Type <code>print(\"The full 3D game ran successfully and the hero won!\")</code>.",
+      "challenge": "Print the closing phrase <code>The 3D game has been fully run successfully and the champion wins!</code> to celebrate the completion of your first 3D game!",
+      "starter_code": "# Final 3D game running simulation:",
       "pills": [
         {
-          "label": "تشغيل اللعبة 3D الختامية",
-          "code": "print(\"تم تشغيل اللعبة ثلاثية الأبعاد بالكامل بنجاح وفوز البطل!\")"
+          "label": "Run the final 3D game",
+          "code": "print(\"The entire 3D game has been run successfully and the hero has won!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم تشغيل اللعبة ثلاثية الأبعاد بالكامل بنجاح وفوز البطل!",
+        "required_output_text": "The fully 3D game runs successfully and the hero wins!",
         "required_canvas": false
       }
     }

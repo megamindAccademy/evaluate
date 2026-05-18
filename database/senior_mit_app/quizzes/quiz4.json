@@ -1,11 +1,11 @@
 {
   "quiz_title": "MIT App Inventor (Senior) - Challenge 4",
-  "quick_brief": "تحدي الأسبوع الرابع: اختبر مهاراتك الرياضية والفيزيائية في برمجة اصطدام وارتداد الكرات (Ball Component) وعرض وإدارة المهام في الـ ListView!",
+  "quick_brief": "Challenge of the fourth week: Test your mathematical and physics skills in programming the collision and bounce of balls (Ball Component) and displaying and managing tasks in the ListView!",
   "questions": [
     {
       "id": 1,
       "type": "mcq",
-      "text": "أي عنصر برمي متحرك يوضع داخل Canvas ويمتلك شكلاً كروياً وخصائص فيزيائية جاهزة للارتداد؟",
+      "text": "Which moving ballistic object placed inside the Canvas has a spherical shape and physical properties ready to bounce?",
       "options": [
         "ImageSprite",
         "Ball",
@@ -18,7 +18,7 @@
     {
       "id": 2,
       "type": "mcq",
-      "text": "أي حدث برمي يُنفذ تلقائياً بمجرد ملامسة الكرة المتحركة لحافة أو حدود لوحة الرسم Canvas؟",
+      "text": "Which throwing event is automatically executed once the moving ball touches the edge or border of the Canvas?",
       "options": [
         "when Ball1.EdgeReached",
         "when Ball1.CollidedWith",
@@ -31,7 +31,7 @@
     {
       "id": 3,
       "type": "mcq",
-      "text": "لجعل الكرة ترتد تلقائياً عند اصطدامها بأي حافة، نستخدم الدالة البرمجية:",
+      "text": "To make the ball bounce automatically when it hits any edge, we use the code function:",
       "options": [
         "call Ball1.Bounce (edge)",
         "call Ball1.MoveTo (x, y)",
@@ -44,7 +44,7 @@
     {
       "id": 4,
       "type": "mcq",
-      "text": "ما هي اللبنة البرمجية المستخدمة لإنشاء مصفوفة (قائمة برمجية فارغة) لتخزين المهام بداخلها؟",
+      "text": "What programming block is used to create an array (empty list) to store tasks in?",
       "options": [
         "create empty list",
         "add items to list",
@@ -57,7 +57,7 @@
     {
       "id": 5,
       "type": "mcq",
-      "text": "أي عنصر واجهة نستخدمه لعرض القائمة البرمجية (List) على شاشة التطبيق بشكل عمودي تفاعلي؟",
+      "text": "Which interface element do we use to display the List on the application screen in an interactive vertical manner?",
       "options": [
         "TextBox",
         "ListView",
@@ -70,7 +70,7 @@
     {
       "id": 6,
       "type": "mcq",
-      "text": "أي خاصية في عنصر الـ ListView يجب إسناد القائمة إليها لعرض محتوياتها فوراً على الشاشة للمستخدم؟",
+      "text": "Which property of the ListView element should the list be assigned to display its contents immediately on the screen to the user?",
       "options": [
         "Elements",
         "Selection",
@@ -83,7 +83,7 @@
     {
       "id": 7,
       "type": "mcq",
-      "text": "عند حدوث تصادم بين الكرة Ball1 ومضرب اللاعب، لتغيير اتجاه الكرة لترتد بشكل واقعي، نعدل زاوية الحركة المسمى بـ:",
+      "text": "When a collision occurs between Ball1 and the player's racket, to change the direction of the ball to bounce realistically, we adjust the angle of movement called:",
       "options": [
         "Heading",
         "Speed",
@@ -96,7 +96,7 @@
     {
       "id": 8,
       "type": "mcq",
-      "text": "أي لبنة نستخدمها لإضافة مهمة جديدة يكتبها المستخدم إلى مصفوفتنا البرمجية المسمى global taskList؟",
+      "text": "Which building block do we use to add a new user-typed task to our global taskList?",
       "options": [
         "add items to list (list, item)",
         "remove list item (list, index)",
@@ -109,20 +109,20 @@
     {
       "id": 9,
       "type": "mcq",
-      "text": "عند برمجة ارتداد الكرة عند ملامسة المضرب، كيف نعرف الكائن الآخر الذي تصادمت معه الكرة؟",
+      "text": "When programming the ball's bounce upon contact with the racket, how do we know which other object the ball collided with?",
       "options": [
-        "باستخدام متغير edge المحلي",
-        "باستخدام متغير other المحلي المتاح بالحدث",
-        "باستخدام قيمة X و Y",
-        "باستخدام عنصر TinyDB"
+        "Using the local edge variable",
+        "Using the local other variable provided by the event",
+        "Using the value of X and Y",
+        "Using the TinyDB component"
       ],
-      "correct": "باستخدام متغير other المحلي المتاح بالحدث",
+      "correct": "Using the local other variable provided by the event",
       "score": 10
     },
     {
       "id": 10,
       "type": "mcq",
-      "text": "ما هي اللبنة التي تعطينا عدد العناصر الإجمالي المخزنة داخل مصفوفة برمجية معينة؟",
+      "text": "What is the building block that gives us the total number of elements stored within a given array?",
       "options": [
         "length of list",
         "is list empty",
@@ -135,14 +135,14 @@
     {
       "id": 11,
       "type": "task",
-      "text": "اكتب الكود البرمجي لجعل الكرة Ball1 ترتد عند ملامسة الحواف باستخدام متغير الحافة المحلي المسمى edge.",
+      "text": "Write code to make Ball1 bounce when it touches edges using a local edge variable called edge.",
       "correct_code": "when Ball1.EdgeReached (edge)\ndo call Ball1.Bounce (get edge)",
       "score": 20
     },
     {
       "id": 12,
       "type": "task",
-      "text": "اكتب الكود لإضافة النص المكتوب داخل TextBox1 إلى قائمة المهام البرمجية المسماة global_myTasks.",
+      "text": "Write the code to add the text inside TextBox1 to the list of tasks called global_myTasks.",
       "correct_code": "add items to list (list = get global_myTasks, item = get TextBox1.Text)",
       "score": 20
     }

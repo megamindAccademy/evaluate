@@ -1,139 +1,139 @@
 {
   "course_id": "ai",
   "course_title": "Artificial Intelligence",
-  "course_subtitle": "مرحباً بك في عالم الذكاء الاصطناعي وتعلم الآلة! هنا ستصنع أنظمة ذكية تتعرف على الوجوه، تحاكي شات جي بي تي (ChatGPT)، وتلعب معك حجر ورقة مقص برمجياً. افتح المحطات واكتشف أسرار المستقبل!",
+  "course_subtitle": "Welcome to the world of artificial intelligence and machine learning! Here you will create smart systems that recognize faces, simulate ChatGPT, and play rock-paper-scissors with you programmatically. Unlock stations and discover the secrets of the future!",
   "xp_total": 600,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
       "badge_icon": "🎯",
-      "badge_title": "وسام المصنف الذكي (K-NN)",
-      "title": "المحطة 1: خوارزمية الجار الأقرب (K-NN)",
-      "desc": "تعلم كيف يصنف الذكاء الاصطناعي الأشياء الجديدة بناءً على جيرانها الأقرب في المسافة الهندسية.",
-      "story": "أهلاً بك يا عالم المستقبل في مختبر الذكاء الاصطناعي! لكي نجعل الكمبيوتر يتعرف على الأشياء، نستخدم خوارزمية بسيطة وذكية تسمى (K-NN). هي تصنف أي عنصر مجهول حسب الأغلبية من جيرانه الأقرب!",
-      "simple": "تخيل إنك في مدرسة جديدة ومش عارف تقعد فين! لو لقيت 3 طلاب بيحبوا البرمجة قاعدين في ديسك، وطالب واحد بيحب الرسم في ديسك تاني، طبيعي هتقعد مع أغلبية جيرانك بتوع البرمجة!",
-      "hint": "اكتب في المحرر: <code>print(\"تم تصنيف العنصر بنجاح باستخدام K-NN\")</code> ثم اضغط تشغيل!",
-      "challenge": "قم بطباعة العبارة السحرية <code>تم تصنيف العنصر بنجاح باستخدام K-NN</code> لمحاكاة عمل خوارزمية الجار الأقرب.",
-      "starter_code": "# محاكاة خوارزمية K-NN لتصنيف البيانات:\nneighbors = 3\n",
+      "badge_title": "Smart Classifier Medal (K-NN)",
+      "title": "Station 1: K-Nearest Neighbor (K-NN) algorithm",
+      "desc": "Learn how AI classifies new objects based on their nearest neighbors in geometric distance.",
+      "story": "Welcome, future scientist, to the Artificial Intelligence Laboratory! In order to make the computer recognize objects, we use a simple and intelligent algorithm called (K-NN). It ranks any unknown element according to the majority of its nearest neighbors!",
+      "simple": "Imagine that you are in a new school and you do not know where to sit! If you find 3 students who love programming sitting at one desk, and one student who loves drawing at another desk, naturally you will sit with the majority of your neighbors who are into programming!",
+      "hint": "Type in the editor: <code>print(\"Object was successfully classified using K-NN\")</code> and press Run!",
+      "challenge": "Print the magic statement <code>Item was classified successfully using K-NN</code> to simulate the working of the nearest neighbor algorithm.",
+      "starter_code": "# Simulate the K-NN algorithm for data classification:\nneighbors = 3",
       "pills": [
         {
-          "label": "تشغيل تصنيف K-NN",
-          "code": "print(\"تم تصنيف العنصر بنجاح باستخدام K-NN\")"
+          "label": "Run K-NN classification",
+          "code": "print(\"The item was successfully classified using K-NN\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم تصنيف العنصر بنجاح باستخدام K-NN",
+        "required_output_text": "The item was successfully classified using K-NN",
         "required_canvas": false
       }
     },
     {
       "id": 2,
       "badge_icon": "📷",
-      "badge_title": "وسام كاشف الوجوه (OpenCV)",
-      "title": "المحطة 2: كشف الوجوه بالكاميرا (OpenCV)",
-      "desc": "استخدم مكتبة الرؤية الحاسوبية (OpenCV) وخوارزمية Haar Cascade لتحديد ورسم مربعات حول وجوه الأبطال!",
-      "story": "الكمبيوتر يستطيع الرؤية عبر الكاميرا الرقمية! نستخدم مكتبة بايثون الشهيرة (OpenCV) ونمرر لها خوارزمية سريعة تبحث عن فروقات الإضاءة في الوجه (Haar Cascade) لترسم مربعاً حوله فوراً.",
-      "simple": "زي فلتر السناب شات والإنستجرام! أول ما تفتح الكاميرا، الذكاء الاصطناعي بيميز مكان عينيك ومناخيرك ويرسم عليهم الفلتر في ثانية!",
-      "hint": "اكتب <code>import cv2</code> ثم في السطر التالي <code>print(\"تم تشغيل كاميرا OpenCV وكشف الوجه!\")</code>.",
-      "challenge": "قم باستدعاء مكتبة الرؤية <code>import cv2</code> واطبع عبارة <code>تم تشغيل كاميرا OpenCV وكشف الوجه!</code>.",
-      "starter_code": "# استدعِ مكتبة OpenCV وشغل الكاميرا:\n",
+      "badge_title": "Face Detector Medal (OpenCV)",
+      "title": "Station 2: Detect faces with the camera (OpenCV)",
+      "desc": "Use the Computer Vision (OpenCV) library and the Haar Cascade algorithm to identify and draw boxes around heroes' faces!",
+      "story": "The computer can see through the digital camera! We use the famous Python library (OpenCV) and pass it a fast algorithm that searches for light differences in the face (Haar Cascade) to draw a box around it immediately.",
+      "simple": "Like Snapchat and Instagram filters! As soon as you open the camera, the artificial intelligence recognizes the location of your eyes and nostrils and applies a filter to them in a second!",
+      "hint": "Type <code>import cv2</code> and then in the next line <code>print(\"OpenCV camera and face detection turned on!\")</code>.",
+      "challenge": "Call the vision library <code>import cv2</code> and print the statement <code>OpenCV camera and face detection turned on!</code>.",
+      "starter_code": "# Call the OpenCV library and run the camera:",
       "pills": [
         {
-          "label": "تشغيل كشف الوجوه",
-          "code": "import cv2\nprint(\"تم تشغيل كاميرا OpenCV وكشف الوجه!\")"
+          "label": "Turn on face detection",
+          "code": "import cv2\nprint(\"OpenCV camera and face detection turned on!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم تشغيل كاميرا OpenCV وكشف الوجه!",
+        "required_output_text": "OpenCV camera and face detection turned on!",
         "required_canvas": false
       }
     },
     {
       "id": 3,
       "badge_icon": "💬",
-      "badge_title": "وسام العقل اللغوي (ChatGPT)",
-      "title": "المحطة 3: نماذج اللغة الضخمة (ChatGPT)",
-      "desc": "اكتشف كيف تعمل نماذج الذكاء الاصطناعي التوليدي (LLMs) وكيف تفهم وتولد نصوصاً تحاكي البشر تماماً.",
-      "story": "شات جي بي تي (ChatGPT) ليس سحراً، بل هو نموذج ذكاء اصطناعي توليدي تدرب على مليارات النصوص والكتب ليفهم سياق الكلام ويولد إجابات ذكية ومترابطة!",
-      "simple": "زي الكاتب الآلي العبقري! قرا كل كتب العالم، ولما تسأله سؤال بيفكر في أنسب الكلمات ويرصها ورا بعض بأسلوب جميل ومقنع!",
-      "hint": "اكتب <code>ai_reply = \"مرحباً بك يا بطل الذكاء الاصطناعي\"</code> ثم <code>print(ai_reply)</code>.",
-      "challenge": "قم بإنشاء متغير <code>ai_reply = \"مرحباً بك يا بطل الذكاء الاصطناعي\"</code> واطبعه على الشاشة.",
-      "starter_code": "# محاكاة رد شات جي بي تي الذكي:\n",
+      "badge_title": "Linguistic Mind Medal (ChatGPT)",
+      "title": "Station 3: Huge Language Models (ChatGPT)",
+      "desc": "Discover how generative AI models (LLMs) work and how they understand and generate texts that mimic humans exactly.",
+      "story": "ChatGPT is not magic, but rather a generative artificial intelligence model trained on billions of texts and books to understand the context of speech and generate smart, coherent answers!",
+      "simple": "The genius robot writer costume! He read all the books in the world, and when you ask him a question, he thinks of the most appropriate words and puts them together in a beautiful and convincing way!",
+      "hint": "Type <code>ai_reply = “Welcome, AI hero”</code> and then <code>print(ai_reply)</code>.",
+      "challenge": "Create a variable <code>ai_reply=\"Hello, AI Hero\"</code> and print it to the screen.",
+      "starter_code": "# Simulate GPT Smart Reply Chat:",
       "pills": [
         {
-          "label": "توليد رد ذكي",
-          "code": "ai_reply = \"مرحباً بك يا بطل الذكاء الاصطناعي\"\nprint(ai_reply)"
+          "label": "Generate a smart response",
+          "code": "ai_reply = \"Welcome, AI Hero\"\nprint(ai_reply)"
         }
       ],
       "validation_rules": {
-        "required_output_text": "مرحباً بك يا بطل الذكاء الاصطناعي",
+        "required_output_text": "Welcome, AI hero",
         "required_canvas": false
       }
     },
     {
       "id": 4,
       "badge_icon": "🤖",
-      "badge_title": "وسام مهندس البوتات (WotNot)",
-      "title": "المحطة 4: بناء الشات بوت التفاعلي",
-      "desc": "تعلم منطق بناء الشات بوت التفاعلي (Chatbot) الذي يسأل المستخدم عن اسمه ويقترح عليه مسارات التعلم.",
-      "story": "الشات بوت الذكي يوفر الوقت ويخدم آلاف الزوار في نفس اللحظة! يقوم البوت بطرح الأسئلة وتخزين الإجابات وتوجيه المستخدم بناءً على اختياراته.",
-      "simple": "زي موظف خدمة العملاء الآلي! بيسألك (أهلاً بك، تحب تشتري إيه؟) ولما تختار بيوديك للقسم المناسب فوراً بدون انتظار!",
-      "hint": "اكتب <code>print(\"أهلاً بك في ميجامايندز، ما هو مسارك المفضل؟\")</code>.",
-      "challenge": "قم بطباعة رسالة الترحيب الخاصة بالبوت: <code>أهلاً بك في ميجامايندز، ما هو مسارك المفضل؟</code>.",
-      "starter_code": "# اكتب رسالة ترحيب الشات بوت:\n",
+      "badge_title": "Bot Engineer Medal (WotNot)",
+      "title": "Station 4: Building the interactive chatbot",
+      "desc": "Learn the logic of building an interactive chatbot that asks the user his name and suggests learning paths.",
+      "story": "The smart chatbot saves time and serves thousands of visitors at the same moment! The bot asks questions, stores answers, and guides the user based on their choices.",
+      "simple": "Robot customer service employee uniform! He asks you (Welcome, what would you like to buy?) and when you choose, he takes you to the appropriate section immediately without waiting!",
+      "hint": "Type <code>print(\"Welcome to Megaminds, what's your favorite track?\")</code>.",
+      "challenge": "Print the bot's welcome message: <code>Welcome to Megaminds, what's your favorite track?</code>.",
+      "starter_code": "# Write a chatbot welcome message:",
       "pills": [
         {
-          "label": "رسالة ترحيب البوت",
-          "code": "print(\"أهلاً بك في ميجامايندز، ما هو مسارك المفضل؟\")"
+          "label": "Bot welcome message",
+          "code": "print(\"Welcome to Megaminds, what is your favorite track?\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "أهلاً بك في ميجامايندز، ما هو مسارك المفضل؟",
+        "required_output_text": "Welcome to Megaminds, what is your favorite track?",
         "required_canvas": false
       }
     },
     {
       "id": 5,
       "badge_icon": "🕸️",
-      "badge_title": "وسام الشبكات العصبية (CNN)",
-      "title": "المحطة 5: الشبكات العصبية للصور (CNN)",
-      "desc": "تعرف على شبكات (CNN) التي تحاكي خلايا الدماغ البشري وتستخدم طبقات الفلترة لاستخراج ملامح الصور.",
-      "story": "الشبكات العصبية التلطيفية (CNN) هي السر وراء تعرف الكمبيوتر على صور القطط والكلاب والسيارات! تقوم الشبكة بمسح الصورة بطبقات فلاتر صغيرة لاستخراج الخطوط والألوان والملامح.",
-      "simple": "زي المحقق كونان لما بيبص بالعدسة المكبرة! بيمسح الصورة حتة حتة ويدور على البصمات والملامح الدقيقة عشان يعرف مين صاحب الصورة!",
-      "hint": "اكتب <code>print(\"تم فحص الصورة واستخراج الملامح بنجاح بواسطة CNN\")</code>.",
-      "challenge": "قم بطباعة العبارة السحرية <code>تم فحص الصورة واستخراج الملامح بنجاح بواسطة CNN</code> لمحاكاة الشبكة العصبية.",
-      "starter_code": "# محاكاة طبقات الفلترة في CNN:\n",
+      "badge_title": "Neural Networks Medal (CNN)",
+      "title": "Station 5: Image Neural Networks (CNN)",
+      "desc": "Learn about CNNs that mimic human brain cells and use filtering layers to extract image features.",
+      "story": "Convolutional Neural Networks (CNN) are the secret behind computer recognition of images of cats, dogs, and cars! The network scans the image with small layers of filters to extract lines, colors, and features.",
+      "simple": "Like Detective Conan when he looks with a magnifying glass! He scans the picture one by one and looks for fingerprints and fine features to find out who owns the picture!",
+      "hint": "Type <code>print(\"Image scanned and features successfully extracted by CNN\")</code>.",
+      "challenge": "Print the magic phrase <code>The image has been scanned and features successfully extracted by CNN</code> to simulate a neural network.",
+      "starter_code": "# Simulate filtering layers in CNN:",
       "pills": [
         {
-          "label": "تشغيل فحص CNN",
-          "code": "print(\"تم فحص الصورة واستخراج الملامح بنجاح بواسطة CNN\")"
+          "label": "Run CNN scan",
+          "code": "print(\"The image was successfully scanned and features extracted by CNN\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم فحص الصورة واستخراج الملامح بنجاح بواسطة CNN",
+        "required_output_text": "The image was scanned and features were successfully extracted by CNN",
         "required_canvas": false
       }
     },
     {
       "id": 6,
       "badge_icon": "🏆",
-      "badge_title": "وسام بطل التحديات (Rock Paper Scissors)",
-      "title": "المحطة 6: مبرمج لعبة حجر ورقة مقص",
-      "desc": "المحطة الختامية الكبرى! برمجة منطق لعبة (حجر، ورقة، مقص) التفاعلية ضد الذكاء الاصطناعي واحتساب الفائز.",
-      "story": "المحطة الختامية الكبرى في مختبر الذكاء الاصطناعي! سنقوم ببرمجة قواعد لعبة (حجر، ورقة، مقص). نحدد اختيار اللاعب واختيار الكمبيوتر، ونطبق قواعد المقارنة لمعرفة البطل الفائز!",
-      "simple": "زي اللعبة الشهيرة مع صحابك! الورقة بتغطي الحجر، والحجر بيكسر المقص، والمقص بيقص الورقة! بنبرمج القواعد دي عشان الكمبيوتر يفهم مين كسب!",
-      "hint": "اكتب <code>player = \"ورقة\"</code> و <code>ai = \"حجر\"</code> ثم <code>print(\"اللاعب يفوز! الورقة تغطي الحجر!\")</code>.",
-      "challenge": "قم بتهيئة المتغيرات واطبع العبارة الختامية <code>اللاعب يفوز! الورقة تغطي الحجر!</code> للاحتفال بالنصر الكبير!",
-      "starter_code": "# برمجة قواعد فوز اللاعب في اللعبة:\nplayer = \"ورقة\"\nai = \"حجر\"\n",
+      "badge_title": "Challenge Champion Medal (Rock Paper Scissors)",
+      "title": "Station 6: Programmer of the rock-paper-scissors game",
+      "desc": "The grand final stop! Programming the logic of an interactive game (rock, paper, scissors) against artificial intelligence and calculating the winner.",
+      "story": "The grand final stop in the Artificial Intelligence Lab! We will program the rules of the game (Rock, Paper, Scissors). We determine player choice and computer choice, and apply comparison rules to find out who wins!",
+      "simple": "Play the famous game with your friends! The paper covers the stone, the stone breaks the scissors, and the scissors cuts the paper! We program these rules so that the computer understands who won!",
+      "hint": "Type <code>player = \"paper\"</code>, <code>ai = \"stone\"</code>, then <code>print(\"Player wins! Paper covers stone!\")</code>.",
+      "challenge": "Initialize the variables and print the closing statement <code>Player wins! The paper covers the stone!</code>To celebrate the great victory!",
+      "starter_code": "# Programming the rules for the player to win the game:\nplayer = \"sheet\"\nai = \"stone\"",
       "pills": [
         {
-          "label": "إعلان فوز اللاعب",
-          "code": "player = \"ورقة\"\nai = \"حجر\"\nprint(\"اللاعب يفوز! الورقة تغطي الحجر!\")"
+          "label": "Announcing the player's victory",
+          "code": "player = \"sheet\"\nai = \"stone\"\nprint(\"The player wins! The paper covers the stone!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "اللاعب يفوز! الورقة تغطي الحجر!",
+        "required_output_text": "The player wins! The paper covers the stone!",
         "required_canvas": false
       }
     }

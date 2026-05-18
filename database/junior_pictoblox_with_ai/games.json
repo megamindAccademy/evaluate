@@ -1,139 +1,139 @@
 {
   "course_id": "junior_pictoblox_with_ai",
   "course_title": "PicToBlox with AI",
-  "course_subtitle": "مرحباً بك يا عبقري المستقبل في عالم الذكاء الاصطناعي الممتع! هنا ستجعل الكمبيوتر يتعرف على وجهك، يركب لك أقنعة مضحكة، ويفهم أوامرك الصوتية ليحل المتاهات. افتح المحطات واكتشف سحر AI!",
+  "course_subtitle": "Welcome, future genius, to the fun world of artificial intelligence! Here you will have the computer recognize your face, put on funny masks for you, and understand your voice commands to solve mazes. Unlock stations and discover the magic of AI!",
   "xp_total": 600,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
       "badge_icon": "🔍",
-      "badge_title": "وسام كاشف الوجوه (Face Detection)",
-      "title": "المحطة 1: كشف الوجوه بالكاميرا (AI)",
-      "desc": "تعلم كيف تفتح الكاميرا وتجعل الذكاء الاصطناعي يكتشف مكان وجهك ويرسم حوله مربعاً أخضر.",
-      "story": "أهلاً بك يا بطل المستقبل في مختبر الذكاء الاصطناعي! الكمبيوتر يمتلك عيوناً سحرية (الكاميرا). نستخدم بلوكات الذكاء الاصطناعي لنجعله يحلل الصورة ويبحث عن الوجوه ليحدد مكانها بدقة.",
-      "simple": "زي كاميرا الموبايل لما تيجي تصور حد! بتلاقي مربعات صغيرة ظهرت لوحدها على وشوش الناس عشان الكاميرا تظبط الفوكس عليهم!",
-      "hint": "اكتب في المحرر: <code>print(\"تم تشغيل كاميرا الذكاء الاصطناعي وكشف الوجه بنجاح\")</code> ثم اضغط تشغيل!",
-      "challenge": "قم بطباعة الجملة السحرية <code>تم تشغيل كاميرا الذكاء الاصطناعي وكشف الوجه بنجاح</code> لمحاكاة كشف الوجه.",
-      "starter_code": "# محاكاة كشف الوجوه بالذكاء الاصطناعي:\n",
+      "badge_title": "Face Detection Medal",
+      "title": "Station 1: Camera face detection (AI)",
+      "desc": "Learn how to open the camera and let the AI ​​detect where your face is and draw a green square around it.",
+      "story": "Welcome, future champion of the Artificial Intelligence Lab! The computer has magic eyes (the camera). We use AI blocks to make it analyze the image and search for faces to pinpoint their location.",
+      "simple": "Like a mobile camera when you come to photograph someone! You will find small squares appearing on their own on people's faces because the camera focuses on them!",
+      "hint": "Type in the editor: <code>print(\"AI camera and face detection turned on successfully\")</code> and press Run!",
+      "challenge": "Print the magic sentence <code>AI Camera and Face Detection Successfully Triggered</code> to simulate face detection.",
+      "starter_code": "#AI face detection simulation:",
       "pills": [
         {
-          "label": "تشغيل كشف الوجه AI",
-          "code": "print(\"تم تشغيل كاميرا الذكاء الاصطناعي وكشف الوجه بنجاح\")"
+          "label": "Turn on AI face detection",
+          "code": "print(\"The AI ​​camera and face detection has been successfully activated\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم تشغيل كاميرا الذكاء الاصطناعي وكشف الوجه بنجاح",
+        "required_output_text": "The AI ​​camera and face detection were successfully turned on",
         "required_canvas": false
       }
     },
     {
       "id": 2,
       "badge_icon": "🎭",
-      "badge_title": "وسام صانع الأقنعة (Face Mask)",
-      "title": "المحطة 2: معالم الوجه والأقنعة المضحكة",
-      "desc": "استخدم معالم الوجه (Face Landmarks) لتركيب نظارة شمسية وقبعة مضحكة على وجهك مباشرة!",
-      "story": "الذكاء الاصطناعي يستطيع تحديد مكان عينيك وأنفك وفمك بدقة متناهية (Landmarks)! نستخدم هذه النقاط لتركيب أقنعة كرتونية تتحرك معك أينما التفتّ.",
-      "simple": "زي فلاتر السناب شات والإنستجرام! أول ما تضحك أو تحرك راسك، الفلتر والنظارة بيتحركوا معاك كأنهم حقيقيين بالضبط!",
-      "hint": "اكتب <code>print(\"تم تركيب القناع المضحك على معالم الوجه\")</code>.",
-      "challenge": "قم بطباعة العبارة السحرية <code>تم تركيب القناع المضحك على معالم الوجه</code> لمحاكاة الفلاتر.",
-      "starter_code": "# محاكاة تركيب الفلاتر والأقنعة بالذكاء الاصطناعي:\n",
+      "badge_title": "Face Mask Maker Medal",
+      "title": "Station 2: Funny facial features and masks",
+      "desc": "Use Face Landmarks to attach sunglasses and a funny hat directly to your face!",
+      "story": "Artificial intelligence can determine the location of your eyes, nose, and mouth with extreme accuracy (Landmarks)! We use these points to create cartoon masks that move with you wherever you turn.",
+      "simple": "Like Snapchat and Instagram filters! As soon as you laugh or move your head, the filter and glasses move with you as if they were real!",
+      "hint": "Type <code>print(\"Funny mask overlaid on facial features\")</code>.",
+      "challenge": "Print the magic phrase <code>Funny mask fitted to facial features</code> to simulate filters.",
+      "starter_code": "# Simulate the installation of filters and masks with artificial intelligence:",
       "pills": [
         {
-          "label": "تركيب قناع الوجه",
-          "code": "print(\"تم تركيب القناع المضحك على معالم الوجه\")"
+          "label": "Fitting a face mask",
+          "code": "print(\"The funny mask was installed on the facial features\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم تركيب القناع المضحك على معالم الوجه",
+        "required_output_text": "The funny mask is superimposed on the facial features",
         "required_canvas": false
       }
     },
     {
       "id": 3,
       "badge_icon": "🐱",
-      "badge_title": "وسام المصنف الذكي (ML Classifier)",
-      "title": "المحطة 3: تصنيف الحيوانات بالذكاء الاصطناعي",
-      "desc": "درب نموذج تعلم آلة (Machine Learning) ليميز بين صور القطط والكلاب بذكاء وسرعة!",
-      "story": "نحن نستطيع تعليم الكمبيوتر! نعرض عليه 20 صورة لقطة و20 صورة لكلب، فيقوم بدراسة الملامح والأذنين ليتعلم التمييز بينهم بمفرده في المستقبل.",
-      "simple": "زي الطفل الصغير لما بتعلمه في كتاب الصور! بتقوله دي قطة وده كلب، ولما يشوفهم في الشارع بيعرفهم لوحده من غير مساعدة!",
-      "hint": "اكتب <code>print(\"تم تدريب النموذج وتصنيف الصورة: قطة\")</code>.",
-      "challenge": "قم بطباعة الجملة السحرية <code>تم تدريب النموذج وتصنيف الصورة: قطة</code> لمحاكاة تعلم الآلة.",
-      "starter_code": "# محاكاة تصنيف الحيوانات بتعلم الآلة:\n",
+      "badge_title": "ML Classifier Medal",
+      "title": "Station 3: AI animal classification",
+      "desc": "Train a machine learning model to distinguish between pictures of cats and dogs intelligently and quickly!",
+      "story": "We can teach computers! We show him 20 pictures of a cat and 20 pictures of a dog, so he studies the features and ears to learn to distinguish between them on his own in the future.",
+      "simple": "Like a little child when you learn it in a picture book! She tells him this is a cat and this is a dog, and when he sees them in the street, he recognizes them on his own without help!",
+      "hint": "Type <code>print(\"Model trained and image labeled: cat\")</code>.",
+      "challenge": "Print the magic sentence <code>The model is trained and classifies the image: cat</code> for a machine learning simulation.",
+      "starter_code": "# Simulate animal classification with machine learning:",
       "pills": [
         {
-          "label": "تصنيف صورة الحيوان",
-          "code": "print(\"تم تدريب النموذج وتصنيف الصورة: قطة\")"
+          "label": "Animal image classification",
+          "code": "print(\"The model has been trained and the image is classified as: cat\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم تدريب النموذج وتصنيف الصورة: قطة",
+        "required_output_text": "The model is trained and classifies the image: cat",
         "required_canvas": false
       }
     },
     {
       "id": 4,
       "badge_icon": "🗣️",
-      "badge_title": "وسام القائد الصوتي (Voice Maze)",
-      "title": "المحطة 4: حل المتاهة بالأوامر الصوتية",
-      "desc": "برمج اللعبة لتفهم صوتك! عندما تقول (يمين) أو (يسار) يتحرك الكائن ليخرج من المتاهة.",
-      "story": "الذكاء الاصطناعي يفهم كلام البشر (Speech Recognition)! نبرمج الميكروفون ليسمع أوامرنا الصوتية ويحولها إلى أوامر حركة داخل لعبة المتاهة.",
-      "simple": "زي الألعاب السحرية في أفلام الخيال العلمي! بتكلم الكمبيوتر وتقوله اتحرك يمين يقوم متحرك في ثانية من غير ما تلمس الكيبورد!",
-      "hint": "اكتب <code>print(\"تم سماع الأمر الصوتي وتحرك الكائن يميناً\")</code>.",
-      "challenge": "قم بطباعة عبارة <code>تم سماع الأمر الصوتي وتحرك الكائن يميناً</code> لمحاكاة الأوامر الصوتية.",
-      "starter_code": "# محاكاة التوجيه الصوتي لحل المتاهة:\n",
+      "badge_title": "Voice Maze Commander Medal",
+      "title": "Station 4: Solve the maze with voice commands",
+      "desc": "Program the game to understand your voice! When you say (right) or (left), the object moves to exit the maze.",
+      "story": "Artificial intelligence understands human speech (Speech Recognition)! We program the microphone to hear our voice commands and convert them into movement commands within the maze game.",
+      "simple": "Like magic games in science fiction movies! You talk to the computer and say, “Move to the right,” and it starts moving in a second without you touching the keyboard!",
+      "hint": "Type <code>print(\"Voice command heard and object moved right\")</code>.",
+      "challenge": "Print <code>Voice command heard and object moved right</code> to simulate voice commands.",
+      "starter_code": "# Simulate voice guidance to solve a maze:",
       "pills": [
         {
-          "label": "تشغيل التوجيه الصوتي",
-          "code": "print(\"تم سماع الأمر الصوتي وتحرك الكائن يميناً\")"
+          "label": "Turn on voice guidance",
+          "code": "print(\"The voice command was heard and the object moved right\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم سماع الأمر الصوتي وتحرك الكائن يميناً",
+        "required_output_text": "The voice command is heard and the object moves right",
         "required_canvas": false
       }
     },
     {
       "id": 5,
       "badge_icon": "✋",
-      "badge_title": "وسام متتبع اليد (Hand Tracker)",
-      "title": "المحطة 5: تتبع حركة اليد والأصابع",
-      "desc": "استخدم كاميرا الذكاء الاصطناعي لتتبع حركة يدك وأصابعك وحساب عدد الأصابع المرفوعة بمهارة!",
-      "story": "الكاميرا ترصد مفاصل اليد (Hand Tracking)! نبرمج الذكاء الاصطناعي ليرسم نقاطاً على أصابعك الخمسة ويتعرف على حركاتك وإشاراتك التعبيرية بسهولة.",
-      "simple": "زي ألعاب الـ Kinect والـ Wii! بتحرك إيدك في الهوا واللعبة بتفهم إنت بتعمل إيه وتتفاعل معاك فوراً!",
-      "hint": "اكتب <code>print(\"تم تتبع حركة اليد وحساب 5 أصابع مرفوعة\")</code>.",
-      "challenge": "قم بطباعة الجملة السحرية <code>تم تتبع حركة اليد وحساب 5 أصابع مرفوعة</code> لمحاكاة تتبع اليد.",
-      "starter_code": "# محاكاة تتبع حركة اليد والأصابع:\n",
+      "badge_title": "Hand Tracker Medal",
+      "title": "Station 5: Track hand and finger movement",
+      "desc": "Use the AI ​​camera to track the movement of your hand and fingers and subtly count the number of fingers raised!",
+      "story": "The camera monitors the hand joints (Hand Tracking)! We program artificial intelligence to draw dots on your five fingers and easily recognize your movements and expressive gestures.",
+      "simple": "Like Kinect and Wii games! You move your hand in the air and the game understands what you are doing and interacts with you immediately!",
+      "hint": "Type <code>print(\"Hand movement tracked and 5 raised fingers counted\")</code>.",
+      "challenge": "Print the magic sentence <code>Hand movement was tracked and 5 fingers raised</code> were counted to simulate hand tracking.",
+      "starter_code": "# Hand and finger movement tracking simulation:",
       "pills": [
         {
-          "label": "تتبع اليد والأصابع",
-          "code": "print(\"تم تتبع حركة اليد وحساب 5 أصابع مرفوعة\")"
+          "label": "Hand and finger tracking",
+          "code": "print(\"Hand movement was tracked and 5 fingers raised were counted\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم تتبع حركة اليد وحساب 5 أصابع مرفوعة",
+        "required_output_text": "Hand movement was tracked and 5 fingers raised were counted",
         "required_canvas": false
       }
     },
     {
       "id": 6,
       "badge_icon": "🚀",
-      "badge_title": "وسام رائد الفضاء (Air Painter)",
-      "title": "المحطة 6: قيادة الصاروخ بحركة اليد",
-      "desc": "المحطة الختامية الكبرى! تحكم في طيران الصاروخ الفضائي عن طريق تحريك يدك في الهواء أمام الكاميرا!",
-      "story": "المحطة الختامية الكبرى في الذكاء الاصطناعي! سنقوم بدمج تتبع اليد مع لعبة الصاروخ. عندما ترفع يدك للأعلى يطير الصاروخ، وعندما تميل يميناً يتجه يميناً ليتجاوز الكواكب والأحجار الفضائية!",
-      "simple": "زي المايسترو أو الساحر! بتحرك إيدك في الهوا قدام الشاشة والصاروخ بيطير وراك كأنه مربوط في صباعك بخيط سحري!",
-      "hint": "اكتب <code>print(\"تم توجيه الصاروخ بحركة اليد بنجاح وفوز البطل!\")</code>.",
-      "challenge": "قم بطباعة العبارة الختامية <code>تم توجيه الصاروخ بحركة اليد بنجاح وفوز البطل!</code> للاحتفال بإنجاز مشروعك الخارق!",
-      "starter_code": "# محاكاة التحكم بالصاروخ بحركة اليد:\n",
+      "badge_title": "Astronaut Medal (Air Painter)",
+      "title": "Station 6: Driving the rocket with a hand gesture",
+      "desc": "The grand final stop! Control the flight of the space rocket by moving your hand in the air in front of the camera!",
+      "story": "The big final stop in artificial intelligence! We will combine hand tracking with the rocket game. When you raise your hand up, the rocket flies, and when you lean right, it heads right to go beyond the planets and space stones!",
+      "simple": "Like a maestro or a magician! You move your hand in the air in front of the screen and the missile flies behind you as if it were tied to your finger with a magic thread!",
+      "hint": "Type <code>print(\"The missile was successfully directed with a hand gesture and the champion wins!\")</code>.",
+      "challenge": "Print the closing phrase <code>The rocket was successfully guided with a hand gesture and the hero wins!</code> to celebrate the completion of your superhero project!",
+      "starter_code": "#Simulate controlling the missile with hand movement:",
       "pills": [
         {
-          "label": "قيادة الصاروخ باليد",
-          "code": "print(\"تم توجيه الصاروخ بحركة اليد بنجاح وفوز البطل!\")"
+          "label": "Driving the rocket by hand",
+          "code": "print(\"The missile was successfully directed with a hand movement and the hero won!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "تم توجيه الصاروخ بحركة اليد بنجاح وفوز البطل!",
+        "required_output_text": "The missile was successfully directed with a hand gesture and the hero won!",
         "required_canvas": false
       }
     }

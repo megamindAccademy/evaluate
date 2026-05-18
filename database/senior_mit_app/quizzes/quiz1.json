@@ -1,24 +1,24 @@
 {
   "quiz_title": "MIT App Inventor (Senior) - Challenge 1",
-  "quick_brief": "تحدي الأسبوع الأول: اختبر معلوماتك في أساسيات واجهة التطبيق وكيفية إضافة الأزرار واستخدام Canvas للرسم الحر بحركة الإصبع!",
+  "quick_brief": "Week 1 Challenge: Test your knowledge of the basics of the app interface, how to add buttons, and use Canvas to draw freehand with a finger movement!",
   "questions": [
     {
       "id": 1,
       "type": "mcq",
-      "text": "أي شاشة في بيئة MIT App Inventor تُستخدم لتصميم شكل التطبيق وإضافة الأزرار والصور؟",
+      "text": "Which screen in the MIT App Inventor environment is used to design the app's appearance and add buttons and images?",
       "options": [
-        "شاشة البرمجة (Blocks Screen)",
-        "شاشة التصميم (Designer Screen)",
-        "شاشة التصدير (Export Screen)",
-        "قاعدة البيانات (TinyDB)"
+        "Programming Screen (Blocks Screen)",
+        "Designer Screen",
+        "Export Screen",
+        "Database (TinyDB)"
       ],
-      "correct": "شاشة التصميم (Designer Screen)",
+      "correct": "Designer Screen",
       "score": 10
     },
     {
       "id": 2,
       "type": "mcq",
-      "text": "ما هو العنصر المناسب لعرض نصوص توضيحية أو تعليمات للمستخدم ولا يمكن للمستخدم الكتابة بداخله مباشرة؟",
+      "text": "What is an appropriate element for displaying explanatory text or instructions to the user that the user cannot type directly into?",
       "options": [
         "Button",
         "TextBox",
@@ -31,7 +31,7 @@
     {
       "id": 3,
       "type": "mcq",
-      "text": "أي حدث (Event Block) يُستخدم لتشغيل كتل برمجية معينة بمجرد قيام المستخدم بالنقر على زر معين؟",
+      "text": "Which Event Block is used to trigger certain code blocks once the user clicks a certain button?",
       "options": [
         "when Button1.Click",
         "when Button1.Dragged",
@@ -44,7 +44,7 @@
     {
       "id": 4,
       "type": "mcq",
-      "text": "ما هو الترتيب (Layout) المناسب لوضع زرين بجانب بعضهما البعض أفقياً على الشاشة؟",
+      "text": "What is the appropriate layout to place two buttons next to each other horizontally on the screen?",
       "options": [
         "VerticalArrangement",
         "HorizontalArrangement",
@@ -57,7 +57,7 @@
     {
       "id": 5,
       "type": "mcq",
-      "text": "أي عنصر تفاعلي يسمح للمستخدم بالرسم الحر بإصبعه ويحتوي على أحداث اللمس والسحب؟",
+      "text": "Which interactive element allows the user to draw freely with his finger and contains touch and drag events?",
       "options": [
         "Image",
         "ListView",
@@ -70,20 +70,20 @@
     {
       "id": 6,
       "type": "mcq",
-      "text": "كيف نقوم برسم خط مستمر على الـ Canvas عند سحب الإصبع؟",
+      "text": "How do we draw a continuous line on the Canvas when dragging the finger?",
       "options": [
-        "باستخدام حدث Click واستدعاء DrawCircle",
-        "باستخدام حدث Dragged واستدعاء DrawLine",
-        "باستخدام حدث Touched واستدعاء Clear",
-        "باستخدام حدث Dragged واستدعاء DrawPoint"
+        "Using Click event and calling DrawCircle",
+        "Using Dragged event and calling DrawLine",
+        "Using the Touched event and calling Clear",
+        "Using Dragged event and calling DrawPoint"
       ],
-      "correct": "باستخدام حدث Dragged واستدعاء DrawLine",
+      "correct": "Using Dragged event and calling DrawLine",
       "score": 10
     },
     {
       "id": 7,
       "type": "mcq",
-      "text": "ما هي الأداة (Component) المناسبة لتنظيم العناصر على الشاشة على شكل شبكة من الصفوف والأعمدة؟",
+      "text": "What is the appropriate tool (Component) for organizing elements on the screen in the form of a grid of rows and columns?",
       "options": [
         "HorizontalScrollArrangement",
         "TableArrangement",
@@ -96,20 +96,20 @@
     {
       "id": 8,
       "type": "mcq",
-      "text": "عند كتابة الكود: set Label1.TextColor to Red، ما الذي سيحدث للنص في التطبيق؟",
+      "text": "When you write the code: set Label1.TextColor to Red, what will happen to the text in the application?",
       "options": [
-        "سيتغير حجم الخط",
-        "سيتغير لون الخط إلى الأحمر",
-        "سيختفي النص تماماً",
-        "سيتغير محتوى النص إلى كلمة Red"
+        "The font size will change",
+        "The font color will change to red",
+        "The text will disappear completely",
+        "The text content will change to the word Red"
       ],
-      "correct": "سيتغير لون الخط إلى الأحمر",
+      "correct": "The font color will change to red",
       "score": 10
     },
     {
       "id": 9,
       "type": "mcq",
-      "text": "أي خاصية في شاشة الخصائص (Properties) تُستخدم لتغيير النص المكتوب داخل الزر؟",
+      "text": "Which property in the Properties screen is used to change the text inside the button?",
       "options": [
         "Name",
         "Text",
@@ -122,7 +122,7 @@
     {
       "id": 10,
       "type": "mcq",
-      "text": "في شاشة البرمجة (Blocks Screen)، تحت أي قسم نجد اللبنات البرمجية الأساسية مثل الشروط (if) وحلقات التكرار؟",
+      "text": "In the Blocks Screen, under which section do we find basic programming blocks such as if conditions and loops?",
       "options": [
         "Variables",
         "Procedures",
@@ -135,14 +135,14 @@
     {
       "id": 11,
       "type": "task",
-      "text": "اكتب الكتل البرمجية (Blocks) لتغيير لون الرسم في Canvas1 إلى اللون الأزرق (Blue) بمجرد الضغط على زر اسمه Button_Blue.",
+      "text": "Write blocks to change the color of the drawing in Canvas1 to blue by simply pressing a button called Button_Blue.",
       "correct_code": "when Button_Blue.Click\ndo set Canvas1.PaintColor to Blue",
       "score": 20
     },
     {
       "id": 12,
       "type": "task",
-      "text": "اكتب الكود البرمجي لمسح كل الرسومات الموجودة وتنظيف لوحة Canvas1 عند النقر على زر اسمه Button_Clear.",
+      "text": "Write the code to clear all existing drawings and clean the Canvas1 panel when you click a button named Button_Clear.",
       "correct_code": "when Button_Clear.Click\ndo call Canvas1.Clear",
       "score": 20
     }

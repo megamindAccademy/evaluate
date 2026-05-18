@@ -1,7 +1,7 @@
 {
   "course_id": "senior_python_problem_solving",
   "course_title": "Python Problem-Solving",
-  "desc": "نمِّ تفكيرك الخوارزمي وحل مشكلاتك البرمجية كالمحترفين! تعلم تحريك ورسم الأشكال باستخدام السلحفاة Turtle، والتعامل الذكي مع المتغيرات والمصفوفات، وبرمجة الشروط التفاعلية وحلقات التكرار المعقدة، والتحكم بالخوارزميات التكرارية (Recursion) مثل الفاكتوريال، واكتشاف الأخطاء البرمجية وإصلاحها (Debugging)، وتتوج رحلتك ببناء نظام تسجيل حضور وغياب وحفظ التقارير في ملفات نصية حقيقية! 🐍🎮🛡️",
+  "desc": "Develop your algorithmic thinking and solve your programming problems like a pro! Learn to animate and draw shapes using Turtle, deal intelligently with variables and arrays, program interactive conditions and complex loops, control recursion algorithms such as factorials, and discover and fix software errors (debugging). Your journey culminates in building a system for recording attendance and absence and saving reports in real text files! 🐍🎮🛡️",
   "icon": "🐍",
   "icon_bg_class": "icon-python",
   "status": "active",

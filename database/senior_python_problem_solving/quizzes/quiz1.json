@@ -1,11 +1,11 @@
 {
   "quiz_title": "Python Problem-Solving - Challenge 1",
-  "quick_brief": "تحدي الأسبوع الأول: اختبر مهاراتك في هندسة إحداثيات الرسم ومكتبة Turtle، وتخزين المدخلات في المتغيرات ومعالجتها!",
+  "quick_brief": "Week 1 Challenge: Test your skills in drawing coordinate geometry and the Turtle library, and storing and manipulating inputs in variables!",
   "questions": [
     {
       "id": 1,
       "type": "mcq",
-      "text": "ما هي المكتبة الافتراضية في لغة بايثون التي نستخدمها لرسم الخطوط والأشكال الهندسية ببطاقات تفاعلية؟",
+      "text": "What is the default library in Python that we use to draw lines and geometric shapes with interactive cards?",
       "options": [
         "pygame",
         "turtle",
@@ -18,7 +18,7 @@
     {
       "id": 2,
       "type": "mcq",
-      "text": "أي تعليمة برمجية نستخدمها للإعلان وإنشاء كائن سلحفاة جديد للبدء بالرسم؟",
+      "text": "Which code do we use to declare and create a new turtle object to start drawing?",
       "options": [
         "t = turtle.Turtle()",
         "t = new Turtle()",
@@ -31,7 +31,7 @@
     {
       "id": 3,
       "type": "mcq",
-      "text": "أي أمر يوجه السلحفاة للتحرك للأمام لمسافة 150 خطوة؟",
+      "text": "Which command directs the turtle to move forward 150 steps?",
       "options": [
         "t.forward(150)",
         "t.backward(150)",
@@ -44,7 +44,7 @@
     {
       "id": 4,
       "type": "mcq",
-      "text": "لتغيير اتجاه السلحفاة يساراً بزاوية قائمة تماماً، ما هي الزاوية التي يجب كتابتها داخل دالة left؟",
+      "text": "To change the direction of the turtle left at exactly a right angle, what angle should be written into the left function?",
       "options": [
         "45",
         "90",
@@ -57,7 +57,7 @@
     {
       "id": 5,
       "type": "mcq",
-      "text": "ما هي الدالة الأساسية المستخدمة لاستقبال المدخلات والنصوص من لوحة المفاتيح تفاعلياً من المستخدم؟",
+      "text": "What is the basic function used to receive keyboard input and text interactively from the user?",
       "options": [
         "print()",
         "input()",
@@ -70,20 +70,20 @@
     {
       "id": 6,
       "type": "mcq",
-      "text": "عند كتابة الكود: steps = input(\"أدخل المسافة: \")، ما هو نوع البيانات الافتراضي للمتغير steps؟",
+      "text": "When you write the code: steps = input(\"Enter space: \"), what is the default data type for the variable steps?",
       "options": [
-        "أعداد صحيحة (int)",
-        "أعداد عشرية (float)",
-        "سلسلة نصية (string)",
-        "قيمة منطقية (boolean)"
+        "integers (int)",
+        "float",
+        "string",
+        "boolean value"
       ],
-      "correct": "سلسلة نصية (string)",
+      "correct": "string",
       "score": 10
     },
     {
       "id": 7,
       "type": "mcq",
-      "text": "أي دالة تحويل نستخدمها لتحويل نصوص المدخلات المكتوبة إلى أرقام صحيحة صالحة للمقارنة والعمليات الرياضية؟",
+      "text": "Which conversion function do we use to convert written input texts into integers valid for comparison and mathematical operations?",
       "options": [
         "int()",
         "float()",
@@ -96,20 +96,20 @@
     {
       "id": 8,
       "type": "mcq",
-      "text": "ما هو دور الأمر t.color(\"blue\") عند تشغيل السلحفاة؟",
+      "text": "What is the role of the t.color(\"blue\") command when running turtle?",
       "options": [
-        "تغيير لون خلفية الشاشة بأكملها",
-        "تغيير لون خط السلحفاة وجسمها إلى اللون الأزرق",
-        "مسح الرسومات وتطهير الواجهة",
-        "إيقاف الرسم تلقائياً"
+        "Change the background color of the entire screen",
+        "Change the color of the turtle's line and body to blue",
+        "Clear graphics and cleanse the interface",
+        "Stop drawing automatically"
       ],
-      "correct": "تغيير لون خط السلحفاة وجسمها إلى اللون الأزرق",
+      "correct": "Change the color of the turtle's line and body to blue",
       "score": 10
     },
     {
       "id": 9,
       "type": "mcq",
-      "text": "أي أمر برمي نكتبه بنهاية سكربت السلحفاة لإبقاء نافذة الرسم الرسومية مفتوحة وتجنب إغلاقها المفاجئ؟",
+      "text": "What throw command do we write at the end of the turtle script to keep the graphical window open and avoid its sudden closing?",
       "options": [
         "turtle.done()",
         "turtle.close()",
@@ -122,12 +122,12 @@
     {
       "id": 10,
       "type": "mcq",
-      "text": "ما هي المساحة الإحداثية الافتراضية لانطلاق السلحفاة بمركز لوحة الرسم؟",
+      "text": "What is the virtual coordinate space for the turtle to launch at the center of the drawing board?",
       "options": [
         "X = 100, Y = 100",
         "X = 0, Y = 0",
         "X = -100, Y = -100",
-        "عشوائي"
+        "random"
       ],
       "correct": "X = 0, Y = 0",
       "score": 10
@@ -135,14 +135,14 @@
     {
       "id": 11,
       "type": "task",
-      "text": "اكتب الكود البرمجي لاستقبال مدخل نصي باسم الطالب وتخزينه بمتغير اسمه 'student_name'، ثم طباعة عبارة ترحيب مدمجة 'أهلاً بك يا بطل ' متبوعاً بالاسم.",
-      "correct_code": "student_name = input(\"Enter your name: \")\nprint(\"أهلاً بك يا بطل \" + student_name)",
+      "text": "Write the code to receive a text entry with the student's name and store it in a variable called 'student_name', then print a built-in greeting phrase 'Welcome, champion' followed by the name.",
+      "correct_code": "student_name = input(\"Enter your name: \")\nprint(\"Welcome, hero\" + student_name)",
       "score": 20
     },
     {
       "id": 12,
       "type": "task",
-      "text": "اكتب الكود البرمجي الكامل بلغة بايثون لتهيئة السلحفاة، ورسم خط مستقيم طوله 120 خطوة باللون الأخضر (green)، ثم توجيهها لليمين بزاوية 90 درجة.",
+      "text": "Write the complete code in Python to configure the turtle, draw a straight line 120 steps long in green, then point it to the right at a 90 degree angle.",
       "correct_code": "import turtle\nt = turtle.Turtle()\nt.color(\"green\")\nt.forward(120)\nt.right(90)",
       "score": 20
     }

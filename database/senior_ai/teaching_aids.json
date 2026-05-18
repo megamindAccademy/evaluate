@@ -1,17 +1,17 @@
 {
   "course_id": "ai",
-  "course_title": "الذكاء الاصطناعي 🧠",
+  "course_title": "Artificial Intelligence 🧠",
   "aids": [
     {
       "id": "ai_classifier_trainer",
-      "title": "🤖 لعبة تدريب الروبوت الذكي (AI Classifier)",
-      "desc": "شاشة تفاعلية لتدريب الروبوت على التمييز بين التفاح والموز. اضغط على صور التفاح والموز لتزويد الروبوت بالبيانات (Data)، ثم اختبره بصورة جديدة ليوضح كيف يتعلم الذكاء الاصطناعي!",
+      "title": "🤖 Smart Robot Training Game (AI Classifier)",
+      "desc": "An interactive screen to train the robot to distinguish between apples and bananas. Click on images of apples and bananas to provide the robot with data, then test it with a new image to show how artificial intelligence learns!",
       "type": "ai_trainer"
     },
     {
       "id": "ai_face_landmarks",
-      "title": "🎭 لعبة اكتشاف معالم الوجه (Face Landmarks)",
-      "desc": "قم بتركيب نظارة شمسية وقبعة مضحكة على وجه كرتوني عن طريق تحديد النقاط الحيوية (العينين، الرأس) لشرح كيف تعمل فلاتر الكاميرا الذكية.",
+      "title": "🎭 Face Landmarks game",
+      "desc": "Attach sunglasses and a funny hat to a cartoon face by highlighting the vital points (eyes, head) to demonstrate how smart camera filters work.",
       "type": "face_landmarks"
     }
   ]

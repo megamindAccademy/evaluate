@@ -1,11 +1,11 @@
 {
   "quiz_title": "MIT App Inventor (Senior) - Challenge 2",
-  "quick_brief": "تحدي الأسبوع الثاني: اختبر مهارتك في برمجة الكائنات المتحركة (ImageSprite)، وتفعيل التحكم الصوتي وتحويل الصوت إلى نصوص مقروءة ومسموعة!",
+  "quick_brief": "Challenge of the second week: Test your skill in programming animated objects (ImageSprite), activating voice control and converting sound into readable and audible texts!",
   "questions": [
     {
       "id": 1,
       "type": "mcq",
-      "text": "ما هو الكائن المتحرك الذي يجب وضعه داخل Canvas لعرض صور متحركة وتفاعلية كألعاب القنص؟",
+      "text": "What animated object should be placed inside Canvas to display animated and interactive images such as shooting games?",
       "options": [
         "ImageComponent",
         "ImageSprite",
@@ -18,7 +18,7 @@
     {
       "id": 2,
       "type": "mcq",
-      "text": "أي حدث برمجى يُنفذ تلقائياً بمجرد أن يلمس إصبع المستخدم عنصر الـ ImageSprite؟",
+      "text": "Which programming event is executed automatically as soon as the user's finger touches an ImageSprite element?",
       "options": [
         "when ImageSprite1.Touched",
         "when ImageSprite1.Flung",
@@ -31,7 +31,7 @@
     {
       "id": 3,
       "type": "mcq",
-      "text": "أي خاصية نستخدمها لجعل كائن الـ ImageSprite يتحرك تلقائياً بسرعة محددة دون توقف؟",
+      "text": "Which property do we use to make the ImageSprite object automatically move at a specified speed without stopping?",
       "options": [
         "Interval",
         "Speed",
@@ -44,7 +44,7 @@
     {
       "id": 4,
       "type": "mcq",
-      "text": "ما هي الأداة غير المرئية التي تستخدم محرك جوجل لتحويل نطق وكلام المستخدم الصوتي إلى نص مكتوب؟",
+      "text": "What is the invisible tool that uses Google's engine to convert the user's audio pronunciation and speech into written text?",
       "options": [
         "TextToSpeech",
         "SpeechRecognizer",
@@ -57,7 +57,7 @@
     {
       "id": 5,
       "type": "mcq",
-      "text": "أي أمر نستخدمه لتوجيه هاتف الذكي لنطق وقراءة نص مكتوب بصوت بشري واضح؟",
+      "text": "Which command do we use to instruct a smartphone to speak and read text written in a clear human voice?",
       "options": [
         "call TextToSpeech1.Speak",
         "call SpeechRecognizer1.GetText",
@@ -70,7 +70,7 @@
     {
       "id": 6,
       "type": "mcq",
-      "text": "في لعبة صيد القطة، لتغيير موقع القطة عشوائياً، نستخدم دالة لإنشاء رقم عشوائي وهي:",
+      "text": "In the game Catching the Cat, to randomly change the location of the cat, we use a function to generate a random number:",
       "options": [
         "random fraction",
         "random integer",
@@ -83,7 +83,7 @@
     {
       "id": 7,
       "type": "mcq",
-      "text": "أي حدث يتم استدعاؤه تلقائياً في أداة التعرف على الصوت بعد انتهاء المستخدم من الكلام مباشرة وتوافر النص؟",
+      "text": "Which event is called automatically in the voice recognizer just after the user has finished speaking and the text is available?",
       "options": [
         "when SpeechRecognizer1.BeforeGettingText",
         "when SpeechRecognizer1.AfterGettingText",
@@ -96,7 +96,7 @@
     {
       "id": 8,
       "type": "mcq",
-      "text": "لتحديث نتيجة النقاط وزيادتها بمقدار 1 في كل مرة يصيب فيها اللاعب الهدف، نكتب المعادلة:",
+      "text": "To update the score and increment it by 1 each time the player hits the target, we write the equation:",
       "options": [
         "set global score to (get global score + 1)",
         "set global score to 1",
@@ -109,7 +109,7 @@
     {
       "id": 9,
       "type": "mcq",
-      "text": "ما هي الأداة (Component) المناسبة لإحداث اهتزاز طفيف في الهاتف (Vibrate) عند الضغط على زر معين كألعاب القتال؟",
+      "text": "What is the appropriate tool (Component) to cause a slight vibration in the phone (Vibrate) when a certain button is pressed, such as in fighting games?",
       "options": [
         "Sound",
         "Player",
@@ -122,7 +122,7 @@
     {
       "id": 10,
       "type": "mcq",
-      "text": "أي خاصية تحدد زاوية واتجاه حركة القطة المتحركة داخل لوحة الرسم Canvas؟",
+      "text": "Which property determines the angle and direction of movement of the animated cat within the Canvas?",
       "options": [
         "Speed",
         "Heading",
@@ -135,14 +135,14 @@
     {
       "id": 11,
       "type": "task",
-      "text": "اكتب الكود البرمجي لنقل كائن اسمه CatSprite تلقائياً إلى الإحداثيات العشوائية X=150 و Y=رقم عشوائي من 1 إلى 300 عند ملامسته.",
+      "text": "Write code to automatically move an object named CatSprite to random coordinates X=150 and Y=a random number from 1 to 300 when touched.",
       "correct_code": "when CatSprite.Touched (x, y)\ndo call CatSprite.MoveTo (150, random integer 1 to 300)",
       "score": 20
     },
     {
       "id": 12,
       "type": "task",
-      "text": "اكتب الكود لتشغيل أداة التعرف على الكلام SpeechRecognizer1 فور قيام المستخدم بالنقر على زر التحدث المسمى Button_Speak.",
+      "text": "Write the code to launch the speech recognizer SpeechRecognizer1 immediately after the user clicks on the speak button called Button_Speak.",
       "correct_code": "when Button_Speak.Click\ndo call SpeechRecognizer1.GetText",
       "score": 20
     }

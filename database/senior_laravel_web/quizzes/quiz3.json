@@ -1,149 +1,149 @@
 {
   "quiz_title": "Laravel PHP Backend (Web) - Challenge 3",
-  "quick_brief": "اختبار ذكاء وتقييم مهارات لـ Laravel Web - النموذج رقم 3.",
+  "quick_brief": "Intelligence test and skills assessment for Laravel Web - Model No. 3.",
   "questions": [
     {
       "id": 1,
       "type": "mcq",
-      "text": "سؤال التقييم الويب رقم 1 للنموذج 3: أي تقنية نستخدمها هنا؟",
+      "text": "Web Assessment Question 1 for Model 3: What technology are we using here?",
       "options": [
-        "خيار أول للويب",
-        "خيار ثان ممتاز",
-        "إجابة صحيحة معتمدة للويب",
-        "خيار رابع"
+        "First choice for the web",
+        "An excellent second option",
+        "Correct answer approved for the web",
+        "Fourth option"
       ],
-      "correct": "إجابة صحيحة معتمدة للويب",
+      "correct": "Correct answer approved for the web",
       "score": 10
     },
     {
       "id": 2,
       "type": "mcq",
-      "text": "سؤال التقييم الويب رقم 2 للنموذج 3: أي تقنية نستخدمها هنا؟",
+      "text": "Web Evaluation Question #2 for Model 3: What technology are we using here?",
       "options": [
-        "خيار أول للويب",
-        "خيار ثان ممتاز",
-        "إجابة صحيحة معتمدة للويب",
-        "خيار رابع"
+        "First choice for the web",
+        "An excellent second option",
+        "Correct answer approved for the web",
+        "Fourth option"
       ],
-      "correct": "إجابة صحيحة معتمدة للويب",
+      "correct": "Correct answer approved for the web",
       "score": 10
     },
     {
       "id": 3,
       "type": "mcq",
-      "text": "سؤال التقييم الويب رقم 3 للنموذج 3: أي تقنية نستخدمها هنا؟",
+      "text": "Web Evaluation Question #3 for Model 3: What technology are we using here?",
       "options": [
-        "خيار أول للويب",
-        "خيار ثان ممتاز",
-        "إجابة صحيحة معتمدة للويب",
-        "خيار رابع"
+        "First choice for the web",
+        "An excellent second option",
+        "Correct answer approved for the web",
+        "Fourth option"
       ],
-      "correct": "إجابة صحيحة معتمدة للويب",
+      "correct": "Correct answer approved for the web",
       "score": 10
     },
     {
       "id": 4,
       "type": "mcq",
-      "text": "سؤال التقييم الويب رقم 4 للنموذج 3: أي تقنية نستخدمها هنا؟",
+      "text": "Web Assessment Question 4 for Model 3: What technology are we using here?",
       "options": [
-        "خيار أول للويب",
-        "خيار ثان ممتاز",
-        "إجابة صحيحة معتمدة للويب",
-        "خيار رابع"
+        "First choice for the web",
+        "An excellent second option",
+        "Correct answer approved for the web",
+        "Fourth option"
       ],
-      "correct": "إجابة صحيحة معتمدة للويب",
+      "correct": "Correct answer approved for the web",
       "score": 10
     },
     {
       "id": 5,
       "type": "mcq",
-      "text": "سؤال التقييم الويب رقم 5 للنموذج 3: أي تقنية نستخدمها هنا؟",
+      "text": "Web Assessment Question 5 for Model 3: What technology are we using here?",
       "options": [
-        "خيار أول للويب",
-        "خيار ثان ممتاز",
-        "إجابة صحيحة معتمدة للويب",
-        "خيار رابع"
+        "First choice for the web",
+        "An excellent second option",
+        "Correct answer approved for the web",
+        "Fourth option"
       ],
-      "correct": "إجابة صحيحة معتمدة للويب",
+      "correct": "Correct answer approved for the web",
       "score": 10
     },
     {
       "id": 6,
       "type": "mcq",
-      "text": "سؤال التقييم الويب رقم 6 للنموذج 3: أي تقنية نستخدمها هنا؟",
+      "text": "Web Assessment Question 6 for Model 3: What technology are we using here?",
       "options": [
-        "خيار أول للويب",
-        "خيار ثان ممتاز",
-        "إجابة صحيحة معتمدة للويب",
-        "خيار رابع"
+        "First choice for the web",
+        "An excellent second option",
+        "Correct answer approved for the web",
+        "Fourth option"
       ],
-      "correct": "إجابة صحيحة معتمدة للويب",
+      "correct": "Correct answer approved for the web",
       "score": 10
     },
     {
       "id": 7,
       "type": "mcq",
-      "text": "سؤال التقييم الويب رقم 7 للنموذج 3: أي تقنية نستخدمها هنا؟",
+      "text": "Web Assessment Question 7 for Model 3: What technology are we using here?",
       "options": [
-        "خيار أول للويب",
-        "خيار ثان ممتاز",
-        "إجابة صحيحة معتمدة للويب",
-        "خيار رابع"
+        "First choice for the web",
+        "An excellent second option",
+        "Correct answer approved for the web",
+        "Fourth option"
       ],
-      "correct": "إجابة صحيحة معتمدة للويب",
+      "correct": "Correct answer approved for the web",
       "score": 10
     },
     {
       "id": 8,
       "type": "mcq",
-      "text": "سؤال التقييم الويب رقم 8 للنموذج 3: أي تقنية نستخدمها هنا؟",
+      "text": "Web Assessment Question 8 for Model 3: What technology are we using here?",
       "options": [
-        "خيار أول للويب",
-        "خيار ثان ممتاز",
-        "إجابة صحيحة معتمدة للويب",
-        "خيار رابع"
+        "First choice for the web",
+        "An excellent second option",
+        "Correct answer approved for the web",
+        "Fourth option"
       ],
-      "correct": "إجابة صحيحة معتمدة للويب",
+      "correct": "Correct answer approved for the web",
       "score": 10
     },
     {
       "id": 9,
       "type": "mcq",
-      "text": "سؤال التقييم الويب رقم 9 للنموذج 3: أي تقنية نستخدمها هنا؟",
+      "text": "Web Assessment Question 9 for Model 3: What technology are we using here?",
       "options": [
-        "خيار أول للويب",
-        "خيار ثان ممتاز",
-        "إجابة صحيحة معتمدة للويب",
-        "خيار رابع"
+        "First choice for the web",
+        "An excellent second option",
+        "Correct answer approved for the web",
+        "Fourth option"
       ],
-      "correct": "إجابة صحيحة معتمدة للويب",
+      "correct": "Correct answer approved for the web",
       "score": 10
     },
     {
       "id": 10,
       "type": "mcq",
-      "text": "سؤال التقييم الويب رقم 10 للنموذج 3: أي تقنية نستخدمها هنا؟",
+      "text": "Web Assessment Question 10 for Model 3: What technology are we using here?",
       "options": [
-        "خيار أول للويب",
-        "خيار ثان ممتاز",
-        "إجابة صحيحة معتمدة للويب",
-        "خيار رابع"
+        "First choice for the web",
+        "An excellent second option",
+        "Correct answer approved for the web",
+        "Fourth option"
       ],
-      "correct": "إجابة صحيحة معتمدة للويب",
+      "correct": "Correct answer approved for the web",
       "score": 10
     },
     {
       "id": 11,
       "type": "task",
-      "text": "اكتب الكود البرمجي لإجراء التحدي المطلوب في هذا النموذج.",
-      "correct_code": "// كود التحدي المطلوب للويب",
+      "text": "Write the code to perform the challenge requested in this form.",
+      "correct_code": "//Challenge code required for the web",
       "score": 20
     },
     {
       "id": 12,
       "type": "task",
-      "text": "اكتب الشيفرة البرمجية المعتمدة لإنهاء التحدي العملي الثاني للويب.",
-      "correct_code": "// كود التحدي العملي الثاني للويب",
+      "text": "Write approved code to complete the second practical web challenge.",
+      "correct_code": "//Code for the second practical challenge for the web",
       "score": 20
     }
   ]

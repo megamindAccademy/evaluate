@@ -1,11 +1,11 @@
 {
   "quiz_title": "MIT App Inventor (Senior) - Challenge 6",
-  "quick_brief": "تحدي الأسبوع السادس والأخير: اختبر مهاراتك المتقدمة جداً في ربط تطبيقاتك بأحدث نماذج الذكاء الاصطناعي التوليدي ChatGPT وتوليد اللوحات الفنية بـ ImageBot!",
+  "quick_brief": "Challenge of the sixth and final week: Test your highly advanced skills in linking your applications with the latest generative artificial intelligence models ChatGPT and generating art paintings with ImageBot!",
   "questions": [
     {
       "id": 1,
       "type": "mcq",
-      "text": "ما هو المكون الذكي المتقدم (AI Component) في App Inventor الذي يتيح ربط تطبيقك بنماذج الذكاء الاصطناعي ChatGPT لإجراء محادثات نصية ذكية؟",
+      "text": "What is the Advanced AI Component in App Inventor that allows your app to be connected to ChatGPT AI models for intelligent text conversations?",
       "options": [
         "ChatBot",
         "ImageBot",
@@ -18,7 +18,7 @@
     {
       "id": 2,
       "type": "mcq",
-      "text": "أي دالة برمجية نستخدمها لإرسال سؤال المستخدم النصي إلى خوادم الذكاء الاصطناعي ChatGPT للحصول على الإجابة؟",
+      "text": "Which programming function do we use to send the user's text question to the ChatGPT AI servers to get the answer?",
       "options": [
         "call ChatBot1.PostText",
         "call ChatBot1.Speak",
@@ -31,7 +31,7 @@
     {
       "id": 3,
       "type": "mcq",
-      "text": "أي حدث برمي يُنفذ تلقائياً بمجرد استلام التطبيق لإجابة الذكاء الاصطناعي ChatGPT بنجاح وعرضها للمستخدم؟",
+      "text": "Which throw event is automatically executed once the application successfully receives the ChatGPT AI answer and displays it to the user?",
       "options": [
         "when ChatBot1.GotResponse",
         "when ChatBot1.Click",
@@ -44,7 +44,7 @@
     {
       "id": 4,
       "type": "mcq",
-      "text": "ما هي أداة الذكاء الاصطناعي المتخصصة (Component) في توليد لوحات فنية وصور مذهلة بمجرد وصفها نصياً باللغة الإنجليزية؟",
+      "text": "What is the specialized artificial intelligence tool (Component) that generates amazing paintings and images just by describing them in text in English?",
       "options": [
         "ImageSprite",
         "ImageBot",
@@ -57,7 +57,7 @@
     {
       "id": 5,
       "type": "mcq",
-      "text": "أي دالة برمجية نستخدمها لإرسال الوصف النصي للمشهد (Prompt) لتوليد الصورة السحرية بواسطة أداة الـ ImageBot؟",
+      "text": "Which software function do we use to send the text description of the scene (Prompt) to generate the magic image with ImageBot?",
       "options": [
         "call ImageBot1.CreateImage (prompt)",
         "call ImageBot1.GetImage",
@@ -70,7 +70,7 @@
     {
       "id": 6,
       "type": "mcq",
-      "text": "أي حدث برمي يتم تنفيذه تلقائياً بمجرد اكتمال توليد الصورة بنجاح ووصولها إلى هاتف المستخدم؟",
+      "text": "Which throwing event is automatically executed once the image generation is completed successfully and reaches the user's phone?",
       "options": [
         "when ImageBot1.ImageCreated",
         "when ImageBot1.GotResponse",
@@ -83,7 +83,7 @@
     {
       "id": 7,
       "type": "mcq",
-      "text": "في حدث ImageCreated(image)، أي خاصية في عنصر الصورة (ImageComponent) نقوم بإسناد الصورة المولدة إليها لتظهر للمستخدم على الشاشة؟",
+      "text": "In the ImageCreated(image) event, which property of the ImageComponent do we assign the generated image to appear to the user on the screen?",
       "options": [
         "Picture",
         "Visible",
@@ -96,20 +96,20 @@
     {
       "id": 8,
       "type": "mcq",
-      "text": "لإنشاء تطبيق مساعد ذكي يستمع لأسئلة المستخدم صوتياً وينطق بالإجابة صوتياً، نقوم بدمج الذكاء الاصطناعي ChatGPT مع الأدوات المساعدة:",
+      "text": "To create an intelligent assistant application that listens to the user's questions and speaks the answer audio, we combine the artificial intelligence ChatGPT with utilities:",
       "options": [
-        "SpeechRecognizer و TextToSpeech",
-        "Canvas و ImageSprite",
-        "TinyDB و ListView",
-        "Sound و Spinner"
+        "SpeechRecognizer and TextToSpeech",
+        "Canvas and ImageSprite",
+        "TinyDB and ListView",
+        "Sound and Spinner"
       ],
-      "correct": "SpeechRecognizer و TextToSpeech",
+      "correct": "SpeechRecognizer and TextToSpeech",
       "score": 10
     },
     {
       "id": 9,
       "type": "mcq",
-      "text": "ما هو المصطلح الفني (Prompt) المستخدم في عالم الذكاء الاصطناعي للتعبير عن الوصف النصي الذي يكتبه المستخدم لتوجيه الآلة لتصميم صورة أو كتابة نص؟",
+      "text": "What is the technical term (Prompt) used in the world of artificial intelligence to express the textual description that the user writes to direct the machine to design an image or write text?",
       "options": [
         "Prompt",
         "Token",
@@ -122,27 +122,27 @@
     {
       "id": 10,
       "type": "mcq",
-      "text": "ما هي الفائدة الجوهرية من استخدام الذكاء الاصطناعي التوليدي داخل تطبيقات الهواتف الذكية؟",
+      "text": "What is the fundamental benefit of using generative AI within smartphone applications?",
       "options": [
-        "توفير طاقة بطارية الهاتف",
-        "جعل التطبيق ذكياً، تفاعلياً، وقادراً على فهم وتوليد المحتوى المعقد فورياً",
-        "تسريع تحميل شاشة تسجيل الدخول",
-        "الرسم على الـ Canvas بشكل أسرع"
+        "Save phone battery power",
+        "Make the application smart, interactive, and capable of understanding and generating complex content instantly",
+        "Speed ​​up the loading of the login screen",
+        "Drawing on Canvas faster"
       ],
-      "correct": "جعل التطبيق ذكياً، تفاعلياً، وقادراً على فهم وتوليد المحتوى المعقد فورياً",
+      "correct": "Make the application smart, interactive, and capable of understanding and generating complex content instantly",
       "score": 10
     },
     {
       "id": 11,
       "type": "task",
-      "text": "اكتب الكود البرمجي لإرسال السؤال المكتوب في TextBox1 إلى خبير الذكاء الاصطناعي ChatBot1 عند النقر على زر الإرسال.",
+      "text": "Write the code to send the question written in TextBox1 to the AI ​​expert ChatBot1 when the submit button is clicked.",
       "correct_code": "when Button_Send.Click\ndo call ChatBot1.PostText (question = get TextBox1.Text)",
       "score": 20
     },
     {
       "id": 12,
       "type": "task",
-      "text": "اكتب الكود البرمجي لاستلام الصورة المولدة في حدث ImageCreated وتعيينها كصورة لعنصر مسمى Image_Result.",
+      "text": "Write code to receive the image generated in the ImageCreated event and set it as an image for an item named Image_Result.",
       "correct_code": "when ImageBot1.ImageCreated (image)\ndo set Image_Result.Picture to get image",
       "score": 20
     }

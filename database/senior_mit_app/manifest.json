@@ -1,7 +1,7 @@
 {
   "course_id": "senior_mit_app",
   "course_title": "MIT App Inventor (Senior)",
-  "desc": "صمم وبرمج تطبيقات أندرويد وآيفون متكاملة! تعلم استخدام الواجهات التفاعلية، ورسم اللوحات، وتصميم الألعاب ثنائية الأبعاد، واستخدام قواعد البيانات المحلية لتخزين البيانات، والتحكم بالصوت، وتتوج رحلتك بدمج تقنيات الذكاء الاصطناعي التوليدي ChatGPT ومولدات الصور في تطبيقاتك! 📱🚀",
+  "desc": "Design and program integrated Android and iPhone applications! Learn to use interactive interfaces, draw boards, design 2D games, use local databases to store data, control voice, and culminate your journey by integrating ChatGPT generative AI techniques and image generators into your applications! 📱🚀",
   "icon": "📱",
   "icon_bg_class": "icon-robotics",
   "status": "active",

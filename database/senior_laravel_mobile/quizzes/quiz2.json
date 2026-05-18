@@ -1,149 +1,149 @@
 {
   "quiz_title": "Laravel Mobile API Backend - Challenge 2",
-  "quick_brief": "اختبار ذكاء وتقييم مهارات لـ Laravel Mobile API - النموذج رقم 2.",
+  "quick_brief": "Intelligence test and skills assessment for Laravel Mobile API - Model No. 2.",
   "questions": [
     {
       "id": 1,
       "type": "mcq",
-      "text": "سؤال التقييم الموبايل رقم 1 للنموذج 2: أي طريقة نستخدمها للاتصال بالخادم الخلفي؟",
+      "text": "Mobile Assessment Question #1 for Form 2: Which method do we use to connect to the back-end server?",
       "options": [
-        "خيار أول للموبايل",
-        "خيار ثان للموبايل",
-        "إجابة صحيحة معتمدة للموبايل API",
-        "خيار رابع للموبايل"
+        "First choice for mobile",
+        "A second option for mobile",
+        "Correct answer approved for mobile API",
+        "A fourth option for mobile"
       ],
-      "correct": "إجابة صحيحة معتمدة للموبايل API",
+      "correct": "Correct answer approved for mobile API",
       "score": 10
     },
     {
       "id": 2,
       "type": "mcq",
-      "text": "سؤال التقييم الموبايل رقم 2 للنموذج 2: أي طريقة نستخدمها للاتصال بالخادم الخلفي؟",
+      "text": "Mobile Assessment Question #2 for Form 2: Which method do we use to connect to the back-end server?",
       "options": [
-        "خيار أول للموبايل",
-        "خيار ثان للموبايل",
-        "إجابة صحيحة معتمدة للموبايل API",
-        "خيار رابع للموبايل"
+        "First choice for mobile",
+        "A second option for mobile",
+        "Correct answer approved for mobile API",
+        "A fourth option for mobile"
       ],
-      "correct": "إجابة صحيحة معتمدة للموبايل API",
+      "correct": "Correct answer approved for mobile API",
       "score": 10
     },
     {
       "id": 3,
       "type": "mcq",
-      "text": "سؤال التقييم الموبايل رقم 3 للنموذج 2: أي طريقة نستخدمها للاتصال بالخادم الخلفي؟",
+      "text": "Mobile Assessment Question #3 for Form 2: Which method do we use to connect to the back-end server?",
       "options": [
-        "خيار أول للموبايل",
-        "خيار ثان للموبايل",
-        "إجابة صحيحة معتمدة للموبايل API",
-        "خيار رابع للموبايل"
+        "First choice for mobile",
+        "A second option for mobile",
+        "Correct answer approved for mobile API",
+        "A fourth option for mobile"
       ],
-      "correct": "إجابة صحيحة معتمدة للموبايل API",
+      "correct": "Correct answer approved for mobile API",
       "score": 10
     },
     {
       "id": 4,
       "type": "mcq",
-      "text": "سؤال التقييم الموبايل رقم 4 للنموذج 2: أي طريقة نستخدمها للاتصال بالخادم الخلفي؟",
+      "text": "Mobile Assessment Question #4 for Form 2: Which method do we use to connect to the back-end server?",
       "options": [
-        "خيار أول للموبايل",
-        "خيار ثان للموبايل",
-        "إجابة صحيحة معتمدة للموبايل API",
-        "خيار رابع للموبايل"
+        "First choice for mobile",
+        "A second option for mobile",
+        "Correct answer approved for mobile API",
+        "A fourth option for mobile"
       ],
-      "correct": "إجابة صحيحة معتمدة للموبايل API",
+      "correct": "Correct answer approved for mobile API",
       "score": 10
     },
     {
       "id": 5,
       "type": "mcq",
-      "text": "سؤال التقييم الموبايل رقم 5 للنموذج 2: أي طريقة نستخدمها للاتصال بالخادم الخلفي؟",
+      "text": "Mobile Assessment Question #5 for Form 2: Which method do we use to connect to the back-end server?",
       "options": [
-        "خيار أول للموبايل",
-        "خيار ثان للموبايل",
-        "إجابة صحيحة معتمدة للموبايل API",
-        "خيار رابع للموبايل"
+        "First choice for mobile",
+        "A second option for mobile",
+        "Correct answer approved for mobile API",
+        "A fourth option for mobile"
       ],
-      "correct": "إجابة صحيحة معتمدة للموبايل API",
+      "correct": "Correct answer approved for mobile API",
       "score": 10
     },
     {
       "id": 6,
       "type": "mcq",
-      "text": "سؤال التقييم الموبايل رقم 6 للنموذج 2: أي طريقة نستخدمها للاتصال بالخادم الخلفي؟",
+      "text": "Mobile Assessment Question #6 for Form 2: Which method do we use to connect to the back-end server?",
       "options": [
-        "خيار أول للموبايل",
-        "خيار ثان للموبايل",
-        "إجابة صحيحة معتمدة للموبايل API",
-        "خيار رابع للموبايل"
+        "First choice for mobile",
+        "A second option for mobile",
+        "Correct answer approved for mobile API",
+        "A fourth option for mobile"
       ],
-      "correct": "إجابة صحيحة معتمدة للموبايل API",
+      "correct": "Correct answer approved for mobile API",
       "score": 10
     },
     {
       "id": 7,
       "type": "mcq",
-      "text": "سؤال التقييم الموبايل رقم 7 للنموذج 2: أي طريقة نستخدمها للاتصال بالخادم الخلفي؟",
+      "text": "Mobile Assessment Question #7 for Form 2: Which method do we use to connect to the back-end server?",
       "options": [
-        "خيار أول للموبايل",
-        "خيار ثان للموبايل",
-        "إجابة صحيحة معتمدة للموبايل API",
-        "خيار رابع للموبايل"
+        "First choice for mobile",
+        "A second option for mobile",
+        "Correct answer approved for mobile API",
+        "A fourth option for mobile"
       ],
-      "correct": "إجابة صحيحة معتمدة للموبايل API",
+      "correct": "Correct answer approved for mobile API",
       "score": 10
     },
     {
       "id": 8,
       "type": "mcq",
-      "text": "سؤال التقييم الموبايل رقم 8 للنموذج 2: أي طريقة نستخدمها للاتصال بالخادم الخلفي؟",
+      "text": "Mobile Assessment Question 8 for Form 2: Which method do we use to connect to the back-end server?",
       "options": [
-        "خيار أول للموبايل",
-        "خيار ثان للموبايل",
-        "إجابة صحيحة معتمدة للموبايل API",
-        "خيار رابع للموبايل"
+        "First choice for mobile",
+        "A second option for mobile",
+        "Correct answer approved for mobile API",
+        "A fourth option for mobile"
       ],
-      "correct": "إجابة صحيحة معتمدة للموبايل API",
+      "correct": "Correct answer approved for mobile API",
       "score": 10
     },
     {
       "id": 9,
       "type": "mcq",
-      "text": "سؤال التقييم الموبايل رقم 9 للنموذج 2: أي طريقة نستخدمها للاتصال بالخادم الخلفي؟",
+      "text": "Mobile Assessment Question #9 for Form 2: Which method do we use to connect to the back-end server?",
       "options": [
-        "خيار أول للموبايل",
-        "خيار ثان للموبايل",
-        "إجابة صحيحة معتمدة للموبايل API",
-        "خيار رابع للموبايل"
+        "First choice for mobile",
+        "A second option for mobile",
+        "Correct answer approved for mobile API",
+        "A fourth option for mobile"
       ],
-      "correct": "إجابة صحيحة معتمدة للموبايل API",
+      "correct": "Correct answer approved for mobile API",
       "score": 10
     },
     {
       "id": 10,
       "type": "mcq",
-      "text": "سؤال التقييم الموبايل رقم 10 للنموذج 2: أي طريقة نستخدمها للاتصال بالخادم الخلفي؟",
+      "text": "Mobile Assessment Question #10 for Form 2: Which method do we use to connect to the back-end server?",
       "options": [
-        "خيار أول للموبايل",
-        "خيار ثان للموبايل",
-        "إجابة صحيحة معتمدة للموبايل API",
-        "خيار رابع للموبايل"
+        "First choice for mobile",
+        "A second option for mobile",
+        "Correct answer approved for mobile API",
+        "A fourth option for mobile"
       ],
-      "correct": "إجابة صحيحة معتمدة للموبايل API",
+      "correct": "Correct answer approved for mobile API",
       "score": 10
     },
     {
       "id": 11,
       "type": "task",
-      "text": "اكتب الكود البرمجي للـ API لإجراء التحدي المطلوب في هذا النموذج.",
-      "correct_code": "// كود التحدي المطلوب للموبايل API",
+      "text": "Write the API code to perform the challenge requested in this form.",
+      "correct_code": "// Challenge code required for the mobile API",
       "score": 20
     },
     {
       "id": 12,
       "type": "task",
-      "text": "اكتب الشيفرة البرمجية المعتمدة لإنهاء التحدي العملي الثاني للموبايل API.",
-      "correct_code": "// كود التحدي العملي الثاني للموبايل API",
+      "text": "Write the approved code to complete the second mobile API practical challenge.",
+      "correct_code": "// Code of the second practical challenge for mobile API",
       "score": 20
     }
   ]
