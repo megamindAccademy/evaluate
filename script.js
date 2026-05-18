@@ -209,9 +209,17 @@ document.addEventListener('DOMContentLoaded', () => {
                         .then(res => {
                             if (!res.ok) throw new Error(`Manifest not found for ${courseId}`);
                             return res.json().then(manifest => {
-                                return fetch(`./database/${courseId}/games.json`, { method: 'HEAD' })
-                                    .then(gamesRes => ({ courseId, manifest, hasGames: gamesRes.ok }))
-                                    .catch(() => ({ courseId, manifest, hasGames: false }));
+                                const coursesWithGames = [
+                                    'junior_pictoblox',
+                                    'junior_pictoblox_with_ai',
+                                    'junior_mit_app',
+                                    'junior_pictoblox_3d',
+                                    'junior_python',
+                                    'senior_python',
+                                    'senior_ai'
+                                ];
+                                const hasGames = coursesWithGames.includes(courseId);
+                                return { courseId, manifest, hasGames };
                             });
                         })
                         .catch(err => {

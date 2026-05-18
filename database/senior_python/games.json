@@ -322,7 +322,7 @@
       "badge_title": "Classic Game Designer Medal (Ping Pong Part 1)",
       "title": "Station 11: Building a ping pong game - Part 1 🏓",
       "desc": "Design the magical game screen and configure the ball, paddles and control buttons using the Turtle library!",
-      "story": "سنبدأ مشروعنا الأضخم والأمتع! برمجة وتصميم لعبة كرة الطاولة الكلاسيكية (Ping Pong) من الصفر! In this part, we'll configure the black drawing screen, adjust the refresh speed with tracer(0), design the paddles and ball as independent turtle objects, and associate button movement with keyboard commands!",
+      "story": "We will start our biggest and most enjoyable project! Programming and designing the classic table tennis game (Ping Pong) from scratch! In this part, we'll configure the black drawing screen, adjust the refresh speed with tracer(0), design the paddles and ball as independent turtle objects, and associate button movement with keyboard commands!",
       "simple": "We make a complete game with our own hands! We create a black screen for the match, place two colored paddles that move up and down, program the keyboard buttons (W/S) and (arrows) to control them, and get ready for the exciting match!",
       "hint": "Write the code to print the game screen initialization success: <code>print(\"Ping Pong Screen Initialized\")</code>",
       "challenge": "Print the <code>Ping Pong Screen Initialized</code> statement to confirm that the game screen was successfully initialized and started the racket movement simulator.",
