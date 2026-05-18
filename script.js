@@ -208,7 +208,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     return fetch(`./database/${courseId}/manifest.json?v=` + Date.now())
                         .then(res => {
                             if (!res.ok) throw new Error(`Manifest not found for ${courseId}`);
-                            return res.json().then(manifest => ({ courseId, manifest }));
+                            return res.json().then(manifest => {
+                                return fetch(`./database/${courseId}/games.json`, { method: 'HEAD' })
+                                    .then(gamesRes => ({ courseId, manifest, hasGames: gamesRes.ok }))
+                                    .catch(() => ({ courseId, manifest, hasGames: false }));
+                            });
                         })
                         .catch(err => {
                             console.error(`Error discovering course ${courseId}:`, err);
@@ -228,14 +232,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     const manifest = item.manifest;
 
                     if (isJunior) {
-                        if (dynamicCurriculumsGridJunior) {
+                        if (dynamicCurriculumsGridJunior && item.hasGames) {
                             renderDiscoveredCurriculumCard(manifest, dynamicCurriculumsGridJunior, modalOverlay, modalTitle, modalText);
                         }
                         if (dynamicCoursesGridJunior) {
                             renderDiscoveredCourseCard(manifest, dynamicCoursesGridJunior, modalOverlay, modalTitle, modalText);
                         }
                     } else {
-                        if (dynamicCurriculumsGridSenior) {
+                        if (dynamicCurriculumsGridSenior && item.hasGames) {
                             renderDiscoveredCurriculumCard(manifest, dynamicCurriculumsGridSenior, modalOverlay, modalTitle, modalText);
                         }
                         if (dynamicCoursesGridSenior) {

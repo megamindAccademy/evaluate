@@ -232,7 +232,27 @@ function fetchCourseGames(courseId) {
         })
         .catch(err => {
             console.error(`Error loading games for ${courseId}:`, err);
-            alert("عذراً يا بطل! جاري تجهيز ألعاب وتحديات هذا المسار قريباً جداً.");
+            currentCourseData = {
+                course_title: "قريباً جداً! ⏳",
+                course_subtitle: "جاري تجهيز ألعاب وتحديات هذا المسار السحرية في مختبراتنا...",
+                mascot_img: "./assets/megaminds_mascot.png",
+                stations: []
+            };
+            renderCourseContent();
+            
+            const journeyGrid = document.getElementById('journeyGrid');
+            if (journeyGrid) {
+                journeyGrid.innerHTML = `
+                    <div style="grid-column: 1 / -1; text-align: center; padding: 50px; background: #023047; border-radius: 20px; border: 2px dashed #ffb703; margin-top: 20px;">
+                        <div style="font-size: 4rem; margin-bottom: 20px;">🚧🛠️🚀</div>
+                        <h2 style="color: #ffb703; font-size: 2rem; margin-bottom: 15px;">الألعاب تحت الإنشاء!</h2>
+                        <p style="color: #ffffff; font-size: 1.2rem; line-height: 1.6;">
+                            عذراً يا بطل، محطات وألعاب هذا المسار يتم تجهيزها حالياً بكل حب.<br>
+                            عد قريباً لتكتشف المغامرات الجديدة!
+                        </p>
+                    </div>
+                `;
+            }
         });
 }
 
