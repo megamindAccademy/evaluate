@@ -1,0 +1,73 @@
+--- Page 1 ---
+& 
+Level 3:  Session 1
+
+--- Page 2 ---
+OOP
+Class
+Object
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+OOPS concepts in python
+--- Page 4 ---
+All rights reserved
+
+--- Page 5 ---
+All rights reserved
+Example
+What about person ??
+
+--- Page 6 ---
+All rights reserved
+
+--- Page 7 ---
+All rights reserved
+
+--- Page 8 ---
+All rights reserved
+Class
+The self
+Class methods must have an extra first parameter in 
+the method definition.
+pointer في لغات اخري تشير الي هذا العنصر كانهthisاشبه ب
+اساسيه ف اي فانكشن داخل الكلاس
+__init__ method
+The __init__ method is similar to constructors in C++ and 
+Java. Constructors are used to initialize the object’s state.
+فانكشن رئيسيه الكلاس بينادي عليها اول ما ننشئ اوبجيكت
+--- Page 9 ---
+All rights reserved
+EXAMPLE
+--- Page 10 ---
+All rights reserved
+EXAMPLE
+
+--- Page 11 ---
+All rights reserved
+We can use normal function but we 
+need to call it
+To call any variable or function 
+within class just use self
+Use f to format and 
+{self.parameter-name}
+
+--- Page 12 ---
+All rights reserved
+Define a class company have a name , salary and age
+Define a function that check age if grater than 50 salary will increase by 500
+Test if age greater than 50 or less 
+
+--- Page 13 ---
+All rights reserved
+H.W
+define a class called Person that represents a person. The class has 
+two attributes, name and age, which are initialized using the __init__() 
+method with the given arguments.
+The class also has a function called greet(), which prints a greeting 
+message containing the person's name and age.
+We then create an instance of the Person class called person1 and 
+pass in arguments for name and age. 
+We then call the greet() method to print a greeting message to the 
+terminal.

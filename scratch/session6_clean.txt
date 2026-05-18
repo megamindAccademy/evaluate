@@ -1,0 +1,78 @@
+--- Page 1 ---
+& 
+Level 2:  Session 2
+
+--- Page 2 ---
+For loop
+The range() Function
+Nested loop
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+LOOPS
+--- Page 4 ---
+All rights reserved
+2
+-
+ For Loops
+A for loop is used for iterating 
+over a sequence
+
+--- Page 5 ---
+All rights reserved
+Example :
+Print each fruit in a fruit list:
+ Example :
+Print each number in a numbers list:
+--- Page 6 ---
+All rights reserved
+Looping Through a String
+Even strings are iterable objects, 
+they contain a sequence of 
+characters:
+Example
+Loop through the letters in the word 
+"banana":
+--- Page 7 ---
+All rights reserved
+The range() Function
+To loop through a set of code a specified 
+number of times
+Example
+Using the range() function:
+
+--- Page 8 ---
+All rights reserved
+The break Statement
+stop the loop before it has looped 
+through all the items:
+The continue Statement
+stop the current iteration of the 
+loop, and continue with the next:
+Exit the loop when x is "banana": Do not print banana :
+--- Page 9 ---
+All rights reserved
+Else in For Loop
+The else keyword in a for loop specifies a 
+block of code to be executed when the 
+loop is finished:
+Example
+Print all python letters, and print a 
+message when the loop has ended:
+--- Page 10 ---
+All rights reserved
+Nested Loops
+Example
+Print each adjective for every fruit:
+A nested loop is a loop inside a loop.
+The "inner loop" will be executed 
+one time for each iteration of the 
+"outer loop":
+
+--- Page 11 ---
+All rights reserved
+H.W
+1- Write a Python program that uses a for loop 
+to print the numbers from 1 to 10.
+Use the range() function to generate the numbers.

@@ -1,0 +1,1332 @@
+=====================================
+SESSION 1
+=====================================
+--- Page 1 ---
+& 
+Level 1:  Session 1
+
+--- Page 2 ---
+Introduction to python
+Python for AI and machine learning
+Start python
+Print function
+All rights reserved
+
+--- Page 3 ---
+Python is a Simple , most popular ,object 
+oriented ,interpreted & high level 
+programming language . 
+All rights reserved
+WHAT IS PYTHON ?
+--- Page 4 ---
+All rights reserved
+Why Python ?
+--- Page 5 ---
+All rights reserved
+1. Simple and Easy to Learn
+feels like you’re reading English
+2. Free and Open Source
+allow the community to help build 
+and improve the software.
+
+--- Page 6 ---
+All rights reserved
+
+--- Page 7 ---
+All rights reserved
+4.Object
+-
+Oriented & 
+Procedure
+-
+oriented
+the concept of reusable codes and 
+functions. use them at different 
+times in different codes.
+3.Interpreted
+Write the code          Execute the code
+This  feature helps the programmer 
+to easily debug the code.
+
+--- Page 8 ---
+All rights reserved
+5
+.Extensive Standard Library
+And many more ..
+
+--- Page 9 ---
+All rights reserved
+Where 
+is 
+Python 
+used ?
+
+--- Page 10 ---
+All rights reserved
+
+--- Page 11 ---
+All rights reserved
+
+--- Page 12 ---
+All rights reserved
+1. Web Scraping
+the process of using bots to extract content and data from a website.
+
+--- Page 13 ---
+All rights reserved
+2
+.
+ Machine Learning and Artificial intelligence 
+think like a human and perform tasks on its own.
+how a computer system develops its intelligence.
+uses vast volumes of data and complex algorithms 
+to train a model.
+
+--- Page 14 ---
+All rights reserved
+3
+.
+ Game Development
+
+--- Page 15 ---
+All rights reserved
+4
+.
+ Automation
+process in which a manually 
+performed action is transformed 
+into one that happens automatically.
+--- Page 16 ---
+All rights reserved
+5
+.
+ Hacking
+
+--- Page 17 ---
+All rights reserved
+6
+.
+ web development
+And many more ..
+
+--- Page 18 ---
+All rights reserved
+App Made With Python 
+
+--- Page 19 ---
+All rights reserved
+python for AI and ML
+
+--- Page 20 ---
+All rights reserved
+Artificial Intelligence The Future of AI
+The digital revolution has already changed 
+how people live, work, and communicate. 
+And it’s only just getting started. But the 
+same technologies that have the potential 
+to help billions of people live happier, 
+healthier, and more
+
+--- Page 21 ---
+All rights reserved
+
+--- Page 22 ---
+All rights reserved
+Why Is Python Best For AI ?
+Software that can run on a 
+variety of hardware 
+platforms or software 
+architectures.
+Python Discord is a large community 
+focused around the Python 
+programming language.
+Python can be considered 
+beginner-friendly
+
+--- Page 23 ---
+https://www.python.org/downloads/
+All rights reserved
+Install python 
+https://www.python.org/downloads/ 
+--- Page 24 ---
+All rights reserved
+Python
+ print
+()
+ Function
+prints the specified message to the screen, or other standard output 
+device 
+
+--- Page 25 ---
+All rights reserved
+H.W
+=====================================
+SESSION 2
+=====================================
+--- Page 1 ---
+& 
+Level 1:  Session 2
+
+--- Page 2 ---
+Variable
+Data type 
+Input function
+List
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+variables in 
+python
+
+--- Page 4 ---
+All rights reserved
+Variable
+Variables are containers for storing 
+data values.
+
+--- Page 5 ---
+All rights reserved
+Variables do not need to be declared 
+with any particular type, and can 
+even change type after they have 
+been set.
+int
+string
+--- Page 6 ---
+All rights reserved
+Note
+Start with character only
+Ex: name1 , not  1name
+Not need var or int or string
+Ex: name ,length ,age
+Give variable suitable name
+Ex: name ,length not  x , y
+Camel casing Pascal case
+Ex: firstName 
+Pascal case
+Ex: CallYourMother
+Case sensitive
+Ex: name not equal Name
+Reserved keyword
+Ex: don’t use word of the language 
+( int , if , function )
+
+--- Page 7 ---
+All rights reserved
+Examples
+To print variable with String  
+use concatenation +
+--- Page 8 ---
+All rights reserved
+Data type
+Variables can store data of different 
+types, and different types can do 
+different things.
+
+--- Page 9 ---
+All rights reserved
+Python has the following data types built
+-
+in by 
+default, in these categories:
+Text Type:
+Numeric Types:
+Sequence Types:
+Mapping Type:
+Set Types:
+Boolean Type:
+Binary Types:
+None Type:
+str
+int, float, complex
+list, tuple, range
+dict
+set, frozenset
+bool
+bytes, bytearray, memoryview
+NoneType
+--- Page 10 ---
+All rights reserved
+Getting the Data Type
+
+--- Page 11 ---
+All rights reserved
+Brackets
+() parentheses,
+supply additional information.
+[] square brackets,
+allowing you to declare a list .
+{} curly brackets, 
+used to insert explanations, corrections, 
+clarifications.
+
+--- Page 12 ---
+All rights reserved
+
+--- Page 13 ---
+All rights reserved
+Python
+ input()
+ Function
+The input() function allows user input. 
+
+--- Page 14 ---
+All rights reserved
+Example 
+
+--- Page 15 ---
+All rights reserved
+Try to add two number that you get from users
+Task
+
+--- Page 16 ---
+All rights reserved
+Don’t forget to convert string from 
+input to integer with int() function.
+Answer 
+We can use float if we use 
+decimal number
+
+--- Page 17 ---
+All rights reserved
+Lists are used to store multiple items 
+in a single variable.
+List 
+List items are indexed, the first 
+item has index [0], the second 
+item has index [1] etc. 
+
+--- Page 18 ---
+All rights reserved
+1
+-
+ print list
+2
+-
+ Access list
+3
+-
+ change value
+
+--- Page 19 ---
+All rights reserved
+4
+-
+ Add to list
+Append 
+Extend
+Insert
+
+--- Page 20 ---
+All rights reserved
+5
+-
+ sort
+ 6
+-
+ Delete from list
+Remove()
+Clear()
+We can use :
+sort(reverse=True)
+If sort descending 
+--- Page 21 ---
+All rights reserved
+H.W
+2- get type of this variable
+1- Declaring a variable called 'message' and 
+assigning a “hello world” value to it
+Creating a list of integers  5,9,6,7,2,5,4
+1. accessing an element 
+2. changing the value of an element
+3. adding an element to the end
+4. inserting an element at a specific index 
+=====================================
+SESSION 3
+=====================================
+--- Page 1 ---
+& 
+Level 1:  Session 3
+
+--- Page 2 ---
+Operator
+Number 
+string
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+Operators are used to perform operations on 
+variables and values.
+Arithmetic operators
+Operators
+Assignment operators
+Comparison operators
+Logical operators
+
+--- Page 4 ---
+All rights reserved
+Arithmetic operators
+
+--- Page 5 ---
+All rights reserved
+Assignment operators
+
+--- Page 6 ---
+All rights reserved
+Comparison operators
+
+--- Page 7 ---
+All rights reserved
+Logical operators
+
+--- Page 8 ---
+All rights reserved
+There are three numeric types in Python:
+int
+Number
+float
+complex
+
+--- Page 9 ---
+All rights reserved
+We can use int() to convert to integer.
+We can use float() to convert to float.
+We can use complex() to convert 
+to complex.
+
+--- Page 10 ---
+All rights reserved
+String
+Space is included
+String consider a list 
+Note that :
+--- Page 11 ---
+All rights reserved
+String + Function
+A function is a block of organized, 
+reusable code that is used to 
+perform a single, related action.
+
+--- Page 12 ---
+All rights reserved
+String + Function
+
+--- Page 13 ---
+All rights reserved
+H.W
+using the input() function to get the user’s name 
+ printing a greeting using the user's name
+NUM1=5 , NUM2=10   use :
+1. Arithmetic operators
+2. Assignment operators
+3. Comparison operators
+4. Logical operators
+=====================================
+SESSION 4
+=====================================
+--- Page 1 ---
+& 
+Level 1 :  Session 4
+
+--- Page 2 ---
+Tuple
+Dictionaries
+ 
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+Tuples are used to store multiple items in 
+a single variable.
+Tuple is one of 4 built-in data types in Python used to 
+store collections of data
+Tuple
+A tuple is a collection which is ordered 
+and unchangeable.
+Tuples are written with round brackets.
+
+--- Page 4 ---
+All rights reserved
+Example
+Create a Tuple:
+
+--- Page 5 ---
+All rights reserved
+Tuple items are ordered, unchangeable, 
+and allow duplicate values.
+Ordered
+Tuple Properties
+Unchangeable
+Allow Duplicates
+
+--- Page 6 ---
+All rights reserved
+Examples
+
+--- Page 7 ---
+All rights reserved
+Access Tuple Items
+
+--- Page 8 ---
+All rights reserved
+Change Tuple Values
+
+--- Page 9 ---
+All rights reserved
+Tuple Methods
+
+--- Page 10 ---
+All rights reserved
+Exercise
+Which one of these is a tuple ?
+Use the correct syntax to print 
+the number of items in 
+the
+ fruits
+ tuple.
+
+--- Page 11 ---
+All rights reserved
+Dictionaries are used to store data values in key: 
+value  pairs.
+A dictionary is a collection which is ordered*, 
+changeable and do not allow duplicates.
+Dictionaries
+Dictionaries are written with curly brackets, and 
+have keys and values
+
+--- Page 12 ---
+All rights reserved
+Example
+
+--- Page 13 ---
+All rights reserved
+Dictionary items are presented in key: 
+value pairs, and can be referred to by 
+using the key name.
+Ordered
+Dictionary Properties
+changeable
+Don’t allow Duplicates
+
+--- Page 14 ---
+All rights reserved
+Accessing Items
+
+--- Page 15 ---
+All rights reserved
+Change & Update Values
+
+--- Page 16 ---
+All rights reserved
+Removing Items
+
+--- Page 17 ---
+All rights reserved
+Methods
+
+--- Page 18 ---
+All rights reserved
+Comparison (List 
+–
+ Tuple
+-
+ Dictionary )
+
+--- Page 19 ---
+All rights reserved
+
+--- Page 20 ---
+All rights reserved
+H.W
+Add and Modify Names Using  tuple
+We have a Tuple containing names.
+Convert the tuple to a list to make changes.
+Add a new name to the list and Modify an existing name.
+Convert the list back to a Tuple after modifications.
+Print the final tuple.
+Student Scores Dictionary
+Create a dictionary with at least 3 students and their 
+scores.
+Print the dictionary.
+Add a new student and their score.
+Update the score of one student. (choose a specific name).
+Print the updated dictionary.=====================================
+SESSION 5
+=====================================
+--- Page 1 ---
+& 
+Level 2:  Session 1
+
+--- Page 2 ---
+If conditions
+loop
+While loop
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+
+--- Page 4 ---
+All rights reserved
+Python supports the usual logical 
+conditions from mathematics:
+Equals: a == b
+Conditions and If statements
+Not Equals: a != b
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+
+--- Page 5 ---
+All rights reserved
+1
+-
+ If statement
+2
+-
+ elif
+ statement
+--- Page 6 ---
+All rights reserved
+3
+-
+ else statement
+The else keyword catches anything 
+which isn't caught by the preceding 
+conditions.
+
+--- Page 7 ---
+All rights reserved
+Short Hand If
+If you have only one statement to 
+execute, you can put it on the same 
+line as the if statement.
+Short Hand If ... Else
+If you have only one statement to 
+execute, one for if, and one for else, 
+you can put it all on the same line:
+--- Page 8 ---
+All rights reserved
+LOOPS
+--- Page 9 ---
+All rights reserved
+While Loops
+1- requires relevant variables
+2- Use condition 
+3- remember to increment i, or else the     
+     loop will continue forever.
+execute a set of statements as long 
+as a condition is true.
+
+--- Page 10 ---
+All rights reserved
+Example :
+Print i as long as i is less than 6:
+
+--- Page 11 ---
+All rights reserved
+The break Statement
+With the break statement we can 
+stop the loop even if the while 
+condition is true:
+
+--- Page 12 ---
+All rights reserved
+The continue Statement
+With the continue statement we can 
+stop the current iteration, and 
+continue with the next:
+
+--- Page 13 ---
+All rights reserved
+The else Statement
+With the else statement we can run 
+a block of code once when the 
+condition no longer is true:
+
+--- Page 14 ---
+All rights reserved
+
+--- Page 15 ---
+All rights reserved
+H.W
+1- takes a variable age with a value of 25. 
+The program then uses if, elif, and else statements to check 
+the condition of the age. If the age is less than 0, it prints " 
+Invalid age “, age is less than 18 it prints " child “, 
+age is less than 65 it prints " Adult “,no of them print “Senior”
+2- defining a list of numbers
+ using a while loop to print each number in the list =====================================
+SESSION 6
+=====================================
+--- Page 1 ---
+& 
+Level 2:  Session 2
+
+--- Page 2 ---
+For loop
+The range() Function
+Nested loop
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+LOOPS
+--- Page 4 ---
+All rights reserved
+2
+-
+ For Loops
+A for loop is used for iterating 
+over a sequence
+
+--- Page 5 ---
+All rights reserved
+Example :
+Print each fruit in a fruit list:
+ Example :
+Print each number in a numbers list:
+--- Page 6 ---
+All rights reserved
+Looping Through a String
+Even strings are iterable objects, 
+they contain a sequence of 
+characters:
+Example
+Loop through the letters in the word 
+"banana":
+--- Page 7 ---
+All rights reserved
+The range() Function
+To loop through a set of code a specified 
+number of times
+Example
+Using the range() function:
+
+--- Page 8 ---
+All rights reserved
+The break Statement
+stop the loop before it has looped 
+through all the items:
+The continue Statement
+stop the current iteration of the 
+loop, and continue with the next:
+Exit the loop when x is "banana": Do not print banana :
+--- Page 9 ---
+All rights reserved
+Else in For Loop
+The else keyword in a for loop specifies a 
+block of code to be executed when the 
+loop is finished:
+Example
+Print all python letters, and print a 
+message when the loop has ended:
+--- Page 10 ---
+All rights reserved
+Nested Loops
+Example
+Print each adjective for every fruit:
+A nested loop is a loop inside a loop.
+The "inner loop" will be executed 
+one time for each iteration of the 
+"outer loop":
+
+--- Page 11 ---
+All rights reserved
+H.W
+1- Write a Python program that uses a for loop 
+to print the numbers from 1 to 10.
+Use the range() function to generate the numbers.=====================================
+SESSION 7
+=====================================
+--- Page 1 ---
+& 
+Level 2:  Session 3
+
+--- Page 2 ---
+Function
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+Function
+
+--- Page 4 ---
+All rights reserved
+Function
+A function is a block of code which only 
+runs when it is called.
+You can pass data, known as 
+parameters, into a function.
+A function can return data as 
+a result.
+
+--- Page 5 ---
+All rights reserved
+Function  pre defined 
+Example ???
+--- Page 6 ---
+All rights reserved
+1
+-
+ Creating a Function
+In Python a function is defined using 
+the def keyword:
+2
+-
+ Calling a Function
+To call a function, use the function 
+name followed by parenthesis:
+Indentation
+(whitespace at the beginning of a line) to define scope in the code.
+Note:
+Function body should be spun the function name 
+--- Page 7 ---
+All rights reserved
+3
+-
+ Function return 
+To let a function return a value, use 
+the return statement
+
+--- Page 8 ---
+All rights reserved
+Test your self
+1- Define a function to print your full name 
+2- Define a function to print the addition of 10+2
+
+--- Page 9 ---
+All rights reserved
+4
+-
+ Function Arguments
+Information can be passed into 
+functions as arguments.
+A parameter is the variable listed 
+inside the parentheses in the 
+function definition.
+An argument is the value that 
+is sent to the function when it 
+is called.
+Parameter
+Argument
+--- Page 10 ---
+All rights reserved
+Test your self
+1- Define a function to print welcome and your name
+     which you pass to function 
+2- Define a function to sum 2 number which you pass it
+
+--- Page 11 ---
+All rights reserved
+5
+-
+ Arbitrary Arguments, *
+args
+If you do not know how many arguments that 
+will be passed into your function, add 
+a * before the parameter name 
+6
+-
+ Default Parameter Value
+If we call the function without argument, it 
+uses the default value:
+--- Page 12 ---
+All rights reserved
+H.W
+using the input() function to get the user’s name 
+ printing a greeting using the user's name
+Example function to check if a number is even or odd
+=====================================
+SESSION 8
+=====================================
+--- Page 1 ---
+& 
+Level 2:  Session 4
+
+--- Page 2 ---
+Python Libraries
+Turtle library 
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+PYTHON 
+LIBRARIES
+--- Page 4 ---
+All rights reserved
+Python Libraries
+A library is a collection of utility 
+methods, classes, and modules 
+that your application code can 
+use to perform specific tasks 
+without writing.
+
+--- Page 5 ---
+All rights reserved
+Libraries
+Python libraries are used to 
+create applications and models 
+in a variety of fields, for 
+instance, machine learning, data 
+science, data visualization, 
+image and data manipulation, 
+and many more 
+
+--- Page 6 ---
+All rights reserved
+How To Install Libraries 
+1- go to https://pypi.org/
+2- search about needed library and copy
+
+--- Page 7 ---
+All rights reserved
+3- Open anaconda prompt and make sure that pip is 
+installed by commend “python –m ensurepip”
+4- if you find it , past the commend 
+which you copy 
+--- Page 8 ---
+All rights reserved
+Turtle of the python world
+Create fun drawings and shapes on your screen with 
+just some simple steps!
+--- Page 9 ---
+All rights reserved
+“Turtle” is a Python feature like a drawing board
+We can use functions which can move the 
+turtle around. Commonly used turtle 
+methods are :
+
+--- Page 10 ---
+All rights reserved
+turtle color
+https://trinket.io/docs/colors
+
+--- Page 11 ---
+All rights reserved
+We Also Can Change :
+Pen  Color
+Pen size
+Pen  Shape
+And more...
+--- Page 12 ---
+All rights reserved
+Use loop in turtle
+_ common use instead of counter name.
+% modulo operator 
+
+--- Page 13 ---
+All rights reserved
+How To Draw Shape And Picture
+We have 2 main axis  ( x , y )
+4 quadrant 
+
+--- Page 14 ---
+All rights reserved
+EXAMPLE 
+1
+
+--- Page 15 ---
+All rights reserved
+EXAMPLE 
+2
+
+--- Page 16 ---
+All rights reserved
+EXAMPLE 
+3
+
+--- Page 17 ---
+All rights reserved
+CONVERT PY TO EXE
+pip install auto-py-to-exe
+python -m auto_py_to_exe
+Choose file location
+Choose one file
+Choose output 
+location
+Click convert 
+--- Page 18 ---
+All rights reserved
+H.W
+# importing the turtle library
+# creating a turtle object
+# using turtle commands to draw a square
+# closing the turtle window when clicked
+=====================================
+SESSION 9
+=====================================
+--- Page 1 ---
+& 
+Level 3:  Session 1
+
+--- Page 2 ---
+OOP
+Class
+Object
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+OOPS concepts in python
+--- Page 4 ---
+All rights reserved
+
+--- Page 5 ---
+All rights reserved
+Example
+What about person ??
+
+--- Page 6 ---
+All rights reserved
+
+--- Page 7 ---
+All rights reserved
+
+--- Page 8 ---
+All rights reserved
+Class
+The self
+Class methods must have an extra first parameter in 
+the method definition.
+pointer في لغات اخري تشير الي هذا العنصر كانهthisاشبه ب
+اساسيه ف اي فانكشن داخل الكلاس
+__init__ method
+The __init__ method is similar to constructors in C++ and 
+Java. Constructors are used to initialize the object’s state.
+فانكشن رئيسيه الكلاس بينادي عليها اول ما ننشئ اوبجيكت
+--- Page 9 ---
+All rights reserved
+EXAMPLE
+--- Page 10 ---
+All rights reserved
+EXAMPLE
+
+--- Page 11 ---
+All rights reserved
+We can use normal function but we 
+need to call it
+To call any variable or function 
+within class just use self
+Use f to format and 
+{self.parameter-name}
+
+--- Page 12 ---
+All rights reserved
+Define a class company have a name , salary and age
+Define a function that check age if grater than 50 salary will increase by 500
+Test if age greater than 50 or less 
+
+--- Page 13 ---
+All rights reserved
+H.W
+define a class called Person that represents a person. The class has 
+two attributes, name and age, which are initialized using the __init__() 
+method with the given arguments.
+The class also has a function called greet(), which prints a greeting 
+message containing the person's name and age.
+We then create an instance of the Person class called person1 and 
+pass in arguments for name and age. 
+We then call the greet() method to print a greeting message to the 
+terminal.
+=====================================
+SESSION 10
+=====================================
+--- Page 1 ---
+& 
+Level 3 :  Session 2 
+
+--- Page 2 ---
+What is brute force
+What is request lib
+What is sys lib
+Front and back _end in web
+What is flask
+Our project
+ 
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+brute force attack is a hacking technique where an attacker systematically tries all 
+possible passwords or encryption keys until they find the correct one.
+It’s one of the simplest but most effective methods of cracking passwords, especially if 
+they are weak.
+Simple Brute Force Attack
+What is brute force
+Dictionary Attack
+
+--- Page 4 ---
+All rights reserved
+The attacker tries every possible combination of characters manually or using an 
+automated script.
+Example 
+How does it work
+Trying "apple123", "apple124", "apple125", etc., until the right password is found.
+How is Python Used in Brute Force 
+Attacks?Writing Scripts to Try Passwords
+• Python can be used to create scripts that automatically attempt to guess passwords, either by 
+trying all possible combinations (Brute Force Attack) or by using a list of common passwords 
+(Dictionary Attack).
+Example
+
+--- Page 5 ---
+All rights reserved
+The requests library in Python is a powerful tool used for sending HTTP 
+requests to interact with web servers. It allows you to send GET, POST, 
+PUT, DELETE, and other HTTP requests easily. 
+What is the requests Library ?
+Why is requests useful in 
+hacking ?Brute force attacks on login pages can be automated using requests. You 
+can write a Python script to repeatedly try different username-password 
+combinations until you find the correct one. 
+
+--- Page 6 ---
+All rights reserved
+The sys library in Python provides functions and variables used to 
+interact with the Python interpreter and system environment. It allows 
+access to command-line arguments, system-specific parameters, and 
+more.
+What is the sys Library ?
+How is sys used in Hacking ?
+Although sys itself is not a hacking tool, it is useful in writing hacking scripts because it 
+helps with:
+1.Handling command-line arguments (e.g., specifying target URLs, username lists, or 
+payloads).
+2.Exiting scripts after detecting a vulnerability or successful exploit.
+3.Interacting with the operating system for automation.
+4.Redirecting input/output in phishing or keylogging scripts.
+
+--- Page 7 ---
+All rights reserved
+Front
+-
+End vs Back
+-
+End
+
+--- Page 8 ---
+All rights reserved
+Flask is a lightweight and powerful web framework for Python. It helps 
+developers build web applications, APIs, and backend services quickly 
+and efficiently.
+What is Flask ?
+Why Use Flask
+ Simple & Lightweight – Does not require a lot of setup.
+ Flexible – Can be used for small projects or large applications.
+ Supports APIs – Easily create REST APIs for frontend-backend communication.
+ Works with Databases – Supports MySQL, PostgreSQL, MongoDB, and SQLite.
+ Extensible – Can integrate with authentication, security, and other libraries.
+
+--- Page 9 ---
+All rights reserved
+Let
+’
+s Build our Lab
+
+--- Page 10 ---
+All rights reserved
+Let
+’
+s Build our Lab
+
+--- Page 11 ---
+All rights reserved
+Let
+’
+s Build our Lab
+Front
+-
+End 
+Code
+--- Page 12 ---
+All rights reserved
+Let
+’
+s Build our Lab
+Back
+-
+End 
+Code
+Real User and 
+Password
+--- Page 13 ---
+All rights reserved
+Let
+’
+s Run It 
+
+--- Page 14 ---
+All rights reserved
+Let
+’
+s 
+Make our attack
+
+--- Page 15 ---
+All rights reserved
+Ou
+r Code
+First we need to add new python 
+(hack.py) file and password list (top
+-
+100
+.txt)
+ Part
+ 1
+
+--- Page 16 ---
+All rights reserved
+Ou
+r Code
+Part
+ 2
+
+--- Page 17 ---
+All rights reserved
+Output
+
+--- Page 18 ---
+All rights reserved
+Final
+
+--- Page 19 ---
+All rights reserved
+H.W
+- Change username and password in server.py 
+file 
+- edit in wordlist file to add your new password 
+- change users in hack.py 
+- Run hack.py file 
+- Take screenshot with new output and send 
+it
+=====================================
+SESSION 11
+=====================================
+--- Page 1 ---
+& 
+Level 3:  Session 3
+
+--- Page 2 ---
+All rights reserved
+Lets make a simple game
+Part 
+1
+
+--- Page 3 ---
+All rights reserved
+Ping Pong Game 
+With two player
+
+--- Page 4 ---
+All rights reserved
+Game Steps:
+1. Setup Window & Game Loop
+ 2. Setup Game Objects
+- ball
+- player 1
+- player 2
+- center line
+- score
+1. Setup Window & Game Loop
+2. Setup Game Objects
+3. Key Bindings and Players Movement
+- player 1 movement Functions
+- player 2 movement Functions
+- get user inputs
+4. Game Loop and Interactions
+- ball movement
+- ball & borders collision
+- ball & players collision
+- score handling
+
+--- Page 5 ---
+All rights reserved
+1
+. 
+ Setup Window & Game Loop
+(R,G,B)
+--- Page 6 ---
+All rights reserved
+2. 
+ Setup Game Objects
+
+--- Page 7 ---
+All rights reserved
+2) Player 1
+3) Player 2
+
+--- Page 8 ---
+All rights reserved
+Center line
+score
+
+--- Page 9 ---
+All rights reserved
+H.W (For Fun)
+https://pypi.org/project/freegames/
+=====================================
+SESSION 12
+=====================================
+--- Page 1 ---
+& 
+Level 3:  Session 4
+
+--- Page 2 ---
+All rights reserved
+Lets make a simple game
+Part 
+2
+
+--- Page 3 ---
+All rights reserved
+Ping Pong Game 
+With two player
+
+--- Page 4 ---
+All rights reserved
+Game Steps:
+1. Setup Window & Game Loop
+ 2. Setup Game Objects
+- ball
+- player 1
+- player 2
+- center line
+- score
+1. Setup Window & Game Loop
+2. Setup Game Objects
+3. Key Bindings and Players Movement
+- player 1 movement Functions
+- player 2 movement Functions
+- get user inputs
+4. Game Loop and Interactions
+- ball movement
+- ball & borders collision
+- ball & players collision
+- score handling
+
+--- Page 5 ---
+All rights reserved
+Movement Functions
+User inputs
+
+--- Page 6 ---
+All rights reserved
+Ball movement AND Ball & borders collision
+
+--- Page 7 ---
+All rights reserved
+ball & players collision
+
+--- Page 8 ---
+All rights reserved
+Score Handling
+
+--- Page 9 ---
+All rights reserved
+H.W (For Fun)
+https://pypi.org/project/freegames/

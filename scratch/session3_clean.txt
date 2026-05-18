@@ -1,0 +1,78 @@
+--- Page 1 ---
+& 
+Level 1:  Session 3
+
+--- Page 2 ---
+Operator
+Number 
+string
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+Operators are used to perform operations on 
+variables and values.
+Arithmetic operators
+Operators
+Assignment operators
+Comparison operators
+Logical operators
+
+--- Page 4 ---
+All rights reserved
+Arithmetic operators
+
+--- Page 5 ---
+All rights reserved
+Assignment operators
+
+--- Page 6 ---
+All rights reserved
+Comparison operators
+
+--- Page 7 ---
+All rights reserved
+Logical operators
+
+--- Page 8 ---
+All rights reserved
+There are three numeric types in Python:
+int
+Number
+float
+complex
+
+--- Page 9 ---
+All rights reserved
+We can use int() to convert to integer.
+We can use float() to convert to float.
+We can use complex() to convert 
+to complex.
+
+--- Page 10 ---
+All rights reserved
+String
+Space is included
+String consider a list 
+Note that :
+--- Page 11 ---
+All rights reserved
+String + Function
+A function is a block of organized, 
+reusable code that is used to 
+perform a single, related action.
+
+--- Page 12 ---
+All rights reserved
+String + Function
+
+--- Page 13 ---
+All rights reserved
+H.W
+using the input() function to get the user’s name 
+ printing a greeting using the user's name
+NUM1=5 , NUM2=10   use :
+1. Arithmetic operators
+2. Assignment operators
+3. Comparison operators
+4. Logical operators

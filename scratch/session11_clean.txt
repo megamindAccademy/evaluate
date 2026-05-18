@@ -1,0 +1,62 @@
+--- Page 1 ---
+& 
+Level 3:  Session 3
+
+--- Page 2 ---
+All rights reserved
+Lets make a simple game
+Part 
+1
+
+--- Page 3 ---
+All rights reserved
+Ping Pong Game 
+With two player
+
+--- Page 4 ---
+All rights reserved
+Game Steps:
+1. Setup Window & Game Loop
+ 2. Setup Game Objects
+- ball
+- player 1
+- player 2
+- center line
+- score
+1. Setup Window & Game Loop
+2. Setup Game Objects
+3. Key Bindings and Players Movement
+- player 1 movement Functions
+- player 2 movement Functions
+- get user inputs
+4. Game Loop and Interactions
+- ball movement
+- ball & borders collision
+- ball & players collision
+- score handling
+
+--- Page 5 ---
+All rights reserved
+1
+. 
+ Setup Window & Game Loop
+(R,G,B)
+--- Page 6 ---
+All rights reserved
+2. 
+ Setup Game Objects
+
+--- Page 7 ---
+All rights reserved
+2) Player 1
+3) Player 2
+
+--- Page 8 ---
+All rights reserved
+Center line
+score
+
+--- Page 9 ---
+All rights reserved
+H.W (For Fun)
+https://pypi.org/project/freegames/

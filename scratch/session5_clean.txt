@@ -1,0 +1,105 @@
+--- Page 1 ---
+& 
+Level 2:  Session 1
+
+--- Page 2 ---
+If conditions
+loop
+While loop
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+
+--- Page 4 ---
+All rights reserved
+Python supports the usual logical 
+conditions from mathematics:
+Equals: a == b
+Conditions and If statements
+Not Equals: a != b
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+
+--- Page 5 ---
+All rights reserved
+1
+-
+ If statement
+2
+-
+ elif
+ statement
+--- Page 6 ---
+All rights reserved
+3
+-
+ else statement
+The else keyword catches anything 
+which isn't caught by the preceding 
+conditions.
+
+--- Page 7 ---
+All rights reserved
+Short Hand If
+If you have only one statement to 
+execute, you can put it on the same 
+line as the if statement.
+Short Hand If ... Else
+If you have only one statement to 
+execute, one for if, and one for else, 
+you can put it all on the same line:
+--- Page 8 ---
+All rights reserved
+LOOPS
+--- Page 9 ---
+All rights reserved
+While Loops
+1- requires relevant variables
+2- Use condition 
+3- remember to increment i, or else the     
+     loop will continue forever.
+execute a set of statements as long 
+as a condition is true.
+
+--- Page 10 ---
+All rights reserved
+Example :
+Print i as long as i is less than 6:
+
+--- Page 11 ---
+All rights reserved
+The break Statement
+With the break statement we can 
+stop the loop even if the while 
+condition is true:
+
+--- Page 12 ---
+All rights reserved
+The continue Statement
+With the continue statement we can 
+stop the current iteration, and 
+continue with the next:
+
+--- Page 13 ---
+All rights reserved
+The else Statement
+With the else statement we can run 
+a block of code once when the 
+condition no longer is true:
+
+--- Page 14 ---
+All rights reserved
+
+--- Page 15 ---
+All rights reserved
+H.W
+1- takes a variable age with a value of 25. 
+The program then uses if, elif, and else statements to check 
+the condition of the age. If the age is less than 0, it prints " 
+Invalid age “, age is less than 18 it prints " child “, 
+age is less than 65 it prints " Adult “,no of them print “Senior”
+2- defining a list of numbers
+ using a while loop to print each number in the list

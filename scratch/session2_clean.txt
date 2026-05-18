@@ -1,0 +1,179 @@
+--- Page 1 ---
+& 
+Level 1:  Session 2
+
+--- Page 2 ---
+Variable
+Data type 
+Input function
+List
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+variables in 
+python
+
+--- Page 4 ---
+All rights reserved
+Variable
+Variables are containers for storing 
+data values.
+
+--- Page 5 ---
+All rights reserved
+Variables do not need to be declared 
+with any particular type, and can 
+even change type after they have 
+been set.
+int
+string
+--- Page 6 ---
+All rights reserved
+Note
+Start with character only
+Ex: name1 , not  1name
+Not need var or int or string
+Ex: name ,length ,age
+Give variable suitable name
+Ex: name ,length not  x , y
+Camel casing Pascal case
+Ex: firstName 
+Pascal case
+Ex: CallYourMother
+Case sensitive
+Ex: name not equal Name
+Reserved keyword
+Ex: don’t use word of the language 
+( int , if , function )
+
+--- Page 7 ---
+All rights reserved
+Examples
+To print variable with String  
+use concatenation +
+--- Page 8 ---
+All rights reserved
+Data type
+Variables can store data of different 
+types, and different types can do 
+different things.
+
+--- Page 9 ---
+All rights reserved
+Python has the following data types built
+-
+in by 
+default, in these categories:
+Text Type:
+Numeric Types:
+Sequence Types:
+Mapping Type:
+Set Types:
+Boolean Type:
+Binary Types:
+None Type:
+str
+int, float, complex
+list, tuple, range
+dict
+set, frozenset
+bool
+bytes, bytearray, memoryview
+NoneType
+--- Page 10 ---
+All rights reserved
+Getting the Data Type
+
+--- Page 11 ---
+All rights reserved
+Brackets
+() parentheses,
+supply additional information.
+[] square brackets,
+allowing you to declare a list .
+{} curly brackets, 
+used to insert explanations, corrections, 
+clarifications.
+
+--- Page 12 ---
+All rights reserved
+
+--- Page 13 ---
+All rights reserved
+Python
+ input()
+ Function
+The input() function allows user input. 
+
+--- Page 14 ---
+All rights reserved
+Example 
+
+--- Page 15 ---
+All rights reserved
+Try to add two number that you get from users
+Task
+
+--- Page 16 ---
+All rights reserved
+Don’t forget to convert string from 
+input to integer with int() function.
+Answer 
+We can use float if we use 
+decimal number
+
+--- Page 17 ---
+All rights reserved
+Lists are used to store multiple items 
+in a single variable.
+List 
+List items are indexed, the first 
+item has index [0], the second 
+item has index [1] etc. 
+
+--- Page 18 ---
+All rights reserved
+1
+-
+ print list
+2
+-
+ Access list
+3
+-
+ change value
+
+--- Page 19 ---
+All rights reserved
+4
+-
+ Add to list
+Append 
+Extend
+Insert
+
+--- Page 20 ---
+All rights reserved
+5
+-
+ sort
+ 6
+-
+ Delete from list
+Remove()
+Clear()
+We can use :
+sort(reverse=True)
+If sort descending 
+--- Page 21 ---
+All rights reserved
+H.W
+2- get type of this variable
+1- Declaring a variable called 'message' and 
+assigning a “hello world” value to it
+Creating a list of integers  5,9,6,7,2,5,4
+1. accessing an element 
+2. changing the value of an element
+3. adding an element to the end
+4. inserting an element at a specific index

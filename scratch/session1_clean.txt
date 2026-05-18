@@ -1,0 +1,159 @@
+--- Page 1 ---
+& 
+Level 1:  Session 1
+
+--- Page 2 ---
+Introduction to python
+Python for AI and machine learning
+Start python
+Print function
+All rights reserved
+
+--- Page 3 ---
+Python is a Simple , most popular ,object 
+oriented ,interpreted & high level 
+programming language . 
+All rights reserved
+WHAT IS PYTHON ?
+--- Page 4 ---
+All rights reserved
+Why Python ?
+--- Page 5 ---
+All rights reserved
+1. Simple and Easy to Learn
+feels like you’re reading English
+2. Free and Open Source
+allow the community to help build 
+and improve the software.
+
+--- Page 6 ---
+All rights reserved
+
+--- Page 7 ---
+All rights reserved
+4.Object
+-
+Oriented & 
+Procedure
+-
+oriented
+the concept of reusable codes and 
+functions. use them at different 
+times in different codes.
+3.Interpreted
+Write the code          Execute the code
+This  feature helps the programmer 
+to easily debug the code.
+
+--- Page 8 ---
+All rights reserved
+5
+.Extensive Standard Library
+And many more ..
+
+--- Page 9 ---
+All rights reserved
+Where 
+is 
+Python 
+used ?
+
+--- Page 10 ---
+All rights reserved
+
+--- Page 11 ---
+All rights reserved
+
+--- Page 12 ---
+All rights reserved
+1. Web Scraping
+the process of using bots to extract content and data from a website.
+
+--- Page 13 ---
+All rights reserved
+2
+.
+ Machine Learning and Artificial intelligence 
+think like a human and perform tasks on its own.
+how a computer system develops its intelligence.
+uses vast volumes of data and complex algorithms 
+to train a model.
+
+--- Page 14 ---
+All rights reserved
+3
+.
+ Game Development
+
+--- Page 15 ---
+All rights reserved
+4
+.
+ Automation
+process in which a manually 
+performed action is transformed 
+into one that happens automatically.
+--- Page 16 ---
+All rights reserved
+5
+.
+ Hacking
+
+--- Page 17 ---
+All rights reserved
+6
+.
+ web development
+And many more ..
+
+--- Page 18 ---
+All rights reserved
+App Made With Python 
+
+--- Page 19 ---
+All rights reserved
+python for AI and ML
+
+--- Page 20 ---
+All rights reserved
+Artificial Intelligence The Future of AI
+The digital revolution has already changed 
+how people live, work, and communicate. 
+And it’s only just getting started. But the 
+same technologies that have the potential 
+to help billions of people live happier, 
+healthier, and more
+
+--- Page 21 ---
+All rights reserved
+
+--- Page 22 ---
+All rights reserved
+Why Is Python Best For AI ?
+Software that can run on a 
+variety of hardware 
+platforms or software 
+architectures.
+Python Discord is a large community 
+focused around the Python 
+programming language.
+Python can be considered 
+beginner-friendly
+
+--- Page 23 ---
+https://www.python.org/downloads/
+All rights reserved
+Install python 
+https://www.python.org/downloads/ 
+--- Page 24 ---
+All rights reserved
+Python
+ print
+()
+ Function
+prints the specified message to the screen, or other standard output 
+device 
+
+--- Page 25 ---
+All rights reserved
+H.W

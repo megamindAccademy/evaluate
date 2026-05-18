@@ -1,0 +1,113 @@
+--- Page 1 ---
+& 
+Level 2:  Session 4
+
+--- Page 2 ---
+Python Libraries
+Turtle library 
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+PYTHON 
+LIBRARIES
+--- Page 4 ---
+All rights reserved
+Python Libraries
+A library is a collection of utility 
+methods, classes, and modules 
+that your application code can 
+use to perform specific tasks 
+without writing.
+
+--- Page 5 ---
+All rights reserved
+Libraries
+Python libraries are used to 
+create applications and models 
+in a variety of fields, for 
+instance, machine learning, data 
+science, data visualization, 
+image and data manipulation, 
+and many more 
+
+--- Page 6 ---
+All rights reserved
+How To Install Libraries 
+1- go to https://pypi.org/
+2- search about needed library and copy
+
+--- Page 7 ---
+All rights reserved
+3- Open anaconda prompt and make sure that pip is 
+installed by commend “python –m ensurepip”
+4- if you find it , past the commend 
+which you copy 
+--- Page 8 ---
+All rights reserved
+Turtle of the python world
+Create fun drawings and shapes on your screen with 
+just some simple steps!
+--- Page 9 ---
+All rights reserved
+“Turtle” is a Python feature like a drawing board
+We can use functions which can move the 
+turtle around. Commonly used turtle 
+methods are :
+
+--- Page 10 ---
+All rights reserved
+turtle color
+https://trinket.io/docs/colors
+
+--- Page 11 ---
+All rights reserved
+We Also Can Change :
+Pen  Color
+Pen size
+Pen  Shape
+And more...
+--- Page 12 ---
+All rights reserved
+Use loop in turtle
+_ common use instead of counter name.
+% modulo operator 
+
+--- Page 13 ---
+All rights reserved
+How To Draw Shape And Picture
+We have 2 main axis  ( x , y )
+4 quadrant 
+
+--- Page 14 ---
+All rights reserved
+EXAMPLE 
+1
+
+--- Page 15 ---
+All rights reserved
+EXAMPLE 
+2
+
+--- Page 16 ---
+All rights reserved
+EXAMPLE 
+3
+
+--- Page 17 ---
+All rights reserved
+CONVERT PY TO EXE
+pip install auto-py-to-exe
+python -m auto_py_to_exe
+Choose file location
+Choose one file
+Choose output 
+location
+Click convert 
+--- Page 18 ---
+All rights reserved
+H.W
+# importing the turtle library
+# creating a turtle object
+# using turtle commands to draw a square
+# closing the turtle window when clicked

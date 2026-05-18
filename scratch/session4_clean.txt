@@ -1,0 +1,128 @@
+--- Page 1 ---
+& 
+Level 1 :  Session 4
+
+--- Page 2 ---
+Tuple
+Dictionaries
+ 
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+Tuples are used to store multiple items in 
+a single variable.
+Tuple is one of 4 built-in data types in Python used to 
+store collections of data
+Tuple
+A tuple is a collection which is ordered 
+and unchangeable.
+Tuples are written with round brackets.
+
+--- Page 4 ---
+All rights reserved
+Example
+Create a Tuple:
+
+--- Page 5 ---
+All rights reserved
+Tuple items are ordered, unchangeable, 
+and allow duplicate values.
+Ordered
+Tuple Properties
+Unchangeable
+Allow Duplicates
+
+--- Page 6 ---
+All rights reserved
+Examples
+
+--- Page 7 ---
+All rights reserved
+Access Tuple Items
+
+--- Page 8 ---
+All rights reserved
+Change Tuple Values
+
+--- Page 9 ---
+All rights reserved
+Tuple Methods
+
+--- Page 10 ---
+All rights reserved
+Exercise
+Which one of these is a tuple ?
+Use the correct syntax to print 
+the number of items in 
+the
+ fruits
+ tuple.
+
+--- Page 11 ---
+All rights reserved
+Dictionaries are used to store data values in key: 
+value  pairs.
+A dictionary is a collection which is ordered*, 
+changeable and do not allow duplicates.
+Dictionaries
+Dictionaries are written with curly brackets, and 
+have keys and values
+
+--- Page 12 ---
+All rights reserved
+Example
+
+--- Page 13 ---
+All rights reserved
+Dictionary items are presented in key: 
+value pairs, and can be referred to by 
+using the key name.
+Ordered
+Dictionary Properties
+changeable
+Don’t allow Duplicates
+
+--- Page 14 ---
+All rights reserved
+Accessing Items
+
+--- Page 15 ---
+All rights reserved
+Change & Update Values
+
+--- Page 16 ---
+All rights reserved
+Removing Items
+
+--- Page 17 ---
+All rights reserved
+Methods
+
+--- Page 18 ---
+All rights reserved
+Comparison (List 
+–
+ Tuple
+-
+ Dictionary )
+
+--- Page 19 ---
+All rights reserved
+
+--- Page 20 ---
+All rights reserved
+H.W
+Add and Modify Names Using  tuple
+We have a Tuple containing names.
+Convert the tuple to a list to make changes.
+Add a new name to the list and Modify an existing name.
+Convert the list back to a Tuple after modifications.
+Print the final tuple.
+Student Scores Dictionary
+Create a dictionary with at least 3 students and their 
+scores.
+Print the dictionary.
+Add a new student and their score.
+Update the score of one student. (choose a specific name).
+Print the updated dictionary.

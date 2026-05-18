@@ -1,0 +1,98 @@
+--- Page 1 ---
+& 
+Level 2:  Session 3
+
+--- Page 2 ---
+Function
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+Function
+
+--- Page 4 ---
+All rights reserved
+Function
+A function is a block of code which only 
+runs when it is called.
+You can pass data, known as 
+parameters, into a function.
+A function can return data as 
+a result.
+
+--- Page 5 ---
+All rights reserved
+Function  pre defined 
+Example ???
+--- Page 6 ---
+All rights reserved
+1
+-
+ Creating a Function
+In Python a function is defined using 
+the def keyword:
+2
+-
+ Calling a Function
+To call a function, use the function 
+name followed by parenthesis:
+Indentation
+(whitespace at the beginning of a line) to define scope in the code.
+Note:
+Function body should be spun the function name 
+--- Page 7 ---
+All rights reserved
+3
+-
+ Function return 
+To let a function return a value, use 
+the return statement
+
+--- Page 8 ---
+All rights reserved
+Test your self
+1- Define a function to print your full name 
+2- Define a function to print the addition of 10+2
+
+--- Page 9 ---
+All rights reserved
+4
+-
+ Function Arguments
+Information can be passed into 
+functions as arguments.
+A parameter is the variable listed 
+inside the parentheses in the 
+function definition.
+An argument is the value that 
+is sent to the function when it 
+is called.
+Parameter
+Argument
+--- Page 10 ---
+All rights reserved
+Test your self
+1- Define a function to print welcome and your name
+     which you pass to function 
+2- Define a function to sum 2 number which you pass it
+
+--- Page 11 ---
+All rights reserved
+5
+-
+ Arbitrary Arguments, *
+args
+If you do not know how many arguments that 
+will be passed into your function, add 
+a * before the parameter name 
+6
+-
+ Default Parameter Value
+If we call the function without argument, it 
+uses the default value:
+--- Page 12 ---
+All rights reserved
+H.W
+using the input() function to get the user’s name 
+ printing a greeting using the user's name
+Example function to check if a number is even or odd

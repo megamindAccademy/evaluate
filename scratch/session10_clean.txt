@@ -1,0 +1,168 @@
+--- Page 1 ---
+& 
+Level 3 :  Session 2 
+
+--- Page 2 ---
+What is brute force
+What is request lib
+What is sys lib
+Front and back _end in web
+What is flask
+Our project
+ 
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+brute force attack is a hacking technique where an attacker systematically tries all 
+possible passwords or encryption keys until they find the correct one.
+It’s one of the simplest but most effective methods of cracking passwords, especially if 
+they are weak.
+Simple Brute Force Attack
+What is brute force
+Dictionary Attack
+
+--- Page 4 ---
+All rights reserved
+The attacker tries every possible combination of characters manually or using an 
+automated script.
+Example 
+How does it work
+Trying "apple123", "apple124", "apple125", etc., until the right password is found.
+How is Python Used in Brute Force 
+Attacks?Writing Scripts to Try Passwords
+• Python can be used to create scripts that automatically attempt to guess passwords, either by 
+trying all possible combinations (Brute Force Attack) or by using a list of common passwords 
+(Dictionary Attack).
+Example
+
+--- Page 5 ---
+All rights reserved
+The requests library in Python is a powerful tool used for sending HTTP 
+requests to interact with web servers. It allows you to send GET, POST, 
+PUT, DELETE, and other HTTP requests easily. 
+What is the requests Library ?
+Why is requests useful in 
+hacking ?Brute force attacks on login pages can be automated using requests. You 
+can write a Python script to repeatedly try different username-password 
+combinations until you find the correct one. 
+
+--- Page 6 ---
+All rights reserved
+The sys library in Python provides functions and variables used to 
+interact with the Python interpreter and system environment. It allows 
+access to command-line arguments, system-specific parameters, and 
+more.
+What is the sys Library ?
+How is sys used in Hacking ?
+Although sys itself is not a hacking tool, it is useful in writing hacking scripts because it 
+helps with:
+1.Handling command-line arguments (e.g., specifying target URLs, username lists, or 
+payloads).
+2.Exiting scripts after detecting a vulnerability or successful exploit.
+3.Interacting with the operating system for automation.
+4.Redirecting input/output in phishing or keylogging scripts.
+
+--- Page 7 ---
+All rights reserved
+Front
+-
+End vs Back
+-
+End
+
+--- Page 8 ---
+All rights reserved
+Flask is a lightweight and powerful web framework for Python. It helps 
+developers build web applications, APIs, and backend services quickly 
+and efficiently.
+What is Flask ?
+Why Use Flask
+ Simple & Lightweight – Does not require a lot of setup.
+ Flexible – Can be used for small projects or large applications.
+ Supports APIs – Easily create REST APIs for frontend-backend communication.
+ Works with Databases – Supports MySQL, PostgreSQL, MongoDB, and SQLite.
+ Extensible – Can integrate with authentication, security, and other libraries.
+
+--- Page 9 ---
+All rights reserved
+Let
+’
+s Build our Lab
+
+--- Page 10 ---
+All rights reserved
+Let
+’
+s Build our Lab
+
+--- Page 11 ---
+All rights reserved
+Let
+’
+s Build our Lab
+Front
+-
+End 
+Code
+--- Page 12 ---
+All rights reserved
+Let
+’
+s Build our Lab
+Back
+-
+End 
+Code
+Real User and 
+Password
+--- Page 13 ---
+All rights reserved
+Let
+’
+s Run It 
+
+--- Page 14 ---
+All rights reserved
+Let
+’
+s 
+Make our attack
+
+--- Page 15 ---
+All rights reserved
+Ou
+r Code
+First we need to add new python 
+(hack.py) file and password list (top
+-
+100
+.txt)
+ Part
+ 1
+
+--- Page 16 ---
+All rights reserved
+Ou
+r Code
+Part
+ 2
+
+--- Page 17 ---
+All rights reserved
+Output
+
+--- Page 18 ---
+All rights reserved
+Final
+
+--- Page 19 ---
+All rights reserved
+H.W
+- Change username and password in server.py 
+file 
+- edit in wordlist file to add your new password 
+- change users in hack.py 
+- Run hack.py file 
+- Take screenshot with new output and send 
+it
