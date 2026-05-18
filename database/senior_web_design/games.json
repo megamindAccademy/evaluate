@@ -1,0 +1,441 @@
+{
+  "course_id": "senior_web_design",
+  "course_title": "Web Design (HTML/CSS)",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Web Design (HTML/CSS). Unlock custom medals, solve daily challenges, and program your own digital masterpieces!",
+  "xp_total": 1600,
+  "mascot_img": "./assets/megaminds_mascot.png",
+  "stations": [
+    {
+      "id": 1,
+      "badge_icon": "🤖",
+      "badge_title": "Session 1: HTML5 Structural elements Medal",
+      "title": "Station 1: Session 1: HTML5 Structural elements",
+      "desc": "Bakery Page Segment - HTML5 Structural elements",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 1: HTML5 Structural elements</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>HTML5 Structural elements</b>: Writing headers, paragraphs, and formatting bold text.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - HTML5 Structural elements</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> <h1>, <p>, <strong> tags</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that HTML5 Structural elements is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 1: HTML5 Structural elements activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 1: HTML5 Structural elements activated successfully!</code> to unlock the Session 1: HTML5 Structural elements medal!",
+      "starter_code": "# Simulate Session 1: HTML5 Structural elements activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 1: HTML5 Structural elements",
+          "code": "print(\"Session 1: HTML5 Structural elements activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 1: HTML5 Structural elements activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 1: HTML5 Structural elements Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1: HTML5 Structural elements'. Specifically, design a feature demonstrating: 'HTML5 Structural elements' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 1: HTML5 Structural elements Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 2,
+      "badge_icon": "🎯",
+      "badge_title": "Session 2: Hyperlinks & Images Medal",
+      "title": "Station 2: Session 2: Hyperlinks & Images",
+      "desc": "Bakery Page Segment - Hyperlinks & Images",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 2: Hyperlinks & Images</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>Hyperlinks & Images</b>: Embedding local graphics and linking web pages.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - Hyperlinks & Images</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> <img> and <a> tags</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Hyperlinks & Images is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 2: Hyperlinks & Images activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 2: Hyperlinks & Images activated successfully!</code> to unlock the Session 2: Hyperlinks & Images medal!",
+      "starter_code": "# Simulate Session 2: Hyperlinks & Images activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 2: Hyperlinks & Images",
+          "code": "print(\"Session 2: Hyperlinks & Images activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 2: Hyperlinks & Images activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 2: Hyperlinks & Images Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2: Hyperlinks & Images'. Specifically, design a feature demonstrating: 'Hyperlinks & Images' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 2: Hyperlinks & Images Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 3,
+      "badge_icon": "💻",
+      "badge_title": "Session 3: Lists & Division Blocks Medal",
+      "title": "Station 3: Session 3: Lists & Division Blocks",
+      "desc": "Bakery Page Segment - Lists & Division Blocks",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 3: Lists & Division Blocks</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>Lists & Division Blocks</b>: Creating bulleted checklists and grouping items inside block wrappers.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - Lists & Division Blocks</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> <ul> and <div> containers</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Lists & Division Blocks is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 3: Lists & Division Blocks activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 3: Lists & Division Blocks activated successfully!</code> to unlock the Session 3: Lists & Division Blocks medal!",
+      "starter_code": "# Simulate Session 3: Lists & Division Blocks activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 3: Lists & Division Blocks",
+          "code": "print(\"Session 3: Lists & Division Blocks activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 3: Lists & Division Blocks activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 3: Lists & Division Blocks Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3: Lists & Division Blocks'. Specifically, design a feature demonstrating: 'Lists & Division Blocks' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 3: Lists & Division Blocks Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 4,
+      "badge_icon": "🎯",
+      "badge_title": "Session 4: Table Schedules Medal",
+      "title": "Station 4: Session 4: Table Schedules",
+      "desc": "Bakery Page Segment - Table Schedules",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 4: Table Schedules</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>Table Schedules</b>: Aligning data rows inside table structures.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - Table Schedules</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> <tr>, <th>, and <td> cells</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Table Schedules is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 4: Table Schedules activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 4: Table Schedules activated successfully!</code> to unlock the Session 4: Table Schedules medal!",
+      "starter_code": "# Simulate Session 4: Table Schedules activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 4: Table Schedules",
+          "code": "print(\"Session 4: Table Schedules activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 4: Table Schedules activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 4: Table Schedules Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4: Table Schedules'. Specifically, design a feature demonstrating: 'Table Schedules' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 4: Table Schedules Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 5,
+      "badge_icon": "🎯",
+      "badge_title": "Session 5: External Stylesheets Medal",
+      "title": "Station 5: Session 5: External Stylesheets",
+      "desc": "Bakery Page Segment - External Stylesheets",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 5: External Stylesheets</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>External Stylesheets</b>: Linking external CSS stylesheets to HTML pages.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - External Stylesheets</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> <link rel='stylesheet'> tags</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that External Stylesheets is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 5: External Stylesheets activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 5: External Stylesheets activated successfully!</code> to unlock the Session 5: External Stylesheets medal!",
+      "starter_code": "# Simulate Session 5: External Stylesheets activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 5: External Stylesheets",
+          "code": "print(\"Session 5: External Stylesheets activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 5: External Stylesheets activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 5: External Stylesheets Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5: External Stylesheets'. Specifically, design a feature demonstrating: 'External Stylesheets' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 5: External Stylesheets Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 6,
+      "badge_icon": "🎯",
+      "badge_title": "Session 6: CSS Typography Medal",
+      "title": "Station 6: Session 6: CSS Typography",
+      "desc": "Bakery Page Segment - CSS Typography",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 6: CSS Typography</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>CSS Typography</b>: Configuring clean font families, text sizes, and alignments.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - CSS Typography</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Outfit font declarations</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that CSS Typography is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 6: CSS Typography activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 6: CSS Typography activated successfully!</code> to unlock the Session 6: CSS Typography medal!",
+      "starter_code": "# Simulate Session 6: CSS Typography activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 6: CSS Typography",
+          "code": "print(\"Session 6: CSS Typography activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 6: CSS Typography activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 6: CSS Typography Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6: CSS Typography'. Specifically, design a feature demonstrating: 'CSS Typography' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 6: CSS Typography Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 7,
+      "badge_icon": "🎯",
+      "badge_title": "Session 7: CSS Box Model layers Medal",
+      "title": "Station 7: Session 7: CSS Box Model layers",
+      "desc": "Bakery Page Segment - CSS Box Model layers",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 7: CSS Box Model layers</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>CSS Box Model layers</b>: Managing element margins, borders, paddings, and sizing rules.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - CSS Box Model layers</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> box-sizing: border-box settings</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that CSS Box Model layers is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 7: CSS Box Model layers activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 7: CSS Box Model layers activated successfully!</code> to unlock the Session 7: CSS Box Model layers medal!",
+      "starter_code": "# Simulate Session 7: CSS Box Model layers activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 7: CSS Box Model layers",
+          "code": "print(\"Session 7: CSS Box Model layers activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 7: CSS Box Model layers activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 7: CSS Box Model layers Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7: CSS Box Model layers'. Specifically, design a feature demonstrating: 'CSS Box Model layers' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 7: CSS Box Model layers Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 8,
+      "badge_icon": "🎯",
+      "badge_title": "Session 8: CSS Shadows & Gradients Medal",
+      "title": "Station 8: Session 8: CSS Shadows & Gradients",
+      "desc": "Bakery Page Segment - CSS Shadows & Gradients",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 8: CSS Shadows & Gradients</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>CSS Shadows & Gradients</b>: Applying linear gradients and soft drop shadows to components.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - CSS Shadows & Gradients</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> linear-gradient background fills</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that CSS Shadows & Gradients is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 8: CSS Shadows & Gradients activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 8: CSS Shadows & Gradients activated successfully!</code> to unlock the Session 8: CSS Shadows & Gradients medal!",
+      "starter_code": "# Simulate Session 8: CSS Shadows & Gradients activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 8: CSS Shadows & Gradients",
+          "code": "print(\"Session 8: CSS Shadows & Gradients activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 8: CSS Shadows & Gradients activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 8: CSS Shadows & Gradients Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8: CSS Shadows & Gradients'. Specifically, design a feature demonstrating: 'CSS Shadows & Gradients' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 8: CSS Shadows & Gradients Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 9,
+      "badge_icon": "🎯",
+      "badge_title": "Session 9: CSS Absolute Coordinates Medal",
+      "title": "Station 9: Session 9: CSS Absolute Coordinates",
+      "desc": "Bakery Page Segment - CSS Absolute Coordinates",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 9: CSS Absolute Coordinates</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>CSS Absolute Coordinates</b>: Configuring sticky headers and floating overlays.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - CSS Absolute Coordinates</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> position: fixed navbar positioning</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that CSS Absolute Coordinates is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 9: CSS Absolute Coordinates activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 9: CSS Absolute Coordinates activated successfully!</code> to unlock the Session 9: CSS Absolute Coordinates medal!",
+      "starter_code": "# Simulate Session 9: CSS Absolute Coordinates activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 9: CSS Absolute Coordinates",
+          "code": "print(\"Session 9: CSS Absolute Coordinates activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 9: CSS Absolute Coordinates activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 9: CSS Absolute Coordinates Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9: CSS Absolute Coordinates'. Specifically, design a feature demonstrating: 'CSS Absolute Coordinates' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 9: CSS Absolute Coordinates Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 10,
+      "badge_icon": "📱",
+      "badge_title": "Session 10: Flexbox Layout Axes Medal",
+      "title": "Station 10: Session 10: Flexbox Layout Axes",
+      "desc": "Bakery Page Segment - Flexbox Layout Axes",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 10: Flexbox Layout Axes</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>Flexbox Layout Axes</b>: Aligning child elements along horizontal and vertical axes.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - Flexbox Layout Axes</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> justify-content: space-between flex settings</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Flexbox Layout Axes is like drawing colorful buttons and stickers on your toy car to make it look incredibly cool!",
+      "hint": "Type in the editor: <code>print(\"Session 10: Flexbox Layout Axes activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 10: Flexbox Layout Axes activated successfully!</code> to unlock the Session 10: Flexbox Layout Axes medal!",
+      "starter_code": "# Simulate Session 10: Flexbox Layout Axes activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 10: Flexbox Layout Axes",
+          "code": "print(\"Session 10: Flexbox Layout Axes activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 10: Flexbox Layout Axes activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 10: Flexbox Layout Axes Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10: Flexbox Layout Axes'. Specifically, design a feature demonstrating: 'Flexbox Layout Axes' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 10: Flexbox Layout Axes Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 11,
+      "badge_icon": "🔊",
+      "badge_title": "Session 11: Flex Wrapping & Sizing Medal",
+      "title": "Station 11: Session 11: Flex Wrapping & Sizing",
+      "desc": "Bakery Page Segment - Flex Wrapping & Sizing",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 11: Flex Wrapping & Sizing</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>Flex Wrapping & Sizing</b>: Creating responsive product grids that wrap cards neatly.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - Flex Wrapping & Sizing</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> flex-wrap: wrap spacing</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Flex Wrapping & Sizing is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 11: Flex Wrapping & Sizing activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 11: Flex Wrapping & Sizing activated successfully!</code> to unlock the Session 11: Flex Wrapping & Sizing medal!",
+      "starter_code": "# Simulate Session 11: Flex Wrapping & Sizing activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 11: Flex Wrapping & Sizing",
+          "code": "print(\"Session 11: Flex Wrapping & Sizing activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 11: Flex Wrapping & Sizing activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 11: Flex Wrapping & Sizing Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11: Flex Wrapping & Sizing'. Specifically, design a feature demonstrating: 'Flex Wrapping & Sizing' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 11: Flex Wrapping & Sizing Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 12,
+      "badge_icon": "🎯",
+      "badge_title": "Session 12: CSS 2D Grid slices Medal",
+      "title": "Station 12: Session 12: CSS 2D Grid slices",
+      "desc": "Bakery Page Segment - CSS 2D Grid slices",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 12: CSS 2D Grid slices</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>CSS 2D Grid slices</b>: Dividing page templates into columns and rows.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - CSS 2D Grid slices</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> grid-template-columns structures</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that CSS 2D Grid slices is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 12: CSS 2D Grid slices activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 12: CSS 2D Grid slices activated successfully!</code> to unlock the Session 12: CSS 2D Grid slices medal!",
+      "starter_code": "# Simulate Session 12: CSS 2D Grid slices activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 12: CSS 2D Grid slices",
+          "code": "print(\"Session 12: CSS 2D Grid slices activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 12: CSS 2D Grid slices activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 12: CSS 2D Grid slices Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12: CSS 2D Grid slices'. Specifically, design a feature demonstrating: 'CSS 2D Grid slices' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 12: CSS 2D Grid slices Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 13,
+      "badge_icon": "🤖",
+      "badge_title": "Session 13: Interactive HTML Forms Medal",
+      "title": "Station 13: Session 13: Interactive HTML Forms",
+      "desc": "Bakery Page Segment - Interactive HTML Forms",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 13: Interactive HTML Forms</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>Interactive HTML Forms</b>: Capturing user inputs with text inputs and radio buttons.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - Interactive HTML Forms</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> <form> and <input> arrays</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Interactive HTML Forms is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 13: Interactive HTML Forms activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 13: Interactive HTML Forms activated successfully!</code> to unlock the Session 13: Interactive HTML Forms medal!",
+      "starter_code": "# Simulate Session 13: Interactive HTML Forms activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 13: Interactive HTML Forms",
+          "code": "print(\"Session 13: Interactive HTML Forms activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 13: Interactive HTML Forms activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 13: Interactive HTML Forms Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 13: Interactive HTML Forms'. Specifically, design a feature demonstrating: 'Interactive HTML Forms' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 13: Interactive HTML Forms Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 14,
+      "badge_icon": "🎯",
+      "badge_title": "Session 14: CSS Interactive Hovers Medal",
+      "title": "Station 14: Session 14: CSS Interactive Hovers",
+      "desc": "Bakery Page Segment - CSS Interactive Hovers",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 14: CSS Interactive Hovers</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>CSS Interactive Hovers</b>: Adding smooth transitions and scale effects to buttons.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - CSS Interactive Hovers</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> :hover transform scaling</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that CSS Interactive Hovers is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 14: CSS Interactive Hovers activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 14: CSS Interactive Hovers activated successfully!</code> to unlock the Session 14: CSS Interactive Hovers medal!",
+      "starter_code": "# Simulate Session 14: CSS Interactive Hovers activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 14: CSS Interactive Hovers",
+          "code": "print(\"Session 14: CSS Interactive Hovers activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 14: CSS Interactive Hovers activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 14: CSS Interactive Hovers Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 14: CSS Interactive Hovers'. Specifically, design a feature demonstrating: 'CSS Interactive Hovers' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 14: CSS Interactive Hovers Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 15,
+      "badge_icon": "🎯",
+      "badge_title": "Session 15: Bakery Template: Header & Hero Medal",
+      "title": "Station 15: Session 15: Bakery Template: Header & Hero",
+      "desc": "Bakery Page Segment - Bakery Template: Header & Hero",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 15: Bakery Template: Header & Hero</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>Bakery Template: Header & Hero</b>: Building a landing page navigation header and Call-to-Action banner.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - Bakery Template: Header & Hero</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Bakery Hero banners</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Bakery Template: Header & Hero is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 15: Bakery Template: Header & Hero activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 15: Bakery Template: Header & Hero activated successfully!</code> to unlock the Session 15: Bakery Template: Header & Hero medal!",
+      "starter_code": "# Simulate Session 15: Bakery Template: Header & Hero activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 15: Bakery Template: Header & Hero",
+          "code": "print(\"Session 15: Bakery Template: Header & Hero activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 15: Bakery Template: Header & Hero activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 15: Bakery Template: Header & Hero Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 15: Bakery Template: Header & Hero'. Specifically, design a feature demonstrating: 'Bakery Template: Header & Hero' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 15: Bakery Template: Header & Hero Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 16,
+      "badge_icon": "🎯",
+      "badge_title": "Session 16: Bakery Template: About & Footer Medal",
+      "title": "Station 16: Session 16: Bakery Template: About & Footer",
+      "desc": "Bakery Page Segment - Bakery Template: About & Footer",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 16: Bakery Template: About & Footer</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>Bakery Template: About & Footer</b>: Adding semantic body sections and a responsive dark-themed footer.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Structure tags</li><li>🎯 Style elements</li><li>🎯 Deploy responsive grids</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>html_tags</code></li><li><code>css_properties</code></li><li><code>flexbox_grid</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bakery Page Segment - Bakery Template: About & Footer</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Bakery responsive footers</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Bakery Template: About & Footer is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 16: Bakery Template: About & Footer activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 16: Bakery Template: About & Footer activated successfully!</code> to unlock the Session 16: Bakery Template: About & Footer medal!",
+      "starter_code": "# Simulate Session 16: Bakery Template: About & Footer activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 16: Bakery Template: About & Footer",
+          "code": "print(\"Session 16: Bakery Template: About & Footer activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 16: Bakery Template: About & Footer activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 16: Bakery Template: About & Footer Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 16: Bakery Template: About & Footer'. Specifically, design a feature demonstrating: 'Bakery Template: About & Footer' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 16: Bakery Template: About & Footer Simulator\n# Write your creative solution here!"
+      }
+    }
+  ]
+}

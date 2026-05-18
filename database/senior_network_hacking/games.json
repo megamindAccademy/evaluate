@@ -1,0 +1,333 @@
+{
+  "course_id": "senior_network_hacking",
+  "course_title": "Network & Hacking",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Network & Hacking. Unlock custom medals, solve daily challenges, and program your own digital masterpieces!",
+  "xp_total": 1200,
+  "mascot_img": "./assets/megaminds_mascot.png",
+  "stations": [
+    {
+      "id": 1,
+      "badge_icon": "🚀",
+      "badge_title": "Session 1: LAN & WAN setups Medal",
+      "title": "Station 1: Session 1: LAN & WAN setups",
+      "desc": "LAN & WAN setups Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 1: LAN & WAN setups</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>LAN & WAN setups</b>: Understanding local switches, network routing, and IP coordinates.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> LAN & WAN setups Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> 192.168.1.1 gateway config</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that LAN & WAN setups is like building the magic playground gates before you enter and play with toys!",
+      "hint": "Type in the editor: <code>print(\"Session 1: LAN & WAN setups activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 1: LAN & WAN setups activated successfully!</code> to unlock the Session 1: LAN & WAN setups medal!",
+      "starter_code": "# Simulate Session 1: LAN & WAN setups activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 1: LAN & WAN setups",
+          "code": "print(\"Session 1: LAN & WAN setups activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 1: LAN & WAN setups activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 1: LAN & WAN setups Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1: LAN & WAN setups'. Specifically, design a feature demonstrating: 'LAN & WAN setups' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 1: LAN & WAN setups Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 2,
+      "badge_icon": "🎯",
+      "badge_title": "Session 2: 7 Layers OSI Model Medal",
+      "title": "Station 2: Session 2: 7 Layers OSI Model",
+      "desc": "7 Layers OSI Model Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 2: 7 Layers OSI Model</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>7 Layers OSI Model</b>: How network cards route packets through the seven abstraction boundaries.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> 7 Layers OSI Model Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Data encapsulation</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that 7 Layers OSI Model is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 2: 7 Layers OSI Model activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 2: 7 Layers OSI Model activated successfully!</code> to unlock the Session 2: 7 Layers OSI Model medal!",
+      "starter_code": "# Simulate Session 2: 7 Layers OSI Model activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 2: 7 Layers OSI Model",
+          "code": "print(\"Session 2: 7 Layers OSI Model activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 2: 7 Layers OSI Model activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 2: 7 Layers OSI Model Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2: 7 Layers OSI Model'. Specifically, design a feature demonstrating: '7 Layers OSI Model' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 2: 7 Layers OSI Model Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 3,
+      "badge_icon": "🛡️",
+      "badge_title": "Session 3: TCP/IP 3-Way Handshake Medal",
+      "title": "Station 3: Session 3: TCP/IP 3-Way Handshake",
+      "desc": "TCP/IP 3-Way Handshake Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 3: TCP/IP 3-Way Handshake</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>TCP/IP 3-Way Handshake</b>: Synchronizing reliable port sockets via SYN, SYN-ACK, and ACK cycles.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> TCP/IP 3-Way Handshake Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> TCP port handshakes</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that TCP/IP 3-Way Handshake is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 3: TCP/IP 3-Way Handshake activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 3: TCP/IP 3-Way Handshake activated successfully!</code> to unlock the Session 3: TCP/IP 3-Way Handshake medal!",
+      "starter_code": "# Simulate Session 3: TCP/IP 3-Way Handshake activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 3: TCP/IP 3-Way Handshake",
+          "code": "print(\"Session 3: TCP/IP 3-Way Handshake activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 3: TCP/IP 3-Way Handshake activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 3: TCP/IP 3-Way Handshake Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3: TCP/IP 3-Way Handshake'. Specifically, design a feature demonstrating: 'TCP/IP 3-Way Handshake' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 3: TCP/IP 3-Way Handshake Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 4,
+      "badge_icon": "🎯",
+      "badge_title": "Session 4: Addressing & Subnetting Medal",
+      "title": "Station 4: Session 4: Addressing & Subnetting",
+      "desc": "Addressing & Subnetting Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 4: Addressing & Subnetting</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>Addressing & Subnetting</b>: Configuring Class C subnet masks and managing routing ranges.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Addressing & Subnetting Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> /24 CIDR structures</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Addressing & Subnetting is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 4: Addressing & Subnetting activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 4: Addressing & Subnetting activated successfully!</code> to unlock the Session 4: Addressing & Subnetting medal!",
+      "starter_code": "# Simulate Session 4: Addressing & Subnetting activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 4: Addressing & Subnetting",
+          "code": "print(\"Session 4: Addressing & Subnetting activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 4: Addressing & Subnetting activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 4: Addressing & Subnetting Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4: Addressing & Subnetting'. Specifically, design a feature demonstrating: 'Addressing & Subnetting' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 4: Addressing & Subnetting Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 5,
+      "badge_icon": "🎯",
+      "badge_title": "Session 5: Terminal Diagnostics Medal",
+      "title": "Station 5: Session 5: Terminal Diagnostics",
+      "desc": "Terminal Diagnostics Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 5: Terminal Diagnostics</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>Terminal Diagnostics</b>: Testing active routes using Ping, Traceroute, and Nslookup queries.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Terminal Diagnostics Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> DNS name lookups</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Terminal Diagnostics is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 5: Terminal Diagnostics activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 5: Terminal Diagnostics activated successfully!</code> to unlock the Session 5: Terminal Diagnostics medal!",
+      "starter_code": "# Simulate Session 5: Terminal Diagnostics activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 5: Terminal Diagnostics",
+          "code": "print(\"Session 5: Terminal Diagnostics activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 5: Terminal Diagnostics activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 5: Terminal Diagnostics Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5: Terminal Diagnostics'. Specifically, design a feature demonstrating: 'Terminal Diagnostics' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 5: Terminal Diagnostics Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 6,
+      "badge_icon": "🎯",
+      "badge_title": "Session 6: Packet Capturing Medal",
+      "title": "Station 6: Session 6: Packet Capturing",
+      "desc": "Packet Capturing Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 6: Packet Capturing</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>Packet Capturing</b>: Analyzing network frames and capturing HTTP unencrypted texts via Wireshark.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Packet Capturing Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Wireshark filters</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Packet Capturing is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 6: Packet Capturing activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 6: Packet Capturing activated successfully!</code> to unlock the Session 6: Packet Capturing medal!",
+      "starter_code": "# Simulate Session 6: Packet Capturing activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 6: Packet Capturing",
+          "code": "print(\"Session 6: Packet Capturing activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 6: Packet Capturing activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 6: Packet Capturing Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6: Packet Capturing'. Specifically, design a feature demonstrating: 'Packet Capturing' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 6: Packet Capturing Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 7,
+      "badge_icon": "🛡️",
+      "badge_title": "Session 7: Network Port Scanning Medal",
+      "title": "Station 7: Session 7: Network Port Scanning",
+      "desc": "Network Port Scanning Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 7: Network Port Scanning</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>Network Port Scanning</b>: Running Nmap audits to detect open listening ports on targets.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Network Port Scanning Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Nmap stealth scans</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Network Port Scanning is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 7: Network Port Scanning activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 7: Network Port Scanning activated successfully!</code> to unlock the Session 7: Network Port Scanning medal!",
+      "starter_code": "# Simulate Session 7: Network Port Scanning activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 7: Network Port Scanning",
+          "code": "print(\"Session 7: Network Port Scanning activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 7: Network Port Scanning activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 7: Network Port Scanning Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7: Network Port Scanning'. Specifically, design a feature demonstrating: 'Network Port Scanning' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 7: Network Port Scanning Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 8,
+      "badge_icon": "🎯",
+      "badge_title": "Session 8: ARP Poisoning MITM Medal",
+      "title": "Station 8: Session 8: ARP Poisoning MITM",
+      "desc": "ARP Poisoning MITM Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 8: ARP Poisoning MITM</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>ARP Poisoning MITM</b>: Injecting false MAC addresses to redirect network grids dynamically.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> ARP Poisoning MITM Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> ARP spoofing attacks</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that ARP Poisoning MITM is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 8: ARP Poisoning MITM activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 8: ARP Poisoning MITM activated successfully!</code> to unlock the Session 8: ARP Poisoning MITM medal!",
+      "starter_code": "# Simulate Session 8: ARP Poisoning MITM activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 8: ARP Poisoning MITM",
+          "code": "print(\"Session 8: ARP Poisoning MITM activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 8: ARP Poisoning MITM activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 8: ARP Poisoning MITM Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8: ARP Poisoning MITM'. Specifically, design a feature demonstrating: 'ARP Poisoning MITM' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 8: ARP Poisoning MITM Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 9,
+      "badge_icon": "🎯",
+      "badge_title": "Session 9: DNS Cache Spoofing Medal",
+      "title": "Station 9: Session 9: DNS Cache Spoofing",
+      "desc": "DNS Cache Spoofing Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 9: DNS Cache Spoofing</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>DNS Cache Spoofing</b>: Redirecting domain queries to malicious clone sites.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> DNS Cache Spoofing Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Poisoning DNS hosts files</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that DNS Cache Spoofing is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 9: DNS Cache Spoofing activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 9: DNS Cache Spoofing activated successfully!</code> to unlock the Session 9: DNS Cache Spoofing medal!",
+      "starter_code": "# Simulate Session 9: DNS Cache Spoofing activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 9: DNS Cache Spoofing",
+          "code": "print(\"Session 9: DNS Cache Spoofing activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 9: DNS Cache Spoofing activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 9: DNS Cache Spoofing Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9: DNS Cache Spoofing'. Specifically, design a feature demonstrating: 'DNS Cache Spoofing' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 9: DNS Cache Spoofing Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 10,
+      "badge_icon": "🛡️",
+      "badge_title": "Session 10: Wireless Network Auditing Medal",
+      "title": "Station 10: Session 10: Wireless Network Auditing",
+      "desc": "Wireless Network Auditing Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 10: Wireless Network Auditing</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>Wireless Network Auditing</b>: WEP and WPA2 handshake capture techniques and key verification.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Wireless Network Auditing Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Monitor mode adapters</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Wireless Network Auditing is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 10: Wireless Network Auditing activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 10: Wireless Network Auditing activated successfully!</code> to unlock the Session 10: Wireless Network Auditing medal!",
+      "starter_code": "# Simulate Session 10: Wireless Network Auditing activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 10: Wireless Network Auditing",
+          "code": "print(\"Session 10: Wireless Network Auditing activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 10: Wireless Network Auditing activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 10: Wireless Network Auditing Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10: Wireless Network Auditing'. Specifically, design a feature demonstrating: 'Wireless Network Auditing' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 10: Wireless Network Auditing Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 11,
+      "badge_icon": "🛡️",
+      "badge_title": "Session 11: Firewall Port Filters Medal",
+      "title": "Station 11: Session 11: Firewall Port Filters",
+      "desc": "Firewall Port Filters Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 11: Firewall Port Filters</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>Firewall Port Filters</b>: Applying IPTables rules to drop inbound packets targeting sensitive ports.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Firewall Port Filters Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Port 22 SSH blocking</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Firewall Port Filters is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 11: Firewall Port Filters activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 11: Firewall Port Filters activated successfully!</code> to unlock the Session 11: Firewall Port Filters medal!",
+      "starter_code": "# Simulate Session 11: Firewall Port Filters activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 11: Firewall Port Filters",
+          "code": "print(\"Session 11: Firewall Port Filters activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 11: Firewall Port Filters activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 11: Firewall Port Filters Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11: Firewall Port Filters'. Specifically, design a feature demonstrating: 'Firewall Port Filters' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 11: Firewall Port Filters Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 12,
+      "badge_icon": "🛡️",
+      "badge_title": "Session 12: VPN Tunnel Encryption Medal",
+      "title": "Station 12: Session 12: VPN Tunnel Encryption",
+      "desc": "VPN Tunnel Encryption Diagnostics Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 12: VPN Tunnel Encryption</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>VPN Tunnel Encryption</b>: Wrapping transit IP layers inside secure WireGuard or OpenVPN tunnels.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map structural protocols</li><li>🎯 Perform diagnostic check</li><li>🎯 Audit security vulnerabilities</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>packet_data</code></li><li><code>nmap_commands</code></li><li><code>iptables_rules</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> VPN Tunnel Encryption Diagnostics Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Encrypted data routing</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that VPN Tunnel Encryption is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 12: VPN Tunnel Encryption activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 12: VPN Tunnel Encryption activated successfully!</code> to unlock the Session 12: VPN Tunnel Encryption medal!",
+      "starter_code": "# Simulate Session 12: VPN Tunnel Encryption activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 12: VPN Tunnel Encryption",
+          "code": "print(\"Session 12: VPN Tunnel Encryption activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 12: VPN Tunnel Encryption activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 12: VPN Tunnel Encryption Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12: VPN Tunnel Encryption'. Specifically, design a feature demonstrating: 'VPN Tunnel Encryption' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 12: VPN Tunnel Encryption Simulator\n# Write your creative solution here!"
+      }
+    }
+  ]
+}

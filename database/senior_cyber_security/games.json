@@ -1,0 +1,333 @@
+{
+  "course_id": "senior_cyber_security",
+  "course_title": "Cyber Security",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Cyber Security. Unlock custom medals, solve daily challenges, and program your own digital masterpieces!",
+  "xp_total": 1200,
+  "mascot_img": "./assets/megaminds_mascot.png",
+  "stations": [
+    {
+      "id": 1,
+      "badge_icon": "🛡️",
+      "badge_title": "Session 1: Core Security Pillars Medal",
+      "title": "Station 1: Session 1: Core Security Pillars",
+      "desc": "Core Security Pillars Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 1: Core Security Pillars</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Core Security Pillars</b>: Understanding the CIA Triad (Confidentiality, Integrity, Availability) and the local legal frameworks.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Core Security Pillars Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> MFA implementation</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Core Security Pillars is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 1: Core Security Pillars activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 1: Core Security Pillars activated successfully!</code> to unlock the Session 1: Core Security Pillars medal!",
+      "starter_code": "# Simulate Session 1: Core Security Pillars activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 1: Core Security Pillars",
+          "code": "print(\"Session 1: Core Security Pillars activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 1: Core Security Pillars activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 1: Core Security Pillars Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1: Core Security Pillars'. Specifically, design a feature demonstrating: 'Core Security Pillars' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 1: Core Security Pillars Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 2,
+      "badge_icon": "🎯",
+      "badge_title": "Session 2: Phishing Vectors Medal",
+      "title": "Station 2: Session 2: Phishing Vectors",
+      "desc": "Phishing Vectors Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 2: Phishing Vectors</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Phishing Vectors</b>: How hackers harvest user credentials via cloned login portals.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Phishing Vectors Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Fake HTML login forms</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Phishing Vectors is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 2: Phishing Vectors activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 2: Phishing Vectors activated successfully!</code> to unlock the Session 2: Phishing Vectors medal!",
+      "starter_code": "# Simulate Session 2: Phishing Vectors activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 2: Phishing Vectors",
+          "code": "print(\"Session 2: Phishing Vectors activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 2: Phishing Vectors activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 2: Phishing Vectors Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2: Phishing Vectors'. Specifically, design a feature demonstrating: 'Phishing Vectors' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 2: Phishing Vectors Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 3,
+      "badge_icon": "🎯",
+      "badge_title": "Session 3: Red vs Blue Teams Medal",
+      "title": "Station 3: Session 3: Red vs Blue Teams",
+      "desc": "Red vs Blue Teams Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 3: Red vs Blue Teams</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Red vs Blue Teams</b>: Offensive security actions versus active defense and incident response loops.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Red vs Blue Teams Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Penetration tests</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Red vs Blue Teams is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 3: Red vs Blue Teams activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 3: Red vs Blue Teams activated successfully!</code> to unlock the Session 3: Red vs Blue Teams medal!",
+      "starter_code": "# Simulate Session 3: Red vs Blue Teams activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 3: Red vs Blue Teams",
+          "code": "print(\"Session 3: Red vs Blue Teams activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 3: Red vs Blue Teams activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 3: Red vs Blue Teams Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3: Red vs Blue Teams'. Specifically, design a feature demonstrating: 'Red vs Blue Teams' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 3: Red vs Blue Teams Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 4,
+      "badge_icon": "🎯",
+      "badge_title": "Session 4: Operating Systems Medal",
+      "title": "Station 4: Session 4: Operating Systems",
+      "desc": "Operating Systems Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 4: Operating Systems</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Operating Systems</b>: Setting up safe Guest virtual machines in Oracle VM VirtualBox.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Operating Systems Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Kali Linux installation</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Operating Systems is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 4: Operating Systems activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 4: Operating Systems activated successfully!</code> to unlock the Session 4: Operating Systems medal!",
+      "starter_code": "# Simulate Session 4: Operating Systems activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 4: Operating Systems",
+          "code": "print(\"Session 4: Operating Systems activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 4: Operating Systems activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 4: Operating Systems Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4: Operating Systems'. Specifically, design a feature demonstrating: 'Operating Systems' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 4: Operating Systems Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 5,
+      "badge_icon": "📱",
+      "badge_title": "Session 5: Linux Commands Medal",
+      "title": "Station 5: Session 5: Linux Commands",
+      "desc": "Linux Commands Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 5: Linux Commands</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Linux Commands</b>: Navigating Kali directories, listing files, and editing configurations.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Linux Commands Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Nano editor scripts</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Linux Commands is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 5: Linux Commands activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 5: Linux Commands activated successfully!</code> to unlock the Session 5: Linux Commands medal!",
+      "starter_code": "# Simulate Session 5: Linux Commands activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 5: Linux Commands",
+          "code": "print(\"Session 5: Linux Commands activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 5: Linux Commands activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 5: Linux Commands Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5: Linux Commands'. Specifically, design a feature demonstrating: 'Linux Commands' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 5: Linux Commands Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 6,
+      "badge_icon": "🎯",
+      "badge_title": "Session 6: Data Integrity Medal",
+      "title": "Station 6: Session 6: Data Integrity",
+      "desc": "Data Integrity Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 6: Data Integrity</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Data Integrity</b>: Using hashing algorithms to construct fingerprint files and verify data.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Data Integrity Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> SHA-256 checks</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Data Integrity is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 6: Data Integrity activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 6: Data Integrity activated successfully!</code> to unlock the Session 6: Data Integrity medal!",
+      "starter_code": "# Simulate Session 6: Data Integrity activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 6: Data Integrity",
+          "code": "print(\"Session 6: Data Integrity activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 6: Data Integrity activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 6: Data Integrity Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6: Data Integrity'. Specifically, design a feature demonstrating: 'Data Integrity' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 6: Data Integrity Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 7,
+      "badge_icon": "🎯",
+      "badge_title": "Session 7: Password recovery Medal",
+      "title": "Station 7: Session 7: Password recovery",
+      "desc": "Password recovery Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 7: Password recovery</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Password recovery</b>: Dictionary recovery attacks using John the Ripper and HashCat.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Password recovery Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> rockyou.txt dictionary</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Password recovery is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 7: Password recovery activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 7: Password recovery activated successfully!</code> to unlock the Session 7: Password recovery medal!",
+      "starter_code": "# Simulate Session 7: Password recovery activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 7: Password recovery",
+          "code": "print(\"Session 7: Password recovery activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 7: Password recovery activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 7: Password recovery Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7: Password recovery'. Specifically, design a feature demonstrating: 'Password recovery' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 7: Password recovery Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 8,
+      "badge_icon": "💾",
+      "badge_title": "Session 8: Sandbox Environments Medal",
+      "title": "Station 8: Session 8: Sandbox Environments",
+      "desc": "Sandbox Environments Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 8: Sandbox Environments</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Sandbox Environments</b>: Isolating network guests to analyze suspicious malware safely.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Sandbox Environments Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> VM Host-only networks</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Sandbox Environments is like having a digital treasure box where you store all your gold coins safely so they never disappear!",
+      "hint": "Type in the editor: <code>print(\"Session 8: Sandbox Environments activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 8: Sandbox Environments activated successfully!</code> to unlock the Session 8: Sandbox Environments medal!",
+      "starter_code": "# Simulate Session 8: Sandbox Environments activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 8: Sandbox Environments",
+          "code": "print(\"Session 8: Sandbox Environments activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 8: Sandbox Environments activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 8: Sandbox Environments Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8: Sandbox Environments'. Specifically, design a feature demonstrating: 'Sandbox Environments' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 8: Sandbox Environments Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 9,
+      "badge_icon": "🎯",
+      "badge_title": "Session 9: Static Malware Checks Medal",
+      "title": "Station 9: Session 9: Static Malware Checks",
+      "desc": "Static Malware Checks Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 9: Static Malware Checks</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Static Malware Checks</b>: Scanning executable header tags, imports, and signature properties.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Static Malware Checks Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> PEStudio scans</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Static Malware Checks is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 9: Static Malware Checks activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 9: Static Malware Checks activated successfully!</code> to unlock the Session 9: Static Malware Checks medal!",
+      "starter_code": "# Simulate Session 9: Static Malware Checks activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 9: Static Malware Checks",
+          "code": "print(\"Session 9: Static Malware Checks activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 9: Static Malware Checks activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 9: Static Malware Checks Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9: Static Malware Checks'. Specifically, design a feature demonstrating: 'Static Malware Checks' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 9: Static Malware Checks Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 10,
+      "badge_icon": "🎯",
+      "badge_title": "Session 10: Dynamic Malware logs Medal",
+      "title": "Station 10: Session 10: Dynamic Malware logs",
+      "desc": "Dynamic Malware logs Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 10: Dynamic Malware logs</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Dynamic Malware logs</b>: Using Procmon and Process Hacker to monitor dynamic registry modifications.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Malware logs Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Registry key updates</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Dynamic Malware logs is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 10: Dynamic Malware logs activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 10: Dynamic Malware logs activated successfully!</code> to unlock the Session 10: Dynamic Malware logs medal!",
+      "starter_code": "# Simulate Session 10: Dynamic Malware logs activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 10: Dynamic Malware logs",
+          "code": "print(\"Session 10: Dynamic Malware logs activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 10: Dynamic Malware logs activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 10: Dynamic Malware logs Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10: Dynamic Malware logs'. Specifically, design a feature demonstrating: 'Dynamic Malware logs' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 10: Dynamic Malware logs Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 11,
+      "badge_icon": "🎯",
+      "badge_title": "Session 11: Firewall Filtering Medal",
+      "title": "Station 11: Session 11: Firewall Filtering",
+      "desc": "Firewall Filtering Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 11: Firewall Filtering</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Firewall Filtering</b>: Configuring Linux IPTables to intercept ports and block IP ranges.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Firewall Filtering Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> IP port blocking</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Firewall Filtering is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 11: Firewall Filtering activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 11: Firewall Filtering activated successfully!</code> to unlock the Session 11: Firewall Filtering medal!",
+      "starter_code": "# Simulate Session 11: Firewall Filtering activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 11: Firewall Filtering",
+          "code": "print(\"Session 11: Firewall Filtering activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 11: Firewall Filtering activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 11: Firewall Filtering Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11: Firewall Filtering'. Specifically, design a feature demonstrating: 'Firewall Filtering' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 11: Firewall Filtering Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 12,
+      "badge_icon": "🎯",
+      "badge_title": "Session 12: Public Keys Exchange Medal",
+      "title": "Station 12: Session 12: Public Keys Exchange",
+      "desc": "Public Keys Exchange Practical Lab",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 12: Public Keys Exchange</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Public Keys Exchange</b>: Using RSA asymmetric key pairs to encrypt sensitive files securely.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn basic concepts</li><li>🎯 Execute hand-on labs</li><li>🎯 Verify outcomes</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>security_core</code></li><li><code>shell_scripts</code></li><li><code>network_adapters</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Public Keys Exchange Practical Lab</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> GnuPG key exchanges</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Public Keys Exchange is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 12: Public Keys Exchange activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 12: Public Keys Exchange activated successfully!</code> to unlock the Session 12: Public Keys Exchange medal!",
+      "starter_code": "# Simulate Session 12: Public Keys Exchange activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 12: Public Keys Exchange",
+          "code": "print(\"Session 12: Public Keys Exchange activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 12: Public Keys Exchange activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 12: Public Keys Exchange Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12: Public Keys Exchange'. Specifically, design a feature demonstrating: 'Public Keys Exchange' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 12: Public Keys Exchange Simulator\n# Write your creative solution here!"
+      }
+    }
+  ]
+}

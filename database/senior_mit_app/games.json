@@ -1,0 +1,333 @@
+{
+  "course_id": "senior_mit_app",
+  "course_title": "MIT App Inventor (Senior)",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in MIT App Inventor (Senior). Unlock custom medals, solve daily challenges, and program your own digital masterpieces!",
+  "xp_total": 1200,
+  "mascot_img": "./assets/megaminds_mascot.png",
+  "stations": [
+    {
+      "id": 1,
+      "badge_icon": "🚀",
+      "badge_title": "Introduction & App Inventor Interface Medal",
+      "title": "Station 1: Introduction & App Inventor Interface",
+      "desc": "A free environment for designing and programming smartphone applications using a drag-and-drop block system. It consists of the Designer screen and the Blocks screen.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Introduction & App Inventor Interface</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💻 <b>Familiarity with the MIT App Inventor environment</b>: A free environment for designing and programming smartphone applications using a drag-and-drop block system. It consists of the Designer screen and the Blocks screen.</li><li>🖱️ <b>Add basic elements (Button & Label)</b>: Use Label to display text and instructions on the screen, and use Button to receive user clicks and activate code commands.</li></ul><br><h4>💻 Starter Code Block - Add basic elements (Button & Label):</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>whenButton1.Click\ndo set Label1.Text to “Welcome to the world of application programming!”</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Change the screen background color when you press the welcome button.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Familiarity with the MIT App Inventor environment is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Introduction & App Inventor Interface activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Introduction & App Inventor Interface activated successfully!</code> to unlock the Introduction & App Inventor Interface medal!",
+      "starter_code": "# Simulate Introduction & App Inventor Interface activation:\n",
+      "pills": [
+        {
+          "label": "Activate Introduction & App Inventor Interface",
+          "code": "print(\"Introduction & App Inventor Interface activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Introduction & App Inventor Interface activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Introduction & App Inventor Interface Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Introduction & App Inventor Interface'. Specifically, design a feature demonstrating: 'Add basic elements (Button & Label)' using the starter template below!",
+        "starter_code": "# Home Challenge: Introduction & App Inventor Interface Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 2,
+      "badge_icon": "📱",
+      "badge_title": "Layouts & Canvas (Whiteboard Painting App) Medal",
+      "title": "Station 2: Layouts & Canvas (Whiteboard Painting App)",
+      "desc": "Use HorizontalArrangement to arrange items horizontally, and TableArrangement to arrange them in the form of a table to organize the application screen like a professional.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Layouts & Canvas (Whiteboard Painting App)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📏 <b>Organize your screen with Layouts</b>: Use HorizontalArrangement to arrange items horizontally, and TableArrangement to arrange them in the form of a table to organize the application screen like a professional.</li><li>🎨 <b>Use Canvas for drawing and painting</b>: The Canvas element allows the user to draw freely with his finger, and change the colors of the drawing when touching the buttons of the specified colors.</li></ul><br><h4>💻 Starter Code Block - Use Canvas for drawing and painting:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>when Canvas1.Dragged (startX, startY, prevX, prevY, currentX, currentY)\ndo call Canvas1.DrawLine (prevX, prevY, currentX, currentY)</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> A smart drawing board application (Whiteboard Paint App) that draws colored lines with a finger movement.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Organize your screen with Layouts is like drawing colorful buttons and stickers on your toy car to make it look incredibly cool!",
+      "hint": "Type in the editor: <code>print(\"Layouts & Canvas (Whiteboard Painting App) activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Layouts & Canvas (Whiteboard Painting App) activated successfully!</code> to unlock the Layouts & Canvas (Whiteboard Painting App) medal!",
+      "starter_code": "# Simulate Layouts & Canvas (Whiteboard Painting App) activation:\n",
+      "pills": [
+        {
+          "label": "Activate Layouts & Canvas (Whiteboard Painting App)",
+          "code": "print(\"Layouts & Canvas (Whiteboard Painting App) activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Layouts & Canvas (Whiteboard Painting App) activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Layouts & Canvas (Whiteboard Painting App) Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Layouts & Canvas (Whiteboard Painting App)'. Specifically, design a feature demonstrating: 'Use Canvas for drawing and painting' using the starter template below!",
+        "starter_code": "# Home Challenge: Layouts & Canvas (Whiteboard Painting App) Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 3,
+      "badge_icon": "🎨",
+      "badge_title": "ImageSprites & Touching (Catch the Cat Game) Medal",
+      "title": "Station 3: ImageSprites & Touching (Catch the Cat Game)",
+      "desc": "An animated object placed inside Canvas that has movement, speed, direction, and touch interaction properties.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>ImageSprites & Touching (Catch the Cat Game)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐱 <b>Add animated objects (ImageSprite)</b>: An animated object placed inside Canvas that has movement, speed, direction, and touch interaction properties.</li><li>🎯 <b>Programming to touch the object (Touch Event)</b>: Touch programming to increase points and change the object's location randomly by simply touching it to simulate the challenge of interactive games.</li></ul><br><h4>💻 Starter Code Block - Programming to touch the object (Touch Event):</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>when ImageSprite1.Touched (x, y)\ndo set global score to (get global score + 1)\ncall ImageSprite1.MoveTo (random integer 1 to 300, random integer 1 to 300)</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Fast-paced Catch the Cat Game to increase points with every successful touch.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Add animated objects (ImageSprite) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"ImageSprites & Touching (Catch the Cat Game) activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>ImageSprites & Touching (Catch the Cat Game) activated successfully!</code> to unlock the ImageSprites & Touching (Catch the Cat Game) medal!",
+      "starter_code": "# Simulate ImageSprites & Touching (Catch the Cat Game) activation:\n",
+      "pills": [
+        {
+          "label": "Activate ImageSprites & Touching (Catch the Cat Game)",
+          "code": "print(\"ImageSprites & Touching (Catch the Cat Game) activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "ImageSprites & Touching (Catch the Cat Game) activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: ImageSprites & Touching (Catch the Cat Game) Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'ImageSprites & Touching (Catch the Cat Game)'. Specifically, design a feature demonstrating: 'Programming to touch the object (Touch Event)' using the starter template below!",
+        "starter_code": "# Home Challenge: ImageSprites & Touching (Catch the Cat Game) Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 4,
+      "badge_icon": "💻",
+      "badge_title": "Audio & Voice Controls (Speech Calculator) Medal",
+      "title": "Station 4: Audio & Voice Controls (Speech Calculator)",
+      "desc": "An invisible tool that uses Google's engine to convert the user's voice speech into written text that can be processed programmatically.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Audio & Voice Controls (Speech Calculator)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎙️ <b>SpeechRecognizer</b>: An invisible tool that uses Google's engine to convert the user's voice speech into written text that can be processed programmatically.</li><li>🗣️ <b>Convert text to speech (TextToSpeech)</b>: A tool that pronounces written texts with clear and excellent human voices to speak to the user automatically.</li></ul><br><h4>💻 Starter Code Block - Convert text to speech (TextToSpeech):</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>when SpeechRecognizer1.AfterGettingText (result)\ndo set Label_Result.Text to get result\ncall TextToSpeech1.Speak (join \"I said: \" get result)</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> The Speech Calculator application performs mathematical operations and pronounces the result vocally to the user.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that SpeechRecognizer is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Audio & Voice Controls (Speech Calculator) activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Audio & Voice Controls (Speech Calculator) activated successfully!</code> to unlock the Audio & Voice Controls (Speech Calculator) medal!",
+      "starter_code": "# Simulate Audio & Voice Controls (Speech Calculator) activation:\n",
+      "pills": [
+        {
+          "label": "Activate Audio & Voice Controls (Speech Calculator)",
+          "code": "print(\"Audio & Voice Controls (Speech Calculator) activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Audio & Voice Controls (Speech Calculator) activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Audio & Voice Controls (Speech Calculator) Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Audio & Voice Controls (Speech Calculator)'. Specifically, design a feature demonstrating: 'Convert text to speech (TextToSpeech)' using the starter template below!",
+        "starter_code": "# Home Challenge: Audio & Voice Controls (Speech Calculator) Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 5,
+      "badge_icon": "📱",
+      "badge_title": "Multi-Screen & Login Validation App Medal",
+      "title": "Station 5: Multi-Screen & Login Validation App",
+      "desc": "How to move between screens using opening and closing screen blocks to coordinate the steps of using the application.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Multi-Screen & Login Validation App</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📱 <b>Add and manage multiple screens</b>: How to move between screens using opening and closing screen blocks to coordinate the steps of using the application.</li><li>🔒 <b>Data validation and confidentiality</b>: Use PasswordTextBox to protect passwords, and check email and password match before allowing access.</li></ul><br><h4>💻 Starter Code Block - Data validation and confidentiality:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>if (get TextBox_Email.Text = \"admin@megaminds.com\") and (get PasswordTextBox1.Text = \"12345\")\nthen call open another screen (screenName = \"HomeScreen\")\nelse set Label_Error.Text to \"The data is incorrect!\"</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Implement a secure login screen to verify the student's ID and password before opening the home screen.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Add and manage multiple screens is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Multi-Screen & Login Validation App activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Multi-Screen & Login Validation App activated successfully!</code> to unlock the Multi-Screen & Login Validation App medal!",
+      "starter_code": "# Simulate Multi-Screen & Login Validation App activation:\n",
+      "pills": [
+        {
+          "label": "Activate Multi-Screen & Login Validation App",
+          "code": "print(\"Multi-Screen & Login Validation App activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Multi-Screen & Login Validation App activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Multi-Screen & Login Validation App Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Multi-Screen & Login Validation App'. Specifically, design a feature demonstrating: 'Data validation and confidentiality' using the starter template below!",
+        "starter_code": "# Home Challenge: Multi-Screen & Login Validation App Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 6,
+      "badge_icon": "📱",
+      "badge_title": "Advanced Screens & Local DB (TinyDB Profile App) Medal",
+      "title": "Station 6: Advanced Screens & Local DB (TinyDB Profile App)",
+      "desc": "An invisible element to store and save user data such as texts and images permanently in the phone's memory even when the application is closed.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Advanced Screens & Local DB (TinyDB Profile App)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💾 <b>Local database (TinyDB)</b>: An invisible element to store and save user data such as texts and images permanently in the phone's memory even when the application is closed.</li><li>🔄 <b>Recover saved data</b>: Read previously stored data and automatically fill it in the application interface to enhance the personalized user experience.</li></ul><br><h4>💻 Starter Code Block - Recover saved data:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>// Save data\ncall TinyDB1.StoreValue(tag = \"username\", valueToStore = TextBox_Name.Text)\n// Retrieve data\nset Label_Welcome.Text to call TinyDB1.GetValue (tag = \"username\", valueIfTagNotThere = \"New User\")</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> The Profile Editor application permanently saves the student's name, age, and personal photo.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Local database (TinyDB) is like having a digital treasure box where you store all your gold coins safely so they never disappear!",
+      "hint": "Type in the editor: <code>print(\"Advanced Screens & Local DB (TinyDB Profile App) activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Advanced Screens & Local DB (TinyDB Profile App) activated successfully!</code> to unlock the Advanced Screens & Local DB (TinyDB Profile App) medal!",
+      "starter_code": "# Simulate Advanced Screens & Local DB (TinyDB Profile App) activation:\n",
+      "pills": [
+        {
+          "label": "Activate Advanced Screens & Local DB (TinyDB Profile App)",
+          "code": "print(\"Advanced Screens & Local DB (TinyDB Profile App) activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Advanced Screens & Local DB (TinyDB Profile App) activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Advanced Screens & Local DB (TinyDB Profile App) Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Advanced Screens & Local DB (TinyDB Profile App)'. Specifically, design a feature demonstrating: 'Recover saved data' using the starter template below!",
+        "starter_code": "# Home Challenge: Advanced Screens & Local DB (TinyDB Profile App) Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 7,
+      "badge_icon": "⚽",
+      "badge_title": "Edge Collisions & Bounce Physics (Pong Ball Game) Medal",
+      "title": "Station 7: Edge Collisions & Bounce Physics (Pong Ball Game)",
+      "desc": "A movable spherical element placed inside the Canvas that has the properties of an automatic and physical bounce when it hits the edges and borders of screens.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Edge Collisions & Bounce Physics (Pong Ball Game)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>⚽ <b>Program Ball and Collision (Ball Component)</b>: A movable spherical element placed inside the Canvas that has the properties of an automatic and physical bounce when it hits the edges and borders of screens.</li><li>📐 <b>Calculating the bounce angle upon collision</b>: Programming the ball's bounce upon contact with a moving player's racket to create realistic and entertaining interactive gaming experiences.</li></ul><br><h4>💻 Starter Code Block - Calculating the bounce angle upon collision:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>when Ball1.CollidedWith (other)\ndo set Ball1.Heading to (360 - get Ball1.Heading)\ncall Sound_Ping.Play</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Classic Ping Pong Game to calculate points and save the best score with a record.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Program Ball and Collision (Ball Component) is like throwing a rubber bouncy ball against the wall and watching it spring back realistically!",
+      "hint": "Type in the editor: <code>print(\"Edge Collisions & Bounce Physics (Pong Ball Game) activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Edge Collisions & Bounce Physics (Pong Ball Game) activated successfully!</code> to unlock the Edge Collisions & Bounce Physics (Pong Ball Game) medal!",
+      "starter_code": "# Simulate Edge Collisions & Bounce Physics (Pong Ball Game) activation:\n",
+      "pills": [
+        {
+          "label": "Activate Edge Collisions & Bounce Physics (Pong Ball Game)",
+          "code": "print(\"Edge Collisions & Bounce Physics (Pong Ball Game) activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Edge Collisions & Bounce Physics (Pong Ball Game) activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Edge Collisions & Bounce Physics (Pong Ball Game) Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Edge Collisions & Bounce Physics (Pong Ball Game)'. Specifically, design a feature demonstrating: 'Calculating the bounce angle upon collision' using the starter template below!",
+        "starter_code": "# Home Challenge: Edge Collisions & Bounce Physics (Pong Ball Game) Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 8,
+      "badge_icon": "💻",
+      "badge_title": "Data Lists & ListView (To-Do List App) Medal",
+      "title": "Station 8: Data Lists & ListView (To-Do List App)",
+      "desc": "Using arrays to store and group multiple texts or tasks into a single structured data variable.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Data Lists & ListView (To-Do List App)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📋 <b>Managing arrays and lists</b>: Using arrays to store and group multiple texts or tasks into a single structured data variable.</li><li>⚡ <b>Display data in ListView</b>: An interactive element that displays a matrix of tasks on the screen in an organized manner that allows the user to review and delete items with one click.</li></ul><br><h4>💻 Starter Code Block - Display data in ListView:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>when Button_Add.Click\ndo add items to list (list = get global taskList, item = TextBox_NewTask.Text)\nset ListView_Tasks.Elements to get global taskList\nset TextBox_NewTask.Text to \"\"</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> To-Do List App allows you to write new tasks, review them, and delete completed tasks.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Managing arrays and lists is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Data Lists & ListView (To-Do List App) activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Data Lists & ListView (To-Do List App) activated successfully!</code> to unlock the Data Lists & ListView (To-Do List App) medal!",
+      "starter_code": "# Simulate Data Lists & ListView (To-Do List App) activation:\n",
+      "pills": [
+        {
+          "label": "Activate Data Lists & ListView (To-Do List App)",
+          "code": "print(\"Data Lists & ListView (To-Do List App) activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Data Lists & ListView (To-Do List App) activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Data Lists & ListView (To-Do List App) Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Data Lists & ListView (To-Do List App)'. Specifically, design a feature demonstrating: 'Display data in ListView' using the starter template below!",
+        "starter_code": "# Home Challenge: Data Lists & ListView (To-Do List App) Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 9,
+      "badge_icon": "💻",
+      "badge_title": "Random Choice Logic (Rock Paper Scissors Game) Medal",
+      "title": "Station 9: Random Choice Logic (Rock Paper Scissors Game)",
+      "desc": "A tool for selecting a completely random item from a programming list, and it is widely used in programming artificial intelligence for competitive games.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Random Choice Logic (Rock Paper Scissors Game)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎲 <b>Random selection from lists</b>: A tool for selecting a completely random item from a programming list, and it is widely used in programming artificial intelligence for competitive games.</li><li>🏆 <b>Programming comparison rules and calculating the winner</b>: Use code terms to compare the user's choice with a random phone choice and determine the winner while adding an exciting sound.</li></ul><br><h4>💻 Starter Code Block - Programming comparison rules and calculating the winner:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>set global pcChoice to call pick a random item (list = create empty list [\"stone\", \"paper\", \"scissors\"])\nif (get global userChoice = get global pcChoice)\nthen set Label_Status.Text to \"Tie!\"\nelse if (get global userChoice = \"stone\" and get global pcChoice = \"scissors\")\nthen set Label_Status.Text to \"You are the winner! 🎉\"</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Interactive rock-paper-scissors game against smartphone with win-loss statistics calculation.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Random selection from lists is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Random Choice Logic (Rock Paper Scissors Game) activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Random Choice Logic (Rock Paper Scissors Game) activated successfully!</code> to unlock the Random Choice Logic (Rock Paper Scissors Game) medal!",
+      "starter_code": "# Simulate Random Choice Logic (Rock Paper Scissors Game) activation:\n",
+      "pills": [
+        {
+          "label": "Activate Random Choice Logic (Rock Paper Scissors Game)",
+          "code": "print(\"Random Choice Logic (Rock Paper Scissors Game) activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Random Choice Logic (Rock Paper Scissors Game) activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Random Choice Logic (Rock Paper Scissors Game) Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Random Choice Logic (Rock Paper Scissors Game)'. Specifically, design a feature demonstrating: 'Programming comparison rules and calculating the winner' using the starter template below!",
+        "starter_code": "# Home Challenge: Random Choice Logic (Rock Paper Scissors Game) Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 10,
+      "badge_icon": "📱",
+      "badge_title": "Multi-screen Advanced Architecture (Medical Clinic App) Medal",
+      "title": "Station 10: Multi-screen Advanced Architecture (Medical Clinic App)",
+      "desc": "Designing an integrated system consisting of 6 connected screens and passing data between the screens to register patients and book appointments.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Multi-screen Advanced Architecture (Medical Clinic App)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🏥 <b>Large application architecture and UX standards</b>: Designing an integrated system consisting of 6 connected screens and passing data between the screens to register patients and book appointments.</li><li>💊 <b>Digital clinic and pharmacy reservation system</b>: Building specialized screens for clinics to display available specialties and bill calculations for the patient, and a screen for the pharmacy to purchase medications.</li></ul><br><h4>💻 Starter Code Block - Digital clinic and pharmacy reservation system:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>// Move to the clinic screen with the patient's name sent\ncall open another screen with start value (screenName = \"ClinicScreen\", startValue = get studentInfo.name)\n// Receive the name on the clinic screen\nset Label_PatientName.Text to get start value</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> The integrated smart doctor’s clinic application (Smart Clinic App) for booking clinics and dispensing medical prescriptions.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Large application architecture and UX standards is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Multi-screen Advanced Architecture (Medical Clinic App) activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Multi-screen Advanced Architecture (Medical Clinic App) activated successfully!</code> to unlock the Multi-screen Advanced Architecture (Medical Clinic App) medal!",
+      "starter_code": "# Simulate Multi-screen Advanced Architecture (Medical Clinic App) activation:\n",
+      "pills": [
+        {
+          "label": "Activate Multi-screen Advanced Architecture (Medical Clinic App)",
+          "code": "print(\"Multi-screen Advanced Architecture (Medical Clinic App) activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Multi-screen Advanced Architecture (Medical Clinic App) activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Multi-screen Advanced Architecture (Medical Clinic App) Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Multi-screen Advanced Architecture (Medical Clinic App)'. Specifically, design a feature demonstrating: 'Digital clinic and pharmacy reservation system' using the starter template below!",
+        "starter_code": "# Home Challenge: Multi-screen Advanced Architecture (Medical Clinic App) Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 11,
+      "badge_icon": "🤖",
+      "badge_title": "Generative AI & Web Services (ChatGPT Assistant) Medal",
+      "title": "Station 11: Generative AI & Web Services (ChatGPT Assistant)",
+      "desc": "Use web tools to connect the app with intelligent AI models to send questions and receive genius text answers.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Generative AI & Web Services (ChatGPT Assistant)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🤖 <b>Introduction to integrating artificial intelligence with applications</b>: Use web tools to connect the app with intelligent AI models to send questions and receive genius text answers.</li><li>💬 <b>Programming your AI Assistant</b>: Combine Generative AI with SpeechRecognizer to create an intelligent assistant that listens, questions, and answers with its voice.</li></ul><br><h4>💻 Starter Code Block - Programming your AI Assistant:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>when ChatBot1.GotResponse (response)\ndo set Label_AIResponse.Text to get response\ncall TextToSpeech1.Speak (get response)</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> ChatGPT Personal Assistant app for voice queries and homework assignments.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Introduction to integrating artificial intelligence with applications is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Generative AI & Web Services (ChatGPT Assistant) activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Generative AI & Web Services (ChatGPT Assistant) activated successfully!</code> to unlock the Generative AI & Web Services (ChatGPT Assistant) medal!",
+      "starter_code": "# Simulate Generative AI & Web Services (ChatGPT Assistant) activation:\n",
+      "pills": [
+        {
+          "label": "Activate Generative AI & Web Services (ChatGPT Assistant)",
+          "code": "print(\"Generative AI & Web Services (ChatGPT Assistant) activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Generative AI & Web Services (ChatGPT Assistant) activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Generative AI & Web Services (ChatGPT Assistant) Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Generative AI & Web Services (ChatGPT Assistant)'. Specifically, design a feature demonstrating: 'Programming your AI Assistant' using the starter template below!",
+        "starter_code": "# Home Challenge: Generative AI & Web Services (ChatGPT Assistant) Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 12,
+      "badge_icon": "🤖",
+      "badge_title": "Advanced AI Components (ImageCreator DALL-E App) Medal",
+      "title": "Station 12: Advanced AI Components (ImageCreator DALL-E App)",
+      "desc": "A very advanced component that allows the application to send a text description in English to image generation servers to design and display an instant painting.",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Advanced AI Components (ImageCreator DALL-E App)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Image generation with artificial intelligence (ImageBot)</b>: A very advanced component that allows the application to send a text description in English to image generation servers to design and display an instant painting.</li><li>🖼️ <b>Download and view generated artboards</b>: Receive the link of the AI-generated image and set it as Canvas wallpaper or save it to the phone memory automatically.</li></ul><br><h4>💻 Starter Code Block - Download and view generated artboards:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>when Button_Generate.Click\ndo call ImageBot1.CreateImage (prompt = TextBox_Prompt.Text)\n\nwhen ImageBot1.ImageCreated (image)\ndo set Image_Result.Picture to get image</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> AI Image Creator Studio generates amazing paintings from just written word descriptions.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Image generation with artificial intelligence (ImageBot) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Advanced AI Components (ImageCreator DALL-E App) activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Advanced AI Components (ImageCreator DALL-E App) activated successfully!</code> to unlock the Advanced AI Components (ImageCreator DALL-E App) medal!",
+      "starter_code": "# Simulate Advanced AI Components (ImageCreator DALL-E App) activation:\n",
+      "pills": [
+        {
+          "label": "Activate Advanced AI Components (ImageCreator DALL-E App)",
+          "code": "print(\"Advanced AI Components (ImageCreator DALL-E App) activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Advanced AI Components (ImageCreator DALL-E App) activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Advanced AI Components (ImageCreator DALL-E App) Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Advanced AI Components (ImageCreator DALL-E App)'. Specifically, design a feature demonstrating: 'Download and view generated artboards' using the starter template below!",
+        "starter_code": "# Home Challenge: Advanced AI Components (ImageCreator DALL-E App) Simulator\n# Write your creative solution here!"
+      }
+    }
+  ]
+}

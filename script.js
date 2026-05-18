@@ -216,7 +216,19 @@ document.addEventListener('DOMContentLoaded', () => {
                                     'junior_pictoblox_3d',
                                     'junior_python',
                                     'senior_python',
-                                    'senior_ai'
+                                    'senior_ai',
+                                    'senior_mit_app',
+                                    'senior_python_problem_solving',
+                                    'senior_godot',
+                                    'senior_unity',
+                                    'senior_cyber_security',
+                                    'senior_network_hacking',
+                                    'senior_ui_ux',
+                                    'senior_web_design',
+                                    'senior_web_design_advanced',
+                                    'senior_laravel_web',
+                                    'senior_flutter',
+                                    'senior_laravel_mobile'
                                 ];
                                 const hasGames = coursesWithGames.includes(courseId);
                                 return { courseId, manifest, hasGames };

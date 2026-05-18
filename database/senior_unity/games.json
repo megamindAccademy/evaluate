@@ -1,0 +1,657 @@
+{
+  "course_id": "senior_unity",
+  "course_title": "Unity Game Development",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Unity Game Development. Unlock custom medals, solve daily challenges, and program your own digital masterpieces!",
+  "xp_total": 2400,
+  "mascot_img": "./assets/megaminds_mascot.png",
+  "stations": [
+    {
+      "id": 1,
+      "badge_icon": "🎯",
+      "badge_title": "Session 1: Level 1 Session 1 - Unity Game Dev Medal",
+      "title": "Station 1: Session 1: Level 1 Session 1 - Unity Game Dev",
+      "desc": "Level 1 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 1: Level 1 Session 1 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 1 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 1 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 1 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 1 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 1 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 1: Level 1 Session 1 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 1: Level 1 Session 1 - Unity Game Dev activated successfully!</code> to unlock the Session 1: Level 1 Session 1 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 1: Level 1 Session 1 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 1: Level 1 Session 1 - Unity Game Dev",
+          "code": "print(\"Session 1: Level 1 Session 1 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 1: Level 1 Session 1 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 1: Level 1 Session 1 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1: Level 1 Session 1 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 1 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 1: Level 1 Session 1 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 2,
+      "badge_icon": "🎯",
+      "badge_title": "Session 2: Level 1 Session 2 - Unity Game Dev Medal",
+      "title": "Station 2: Session 2: Level 1 Session 2 - Unity Game Dev",
+      "desc": "Level 1 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 2: Level 1 Session 2 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 1 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 1 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 1 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 1 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 1 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 2: Level 1 Session 2 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 2: Level 1 Session 2 - Unity Game Dev activated successfully!</code> to unlock the Session 2: Level 1 Session 2 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 2: Level 1 Session 2 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 2: Level 1 Session 2 - Unity Game Dev",
+          "code": "print(\"Session 2: Level 1 Session 2 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 2: Level 1 Session 2 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 2: Level 1 Session 2 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2: Level 1 Session 2 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 1 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 2: Level 1 Session 2 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 3,
+      "badge_icon": "🎯",
+      "badge_title": "Session 3: Level 1 Session 3 - Unity Game Dev Medal",
+      "title": "Station 3: Session 3: Level 1 Session 3 - Unity Game Dev",
+      "desc": "Level 1 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 3: Level 1 Session 3 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 1 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 1 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 1 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 1 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 1 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 3: Level 1 Session 3 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 3: Level 1 Session 3 - Unity Game Dev activated successfully!</code> to unlock the Session 3: Level 1 Session 3 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 3: Level 1 Session 3 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 3: Level 1 Session 3 - Unity Game Dev",
+          "code": "print(\"Session 3: Level 1 Session 3 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 3: Level 1 Session 3 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 3: Level 1 Session 3 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3: Level 1 Session 3 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 1 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 3: Level 1 Session 3 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 4,
+      "badge_icon": "🎯",
+      "badge_title": "Session 4: Level 1 Session 4 - Unity Game Dev Medal",
+      "title": "Station 4: Session 4: Level 1 Session 4 - Unity Game Dev",
+      "desc": "Level 1 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 4: Level 1 Session 4 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 1 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 1 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 1 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 1 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 1 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 4: Level 1 Session 4 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 4: Level 1 Session 4 - Unity Game Dev activated successfully!</code> to unlock the Session 4: Level 1 Session 4 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 4: Level 1 Session 4 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 4: Level 1 Session 4 - Unity Game Dev",
+          "code": "print(\"Session 4: Level 1 Session 4 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 4: Level 1 Session 4 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 4: Level 1 Session 4 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4: Level 1 Session 4 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 1 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 4: Level 1 Session 4 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 5,
+      "badge_icon": "🎯",
+      "badge_title": "Session 5: Level 2 Session 1 - Unity Game Dev Medal",
+      "title": "Station 5: Session 5: Level 2 Session 1 - Unity Game Dev",
+      "desc": "Level 2 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 5: Level 2 Session 1 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 2 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 2 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 2 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 2 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 2 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 5: Level 2 Session 1 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 5: Level 2 Session 1 - Unity Game Dev activated successfully!</code> to unlock the Session 5: Level 2 Session 1 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 5: Level 2 Session 1 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 5: Level 2 Session 1 - Unity Game Dev",
+          "code": "print(\"Session 5: Level 2 Session 1 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 5: Level 2 Session 1 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 5: Level 2 Session 1 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5: Level 2 Session 1 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 2 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 5: Level 2 Session 1 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 6,
+      "badge_icon": "🎯",
+      "badge_title": "Session 6: Level 2 Session 2 - Unity Game Dev Medal",
+      "title": "Station 6: Session 6: Level 2 Session 2 - Unity Game Dev",
+      "desc": "Level 2 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 6: Level 2 Session 2 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 2 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 2 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 2 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 2 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 2 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 6: Level 2 Session 2 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 6: Level 2 Session 2 - Unity Game Dev activated successfully!</code> to unlock the Session 6: Level 2 Session 2 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 6: Level 2 Session 2 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 6: Level 2 Session 2 - Unity Game Dev",
+          "code": "print(\"Session 6: Level 2 Session 2 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 6: Level 2 Session 2 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 6: Level 2 Session 2 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6: Level 2 Session 2 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 2 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 6: Level 2 Session 2 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 7,
+      "badge_icon": "🎯",
+      "badge_title": "Session 7: Level 2 Session 3 - Unity Game Dev Medal",
+      "title": "Station 7: Session 7: Level 2 Session 3 - Unity Game Dev",
+      "desc": "Level 2 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 7: Level 2 Session 3 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 2 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 2 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 2 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 2 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 2 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 7: Level 2 Session 3 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 7: Level 2 Session 3 - Unity Game Dev activated successfully!</code> to unlock the Session 7: Level 2 Session 3 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 7: Level 2 Session 3 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 7: Level 2 Session 3 - Unity Game Dev",
+          "code": "print(\"Session 7: Level 2 Session 3 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 7: Level 2 Session 3 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 7: Level 2 Session 3 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7: Level 2 Session 3 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 2 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 7: Level 2 Session 3 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 8,
+      "badge_icon": "🎯",
+      "badge_title": "Session 8: Level 2 Session 4 - Unity Game Dev Medal",
+      "title": "Station 8: Session 8: Level 2 Session 4 - Unity Game Dev",
+      "desc": "Level 2 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 8: Level 2 Session 4 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 2 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 2 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 2 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 2 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 2 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 8: Level 2 Session 4 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 8: Level 2 Session 4 - Unity Game Dev activated successfully!</code> to unlock the Session 8: Level 2 Session 4 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 8: Level 2 Session 4 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 8: Level 2 Session 4 - Unity Game Dev",
+          "code": "print(\"Session 8: Level 2 Session 4 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 8: Level 2 Session 4 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 8: Level 2 Session 4 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8: Level 2 Session 4 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 2 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 8: Level 2 Session 4 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 9,
+      "badge_icon": "🎯",
+      "badge_title": "Session 9: Level 3 Session 1 - Unity Game Dev Medal",
+      "title": "Station 9: Session 9: Level 3 Session 1 - Unity Game Dev",
+      "desc": "Level 3 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 9: Level 3 Session 1 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 3 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 3 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 3 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 3 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 3 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 9: Level 3 Session 1 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 9: Level 3 Session 1 - Unity Game Dev activated successfully!</code> to unlock the Session 9: Level 3 Session 1 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 9: Level 3 Session 1 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 9: Level 3 Session 1 - Unity Game Dev",
+          "code": "print(\"Session 9: Level 3 Session 1 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 9: Level 3 Session 1 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 9: Level 3 Session 1 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9: Level 3 Session 1 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 3 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 9: Level 3 Session 1 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 10,
+      "badge_icon": "🎯",
+      "badge_title": "Session 10: Level 3 Session 2 - Unity Game Dev Medal",
+      "title": "Station 10: Session 10: Level 3 Session 2 - Unity Game Dev",
+      "desc": "Level 3 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 10: Level 3 Session 2 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 3 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 3 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 3 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 3 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 3 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 10: Level 3 Session 2 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 10: Level 3 Session 2 - Unity Game Dev activated successfully!</code> to unlock the Session 10: Level 3 Session 2 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 10: Level 3 Session 2 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 10: Level 3 Session 2 - Unity Game Dev",
+          "code": "print(\"Session 10: Level 3 Session 2 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 10: Level 3 Session 2 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 10: Level 3 Session 2 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10: Level 3 Session 2 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 3 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 10: Level 3 Session 2 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 11,
+      "badge_icon": "🎯",
+      "badge_title": "Session 11: Level 3 Session 3 - Unity Game Dev Medal",
+      "title": "Station 11: Session 11: Level 3 Session 3 - Unity Game Dev",
+      "desc": "Level 3 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 11: Level 3 Session 3 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 3 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 3 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 3 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 3 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 3 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 11: Level 3 Session 3 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 11: Level 3 Session 3 - Unity Game Dev activated successfully!</code> to unlock the Session 11: Level 3 Session 3 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 11: Level 3 Session 3 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 11: Level 3 Session 3 - Unity Game Dev",
+          "code": "print(\"Session 11: Level 3 Session 3 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 11: Level 3 Session 3 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 11: Level 3 Session 3 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11: Level 3 Session 3 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 3 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 11: Level 3 Session 3 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 12,
+      "badge_icon": "🎯",
+      "badge_title": "Session 12: Level 3 Session 4 - Unity Game Dev Medal",
+      "title": "Station 12: Session 12: Level 3 Session 4 - Unity Game Dev",
+      "desc": "Level 3 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 12: Level 3 Session 4 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 3 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 3 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 3 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 3 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 3 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 12: Level 3 Session 4 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 12: Level 3 Session 4 - Unity Game Dev activated successfully!</code> to unlock the Session 12: Level 3 Session 4 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 12: Level 3 Session 4 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 12: Level 3 Session 4 - Unity Game Dev",
+          "code": "print(\"Session 12: Level 3 Session 4 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 12: Level 3 Session 4 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 12: Level 3 Session 4 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12: Level 3 Session 4 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 3 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 12: Level 3 Session 4 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 13,
+      "badge_icon": "🎯",
+      "badge_title": "Session 13: Level 4 Session 1 - Unity Game Dev Medal",
+      "title": "Station 13: Session 13: Level 4 Session 1 - Unity Game Dev",
+      "desc": "Level 4 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 13: Level 4 Session 1 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 4 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 4 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 4 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 4 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 4 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 13: Level 4 Session 1 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 13: Level 4 Session 1 - Unity Game Dev activated successfully!</code> to unlock the Session 13: Level 4 Session 1 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 13: Level 4 Session 1 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 13: Level 4 Session 1 - Unity Game Dev",
+          "code": "print(\"Session 13: Level 4 Session 1 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 13: Level 4 Session 1 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 13: Level 4 Session 1 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 13: Level 4 Session 1 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 4 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 13: Level 4 Session 1 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 14,
+      "badge_icon": "🎯",
+      "badge_title": "Session 14: Level 4 Session 2 - Unity Game Dev Medal",
+      "title": "Station 14: Session 14: Level 4 Session 2 - Unity Game Dev",
+      "desc": "Level 4 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 14: Level 4 Session 2 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 4 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 4 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 4 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 4 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 4 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 14: Level 4 Session 2 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 14: Level 4 Session 2 - Unity Game Dev activated successfully!</code> to unlock the Session 14: Level 4 Session 2 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 14: Level 4 Session 2 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 14: Level 4 Session 2 - Unity Game Dev",
+          "code": "print(\"Session 14: Level 4 Session 2 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 14: Level 4 Session 2 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 14: Level 4 Session 2 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 14: Level 4 Session 2 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 4 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 14: Level 4 Session 2 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 15,
+      "badge_icon": "🎯",
+      "badge_title": "Session 15: Level 4 Session 3 - Unity Game Dev Medal",
+      "title": "Station 15: Session 15: Level 4 Session 3 - Unity Game Dev",
+      "desc": "Level 4 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 15: Level 4 Session 3 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 4 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 4 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 4 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 4 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 4 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 15: Level 4 Session 3 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 15: Level 4 Session 3 - Unity Game Dev activated successfully!</code> to unlock the Session 15: Level 4 Session 3 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 15: Level 4 Session 3 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 15: Level 4 Session 3 - Unity Game Dev",
+          "code": "print(\"Session 15: Level 4 Session 3 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 15: Level 4 Session 3 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 15: Level 4 Session 3 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 15: Level 4 Session 3 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 4 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 15: Level 4 Session 3 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 16,
+      "badge_icon": "🎯",
+      "badge_title": "Session 16: Level 4 Session 4 - Unity Game Dev Medal",
+      "title": "Station 16: Session 16: Level 4 Session 4 - Unity Game Dev",
+      "desc": "Level 4 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 16: Level 4 Session 4 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 4 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 4 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 4 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 4 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 4 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 16: Level 4 Session 4 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 16: Level 4 Session 4 - Unity Game Dev activated successfully!</code> to unlock the Session 16: Level 4 Session 4 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 16: Level 4 Session 4 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 16: Level 4 Session 4 - Unity Game Dev",
+          "code": "print(\"Session 16: Level 4 Session 4 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 16: Level 4 Session 4 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 16: Level 4 Session 4 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 16: Level 4 Session 4 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 4 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 16: Level 4 Session 4 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 17,
+      "badge_icon": "🎯",
+      "badge_title": "Session 17: Level 5 Session 1 - Unity Game Dev Medal",
+      "title": "Station 17: Session 17: Level 5 Session 1 - Unity Game Dev",
+      "desc": "Level 5 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 17: Level 5 Session 1 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 5 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 5 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 5 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 5 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 5 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 17: Level 5 Session 1 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 17: Level 5 Session 1 - Unity Game Dev activated successfully!</code> to unlock the Session 17: Level 5 Session 1 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 17: Level 5 Session 1 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 17: Level 5 Session 1 - Unity Game Dev",
+          "code": "print(\"Session 17: Level 5 Session 1 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 17: Level 5 Session 1 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 17: Level 5 Session 1 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 17: Level 5 Session 1 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 5 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 17: Level 5 Session 1 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 18,
+      "badge_icon": "🎯",
+      "badge_title": "Session 18: Level 5 Session 2 - Unity Game Dev Medal",
+      "title": "Station 18: Session 18: Level 5 Session 2 - Unity Game Dev",
+      "desc": "Level 5 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 18: Level 5 Session 2 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 5 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 5 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 5 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 5 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 5 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 18: Level 5 Session 2 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 18: Level 5 Session 2 - Unity Game Dev activated successfully!</code> to unlock the Session 18: Level 5 Session 2 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 18: Level 5 Session 2 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 18: Level 5 Session 2 - Unity Game Dev",
+          "code": "print(\"Session 18: Level 5 Session 2 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 18: Level 5 Session 2 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 18: Level 5 Session 2 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 18: Level 5 Session 2 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 5 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 18: Level 5 Session 2 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 19,
+      "badge_icon": "🎯",
+      "badge_title": "Session 19: Level 5 Session 3 - Unity Game Dev Medal",
+      "title": "Station 19: Session 19: Level 5 Session 3 - Unity Game Dev",
+      "desc": "Level 5 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 19: Level 5 Session 3 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 5 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 5 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 5 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 5 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 5 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 19: Level 5 Session 3 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 19: Level 5 Session 3 - Unity Game Dev activated successfully!</code> to unlock the Session 19: Level 5 Session 3 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 19: Level 5 Session 3 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 19: Level 5 Session 3 - Unity Game Dev",
+          "code": "print(\"Session 19: Level 5 Session 3 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 19: Level 5 Session 3 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 19: Level 5 Session 3 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 19: Level 5 Session 3 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 5 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 19: Level 5 Session 3 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 20,
+      "badge_icon": "🎯",
+      "badge_title": "Session 20: Level 5 Session 4 - Unity Game Dev Medal",
+      "title": "Station 20: Session 20: Level 5 Session 4 - Unity Game Dev",
+      "desc": "Level 5 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 20: Level 5 Session 4 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 5 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 5 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 5 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 5 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 5 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 20: Level 5 Session 4 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 20: Level 5 Session 4 - Unity Game Dev activated successfully!</code> to unlock the Session 20: Level 5 Session 4 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 20: Level 5 Session 4 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 20: Level 5 Session 4 - Unity Game Dev",
+          "code": "print(\"Session 20: Level 5 Session 4 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 20: Level 5 Session 4 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 20: Level 5 Session 4 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 20: Level 5 Session 4 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 5 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 20: Level 5 Session 4 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 21,
+      "badge_icon": "🎯",
+      "badge_title": "Session 21: Level 6 Session 1 - Unity Game Dev Medal",
+      "title": "Station 21: Session 21: Level 6 Session 1 - Unity Game Dev",
+      "desc": "Level 6 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 21: Level 6 Session 1 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 6 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 6 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 6 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 6 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 6 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 21: Level 6 Session 1 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 21: Level 6 Session 1 - Unity Game Dev activated successfully!</code> to unlock the Session 21: Level 6 Session 1 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 21: Level 6 Session 1 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 21: Level 6 Session 1 - Unity Game Dev",
+          "code": "print(\"Session 21: Level 6 Session 1 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 21: Level 6 Session 1 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 21: Level 6 Session 1 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 21: Level 6 Session 1 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 6 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 21: Level 6 Session 1 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 22,
+      "badge_icon": "🎯",
+      "badge_title": "Session 22: Level 6 Session 2 - Unity Game Dev Medal",
+      "title": "Station 22: Session 22: Level 6 Session 2 - Unity Game Dev",
+      "desc": "Level 6 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 22: Level 6 Session 2 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 6 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 6 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 6 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 6 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 6 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 22: Level 6 Session 2 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 22: Level 6 Session 2 - Unity Game Dev activated successfully!</code> to unlock the Session 22: Level 6 Session 2 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 22: Level 6 Session 2 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 22: Level 6 Session 2 - Unity Game Dev",
+          "code": "print(\"Session 22: Level 6 Session 2 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 22: Level 6 Session 2 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 22: Level 6 Session 2 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 22: Level 6 Session 2 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 6 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 22: Level 6 Session 2 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 23,
+      "badge_icon": "🎯",
+      "badge_title": "Session 23: Level 6 Session 3 - Unity Game Dev Medal",
+      "title": "Station 23: Session 23: Level 6 Session 3 - Unity Game Dev",
+      "desc": "Level 6 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 23: Level 6 Session 3 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 6 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 6 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 6 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 6 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 6 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 23: Level 6 Session 3 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 23: Level 6 Session 3 - Unity Game Dev activated successfully!</code> to unlock the Session 23: Level 6 Session 3 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 23: Level 6 Session 3 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 23: Level 6 Session 3 - Unity Game Dev",
+          "code": "print(\"Session 23: Level 6 Session 3 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 23: Level 6 Session 3 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 23: Level 6 Session 3 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 23: Level 6 Session 3 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 6 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 23: Level 6 Session 3 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    },
+    {
+      "id": 24,
+      "badge_icon": "🎯",
+      "badge_title": "Session 24: Level 6 Session 4 - Unity Game Dev Medal",
+      "title": "Station 24: Session 24: Level 6 Session 4 - Unity Game Dev",
+      "desc": "Level 6 Custom Game Sandbox",
+      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 24: Level 6 Session 4 - Unity Game Dev</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🕹️ <b>Unity Level 6 Core Concept</b>: Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Level 6 Mechanics</li><li>🎯 Apply Unity C# variables</li><li>🎯 Polish game coordinates</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GameObject</code></li><li><code>MonoBehaviour</code></li><li><code>Translate()</code></li><li><code>Vector3</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Level 6 Custom Game Sandbox</div><br><h4>💻 Starter Code Block - Unity Level 6 Core Concept:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine that Unity Level 6 Core Concept is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "hint": "Type in the editor: <code>print(\"Session 24: Level 6 Session 4 - Unity Game Dev activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Session 24: Level 6 Session 4 - Unity Game Dev activated successfully!</code> to unlock the Session 24: Level 6 Session 4 - Unity Game Dev medal!",
+      "starter_code": "# Simulate Session 24: Level 6 Session 4 - Unity Game Dev activation:\n",
+      "pills": [
+        {
+          "label": "Activate Session 24: Level 6 Session 4 - Unity Game Dev",
+          "code": "print(\"Session 24: Level 6 Session 4 - Unity Game Dev activated successfully!\")"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Session 24: Level 6 Session 4 - Unity Game Dev activated successfully!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "🏠 Magic Home Challenge: Session 24: Level 6 Session 4 - Unity Game Dev Builder",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 24: Level 6 Session 4 - Unity Game Dev'. Specifically, design a feature demonstrating: 'Unity Level 6 Core Concept' using the starter template below!",
+        "starter_code": "# Home Challenge: Session 24: Level 6 Session 4 - Unity Game Dev Simulator\n# Write your creative solution here!"
+      }
+    }
+  ]
+}
