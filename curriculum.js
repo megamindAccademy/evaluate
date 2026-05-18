@@ -170,6 +170,13 @@ function getUrlCourseParam() {
     return params.get('course') || 'senior_python';
 }
 
+// Check URL param for initial station selection
+function getUrlStationParam() {
+    const params = new URLSearchParams(window.location.search);
+    const stParam = params.get('station');
+    return stParam ? parseInt(stParam) : null;
+}
+
 // Load progress from localStorage for current course
 function loadProgress() {
     const storageKey = `megaminds_progress_${currentCourseId}`;
@@ -229,6 +236,14 @@ function fetchCourseGames(courseId) {
         .then(data => {
             currentCourseData = data;
             renderCourseContent();
+            
+            // Check if there is an initial station to autoload
+            const initStation = getUrlStationParam();
+            if (initStation && initStation > 0 && initStation <= currentCourseData.stations.length) {
+                setTimeout(() => {
+                    openStudioForStation(initStation);
+                }, 300);
+            }
         })
         .catch(err => {
             console.error(`Error loading games for ${courseId}:`, err);
@@ -669,6 +684,33 @@ document.addEventListener('DOMContentLoaded', () => {
     const certModal = document.getElementById('certModal');
     const btnModalCloseCert = document.getElementById('btnModalCloseCert');
     const btnModalPrintCert = document.getElementById('btnModalPrintCert');
+
+    // Copy direct session link to clipboard
+    const btnCopySessionLink = document.getElementById('btnCopySessionLink');
+    if (btnCopySessionLink) {
+        btnCopySessionLink.addEventListener('click', () => {
+            const sessionUrl = `${window.location.origin}${window.location.pathname}?course=${currentCourseId}&station=${currentStationId}`;
+            
+            navigator.clipboard.writeText(sessionUrl).then(() => {
+                playHappyChime();
+                const originalText = btnCopySessionLink.innerHTML;
+                btnCopySessionLink.innerHTML = '<span>✅ تم نسخ الرابط السحري!</span>';
+                btnCopySessionLink.style.background = 'linear-gradient(135deg, #06d6a0, #4cc9f0)';
+                btnCopySessionLink.style.color = '#ffffff';
+                btnCopySessionLink.style.border = '3px solid #ffffff';
+                
+                setTimeout(() => {
+                    btnCopySessionLink.innerHTML = originalText;
+                    btnCopySessionLink.style.background = 'linear-gradient(135deg, #fb8500, #ffb703)';
+                    btnCopySessionLink.style.color = '#023047';
+                    btnCopySessionLink.style.border = '3px solid #023047';
+                }, 2000);
+            }).catch(err => {
+                console.error("Failed to copy direct link:", err);
+                alert("رابط الحصة المباشر هو:\n" + sessionUrl);
+            });
+        });
+    }
 
     // Tab Bar Clicks
     document.querySelectorAll('.course-tab-btn').forEach(btn => {

@@ -222,9 +222,14 @@
                     <div class="studio-title-icon">💻</div>
                     <h2 class="studio-title" id="studioTitleText">المحطة 1: استوديو بايثون التفاعلي</h2>
                 </div>
-                <button class="btn-exit-studio" id="btnExitStudio">
-                    <span>🗺️ العودة لخريطة المحطات</span>
-                </button>
+                <div class="studio-header-actions" style="display: flex; gap: 15px; flex-wrap: wrap;">
+                    <button class="btn-copy-session-link" id="btnCopySessionLink" style="background: linear-gradient(135deg, #fb8500, #ffb703); color: #023047; border: 3px solid #023047; padding: 12px 28px; border-radius: 50px; font-size: 1.3rem; font-weight: 900; cursor: pointer; transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 10px; font-family: inherit;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 20px rgba(251, 133, 0, 0.4)';" onmouseout="this.style.transform='none'; this.style.boxShadow='none';">
+                        <span>🔗 نسخ رابط الحصة للطلاب</span>
+                    </button>
+                    <button class="btn-exit-studio" id="btnExitStudio">
+                        <span>🗺️ العودة لخريطة المحطات</span>
+                    </button>
+                </div>
             </div>
 
             <div class="studio-grid">
@@ -435,6 +440,6 @@
     <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics-compat.js"></script>
 
     <!-- JavaScript File -->
-    <script src="./curriculum.js?v=3"></script>
+    <script src="./curriculum.js?v=4"></script>
 </body>
 </html>
