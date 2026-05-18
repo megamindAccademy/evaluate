@@ -7,450 +7,450 @@
   "stations": [
     {
       "id": 1,
-      "badge_icon": "🤖",
-      "badge_title": "Session 1: Advanced HTML5 Semantics Medal",
-      "title": "Station 1: Session 1: Advanced HTML5 Semantics",
-      "desc": "Dynamic Portal widget - Advanced HTML5 Semantics",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 1: Advanced HTML5 Semantics</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>Advanced HTML5 Semantics</b>: Structuring page contents for maximum SEO indexing and screen readers.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - Advanced HTML5 Semantics</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> <main> and <article> layout structures</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Advanced HTML5 Semantics is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 1: Advanced HTML5 Semantics activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 1: Advanced HTML5 Semantics activated successfully!</code> to unlock the Session 1: Advanced HTML5 Semantics medal!",
-      "starter_code": "# Simulate Session 1: Advanced HTML5 Semantics activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 1 Medal",
+      "title": "Station 1: Session 1",
+      "desc": "Interactive Session 1 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 1</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 1 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 1 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 1 -->\n<script>\n  console.log('Session 1 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 1: Advanced HTML5 Semantics",
-          "code": "print(\"Session 1: Advanced HTML5 Semantics activated successfully!\")"
+          "label": "Activate Session 1",
+          "code": "console.log('Session 1 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 1: Advanced HTML5 Semantics activated successfully!",
+        "required_output_text": "Session 1 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 1: Advanced HTML5 Semantics Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1: Advanced HTML5 Semantics'. Specifically, design a feature demonstrating: 'Advanced HTML5 Semantics' using the starter template below!",
-        "code": "# Home Challenge: Session 1: Advanced HTML5 Semantics Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 1: Advanced HTML5 Semantics Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 1",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 1 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 1 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 2,
-      "badge_icon": "💻",
-      "badge_title": "Session 2: CSS Keyframe Loops Medal",
-      "title": "Station 2: Session 2: CSS Keyframe Loops",
-      "desc": "Dynamic Portal widget - CSS Keyframe Loops",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 2: CSS Keyframe Loops</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>CSS Keyframe Loops</b>: Creating smooth animations that rotate loader icons infinitely.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - CSS Keyframe Loops</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> @keyframes spin routines</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that CSS Keyframe Loops is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 2: CSS Keyframe Loops activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 2: CSS Keyframe Loops activated successfully!</code> to unlock the Session 2: CSS Keyframe Loops medal!",
-      "starter_code": "# Simulate Session 2: CSS Keyframe Loops activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 2 Medal",
+      "title": "Station 2: Session 2",
+      "desc": "Interactive Session 2 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 2</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 2 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 2 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 2 -->\n<script>\n  console.log('Session 2 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 2: CSS Keyframe Loops",
-          "code": "print(\"Session 2: CSS Keyframe Loops activated successfully!\")"
+          "label": "Activate Session 2",
+          "code": "console.log('Session 2 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 2: CSS Keyframe Loops activated successfully!",
+        "required_output_text": "Session 2 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 2: CSS Keyframe Loops Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2: CSS Keyframe Loops'. Specifically, design a feature demonstrating: 'CSS Keyframe Loops' using the starter template below!",
-        "code": "# Home Challenge: Session 2: CSS Keyframe Loops Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 2: CSS Keyframe Loops Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 2",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 2 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 2 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 3,
-      "badge_icon": "🏆",
-      "badge_title": "Session 3: Responsive Media Rules Medal",
-      "title": "Station 3: Session 3: Responsive Media Rules",
-      "desc": "Dynamic Portal widget - Responsive Media Rules",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 3: Responsive Media Rules</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>Responsive Media Rules</b>: Hiding desktop panels on mobile screen sizes.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - Responsive Media Rules</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> @media (max-width: 768px) stylesheets</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Responsive Media Rules is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 3: Responsive Media Rules activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 3: Responsive Media Rules activated successfully!</code> to unlock the Session 3: Responsive Media Rules medal!",
-      "starter_code": "# Simulate Session 3: Responsive Media Rules activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 3 Medal",
+      "title": "Station 3: Session 3",
+      "desc": "Interactive Session 3 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 3</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 3 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 3 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 3 -->\n<script>\n  console.log('Session 3 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 3: Responsive Media Rules",
-          "code": "print(\"Session 3: Responsive Media Rules activated successfully!\")"
+          "label": "Activate Session 3",
+          "code": "console.log('Session 3 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 3: Responsive Media Rules activated successfully!",
+        "required_output_text": "Session 3 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 3: Responsive Media Rules Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3: Responsive Media Rules'. Specifically, design a feature demonstrating: 'Responsive Media Rules' using the starter template below!",
-        "code": "# Home Challenge: Session 3: Responsive Media Rules Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 3: Responsive Media Rules Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 3",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 3 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 3 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 4,
-      "badge_icon": "🎯",
-      "badge_title": "Session 4: Bootstrap Class Utilities Medal",
-      "title": "Station 4: Session 4: Bootstrap Class Utilities",
-      "desc": "Dynamic Portal widget - Bootstrap Class Utilities",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 4: Bootstrap Class Utilities</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>Bootstrap Class Utilities</b>: Importing CDNs and applying padding margins to elements.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - Bootstrap Class Utilities</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> p-3 shadow-sm border-0 cards</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Bootstrap Class Utilities is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 4: Bootstrap Class Utilities activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 4: Bootstrap Class Utilities activated successfully!</code> to unlock the Session 4: Bootstrap Class Utilities medal!",
-      "starter_code": "# Simulate Session 4: Bootstrap Class Utilities activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 4 Medal",
+      "title": "Station 4: Session 4",
+      "desc": "Interactive Session 4 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 4</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 4 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 4 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 4 -->\n<script>\n  console.log('Session 4 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 4: Bootstrap Class Utilities",
-          "code": "print(\"Session 4: Bootstrap Class Utilities activated successfully!\")"
+          "label": "Activate Session 4",
+          "code": "console.log('Session 4 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 4: Bootstrap Class Utilities activated successfully!",
+        "required_output_text": "Session 4 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 4: Bootstrap Class Utilities Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4: Bootstrap Class Utilities'. Specifically, design a feature demonstrating: 'Bootstrap Class Utilities' using the starter template below!",
-        "code": "# Home Challenge: Session 4: Bootstrap Class Utilities Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 4: Bootstrap Class Utilities Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 4",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 4 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 4 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 5,
-      "badge_icon": "🎯",
-      "badge_title": "Session 5: Bootstrap 12-Column Grids Medal",
-      "title": "Station 5: Session 5: Bootstrap 12-Column Grids",
-      "desc": "Dynamic Portal widget - Bootstrap 12-Column Grids",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 5: Bootstrap 12-Column Grids</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>Bootstrap 12-Column Grids</b>: Building responsive layouts that scale column sizes dynamically.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - Bootstrap 12-Column Grids</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> col-12 col-md-4 spacing</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Bootstrap 12-Column Grids is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 5: Bootstrap 12-Column Grids activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 5: Bootstrap 12-Column Grids activated successfully!</code> to unlock the Session 5: Bootstrap 12-Column Grids medal!",
-      "starter_code": "# Simulate Session 5: Bootstrap 12-Column Grids activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 5 Medal",
+      "title": "Station 5: Session 5",
+      "desc": "Interactive Session 5 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 5</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 5 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 5 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 5 -->\n<script>\n  console.log('Session 5 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 5: Bootstrap 12-Column Grids",
-          "code": "print(\"Session 5: Bootstrap 12-Column Grids activated successfully!\")"
+          "label": "Activate Session 5",
+          "code": "console.log('Session 5 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 5: Bootstrap 12-Column Grids activated successfully!",
+        "required_output_text": "Session 5 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 5: Bootstrap 12-Column Grids Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5: Bootstrap 12-Column Grids'. Specifically, design a feature demonstrating: 'Bootstrap 12-Column Grids' using the starter template below!",
-        "code": "# Home Challenge: Session 5: Bootstrap 12-Column Grids Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 5: Bootstrap 12-Column Grids Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 5",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 5 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 5 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 6,
-      "badge_icon": "🎯",
-      "badge_title": "Session 6: Bootstrap Components Medal",
-      "title": "Station 6: Session 6: Bootstrap Components",
-      "desc": "Dynamic Portal widget - Bootstrap Components",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 6: Bootstrap Components</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>Bootstrap Components</b>: Deploying responsive navigation headers and popup modals.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - Bootstrap Components</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> data-bs-toggle='modal' triggers</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Bootstrap Components is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 6: Bootstrap Components activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 6: Bootstrap Components activated successfully!</code> to unlock the Session 6: Bootstrap Components medal!",
-      "starter_code": "# Simulate Session 6: Bootstrap Components activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 6 Medal",
+      "title": "Station 6: Session 6",
+      "desc": "Interactive Session 6 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 6</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 6 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 6 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 6 -->\n<script>\n  console.log('Session 6 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 6: Bootstrap Components",
-          "code": "print(\"Session 6: Bootstrap Components activated successfully!\")"
+          "label": "Activate Session 6",
+          "code": "console.log('Session 6 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 6: Bootstrap Components activated successfully!",
+        "required_output_text": "Session 6 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 6: Bootstrap Components Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6: Bootstrap Components'. Specifically, design a feature demonstrating: 'Bootstrap Components' using the starter template below!",
-        "code": "# Home Challenge: Session 6: Bootstrap Components Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 6: Bootstrap Components Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 6",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 6 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 6 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 7,
-      "badge_icon": "💻",
-      "badge_title": "Session 7: JavaScript core variables Medal",
-      "title": "Station 7: Session 7: JavaScript core variables",
-      "desc": "Dynamic Portal widget - JavaScript core variables",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 7: JavaScript core variables</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>JavaScript core variables</b>: Declaring let and const variables to manage local datasets.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - JavaScript core variables</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> let age = 15; console.log() tests</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that JavaScript core variables is like writing a list of secret rules telling your helper robot exactly what to do step-by-step!",
-      "hint": "Type in the editor: <code>print(\"Session 7: JavaScript core variables activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 7: JavaScript core variables activated successfully!</code> to unlock the Session 7: JavaScript core variables medal!",
-      "starter_code": "# Simulate Session 7: JavaScript core variables activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 7 Medal",
+      "title": "Station 7: Session 7",
+      "desc": "Interactive Session 7 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 7</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 7 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 7 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 7 -->\n<script>\n  console.log('Session 7 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 7: JavaScript core variables",
-          "code": "print(\"Session 7: JavaScript core variables activated successfully!\")"
+          "label": "Activate Session 7",
+          "code": "console.log('Session 7 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 7: JavaScript core variables activated successfully!",
+        "required_output_text": "Session 7 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 7: JavaScript core variables Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7: JavaScript core variables'. Specifically, design a feature demonstrating: 'JavaScript core variables' using the starter template below!",
-        "code": "# Home Challenge: Session 7: JavaScript core variables Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 7: JavaScript core variables Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 7",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 7 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 7 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 8,
-      "badge_icon": "💻",
-      "badge_title": "Session 8: JS Conditional Branching Medal",
-      "title": "Station 8: Session 8: JS Conditional Branching",
-      "desc": "Dynamic Portal widget - JS Conditional Branching",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 8: JS Conditional Branching</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>JS Conditional Branching</b>: Directing program paths using if-else logic.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - JS Conditional Branching</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> if (score >= 50) statements</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that JS Conditional Branching is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 8: JS Conditional Branching activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 8: JS Conditional Branching activated successfully!</code> to unlock the Session 8: JS Conditional Branching medal!",
-      "starter_code": "# Simulate Session 8: JS Conditional Branching activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 8 Medal",
+      "title": "Station 8: Session 8",
+      "desc": "Interactive Session 8 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 8</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 8 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 8 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 8 -->\n<script>\n  console.log('Session 8 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 8: JS Conditional Branching",
-          "code": "print(\"Session 8: JS Conditional Branching activated successfully!\")"
+          "label": "Activate Session 8",
+          "code": "console.log('Session 8 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 8: JS Conditional Branching activated successfully!",
+        "required_output_text": "Session 8 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 8: JS Conditional Branching Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8: JS Conditional Branching'. Specifically, design a feature demonstrating: 'JS Conditional Branching' using the starter template below!",
-        "code": "# Home Challenge: Session 8: JS Conditional Branching Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 8: JS Conditional Branching Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 8",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 8 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 8 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 9,
-      "badge_icon": "💻",
-      "badge_title": "Session 9: JS Arrays & Objects Medal",
-      "title": "Station 9: Session 9: JS Arrays & Objects",
-      "desc": "Dynamic Portal widget - JS Arrays & Objects",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 9: JS Arrays & Objects</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>JS Arrays & Objects</b>: Structuring complex datasets as key-value pairs.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - JS Arrays & Objects</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> const student = { name: 'Alice' }</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that JS Arrays & Objects is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 9: JS Arrays & Objects activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 9: JS Arrays & Objects activated successfully!</code> to unlock the Session 9: JS Arrays & Objects medal!",
-      "starter_code": "# Simulate Session 9: JS Arrays & Objects activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 9 Medal",
+      "title": "Station 9: Session 9",
+      "desc": "Interactive Session 9 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 9</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 9 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 9 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 9 -->\n<script>\n  console.log('Session 9 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 9: JS Arrays & Objects",
-          "code": "print(\"Session 9: JS Arrays & Objects activated successfully!\")"
+          "label": "Activate Session 9",
+          "code": "console.log('Session 9 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 9: JS Arrays & Objects activated successfully!",
+        "required_output_text": "Session 9 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 9: JS Arrays & Objects Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9: JS Arrays & Objects'. Specifically, design a feature demonstrating: 'JS Arrays & Objects' using the starter template below!",
-        "code": "# Home Challenge: Session 9: JS Arrays & Objects Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 9: JS Arrays & Objects Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 9",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 9 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 9 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 10,
-      "badge_icon": "💻",
-      "badge_title": "Session 10: JS Array Iterators Medal",
-      "title": "Station 10: Session 10: JS Array Iterators",
-      "desc": "Dynamic Portal widget - JS Array Iterators",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 10: JS Array Iterators</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>JS Array Iterators</b>: Looping through item lists programmatically.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - JS Array Iterators</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> .forEach() and .map() arrays</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that JS Array Iterators is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 10: JS Array Iterators activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 10: JS Array Iterators activated successfully!</code> to unlock the Session 10: JS Array Iterators medal!",
-      "starter_code": "# Simulate Session 10: JS Array Iterators activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 10 Medal",
+      "title": "Station 10: Session 10",
+      "desc": "Interactive Session 10 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 10</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 10 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 10 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 10 -->\n<script>\n  console.log('Session 10 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 10: JS Array Iterators",
-          "code": "print(\"Session 10: JS Array Iterators activated successfully!\")"
+          "label": "Activate Session 10",
+          "code": "console.log('Session 10 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 10: JS Array Iterators activated successfully!",
+        "required_output_text": "Session 10 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 10: JS Array Iterators Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10: JS Array Iterators'. Specifically, design a feature demonstrating: 'JS Array Iterators' using the starter template below!",
-        "code": "# Home Challenge: Session 10: JS Array Iterators Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 10: JS Array Iterators Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 10",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 10 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 10 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 11,
-      "badge_icon": "💻",
-      "badge_title": "Session 11: JS Custom Functions Medal",
-      "title": "Station 11: Session 11: JS Custom Functions",
-      "desc": "Dynamic Portal widget - JS Custom Functions",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 11: JS Custom Functions</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>JS Custom Functions</b>: Creating reusable code blocks that process parameters and return outputs.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - JS Custom Functions</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> const calcArea = (w, h) => w * h</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that JS Custom Functions is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 11: JS Custom Functions activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 11: JS Custom Functions activated successfully!</code> to unlock the Session 11: JS Custom Functions medal!",
-      "starter_code": "# Simulate Session 11: JS Custom Functions activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 11 Medal",
+      "title": "Station 11: Session 11",
+      "desc": "Interactive Session 11 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 11</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 11 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 11 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 11 -->\n<script>\n  console.log('Session 11 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 11: JS Custom Functions",
-          "code": "print(\"Session 11: JS Custom Functions activated successfully!\")"
+          "label": "Activate Session 11",
+          "code": "console.log('Session 11 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 11: JS Custom Functions activated successfully!",
+        "required_output_text": "Session 11 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 11: JS Custom Functions Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11: JS Custom Functions'. Specifically, design a feature demonstrating: 'JS Custom Functions' using the starter template below!",
-        "code": "# Home Challenge: Session 11: JS Custom Functions Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 11: JS Custom Functions Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 11",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 11 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 11 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 12,
-      "badge_icon": "🎯",
-      "badge_title": "Session 12: DOM query selectors Medal",
-      "title": "Station 12: Session 12: DOM query selectors",
-      "desc": "Dynamic Portal widget - DOM query selectors",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 12: DOM query selectors</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>DOM query selectors</b>: Updating page text and styles dynamically.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - DOM query selectors</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> document.querySelector() methods</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that DOM query selectors is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 12: DOM query selectors activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 12: DOM query selectors activated successfully!</code> to unlock the Session 12: DOM query selectors medal!",
-      "starter_code": "# Simulate Session 12: DOM query selectors activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 12 Medal",
+      "title": "Station 12: Session 12",
+      "desc": "Interactive Session 12 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 12</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 12 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 12 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 12 -->\n<script>\n  console.log('Session 12 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 12: DOM query selectors",
-          "code": "print(\"Session 12: DOM query selectors activated successfully!\")"
+          "label": "Activate Session 12",
+          "code": "console.log('Session 12 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 12: DOM query selectors activated successfully!",
+        "required_output_text": "Session 12 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 12: DOM query selectors Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12: DOM query selectors'. Specifically, design a feature demonstrating: 'DOM query selectors' using the starter template below!",
-        "code": "# Home Challenge: Session 12: DOM query selectors Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 12: DOM query selectors Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 12",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 12 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 12 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 13,
-      "badge_icon": "💻",
-      "badge_title": "Session 13: DOM click event listeners Medal",
-      "title": "Station 13: Session 13: DOM click event listeners",
-      "desc": "Dynamic Portal widget - DOM click event listeners",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 13: DOM click event listeners</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>DOM click event listeners</b>: Triggering actions when users click buttons.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - DOM click event listeners</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> addEventListener('click') callbacks</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that DOM click event listeners is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 13: DOM click event listeners activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 13: DOM click event listeners activated successfully!</code> to unlock the Session 13: DOM click event listeners medal!",
-      "starter_code": "# Simulate Session 13: DOM click event listeners activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 13 Medal",
+      "title": "Station 13: Session 13",
+      "desc": "Interactive Session 13 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 13</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 13 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 13 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 13 -->\n<script>\n  console.log('Session 13 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 13: DOM click event listeners",
-          "code": "print(\"Session 13: DOM click event listeners activated successfully!\")"
+          "label": "Activate Session 13",
+          "code": "console.log('Session 13 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 13: DOM click event listeners activated successfully!",
+        "required_output_text": "Session 13 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 13: DOM click event listeners Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 13: DOM click event listeners'. Specifically, design a feature demonstrating: 'DOM click event listeners' using the starter template below!",
-        "code": "# Home Challenge: Session 13: DOM click event listeners Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 13: DOM click event listeners Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 13",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 13'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 13 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 13 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 14,
-      "badge_icon": "💾",
-      "badge_title": "Session 14: Local Storage Persistence Medal",
-      "title": "Station 14: Session 14: Local Storage Persistence",
-      "desc": "Dynamic Portal widget - Local Storage Persistence",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 14: Local Storage Persistence</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>Local Storage Persistence</b>: Saving user color preferences to the browser cache.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - Local Storage Persistence</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> localStorage.setItem() JSON strings</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Local Storage Persistence is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 14: Local Storage Persistence activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 14: Local Storage Persistence activated successfully!</code> to unlock the Session 14: Local Storage Persistence medal!",
-      "starter_code": "# Simulate Session 14: Local Storage Persistence activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 14 Medal",
+      "title": "Station 14: Session 14",
+      "desc": "Interactive Session 14 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 14</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 14 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 14 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 14 -->\n<script>\n  console.log('Session 14 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 14: Local Storage Persistence",
-          "code": "print(\"Session 14: Local Storage Persistence activated successfully!\")"
+          "label": "Activate Session 14",
+          "code": "console.log('Session 14 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 14: Local Storage Persistence activated successfully!",
+        "required_output_text": "Session 14 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 14: Local Storage Persistence Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 14: Local Storage Persistence'. Specifically, design a feature demonstrating: 'Local Storage Persistence' using the starter template below!",
-        "code": "# Home Challenge: Session 14: Local Storage Persistence Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 14: Local Storage Persistence Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 14",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 14'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 14 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 14 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 15,
-      "badge_icon": "🎯",
-      "badge_title": "Session 15: Asynchronous API Fetch Medal",
-      "title": "Station 15: Session 15: Asynchronous API Fetch",
-      "desc": "Dynamic Portal widget - Asynchronous API Fetch",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 15: Asynchronous API Fetch</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>Asynchronous API Fetch</b>: Loading live weather reports using fetch.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - Asynchronous API Fetch</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> async/await REST API decodes</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Asynchronous API Fetch is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 15: Asynchronous API Fetch activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 15: Asynchronous API Fetch activated successfully!</code> to unlock the Session 15: Asynchronous API Fetch medal!",
-      "starter_code": "# Simulate Session 15: Asynchronous API Fetch activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 15 Medal",
+      "title": "Station 15: Session 15",
+      "desc": "Interactive Session 15 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 15</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 15 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 15 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 15 -->\n<script>\n  console.log('Session 15 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 15: Asynchronous API Fetch",
-          "code": "print(\"Session 15: Asynchronous API Fetch activated successfully!\")"
+          "label": "Activate Session 15",
+          "code": "console.log('Session 15 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 15: Asynchronous API Fetch activated successfully!",
+        "required_output_text": "Session 15 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 15: Asynchronous API Fetch Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 15: Asynchronous API Fetch'. Specifically, design a feature demonstrating: 'Asynchronous API Fetch' using the starter template below!",
-        "code": "# Home Challenge: Session 15: Asynchronous API Fetch Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 15: Asynchronous API Fetch Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 15",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 15'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 15 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 15 -->\n<!-- Write your creative solution here! -->"
       }
     },
     {
       "id": 16,
-      "badge_icon": "🎯",
-      "badge_title": "Session 16: Capstone Single-Page App Medal",
-      "title": "Station 16: Session 16: Capstone Single-Page App",
-      "desc": "Dynamic Portal widget - Capstone Single-Page App",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 16: Capstone Single-Page App</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚀 <b>Capstone Single-Page App</b>: Assembling a complete web application with dynamic DOMs and Local Storage.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Link Bootstrap CDN</li><li>🎯 Write JS variables</li><li>🎯 Manipulate DOM structures</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>bootstrap_classes</code></li><li><code>javascript_logic</code></li><li><code>dom_events</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Dynamic Portal widget - Capstone Single-Page App</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Polished dynamic Portfolio app</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Capstone Single-Page App is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 16: Capstone Single-Page App activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 16: Capstone Single-Page App activated successfully!</code> to unlock the Session 16: Capstone Single-Page App medal!",
-      "starter_code": "# Simulate Session 16: Capstone Single-Page App activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 16 Medal",
+      "title": "Station 16: Session 16",
+      "desc": "Interactive Session 16 activities",
+      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 16</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
+      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
+      "hint": "Type in the editor: <code>console.log('Session 16 activated successfully!');</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>console.log('Session 16 activated successfully!');</code> to unlock the medal!",
+      "starter_code": "<!-- Activate Session 16 -->\n<script>\n  console.log('Session 16 activated successfully!');\n</script>",
       "pills": [
         {
-          "label": "Activate Session 16: Capstone Single-Page App",
-          "code": "print(\"Session 16: Capstone Single-Page App activated successfully!\")"
+          "label": "Activate Session 16",
+          "code": "console.log('Session 16 activated successfully!');"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 16: Capstone Single-Page App activated successfully!",
+        "required_output_text": "Session 16 activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 16: Capstone Single-Page App Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 16: Capstone Single-Page App'. Specifically, design a feature demonstrating: 'Capstone Single-Page App' using the starter template below!",
-        "code": "# Home Challenge: Session 16: Capstone Single-Page App Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 16: Capstone Single-Page App Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 16",
+        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 16'. Use the starter template below!",
+        "code": "<!-- Home Challenge: Session 16 -->\n<!-- Write your creative solution here! -->",
+        "starter_code": "<!-- Home Challenge: Session 16 -->\n<!-- Write your creative solution here! -->"
       }
     }
   ]

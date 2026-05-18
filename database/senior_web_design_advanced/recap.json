@@ -1,360 +1,229 @@
 {
-  "course": "Web Design Advanced",
-  "sessions": [
+  "course_id": "senior_web_design_advanced",
+  "recaps": [
     {
-      "session_title": "💡 Session 1: Advanced HTML5 Semantics",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - Advanced HTML5 Semantics",
-      "points": [
+      "id": 1,
+      "title": "Session 1 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "Advanced HTML5 Semantics",
-          "desc": "Structuring page contents for maximum SEO indexing and screen readers.",
-          "example": "<main> and <article> layout structures"
+          "heading": "?? Core Concept",
+          "text": "In Session 1, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 2: CSS Keyframe Loops",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - CSS Keyframe Loops",
-      "points": [
+      "id": 2,
+      "title": "Session 2 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "CSS Keyframe Loops",
-          "desc": "Creating smooth animations that rotate loader icons infinitely.",
-          "example": "@keyframes spin routines"
+          "heading": "?? Core Concept",
+          "text": "In Session 2, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 3: Responsive Media Rules",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - Responsive Media Rules",
-      "points": [
+      "id": 3,
+      "title": "Session 3 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "Responsive Media Rules",
-          "desc": "Hiding desktop panels on mobile screen sizes.",
-          "example": "@media (max-width: 768px) stylesheets"
+          "heading": "?? Core Concept",
+          "text": "In Session 3, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 4: Bootstrap Class Utilities",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - Bootstrap Class Utilities",
-      "points": [
+      "id": 4,
+      "title": "Session 4 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "Bootstrap Class Utilities",
-          "desc": "Importing CDNs and applying padding margins to elements.",
-          "example": "p-3 shadow-sm border-0 cards"
+          "heading": "?? Core Concept",
+          "text": "In Session 4, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 5: Bootstrap 12-Column Grids",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - Bootstrap 12-Column Grids",
-      "points": [
+      "id": 5,
+      "title": "Session 5 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "Bootstrap 12-Column Grids",
-          "desc": "Building responsive layouts that scale column sizes dynamically.",
-          "example": "col-12 col-md-4 spacing"
+          "heading": "?? Core Concept",
+          "text": "In Session 5, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 6: Bootstrap Components",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - Bootstrap Components",
-      "points": [
+      "id": 6,
+      "title": "Session 6 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "Bootstrap Components",
-          "desc": "Deploying responsive navigation headers and popup modals.",
-          "example": "data-bs-toggle='modal' triggers"
+          "heading": "?? Core Concept",
+          "text": "In Session 6, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 7: JavaScript core variables",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - JavaScript core variables",
-      "points": [
+      "id": 7,
+      "title": "Session 7 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "JavaScript core variables",
-          "desc": "Declaring let and const variables to manage local datasets.",
-          "example": "let age = 15; console.log() tests"
+          "heading": "?? Core Concept",
+          "text": "In Session 7, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 8: JS Conditional Branching",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - JS Conditional Branching",
-      "points": [
+      "id": 8,
+      "title": "Session 8 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "JS Conditional Branching",
-          "desc": "Directing program paths using if-else logic.",
-          "example": "if (score >= 50) statements"
+          "heading": "?? Core Concept",
+          "text": "In Session 8, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 9: JS Arrays & Objects",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - JS Arrays & Objects",
-      "points": [
+      "id": 9,
+      "title": "Session 9 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "JS Arrays & Objects",
-          "desc": "Structuring complex datasets as key-value pairs.",
-          "example": "const student = { name: 'Alice' }"
+          "heading": "?? Core Concept",
+          "text": "In Session 9, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 10: JS Array Iterators",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - JS Array Iterators",
-      "points": [
+      "id": 10,
+      "title": "Session 10 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "JS Array Iterators",
-          "desc": "Looping through item lists programmatically.",
-          "example": ".forEach() and .map() arrays"
+          "heading": "?? Core Concept",
+          "text": "In Session 10, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 11: JS Custom Functions",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - JS Custom Functions",
-      "points": [
+      "id": 11,
+      "title": "Session 11 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "JS Custom Functions",
-          "desc": "Creating reusable code blocks that process parameters and return outputs.",
-          "example": "const calcArea = (w, h) => w * h"
+          "heading": "?? Core Concept",
+          "text": "In Session 11, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 12: DOM query selectors",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - DOM query selectors",
-      "points": [
+      "id": 12,
+      "title": "Session 12 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "DOM query selectors",
-          "desc": "Updating page text and styles dynamically.",
-          "example": "document.querySelector() methods"
+          "heading": "?? Core Concept",
+          "text": "In Session 12, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 13: DOM click event listeners",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - DOM click event listeners",
-      "points": [
+      "id": 13,
+      "title": "Session 13 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "DOM click event listeners",
-          "desc": "Triggering actions when users click buttons.",
-          "example": "addEventListener('click') callbacks"
+          "heading": "?? Core Concept",
+          "text": "In Session 13, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 14: Local Storage Persistence",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - Local Storage Persistence",
-      "points": [
+      "id": 14,
+      "title": "Session 14 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "Local Storage Persistence",
-          "desc": "Saving user color preferences to the browser cache.",
-          "example": "localStorage.setItem() JSON strings"
+          "heading": "?? Core Concept",
+          "text": "In Session 14, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 15: Asynchronous API Fetch",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - Asynchronous API Fetch",
-      "points": [
+      "id": 15,
+      "title": "Session 15 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "Asynchronous API Fetch",
-          "desc": "Loading live weather reports using fetch.",
-          "example": "async/await REST API decodes"
+          "heading": "?? Core Concept",
+          "text": "In Session 15, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 16: Capstone Single-Page App",
-      "targets": [
-        "Link Bootstrap CDN",
-        "Write JS variables",
-        "Manipulate DOM structures"
-      ],
-      "blocks": [
-        "bootstrap_classes",
-        "javascript_logic",
-        "dom_events"
-      ],
-      "project": "Dynamic Portal widget - Capstone Single-Page App",
-      "points": [
+      "id": 16,
+      "title": "Session 16 Recap",
+      "sections": [
         {
-          "icon": "🚀",
-          "title": "Capstone Single-Page App",
-          "desc": "Assembling a complete web application with dynamic DOMs and Local Storage.",
-          "example": "Polished dynamic Portfolio app"
+          "heading": "?? Core Concept",
+          "text": "In Session 16, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     }
-  ],
-  "recap_title": "🎯 Quick & Visual Recap: Web Design Advanced",
-  "recap_subtitle": "Welcome, hero! This is a quick review supported by programming examples and illustrations for each session you learned in the course to help you remember the concepts with ease and fun and prepare for the super exam! 🚀🌟",
-  "course_title": "Web Design Advanced"
+  ]
 }

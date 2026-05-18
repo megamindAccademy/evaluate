@@ -1,126 +1,116 @@
 {
-  "quiz_name": "Quiz 4: Vectors math & Canvases UI",
+  "quiz_id": "unity_quiz_4",
+  "quiz_title": "Quiz 4: Sunny Land 2D Platformer Adventure",
   "questions": [
     {
-      "q": "Which Unity component defines the physical Vector3 operations in a 3D coordinate space?",
-      "opts": [
-        "Default Vector3 operations",
-        "Aesthetic CanvasLayer layouts",
-        "Standard TextMeshPro elements",
-        "Custom GameManager managers"
-      ],
-      "correct": 0,
-      "exp": "The physical Vector3 operations parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical CanvasLayer layouts in a 3D coordinate space?",
-      "opts": [
-        "Default Vector3 operations",
-        "Aesthetic CanvasLayer layouts",
-        "Standard TextMeshPro elements",
-        "Custom GameManager managers"
+      "id": 1,
+      "question": "Which component allows us to draw ground, grass, and brick layers directly onto a grid layout? / أي مكون في يونيتي 2D يتيح لنا رسم الأرضيات والعشب والمنصات مباشرة فوق المشهد؟",
+      "options": [
+        "Sprite Renderer / مظهر المجسمات",
+        "Tilemap / خارطة البلاطات",
+        "Rigidbody 2D / الجسيم الفيزيائي",
+        "Cinemachine virtual camera / الكاميرا الافتراضية"
       ],
       "correct": 1,
-      "exp": "The physical CanvasLayer layouts parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Correct! Tilemaps let you paint levels using blocks from your Tile Palette onto a grid canvas. / صحيح! خارطة البلاطات Tilemap هي الشبكة التي نرسم عليها تضاريس اللعبة!"
     },
     {
-      "q": "Which Unity component defines the physical TextMeshPro elements in a 3D coordinate space?",
-      "opts": [
-        "Default Vector3 operations",
-        "Aesthetic CanvasLayer layouts",
-        "Standard TextMeshPro elements",
-        "Custom GameManager managers"
-      ],
-      "correct": 2,
-      "exp": "The physical TextMeshPro elements parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical GameManager managers in a 3D coordinate space?",
-      "opts": [
-        "Default Vector3 operations",
-        "Aesthetic CanvasLayer layouts",
-        "Standard TextMeshPro elements",
-        "Custom GameManager managers"
-      ],
-      "correct": 3,
-      "exp": "The physical GameManager managers parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Vector3 operations in a 3D coordinate space?",
-      "opts": [
-        "Default Vector3 operations",
-        "Aesthetic CanvasLayer layouts",
-        "Standard TextMeshPro elements",
-        "Custom GameManager managers"
+      "id": 2,
+      "question": "Which Input method captures horizontal arrow keys or 'A/D' signals to move a player left/right? / ما هي الدالة البرمجية المستخدمة لرصد ضغط أزرار الاتجاهات الأفقية أو أزرار A/D لتحريك اللاعب؟",
+      "options": [
+        "Input.GetAxis(\"Horizontal\")",
+        "Input.GetKeyDown(KeyCode.Space)",
+        "Input.mousePosition",
+        "Input.touchCount"
       ],
       "correct": 0,
-      "exp": "The physical Vector3 operations parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Excellent! Input.GetAxis('Horizontal') returns a value from -1 to 1 depending on keys pressed. / رائع! دالة GetAxis('Horizontal') ترصد اتجاه حركتنا الأفقية بدقة!"
     },
     {
-      "q": "Which Unity component defines the physical CanvasLayer layouts in a 3D coordinate space?",
-      "opts": [
-        "Default Vector3 operations",
-        "Aesthetic CanvasLayer layouts",
-        "Standard TextMeshPro elements",
-        "Custom GameManager managers"
+      "id": 3,
+      "question": "Why do we add a BoxCollider2D or CapsuleCollider2D to our player character? / لماذا نضيف كبسولة اصطدام (CapsuleCollider2D) لشخصية اللاعب الثعلب؟",
+      "options": [
+        "To draw the player sprite / لرسم صورة اللاعب",
+        "To prevent the player from passing through floor platforms and detect boundaries / لمنع اللاعب من اختراق الأرضيات ولرصد الحدود والاصطدامات",
+        "To play footstep sound loops / لتشغيل أصوات المشي",
+        "To increase player jumping speed / لزيادة سرعة القفز"
       ],
       "correct": 1,
-      "exp": "The physical CanvasLayer layouts parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Perfect! Colliders define the physical boundary shields that stop objects from sinking into floors. / ممتاز! أجهزة الاصطدام هي الدروع غير المرئية التي تجعل اللاعب يقف بثبات على الأرض!"
     },
     {
-      "q": "Which Unity component defines the physical TextMeshPro elements in a 3D coordinate space?",
-      "opts": [
-        "Default Vector3 operations",
-        "Aesthetic CanvasLayer layouts",
-        "Standard TextMeshPro elements",
-        "Custom GameManager managers"
-      ],
-      "correct": 2,
-      "exp": "The physical TextMeshPro elements parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical GameManager managers in a 3D coordinate space?",
-      "opts": [
-        "Default Vector3 operations",
-        "Aesthetic CanvasLayer layouts",
-        "Standard TextMeshPro elements",
-        "Custom GameManager managers"
-      ],
-      "correct": 3,
-      "exp": "The physical GameManager managers parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Vector3 operations in a 3D coordinate space?",
-      "opts": [
-        "Default Vector3 operations",
-        "Aesthetic CanvasLayer layouts",
-        "Standard TextMeshPro elements",
-        "Custom GameManager managers"
-      ],
-      "correct": 0,
-      "exp": "The physical Vector3 operations parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical CanvasLayer layouts in a 3D coordinate space?",
-      "opts": [
-        "Default Vector3 operations",
-        "Aesthetic CanvasLayer layouts",
-        "Standard TextMeshPro elements",
-        "Custom GameManager managers"
+      "id": 4,
+      "question": "Which Rigidbody2D constraint should be turned ON to prevent our platformer player from tipping over and rolling? / أي خيار في جسيم Rigidbody 2D يجب تفعيله لمنع بطلنا الثعلب من الانقلاب والدوران على وجهه؟",
+      "options": [
+        "Freeze Position X / تثبيت الموقع الأفقي",
+        "Freeze Rotation Z / تثبيت الدوران Z",
+        "Use Gravity / تفعيل الجاذبية",
+        "Is Trigger / تحويله لمستشعر"
       ],
       "correct": 1,
-      "exp": "The physical CanvasLayer layouts parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Splendid! Freezing the Z rotation locks the player upright so they slide and jump perfectly stable. / مذهل! خيار Freeze Rotation Z يحافظ على توازن الثعلب واقفاً للأبد دون انقلاب!"
+    },
+    {
+      "id": 5,
+      "question": "What is Cinemachine Virtual Camera mostly used for in platformer games? / في ماذا نستخدم كاميرات Cinemachine الذكية في ألعاب المغامرات ثنائية الأبعاد؟",
+      "options": [
+        "To compile scripts / لترجمة الأكواد",
+        "To automatically follow the player smoothly / لملاحقة الكاميرا للاعب تلقائياً وبأقصى سلاسة وحركة جمالية",
+        "To record gameplay clips / لتسجيل مقاطع لعب تفاعلية",
+        "To change level dimensions / لتعديل أبعاد المستوى"
+      ],
+      "correct": 1,
+      "explanation": "Superb! Cinemachine virtual cameras follow target objects smoothly with beautiful damping controls. / عبقري! كاميرا Cinemachine تضمن بقاء بطلنا في منتصف الشاشة وتلاحقه بسلاسة فائقة!"
+    },
+    {
+      "id": 6,
+      "question": "How do we distinguish between touching the ground floor and touching a collectible jewel? / كيف نفرق في الكود بين اصطدام اللاعب بالأرض العادية وبين لمسه لمجوهرة سحرية لجمعها؟",
+      "options": [
+        "By looking at their colors / بالنظر لألوان المجسمات",
+        "By comparing their custom Unity Tags (like \"Gem\") / بمقارنة علامات التمييز السحرية الخاصة بها (Tags) مثل علامة Gem",
+        "By calculating camera positions / بحساب موقع الكاميرا",
+        "By running loops / بتشغيل حلقات تكرارية"
+      ],
+      "correct": 1,
+      "explanation": "Perfect! Tags let developers categorize GameObjects so scripts can execute specific logic. / ممتاز! العلامات (Tags) هي الطريقة السحرية لتصنيف الكائنات؛ فنقول: إذا لمسنا 'Gem' اجمعها!"
+    },
+    {
+      "id": 7,
+      "question": "What is the standard 'Collect & Destroy' code pattern when a player triggers a gem? / ما هو النمط البرمجي المتبع لجمع المجوهرة وإخفائها من الشاشة عند لمسها؟",
+      "options": [
+        "Subtract points and spawn new gem / نطرح نقاطاً ونولد مجوهرة جديدة",
+        "Add 1 to count, play audio, and call Destroy(gem) / نزيد عداد النقاط، نشغل الصوت، ونستدعي دالة تدمير المجوهرة",
+        "End the game immediately / ننهي اللعبة فوراً",
+        "Restart the current level / نعيد تشغيل المستوى الحالي"
+      ],
+      "correct": 1,
+      "explanation": "Bravo! Incrementing score and deleting the triggered asset gives a rewarding collect feedback. / رائع! زيادة العداد متبوعاً بحذف المجوهرة (Destroy) يعطي شعوراً حقيقياً بالجمع والتقاط الكنوز!"
+    },
+    {
+      "id": 8,
+      "question": "How do we program a 2D AI enemy frog to patrol back and forth between two platforms? / كيف نبرمج ضفدع العدو ليقوم بدوريات حراسة ويتحرك ذهاباً وإياباً؟",
+      "options": [
+        "By changing its gravity / بتغيير جاذبيته الأرضية",
+        "By switching its movement direction variable (Right/Left) once it hits boundaries / بعكس متغير اتجاه الحركة (يمين/يسار) بمجرد وصوله لنقطة الحدود",
+        "By locking its camera focus / بقفل تركيز كاميرا اللعب",
+        "By spawing repeating prefabs / بتوليد أنابيب جديدة"
+      ],
+      "correct": 1,
+      "explanation": "Outstanding! Toggling a boolean variable direction on boundary collisions keeps the AI patrolling smoothly. / ممتاز! عكس اتجاه الحركة عند الحدود يجعل الذكاء الاصطناعي يتحرك في حراسة مستمرة!"
+    },
+    {
+      "id": 9,
+      "type": "task",
+      "question": "Simple Coding Task: Write a tag comparison check in C# to see if 'other' GameObject has the tag 'Gem'. / مهمة برمجية: اكتب شرط التحقق if للتأكد أن كائن other لديه علامة التمييز 'Gem'!",
+      "task_hint": "Write: if (other.gameObject.CompareTag(\"Gem\"))",
+      "explanation": "Great! CompareTag() is highly optimized in Unity to compare object categories safely. / أحسنت! دالة CompareTag هي الأسرع والأفضل لمقارنة وتحديد أصناف كائنات يونيتي!"
+    },
+    {
+      "id": 10,
+      "type": "task",
+      "question": "Movement Task: Write a translation code block to move a sprite along the horizontal X-axis by speed and delta time. / مهمة برمجية: اكتب كود حركة أفقية في المحور X باستخدام سرعة speed وزمن deltaTime!",
+      "task_hint": "Write: transform.Translate(Vector3.right * speed * Time.deltaTime);",
+      "explanation": "Superb! Multipling movement translations by Time.deltaTime ensures frame-rate independence. / عبقري! ضرب الحركة بـ deltaTime يجعل بطلنا يتحرك بنفس السرعة على كل الحواسيب!"
     }
-  ],
-  "tasks": [
-    {
-      "title": "C# Player Translation script",
-      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
-    },
-    {
-      "title": "Trigger Collider Event handler",
-      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
-    }
-  ],
-  "quiz_title": "Unity Game Development - Challenge 4"
+  ]
 }

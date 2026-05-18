@@ -1,0 +1,681 @@
+{
+  "course_id": "senior_csharp",
+  "course_title": "C# Application Dev",
+  "course_subtitle": "Master C# Application Dev!",
+  "xp_total": 2400,
+  "mascot_img": "./assets/megaminds_mascot.png",
+  "stations": [
+    {
+      "id": 1,
+      "badge_icon": "??",
+      "badge_title": "Session 1 Medal",
+      "title": "Station 1: Session 1: Core Concepts",
+      "desc": "Interactive Session 1: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 1: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 1</div>",
+      "simple": "Imagine Session 1: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 1!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 1!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 1!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 1!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 1!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 1",
+        "desc": "Practice Session 1 at home!",
+        "code": "// Home Challenge: Session 1",
+        "starter_code": "// Home Challenge: Session 1"
+      }
+    },
+    {
+      "id": 2,
+      "badge_icon": "??",
+      "badge_title": "Session 2 Medal",
+      "title": "Station 2: Session 2: Core Concepts",
+      "desc": "Interactive Session 2: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 2: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 2</div>",
+      "simple": "Imagine Session 2: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 2!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 2!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 2!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 2!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 2!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 2",
+        "desc": "Practice Session 2 at home!",
+        "code": "// Home Challenge: Session 2",
+        "starter_code": "// Home Challenge: Session 2"
+      }
+    },
+    {
+      "id": 3,
+      "badge_icon": "??",
+      "badge_title": "Session 3 Medal",
+      "title": "Station 3: Session 3: Core Concepts",
+      "desc": "Interactive Session 3: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 3: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 3</div>",
+      "simple": "Imagine Session 3: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 3!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 3!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 3!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 3!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 3!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 3",
+        "desc": "Practice Session 3 at home!",
+        "code": "// Home Challenge: Session 3",
+        "starter_code": "// Home Challenge: Session 3"
+      }
+    },
+    {
+      "id": 4,
+      "badge_icon": "??",
+      "badge_title": "Session 4 Medal",
+      "title": "Station 4: Session 4: Core Concepts",
+      "desc": "Interactive Session 4: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 4: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 4</div>",
+      "simple": "Imagine Session 4: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 4!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 4!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 4!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 4!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 4!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 4",
+        "desc": "Practice Session 4 at home!",
+        "code": "// Home Challenge: Session 4",
+        "starter_code": "// Home Challenge: Session 4"
+      }
+    },
+    {
+      "id": 5,
+      "badge_icon": "??",
+      "badge_title": "Session 5 Medal",
+      "title": "Station 5: Session 5: Core Concepts",
+      "desc": "Interactive Session 5: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 5: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 5</div>",
+      "simple": "Imagine Session 5: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 5!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 5!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 5!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 5!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 5!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 5",
+        "desc": "Practice Session 5 at home!",
+        "code": "// Home Challenge: Session 5",
+        "starter_code": "// Home Challenge: Session 5"
+      }
+    },
+    {
+      "id": 6,
+      "badge_icon": "??",
+      "badge_title": "Session 6 Medal",
+      "title": "Station 6: Session 6: Core Concepts",
+      "desc": "Interactive Session 6: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 6: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 6</div>",
+      "simple": "Imagine Session 6: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 6!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 6!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 6!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 6!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 6!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 6",
+        "desc": "Practice Session 6 at home!",
+        "code": "// Home Challenge: Session 6",
+        "starter_code": "// Home Challenge: Session 6"
+      }
+    },
+    {
+      "id": 7,
+      "badge_icon": "??",
+      "badge_title": "Session 7 Medal",
+      "title": "Station 7: Session 7: Core Concepts",
+      "desc": "Interactive Session 7: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 7: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 7</div>",
+      "simple": "Imagine Session 7: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 7!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 7!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 7!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 7!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 7!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 7",
+        "desc": "Practice Session 7 at home!",
+        "code": "// Home Challenge: Session 7",
+        "starter_code": "// Home Challenge: Session 7"
+      }
+    },
+    {
+      "id": 8,
+      "badge_icon": "??",
+      "badge_title": "Session 8 Medal",
+      "title": "Station 8: Session 8: Core Concepts",
+      "desc": "Interactive Session 8: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 8: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 8</div>",
+      "simple": "Imagine Session 8: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 8!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 8!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 8!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 8!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 8!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 8",
+        "desc": "Practice Session 8 at home!",
+        "code": "// Home Challenge: Session 8",
+        "starter_code": "// Home Challenge: Session 8"
+      }
+    },
+    {
+      "id": 9,
+      "badge_icon": "??",
+      "badge_title": "Session 9 Medal",
+      "title": "Station 9: Session 9: Core Concepts",
+      "desc": "Interactive Session 9: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 9: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 9</div>",
+      "simple": "Imagine Session 9: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 9!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 9!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 9!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 9!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 9!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 9",
+        "desc": "Practice Session 9 at home!",
+        "code": "// Home Challenge: Session 9",
+        "starter_code": "// Home Challenge: Session 9"
+      }
+    },
+    {
+      "id": 10,
+      "badge_icon": "??",
+      "badge_title": "Session 10 Medal",
+      "title": "Station 10: Session 10: Core Concepts",
+      "desc": "Interactive Session 10: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 10: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 10</div>",
+      "simple": "Imagine Session 10: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 10!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 10!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 10!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 10!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 10!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 10",
+        "desc": "Practice Session 10 at home!",
+        "code": "// Home Challenge: Session 10",
+        "starter_code": "// Home Challenge: Session 10"
+      }
+    },
+    {
+      "id": 11,
+      "badge_icon": "??",
+      "badge_title": "Session 11 Medal",
+      "title": "Station 11: Session 11: Core Concepts",
+      "desc": "Interactive Session 11: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 11: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 11</div>",
+      "simple": "Imagine Session 11: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 11!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 11!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 11!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 11!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 11!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 11",
+        "desc": "Practice Session 11 at home!",
+        "code": "// Home Challenge: Session 11",
+        "starter_code": "// Home Challenge: Session 11"
+      }
+    },
+    {
+      "id": 12,
+      "badge_icon": "??",
+      "badge_title": "Session 12 Medal",
+      "title": "Station 12: Session 12: Core Concepts",
+      "desc": "Interactive Session 12: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 12: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 12</div>",
+      "simple": "Imagine Session 12: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 12!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 12!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 12!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 12!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 12!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 12",
+        "desc": "Practice Session 12 at home!",
+        "code": "// Home Challenge: Session 12",
+        "starter_code": "// Home Challenge: Session 12"
+      }
+    },
+    {
+      "id": 13,
+      "badge_icon": "??",
+      "badge_title": "Session 13 Medal",
+      "title": "Station 13: Session 13: Core Concepts",
+      "desc": "Interactive Session 13: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 13: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 13</div>",
+      "simple": "Imagine Session 13: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 13!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 13!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 13!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 13!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 13!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 13",
+        "desc": "Practice Session 13 at home!",
+        "code": "// Home Challenge: Session 13",
+        "starter_code": "// Home Challenge: Session 13"
+      }
+    },
+    {
+      "id": 14,
+      "badge_icon": "??",
+      "badge_title": "Session 14 Medal",
+      "title": "Station 14: Session 14: Core Concepts",
+      "desc": "Interactive Session 14: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 14: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 14</div>",
+      "simple": "Imagine Session 14: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 14!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 14!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 14!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 14!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 14!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 14",
+        "desc": "Practice Session 14 at home!",
+        "code": "// Home Challenge: Session 14",
+        "starter_code": "// Home Challenge: Session 14"
+      }
+    },
+    {
+      "id": 15,
+      "badge_icon": "??",
+      "badge_title": "Session 15 Medal",
+      "title": "Station 15: Session 15: Core Concepts",
+      "desc": "Interactive Session 15: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 15: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 15</div>",
+      "simple": "Imagine Session 15: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 15!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 15!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 15!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 15!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 15!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 15",
+        "desc": "Practice Session 15 at home!",
+        "code": "// Home Challenge: Session 15",
+        "starter_code": "// Home Challenge: Session 15"
+      }
+    },
+    {
+      "id": 16,
+      "badge_icon": "??",
+      "badge_title": "Session 16 Medal",
+      "title": "Station 16: Session 16: Core Concepts",
+      "desc": "Interactive Session 16: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 16: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 16</div>",
+      "simple": "Imagine Session 16: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 16!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 16!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 16!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 16!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 16!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 16",
+        "desc": "Practice Session 16 at home!",
+        "code": "// Home Challenge: Session 16",
+        "starter_code": "// Home Challenge: Session 16"
+      }
+    },
+    {
+      "id": 17,
+      "badge_icon": "??",
+      "badge_title": "Session 17 Medal",
+      "title": "Station 17: Session 17: Core Concepts",
+      "desc": "Interactive Session 17: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 17: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 17</div>",
+      "simple": "Imagine Session 17: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 17!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 17!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 17!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 17!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 17!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 17",
+        "desc": "Practice Session 17 at home!",
+        "code": "// Home Challenge: Session 17",
+        "starter_code": "// Home Challenge: Session 17"
+      }
+    },
+    {
+      "id": 18,
+      "badge_icon": "??",
+      "badge_title": "Session 18 Medal",
+      "title": "Station 18: Session 18: Core Concepts",
+      "desc": "Interactive Session 18: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 18: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 18</div>",
+      "simple": "Imagine Session 18: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 18!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 18!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 18!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 18!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 18!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 18",
+        "desc": "Practice Session 18 at home!",
+        "code": "// Home Challenge: Session 18",
+        "starter_code": "// Home Challenge: Session 18"
+      }
+    },
+    {
+      "id": 19,
+      "badge_icon": "??",
+      "badge_title": "Session 19 Medal",
+      "title": "Station 19: Session 19: Core Concepts",
+      "desc": "Interactive Session 19: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 19: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 19</div>",
+      "simple": "Imagine Session 19: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 19!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 19!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 19!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 19!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 19!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 19",
+        "desc": "Practice Session 19 at home!",
+        "code": "// Home Challenge: Session 19",
+        "starter_code": "// Home Challenge: Session 19"
+      }
+    },
+    {
+      "id": 20,
+      "badge_icon": "??",
+      "badge_title": "Session 20 Medal",
+      "title": "Station 20: Session 20: Core Concepts",
+      "desc": "Interactive Session 20: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 20: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 20</div>",
+      "simple": "Imagine Session 20: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 20!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 20!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 20!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 20!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 20!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 20",
+        "desc": "Practice Session 20 at home!",
+        "code": "// Home Challenge: Session 20",
+        "starter_code": "// Home Challenge: Session 20"
+      }
+    },
+    {
+      "id": 21,
+      "badge_icon": "??",
+      "badge_title": "Session 21 Medal",
+      "title": "Station 21: Session 21: Core Concepts",
+      "desc": "Interactive Session 21: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 21: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 21</div>",
+      "simple": "Imagine Session 21: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 21!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 21!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 21!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 21!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 21!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 21",
+        "desc": "Practice Session 21 at home!",
+        "code": "// Home Challenge: Session 21",
+        "starter_code": "// Home Challenge: Session 21"
+      }
+    },
+    {
+      "id": 22,
+      "badge_icon": "??",
+      "badge_title": "Session 22 Medal",
+      "title": "Station 22: Session 22: Core Concepts",
+      "desc": "Interactive Session 22: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 22: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 22</div>",
+      "simple": "Imagine Session 22: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 22!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 22!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 22!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 22!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 22!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 22",
+        "desc": "Practice Session 22 at home!",
+        "code": "// Home Challenge: Session 22",
+        "starter_code": "// Home Challenge: Session 22"
+      }
+    },
+    {
+      "id": 23,
+      "badge_icon": "??",
+      "badge_title": "Session 23 Medal",
+      "title": "Station 23: Session 23: Core Concepts",
+      "desc": "Interactive Session 23: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 23: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 23</div>",
+      "simple": "Imagine Session 23: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 23!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 23!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 23!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 23!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 23!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 23",
+        "desc": "Practice Session 23 at home!",
+        "code": "// Home Challenge: Session 23",
+        "starter_code": "// Home Challenge: Session 23"
+      }
+    },
+    {
+      "id": 24,
+      "badge_icon": "??",
+      "badge_title": "Session 24 Medal",
+      "title": "Station 24: Session 24: Core Concepts",
+      "desc": "Interactive Session 24: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 24: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 24</div>",
+      "simple": "Imagine Session 24: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>Console.WriteLine(\"Activated Session 24!\");</code>",
+      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 24!\");</code>",
+      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 24!\");\n    }\n}",
+      "pills": [
+        {
+          "label": "Activate",
+          "code": "Console.WriteLine(\"Activated Session 24!\");"
+        }
+      ],
+      "validation_rules": {
+        "required_output_text": "Activated Session 24!",
+        "required_canvas": false
+      },
+      "homework": {
+        "title": "?? Magic Home Challenge: Session 24",
+        "desc": "Practice Session 24 at home!",
+        "code": "// Home Challenge: Session 24",
+        "starter_code": "// Home Challenge: Session 24"
+      }
+    }
+  ]
+}

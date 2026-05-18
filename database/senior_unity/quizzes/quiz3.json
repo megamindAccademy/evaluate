@@ -1,126 +1,116 @@
 {
-  "quiz_name": "Quiz 3: Prefabs & dynamic Spawning",
+  "quiz_id": "unity_quiz_3",
+  "quiz_title": "Quiz 3: C# Programming Fundamentals",
   "questions": [
     {
-      "q": "Which Unity component defines the physical Prefabs templates in a 3D coordinate space?",
-      "opts": [
-        "Default Prefabs templates",
-        "Aesthetic Instantiate() method",
-        "Standard Trigger overlaps",
-        "Custom Collider bounds"
-      ],
-      "correct": 0,
-      "exp": "The physical Prefabs templates parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Instantiate() method in a 3D coordinate space?",
-      "opts": [
-        "Default Prefabs templates",
-        "Aesthetic Instantiate() method",
-        "Standard Trigger overlaps",
-        "Custom Collider bounds"
+      "id": 1,
+      "question": "What character must be placed at the end of almost every statement in C#? / ما هي العلامة السحرية التي يجب وضعها في نهاية كل جملة برمجية في لغة C#؟",
+      "options": [
+        "Colon (:) / النقطتان",
+        "Semicolon (;) / الفصلة المنقوطة",
+        "Period (.) / النقطة",
+        "Hashtag (#) / علامة الهاشتاج"
       ],
       "correct": 1,
-      "exp": "The physical Instantiate() method parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Correct! C# statement lines must always end with a semicolon (;) to compile properly. / صحيح! لغة C# تشترط إنهاء الجمل البرمجية بالفصلة المنقوطة لكي يفهمها الحاسوب!"
     },
     {
-      "q": "Which Unity component defines the physical Trigger overlaps in a 3D coordinate space?",
-      "opts": [
-        "Default Prefabs templates",
-        "Aesthetic Instantiate() method",
-        "Standard Trigger overlaps",
-        "Custom Collider bounds"
+      "id": 2,
+      "question": "Which C# standard method reads user keystrokes from the terminal window? / أي دالة في C# تستخدم لاستقبال وقراءة الكلمات التي يكتبها المستخدم في شاشة المخرجات؟",
+      "options": [
+        "Console.WriteLine()",
+        "Console.ReadLine()",
+        "Console.Clear()",
+        "Console.Play()"
       ],
-      "correct": 2,
-      "exp": "The physical Trigger overlaps parameter manages layout alignments in 3D Unity worlds."
+      "correct": 1,
+      "explanation": "Excellent! Console.ReadLine() pauses execution and listens to keyboard inputs typed by the user. / رائع! دالة Console.ReadLine تنتظر وتستمع لمدخلات المستخدم النصية بدقة!"
     },
     {
-      "q": "Which Unity component defines the physical Collider bounds in a 3D coordinate space?",
-      "opts": [
-        "Default Prefabs templates",
-        "Aesthetic Instantiate() method",
-        "Standard Trigger overlaps",
-        "Custom Collider bounds"
+      "id": 3,
+      "question": "Which C# data type is specifically designed to store true or false logic values? / ما هو نوع البيانات في C# المصمم خصيصاً لتخزين قيم الصواب والخطأ المنطقية؟",
+      "options": [
+        "int / الأعداد الصحيحة",
+        "float / الأعداد العشرية",
+        "string / النصوص",
+        "bool / القيم المنطقية"
       ],
       "correct": 3,
-      "exp": "The physical Collider bounds parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Perfect! A boolean (bool) type variable can only hold 'true' or 'false' logic values. / ممتاز! المتغير من نوع bool (بولين) لا يقبل سوى قيمتين فقط: true (صح) أو false (خطأ)!"
     },
     {
-      "q": "Which Unity component defines the physical Prefabs templates in a 3D coordinate space?",
-      "opts": [
-        "Default Prefabs templates",
-        "Aesthetic Instantiate() method",
-        "Standard Trigger overlaps",
-        "Custom Collider bounds"
+      "id": 4,
+      "question": "What is the result of (10 > 5) && (3 == 3) in programming logic? / ما هي نتيجة العملية المنطقية التالية: (10 أكبر من 5) و (3 تساوي 3)؟",
+      "options": [
+        "true",
+        "false",
+        "error / خطأ برمي",
+        "0"
       ],
       "correct": 0,
-      "exp": "The physical Prefabs templates parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Splendid! Both conditions are true, and the AND operator (&&) returns true only if both sides are true! / مذهل! كلا الشرطين صحيحان، والعامل && يعطي true لأن كلا الطرفين محققان!"
     },
     {
-      "q": "Which Unity component defines the physical Instantiate() method in a 3D coordinate space?",
-      "opts": [
-        "Default Prefabs templates",
-        "Aesthetic Instantiate() method",
-        "Standard Trigger overlaps",
-        "Custom Collider bounds"
+      "id": 5,
+      "question": "Which statement is used to execute a block of code only if a specific condition is met? / ما هي الأداة البرمجية المستخدمة لتشغيل أكواد معينة فقط في حال تحقق شرط محدد؟",
+      "options": [
+        "for loop",
+        "if statement",
+        "while loop",
+        "class blueprint"
       ],
       "correct": 1,
-      "exp": "The physical Instantiate() method parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Superb! If statements check conditions and divert logic flow dynamically. / عبقري! جملة if الشرطية تسمح للحاسوب باتخاذ القرارات الذكية بناءً على الشروط!"
     },
     {
-      "q": "Which Unity component defines the physical Trigger overlaps in a 3D coordinate space?",
-      "opts": [
-        "Default Prefabs templates",
-        "Aesthetic Instantiate() method",
-        "Standard Trigger overlaps",
-        "Custom Collider bounds"
+      "id": 6,
+      "question": "Which loop structure is best suited when you know the exact number of repetitions beforehand? / أي حلقة تكرار هي الأنسب عندما نكون على علم مسبق بالعدد الدقيق لمرات التكرار؟",
+      "options": [
+        "while loop / حلقة وايل",
+        "for loop / حلقة فور",
+        "if block / جملة إف",
+        "class template / قالب الفئة"
       ],
-      "correct": 2,
-      "exp": "The physical Trigger overlaps parameter manages layout alignments in 3D Unity worlds."
+      "correct": 1,
+      "explanation": "Perfect! A for loop includes initializer, condition, and incrementor in one clean line, best for set ranges. / ممتاز! حلقة for هي الأروع لتكرار الأوامر بعدد محدد ومعلوم مسبقاً!"
     },
     {
-      "q": "Which Unity component defines the physical Collider bounds in a 3D coordinate space?",
-      "opts": [
-        "Default Prefabs templates",
-        "Aesthetic Instantiate() method",
-        "Standard Trigger overlaps",
-        "Custom Collider bounds"
-      ],
-      "correct": 3,
-      "exp": "The physical Collider bounds parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Prefabs templates in a 3D coordinate space?",
-      "opts": [
-        "Default Prefabs templates",
-        "Aesthetic Instantiate() method",
-        "Standard Trigger overlaps",
-        "Custom Collider bounds"
+      "id": 7,
+      "question": "What is the difference between a Class and an Object in OOP? / ما هو الفرق الأساسي بين الفئة البرمجية (Class) والكائن (Object) في البرمجة؟",
+      "options": [
+        "Class is the blueprint; Object is the real instance built from that blueprint / الفئة هي المخطط الهندسي، والكائن هو المجسم الحقيقي الذي بنيناه من هذا المخطط",
+        "Class is a sound file; Object is a picture / الفئة هي ملف صوتي والكائن هو صورة",
+        "Object is the code; Class is the user / الكائن هو الكود والفئة هي المستخدم",
+        "There is no difference / لا يوجد أي فرق بينهما"
       ],
       "correct": 0,
-      "exp": "The physical Prefabs templates parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Bravo! A Class defines the variables and methods; Objects are individual instances rolling off that blueprint. / رائع! الفئة هي الرسم التخطيطي للسيارات، والكائنات هي السيارات الملموسة في الشارع!"
     },
     {
-      "q": "Which Unity component defines the physical Instantiate() method in a 3D coordinate space?",
-      "opts": [
-        "Default Prefabs templates",
-        "Aesthetic Instantiate() method",
-        "Standard Trigger overlaps",
-        "Custom Collider bounds"
+      "id": 8,
+      "question": "Which keyword makes variables or methods accessible by other scripts outside their own Class? / ما هي الكلمة المفتاحية التي تجعل المتغيرات والدوال قابلة للقراءة والاستدعاء من خارج فئتها البرمجية؟",
+      "options": [
+        "private",
+        "public",
+        "static",
+        "void"
       ],
       "correct": 1,
-      "exp": "The physical Instantiate() method parameter manages layout alignments in 3D Unity worlds."
-    }
-  ],
-  "tasks": [
-    {
-      "title": "C# Player Translation script",
-      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
+      "explanation": "Outstanding! Declaring properties public exposes them to other Unity components and scripts. / ممتاز! كلمة public هي جواز السفر الذي يتيح تبادل البيانات واستدعاء الدوال بين السكربتات!"
     },
     {
-      "title": "Trigger Collider Event handler",
-      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
+      "id": 9,
+      "type": "task",
+      "question": "Simple Coding Task: Write a C# variable declaration for an integer named 'gems' assigned with the value 5. / مهمة برمجية: اكتب إعلان متغير من نوع رقم صحيح (int) باسم 'gems' ويحمل قيمة 5!",
+      "task_hint": "Write: int gems = 5;",
+      "explanation": "Awesome work! In C# we strongly type variables by writing the type (int) followed by name and assignment! / أحسنت! في C# يجب تحديد نوع المتغير أولاً مثل int ثم الاسم والقيمة!"
+    },
+    {
+      "id": 10,
+      "type": "task",
+      "question": "OOP Method Task: Design a void method named 'Jump' in C# that takes no arguments. / مهمة برمجية: اكتب هيكل دالة فارغة (void) باسم 'Jump' لا تأخذ أي معطيات!",
+      "task_hint": "Write: void Jump() { }",
+      "explanation": "Spot on! Void methods execute actions without returning any output data values. / رائع! الدوال من نوع void تقوم بتنفيذ الأوامر والحركات دون الحاجة لإرجاع قيمة حسابية!"
     }
-  ],
-  "quiz_title": "Unity Game Development - Challenge 3"
+  ]
 }

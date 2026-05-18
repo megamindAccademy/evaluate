@@ -1,7 +1,7 @@
 {
-  "course_id": "senior_flutter",
-  "course_title": "Flutter Mobile Development",
-  "course_subtitle": "Master Flutter Mobile Development!",
+  "course_id": "senior_react_native",
+  "course_title": "React Native Mobile Dev",
+  "course_subtitle": "Master React Native Mobile Dev!",
   "xp_total": 1200,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
@@ -11,15 +11,15 @@
       "badge_title": "Session 1 Medal",
       "title": "Station 1: Session 1: Core Concepts",
       "desc": "Interactive Session 1: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 1: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 1</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 1: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 1</div>",
       "simple": "Imagine Session 1: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 1!');</code>",
-      "challenge": "Print: <code>print('Activated Session 1!');</code>",
-      "starter_code": "// Activate Session 1\nvoid main() {\n  print('Activated Session 1!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 1!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 1!');</code>",
+      "starter_code": "// Activate Session 1\nconsole.log('Activated Session 1!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 1!');"
+          "code": "console.log('Activated Session 1!');"
         }
       ],
       "validation_rules": {
@@ -39,15 +39,15 @@
       "badge_title": "Session 2 Medal",
       "title": "Station 2: Session 2: Core Concepts",
       "desc": "Interactive Session 2: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 2: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 2</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 2: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 2</div>",
       "simple": "Imagine Session 2: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 2!');</code>",
-      "challenge": "Print: <code>print('Activated Session 2!');</code>",
-      "starter_code": "// Activate Session 2\nvoid main() {\n  print('Activated Session 2!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 2!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 2!');</code>",
+      "starter_code": "// Activate Session 2\nconsole.log('Activated Session 2!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 2!');"
+          "code": "console.log('Activated Session 2!');"
         }
       ],
       "validation_rules": {
@@ -67,15 +67,15 @@
       "badge_title": "Session 3 Medal",
       "title": "Station 3: Session 3: Core Concepts",
       "desc": "Interactive Session 3: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 3: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 3</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 3: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 3</div>",
       "simple": "Imagine Session 3: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 3!');</code>",
-      "challenge": "Print: <code>print('Activated Session 3!');</code>",
-      "starter_code": "// Activate Session 3\nvoid main() {\n  print('Activated Session 3!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 3!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 3!');</code>",
+      "starter_code": "// Activate Session 3\nconsole.log('Activated Session 3!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 3!');"
+          "code": "console.log('Activated Session 3!');"
         }
       ],
       "validation_rules": {
@@ -95,15 +95,15 @@
       "badge_title": "Session 4 Medal",
       "title": "Station 4: Session 4: Core Concepts",
       "desc": "Interactive Session 4: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 4: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 4</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 4: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 4</div>",
       "simple": "Imagine Session 4: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 4!');</code>",
-      "challenge": "Print: <code>print('Activated Session 4!');</code>",
-      "starter_code": "// Activate Session 4\nvoid main() {\n  print('Activated Session 4!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 4!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 4!');</code>",
+      "starter_code": "// Activate Session 4\nconsole.log('Activated Session 4!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 4!');"
+          "code": "console.log('Activated Session 4!');"
         }
       ],
       "validation_rules": {
@@ -123,15 +123,15 @@
       "badge_title": "Session 5 Medal",
       "title": "Station 5: Session 5: Core Concepts",
       "desc": "Interactive Session 5: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 5: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 5</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 5: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 5</div>",
       "simple": "Imagine Session 5: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 5!');</code>",
-      "challenge": "Print: <code>print('Activated Session 5!');</code>",
-      "starter_code": "// Activate Session 5\nvoid main() {\n  print('Activated Session 5!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 5!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 5!');</code>",
+      "starter_code": "// Activate Session 5\nconsole.log('Activated Session 5!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 5!');"
+          "code": "console.log('Activated Session 5!');"
         }
       ],
       "validation_rules": {
@@ -151,15 +151,15 @@
       "badge_title": "Session 6 Medal",
       "title": "Station 6: Session 6: Core Concepts",
       "desc": "Interactive Session 6: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 6: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 6</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 6: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 6</div>",
       "simple": "Imagine Session 6: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 6!');</code>",
-      "challenge": "Print: <code>print('Activated Session 6!');</code>",
-      "starter_code": "// Activate Session 6\nvoid main() {\n  print('Activated Session 6!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 6!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 6!');</code>",
+      "starter_code": "// Activate Session 6\nconsole.log('Activated Session 6!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 6!');"
+          "code": "console.log('Activated Session 6!');"
         }
       ],
       "validation_rules": {
@@ -179,15 +179,15 @@
       "badge_title": "Session 7 Medal",
       "title": "Station 7: Session 7: Core Concepts",
       "desc": "Interactive Session 7: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 7: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 7</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 7: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 7</div>",
       "simple": "Imagine Session 7: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 7!');</code>",
-      "challenge": "Print: <code>print('Activated Session 7!');</code>",
-      "starter_code": "// Activate Session 7\nvoid main() {\n  print('Activated Session 7!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 7!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 7!');</code>",
+      "starter_code": "// Activate Session 7\nconsole.log('Activated Session 7!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 7!');"
+          "code": "console.log('Activated Session 7!');"
         }
       ],
       "validation_rules": {
@@ -207,15 +207,15 @@
       "badge_title": "Session 8 Medal",
       "title": "Station 8: Session 8: Core Concepts",
       "desc": "Interactive Session 8: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 8: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 8</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 8: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 8</div>",
       "simple": "Imagine Session 8: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 8!');</code>",
-      "challenge": "Print: <code>print('Activated Session 8!');</code>",
-      "starter_code": "// Activate Session 8\nvoid main() {\n  print('Activated Session 8!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 8!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 8!');</code>",
+      "starter_code": "// Activate Session 8\nconsole.log('Activated Session 8!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 8!');"
+          "code": "console.log('Activated Session 8!');"
         }
       ],
       "validation_rules": {
@@ -235,15 +235,15 @@
       "badge_title": "Session 9 Medal",
       "title": "Station 9: Session 9: Core Concepts",
       "desc": "Interactive Session 9: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 9: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 9</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 9: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 9</div>",
       "simple": "Imagine Session 9: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 9!');</code>",
-      "challenge": "Print: <code>print('Activated Session 9!');</code>",
-      "starter_code": "// Activate Session 9\nvoid main() {\n  print('Activated Session 9!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 9!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 9!');</code>",
+      "starter_code": "// Activate Session 9\nconsole.log('Activated Session 9!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 9!');"
+          "code": "console.log('Activated Session 9!');"
         }
       ],
       "validation_rules": {
@@ -263,15 +263,15 @@
       "badge_title": "Session 10 Medal",
       "title": "Station 10: Session 10: Core Concepts",
       "desc": "Interactive Session 10: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 10: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 10</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 10: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 10</div>",
       "simple": "Imagine Session 10: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 10!');</code>",
-      "challenge": "Print: <code>print('Activated Session 10!');</code>",
-      "starter_code": "// Activate Session 10\nvoid main() {\n  print('Activated Session 10!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 10!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 10!');</code>",
+      "starter_code": "// Activate Session 10\nconsole.log('Activated Session 10!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 10!');"
+          "code": "console.log('Activated Session 10!');"
         }
       ],
       "validation_rules": {
@@ -291,15 +291,15 @@
       "badge_title": "Session 11 Medal",
       "title": "Station 11: Session 11: Core Concepts",
       "desc": "Interactive Session 11: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 11: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 11</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 11: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 11</div>",
       "simple": "Imagine Session 11: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 11!');</code>",
-      "challenge": "Print: <code>print('Activated Session 11!');</code>",
-      "starter_code": "// Activate Session 11\nvoid main() {\n  print('Activated Session 11!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 11!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 11!');</code>",
+      "starter_code": "// Activate Session 11\nconsole.log('Activated Session 11!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 11!');"
+          "code": "console.log('Activated Session 11!');"
         }
       ],
       "validation_rules": {
@@ -319,15 +319,15 @@
       "badge_title": "Session 12 Medal",
       "title": "Station 12: Session 12: Core Concepts",
       "desc": "Interactive Session 12: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 12: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 12</div>",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 12: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 12</div>",
       "simple": "Imagine Session 12: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 12!');</code>",
-      "challenge": "Print: <code>print('Activated Session 12!');</code>",
-      "starter_code": "// Activate Session 12\nvoid main() {\n  print('Activated Session 12!');\n}",
+      "hint": "Type: <code>console.log('Activated Session 12!');</code>",
+      "challenge": "Print: <code>console.log('Activated Session 12!');</code>",
+      "starter_code": "// Activate Session 12\nconsole.log('Activated Session 12!');",
       "pills": [
         {
           "label": "Activate",
-          "code": "print('Activated Session 12!');"
+          "code": "console.log('Activated Session 12!');"
         }
       ],
       "validation_rules": {

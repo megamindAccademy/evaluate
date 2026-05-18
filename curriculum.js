@@ -763,6 +763,20 @@ document.addEventListener('DOMContentLoaded', () => {
         applyAutoDirection('coachLessonText');
         applyAutoDirection('challengeDescText');
 
+        // Dynamically update the editor brand based on course
+        const editorBrand = document.querySelector('.editor-brand');
+        if (editorBrand && currentCourseData && currentCourseData.course_title) {
+            let icon = "💻";
+            let name = currentCourseData.course_title;
+            const lowerName = name.toLowerCase();
+            if (lowerName.includes("python") || lowerName.includes("ai")) { icon = "🐍"; name = "Python Studio"; }
+            else if (lowerName.includes("web") || lowerName.includes("html")) { icon = "🌐"; name = "Web Studio"; }
+            else if (lowerName.includes("unity") || lowerName.includes("c#")) { icon = "🕹️"; name = "C# / Unity Studio"; }
+            else if (lowerName.includes("app") || lowerName.includes("mobile")) { icon = "📱"; name = "Mobile Studio"; }
+            else if (lowerName.includes("godot")) { icon = "👾"; name = "Godot Studio"; }
+            editorBrand.textContent = `${icon} محرر الأكواد الذكي (${name})`;
+        }
+
         // Reset and set active tab to Story & Challenge
         document.querySelectorAll('.studio-tab-btn').forEach(b => {
             if (b.getAttribute('data-tab') === 'tab-story') b.classList.add('active');
@@ -785,7 +799,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const codeBox = document.getElementById('studioHomeworkCodeBox');
             if (codeBox) {
-                const hwCode = homework.code || homework.starter_code || '';
+                const hwCode = (homework.code || homework.starter_code || '').toString();
                 codeBox.innerHTML = `
                     <div style="position:relative; margin-top:10px;">
                         <pre style="background:#023047; color:#06d6a0; padding:15px; border-radius:10px; font-family:monospace; direction:ltr; text-align:left; overflow-x:auto; font-size:1.1rem; line-height:1.5;"><code>${hwCode.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</code></pre>

@@ -1,126 +1,116 @@
 {
-  "quiz_name": "Quiz 6: Game Sound & Standing Standalones",
+  "quiz_id": "unity_quiz_6",
+  "quiz_title": "Quiz 6: RPG 3D Combat, Audio & Publishing",
   "questions": [
     {
-      "q": "Which Unity component defines the physical AudioSource play in a 3D coordinate space?",
-      "opts": [
-        "Default AudioSource play",
-        "Aesthetic Particle systems VFX",
-        "Standard Standalone PC Builds",
-        "Custom Project exporters"
+      "id": 1,
+      "question": "What is the key difference between the 'Awake' and 'Start' event lifecycle methods in Unity? / ما هو الفرق الزمني والمفهومي الجوهري بين دالتي Awake و Start في دورة حياة كائنات يونيتي؟",
+      "options": [
+        "Awake is called once during loading, even if the script component is disabled, while Start is called right before the first frame update / دالة Awake تفعل فوراً أثناء التحميل حتى وإن كان السكربت معطلاً، بينما Start تفعل مباشرة قبل أول إطار حركة",
+        "Start is faster than Awake / دالة Start أسرع وأسبق من Awake",
+        "Awake is only for audio files / دالة Awake مخصصة للمؤثرات الصوتية فقط",
+        "There is no difference / لا يوجد أي فرق بينهما"
       ],
       "correct": 0,
-      "exp": "The physical AudioSource play parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Correct! Awake is ideal for initializing references, while Start handles game setup actions once the script is active. / صحيح! دالة Awake هي الأسبق وتستخدم لتجهيز التروس والربط، وتليها دالة Start لبدء الأفعال!"
     },
     {
-      "q": "Which Unity component defines the physical Particle systems VFX in a 3D coordinate space?",
-      "opts": [
-        "Default AudioSource play",
-        "Aesthetic Particle systems VFX",
-        "Standard Standalone PC Builds",
-        "Custom Project exporters"
+      "id": 2,
+      "question": "What is a 'static' variable in C# programming? / ما هو المتغير الساكن أو المشترك (static variable) في لغة C#؟",
+      "options": [
+        "A variable that changes color / متغير يقوم بتغيير ألوان اللعبة",
+        "A shared variable that belongs to the Class itself, meaning all object instances share the exact same value / متغير مشترك ينتمي للفئة نفسها، مما يعني أن جميع الكائنات تشترك وتتحكم في نفس القيمة الموحدة",
+        "A variable that cannot be read / متغير سري لا يمكن قراءته",
+        "A physics collider / درع اصطدام فيزيائي"
       ],
       "correct": 1,
-      "exp": "The physical Particle systems VFX parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Excellent! Static fields are class-level, making them great for global settings like HighScores or shared damages. / رائع! المتغيرات المشتركة static تسهل الوصول للقيم العامة من أي مكان مثل نقاط النصر أو قوة الضربات!"
     },
     {
-      "q": "Which Unity component defines the physical Standalone PC Builds in a 3D coordinate space?",
-      "opts": [
-        "Default AudioSource play",
-        "Aesthetic Particle systems VFX",
-        "Standard Standalone PC Builds",
-        "Custom Project exporters"
-      ],
-      "correct": 2,
-      "exp": "The physical Standalone PC Builds parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Project exporters in a 3D coordinate space?",
-      "opts": [
-        "Default AudioSource play",
-        "Aesthetic Particle systems VFX",
-        "Standard Standalone PC Builds",
-        "Custom Project exporters"
-      ],
-      "correct": 3,
-      "exp": "The physical Project exporters parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical AudioSource play in a 3D coordinate space?",
-      "opts": [
-        "Default AudioSource play",
-        "Aesthetic Particle systems VFX",
-        "Standard Standalone PC Builds",
-        "Custom Project exporters"
+      "id": 3,
+      "question": "How do we code hit registers so our hero's sword inflicts damage on enemies? / كيف نقوم ببرمجة ضربات السيف لرصد إصابة الأعداء وإنقاص صحتهم؟",
+      "options": [
+        "By using Trigger Colliders on the sword and calling the enemy's TakeDamage() method on collision / بوضع مناطق تصادم (Trigger) على السيف واستدعاء دالة TakeDamage للعدو عند لمسه",
+        "By restarting the game / بإعادة تشغيل اللعبة بأكملها",
+        "By changing materials dynamically / بتعديل ألوان الماتريال",
+        "By deleting audio sources / بحذف مكبرات الصوت"
       ],
       "correct": 0,
-      "exp": "The physical AudioSource play parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Perfect! When the sword collider triggers the enemy tag, invoking their custom health method depletes their HP. / ممتاز! عندما يلمس درع السيف العدو، نستدعي دالة الخصم TakeDamage لإنقاص عداد صحته بصورة تفاعلية!"
     },
     {
-      "q": "Which Unity component defines the physical Particle systems VFX in a 3D coordinate space?",
-      "opts": [
-        "Default AudioSource play",
-        "Aesthetic Particle systems VFX",
-        "Standard Standalone PC Builds",
-        "Custom Project exporters"
-      ],
-      "correct": 1,
-      "exp": "The physical Particle systems VFX parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Standalone PC Builds in a 3D coordinate space?",
-      "opts": [
-        "Default AudioSource play",
-        "Aesthetic Particle systems VFX",
-        "Standard Standalone PC Builds",
-        "Custom Project exporters"
-      ],
-      "correct": 2,
-      "exp": "The physical Standalone PC Builds parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Project exporters in a 3D coordinate space?",
-      "opts": [
-        "Default AudioSource play",
-        "Aesthetic Particle systems VFX",
-        "Standard Standalone PC Builds",
-        "Custom Project exporters"
-      ],
-      "correct": 3,
-      "exp": "The physical Project exporters parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical AudioSource play in a 3D coordinate space?",
-      "opts": [
-        "Default AudioSource play",
-        "Aesthetic Particle systems VFX",
-        "Standard Standalone PC Builds",
-        "Custom Project exporters"
+      "id": 4,
+      "question": "What is the difference between Screen Space and World Space Canvas in Unity UI design? / ما هو الفرق الأساسي بين واجهات الشاشة (Screen Space) والواجهات العائمة (World Space Canvas)؟",
+      "options": [
+        "Screen Space canvas is flat on your screen; World Space canvas floats in the 3D game level (like a signpost over an enemy) / واجهات الشاشة مسطحة تماماً أمام عين اللاعب، والواجهات العائمة تطفو وتتحرك داخل الفراغ ثلاثي الأبعاد فوق رأس الشخصية",
+        "Screen Space is in Arabic, World Space is in English / واجهات الشاشة بالعربية والواجهات العائمة بالإنجليزية",
+        "World Space canvas is only for textures / الواجهات العائمة مخصصة للصور فقط",
+        "They are exactly the same / هما متطابقان تماماً"
       ],
       "correct": 0,
-      "exp": "The physical AudioSource play parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Splendid! World Space canvases let developers construct floating UI indicators (like health bars) that follow 3D GameObjects. / مذهل! الواجهات العائمة (World Space) تتيح لنا تزيين اللعبة بأشرطة صحة مبهرة تطفو وتتحرك فوق رؤوس الأبطال والوحوش!"
     },
     {
-      "q": "Which Unity component defines the physical Particle systems VFX in a 3D coordinate space?",
-      "opts": [
-        "Default AudioSource play",
-        "Aesthetic Particle systems VFX",
-        "Standard Standalone PC Builds",
-        "Custom Project exporters"
+      "id": 5,
+      "question": "Which Unity UI component is best suited to display health bars visually? / ما هو أفضل مكون واجهة مستخدم (UI) في يونيتي لتمثيل وعرض أشرطة الصحة والطاقة؟",
+      "options": [
+        "Text element / عنصر النص",
+        "Slider component / مكون شريط التمرير (Slider)",
+        "Button component / الأزرار التفاعلية",
+        "Audio Listener / مستمع الأصوات"
       ],
       "correct": 1,
-      "exp": "The physical Particle systems VFX parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Superb! A UI Slider can be locked to min/max health values and shrinks visually when damage is applied. / عبقري! منزلق التمرير (Slider) مثالي؛ فهو يقل ويكبر تلقائياً ليمثل منسوب الحياة المتبقي للأبطال!"
+    },
+    {
+      "id": 6,
+      "question": "What is the difference between an AudioSource and an AudioListener in Unity? / ما هو الفرق الهندسي والبرمي بين مصدر الصوت (AudioSource) ومستمع الصوت (AudioListener)؟",
+      "options": [
+        "AudioSource is the speaker playing sounds; AudioListener is the virtual ear (usually on the camera) that hears them / مصدر الصوت هو مكبر الصوت الذي يطلق الأصوات، والمستمع هو الأذن الافتراضية (توضع على الكاميرا) لترصد الترددات",
+        "AudioListener is a microphone / المستمع هو ميكروفون لتسجيل الصوت",
+        "AudioSource makes objects jump / المصدر يجعل المجسمات تقفز",
+        "They do the same thing / هما يقومان بنفس العمل تماماً"
+      ],
+      "correct": 0,
+      "explanation": "Outstanding! AudioSources play the sound assets, while the single AudioListener acts as the player's microphone ears. / ممتاز! المصدر هو الراديو الذي يغني، والمستمع هو أذن بطلنا الذكي التي تلتقط الأنغام ثلاثية الأبعاد بوضوح!"
+    },
+    {
+      "id": 7,
+      "question": "What is the primary benefit of compiling your final game as a 'WebGL' build? / ما هي الفائدة العظمى والأكثر تميزاً لتصدير لعبتك النهائية كنسخة ويب (WebGL)؟",
+      "options": [
+        "It doubles the PC processing power / يضاعف سرعة تشغيل الحاسوب",
+        "It converts the game into HTML5 so players can play it instantly inside any web browser via a simple link / يحول اللعبة بالكامل لتعمل داخل المتصفحات كرابط سحري تفاعلي بدون الحاجة لتحميل وتسطيب برامج معقدة",
+        "It deletes all enemy AI paths / يقوم بحذف شبكات ذكاء الأعداء",
+        "It removes sounds to save disk space / يحذف الأصوات لتوفير المساحة"
+      ],
+      "correct": 1,
+      "explanation": "Superb! WebGL compiles games into light scripts that render directly on standard browsers, making sharing effortless. / عبقري! تصدير الويب WebGL يحول لعبتك لصفحة ويب تفاعلية تفتح بلمسة واحدة من الهواتف والحواسيب!"
+    },
+    {
+      "id": 8,
+      "question": "What is Itch.io in the game developer community? / ما هي منصة Itch.io الشهيرة في أوساط صانعي ومطوري الألعاب؟",
+      "options": [
+        "A platform to publish independent games, host WebGL builds, and share creations with the world / موقع عالمي لنشر ألعاب المطورين المستقلين، استضافة ألعاب الويب، واستعراض الإبداعات للجمهور مجاناً",
+        "A tool to fix coding errors / أداة برمجية لإصلاح عيوب الأكواد",
+        "An editor to design textures / برنامج لتلوين وتكستشرز المجسمات",
+        "A programming language / لغة برمجية جديدة"
+      ],
+      "correct": 0,
+      "explanation": "Bravo! Itch.io is the absolute best portal for independent creators to upload, test, and host their custom creations. / رائع! منصة Itch.io هي شاشة العرض العالمية لنشر ألعابك وتلقي تصفيق وتشجيع زملائك المبرمجين الأبطال!"
+    },
+    {
+      "id": 9,
+      "type": "task",
+      "question": "Simple Coding Task: Write a C# void statement that quits and shuts down the final game application. / مهمة برمجية: اكتب سطراً برمجياً بلغة C# لإغلاق وإنهاء تطبيق اللعبة النهائية بالكامل!",
+      "task_hint": "Write: Application.Quit();",
+      "explanation": "Outstanding! Application.Quit() exits the compiled standalone application smoothly in play mode. / ممتاز! أمر Application.Quit يغلق اللعبة تماماً عند البناء والتصدير النهائي لراحة اللاعبين!"
+    },
+    {
+      "id": 10,
+      "type": "task",
+      "question": "Awake vs Start Task: Which method is called first when a script starts up, Awake or Start? Type the name of the method. / مهمة سريعة: أي دالة تعمل أولاً وتسبق الأخرى عند بدء السكربت، Awake أم Start؟ اكتب اسم الدالة فقط!",
+      "task_hint": "Type: Awake",
+      "explanation": "Awesome! Awake is ALWAYS called before Start, making it the supreme choice for initial component hookups. / أحسنت! دالة Awake تعمل دوماً قبل Start لضمان ترابط أجهزة اللعبة قبل بدء المغامرة!"
     }
-  ],
-  "tasks": [
-    {
-      "title": "C# Player Translation script",
-      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
-    },
-    {
-      "title": "Trigger Collider Event handler",
-      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
-    }
-  ],
-  "quiz_title": "Unity Game Development - Challenge 6"
+  ]
 }

@@ -1,126 +1,116 @@
 {
-  "quiz_name": "Quiz 5: Enemy AI pathways & Raycasting",
+  "quiz_id": "unity_quiz_5",
+  "quiz_title": "Quiz 5: RPG 3D Game Design & Physics",
   "questions": [
     {
-      "q": "Which Unity component defines the physical Raycast checks in a 3D coordinate space?",
-      "opts": [
-        "Default Raycast checks",
-        "Aesthetic NavMesh boundaries",
-        "Standard AI pathfinders",
-        "Custom HP trackers"
-      ],
-      "correct": 0,
-      "exp": "The physical Raycast checks parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical NavMesh boundaries in a 3D coordinate space?",
-      "opts": [
-        "Default Raycast checks",
-        "Aesthetic NavMesh boundaries",
-        "Standard AI pathfinders",
-        "Custom HP trackers"
+      "id": 1,
+      "question": "What coordinate axes define a location in a 3D Unity project? / ما هي محاور الإحداثيات الثلاثية التي تحدد موقع الكائنات في فضاء يونيتي ثلاثي الأبعاد؟",
+      "options": [
+        "X and Y only / المحور الأفقي والعمودي فقط",
+        "X, Y, and Z axes / المحور الأفقي X، المحور الرأسي Y، ومحور العمق Z",
+        "Z and W axes / محاور العمق والبعد الرابع",
+        "Horizontal axis only / المحور الأفقي فقط"
       ],
       "correct": 1,
-      "exp": "The physical NavMesh boundaries parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Correct! 3D space introduces the Z-axis representing depth, alongside width (X) and height (Y). / صحيح! الفضاء ثلاثي الأبعاد يضيف محور العمق Z بجانب العرض X والارتفاع Y!"
     },
     {
-      "q": "Which Unity component defines the physical AI pathfinders in a 3D coordinate space?",
-      "opts": [
-        "Default Raycast checks",
-        "Aesthetic NavMesh boundaries",
-        "Standard AI pathfinders",
-        "Custom HP trackers"
-      ],
-      "correct": 2,
-      "exp": "The physical AI pathfinders parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical HP trackers in a 3D coordinate space?",
-      "opts": [
-        "Default Raycast checks",
-        "Aesthetic NavMesh boundaries",
-        "Standard AI pathfinders",
-        "Custom HP trackers"
-      ],
-      "correct": 3,
-      "exp": "The physical HP trackers parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Raycast checks in a 3D coordinate space?",
-      "opts": [
-        "Default Raycast checks",
-        "Aesthetic NavMesh boundaries",
-        "Standard AI pathfinders",
-        "Custom HP trackers"
+      "id": 2,
+      "question": "What is the difference between a Texture and a Material in 3D game design? / ما هو الفرق الأساسي بين التكستشر (Texture) والماتريال (Material) في ألعاب 3D؟",
+      "options": [
+        "Texture is the raw 2D image; Material is the wrapper setting light, shine, and color reflections / التكستشر هي الصورة المسطحة، والماتريال هي الغلاف الذكي الذي يحدد اللمعان والانعكاس والألوان",
+        "Material is a script; Texture is an audio / الماتريال هي كود والتكستشر هي صوت",
+        "They are identical / لا يوجد فرق بينهما على الإطلاق",
+        "Texture is a physics collider / التكستشر هي درع اصطدام فيزيائي"
       ],
       "correct": 0,
-      "exp": "The physical Raycast checks parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Excellent! Materials act as fabrics wrapping 3D models, utilizing textures to determine visual look. / رائع! الماتريال هي بمثابة المادة البرمجية التي تكسو المجسمات وتحدد مدى لمعانها وانعكاس الضوء عليها!"
     },
     {
-      "q": "Which Unity component defines the physical NavMesh boundaries in a 3D coordinate space?",
-      "opts": [
-        "Default Raycast checks",
-        "Aesthetic NavMesh boundaries",
-        "Standard AI pathfinders",
-        "Custom HP trackers"
+      "id": 3,
+      "question": "Why do we use a CapsuleCollider instead of a complex MeshCollider for our moving 3D player? / لماذا نفضل استخدام كبسولة اصطدام بسيطة (CapsuleCollider) لشخصيتنا بدلاً من دروع MeshCollider المعقدة؟",
+      "options": [
+        "To draw player face details / لرسم تفاصيل وجه اللاعب",
+        "Mesh colliders are extremely slow to calculate, while capsule colliders are fast and slip over steps / لأن حسابات كبسولة الاصطدام سريعة جداً وتسهل صعود السلالم، عكس Mesh المعقدة والبطيئة",
+        "Capsule colliders can play audio / لأن الكبسولة تشغل الأصوات الحماسية",
+        "Capsule colliders contain C# variables / لأن الكبسولات تحتوي على متغيرات"
       ],
       "correct": 1,
-      "exp": "The physical NavMesh boundaries parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Perfect! Simplified primitives like CapsuleCollider speed up collision calculations immensely in real-time. / ممتاز! استخدام الأشكال البسيطة كالكبسولة يمنع اللعبة من البطء والتعليق ويسهل حركة البطل!"
     },
     {
-      "q": "Which Unity component defines the physical AI pathfinders in a 3D coordinate space?",
-      "opts": [
-        "Default Raycast checks",
-        "Aesthetic NavMesh boundaries",
-        "Standard AI pathfinders",
-        "Custom HP trackers"
+      "id": 4,
+      "question": "What is the benefit of the Character Controller component compared to a standard Rigidbody in 3D? / ما هي الفائدة القصوى لاستخدام متحكم الشخصية (Character Controller) بدلاً من Rigidbody في ألعاب 3D؟",
+      "options": [
+        "It automatically applies high graphics / يحسن جودة الرسوميات تلقائياً",
+        "It offers custom, fluid 3rd-person movement controls that ignore raw rigid physics and climb steps smoothly / يوفر حركة مخصصة وسلسة من منظور الشخص الثالث مع صعود الدرج تلقائياً وتجاوز الفيزياء الصعبة",
+        "It writes scripts for you / يقوم بكتابة الأكواد بالنيابة عنك",
+        "It plays particle effects / يطلق تأثيرات انفجارية"
       ],
-      "correct": 2,
-      "exp": "The physical AI pathfinders parameter manages layout alignments in 3D Unity worlds."
+      "correct": 1,
+      "explanation": "Splendid! Character Controller gives developers complete direct command over movements without fighting physical forces. / مذهل! يمنح متحكم الشخصية المطورين قيادة مباشرة لحركة اللاعب دون التعارض مع قوانين الفيزياء المعقدة!"
     },
     {
-      "q": "Which Unity component defines the physical HP trackers in a 3D coordinate space?",
-      "opts": [
-        "Default Raycast checks",
-        "Aesthetic NavMesh boundaries",
-        "Standard AI pathfinders",
-        "Custom HP trackers"
+      "id": 5,
+      "question": "How do we simulate gravity on a Character Controller? / كيف نقوم ببرمجة ومحاكاة الجاذبية الأرضية عند استخدام متحكم الشخصية في الكود؟",
+      "options": [
+        "By scaling the character / بتكبير حجم البطل",
+        "By continuously decreasing the Y velocity over time and calling controller.Move() / بالتقليل المستمر لقيمة السرعة الرأسية Y باستمرار وتمريرها لأمر الحركة controller.Move",
+        "By changing player animations / بتغيير الحركات التعبيرية",
+        "It works automatically / الجاذبية تعمل تلقائياً بدون كود"
       ],
-      "correct": 3,
-      "exp": "The physical HP trackers parameter manages layout alignments in 3D Unity worlds."
+      "correct": 1,
+      "explanation": "Superb! We must manually calculate downward gravity acceleration and apply it via controller.Move() on every frame. / عبقري! يجب حساب تسارع الجاذبية يدوياً في الكود وتطبيق السحب للأسفل بشكل مستمر وسلس!"
     },
     {
-      "q": "Which Unity component defines the physical Raycast checks in a 3D coordinate space?",
-      "opts": [
-        "Default Raycast checks",
-        "Aesthetic NavMesh boundaries",
-        "Standard AI pathfinders",
-        "Custom HP trackers"
+      "id": 6,
+      "question": "Why is it important to normalize movement input vectors (Vector3.Normalize) in 3D? / لماذا يُعد معايرة متجهات الحركة (Normalization) أمراً بالغ الأهمية في الألعاب ثلاثية الأبعاد؟",
+      "options": [
+        "To prevent characters from running twice as fast when moving diagonally / لمنع البطل من الجري بسرعة مضاعفة عند المشي بزاوية مائلة أو قطرية",
+        "To change player health / لتغيير طاقة وصحة اللاعب",
+        "To activate camera rotation / لتفعيل دوران الكاميرا",
+        "To import textures / لاستيراد صور وتكستشرز جديدة"
       ],
       "correct": 0,
-      "exp": "The physical Raycast checks parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Outstanding! Normalization sets the vector length to 1, ensuring diagonal movement speed matches axial speed. / ممتاز! المعايرة تضبط طول ناقل الحركة ليكون 1، مما يمنع زيادة سرعة البطل عند الجري المائل!"
     },
     {
-      "q": "Which Unity component defines the physical NavMesh boundaries in a 3D coordinate space?",
-      "opts": [
-        "Default Raycast checks",
-        "Aesthetic NavMesh boundaries",
-        "Standard AI pathfinders",
-        "Custom HP trackers"
+      "id": 7,
+      "question": "What is a Blend Tree in Unity Animator? / ما هو منظم التمازج (Blend Tree) السحري في لوحة الحركة والأنيميتور بيونيتي؟",
+      "options": [
+        "A tool to grow trees in level / أداة لزراعة الغابات الكثيفة",
+        "An animator state that smoothly blends multiple animations (like Idle, Walk, and Run) based on speed / حالة أنيميشن تمزج وتدمج بين عدة حركات (الوقوف، المشي، الجري) بسلاسة فائقة حسب السرعة",
+        "A variable storing scores / متغير برمي لحساب مجموع النقاط",
+        "A physics collider / درع اصطدام فيزيائي"
       ],
       "correct": 1,
-      "exp": "The physical NavMesh boundaries parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Bravo! Blend Trees use speed float parameters to seamlessly blend from slow walks to full sprint cycles. / رائع! يمزج منظم التمازج بين المشي والجري تلقائياً وبأقصى واقعية بناءً على سرعة البطل الحالية!"
+    },
+    {
+      "id": 8,
+      "question": "What is NavMesh pathfinding, and what does 'Baking' a navigation mesh mean? / ما هو نظام الملاحة NavMesh، وماذا يعني 'خبز خريطة الملاحة' (Baking)؟",
+      "options": [
+        "Baking is heating up the PC / الخبز هو تسخين الحاسوب ليعمل بسرعة",
+        "Baking calculates walkable and obstacle areas on the map, generating a secret navigation grid for AI agents / الخبز هو حساب وتحديد المناطق الصالحة للمشي والعوائق لبناء شبكة تنقل سرية للذكاء الاصطناعي",
+        "A script to play spatial music / كود لتشغيل الموسيقى الحية",
+        "A 3D character controller / متحكم حركة ثلاثي الأبعاد"
+      ],
+      "correct": 1,
+      "explanation": "Outstanding! Baking pre-calculates the walkable level geometry so AI agents can navigate paths without hitting obstacles. / ممتاز! عملية الخبز pre-calculates ترسم خريطة الممرات الآمنة للذكاء الاصطناعي ليتفادى الصخور والجدران!"
+    },
+    {
+      "id": 9,
+      "type": "task",
+      "question": "Simple Coding Task: Write a C# command to set a NavMeshAgent (named 'agent') target destination to player's position. / مهمة برمجية: اكتب أمراً برمجياً يوجه وكيل الملاحة 'agent' نحو موقع اللاعب player.position!",
+      "task_hint": "Write: agent.SetDestination(player.position);",
+      "explanation": "Perfect! SetDestination updates the pathfinding calculations live to chase target coordinates. / مذهل! دالة SetDestination تجعل الذكاء الاصطناعي يطارد البطل باستمرار أينما ذهب!"
+    },
+    {
+      "id": 10,
+      "type": "task",
+      "question": "Physics Task: Write a C# script declaration referencing a Character Controller named 'myController'. / مهمة برمجية: أعلن عن متغير مرجعي من نوع CharacterController باسم 'myController'!",
+      "task_hint": "Write: CharacterController myController;",
+      "explanation": "Superb! Strongly-typed variables allow us to store and manipulate controller movements on update ticks. / عبقري! الإعلان عن myController يتيح لنا استدعاء وظائف الحركة والجاذبية في كل إطار!"
     }
-  ],
-  "tasks": [
-    {
-      "title": "C# Player Translation script",
-      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
-    },
-    {
-      "title": "Trigger Collider Event handler",
-      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
-    }
-  ],
-  "quiz_title": "Unity Game Development - Challenge 5"
+  ]
 }

@@ -1,360 +1,215 @@
 {
-  "course": "Web Design (HTML/CSS)",
-  "sessions": [
+  "course_id": "senior_web_design",
+  "recaps": [
     {
-      "session_title": "💡 Session 1: HTML5 Structural elements",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - HTML5 Structural elements",
-      "points": [
+      "id": 1,
+      "title": "Session 1 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "HTML5 Structural elements",
-          "desc": "Writing headers, paragraphs, and formatting bold text.",
-          "example": "<h1>, <p>, <strong> tags"
+          "heading": "?? Core Concept",
+          "text": "In Session 1, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 2: Hyperlinks & Images",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - Hyperlinks & Images",
-      "points": [
+      "id": 2,
+      "title": "Session 2 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "Hyperlinks & Images",
-          "desc": "Embedding local graphics and linking web pages.",
-          "example": "<img> and <a> tags"
+          "heading": "?? Core Concept",
+          "text": "In Session 2, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 3: Lists & Division Blocks",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - Lists & Division Blocks",
-      "points": [
+      "id": 3,
+      "title": "Session 3 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "Lists & Division Blocks",
-          "desc": "Creating bulleted checklists and grouping items inside block wrappers.",
-          "example": "<ul> and <div> containers"
+          "heading": "?? Core Concept",
+          "text": "In Session 3, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 4: Table Schedules",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - Table Schedules",
-      "points": [
+      "id": 4,
+      "title": "Session 4 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "Table Schedules",
-          "desc": "Aligning data rows inside table structures.",
-          "example": "<tr>, <th>, and <td> cells"
+          "heading": "?? Core Concept",
+          "text": "In Session 4, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 5: External Stylesheets",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - External Stylesheets",
-      "points": [
+      "id": 5,
+      "title": "Session 5 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "External Stylesheets",
-          "desc": "Linking external CSS stylesheets to HTML pages.",
-          "example": "<link rel='stylesheet'> tags"
+          "heading": "?? Core Concept",
+          "text": "In Session 5, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 6: CSS Typography",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - CSS Typography",
-      "points": [
+      "id": 6,
+      "title": "Session 6 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "CSS Typography",
-          "desc": "Configuring clean font families, text sizes, and alignments.",
-          "example": "Outfit font declarations"
+          "heading": "?? Core Concept",
+          "text": "In Session 6, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 7: CSS Box Model layers",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - CSS Box Model layers",
-      "points": [
+      "id": 7,
+      "title": "Session 7 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "CSS Box Model layers",
-          "desc": "Managing element margins, borders, paddings, and sizing rules.",
-          "example": "box-sizing: border-box settings"
+          "heading": "?? Core Concept",
+          "text": "In Session 7, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 8: CSS Shadows & Gradients",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - CSS Shadows & Gradients",
-      "points": [
+      "id": 8,
+      "title": "Session 8 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "CSS Shadows & Gradients",
-          "desc": "Applying linear gradients and soft drop shadows to components.",
-          "example": "linear-gradient background fills"
+          "heading": "?? Core Concept",
+          "text": "In Session 8, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 9: CSS Absolute Coordinates",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - CSS Absolute Coordinates",
-      "points": [
+      "id": 9,
+      "title": "Session 9 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "CSS Absolute Coordinates",
-          "desc": "Configuring sticky headers and floating overlays.",
-          "example": "position: fixed navbar positioning"
+          "heading": "?? Core Concept",
+          "text": "In Session 9, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 10: Flexbox Layout Axes",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - Flexbox Layout Axes",
-      "points": [
+      "id": 10,
+      "title": "Session 10 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "Flexbox Layout Axes",
-          "desc": "Aligning child elements along horizontal and vertical axes.",
-          "example": "justify-content: space-between flex settings"
+          "heading": "?? Core Concept",
+          "text": "In Session 10, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 11: Flex Wrapping & Sizing",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - Flex Wrapping & Sizing",
-      "points": [
+      "id": 11,
+      "title": "Session 11 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "Flex Wrapping & Sizing",
-          "desc": "Creating responsive product grids that wrap cards neatly.",
-          "example": "flex-wrap: wrap spacing"
+          "heading": "?? Core Concept",
+          "text": "In Session 11, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 12: CSS 2D Grid slices",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - CSS 2D Grid slices",
-      "points": [
+      "id": 12,
+      "title": "Session 12 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "CSS 2D Grid slices",
-          "desc": "Dividing page templates into columns and rows.",
-          "example": "grid-template-columns structures"
+          "heading": "?? Core Concept",
+          "text": "In Session 12, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 13: Interactive HTML Forms",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - Interactive HTML Forms",
-      "points": [
+      "id": 13,
+      "title": "Session 13 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "Interactive HTML Forms",
-          "desc": "Capturing user inputs with text inputs and radio buttons.",
-          "example": "<form> and <input> arrays"
+          "heading": "?? Core Concept",
+          "text": "In Session 13, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 14: CSS Interactive Hovers",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - CSS Interactive Hovers",
-      "points": [
+      "id": 14,
+      "title": "Session 14 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "CSS Interactive Hovers",
-          "desc": "Adding smooth transitions and scale effects to buttons.",
-          "example": ":hover transform scaling"
+          "heading": "?? Core Concept",
+          "text": "In Session 14, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 15: Bakery Template: Header & Hero",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - Bakery Template: Header & Hero",
-      "points": [
+      "id": 15,
+      "title": "Session 15 Recap",
+      "sections": [
         {
-          "icon": "💻",
-          "title": "Bakery Template: Header & Hero",
-          "desc": "Building a landing page navigation header and Call-to-Action banner.",
-          "example": "Bakery Hero banners"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 16: Bakery Template: About & Footer",
-      "targets": [
-        "Structure tags",
-        "Style elements",
-        "Deploy responsive grids"
-      ],
-      "blocks": [
-        "html_tags",
-        "css_properties",
-        "flexbox_grid"
-      ],
-      "project": "Bakery Page Segment - Bakery Template: About & Footer",
-      "points": [
+          "heading": "?? Core Concept",
+          "text": "In Session 15, we learned how to build robust systems and write clean code."
+        },
         {
-          "icon": "💻",
-          "title": "Bakery Template: About & Footer",
-          "desc": "Adding semantic body sections and a responsive dark-themed footer.",
-          "example": "Bakery responsive footers"
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     }
-  ],
-  "recap_title": "🎯 Quick & Visual Recap: Web Design (HTML/CSS)",
-  "recap_subtitle": "Welcome, hero! This is a quick review supported by programming examples and illustrations for each session you learned in the course to help you remember the concepts with ease and fun and prepare for the super exam! 🚀🌟",
-  "course_title": "Web Design (HTML/CSS)"
+  ]
 }

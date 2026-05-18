@@ -1,126 +1,116 @@
 {
-  "quiz_name": "Quiz 2: C# Scripting & Player Movements",
+  "quiz_id": "unity_quiz_2",
+  "quiz_title": "Quiz 2: Flappy Bird Game Mechanics",
   "questions": [
     {
-      "q": "Which Unity component defines the physical C# classes in a 3D coordinate space?",
-      "opts": [
-        "Default C# classes",
-        "Aesthetic MonoBehaviour methods",
-        "Standard Start() vs Update()",
-        "Custom Input.GetAxis() vector"
-      ],
-      "correct": 0,
-      "exp": "The physical C# classes parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical MonoBehaviour methods in a 3D coordinate space?",
-      "opts": [
-        "Default C# classes",
-        "Aesthetic MonoBehaviour methods",
-        "Standard Start() vs Update()",
-        "Custom Input.GetAxis() vector"
+      "id": 1,
+      "question": "Which Unity component must be added to a GameObject to give it weight and gravity? / أي مكون في يونيتي يجب إضافته للكائنات لمنحها وزناً فيزيائياً وتأثراً بالجاذبية؟",
+      "options": [
+        "Box Collider 2D / صندوق اصطدام",
+        "Rigidbody 2D / الجسيم الفيزيائي",
+        "Animator / منظم الحركة والأنيميشن",
+        "Sprite Renderer / مظهر الصورة"
       ],
       "correct": 1,
-      "exp": "The physical MonoBehaviour methods parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Correct! Rigidbody 2D is the core component that brings physics and gravity to 2D sprites. / صحيح! الجسيم الفيزيائي Rigidbody 2D هو المسؤول عن الجاذبية والفيزياء في ثنائي الأبعاد!"
     },
     {
-      "q": "Which Unity component defines the physical Start() vs Update() in a 3D coordinate space?",
-      "opts": [
-        "Default C# classes",
-        "Aesthetic MonoBehaviour methods",
-        "Standard Start() vs Update()",
-        "Custom Input.GetAxis() vector"
-      ],
-      "correct": 2,
-      "exp": "The physical Start() vs Update() parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Input.GetAxis() vector in a 3D coordinate space?",
-      "opts": [
-        "Default C# classes",
-        "Aesthetic MonoBehaviour methods",
-        "Standard Start() vs Update()",
-        "Custom Input.GetAxis() vector"
-      ],
-      "correct": 3,
-      "exp": "The physical Input.GetAxis() vector parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical C# classes in a 3D coordinate space?",
-      "opts": [
-        "Default C# classes",
-        "Aesthetic MonoBehaviour methods",
-        "Standard Start() vs Update()",
-        "Custom Input.GetAxis() vector"
+      "id": 2,
+      "question": "How do we program the bird to jump upwards when the jump key is pressed? / كيف نجعل الطائر يقفز للأعلى في الكود عند ضغط زر القفز؟",
+      "options": [
+        "By adding a velocity impulse upwards to its Rigidbody / بإعطاء دفعة سرعة للأعلى لجسيم Rigidbody",
+        "By destroying the bird / بتدمير الطائر وحذفه",
+        "By scaling the camera / بتكبير وتصغير حجم الكاميرا",
+        "By changing its color / بتغيير ألوان الطائر"
       ],
       "correct": 0,
-      "exp": "The physical C# classes parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Excellent! Setting velocity = Vector2.up * jumpForce applies an instant upward impulse to make the bird hop! / رائع! إعطاء سرعة للأعلى هو ما يدفع الطائر ليقفز فوراً بالفيزياء!"
     },
     {
-      "q": "Which Unity component defines the physical MonoBehaviour methods in a 3D coordinate space?",
-      "opts": [
-        "Default C# classes",
-        "Aesthetic MonoBehaviour methods",
-        "Standard Start() vs Update()",
-        "Custom Input.GetAxis() vector"
-      ],
-      "correct": 1,
-      "exp": "The physical MonoBehaviour methods parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Start() vs Update() in a 3D coordinate space?",
-      "opts": [
-        "Default C# classes",
-        "Aesthetic MonoBehaviour methods",
-        "Standard Start() vs Update()",
-        "Custom Input.GetAxis() vector"
-      ],
-      "correct": 2,
-      "exp": "The physical Start() vs Update() parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Input.GetAxis() vector in a 3D coordinate space?",
-      "opts": [
-        "Default C# classes",
-        "Aesthetic MonoBehaviour methods",
-        "Standard Start() vs Update()",
-        "Custom Input.GetAxis() vector"
-      ],
-      "correct": 3,
-      "exp": "The physical Input.GetAxis() vector parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical C# classes in a 3D coordinate space?",
-      "opts": [
-        "Default C# classes",
-        "Aesthetic MonoBehaviour methods",
-        "Standard Start() vs Update()",
-        "Custom Input.GetAxis() vector"
+      "id": 3,
+      "question": "What is a 'Prefab' in Unity, and what is its kitchen analogy? / ما هو الـ Prefab في يونيتي، وماذا يشبه في المطبخ الحقيقي؟",
+      "options": [
+        "It is like a cookie cutter - a reusable template to stamp out copies of GameObjects / هو مثل قالب الكعك، قالب جاهز نستخدمه لتوليد وتكرار الكائنات اللانهائية",
+        "It is an oven to cook graphics / هو مثل الفرن لطهي وتلوين الرسوميات",
+        "It is a plate to display the game / هو الطبق الذي نقدم عليه اللعبة للجمهور",
+        "It is a custom sound effect / هو ملف مؤثرات صوتية مخصصة"
       ],
       "correct": 0,
-      "exp": "The physical C# classes parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Bravo! Prefabs are reusable templates stored in your files, allowing you to instantiate copies anywhere. / ممتاز! الـ Prefab هو قالب سحري لصنع وتوليد مجسمات مكررة مثل الأنابيب اللانهائية!"
     },
     {
-      "q": "Which Unity component defines the physical MonoBehaviour methods in a 3D coordinate space?",
-      "opts": [
-        "Default C# classes",
-        "Aesthetic MonoBehaviour methods",
-        "Standard Start() vs Update()",
-        "Custom Input.GetAxis() vector"
+      "id": 4,
+      "question": "Which C# built-in method is used to dynamically spawn a new instance of a Prefab in runtime? / أي دالة في يونيتي تستخدم لتوليد واستدعاء نسخة جديدة من الـ Prefab أثناء اللعب؟",
+      "options": [
+        "Destroy()",
+        "Instantiate()",
+        "GetComponent()",
+        "Debug.Log()"
       ],
       "correct": 1,
-      "exp": "The physical MonoBehaviour methods parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Splendid! Instantiate(prefab, position, rotation) generates a live copy of a prefab dynamically. / مذهل! دالة Instantiate هي مصنع التوليد التلقائي للنماذج الجاهزة أثناء تشغيل اللعبة!"
+    },
+    {
+      "id": 5,
+      "question": "Which physics collision method triggers when our player physically crashes into a solid pipe obstacle? / أي دالة اصطدام في يونيتي تعمل فوراً عندما يصطدم الطائر بجدار الأنبوب الصلب؟",
+      "options": [
+        "OnTriggerEnter2D()",
+        "OnCollisionEnter2D()",
+        "OnStartEvent()",
+        "OnUpdate()"
+      ],
+      "correct": 1,
+      "explanation": "Superb! OnCollisionEnter2D fires when solid colliders bump into each other. / عبقري! دالة OnCollisionEnter2D تفعل فوراً عند حدوث تصادم صلب وحقيقي بين الكائنات!"
+    },
+    {
+      "id": 6,
+      "question": "How do we split a complete game in Unity, such as having a main menu and a gameplay scene? / كيف نقسم لعبتنا في يونيتي ليكون لها شاشة بداية وشاشة لعب مستقلة؟",
+      "options": [
+        "By creating separate Scenes / بإنشاء مشاهد وشاشات مستقلة (Scenes)",
+        "By coding multiple classes in one file / بكتابة مئات الأكواد في ملف واحد",
+        "By buying multiple computers / بشراء عدة حواسيب لكل شاشة",
+        "By using different camera models / باستخدام أنواع كاميرات مختلفة"
+      ],
+      "correct": 0,
+      "explanation": "Perfect! Scenes in Unity act as separate levels or pages of your complete game universe. / ممتاز! المشاهد Scenes هي بمثابة صفحات الكتاب أو مستويات اللعبة التي ننتقل بينها!"
+    },
+    {
+      "id": 7,
+      "question": "Which namespace and class must be called in C# to load or switch between different game levels? / أي مكتبة وفئة برمجية نستدعيها في C# للانتقال والتحكم في مشاهد اللعبة؟",
+      "options": [
+        "UnityEngine.UI",
+        "UnityEngine.SceneManagement.SceneManager",
+        "System.Collections.Generic",
+        "UnityEngine.Audio"
+      ],
+      "correct": 1,
+      "explanation": "Bravo! SceneManager.LoadScene() is the magic command to switch between start menus and game levels! / رائع! نستخدم مكتبة SceneManager وأمر LoadScene للانتقال بين القوائم والمستويات!"
+    },
+    {
+      "id": 8,
+      "question": "How do we make a collider act as a 'score sensor' that triggers a point without physically stopping the bird? / كيف نجعل صندوق الاصطدام يعمل كمستشعر نقاط يعبر منه اللاعب دون أن يعيقه فيزيائياً؟",
+      "options": [
+        "By making it smaller / بجعله صغير الحجم جداً",
+        "By checking the 'Is Trigger' checkbox in the Collider / بتفعيل خيار 'Is Trigger' في مكون الاصطدام",
+        "By removing the Rigidbody / بحذف الجسيم الفيزيائي بالكامل",
+        "By setting its scale to zero / بجعل مقياس الحجم صفراً"
+      ],
+      "correct": 1,
+      "explanation": "Outstanding! checking 'Is Trigger' lets objects pass through while still firing OnTriggerEnter events. / ممتاز! تفعيل Is Trigger يحول درع الاصطدام لمستشعر غير مرئي يسجل العبور والنقاط!"
+    },
+    {
+      "id": 9,
+      "type": "task",
+      "question": "Simple Coding Task: Write a line of code to destroy the GameObject this script is attached to. / مهمة برمجية: اكتب سطراً برمجياً يقوم بتدمير الكائن الحالي (gameObject) عند الاصطدام!",
+      "task_hint": "Write: Destroy(gameObject);",
+      "explanation": "Great job! Destroy(gameObject) deletes the specified object from memory instantly! / أحسنت! دالة Destroy تمسح الكائن المحدد من شاشة اللعبة ومن الذاكرة تماماً!"
+    },
+    {
+      "id": 10,
+      "type": "task",
+      "question": "Physics Task: Write a C# velocity assignment statement to move the Rigidbody (rb) upward by jumpForce. / مهمة فيزيائية: اكتب جملة إعطاء سرعة للأعلى لجسيم Rigidbody باسم rb!",
+      "task_hint": "Write: rb.velocity = Vector2.up * jumpForce;",
+      "explanation": "Superb! Mutating Rigidbody velocity offers precise, responsive jump physics control. / عبقري! تعديل سرعة rb.velocity مباشرة يعطي قفزات تفاعلية وسريعة الاستجابة!"
     }
-  ],
-  "tasks": [
-    {
-      "title": "C# Player Translation script",
-      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
-    },
-    {
-      "title": "Trigger Collider Event handler",
-      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
-    }
-  ],
-  "quiz_title": "Unity Game Development - Challenge 2"
+  ]
 }

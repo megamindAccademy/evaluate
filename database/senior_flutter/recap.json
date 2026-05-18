@@ -1,560 +1,125 @@
 {
-  "course": "Flutter Mobile Development",
-  "sessions": [
+  "course_id": "senior_flutter",
+  "recaps": [
     {
-      "session_title": "💡 Session 1: Level 1 Session 1 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 1 Mobile App template",
-      "points": [
+      "id": 1,
+      "title": "Session 1 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     },
     {
-      "session_title": "💡 Session 2: Level 1 Session 2 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 1 Mobile App template",
-      "points": [
+      "id": 2,
+      "title": "Session 2 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     },
     {
-      "session_title": "💡 Session 3: Level 1 Session 3 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 1 Mobile App template",
-      "points": [
+      "id": 3,
+      "title": "Session 3 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     },
     {
-      "session_title": "💡 Session 4: Level 1 Session 4 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 1 Mobile App template",
-      "points": [
+      "id": 4,
+      "title": "Session 4 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     },
     {
-      "session_title": "💡 Session 5: Level 2 Session 1 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 2 Mobile App template",
-      "points": [
+      "id": 5,
+      "title": "Session 5 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     },
     {
-      "session_title": "💡 Session 6: Level 2 Session 2 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 2 Mobile App template",
-      "points": [
+      "id": 6,
+      "title": "Session 6 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     },
     {
-      "session_title": "💡 Session 7: Level 2 Session 3 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 2 Mobile App template",
-      "points": [
+      "id": 7,
+      "title": "Session 7 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     },
     {
-      "session_title": "💡 Session 8: Level 2 Session 4 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 2 Mobile App template",
-      "points": [
+      "id": 8,
+      "title": "Session 8 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     },
     {
-      "session_title": "💡 Session 9: Level 3 Session 1 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 3 Mobile App template",
-      "points": [
+      "id": 9,
+      "title": "Session 9 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     },
     {
-      "session_title": "💡 Session 10: Level 3 Session 2 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 3 Mobile App template",
-      "points": [
+      "id": 10,
+      "title": "Session 10 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     },
     {
-      "session_title": "💡 Session 11: Level 3 Session 3 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 3 Mobile App template",
-      "points": [
+      "id": 11,
+      "title": "Session 11 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     },
     {
-      "session_title": "💡 Session 12: Level 3 Session 4 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 3 Mobile App template",
-      "points": [
+      "id": 12,
+      "title": "Session 12 Recap",
+      "sections": [
         {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 13: Level 4 Session 1 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 4 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 14: Level 4 Session 2 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 4 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 15: Level 4 Session 3 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 4 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 16: Level 4 Session 4 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 4 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 17: Level 5 Session 1 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 5 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 18: Level 5 Session 2 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 5 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 19: Level 5 Session 3 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 5 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 20: Level 5 Session 4 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 5 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 21: Level 6 Session 1 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 6 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 22: Level 6 Session 2 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 6 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 23: Level 6 Session 3 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 6 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
-        }
-      ]
-    },
-    {
-      "session_title": "💡 Session 24: Level 6 Session 4 - Flutter App Dev",
-      "targets": [
-        "Understand Flutter widgets",
-        "Apply Dart variables",
-        "Map mobile user inputs"
-      ],
-      "blocks": [
-        "StatelessWidget",
-        "StatefulWidget",
-        "Row/Column",
-        "Container"
-      ],
-      "project": "Level 6 Mobile App template",
-      "points": [
-        {
-          "icon": "📱",
-          "title": "Flutter widget systems",
-          "desc": "Nesting structural Layout widget boxes inside declarative Dart code matrices to form high-fidelity interfaces.",
-          "code": "import 'package:flutter/material.dart';\n\nclass WelcomeScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: Text('Megaminds Hub')),\n      body: Center(child: Text('Hello World! 🚀')),\n    );\n  }\n}"
+          "heading": "?? Core Concept",
+          "text": "Great job!"
         }
       ]
     }
-  ],
-  "recap_title": "🎯 Quick & Visual Recap: Flutter Mobile Development",
-  "recap_subtitle": "Welcome, hero! This is a quick review supported by programming examples and illustrations for each session you learned in the course to help you remember the concepts with ease and fun and prepare for the super exam! 🚀🌟",
-  "course_title": "Flutter Mobile Development"
+  ]
 }

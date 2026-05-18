@@ -1,344 +1,344 @@
 {
   "course_id": "senior_godot",
   "course_title": "Godot Game Development",
-  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Godot Game Development. Unlock custom medals, solve daily challenges, and program your own digital masterpieces!",
+  "course_subtitle": "Master Godot Game Development!",
   "xp_total": 1200,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
-      "badge_icon": "🚀",
-      "badge_title": "Session 1: Welcome to Godot & Engine Setup Medal",
-      "title": "Station 1: Session 1: Welcome to Godot & Engine Setup",
-      "desc": "Godot Workspace Setup",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 1: Welcome to Godot & Engine Setup</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎮 <b>What is Godot?</b>: An open-source, highly lightweight, and powerful game engine that uses scenes and nodes to build 2D and 3D games.</li><li>🧱 <b>Nodes & Scenes Architecture</b>: Everything in Godot is a Node, and groups of nodes are structured hierarchically inside reusable Scenes.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Install Godot Engine</li><li>🎯 Explore Editor Layout</li><li>🎯 Create first Node2D root</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>Node2D</code></li><li><code>Sprite2D</code></li><li><code>play_game</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Godot Workspace Setup</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Creating a Node2D root to represent the game world.</div><h4>💻 Starter Code Block - Nodes & Scenes Architecture:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>extends Sprite2D\n\nfunc _ready():\n    print(\"Hello from Sprite Node!\")</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that What is Godot? is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 1: Welcome to Godot & Engine Setup activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 1: Welcome to Godot & Engine Setup activated successfully!</code> to unlock the Session 1: Welcome to Godot & Engine Setup medal!",
-      "starter_code": "# Simulate Session 1: Welcome to Godot & Engine Setup activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 1 Medal",
+      "title": "Station 1: Session 1: Core Concepts",
+      "desc": "Interactive Session 1: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 1: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 1</div>",
+      "simple": "Imagine Session 1: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 1!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 1!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 1!\")",
       "pills": [
         {
-          "label": "Activate Session 1: Welcome to Godot & Engine Setup",
-          "code": "print(\"Session 1: Welcome to Godot & Engine Setup activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 1!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 1: Welcome to Godot & Engine Setup activated successfully!",
+        "required_output_text": "Activated Session 1!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 1: Welcome to Godot & Engine Setup Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1: Welcome to Godot & Engine Setup'. Specifically, design a feature demonstrating: 'Nodes & Scenes Architecture' using the starter template below!",
-        "code": "# Home Challenge: Session 1: Welcome to Godot & Engine Setup Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 1: Welcome to Godot & Engine Setup Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 1",
+        "desc": "Practice Session 1 at home!",
+        "code": "// Home Challenge: Session 1",
+        "starter_code": "// Home Challenge: Session 1"
       }
     },
     {
       "id": 2,
-      "badge_icon": "💻",
-      "badge_title": "Session 2: Nodes, Scenes, and GDScript Functions Medal",
-      "title": "Station 2: Session 2: Nodes, Scenes, and GDScript Functions",
-      "desc": "Custom Node Scripting",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 2: Nodes, Scenes, and GDScript Functions</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>⚙️ <b>GDScript Core functions</b>: GDScript is Python-like. The _ready() function runs once on startup, and _process(delta) runs once per frame for updates.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Create custom player scripts</li><li>🎯 Understand _ready() and _process()</li><li>🎯 Print variable states</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>extends CharacterBody2D</code></li><li><code>func _ready()</code></li><li><code>func _process(delta)</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Custom Node Scripting</div><br><h4>💻 Starter Code Block - GDScript Core functions:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>extends CharacterBody2D\n\nfunc _ready():\n    print(\"Game Started!\")</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that GDScript Core functions is like writing a list of secret rules telling your helper robot exactly what to do step-by-step!",
-      "hint": "Type in the editor: <code>print(\"Session 2: Nodes, Scenes, and GDScript Functions activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 2: Nodes, Scenes, and GDScript Functions activated successfully!</code> to unlock the Session 2: Nodes, Scenes, and GDScript Functions medal!",
-      "starter_code": "# Simulate Session 2: Nodes, Scenes, and GDScript Functions activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 2 Medal",
+      "title": "Station 2: Session 2: Core Concepts",
+      "desc": "Interactive Session 2: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 2: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 2</div>",
+      "simple": "Imagine Session 2: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 2!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 2!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 2!\")",
       "pills": [
         {
-          "label": "Activate Session 2: Nodes, Scenes, and GDScript Functions",
-          "code": "print(\"Session 2: Nodes, Scenes, and GDScript Functions activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 2!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 2: Nodes, Scenes, and GDScript Functions activated successfully!",
+        "required_output_text": "Activated Session 2!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 2: Nodes, Scenes, and GDScript Functions Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2: Nodes, Scenes, and GDScript Functions'. Specifically, design a feature demonstrating: 'GDScript Core functions' using the starter template below!",
-        "code": "# Home Challenge: Session 2: Nodes, Scenes, and GDScript Functions Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 2: Nodes, Scenes, and GDScript Functions Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 2",
+        "desc": "Practice Session 2 at home!",
+        "code": "// Home Challenge: Session 2",
+        "starter_code": "// Home Challenge: Session 2"
       }
     },
     {
       "id": 3,
-      "badge_icon": "🎨",
-      "badge_title": "Session 3: Game Art & Animated Sprites Medal",
-      "title": "Station 3: Session 3: Game Art & Animated Sprites",
-      "desc": "Hero Animation States",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 3: Game Art & Animated Sprites</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>AnimatedSprite2D</b>: A specific node to bundle pixel art frames together, allowing you to animate actions like running, jumping, and idling.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Import graphic assets</li><li>🎯 Set up AnimatedSprite2D node</li><li>🎯 Configure animation states</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>AnimatedSprite2D</code></li><li><code>play(\"idle\")</code></li><li><code>play(\"run\")</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Hero Animation States</div><br><h4>💻 Starter Code Block - AnimatedSprite2D:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>$AnimatedSprite2D.play(\"run\")</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that AnimatedSprite2D is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 3: Game Art & Animated Sprites activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 3: Game Art & Animated Sprites activated successfully!</code> to unlock the Session 3: Game Art & Animated Sprites medal!",
-      "starter_code": "# Simulate Session 3: Game Art & Animated Sprites activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 3 Medal",
+      "title": "Station 3: Session 3: Core Concepts",
+      "desc": "Interactive Session 3: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 3: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 3</div>",
+      "simple": "Imagine Session 3: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 3!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 3!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 3!\")",
       "pills": [
         {
-          "label": "Activate Session 3: Game Art & Animated Sprites",
-          "code": "print(\"Session 3: Game Art & Animated Sprites activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 3!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 3: Game Art & Animated Sprites activated successfully!",
+        "required_output_text": "Activated Session 3!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 3: Game Art & Animated Sprites Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3: Game Art & Animated Sprites'. Specifically, design a feature demonstrating: 'AnimatedSprite2D' using the starter template below!",
-        "code": "# Home Challenge: Session 3: Game Art & Animated Sprites Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 3: Game Art & Animated Sprites Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 3",
+        "desc": "Practice Session 3 at home!",
+        "code": "// Home Challenge: Session 3",
+        "starter_code": "// Home Challenge: Session 3"
       }
     },
     {
       "id": 4,
-      "badge_icon": "💻",
-      "badge_title": "Session 4: Godot Movement & Logical Operators Medal",
-      "title": "Station 4: Session 4: Godot Movement & Logical Operators",
-      "desc": "Bouncing Ball & Grid Controls",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 4: Godot Movement & Logical Operators</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🏃 <b>Player Vector Movement</b>: Capturing directional keyboard mappings to manipulate coordinate coordinates using built-in Input structures.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Capture keyboard inputs</li><li>🎯 Define movement velocities</li><li>🎯 Apply operators for boundaries</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>Input.get_vector()</code></li><li><code>move_and_slide()</code></li><li><code>position += velocity</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Bouncing Ball & Grid Controls</div><br><h4>💻 Starter Code Block - Player Vector Movement:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>velocity = Input.get_vector(\"ui_left\", \"ui_right\", \"ui_up\", \"ui_down\") * 300\nmove_and_slide()</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Player Vector Movement is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 4: Godot Movement & Logical Operators activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 4: Godot Movement & Logical Operators activated successfully!</code> to unlock the Session 4: Godot Movement & Logical Operators medal!",
-      "starter_code": "# Simulate Session 4: Godot Movement & Logical Operators activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 4 Medal",
+      "title": "Station 4: Session 4: Core Concepts",
+      "desc": "Interactive Session 4: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 4: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 4</div>",
+      "simple": "Imagine Session 4: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 4!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 4!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 4!\")",
       "pills": [
         {
-          "label": "Activate Session 4: Godot Movement & Logical Operators",
-          "code": "print(\"Session 4: Godot Movement & Logical Operators activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 4!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 4: Godot Movement & Logical Operators activated successfully!",
+        "required_output_text": "Activated Session 4!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 4: Godot Movement & Logical Operators Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4: Godot Movement & Logical Operators'. Specifically, design a feature demonstrating: 'Player Vector Movement' using the starter template below!",
-        "code": "# Home Challenge: Session 4: Godot Movement & Logical Operators Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 4: Godot Movement & Logical Operators Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 4",
+        "desc": "Practice Session 4 at home!",
+        "code": "// Home Challenge: Session 4",
+        "starter_code": "// Home Challenge: Session 4"
       }
     },
     {
       "id": 5,
-      "badge_icon": "🎯",
-      "badge_title": "Session 5: Software Development Life Cycle (SDLC) for Games Medal",
-      "title": "Station 5: Session 5: Software Development Life Cycle (SDLC) for Games",
-      "desc": "Pong Game GDD Design",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 5: Software Development Life Cycle (SDLC) for Games</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📋 <b>Game Design Document (GDD)</b>: A roadmap document detailing how mechanics, sound, levels, and rules interact, ensuring team coordination prior to full coding.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Map design ideas</li><li>🎯 Define development loops</li><li>🎯 Establish MVP rules</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>planning</code></li><li><code>design</code></li><li><code>testing</code></li><li><code>polishing</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Pong Game GDD Design</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> GDD definition for Pong: defining speed, paddle controls, and boundary collision guidelines.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Game Design Document (GDD) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 5: Software Development Life Cycle (SDLC) for Games activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 5: Software Development Life Cycle (SDLC) for Games activated successfully!</code> to unlock the Session 5: Software Development Life Cycle (SDLC) for Games medal!",
-      "starter_code": "# Simulate Session 5: Software Development Life Cycle (SDLC) for Games activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 5 Medal",
+      "title": "Station 5: Session 5: Core Concepts",
+      "desc": "Interactive Session 5: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 5: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 5</div>",
+      "simple": "Imagine Session 5: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 5!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 5!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 5!\")",
       "pills": [
         {
-          "label": "Activate Session 5: Software Development Life Cycle (SDLC) for Games",
-          "code": "print(\"Session 5: Software Development Life Cycle (SDLC) for Games activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 5!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 5: Software Development Life Cycle (SDLC) for Games activated successfully!",
+        "required_output_text": "Activated Session 5!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 5: Software Development Life Cycle (SDLC) for Games Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5: Software Development Life Cycle (SDLC) for Games'. Specifically, design a feature demonstrating: 'Game Design Document (GDD)' using the starter template below!",
-        "code": "# Home Challenge: Session 5: Software Development Life Cycle (SDLC) for Games Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 5: Software Development Life Cycle (SDLC) for Games Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 5",
+        "desc": "Practice Session 5 at home!",
+        "code": "// Home Challenge: Session 5",
+        "starter_code": "// Home Challenge: Session 5"
       }
     },
     {
       "id": 6,
-      "badge_icon": "📱",
-      "badge_title": "Session 6: Creating and Customizing UI Medal",
-      "title": "Station 6: Session 6: Creating and Customizing UI",
-      "desc": "Interactive Score Banner",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 6: Creating and Customizing UI</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🖥️ <b>Control Nodes & CanvasLayers</b>: UI layout nodes like Labels and Buttons remain locked to the viewer screen via CanvasLayers, ignoring camera rotations.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Add CanvasLayer root</li><li>🎯 Deploy Score Labels</li><li>🎯 Set up margins and layout anchors</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>CanvasLayer</code></li><li><code>Label</code></li><li><code>set_text()</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Interactive Score Banner</div><br><h4>💻 Starter Code Block - Control Nodes & CanvasLayers:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>$ScoreLabel.text = \"Score: \" + str(score)</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Control Nodes & CanvasLayers is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 6: Creating and Customizing UI activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 6: Creating and Customizing UI activated successfully!</code> to unlock the Session 6: Creating and Customizing UI medal!",
-      "starter_code": "# Simulate Session 6: Creating and Customizing UI activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 6 Medal",
+      "title": "Station 6: Session 6: Core Concepts",
+      "desc": "Interactive Session 6: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 6: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 6</div>",
+      "simple": "Imagine Session 6: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 6!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 6!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 6!\")",
       "pills": [
         {
-          "label": "Activate Session 6: Creating and Customizing UI",
-          "code": "print(\"Session 6: Creating and Customizing UI activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 6!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 6: Creating and Customizing UI activated successfully!",
+        "required_output_text": "Activated Session 6!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 6: Creating and Customizing UI Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6: Creating and Customizing UI'. Specifically, design a feature demonstrating: 'Control Nodes & CanvasLayers' using the starter template below!",
-        "code": "# Home Challenge: Session 6: Creating and Customizing UI Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 6: Creating and Customizing UI Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 6",
+        "desc": "Practice Session 6 at home!",
+        "code": "// Home Challenge: Session 6",
+        "starter_code": "// Home Challenge: Session 6"
       }
     },
     {
       "id": 7,
-      "badge_icon": "📱",
-      "badge_title": "Session 7: User Interface Programming in Godot Medal",
-      "title": "Station 7: Session 7: User Interface Programming in Godot",
-      "desc": "Interactive Main Menu Screen",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 7: User Interface Programming in Godot</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🔌 <b>Node Signal Connections</b>: Signals are Godot's event system that emit messages when nodes perform actions (like clicking buttons), triggering target functions.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Connect UI button signals</li><li>🎯 Handle button clicked triggers</li><li>🎯 Open and change scene targets</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>button_pressed()</code></li><li><code>get_tree().change_scene_to_file()</code></li><li><code>emit_signal()</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Interactive Main Menu Screen</div><br><h4>💻 Starter Code Block - Node Signal Connections:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>func _on_pressed():\n    get_tree().change_scene_to_file(\"res://game.tscn\")</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Node Signal Connections is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 7: User Interface Programming in Godot activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 7: User Interface Programming in Godot activated successfully!</code> to unlock the Session 7: User Interface Programming in Godot medal!",
-      "starter_code": "# Simulate Session 7: User Interface Programming in Godot activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 7 Medal",
+      "title": "Station 7: Session 7: Core Concepts",
+      "desc": "Interactive Session 7: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 7: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 7</div>",
+      "simple": "Imagine Session 7: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 7!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 7!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 7!\")",
       "pills": [
         {
-          "label": "Activate Session 7: User Interface Programming in Godot",
-          "code": "print(\"Session 7: User Interface Programming in Godot activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 7!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 7: User Interface Programming in Godot activated successfully!",
+        "required_output_text": "Activated Session 7!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 7: User Interface Programming in Godot Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7: User Interface Programming in Godot'. Specifically, design a feature demonstrating: 'Node Signal Connections' using the starter template below!",
-        "code": "# Home Challenge: Session 7: User Interface Programming in Godot Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 7: User Interface Programming in Godot Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 7",
+        "desc": "Practice Session 7 at home!",
+        "code": "// Home Challenge: Session 7",
+        "starter_code": "// Home Challenge: Session 7"
       }
     },
     {
       "id": 8,
-      "badge_icon": "🔊",
-      "badge_title": "Session 8: Game Sound and Audio Medal",
-      "title": "Station 8: Session 8: Game Sound and Audio",
-      "desc": "Sound Emitters for Collisions",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 8: Game Sound and Audio</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🔊 <b>Audio Streams</b>: Triggering sound effect files dynamically to signal events like hits, background tracks, or level transitions to the user.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Deploy AudioStreamPlayer2D node</li><li>🎯 Import sound wave assets</li><li>🎯 Trigger play streams in scripts</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>AudioStreamPlayer2D</code></li><li><code>play()</code></li><li><code>stop()</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Sound Emitters for Collisions</div><br><h4>💻 Starter Code Block - Audio Streams:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>$HitSoundPlayer.play()</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Audio Streams is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 8: Game Sound and Audio activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 8: Game Sound and Audio activated successfully!</code> to unlock the Session 8: Game Sound and Audio medal!",
-      "starter_code": "# Simulate Session 8: Game Sound and Audio activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 8 Medal",
+      "title": "Station 8: Session 8: Core Concepts",
+      "desc": "Interactive Session 8: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 8: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 8</div>",
+      "simple": "Imagine Session 8: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 8!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 8!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 8!\")",
       "pills": [
         {
-          "label": "Activate Session 8: Game Sound and Audio",
-          "code": "print(\"Session 8: Game Sound and Audio activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 8!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 8: Game Sound and Audio activated successfully!",
+        "required_output_text": "Activated Session 8!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 8: Game Sound and Audio Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8: Game Sound and Audio'. Specifically, design a feature demonstrating: 'Audio Streams' using the starter template below!",
-        "code": "# Home Challenge: Session 8: Game Sound and Audio Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 8: Game Sound and Audio Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 8",
+        "desc": "Practice Session 8 at home!",
+        "code": "// Home Challenge: Session 8",
+        "starter_code": "// Home Challenge: Session 8"
       }
     },
     {
       "id": 9,
-      "badge_icon": "🎯",
-      "badge_title": "Session 9: Cameras & Parallax Backgrounds Medal",
-      "title": "Station 9: Session 9: Cameras & Parallax Backgrounds",
-      "desc": "Parallax Scrolling City backdrop",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 9: Cameras & Parallax Backgrounds</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎥 <b>Parallax Visual Depth</b>: Simulating depth by moving distant layers (like clouds or far buildings) slower than foreground player cameras.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Add Camera2D camera follow</li><li>🎯 Create layered ParallaxBackgrounds</li><li>🎯 Match parallax factor speed</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>Camera2D</code></li><li><code>ParallaxBackground</code></li><li><code>ParallaxLayer</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Parallax Scrolling City backdrop</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Set ParallaxLayer scale factors to (0.1, 0.1) for clouds, and (0.8, 0.8) for nearby trees.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Parallax Visual Depth is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 9: Cameras & Parallax Backgrounds activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 9: Cameras & Parallax Backgrounds activated successfully!</code> to unlock the Session 9: Cameras & Parallax Backgrounds medal!",
-      "starter_code": "# Simulate Session 9: Cameras & Parallax Backgrounds activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 9 Medal",
+      "title": "Station 9: Session 9: Core Concepts",
+      "desc": "Interactive Session 9: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 9: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 9</div>",
+      "simple": "Imagine Session 9: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 9!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 9!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 9!\")",
       "pills": [
         {
-          "label": "Activate Session 9: Cameras & Parallax Backgrounds",
-          "code": "print(\"Session 9: Cameras & Parallax Backgrounds activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 9!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 9: Cameras & Parallax Backgrounds activated successfully!",
+        "required_output_text": "Activated Session 9!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 9: Cameras & Parallax Backgrounds Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9: Cameras & Parallax Backgrounds'. Specifically, design a feature demonstrating: 'Parallax Visual Depth' using the starter template below!",
-        "code": "# Home Challenge: Session 9: Cameras & Parallax Backgrounds Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 9: Cameras & Parallax Backgrounds Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 9",
+        "desc": "Practice Session 9 at home!",
+        "code": "// Home Challenge: Session 9",
+        "starter_code": "// Home Challenge: Session 9"
       }
     },
     {
       "id": 10,
-      "badge_icon": "📱",
-      "badge_title": "Session 10: Building Pong: Part 1 - Mechanics & Physics Medal",
-      "title": "Station 10: Session 10: Building Pong: Part 1 - Mechanics & Physics",
-      "desc": "Ball Physics & Collision boundaries",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 10: Building Pong: Part 1 - Mechanics & Physics</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>⚽ <b>Ball Velocity Calculations</b>: Using velocity vector properties and bounce mechanisms inside physical boundaries to keep the ball in motion.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Set up StaticBody2D paddles</li><li>🎯 Set up CharacterBody2D ball</li><li>🎯 Add bouncy physics material</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>StaticBody2D</code></li><li><code>CollisionShape2D</code></li><li><code>bounce()</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Ball Physics & Collision boundaries</div><br><h4>💻 Starter Code Block - Ball Velocity Calculations:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>velocity = velocity.bounce(collision.get_normal())</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Ball Velocity Calculations is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 10: Building Pong: Part 1 - Mechanics & Physics activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 10: Building Pong: Part 1 - Mechanics & Physics activated successfully!</code> to unlock the Session 10: Building Pong: Part 1 - Mechanics & Physics medal!",
-      "starter_code": "# Simulate Session 10: Building Pong: Part 1 - Mechanics & Physics activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 10 Medal",
+      "title": "Station 10: Session 10: Core Concepts",
+      "desc": "Interactive Session 10: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 10: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 10</div>",
+      "simple": "Imagine Session 10: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 10!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 10!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 10!\")",
       "pills": [
         {
-          "label": "Activate Session 10: Building Pong: Part 1 - Mechanics & Physics",
-          "code": "print(\"Session 10: Building Pong: Part 1 - Mechanics & Physics activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 10!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 10: Building Pong: Part 1 - Mechanics & Physics activated successfully!",
+        "required_output_text": "Activated Session 10!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 10: Building Pong: Part 1 - Mechanics & Physics Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10: Building Pong: Part 1 - Mechanics & Physics'. Specifically, design a feature demonstrating: 'Ball Velocity Calculations' using the starter template below!",
-        "code": "# Home Challenge: Session 10: Building Pong: Part 1 - Mechanics & Physics Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 10: Building Pong: Part 1 - Mechanics & Physics Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 10",
+        "desc": "Practice Session 10 at home!",
+        "code": "// Home Challenge: Session 10",
+        "starter_code": "// Home Challenge: Session 10"
       }
     },
     {
       "id": 11,
-      "badge_icon": "🎨",
-      "badge_title": "Session 11: Polishing Your Game: VFX & Particles Medal",
-      "title": "Station 11: Session 11: Polishing Your Game: VFX & Particles",
-      "desc": "Particle Blast on Ball Collisions",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 11: Polishing Your Game: VFX & Particles</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>✨ <b>Visual FX (VFX) Burst</b>: Using GPUParticles2D emitters to spray lightweight coordinate sparkles or dust shapes upon action impacts.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Set up GPUParticles2D particle node</li><li>🎯 Design explosive hit effects</li><li>🎯 Emit hit bursts dynamically</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>GPUParticles2D</code></li><li><code>emitting = true</code></li><li><code>one_shot = true</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Particle Blast on Ball Collisions</div><br><h4>💻 Starter Code Block - Visual FX (VFX) Burst:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>$SparkleParticles.emitting = true</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Visual FX (VFX) Burst is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 11: Polishing Your Game: VFX & Particles activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 11: Polishing Your Game: VFX & Particles activated successfully!</code> to unlock the Session 11: Polishing Your Game: VFX & Particles medal!",
-      "starter_code": "# Simulate Session 11: Polishing Your Game: VFX & Particles activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 11 Medal",
+      "title": "Station 11: Session 11: Core Concepts",
+      "desc": "Interactive Session 11: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 11: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 11</div>",
+      "simple": "Imagine Session 11: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 11!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 11!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 11!\")",
       "pills": [
         {
-          "label": "Activate Session 11: Polishing Your Game: VFX & Particles",
-          "code": "print(\"Session 11: Polishing Your Game: VFX & Particles activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 11!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 11: Polishing Your Game: VFX & Particles activated successfully!",
+        "required_output_text": "Activated Session 11!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 11: Polishing Your Game: VFX & Particles Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11: Polishing Your Game: VFX & Particles'. Specifically, design a feature demonstrating: 'Visual FX (VFX) Burst' using the starter template below!",
-        "code": "# Home Challenge: Session 11: Polishing Your Game: VFX & Particles Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 11: Polishing Your Game: VFX & Particles Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 11",
+        "desc": "Practice Session 11 at home!",
+        "code": "// Home Challenge: Session 11",
+        "starter_code": "// Home Challenge: Session 11"
       }
     },
     {
       "id": 12,
-      "badge_icon": "📱",
-      "badge_title": "Session 12: Building Pong: Part 2 - Complete Loop Medal",
-      "title": "Station 12: Session 12: Building Pong: Part 2 - Complete Loop",
-      "desc": "Fully Playable Scoring Pong Game",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 12: Building Pong: Part 2 - Complete Loop</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🏆 <b>Win & Goal Check Zones</b>: Using Area2D zones to monitor and flag whenever ball body coordinates cross standard goal borders.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Detect left/right goal zones</li><li>🎯 Increment scoreboard tally</li><li>🎯 Reset positions for next turn</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>Area2D</code></li><li><code>_on_body_entered()</code></li><li><code>reset_round()</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Fully Playable Scoring Pong Game</div><br><h4>💻 Starter Code Block - Win & Goal Check Zones:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>func _on_body_entered(body):\n    body.global_position = Vector2(576, 324)</code></pre><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Win & Goal Check Zones is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
-      "hint": "Type in the editor: <code>print(\"Session 12: Building Pong: Part 2 - Complete Loop activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 12: Building Pong: Part 2 - Complete Loop activated successfully!</code> to unlock the Session 12: Building Pong: Part 2 - Complete Loop medal!",
-      "starter_code": "# Simulate Session 12: Building Pong: Part 2 - Complete Loop activation:\n",
+      "badge_icon": "??",
+      "badge_title": "Session 12 Medal",
+      "title": "Station 12: Session 12: Core Concepts",
+      "desc": "Interactive Session 12: Core Concepts",
+      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 12: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Godot Game Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 12</div>",
+      "simple": "Imagine Session 12: Core Concepts is like designing a beautiful machine!",
+      "hint": "Type: <code>print(\"Activated Session 12!\")</code>",
+      "challenge": "Print: <code>print(\"Activated Session 12!\")</code>",
+      "starter_code": "extends Node\n\nfunc _ready():\n    print(\"Activated Session 12!\")",
       "pills": [
         {
-          "label": "Activate Session 12: Building Pong: Part 2 - Complete Loop",
-          "code": "print(\"Session 12: Building Pong: Part 2 - Complete Loop activated successfully!\")"
+          "label": "Activate",
+          "code": "print(\"Activated Session 12!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 12: Building Pong: Part 2 - Complete Loop activated successfully!",
+        "required_output_text": "Activated Session 12!",
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 12: Building Pong: Part 2 - Complete Loop Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12: Building Pong: Part 2 - Complete Loop'. Specifically, design a feature demonstrating: 'Win & Goal Check Zones' using the starter template below!",
-        "code": "# Home Challenge: Session 12: Building Pong: Part 2 - Complete Loop Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 12: Building Pong: Part 2 - Complete Loop Simulator\n# Write your creative solution here!"
+        "title": "?? Magic Home Challenge: Session 12",
+        "desc": "Practice Session 12 at home!",
+        "code": "// Home Challenge: Session 12",
+        "starter_code": "// Home Challenge: Session 12"
       }
     }
   ]

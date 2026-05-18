@@ -1,560 +1,341 @@
 {
-  "course": "Unity Game Development",
-  "sessions": [
+  "course_id": "senior_unity",
+  "recaps": [
     {
-      "session_title": "💡 Session 1: Level 1 Session 1 - Unity Game Dev",
-      "targets": [
-        "Understand Level 1 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 1 Custom Game Sandbox",
-      "points": [
+      "id": 1,
+      "title": "Session 1 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 1 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 1, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 2: Level 1 Session 2 - Unity Game Dev",
-      "targets": [
-        "Understand Level 1 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 1 Custom Game Sandbox",
-      "points": [
+      "id": 2,
+      "title": "Session 2 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 1 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 2, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 3: Level 1 Session 3 - Unity Game Dev",
-      "targets": [
-        "Understand Level 1 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 1 Custom Game Sandbox",
-      "points": [
+      "id": 3,
+      "title": "Session 3 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 1 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 3, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 4: Level 1 Session 4 - Unity Game Dev",
-      "targets": [
-        "Understand Level 1 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 1 Custom Game Sandbox",
-      "points": [
+      "id": 4,
+      "title": "Session 4 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 1 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 1 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 4, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 5: Level 2 Session 1 - Unity Game Dev",
-      "targets": [
-        "Understand Level 2 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 2 Custom Game Sandbox",
-      "points": [
+      "id": 5,
+      "title": "Session 5 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 2 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 5, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 6: Level 2 Session 2 - Unity Game Dev",
-      "targets": [
-        "Understand Level 2 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 2 Custom Game Sandbox",
-      "points": [
+      "id": 6,
+      "title": "Session 6 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 2 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 6, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 7: Level 2 Session 3 - Unity Game Dev",
-      "targets": [
-        "Understand Level 2 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 2 Custom Game Sandbox",
-      "points": [
+      "id": 7,
+      "title": "Session 7 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 2 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 7, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 8: Level 2 Session 4 - Unity Game Dev",
-      "targets": [
-        "Understand Level 2 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 2 Custom Game Sandbox",
-      "points": [
+      "id": 8,
+      "title": "Session 8 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 2 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 2 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 8, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 9: Level 3 Session 1 - Unity Game Dev",
-      "targets": [
-        "Understand Level 3 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 3 Custom Game Sandbox",
-      "points": [
+      "id": 9,
+      "title": "Session 9 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 3 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 9, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 10: Level 3 Session 2 - Unity Game Dev",
-      "targets": [
-        "Understand Level 3 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 3 Custom Game Sandbox",
-      "points": [
+      "id": 10,
+      "title": "Session 10 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 3 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 10, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 11: Level 3 Session 3 - Unity Game Dev",
-      "targets": [
-        "Understand Level 3 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 3 Custom Game Sandbox",
-      "points": [
+      "id": 11,
+      "title": "Session 11 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 3 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 11, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 12: Level 3 Session 4 - Unity Game Dev",
-      "targets": [
-        "Understand Level 3 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 3 Custom Game Sandbox",
-      "points": [
+      "id": 12,
+      "title": "Session 12 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 3 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 3 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 12, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 13: Level 4 Session 1 - Unity Game Dev",
-      "targets": [
-        "Understand Level 4 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 4 Custom Game Sandbox",
-      "points": [
+      "id": 13,
+      "title": "Session 13 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 4 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 13, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 14: Level 4 Session 2 - Unity Game Dev",
-      "targets": [
-        "Understand Level 4 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 4 Custom Game Sandbox",
-      "points": [
+      "id": 14,
+      "title": "Session 14 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 4 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 14, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 15: Level 4 Session 3 - Unity Game Dev",
-      "targets": [
-        "Understand Level 4 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 4 Custom Game Sandbox",
-      "points": [
+      "id": 15,
+      "title": "Session 15 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 4 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 15, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 16: Level 4 Session 4 - Unity Game Dev",
-      "targets": [
-        "Understand Level 4 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 4 Custom Game Sandbox",
-      "points": [
+      "id": 16,
+      "title": "Session 16 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 4 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 4 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 16, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 17: Level 5 Session 1 - Unity Game Dev",
-      "targets": [
-        "Understand Level 5 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 5 Custom Game Sandbox",
-      "points": [
+      "id": 17,
+      "title": "Session 17 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 5 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 17, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 18: Level 5 Session 2 - Unity Game Dev",
-      "targets": [
-        "Understand Level 5 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 5 Custom Game Sandbox",
-      "points": [
+      "id": 18,
+      "title": "Session 18 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 5 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 18, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 19: Level 5 Session 3 - Unity Game Dev",
-      "targets": [
-        "Understand Level 5 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 5 Custom Game Sandbox",
-      "points": [
+      "id": 19,
+      "title": "Session 19 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 5 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 19, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 20: Level 5 Session 4 - Unity Game Dev",
-      "targets": [
-        "Understand Level 5 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 5 Custom Game Sandbox",
-      "points": [
+      "id": 20,
+      "title": "Session 20 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 5 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 5 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 20, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 21: Level 6 Session 1 - Unity Game Dev",
-      "targets": [
-        "Understand Level 6 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 6 Custom Game Sandbox",
-      "points": [
+      "id": 21,
+      "title": "Session 21 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 6 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 21, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 22: Level 6 Session 2 - Unity Game Dev",
-      "targets": [
-        "Understand Level 6 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 6 Custom Game Sandbox",
-      "points": [
+      "id": 22,
+      "title": "Session 22 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 6 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 22, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 23: Level 6 Session 3 - Unity Game Dev",
-      "targets": [
-        "Understand Level 6 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 6 Custom Game Sandbox",
-      "points": [
+      "id": 23,
+      "title": "Session 23 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 6 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 23, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     },
     {
-      "session_title": "💡 Session 24: Level 6 Session 4 - Unity Game Dev",
-      "targets": [
-        "Understand Level 6 Mechanics",
-        "Apply Unity C# variables",
-        "Polish game coordinates"
-      ],
-      "blocks": [
-        "GameObject",
-        "MonoBehaviour",
-        "Translate()",
-        "Vector3"
-      ],
-      "project": "Level 6 Custom Game Sandbox",
-      "points": [
+      "id": 24,
+      "title": "Session 24 Recap",
+      "sections": [
         {
-          "icon": "🕹️",
-          "title": "Unity Level 6 Core Concept",
-          "desc": "Configuring game models, physical coordinate constraints, and custom C# controllers for Level 6 gameplay.",
-          "code": "using UnityEngine;\n\npublic class PlayerController : MonoBehaviour {\n    void Update() {\n        float move = Input.GetAxis(\"Horizontal\") * 10f * Time.deltaTime;\n        transform.Translate(move, 0, 0);\n    }\n}"
+          "heading": "?? Core Concept",
+          "text": "In Session 24, we learned how to build robust systems and write clean code."
+        },
+        {
+          "heading": "?? Key Takeaway",
+          "text": "Practice makes perfect! Experiment with different variables and structures."
         }
       ]
     }
-  ],
-  "recap_title": "🎯 Quick & Visual Recap: Unity Game Development",
-  "recap_subtitle": "Welcome, hero! This is a quick review supported by programming examples and illustrations for each session you learned in the course to help you remember the concepts with ease and fun and prepare for the super exam! 🚀🌟",
-  "course_title": "Unity Game Development"
+  ]
 }

@@ -1,126 +1,116 @@
 {
-  "quiz_name": "Quiz 1: Editor Basics & 3D Space",
+  "quiz_id": "unity_quiz_1",
+  "quiz_title": "Quiz 1: Introduction to Unity & Bolt Scripting",
   "questions": [
     {
-      "q": "Which Unity component defines the physical GameObject in a 3D coordinate space?",
-      "opts": [
-        "Default GameObject",
-        "Aesthetic Transform coordinates",
-        "Standard 3D Camera viewport",
-        "Custom RigidBody physical gravity"
+      "id": 1,
+      "question": "What are the three main parts of any game, and which one is Unity? / ما هي المكونات الثلاثة الأساسية لأي لعبة، وأيها هو محرك يونيتي؟",
+      "options": [
+        "Player, Level, and Unity (the game engine) / اللاعب، المستوى، ومحرك يونيتي (محرك اللعبة)",
+        "Console, Assets, and Hub / شاشة المخرجات، الملفات، وموزع المشروعات",
+        "Aesthetic, Graphic, and Code / الشكل الجمالي، الرسوميات، والأكواد",
+        "Compiler, Variables, and Classes / المترجم، المتغيرات، والفئات البرمجية"
       ],
       "correct": 0,
-      "exp": "The physical GameObject parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Excellent! Every game has a Player who plays, a Creator who designs, and a Game Engine (Unity) that runs everything! / رائع! كل لعبة لها لاعب يلعب، وصانع يصمم، ومحرك ألعاب (يونيتي) يشغل كل شيء!"
     },
     {
-      "q": "Which Unity component defines the physical Transform coordinates in a 3D coordinate space?",
-      "opts": [
-        "Default GameObject",
-        "Aesthetic Transform coordinates",
-        "Standard 3D Camera viewport",
-        "Custom RigidBody physical gravity"
+      "id": 2,
+      "question": "Which C# function displays messages on our Console screen when the game starts? / أي دالة بلغة C# تستخدم لطباعة رسالة في لوحة الكونسول بمجرد بدء اللعبة؟",
+      "options": [
+        "Console.ReadLine()",
+        "Debug.Log()",
+        "GetComponent()",
+        "Destroy()"
       ],
       "correct": 1,
-      "exp": "The physical Transform coordinates parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Correct! We use Debug.Log('message') in Unity scripts to print info onto our Console window. / صحيح! نستخدم Debug.Log لطباعة الرسائل والمعلومات في لوحة الكونسول البرمجية!"
     },
     {
-      "q": "Which Unity component defines the physical 3D Camera viewport in a 3D coordinate space?",
-      "opts": [
-        "Default GameObject",
-        "Aesthetic Transform coordinates",
-        "Standard 3D Camera viewport",
-        "Custom RigidBody physical gravity"
+      "id": 3,
+      "question": "Which Unity editor window contains all elements (GameObjects) currently active inside your scene? / أي نافذة في محرر يونيتي تحتوي على جميع الكائنات الموجودة حالياً داخل المشهد؟",
+      "options": [
+        "Project Window / نافذة المشروع",
+        "Hierarchy Window / نافذة التسلسل الهرمي",
+        "Console Window / نافذة الكونسول",
+        "Asset Store / متجر الأصول"
       ],
-      "correct": 2,
-      "exp": "The physical 3D Camera viewport parameter manages layout alignments in 3D Unity worlds."
+      "correct": 1,
+      "explanation": "Perfect! The Hierarchy lists every active GameObject in the current open scene. / ممتاز! نافذة التسلسل الهرمي (Hierarchy) تسرد كل الكائنات النشطة في المشهد الحالي!"
     },
     {
-      "q": "Which Unity component defines the physical RigidBody physical gravity in a 3D coordinate space?",
-      "opts": [
-        "Default GameObject",
-        "Aesthetic Transform coordinates",
-        "Standard 3D Camera viewport",
-        "Custom RigidBody physical gravity"
+      "id": 4,
+      "question": "What is the Unity Asset Store used for? / في ماذا نستخدم متجر أصول يونيتي (Asset Store) الساحر؟",
+      "options": [
+        "To buy hardware for your PC / لشراء قطع غيار جديدة للحاسوب",
+        "To download characters, 3D models, textures, and sounds / لتحميل شخصيات، مجسمات، ألوان وأصوات جاهزة ومجانية",
+        "To write C# scripts / لكتابة السكربتات البرمجية",
+        "To build game executables / لتصدير اللعبة النهائية"
       ],
-      "correct": 3,
-      "exp": "The physical RigidBody physical gravity parameter manages layout alignments in 3D Unity worlds."
+      "correct": 1,
+      "explanation": "Bravo! The Asset Store is like a magic shop to import 3D models and character sprites. / رائع! متجر الأصول هو مثل متجر سحري للحصول على مجسمات وأشكال وشخصيات مذهلة!"
     },
     {
-      "q": "Which Unity component defines the physical GameObject in a 3D coordinate space?",
-      "opts": [
-        "Default GameObject",
-        "Aesthetic Transform coordinates",
-        "Standard 3D Camera viewport",
-        "Custom RigidBody physical gravity"
+      "id": 5,
+      "question": "What does Bolt visual scripting allow you to do? / ماذا يتيح لنا نظام البرمجة المرئية Bolt في يونيتي؟",
+      "options": [
+        "Create games without writing text code by connecting visual nodes / برمجة منطق اللعبة بالكامل عبر توصيل البلوكات والعقد التفاعلية بدون أكواد نصية معقدة",
+        "Make the computer faster / جعل الحاسوب يعمل بسرعة خارقة",
+        "Delete Unity scripts automatically / حذف الأكواد والملفات تلقائياً",
+        "Draw 3D characters / رسم وتصميم الشخصيات ثلاثية الأبعاد"
       ],
       "correct": 0,
-      "exp": "The physical GameObject parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Splendid! Bolt lets you program by linking visual nodes with line flows instead of writing raw text. / مذهل! يتيح Bolt البرمجة المرئية عبر توصيل الصناديق والخطوط لتبسيط الأفكار للأبطال!"
     },
     {
-      "q": "Which Unity component defines the physical Transform coordinates in a 3D coordinate space?",
-      "opts": [
-        "Default GameObject",
-        "Aesthetic Transform coordinates",
-        "Standard 3D Camera viewport",
-        "Custom RigidBody physical gravity"
+      "id": 6,
+      "question": "Which Bolt node represents an action that happens once at the very start of the game? / أي عقدة في Bolt تمثل أمراً يحدث مرة واحدة فقط عند بدء تشغيل اللعبة مباشرة؟",
+      "options": [
+        "On Update Event / عقدة التحديث المستمر",
+        "On Start Event / عقدة البداية الأولى",
+        "Rotate Node / عقدة الدوران",
+        "Translate Node / عقدة الحركة"
       ],
       "correct": 1,
-      "exp": "The physical Transform coordinates parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Great! The On Start event node triggers its flow lines once when the GameObject is initialized. / رائع! عقدة Start تفعل التدفق مرة واحدة فقط عند تشغيل اللعبة لأول مرة!"
     },
     {
-      "q": "Which Unity component defines the physical 3D Camera viewport in a 3D coordinate space?",
-      "opts": [
-        "Default GameObject",
-        "Aesthetic Transform coordinates",
-        "Standard 3D Camera viewport",
-        "Custom RigidBody physical gravity"
-      ],
-      "correct": 2,
-      "exp": "The physical 3D Camera viewport parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical RigidBody physical gravity in a 3D coordinate space?",
-      "opts": [
-        "Default GameObject",
-        "Aesthetic Transform coordinates",
-        "Standard 3D Camera viewport",
-        "Custom RigidBody physical gravity"
-      ],
-      "correct": 3,
-      "exp": "The physical RigidBody physical gravity parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical GameObject in a 3D coordinate space?",
-      "opts": [
-        "Default GameObject",
-        "Aesthetic Transform coordinates",
-        "Standard 3D Camera viewport",
-        "Custom RigidBody physical gravity"
-      ],
-      "correct": 0,
-      "exp": "The physical GameObject parameter manages layout alignments in 3D Unity worlds."
-    },
-    {
-      "q": "Which Unity component defines the physical Transform coordinates in a 3D coordinate space?",
-      "opts": [
-        "Default GameObject",
-        "Aesthetic Transform coordinates",
-        "Standard 3D Camera viewport",
-        "Custom RigidBody physical gravity"
+      "id": 7,
+      "question": "To rotate a planet around its vertical axis (Up/Down) in Unity, which axis of the Vector3 do we rotate? / لتدوير كوكب حول محوره الرأسي (أعلى/أسفل) في الفضاء، أي محور في المتجه Vector3 نقوم بتدويره؟",
+      "options": [
+        "X axis / المحور الأفقي X",
+        "Y axis / المحور الرأسي Y",
+        "Z axis / المحور العميق Z",
+        "W axis / المحور الرابع W"
       ],
       "correct": 1,
-      "exp": "The physical Transform coordinates parameter manages layout alignments in 3D Unity worlds."
+      "explanation": "Superb! The Y-axis represents the vertical axis; rotating it makes objects spin like a top! / عبقري! المحور Y هو المحور الرأسي، وتدويره يجعل المجسمات تدور حول نفسها كالنحلة الدوارة!"
+    },
+    {
+      "id": 8,
+      "question": "Why do we multiply movement or rotation speed by 'Time.deltaTime' in Unity? / لماذا نضرب قيم الحركة والدوران في 'Time.deltaTime' في يونيتي؟",
+      "options": [
+        "To make the game looks beautiful / لجعل شكل اللعبة جميلاً فقط",
+        "To ensure consistent speed on all computers, regardless of frame rates / لضمان حركة سلسة وبنفس السرعة على جميع الأجهزة مهما كانت سرعة معالجاتها",
+        "To pause the game / لإيقاف اللعبة مؤقتاً",
+        "To double the player's health / لمضاعفة صحة وطاقة اللاعب"
+      ],
+      "correct": 1,
+      "explanation": "Outstanding! Time.deltaTime adjusts movement based on real seconds, making speed independent of frame rates. / ممتاز! يضمن Time.deltaTime تحرك الأشياء بسرعة موحدة وسلسة على كل الأجهزة!"
+    },
+    {
+      "id": 9,
+      "type": "task",
+      "question": "Simple Coding Task: Write a C# script template that prints 'Greetings Hero' using Debug.Log inside the Start function. / مهمة برمجية: اكتب جملة طباعة Debug.Log لطباعة 'Greetings Hero'!",
+      "task_hint": "Write: Debug.Log(\"Greetings Hero\");",
+      "explanation": "Perfect! In C# we write Debug.Log() with a semicolon at the end of the statement! / مذهل! في لغة C# ننهي السطور دائماً بالفصلة المنقوطة Semicolon (;)!"
+    },
+    {
+      "id": 10,
+      "type": "task",
+      "question": "Visual Flow Task: Describe how to connect a custom visual flow in Bolt to move a player: On Update Event connects to what node? / مهمة التدفق: حدد العقدة التي نصلها بعقدة On Update لتحريك كائن؟",
+      "task_hint": "Connect 'On Update Event' to 'Translate' or 'Rotate' node",
+      "explanation": "Spot on! Connecting the flow output of 'On Update Event' to a 'Translate' node applies movement frame-by-frame. / رائع! ربط حدث التحديث بعقدة الحركة (Translate) يجعل الحركة مستمرة مع كل إطار!"
     }
-  ],
-  "tasks": [
-    {
-      "title": "C# Player Translation script",
-      "desc": "Write a C# script update loop that captures inputs and calls transform.Translate along the horizontal axis."
-    },
-    {
-      "title": "Trigger Collider Event handler",
-      "desc": "Write a C# OnTriggerEnter script block that logs when obstacles crash into physical bounds."
-    }
-  ],
-  "quiz_title": "Unity Game Development - Challenge 1"
+  ]
 }
