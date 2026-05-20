@@ -1,126 +1,71 @@
 {
-  "quiz_name": "Quiz 5: Persistence & Cache Storage",
+  "quiz_title": "Web Design - Quiz 5: Typography & Advanced Layout",
+  "quiz_name": "Quiz 5: Typography & Advanced Layout",
   "questions": [
     {
-      "q": "Which component handles standard 'Local Caches' properties in Web Design (HTML/CSS)?",
+      "q": "Which typography property controls reading directions like right-to-left for Arabic?",
       "opts": [
-        "Aesthetic Local Caches Controller",
-        "Default Local Caches Interface",
-        "Custom Local Caches Data Handler",
-        "Standard Local Caches Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'JSON Parsing' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic JSON Parsing Controller",
-        "Default JSON Parsing Interface",
-        "Custom JSON Parsing Data Handler",
-        "Standard JSON Parsing Wrapper"
+        "text-align",
+        "direction: rtl;",
+        "text-transform",
+        "letter-spacing"
       ],
       "correct": 1,
-      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Web Design (HTML/CSS) framework."
+      "exp": "direction: rtl; aligns reading structures from right-to-left, which is required for Arabic fonts!"
     },
     {
-      "q": "Which component handles standard 'Async operations' properties in Web Design (HTML/CSS)?",
+      "q": "What happens when you set text-transform to capitalize?",
       "opts": [
-        "Aesthetic Async operations Controller",
-        "Default Async operations Interface",
-        "Custom Async operations Data Handler",
-        "Standard Async operations Wrapper"
+        "All letters become uppercase",
+        "All letters become lowercase",
+        "The first letter of every word becomes uppercase",
+        "No changes occur"
       ],
       "correct": 2,
-      "exp": "The 'Async operations' component is designed to manage functional Async operations layers inside the Web Design (HTML/CSS) framework."
+      "exp": "capitalize changes the first letter of each word to uppercase, while uppercase changes all letters!"
     },
     {
-      "q": "Which component handles standard 'Key lookups' properties in Web Design (HTML/CSS)?",
+      "q": "Which property aligns elements left/right of their container and allows text wrapping?",
       "opts": [
-        "Aesthetic Key lookups Controller",
-        "Default Key lookups Interface",
-        "Custom Key lookups Data Handler",
-        "Standard Key lookups Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Key lookups' component is designed to manage functional Key lookups layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Local Caches' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Local Caches Controller",
-        "Default Local Caches Interface",
-        "Custom Local Caches Data Handler",
-        "Standard Local Caches Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'JSON Parsing' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic JSON Parsing Controller",
-        "Default JSON Parsing Interface",
-        "Custom JSON Parsing Data Handler",
-        "Standard JSON Parsing Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Async operations' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Async operations Controller",
-        "Default Async operations Interface",
-        "Custom Async operations Data Handler",
-        "Standard Async operations Wrapper"
+        "clear",
+        "overflow",
+        "float",
+        "display"
       ],
       "correct": 2,
-      "exp": "The 'Async operations' component is designed to manage functional Async operations layers inside the Web Design (HTML/CSS) framework."
+      "exp": "float allows elements (like images) to hug borders, letting textual paragraphs wrap smoothly around them!"
     },
     {
-      "q": "Which component handles standard 'Key lookups' properties in Web Design (HTML/CSS)?",
+      "q": "Which overflow value adds scrollbars to a box ONLY when content exceeds size bounds?",
       "opts": [
-        "Aesthetic Key lookups Controller",
-        "Default Key lookups Interface",
-        "Custom Key lookups Data Handler",
-        "Standard Key lookups Wrapper"
+        "visible",
+        "hidden",
+        "scroll",
+        "auto"
       ],
       "correct": 3,
-      "exp": "The 'Key lookups' component is designed to manage functional Key lookups layers inside the Web Design (HTML/CSS) framework."
+      "exp": "overflow: auto; is smart! It only shows scrollbars if the text is too large to fit in the box."
     },
     {
-      "q": "Which component handles standard 'Local Caches' properties in Web Design (HTML/CSS)?",
+      "q": "Which pseudo-class styles a hyperlink when the user's cursor hovering over it?",
       "opts": [
-        "Aesthetic Local Caches Controller",
-        "Default Local Caches Interface",
-        "Custom Local Caches Data Handler",
-        "Standard Local Caches Wrapper"
+        "a:active",
+        "a:visited",
+        "a:hover",
+        "a:focus"
       ],
-      "correct": 0,
-      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'JSON Parsing' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic JSON Parsing Controller",
-        "Default JSON Parsing Interface",
-        "Custom JSON Parsing Data Handler",
-        "Standard JSON Parsing Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Web Design (HTML/CSS) framework."
+      "correct": 2,
+      "exp": "a:hover activates styling rules the instant a student hovers their cursor over link buttons!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Local Caches Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Local Caches properties inside the Web Design (HTML/CSS) setup."
+      "title": "Style navigation items",
+      "desc": "Design a block link element transforming color and decoration on hover."
     },
     {
-      "title": "Optimize JSON Parsing Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize JSON Parsing operations for user-centered design."
+      "title": "Adjust letter spacing",
+      "desc": "Add letter spacing and bold font-weight to headers."
     }
-  ],
-  "quiz_title": "Web Design (HTML/CSS) - Challenge 5"
+  ]
 }

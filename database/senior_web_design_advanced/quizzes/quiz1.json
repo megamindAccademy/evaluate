@@ -1,126 +1,71 @@
 {
-  "quiz_name": "Quiz 1: Fundamentals & Core Architecture",
+  "quiz_title": "Web Design Advanced - Quiz 1: Bootstrap & CSS Flexbox",
+  "quiz_name": "Quiz 1: Bootstrap & CSS Flexbox",
   "questions": [
     {
-      "q": "Which component handles standard 'Basic Setup' properties in Web Design Advanced?",
+      "q": "What tag is used to link the Bootstrap CSS framework from a CDN?",
       "opts": [
-        "Aesthetic Basic Setup Controller",
-        "Default Basic Setup Interface",
-        "Custom Basic Setup Data Handler",
-        "Standard Basic Setup Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Basic Setup' component is designed to manage functional Basic Setup layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Key Features' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Key Features Controller",
-        "Default Key Features Interface",
-        "Custom Key Features Data Handler",
-        "Standard Key Features Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'Key Features' component is designed to manage functional Key Features layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Variables' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Variables Controller",
-        "Default Variables Interface",
-        "Custom Variables Data Handler",
-        "Standard Variables Wrapper"
+        "&lt;script&gt;",
+        "&lt;style&gt;",
+        "&lt;link rel=\"stylesheet\" href=\"...\"&gt;",
+        "&lt;meta&gt;"
       ],
       "correct": 2,
-      "exp": "The 'Variables' component is designed to manage functional Variables layers inside the Web Design Advanced framework."
+      "exp": "To link Bootstrap CDN stylesheets, we use a link tag inside the &lt;head&gt; section!"
     },
     {
-      "q": "Which component handles standard 'Initial Config' properties in Web Design Advanced?",
+      "q": "Which parent display initializes the Flexbox layout system?",
       "opts": [
-        "Aesthetic Initial Config Controller",
-        "Default Initial Config Interface",
-        "Custom Initial Config Data Handler",
-        "Standard Initial Config Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Initial Config' component is designed to manage functional Initial Config layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Basic Setup' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Basic Setup Controller",
-        "Default Basic Setup Interface",
-        "Custom Basic Setup Data Handler",
-        "Standard Basic Setup Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Basic Setup' component is designed to manage functional Basic Setup layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Key Features' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Key Features Controller",
-        "Default Key Features Interface",
-        "Custom Key Features Data Handler",
-        "Standard Key Features Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'Key Features' component is designed to manage functional Key Features layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Variables' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Variables Controller",
-        "Default Variables Interface",
-        "Custom Variables Data Handler",
-        "Standard Variables Wrapper"
+        "display: block;",
+        "display: inline-block;",
+        "display: flex;",
+        "display: grid;"
       ],
       "correct": 2,
-      "exp": "The 'Variables' component is designed to manage functional Variables layers inside the Web Design Advanced framework."
+      "exp": "display: flex; tells the browser to arrange all direct children of this container as flexible items."
     },
     {
-      "q": "Which component handles standard 'Initial Config' properties in Web Design Advanced?",
+      "q": "Which property wraps flex items onto a new line when they run out of space?",
       "opts": [
-        "Aesthetic Initial Config Controller",
-        "Default Initial Config Interface",
-        "Custom Initial Config Data Handler",
-        "Standard Initial Config Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Initial Config' component is designed to manage functional Initial Config layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Basic Setup' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Basic Setup Controller",
-        "Default Basic Setup Interface",
-        "Custom Basic Setup Data Handler",
-        "Standard Basic Setup Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Basic Setup' component is designed to manage functional Basic Setup layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Key Features' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Key Features Controller",
-        "Default Key Features Interface",
-        "Custom Key Features Data Handler",
-        "Standard Key Features Wrapper"
+        "flex-direction",
+        "flex-wrap: wrap;",
+        "justify-content",
+        "align-items"
       ],
       "correct": 1,
-      "exp": "The 'Key Features' component is designed to manage functional Key Features layers inside the Web Design Advanced framework."
+      "exp": "flex-wrap: wrap; wraps child items to fresh rows dynamically as soon as container widths fill up!"
+    },
+    {
+      "q": "Which justify-content value distributes space evenly, leaving equal gaps between and around boxes?",
+      "opts": [
+        "flex-start",
+        "center",
+        "space-between",
+        "space-around"
+      ],
+      "correct": 3,
+      "exp": "space-around distributes items evenly, leaving standard spaces on both sides of each flex box!"
+    },
+    {
+      "q": "If flex-direction is set to column, how do elements stack?",
+      "opts": [
+        "Horizontally",
+        "Vertically on top of each other",
+        "Flipped backward",
+        "Diagonal layouts"
+      ],
+      "correct": 1,
+      "exp": "Setting column direction rotates axes, stacking boxes vertically like building blocks!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Basic Setup Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Basic Setup properties inside the Web Design Advanced setup."
+      "title": "Link Bootstrap",
+      "desc": "Write a clean Bootstrap link tag in head section."
     },
     {
-      "title": "Optimize Key Features Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize Key Features operations for user-centered design."
+      "title": "Center flex box",
+      "desc": "Align elements centered horizontally and vertically using flex."
     }
-  ],
-  "quiz_title": "Web Design Advanced - Challenge 1"
+  ]
 }

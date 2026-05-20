@@ -1,126 +1,71 @@
 {
-  "quiz_name": "Quiz 6: API Feeds & Advanced Capstone",
+  "quiz_title": "Web Design - Quiz 6: Positioning & Visual Animations",
+  "quiz_name": "Quiz 6: Positioning & Visual Animations",
   "questions": [
     {
-      "q": "Which component handles standard 'HTTP Requests' properties in Web Design (HTML/CSS)?",
+      "q": "Which position locks an element to a fixed spot relative to the viewport window?",
       "opts": [
-        "Aesthetic HTTP Requests Controller",
-        "Default HTTP Requests Interface",
-        "Custom HTTP Requests Data Handler",
-        "Standard HTTP Requests Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'REST API integration' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic REST API integration Controller",
-        "Default REST API integration Interface",
-        "Custom REST API integration Data Handler",
-        "Standard REST API integration Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Data streams' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Data streams Controller",
-        "Default Data streams Interface",
-        "Custom Data streams Data Handler",
-        "Standard Data streams Wrapper"
+        "static",
+        "relative",
+        "fixed",
+        "absolute"
       ],
       "correct": 2,
-      "exp": "The 'Data streams' component is designed to manage functional Data streams layers inside the Web Design (HTML/CSS) framework."
+      "exp": "position: fixed; sticks elements (like sticky headers) to screen borders, ignoring page scroll moves!"
     },
     {
-      "q": "Which component handles standard 'Final Deployment' properties in Web Design (HTML/CSS)?",
+      "q": "What rule defines the visual states of a CSS animation at specific percentage timeline frames?",
       "opts": [
-        "Aesthetic Final Deployment Controller",
-        "Default Final Deployment Interface",
-        "Custom Final Deployment Data Handler",
-        "Standard Final Deployment Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Final Deployment' component is designed to manage functional Final Deployment layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'HTTP Requests' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic HTTP Requests Controller",
-        "Default HTTP Requests Interface",
-        "Custom HTTP Requests Data Handler",
-        "Standard HTTP Requests Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'REST API integration' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic REST API integration Controller",
-        "Default REST API integration Interface",
-        "Custom REST API integration Data Handler",
-        "Standard REST API integration Wrapper"
+        "@animate",
+        "@keyframes",
+        "@transitions",
+        "@pulse"
       ],
       "correct": 1,
-      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Web Design (HTML/CSS) framework."
+      "exp": "The @keyframes rule declares what elements look like at points along the timeline (e.g. 0%, 50%, 100%)!"
     },
     {
-      "q": "Which component handles standard 'Data streams' properties in Web Design (HTML/CSS)?",
+      "q": "How do you loop a CSS animation infinitely?",
       "opts": [
-        "Aesthetic Data streams Controller",
-        "Default Data streams Interface",
-        "Custom Data streams Data Handler",
-        "Standard Data streams Wrapper"
-      ],
-      "correct": 2,
-      "exp": "The 'Data streams' component is designed to manage functional Data streams layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Final Deployment' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Final Deployment Controller",
-        "Default Final Deployment Interface",
-        "Custom Final Deployment Data Handler",
-        "Standard Final Deployment Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Final Deployment' component is designed to manage functional Final Deployment layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'HTTP Requests' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic HTTP Requests Controller",
-        "Default HTTP Requests Interface",
-        "Custom HTTP Requests Data Handler",
-        "Standard HTTP Requests Wrapper"
+        "animation-iteration-count: infinite;",
+        "animation-loop: true;",
+        "animation-repeat: forever;",
+        "animation-duration: infinite;"
       ],
       "correct": 0,
-      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Web Design (HTML/CSS) framework."
+      "exp": "Setting animation-iteration-count: infinite; makes your graphic spin, pulse, or move forever!"
     },
     {
-      "q": "Which component handles standard 'REST API integration' properties in Web Design (HTML/CSS)?",
+      "q": "What is the correct syntax for adding a drop-shadow glow to text?",
       "opts": [
-        "Aesthetic REST API integration Controller",
-        "Default REST API integration Interface",
-        "Custom REST API integration Data Handler",
-        "Standard REST API integration Wrapper"
+        "box-shadow",
+        "text-shadow: 2px 2px 5px red;",
+        "text-glow: red;",
+        "border-shadow"
       ],
       "correct": 1,
-      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Web Design (HTML/CSS) framework."
+      "exp": "text-shadow accepts horizontal offset (2px), vertical offset (2px), blur (5px), and color (red)!"
+    },
+    {
+      "q": "How do you load Font Awesome icons into a web page?",
+      "opts": [
+        "Using &lt;img&gt; elements",
+        "Linking the CDN inside &lt;head&gt; and using &lt;i&gt; class tags",
+        "Copy pasting the SVG files inside &lt;p&gt;",
+        "Icons load automatically in HTML"
+      ],
+      "correct": 1,
+      "exp": "Link the CDN inside head, and use class tags like &lt;i class=\"fas fa-fire\"&gt;&lt;/i&gt;!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement HTTP Requests Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard HTTP Requests properties inside the Web Design (HTML/CSS) setup."
+      "title": "Implement pulse animation",
+      "desc": "Write keyframes to scale element and assign to buttons infinitely."
     },
     {
-      "title": "Optimize REST API integration Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize REST API integration operations for user-centered design."
+      "title": "Design a shadow card",
+      "desc": "Style a box with box-shadow offsets and relative position."
     }
-  ],
-  "quiz_title": "Web Design (HTML/CSS) - Challenge 6"
+  ]
 }

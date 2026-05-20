@@ -1,126 +1,71 @@
 {
-  "quiz_name": "Quiz 4: Asset Integration & Styles",
+  "quiz_title": "Web Design Advanced - Quiz 4: JS Operators & Control Flow",
+  "quiz_name": "Quiz 4: JS Operators & Control Flow",
   "questions": [
     {
-      "q": "Which component handles standard 'Static Media' properties in Web Design Advanced?",
+      "q": "Which operator checks if two values are equal in JavaScript?",
       "opts": [
-        "Aesthetic Static Media Controller",
-        "Default Static Media Interface",
-        "Custom Static Media Data Handler",
-        "Standard Static Media Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Static Media' component is designed to manage functional Static Media layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Custom Styling' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Custom Styling Controller",
-        "Default Custom Styling Interface",
-        "Custom Custom Styling Data Handler",
-        "Standard Custom Styling Wrapper"
+        "=",
+        "==",
+        "===",
+        "match"
       ],
       "correct": 1,
-      "exp": "The 'Custom Styling' component is designed to manage functional Custom Styling layers inside the Web Design Advanced framework."
+      "exp": "The double equals (==) operator compares two values to see if they are equal!"
     },
     {
-      "q": "Which component handles standard 'Vector offsets' properties in Web Design Advanced?",
+      "q": "Which logical operator represents AND, requiring BOTH sides to be true?",
       "opts": [
-        "Aesthetic Vector offsets Controller",
-        "Default Vector offsets Interface",
-        "Custom Vector offsets Data Handler",
-        "Standard Vector offsets Wrapper"
+        "||",
+        "&&",
+        "!",
+        "++"
+      ],
+      "correct": 1,
+      "exp": "&& (AND) evaluates true ONLY if both left and right conditional criteria evaluate true!"
+    },
+    {
+      "q": "Which conditional block handles options if an IF statement evaluates false?",
+      "opts": [
+        "else if",
+        "else",
+        "switch",
+        "fallback"
+      ],
+      "correct": 1,
+      "exp": "The 'else' block holds fallback code triggered when the parent IF condition fails."
+    },
+    {
+      "q": "Which loop always executes its code block at least ONCE before validating parameters?",
+      "opts": [
+        "for loop",
+        "while loop",
+        "do-while loop",
+        "infinite loop"
       ],
       "correct": 2,
-      "exp": "The 'Vector offsets' component is designed to manage functional Vector offsets layers inside the Web Design Advanced framework."
+      "exp": "do-while loops run the block first, then check conditions at the bottom of the loop!"
     },
     {
-      "q": "Which component handles standard 'Color Themes' properties in Web Design Advanced?",
+      "q": "How do you increment a counter variable 'i' by 1 in loop syntax?",
       "opts": [
-        "Aesthetic Color Themes Controller",
-        "Default Color Themes Interface",
-        "Custom Color Themes Data Handler",
-        "Standard Color Themes Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Color Themes' component is designed to manage functional Color Themes layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Static Media' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Static Media Controller",
-        "Default Static Media Interface",
-        "Custom Static Media Data Handler",
-        "Standard Static Media Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Static Media' component is designed to manage functional Static Media layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Custom Styling' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Custom Styling Controller",
-        "Default Custom Styling Interface",
-        "Custom Custom Styling Data Handler",
-        "Standard Custom Styling Wrapper"
+        "i =+ 1",
+        "i++",
+        "i+1",
+        "i = 1"
       ],
       "correct": 1,
-      "exp": "The 'Custom Styling' component is designed to manage functional Custom Styling layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Vector offsets' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Vector offsets Controller",
-        "Default Vector offsets Interface",
-        "Custom Vector offsets Data Handler",
-        "Standard Vector offsets Wrapper"
-      ],
-      "correct": 2,
-      "exp": "The 'Vector offsets' component is designed to manage functional Vector offsets layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Color Themes' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Color Themes Controller",
-        "Default Color Themes Interface",
-        "Custom Color Themes Data Handler",
-        "Standard Color Themes Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Color Themes' component is designed to manage functional Color Themes layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Static Media' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Static Media Controller",
-        "Default Static Media Interface",
-        "Custom Static Media Data Handler",
-        "Standard Static Media Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Static Media' component is designed to manage functional Static Media layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Custom Styling' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Custom Styling Controller",
-        "Default Custom Styling Interface",
-        "Custom Custom Styling Data Handler",
-        "Standard Custom Styling Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'Custom Styling' component is designed to manage functional Custom Styling layers inside the Web Design Advanced framework."
+      "exp": "The increment operator i++ adds exactly 1 to variables, commonly used in loop counters!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Static Media Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Static Media properties inside the Web Design Advanced setup."
+      "title": "Write pass/fail logic",
+      "desc": "Create an IF statement logging grades based on scoring values."
     },
     {
-      "title": "Optimize Custom Styling Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize Custom Styling operations for user-centered design."
+      "title": "Create a counter",
+      "desc": "Write a loop repeating console logs exactly 5 times."
     }
-  ],
-  "quiz_title": "Web Design Advanced - Challenge 4"
+  ]
 }

@@ -3,211 +3,225 @@
   "recaps": [
     {
       "id": 1,
-      "title": "Session 1 Recap",
+      "title": "Session 1 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 1, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Build the skeleton of your web page using core HTML tags!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Create a profile page at home using a main heading <code>&lt;h1&gt;</code>, a short paragraph description about yourself <code>&lt;p&gt;</code>, and separate the sections with a horizontal rule <code>&lt;hr&gt;</code>!"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Session 2 Recap",
+      "title": "Session 2 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 2, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Make your pages colorful with images and navigate the web with links!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Write code at home that renders an image of your favorite hobby, followed by a link that opens a tutorial about it in a new tab!"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Session 3 Recap",
+      "title": "Session 3 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 3, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Keep your data perfectly organized in lists and structured tables!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Create a food shopping list using an ordered list `<ol>` reversed, followed by a table displaying 3 items and their prices with a header row!"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Session 4 Recap",
+      "title": "Session 4 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 4, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Embed sounds and movies directly into your page using HTML5!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Embed an audio element at home that loops automatically, and a video element that is muted by default with a beautiful placeholder cover poster!"
         }
       ]
     },
     {
       "id": 5,
-      "title": "Session 5 Recap",
+      "title": "Session 5 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 5, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Collect user input with forms, inputs, selections, and checkboxes!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Create a feedback form at home with a `<fieldset>` and `<legend>`. Include a required Name input, a drop-down list `<select>` to rate the session from 1 to 5, a `<textarea>` for suggestions, and a submit button!"
         }
       ]
     },
     {
       "id": 6,
-      "title": "Session 6 Recap",
+      "title": "Session 6 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 6, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Group your tags inside structural containers and style them with classes!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Build a simple blog post layout using a parent `div` with a class of 'blog-post'. Inside, put a heading with class 'blog-title' and a paragraph where the date is styled inside a `span` with an ID of 'post-date'!"
         }
       ]
     },
     {
       "id": 7,
-      "title": "Session 7 Recap",
+      "title": "Session 7 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 7, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Paint your website beautiful with CSS rules, selectors, and color styles!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Create a page at home with a heading styled internally using a HEX color value, and three paragraphs, each styled with a unique color class using RGB, RGBA, and standard color names!"
         }
       ]
     },
     {
       "id": 8,
-      "title": "Session 8 Recap",
+      "title": "Session 8 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 8, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Style your container backgrounds with colors, images, sizing, and attachments!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Style a full page background or banner division at home to have a fixed background image <code>background-attachment: fixed;</code> that does not scroll, centered on the screen, and sized as cover!"
         }
       ]
     },
     {
       "id": 9,
-      "title": "Session 9 Recap",
+      "title": "Session 9 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 9, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Control spacings with margins, padding, custom borders, and width sizes!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Design a box division at home styled with a double border of 5px size, colored in purple, with a 30px padding on the inside and a 50px margin on the bottom!"
         }
       ]
     },
     {
       "id": 10,
-      "title": "Session 10 Recap",
+      "title": "Session 10 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 10, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Format font-families, font weights, text alignments, capitalization, and spacings!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Design a book title display at home. Use a serif font, uppercase styling, bold text, 3px letter-spacing, and deep indigo color!"
         }
       ]
     },
     {
       "id": 11,
-      "title": "Session 11 Recap",
+      "title": "Session 11 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 11, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Float images next to paragraphs, clear floats, and control overflow scrolls!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Create a layout at home with an image floated to the right of a story, and place a footer paragraph underneath that uses <code>clear: both;</code> so it always starts on a fresh line below the image!"
         }
       ]
     },
     {
       "id": 12,
-      "title": "Session 12 Recap",
+      "title": "Session 12 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 12, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Master block vs inline elements, hide containers, and style links with hover effects!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Design navigation menu links at home! Display them in a line using <code>display: inline-block;</code>, remove lines under them, and change background and color when hovered!"
         }
       ]
     },
     {
       "id": 13,
-      "title": "Session 13 Recap",
+      "title": "Session 13 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 13, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Position containers (relative, fixed, absolute), add shadows, and load Font Awesome icons!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Create a glowing card at home! Include a fire icon, a text heading with an orange text-shadow glow, and styled with relative coordinates!"
         }
       ]
     },
     {
       "id": 14,
-      "title": "Session 14 Recap",
+      "title": "Session 14 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 14, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Bring elements to life with @keyframes, durations, delays, and loop counts!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Build an infinite loader spinning wheel at home! Create keyframes that rotate the element 360 degrees and run infinitely!"
         }
       ]
     },
     {
       "id": 15,
-      "title": "Session 15 Recap",
+      "title": "Session 15 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 15, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Setup the layout, navbar links, and header banner for the final Delicious Project!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Build the welcome banner for your restaurant at home! Align text in the center, style it with custom fonts, and add a Book Table button with glowing box-shadows!"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Session 16 Summary",
+      "sections": [
+        {
+          "heading": "🌟 Core Concept",
+          "text": "Add food product cards (Chicken & Seafood), styling, borders, and footer details!"
+        },
+        {
+          "heading": "📘 Student Homework",
+          "text": "Assemble all sections at home! Put together your styled navigation bar, hero banner, food product cards (chicken & seafood) with hover animations, and the Somouha, Alexandria footer. You have built a production-grade restaurant page! Excellent work! 🌟"
         }
       ]
     }

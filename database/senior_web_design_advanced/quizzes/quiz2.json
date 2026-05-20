@@ -1,126 +1,71 @@
 {
-  "quiz_name": "Quiz 2: Layout & Control Flow",
+  "quiz_title": "Web Design Advanced - Quiz 2: Utilities & Responsive Grids",
+  "quiz_name": "Quiz 2: Utilities & Responsive Grids",
   "questions": [
     {
-      "q": "Which component handles standard 'Structure' properties in Web Design Advanced?",
+      "q": "What padding does the Bootstrap utility class 'p-3' represent?",
       "opts": [
-        "Aesthetic Structure Controller",
-        "Default Structure Interface",
-        "Custom Structure Data Handler",
-        "Standard Structure Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Loop Controls' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Loop Controls Controller",
-        "Default Loop Controls Interface",
-        "Custom Loop Controls Data Handler",
-        "Standard Loop Controls Wrapper"
+        "Small padding",
+        "Medium padding",
+        "No padding",
+        "Maximum padding"
       ],
       "correct": 1,
-      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Web Design Advanced framework."
+      "exp": "Bootstrap spacing utilities scale from 1 (small) to 5 (large). p-3 provides nice medium spacing!"
     },
     {
-      "q": "Which component handles standard 'Resizing rules' properties in Web Design Advanced?",
+      "q": "The powerful Bootstrap grid system is based on how many columns in a row?",
       "opts": [
-        "Aesthetic Resizing rules Controller",
-        "Default Resizing rules Interface",
-        "Custom Resizing rules Data Handler",
-        "Standard Resizing rules Wrapper"
+        "6 columns",
+        "10 columns",
+        "12 columns",
+        "16 columns"
       ],
       "correct": 2,
-      "exp": "The 'Resizing rules' component is designed to manage functional Resizing rules layers inside the Web Design Advanced framework."
+      "exp": "The grid system divides screens into exactly 12 imaginary columns! You partition sizes to equal 12."
     },
     {
-      "q": "Which component handles standard 'Positioning' properties in Web Design Advanced?",
+      "q": "Which class makes columns take exactly half the row width on mobile phones?",
       "opts": [
-        "Aesthetic Positioning Controller",
-        "Default Positioning Interface",
-        "Custom Positioning Data Handler",
-        "Standard Positioning Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Positioning' component is designed to manage functional Positioning layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Structure' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Structure Controller",
-        "Default Structure Interface",
-        "Custom Structure Data Handler",
-        "Standard Structure Wrapper"
+        "col-6",
+        "col-md-6",
+        "col-lg-6",
+        "col-sm-6"
       ],
       "correct": 0,
-      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Web Design Advanced framework."
+      "exp": "col-6 targets extra small mobile screen sizes by default, spanning half of the 12-column layout!"
     },
     {
-      "q": "Which component handles standard 'Loop Controls' properties in Web Design Advanced?",
+      "q": "Which breakpoint class targets medium tablet screen sizes?",
       "opts": [
-        "Aesthetic Loop Controls Controller",
-        "Default Loop Controls Interface",
-        "Custom Loop Controls Data Handler",
-        "Standard Loop Controls Wrapper"
+        "sm-",
+        "md-",
+        "lg-",
+        "xl-"
       ],
       "correct": 1,
-      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Web Design Advanced framework."
+      "exp": "md- stands for medium screens (like tablets) starting from 768px wide!"
     },
     {
-      "q": "Which component handles standard 'Resizing rules' properties in Web Design Advanced?",
+      "q": "Which utility class curves element corners into a perfect circle in Bootstrap?",
       "opts": [
-        "Aesthetic Resizing rules Controller",
-        "Default Resizing rules Interface",
-        "Custom Resizing rules Data Handler",
-        "Standard Resizing rules Wrapper"
+        "rounded",
+        "rounded-pill",
+        "rounded-circle",
+        "circle"
       ],
       "correct": 2,
-      "exp": "The 'Resizing rules' component is designed to manage functional Resizing rules layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Positioning' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Positioning Controller",
-        "Default Positioning Interface",
-        "Custom Positioning Data Handler",
-        "Standard Positioning Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Positioning' component is designed to manage functional Positioning layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Structure' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Structure Controller",
-        "Default Structure Interface",
-        "Custom Structure Data Handler",
-        "Standard Structure Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Loop Controls' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Loop Controls Controller",
-        "Default Loop Controls Interface",
-        "Custom Loop Controls Data Handler",
-        "Standard Loop Controls Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Web Design Advanced framework."
+      "exp": "rounded-circle appliesborder-radius 50%, transforming cards or profile photos into elegant circles!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Structure Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Structure properties inside the Web Design Advanced setup."
+      "title": "Responsive card row",
+      "desc": "Create grid system rows wrapping cards taking col-12 on mobile and col-md-4 on desktop."
     },
     {
-      "title": "Optimize Loop Controls Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize Loop Controls operations for user-centered design."
+      "title": "Spacing adjustments",
+      "desc": "Style divisions with Bootstrap utilities setting margins and border classes."
     }
-  ],
-  "quiz_title": "Web Design Advanced - Challenge 2"
+  ]
 }

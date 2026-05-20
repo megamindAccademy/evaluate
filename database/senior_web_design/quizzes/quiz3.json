@@ -1,126 +1,71 @@
 {
-  "quiz_name": "Quiz 3: Interactive Inputs & Events",
+  "quiz_title": "Web Design - Quiz 3: Containers & CSS Selectors",
+  "quiz_name": "Quiz 3: Containers & CSS Selectors",
   "questions": [
     {
-      "q": "Which component handles standard 'Button Triggers' properties in Web Design (HTML/CSS)?",
+      "q": "What is the difference between a &lt;div&gt; and a &lt;span&gt;?",
       "opts": [
-        "Aesthetic Button Triggers Controller",
-        "Default Button Triggers Interface",
-        "Custom Button Triggers Data Handler",
-        "Standard Button Triggers Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Button Triggers' component is designed to manage functional Button Triggers layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'User input fields' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic User input fields Controller",
-        "Default User input fields Interface",
-        "Custom User input fields Data Handler",
-        "Standard User input fields Wrapper"
+        "Div is inline, span is block",
+        "Div is block-level, span is inline",
+        "Div is only for images, span for text",
+        "There is no difference"
       ],
       "correct": 1,
-      "exp": "The 'User input fields' component is designed to manage functional User input fields layers inside the Web Design (HTML/CSS) framework."
+      "exp": "Div starts on a new line (block), whereas span stays inline on the same line to style words."
     },
     {
-      "q": "Which component handles standard 'Event listening' properties in Web Design (HTML/CSS)?",
+      "q": "How do you select a class named 'header' in CSS?",
       "opts": [
-        "Aesthetic Event listening Controller",
-        "Default Event listening Interface",
-        "Custom Event listening Data Handler",
-        "Standard Event listening Wrapper"
+        "#header",
+        ".header",
+        "header",
+        "*header"
+      ],
+      "correct": 1,
+      "exp": "In CSS, class selectors start with a dot (.), e.g. .header, while ID selectors start with a hash (#)."
+    },
+    {
+      "q": "Where in an HTML document is the best place to link an external CSS stylesheet?",
+      "opts": [
+        "At the bottom of the &lt;body&gt;",
+        "Inside the &lt;head&gt; section",
+        "Inside the &lt;title&gt;",
+        "Directly in the HTML tag"
+      ],
+      "correct": 1,
+      "exp": "Linking stylesheet links in the &lt;head&gt; block ensures the styles load before the page renders, preventing lags!"
+    },
+    {
+      "q": "What does the 'A' in RGBA color stand for?",
+      "opts": [
+        "Active",
+        "Anchor",
+        "Alpha (Opacity)",
+        "Aesthetic"
       ],
       "correct": 2,
-      "exp": "The 'Event listening' component is designed to manage functional Event listening layers inside the Web Design (HTML/CSS) framework."
+      "exp": "The Alpha channel in RGBA controls the transparency/opacity of the color, ranging from 0.0 (clear) to 1.0 (solid)."
     },
     {
-      "q": "Which component handles standard 'Data handlers' properties in Web Design (HTML/CSS)?",
+      "q": "How do you write a hex code for a pure white background color?",
       "opts": [
-        "Aesthetic Data handlers Controller",
-        "Default Data handlers Interface",
-        "Custom Data handlers Data Handler",
-        "Standard Data handlers Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Data handlers' component is designed to manage functional Data handlers layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Button Triggers' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Button Triggers Controller",
-        "Default Button Triggers Interface",
-        "Custom Button Triggers Data Handler",
-        "Standard Button Triggers Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Button Triggers' component is designed to manage functional Button Triggers layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'User input fields' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic User input fields Controller",
-        "Default User input fields Interface",
-        "Custom User input fields Data Handler",
-        "Standard User input fields Wrapper"
+        "#000000",
+        "#ffffff",
+        "#ff0000",
+        "#111111"
       ],
       "correct": 1,
-      "exp": "The 'User input fields' component is designed to manage functional User input fields layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Event listening' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Event listening Controller",
-        "Default Event listening Interface",
-        "Custom Event listening Data Handler",
-        "Standard Event listening Wrapper"
-      ],
-      "correct": 2,
-      "exp": "The 'Event listening' component is designed to manage functional Event listening layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Data handlers' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Data handlers Controller",
-        "Default Data handlers Interface",
-        "Custom Data handlers Data Handler",
-        "Standard Data handlers Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Data handlers' component is designed to manage functional Data handlers layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Button Triggers' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Button Triggers Controller",
-        "Default Button Triggers Interface",
-        "Custom Button Triggers Data Handler",
-        "Standard Button Triggers Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Button Triggers' component is designed to manage functional Button Triggers layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'User input fields' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic User input fields Controller",
-        "Default User input fields Interface",
-        "Custom User input fields Data Handler",
-        "Standard User input fields Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'User input fields' component is designed to manage functional User input fields layers inside the Web Design (HTML/CSS) framework."
+      "exp": "#ffffff represents pure white, while #000000 represents pure black."
     }
   ],
   "tasks": [
     {
-      "title": "Implement Button Triggers Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Button Triggers properties inside the Web Design (HTML/CSS) setup."
+      "title": "Link external style",
+      "desc": "Write standard link tag to import 'Delicious.css'."
     },
     {
-      "title": "Optimize User input fields Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize User input fields operations for user-centered design."
+      "title": "Target unique elements",
+      "desc": "Write ID CSS selector targeting #main-banner."
     }
-  ],
-  "quiz_title": "Web Design (HTML/CSS) - Challenge 3"
+  ]
 }

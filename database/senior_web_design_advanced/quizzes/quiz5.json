@@ -1,126 +1,71 @@
 {
-  "quiz_name": "Quiz 5: Persistence & Cache Storage",
+  "quiz_title": "Web Design Advanced - Quiz 5: JS Arrays & Functions",
+  "quiz_name": "Quiz 5: JS Arrays & Functions",
   "questions": [
     {
-      "q": "Which component handles standard 'Local Caches' properties in Web Design Advanced?",
+      "q": "What is the index position of the very first item in a JavaScript array?",
       "opts": [
-        "Aesthetic Local Caches Controller",
-        "Default Local Caches Interface",
-        "Custom Local Caches Data Handler",
-        "Standard Local Caches Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'JSON Parsing' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic JSON Parsing Controller",
-        "Default JSON Parsing Interface",
-        "Custom JSON Parsing Data Handler",
-        "Standard JSON Parsing Wrapper"
+        "1",
+        "0",
+        "-1",
+        "Index A"
       ],
       "correct": 1,
-      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Web Design Advanced framework."
+      "exp": "JavaScript arrays are zero-indexed! The first list item sits at colors[0]."
     },
     {
-      "q": "Which component handles standard 'Async operations' properties in Web Design Advanced?",
+      "q": "Which array method adds a new element to the END of the list?",
       "opts": [
-        "Aesthetic Async operations Controller",
-        "Default Async operations Interface",
-        "Custom Async operations Data Handler",
-        "Standard Async operations Wrapper"
+        "pop()",
+        "push()",
+        "shift()",
+        "add()"
+      ],
+      "correct": 1,
+      "exp": "push() appends items to list ends, while pop() removes the last element!"
+    },
+    {
+      "q": "How do you check how many items live inside an array named 'hobbies'?",
+      "opts": [
+        "hobbies.count",
+        "hobbies.size",
+        "hobbies.length",
+        "hobbies.index"
       ],
       "correct": 2,
-      "exp": "The 'Async operations' component is designed to manage functional Async operations layers inside the Web Design Advanced framework."
+      "exp": "The 'length' property returns the count of items currently stored inside arrays."
     },
     {
-      "q": "Which component handles standard 'Key lookups' properties in Web Design Advanced?",
+      "q": "What keyword outputs values from a function back to the caller?",
       "opts": [
-        "Aesthetic Key lookups Controller",
-        "Default Key lookups Interface",
-        "Custom Key lookups Data Handler",
-        "Standard Key lookups Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Key lookups' component is designed to manage functional Key lookups layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Local Caches' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Local Caches Controller",
-        "Default Local Caches Interface",
-        "Custom Local Caches Data Handler",
-        "Standard Local Caches Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'JSON Parsing' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic JSON Parsing Controller",
-        "Default JSON Parsing Interface",
-        "Custom JSON Parsing Data Handler",
-        "Standard JSON Parsing Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Async operations' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Async operations Controller",
-        "Default Async operations Interface",
-        "Custom Async operations Data Handler",
-        "Standard Async operations Wrapper"
+        "send",
+        "output",
+        "return",
+        "export"
       ],
       "correct": 2,
-      "exp": "The 'Async operations' component is designed to manage functional Async operations layers inside the Web Design Advanced framework."
+      "exp": "The 'return' keyword halts functions and outputs calculations back to calls!"
     },
     {
-      "q": "Which component handles standard 'Key lookups' properties in Web Design Advanced?",
+      "q": "Which property gets the text currently typed inside an input text box?",
       "opts": [
-        "Aesthetic Key lookups Controller",
-        "Default Key lookups Interface",
-        "Custom Key lookups Data Handler",
-        "Standard Key lookups Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Key lookups' component is designed to manage functional Key lookups layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Local Caches' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Local Caches Controller",
-        "Default Local Caches Interface",
-        "Custom Local Caches Data Handler",
-        "Standard Local Caches Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'JSON Parsing' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic JSON Parsing Controller",
-        "Default JSON Parsing Interface",
-        "Custom JSON Parsing Data Handler",
-        "Standard JSON Parsing Wrapper"
+        "text",
+        "value",
+        "innerHTML",
+        "content"
       ],
       "correct": 1,
-      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Web Design Advanced framework."
+      "exp": "The '.value' property gets or sets current text strings typed in interactive inputs!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Local Caches Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Local Caches properties inside the Web Design Advanced setup."
+      "title": "Push names",
+      "desc": "Write scripts initializing arrays and pushing new student strings."
     },
     {
-      "title": "Optimize JSON Parsing Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize JSON Parsing operations for user-centered design."
+      "title": "Calculate sum",
+      "desc": "Define functions with variables returning multiplier math."
     }
-  ],
-  "quiz_title": "Web Design Advanced - Challenge 5"
+  ]
 }

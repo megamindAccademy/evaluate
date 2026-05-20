@@ -3,225 +3,225 @@
   "recaps": [
     {
       "id": 1,
-      "title": "Session 1 Recap",
+      "title": "Session 1 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 1, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Link Bootstrap CDN, load responsive Navbars, and design layout cards!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Link Bootstrap at home and design a fully styled navigation bar using classes like <code>navbar</code>, <code>navbar-dark</code>, and <code>bg-dark</code>!"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Session 2 Recap",
+      "title": "Session 2 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 2, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Align items in horizontal rows and handle line wrapping automatically!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Design a display parent at home that perfectly centers children horizontally and wraps them automatically using flex wrap!"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Session 3 Recap",
+      "title": "Session 3 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 3, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Align items vertically and flip axis orientations from rows to columns!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Create a layout at home where profile pictures, names, and buttons are stacked vertically and centered perfectly using flex columns!"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Session 4 Recap",
+      "title": "Session 4 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 4, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Speed up coding using pre-made classes for spacing, borders, and displays!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Design a rounded circle avatar at home using Bootstrap classes for padding, borders, round shape <code>rounded-circle</code>, and centered alignment!"
         }
       ]
     },
     {
       "id": 5,
-      "title": "Session 5 Recap",
+      "title": "Session 5 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 5, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Rely on structural Bootstrap containers, rows, and columns for grids!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Build a grid system row at home that holds exactly three equal columns (col-4), each containing a styled card product!"
         }
       ]
     },
     {
       "id": 6,
-      "title": "Session 6 Recap",
+      "title": "Session 6 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 6, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Make layouts responsive across different screens using breakpoint classes!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Build a responsive grid layout at home that holds 2 profile cards taking 100% width on phone, but 50% width <code>col-sm-6</code> on tablet screens!"
         }
       ]
     },
     {
       "id": 7,
-      "title": "Session 7 Recap",
+      "title": "Session 7 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 7, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Build a luxurious hotel home banner layout using Bootstrap Grids!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Design a 3-column services showcase for your Royal Hotel at home using Bootstrap classes. Display icons representing Spa, Free Wifi, and Restaurant food!"
         }
       ]
     },
     {
       "id": 8,
-      "title": "Session 8 Recap",
+      "title": "Session 8 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 8, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Add room cards, styled service columns, booking forms, and complete the template!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Assemble your entire hotel website at home! Combine the dark brand navigation bar, custom carousel welcome hero banner, Wifi/Spa service columns, room suites cards, booking registration form, and hotel address. You've completed a high-end Bootstrap template! 🌟"
         }
       ]
     },
     {
       "id": 9,
-      "title": "Session 9 Recap",
+      "title": "Session 9 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 9, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Add script tags, load data variables, and write logs to the console!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Write code at home that declares two variables (first name and age), prints them to the console, and triggers a window alert popup saying 'Welcome to JS Coding!'!"
         }
       ]
     },
     {
       "id": 10,
-      "title": "Session 10 Recap",
+      "title": "Session 10 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 10, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Compare values and run code selectively using IF-else and comparison operators!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Design a smart condition checking alarm status at home! If temperature is greater than 100 or smoke is true, print 'DANGER'; else print 'All Clear'!"
         }
       ]
     },
     {
       "id": 11,
-      "title": "Session 11 Recap",
+      "title": "Session 11 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 11, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Repeat block actions infinitely or conditionally using for, while, and do-while loops!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Create a loop at home that counts down backwards from 10 to 1, followed by printing 'Blast Off!' to the console!"
         }
       ]
     },
     {
       "id": 12,
-      "title": "Session 12 Recap",
+      "title": "Session 12 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 12, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Group multiple elements into lists, pop, push, and loop arrays!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Declare an array of 3 grocery items at home. Push a 4th item, then pop the last item and log the length of your list to the console!"
         }
       ]
     },
     {
       "id": 13,
-      "title": "Session 13 Recap",
+      "title": "Session 13 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 13, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Write reusable code blocks using functions and triggers!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Define a custom function at home that accepts two numbers as parameters, multiplies them together, returns the product, and logs the result to the console!"
         }
       ]
     },
     {
       "id": 14,
-      "title": "Session 14 Recap",
+      "title": "Session 14 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 14, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Navigate HTML trees and select elements using IDs, classes, and tags!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Write code at home that dynamically grabs the page title <code>document.title</code> and prints it to the console!"
         }
       ]
     },
     {
       "id": 15,
-      "title": "Session 15 Recap",
+      "title": "Session 15 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 15, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Modify HTML tags, inject custom CSS styles, and handle button clicks!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Design a toggle button at home! When clicked, change the background color of the body <code>document.body.style.backgroundColor</code> to dark blue and text color to white!"
         }
       ]
     },
     {
       "id": 16,
-      "title": "Session 16 Recap",
+      "title": "Session 16 Summary",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 16, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Construct Objects, interact with Window sizes, Local Storage, and final project!"
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "📘 Student Homework",
+          "text": "Connect JavaScript triggers to your Bootstrap Royal Hotel template at home! Add a reservation button that saves the booking details in Local Storage and alerts 'Welcome' when loaded! You have successfully mastered Web Design and Web Advanced Programming! Incredible work, Developer! 🎓🏆🌟"
         }
       ]
     }

@@ -1,126 +1,71 @@
 {
-  "quiz_name": "Quiz 1: Fundamentals & Core Architecture",
+  "quiz_title": "Web Design - Quiz 1: HTML Core & Formatting",
+  "quiz_name": "Quiz 1: HTML Core & Formatting",
   "questions": [
     {
-      "q": "Which component handles standard 'Basic Setup' properties in Web Design (HTML/CSS)?",
+      "q": "Which tag defines the title of a web page displayed in the browser tab?",
       "opts": [
-        "Aesthetic Basic Setup Controller",
-        "Default Basic Setup Interface",
-        "Custom Basic Setup Data Handler",
-        "Standard Basic Setup Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Basic Setup' component is designed to manage functional Basic Setup layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Key Features' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Key Features Controller",
-        "Default Key Features Interface",
-        "Custom Key Features Data Handler",
-        "Standard Key Features Wrapper"
+        "&lt;head&gt;",
+        "&lt;title&gt;",
+        "&lt;meta&gt;",
+        "&lt;body&gt;"
       ],
       "correct": 1,
-      "exp": "The 'Key Features' component is designed to manage functional Key Features layers inside the Web Design (HTML/CSS) framework."
+      "exp": "The &lt;title&gt; tag inside the &lt;head&gt; section sets the title that appears in the browser's title bar or tab!"
     },
     {
-      "q": "Which component handles standard 'Variables' properties in Web Design (HTML/CSS)?",
+      "q": "How many sizes of headings are available in HTML?",
       "opts": [
-        "Aesthetic Variables Controller",
-        "Default Variables Interface",
-        "Custom Variables Data Handler",
-        "Standard Variables Wrapper"
+        "3 headings",
+        "5 headings",
+        "6 headings",
+        "8 headings"
       ],
       "correct": 2,
-      "exp": "The 'Variables' component is designed to manage functional Variables layers inside the Web Design (HTML/CSS) framework."
+      "exp": "HTML has 6 standard heading tags from &lt;h1&gt; (largest) to &lt;h6&gt; (smallest)."
     },
     {
-      "q": "Which component handles standard 'Initial Config' properties in Web Design (HTML/CSS)?",
+      "q": "What is the correct way to add a line break in HTML?",
       "opts": [
-        "Aesthetic Initial Config Controller",
-        "Default Initial Config Interface",
-        "Custom Initial Config Data Handler",
-        "Standard Initial Config Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Initial Config' component is designed to manage functional Initial Config layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Basic Setup' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Basic Setup Controller",
-        "Default Basic Setup Interface",
-        "Custom Basic Setup Data Handler",
-        "Standard Basic Setup Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Basic Setup' component is designed to manage functional Basic Setup layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Key Features' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Key Features Controller",
-        "Default Key Features Interface",
-        "Custom Key Features Data Handler",
-        "Standard Key Features Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'Key Features' component is designed to manage functional Key Features layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Variables' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Variables Controller",
-        "Default Variables Interface",
-        "Custom Variables Data Handler",
-        "Standard Variables Wrapper"
+        "&lt;break&gt;",
+        "&lt;lb&gt;",
+        "&lt;br&gt;",
+        "&lt;hr&gt;"
       ],
       "correct": 2,
-      "exp": "The 'Variables' component is designed to manage functional Variables layers inside the Web Design (HTML/CSS) framework."
+      "exp": "The &lt;br&gt; tag creates a line break, pushing content to a new line without adding space like a paragraph."
     },
     {
-      "q": "Which component handles standard 'Initial Config' properties in Web Design (HTML/CSS)?",
+      "q": "Which attribute specifies the source path of an image?",
       "opts": [
-        "Aesthetic Initial Config Controller",
-        "Default Initial Config Interface",
-        "Custom Initial Config Data Handler",
-        "Standard Initial Config Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Initial Config' component is designed to manage functional Initial Config layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Basic Setup' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Basic Setup Controller",
-        "Default Basic Setup Interface",
-        "Custom Basic Setup Data Handler",
-        "Standard Basic Setup Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Basic Setup' component is designed to manage functional Basic Setup layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Key Features' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Key Features Controller",
-        "Default Key Features Interface",
-        "Custom Key Features Data Handler",
-        "Standard Key Features Wrapper"
+        "href",
+        "src",
+        "alt",
+        "link"
       ],
       "correct": 1,
-      "exp": "The 'Key Features' component is designed to manage functional Key Features layers inside the Web Design (HTML/CSS) framework."
+      "exp": "The 'src' (source) attribute contains the URL or file path of the image you want to embed."
+    },
+    {
+      "q": "Which target value opens a hyperlink in a brand new tab?",
+      "opts": [
+        "target=\"_self\"",
+        "target=\"_parent\"",
+        "target=\"_blank\"",
+        "target=\"_top\""
+      ],
+      "correct": 2,
+      "exp": "Using target=\"_blank\" tells the browser to open the link in a fresh, new tab!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Basic Setup Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Basic Setup properties inside the Web Design (HTML/CSS) setup."
+      "title": "Setup basic structure",
+      "desc": "Write a clean HTML structure with a heading 1 and paragraph."
     },
     {
-      "title": "Optimize Key Features Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize Key Features operations for user-centered design."
+      "title": "Embed a thumbnail link",
+      "desc": "Create a link opening in a new tab wrapping an image."
     }
-  ],
-  "quiz_title": "Web Design (HTML/CSS) - Challenge 1"
+  ]
 }

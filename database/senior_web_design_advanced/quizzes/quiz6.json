@@ -1,126 +1,71 @@
 {
-  "quiz_name": "Quiz 6: API Feeds & Advanced Capstone",
+  "quiz_title": "Web Design Advanced - Quiz 6: DOM Manipulation & BOM",
+  "quiz_name": "Quiz 6: DOM Manipulation & BOM",
   "questions": [
     {
-      "q": "Which component handles standard 'HTTP Requests' properties in Web Design Advanced?",
+      "q": "Which DOM selector accesses tags using CSS styles (like dots for classes)?",
       "opts": [
-        "Aesthetic HTTP Requests Controller",
-        "Default HTTP Requests Interface",
-        "Custom HTTP Requests Data Handler",
-        "Standard HTTP Requests Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'REST API integration' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic REST API integration Controller",
-        "Default REST API integration Interface",
-        "Custom REST API integration Data Handler",
-        "Standard REST API integration Wrapper"
+        "getElementById",
+        "querySelector",
+        "getElementsByTagName",
+        "select"
       ],
       "correct": 1,
-      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Web Design Advanced framework."
+      "exp": "querySelector('selector') selects the first matching tag using CSS class or ID styles!"
     },
     {
-      "q": "Which component handles standard 'Data streams' properties in Web Design Advanced?",
+      "q": "Which event triggers when a student clicks on a button?",
       "opts": [
-        "Aesthetic Data streams Controller",
-        "Default Data streams Interface",
-        "Custom Data streams Data Handler",
-        "Standard Data streams Wrapper"
+        "onchange",
+        "onmouseover",
+        "onclick",
+        "onkeypress"
       ],
       "correct": 2,
-      "exp": "The 'Data streams' component is designed to manage functional Data streams layers inside the Web Design Advanced framework."
+      "exp": "onclick registers user mouse clicks, instantly triggering assigned script actions!"
     },
     {
-      "q": "Which component handles standard 'Final Deployment' properties in Web Design Advanced?",
+      "q": "Which window property gets the viewport width of browser screens?",
       "opts": [
-        "Aesthetic Final Deployment Controller",
-        "Default Final Deployment Interface",
-        "Custom Final Deployment Data Handler",
-        "Standard Final Deployment Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Final Deployment' component is designed to manage functional Final Deployment layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'HTTP Requests' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic HTTP Requests Controller",
-        "Default HTTP Requests Interface",
-        "Custom HTTP Requests Data Handler",
-        "Standard HTTP Requests Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'REST API integration' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic REST API integration Controller",
-        "Default REST API integration Interface",
-        "Custom REST API integration Data Handler",
-        "Standard REST API integration Wrapper"
+        "screen.width",
+        "window.innerWidth",
+        "window.outerWidth",
+        "viewport.width"
       ],
       "correct": 1,
-      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Web Design Advanced framework."
+      "exp": "window.innerWidth returns live widths of browser viewports, which is essential for BOM sizing!"
     },
     {
-      "q": "Which component handles standard 'Data streams' properties in Web Design Advanced?",
+      "q": "How do you save persistent local data that survives browser page refreshes?",
       "opts": [
-        "Aesthetic Data streams Controller",
-        "Default Data streams Interface",
-        "Custom Data streams Data Handler",
-        "Standard Data streams Wrapper"
-      ],
-      "correct": 2,
-      "exp": "The 'Data streams' component is designed to manage functional Data streams layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'Final Deployment' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic Final Deployment Controller",
-        "Default Final Deployment Interface",
-        "Custom Final Deployment Data Handler",
-        "Standard Final Deployment Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Final Deployment' component is designed to manage functional Final Deployment layers inside the Web Design Advanced framework."
-    },
-    {
-      "q": "Which component handles standard 'HTTP Requests' properties in Web Design Advanced?",
-      "opts": [
-        "Aesthetic HTTP Requests Controller",
-        "Default HTTP Requests Interface",
-        "Custom HTTP Requests Data Handler",
-        "Standard HTTP Requests Wrapper"
+        "localStorage.setItem('key', 'val')",
+        "sessionStorage.save()",
+        "window.save()",
+        "document.cookie()"
       ],
       "correct": 0,
-      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Web Design Advanced framework."
+      "exp": "localStorage.setItem() saves key-value string files persistently inside the user's browser!"
     },
     {
-      "q": "Which component handles standard 'REST API integration' properties in Web Design Advanced?",
+      "q": "What is the difference between ES6 'let' and 'const' variables?",
       "opts": [
-        "Aesthetic REST API integration Controller",
-        "Default REST API integration Interface",
-        "Custom REST API integration Data Handler",
-        "Standard REST API integration Wrapper"
+        "Let can be reassigned, Const cannot",
+        "Const can be reassigned, Let cannot",
+        "There is no difference",
+        "Let is global, Const is block"
       ],
-      "correct": 1,
-      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Web Design Advanced framework."
+      "correct": 0,
+      "exp": "let declares variables that can change values, while const declares final fixed constants!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement HTTP Requests Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard HTTP Requests properties inside the Web Design Advanced setup."
+      "title": "Interactive toggler",
+      "desc": "Write onclick event handles changing body colors to dark backgrounds."
     },
     {
-      "title": "Optimize REST API integration Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize REST API integration operations for user-centered design."
+      "title": "Persistent login",
+      "desc": "Save student usernames persistently in local storage items."
     }
-  ],
-  "quiz_title": "Web Design Advanced - Challenge 6"
+  ]
 }

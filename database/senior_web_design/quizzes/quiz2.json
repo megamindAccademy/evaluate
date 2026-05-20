@@ -1,126 +1,71 @@
 {
-  "quiz_name": "Quiz 2: Layout & Control Flow",
+  "quiz_title": "Web Design - Quiz 2: Media & Interactive Forms",
+  "quiz_name": "Quiz 2: Media & Interactive Forms",
   "questions": [
     {
-      "q": "Which component handles standard 'Structure' properties in Web Design (HTML/CSS)?",
+      "q": "Which attribute displays play/pause controls on a native HTML5 video player?",
       "opts": [
-        "Aesthetic Structure Controller",
-        "Default Structure Interface",
-        "Custom Structure Data Handler",
-        "Standard Structure Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Loop Controls' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Loop Controls Controller",
-        "Default Loop Controls Interface",
-        "Custom Loop Controls Data Handler",
-        "Standard Loop Controls Wrapper"
+        "autoplay",
+        "controls",
+        "loop",
+        "muted"
       ],
       "correct": 1,
-      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Web Design (HTML/CSS) framework."
+      "exp": "The 'controls' attribute adds play, pause, volume, and full-screen controls to the audio or video element!"
     },
     {
-      "q": "Which component handles standard 'Resizing rules' properties in Web Design (HTML/CSS)?",
+      "q": "Which input type displays a color picker widget on modern browsers?",
       "opts": [
-        "Aesthetic Resizing rules Controller",
-        "Default Resizing rules Interface",
-        "Custom Resizing rules Data Handler",
-        "Standard Resizing rules Wrapper"
+        "type=\"text\"",
+        "type=\"color\"",
+        "type=\"palette\"",
+        "type=\"range\""
+      ],
+      "correct": 1,
+      "exp": "Setting type=\"color\" creates a magic color wheel where users can pick colors!"
+    },
+    {
+      "q": "Which element groups related fields inside a form with a nice visual border?",
+      "opts": [
+        "&lt;form&gt;",
+        "&lt;legend&gt;",
+        "&lt;fieldset&gt;",
+        "&lt;label&gt;"
       ],
       "correct": 2,
-      "exp": "The 'Resizing rules' component is designed to manage functional Resizing rules layers inside the Web Design (HTML/CSS) framework."
+      "exp": "The &lt;fieldset&gt; element draws a box outline around inputs, while &lt;legend&gt; adds a title label!"
     },
     {
-      "q": "Which component handles standard 'Positioning' properties in Web Design (HTML/CSS)?",
+      "q": "What attribute makes a form input field mandatory to fill out?",
       "opts": [
-        "Aesthetic Positioning Controller",
-        "Default Positioning Interface",
-        "Custom Positioning Data Handler",
-        "Standard Positioning Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Positioning' component is designed to manage functional Positioning layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Structure' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Structure Controller",
-        "Default Structure Interface",
-        "Custom Structure Data Handler",
-        "Standard Structure Wrapper"
+        "required",
+        "placeholder",
+        "mandatory",
+        "validate"
       ],
       "correct": 0,
-      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Web Design (HTML/CSS) framework."
+      "exp": "Adding the 'required' attribute prevents form submission until the user types inside that field!"
     },
     {
-      "q": "Which component handles standard 'Loop Controls' properties in Web Design (HTML/CSS)?",
+      "q": "Which tag creates a drop-down selection menu in HTML?",
       "opts": [
-        "Aesthetic Loop Controls Controller",
-        "Default Loop Controls Interface",
-        "Custom Loop Controls Data Handler",
-        "Standard Loop Controls Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Resizing rules' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Resizing rules Controller",
-        "Default Resizing rules Interface",
-        "Custom Resizing rules Data Handler",
-        "Standard Resizing rules Wrapper"
-      ],
-      "correct": 2,
-      "exp": "The 'Resizing rules' component is designed to manage functional Resizing rules layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Positioning' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Positioning Controller",
-        "Default Positioning Interface",
-        "Custom Positioning Data Handler",
-        "Standard Positioning Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Positioning' component is designed to manage functional Positioning layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Structure' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Structure Controller",
-        "Default Structure Interface",
-        "Custom Structure Data Handler",
-        "Standard Structure Wrapper"
+        "&lt;select&gt;",
+        "&lt;option&gt;",
+        "&lt;form&gt;",
+        "&lt;list&gt;"
       ],
       "correct": 0,
-      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Loop Controls' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Loop Controls Controller",
-        "Default Loop Controls Interface",
-        "Custom Loop Controls Data Handler",
-        "Standard Loop Controls Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Web Design (HTML/CSS) framework."
+      "exp": "The &lt;select&gt; tag creates the drop-down menu container, which holds &lt;option&gt; tags!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Structure Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Structure properties inside the Web Design (HTML/CSS) setup."
+      "title": "Implement registration form",
+      "desc": "Design a form with required name text field and email field."
     },
     {
-      "title": "Optimize Loop Controls Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize Loop Controls operations for user-centered design."
+      "title": "Embed a looping sound",
+      "desc": "Create an audio player that starts automatically and loops."
     }
-  ],
-  "quiz_title": "Web Design (HTML/CSS) - Challenge 2"
+  ]
 }

@@ -7,450 +7,562 @@
   "stations": [
     {
       "id": 1,
-      "badge_icon": "??",
-      "badge_title": "Structure & Tags Medal",
-      "title": "Station 1: Level 1 Session 1: Structure & Tags",
-      "desc": "Interactive Structure & Tags activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 1 Session 1: Structure & Tags</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Structure & Tags</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Structure & Tags Challenge</div>",
-      "simple": "Imagine Structure & Tags is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Structure & Tags!');</code>",
-      "challenge": "Print: <code>console.log('Activated Structure & Tags!');</code>",
-      "starter_code": "<!-- Activate Structure & Tags -->\n<script>\n    console.log('Activated Structure & Tags!');\n</script>",
+      "badge_icon": "🦕",
+      "badge_title": "HTML Structure Medal",
+      "title": "Station 1: HTML Structure & Basic Elements",
+      "desc": "Build the skeleton of your web page using core HTML tags!",
+      "story": "<h3>👋 Welcome, future Web Designer!</h3>Let's learn how to build the skeleton of a web page using <b>HTML</b>!<br><br><b>💡 Key Lessons:</b><ul><li><code>&lt;!DOCTYPE html&gt;</code>: Tells the browser this is a modern HTML5 document.</li><li><code>&lt;html&gt;</code>: The root element of our page.</li><li><code>&lt;head&gt;</code>: Contains meta-info like <code>&lt;title&gt;</code>.</li><li><code>&lt;body&gt;</code>: Where the visible content lives.</li><li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>: Six sizes of headers (h1 is the biggest!).</li><li><code>&lt;p&gt;</code>: The paragraph tag.</li><li><code>&lt;br&gt;</code> & <code>&lt;hr&gt;</code>: Line break and horizontal thematic dividers!</li></ul>",
+      "simple": "Think of HTML as the building blocks of a house. The body is the room, and the tags are the furniture!",
+      "hint": "Use <code>&lt;h1&gt;Welcome&lt;/h1&gt;</code> and <code>&lt;p&gt;Hello World&lt;/p&gt;</code> to complete the text challenge.",
+      "challenge": "Write a clean HTML structure with a heading <code>&lt;h1&gt;Welcome to Megaminds!&lt;/h1&gt;</code> and a paragraph <code>&lt;p&gt;Coding is magical.&lt;/p&gt;</code>.",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>My First Website</title>\n</head>\n<body>\n    <!-- Write your heading and paragraph below! -->\n    \n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Structure & Tags!');"
+          "label": "Add Heading 1",
+          "code": "<h1>Welcome to Megaminds!</h1>"
+        },
+        {
+          "label": "Add Paragraph",
+          "code": "<p>Coding is magical.</p>"
+        },
+        {
+          "label": "Add Divider",
+          "code": "<hr>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Structure & Tags!",
+        "required_output_text": "Megaminds",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Structure & Tags",
-        "desc": "Practice Structure & Tags at home in your web project!",
-        "code": "<!-- Home Challenge: Structure & Tags -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Structure & Tags -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: My Profile Page",
+        "desc": "Create a profile page at home using a main heading <code>&lt;h1&gt;</code>, a short paragraph description about yourself <code>&lt;p&gt;</code>, and separate the sections with a horizontal rule <code>&lt;hr&gt;</code>!",
+        "code": "<!DOCTYPE html>\n<html>\n<body>\n    <h1>All About Me!</h1>\n    <hr>\n    <p>My name is Rowan and I love coding beautiful web pages!</p>\n</body>\n</html>",
+        "starter_code": "<!DOCTYPE html>\n<html>\n<body>\n    <!-- Create your profile home challenge here! -->\n    \n</body>\n</html>"
       }
     },
     {
       "id": 2,
-      "badge_icon": "??",
-      "badge_title": "Headings & Paragraphs Medal",
-      "title": "Station 2: Level 1 Session 2: Headings & Paragraphs",
-      "desc": "Interactive Headings & Paragraphs activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 1 Session 2: Headings & Paragraphs</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Headings & Paragraphs</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Headings & Paragraphs Challenge</div>",
-      "simple": "Imagine Headings & Paragraphs is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Headings & Paragraphs!');</code>",
-      "challenge": "Print: <code>console.log('Activated Headings & Paragraphs!');</code>",
-      "starter_code": "<!-- Activate Headings & Paragraphs -->\n<script>\n    console.log('Activated Headings & Paragraphs!');\n</script>",
+      "badge_icon": "🖼️",
+      "badge_title": "Media & Links Medal",
+      "title": "Station 2: Embedded Images & Hyperlinks",
+      "desc": "Make your pages colorful with images and navigate the web with links!",
+      "story": "<h3>🚀 Let's add images and links!</h3>Web pages look amazing when we add images and allow users to hop between pages using links!<br><br><b>💡 Key Lessons:</b><ul><li><code>&lt;img&gt;</code>: Embeds an image. It's an empty element (no closing tag!).</li><li><b>Attributes:</b> <code>src</code> (image path/URL), <code>alt</code> (description text), <code>width</code>, and <code>height</code> (in px).</li><li><code>&lt;a&gt;</code>: The hyperlink tag. Uses <code>href</code> to specify the target link.</li><li><b>Target Attribute:</b> <code>target=\"_blank\"</code> opens the link in a new tab; <code>_self</code> is the default (same tab).</li></ul>",
+      "simple": "Hyperlinks are like teleport portals, and images are windows to other worlds!",
+      "hint": "Use <code>&lt;img src=\"...\" alt=\"Beach\" width=\"300\"&gt;</code> and <code>&lt;a href=\"...\" target=\"_blank\"&gt;</code>.",
+      "challenge": "Embed an image with a width of 300px and create a link to Megaminds Academy opening in a new tab!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<body>\n    <h1>Welcome to My Gallery</h1>\n    <!-- Add your image and link below! -->\n    \n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Headings & Paragraphs!');"
+          "label": "Add Image tag",
+          "code": "<img src=\"https://images.unsplash.com/photo-1507525428034-b723cf961d3e\" alt=\"Beach\" width=\"300\">"
+        },
+        {
+          "label": "Add Link tag",
+          "code": "<a href=\"https://megamindaccademy.github.io\" target=\"_blank\">Visit Megaminds!</a>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Headings & Paragraphs!",
+        "required_output_text": "Megaminds",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Headings & Paragraphs",
-        "desc": "Practice Headings & Paragraphs at home in your web project!",
-        "code": "<!-- Home Challenge: Headings & Paragraphs -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Headings & Paragraphs -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Teleporting Image",
+        "desc": "Write code at home that renders an image of your favorite hobby, followed by a link that opens a tutorial about it in a new tab!",
+        "code": "<img src=\"https://images.unsplash.com/photo-1542751371-adc38448a05e\" alt=\"Gaming\" width=\"300\">\n<a href=\"https://youtube.com\" target=\"_blank\">Watch gaming videos!</a>",
+        "starter_code": "<!-- Create your teleporting image challenge here! -->"
       }
     },
     {
       "id": 3,
-      "badge_icon": "??",
-      "badge_title": "Links & Navigation Medal",
-      "title": "Station 3: Level 1 Session 3: Links & Navigation",
-      "desc": "Interactive Links & Navigation activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 1 Session 3: Links & Navigation</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Links & Navigation</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Links & Navigation Challenge</div>",
-      "simple": "Imagine Links & Navigation is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Links & Navigation!');</code>",
-      "challenge": "Print: <code>console.log('Activated Links & Navigation!');</code>",
-      "starter_code": "<!-- Activate Links & Navigation -->\n<script>\n    console.log('Activated Links & Navigation!');\n</script>",
+      "badge_icon": "📊",
+      "badge_title": "Lists & Tables Medal",
+      "title": "Station 3: HTML Lists & Data Tables",
+      "desc": "Keep your data perfectly organized in lists and structured tables!",
+      "story": "<h3>📊 Stay Organized!</h3>Let's learn how to group items together using lists and display tables! <br><br><b>💡 Key Lessons:</b><ul><li><code>&lt;ul&gt;</code>: Unordered (bulleted) list. Customize markers using <code>disc</code>, <code>circle</code>, or <code>square</code>.</li><li><code>&lt;ol&gt;</code>: Ordered (numbered) list. Use <code>type</code> (A, a, I, i, 1), <code>start</code> (starting number), and <code>reversed</code> (descending).</li><li><code>&lt;li&gt;</code>: List item. Put these inside lists!</li><li><code>&lt;table&gt;</code>: Defines the table. Contains: <code>&lt;tr&gt;</code> (rows), <code>&lt;th&gt;</code> (headers), and <code>&lt;td&gt;</code> (cells).</li><li><b>Advanced Elements:</b> <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, <code>&lt;tfoot&gt;</code>, and <code>&lt;caption&gt;</code>.</li><li><b>Spanning:</b> <code>colspan</code> spans cells across multiple columns.</li></ul>",
+      "simple": "Tables are like grids of chocolates, and lists are like shopping menus!",
+      "hint": "Create a table with a border attribute: <code>&lt;table border=\"1\"&gt;</code>.",
+      "challenge": "Create a 2x2 table displaying Names and Ages of students, and make sure it has a border!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<body>\n    <!-- Add your list or table below! -->\n    \n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Links & Navigation!');"
+          "label": "Add Unordered List",
+          "code": "<ul>\n  <li>Apples</li>\n  <li>Bananas</li>\n</ul>"
+        },
+        {
+          "label": "Add Ordered List",
+          "code": "<ol type=\"A\" start=\"1\">\n  <li>First Item</li>\n  <li>Second Item</li>\n</ol>"
+        },
+        {
+          "label": "Add Basic Table",
+          "code": "<table border=\"1\" width=\"100%\">\n  <caption>Student Table</caption>\n  <tr>\n    <th>Name</th>\n    <th>Age</th>\n  </tr>\n  <tr>\n    <td>Adam</td>\n    <td>12</td>\n  </tr>\n</table>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Links & Navigation!",
+        "required_output_text": "Age",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Links & Navigation",
-        "desc": "Practice Links & Navigation at home in your web project!",
-        "code": "<!-- Home Challenge: Links & Navigation -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Links & Navigation -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Shopping Catalog",
+        "desc": "Create a food shopping list using an ordered list `<ol>` reversed, followed by a table displaying 3 items and their prices with a header row!",
+        "code": "<h3>Shopping Catalog</h3>\n<ol reversed>\n  <li>Fresh Chicken</li>\n  <li>Tasty Pasta</li>\n</ol>\n<table border=\"1\">\n  <tr>\n    <th>Item</th>\n    <th>Price</th>\n  </tr>\n  <tr>\n    <td>Chicken</td>\n    <td>$10</td>\n  </tr>\n</table>",
+        "starter_code": "<!-- Create your Shopping Catalog here! -->"
       }
     },
     {
       "id": 4,
-      "badge_icon": "??",
-      "badge_title": "Images & Media Medal",
-      "title": "Station 4: Level 1 Session 4: Images & Media",
-      "desc": "Interactive Images & Media activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 1 Session 4: Images & Media</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Images & Media</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Images & Media Challenge</div>",
-      "simple": "Imagine Images & Media is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Images & Media!');</code>",
-      "challenge": "Print: <code>console.log('Activated Images & Media!');</code>",
-      "starter_code": "<!-- Activate Images & Media -->\n<script>\n    console.log('Activated Images & Media!');\n</script>",
+      "badge_icon": "🎵",
+      "badge_title": "HTML5 Media Medal",
+      "title": "Station 4: HTML Audio & Video Players",
+      "desc": "Embed sounds and movies directly into your page using HTML5!",
+      "story": "<h3>🎵 Bring Your Site to Life!</h3>Let's play audio and video files directly in our website using native controls!<br><br><b>💡 Key Lessons:</b><ul><li><code>&lt;audio&gt;</code>: Embeds sound. Requires the <code>controls</code> attribute to display play/pause buttons.</li><li><code>&lt;video&gt;</code>: Embeds video. Set <code>width</code> and <code>height</code> to prevent lag/flickering.</li><li><b>Interactive Attributes:</b> <code>autoplay</code> (starts instantly), <code>loop</code> (plays infinitely), and <code>muted</code> (silent).</li><li><code>&lt;source&gt;</code>: Nested inside media elements to define file pathways (<code>src</code>) and safe formats (<code>type=\"video/mp4\"</code>).</li><li><code>poster</code>: Cover picture displayed on the video player before play.</li></ul>",
+      "simple": "The controls attribute is the steering wheel that gives the user control over play, pause, and volume!",
+      "hint": "Set up a video tag: <code>&lt;video width=\"320\" height=\"240\" controls&gt;&lt;source src=\"...\" type=\"video/mp4\"&gt;&lt;/video&gt;</code>.",
+      "challenge": "Embed a video player with width 320px, height 240px, controls, muted, and a high-quality sample mp4 source!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<body>\n    <h1>My Video Channel</h1>\n    <!-- Add your video tag with source below! -->\n    \n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Images & Media!');"
+          "label": "Add Audio Player",
+          "code": "<audio controls loop>\n  <source src=\"https://www.w3schools.com/html/horse.mp3\" type=\"audio/mpeg\">\n</audio>"
+        },
+        {
+          "label": "Add Video Player",
+          "code": "<video width=\"320\" height=\"240\" controls muted>\n  <source src=\"https://www.w3schools.com/html/mov_bbb.mp4\" type=\"video/mp4\">\n</video>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Images & Media!",
+        "required_output_text": "video",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Images & Media",
-        "desc": "Practice Images & Media at home in your web project!",
-        "code": "<!-- Home Challenge: Images & Media -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Images & Media -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Music Box",
+        "desc": "Embed an audio element at home that loops automatically, and a video element that is muted by default with a beautiful placeholder cover poster!",
+        "code": "<audio controls loop autoplay>\n  <source src=\"https://www.w3schools.com/html/horse.mp3\" type=\"audio/mpeg\">\n</audio>\n<br>\n<video width=\"300\" controls muted poster=\"https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7\">\n  <source src=\"https://www.w3schools.com/html/mov_bbb.mp4\" type=\"video/mp4\">\n</video>",
+        "starter_code": "<!-- Create your Music Box code here! -->"
       }
     },
     {
       "id": 5,
-      "badge_icon": "??",
-      "badge_title": "CSS Syntax & Colors Medal",
-      "title": "Station 5: Level 2 Session 1: CSS Syntax & Colors",
-      "desc": "Interactive CSS Syntax & Colors activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 2 Session 1: CSS Syntax & Colors</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>CSS Syntax & Colors</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> CSS Syntax & Colors Challenge</div>",
-      "simple": "Imagine CSS Syntax & Colors is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated CSS Syntax & Colors!');</code>",
-      "challenge": "Print: <code>console.log('Activated CSS Syntax & Colors!');</code>",
-      "starter_code": "<!-- Activate CSS Syntax & Colors -->\n<script>\n    console.log('Activated CSS Syntax & Colors!');\n</script>",
+      "badge_icon": "📝",
+      "badge_title": "HTML Forms Medal",
+      "title": "Station 5: Level 2 Session 1: Interactive HTML Forms",
+      "desc": "Collect user input with forms, inputs, selections, and checkboxes!",
+      "story": "<h3>📝 Forms are Everywhere!</h3>From sign-ups to surveys, we use forms to interact with users and capture inputs!<br><br><b>💡 Key Lessons:</b><ul><li><code>&lt;form&gt;</code>: The parent container for input elements.</li><li><code>&lt;label&gt;</code>: Labels input fields so users know what to type.</li><li><code>&lt;input&gt;</code>: The powerhouse of forms. Dynamic types include: <code>text</code>, <code>email</code>, <code>password</code>, <code>number</code> (min/max), <code>radio</code> (single pick, group using <code>name</code>), <code>checkbox</code> (multi-pick), <code>color</code>, <code>file</code>, <code>submit</code>, and <code>reset</code>.</li><li><code>&lt;select&gt;</code> & <code>&lt;option&gt;</code>: Renders drop-down menus. Add <code>selected</code> to pre-select.</li><li><code>&lt;textarea&gt;</code>: Multi-line description box (controlled by <code>rows</code> and <code>cols</code>).</li><li><code>&lt;fieldset&gt;</code> & <code>&lt;legend&gt;</code>: Groups inputs together with a visual frame.</li><li><b>Useful Attributes:</b> <code>value</code> (starting text), <code>placeholder</code> (faint hint text), and <code>required</code> (must fill!).</li></ul>",
+      "simple": "A placeholder is like a ghost text that vanishes the second the user starts typing!",
+      "hint": "Create an input tag like: <code>&lt;input type=\"email\" placeholder=\"email\" required&gt;</code>.",
+      "challenge": "Design a sign-up form with a required Text field, an Email field with a placeholder, a password field, and a submit button!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<body>\n    <!-- Create your sign-up form below! -->\n    \n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated CSS Syntax & Colors!');"
+          "label": "Add Text Field",
+          "code": "<label>Name: <input type=\"text\" placeholder=\"Enter name\" required></label>"
+        },
+        {
+          "label": "Add Radio Group",
+          "code": "<label><input type=\"radio\" name=\"gender\" value=\"m\"> Male</label>\n<label><input type=\"radio\" name=\"gender\" value=\"f\"> Female</label>"
+        },
+        {
+          "label": "Add Select Menu",
+          "code": "<select>\n  <option value=\"web\">Web Design</option>\n  <option value=\"python\" selected>Python Basics</option>\n</select>"
+        },
+        {
+          "label": "Add Textarea",
+          "code": "<textarea rows=\"4\" cols=\"30\" placeholder=\"Enter bio...\"></textarea>"
+        },
+        {
+          "label": "Add Fieldset frame",
+          "code": "<fieldset>\n  <legend>User Info</legend>\n  <input type=\"submit\" value=\"Submit\">\n</fieldset>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated CSS Syntax & Colors!",
+        "required_output_text": "Submit",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: CSS Syntax & Colors",
-        "desc": "Practice CSS Syntax & Colors at home in your web project!",
-        "code": "<!-- Home Challenge: CSS Syntax & Colors -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: CSS Syntax & Colors -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Feedback Survey",
+        "desc": "Create a feedback form at home with a `<fieldset>` and `<legend>`. Include a required Name input, a drop-down list `<select>` to rate the session from 1 to 5, a `<textarea>` for suggestions, and a submit button!",
+        "code": "<form>\n  <fieldset>\n    <legend>Session Feedback</legend>\n    <label>Name: <input type=\"text\" placeholder=\"Your Name\" required></label><br><br>\n    <label>Rating: \n      <select>\n        <option>5 - Excellent</option>\n        <option>4 - Very Good</option>\n      </select>\n    </label><br><br>\n    <textarea placeholder=\"Suggestions...\" rows=\"3\"></textarea><br>\n    <input type=\"submit\" value=\"Submit Feedback\">\n  </fieldset>\n</form>",
+        "starter_code": "<!-- Create your Feedback Survey here! -->"
       }
     },
     {
       "id": 6,
-      "badge_icon": "??",
-      "badge_title": "Fonts & Typography Medal",
-      "title": "Station 6: Level 2 Session 2: Fonts & Typography",
-      "desc": "Interactive Fonts & Typography activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 2 Session 2: Fonts & Typography</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Fonts & Typography</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Fonts & Typography Challenge</div>",
-      "simple": "Imagine Fonts & Typography is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Fonts & Typography!');</code>",
-      "challenge": "Print: <code>console.log('Activated Fonts & Typography!');</code>",
-      "starter_code": "<!-- Activate Fonts & Typography -->\n<script>\n    console.log('Activated Fonts & Typography!');\n</script>",
+      "badge_icon": "📦",
+      "badge_title": "Layout Elements Medal",
+      "title": "Station 6: Layout Elements, Class & ID Selectors",
+      "desc": "Group your tags inside structural containers and style them with classes!",
+      "story": "<h3>📦 Structural Layout Containers!</h3>Let's learn how to group elements into structural blocks using layout containers and tag them for CSS styling!<br><br><b>💡 Key Lessons:</b><ul><li><code>&lt;div&gt;</code>: Block container. Always starts on a new line and takes up full width. Used to group big sections!</li><li><code>&lt;span&gt;</code>: Inline container. Stays on the same line. Used to highlight specific words inside text!</li><li><code>class</code>: Group tag. Multiple HTML elements can share the same class name for uniform styling.</li><li><code>id</code>: Unique tag. MUST be unique in the entire page! Perfect for identifying one specific element.</li></ul>",
+      "simple": "Think of divs as storage boxes in your room, and spans as small labels placed directly on items!",
+      "hint": "Wrap words with <code>&lt;span class=\"highlight\"&gt;text&lt;/span&gt;</code> and wrap sections in a <code>&lt;div class=\"container\"&gt;</code>.",
+      "challenge": "Create a `div` block with a class of 'hero-box', containing a heading and a paragraph with a word wrapped in a `span` styled with class 'special-text'!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<body>\n    <!-- Write your div, span, class, and id layout elements below! -->\n    \n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Fonts & Typography!');"
+          "label": "Add Div with Class",
+          "code": "<div class=\"hero-box\" id=\"header-section\">\n  <h1>My Site Heading</h1>\n</div>"
+        },
+        {
+          "label": "Add Span highlight",
+          "code": "<p>I am a coder, <span class=\"special-text\">and I love HTML</span>.</p>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Fonts & Typography!",
+        "required_output_text": "hero-box",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Fonts & Typography",
-        "desc": "Practice Fonts & Typography at home in your web project!",
-        "code": "<!-- Home Challenge: Fonts & Typography -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Fonts & Typography -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Blog Post Layout",
+        "desc": "Build a simple blog post layout using a parent `div` with a class of 'blog-post'. Inside, put a heading with class 'blog-title' and a paragraph where the date is styled inside a `span` with an ID of 'post-date'!",
+        "code": "<div class=\"blog-post\">\n  <h2 class=\"blog-title\">The HTML Journey</h2>\n  <p>Published on: <span id=\"post-date\">May 20, 2026</span></p>\n  <p>Today we explored divisions and spans. It was awesome!</p>\n</div>",
+        "starter_code": "<!-- Create your Blog Post Layout here! -->"
       }
     },
     {
       "id": 7,
-      "badge_icon": "??",
-      "badge_title": "Classes & IDs Medal",
-      "title": "Station 7: Level 2 Session 3: Classes & IDs",
-      "desc": "Interactive Classes & IDs activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 2 Session 3: Classes & IDs</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Classes & IDs</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Classes & IDs Challenge</div>",
-      "simple": "Imagine Classes & IDs is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Classes & IDs!');</code>",
-      "challenge": "Print: <code>console.log('Activated Classes & IDs!');</code>",
-      "starter_code": "<!-- Activate Classes & IDs -->\n<script>\n    console.log('Activated Classes & IDs!');\n</script>",
+      "badge_icon": "🎨",
+      "badge_title": "CSS Selector Medal",
+      "title": "Station 7: Level 2 Session 2: Intro to CSS & Colors",
+      "desc": "Paint your website beautiful with CSS rules, selectors, and color styles!",
+      "story": "<h3>🎨 Welcome to CSS!</h3>CSS stands for <b>Cascading Style Sheets</b>. It defines how our HTML tags look on screen!<br><br><b>💡 Key Lessons:</b><ul><li><b>Three Ways to Insert CSS:</b>  <ul>    <li><b>Inline:</b> Directly on tags using the <code>style</code> attribute.</li>    <li><b>Internal:</b> Inside a <code>&lt;style&gt;</code> block inside <code>&lt;head&gt;</code>.</li>    <li><b>External:</b> Inside a separate <code>.css</code> file linked with <code>&lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;</code>.</li>  </ul></li><li><b>CSS Selectors:</b>  <ul>    <li><b>Element Selector:</b> e.g. <code>h1 { color: red; }</code>.</li>    <li><b>Class Selector:</b> e.g. <code>.title { color: blue; }</code> (uses a period <code>.</code>).</li>    <li><b>ID Selector:</b> e.g. <code>#main { color: green; }</code> (uses a hash <code>#</code>).</li>  </ul></li><li><b>CSS Colors:</b> Specified by color names (<code>red</code>), RGB (<code>rgb(255, 0, 0)</code>), RGBA with opacity (<code>rgba(255, 0, 0, 0.5)</code>), and Hexadecimal codes (<code>#ff0000</code>).</li></ul>",
+      "simple": "CSS is the paintbrush and makeup of a website. HTML makes the face, but CSS makes it look gorgeous!",
+      "hint": "Write: <code>&lt;style&gt; h1 { color: #2563eb; } .text { color: rgb(220, 38, 38); } &lt;/style&gt;</code>.",
+      "challenge": "Write internal CSS styling the heading <code>&lt;h1&gt;</code> in royal blue and a paragraph with class 'text' in red!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <!-- Add your style block below! -->\n    \n</head>\n<body>\n    <h1>Colorful Heading</h1>\n    <p class=\"text\">This paragraph is red!</p>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Classes & IDs!');"
+          "label": "Add Style Block",
+          "code": "<style>\n  h1 {\n    color: #1d4ed8;\n    text-align: center;\n  }\n  .text {\n    color: rgba(220, 38, 38, 0.8);\n  }\n</style>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Classes & IDs!",
+        "required_output_text": "style",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Classes & IDs",
-        "desc": "Practice Classes & IDs at home in your web project!",
-        "code": "<!-- Home Challenge: Classes & IDs -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Classes & IDs -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Colorful Rainbow",
+        "desc": "Create a page at home with a heading styled internally using a HEX color value, and three paragraphs, each styled with a unique color class using RGB, RGBA, and standard color names!",
+        "code": "<head>\n  <style>\n    h1 { color: #6366f1; }\n    .red-rgb { color: rgb(239, 68, 68); }\n    .green-rgba { color: rgba(16, 185, 129, 0.7); }\n    .blue-name { color: royalblue; }\n  </style>\n</head>\n<body>\n  <h1>Rainbow Headings</h1>\n  <p class=\"red-rgb\">RGB Red</p>\n  <p class=\"green-rgba\">RGBA Green</p>\n  <p class=\"blue-name\">Blue Name</p>\n</body>",
+        "starter_code": "<!-- Create your Colorful Rainbow code here! -->"
       }
     },
     {
       "id": 8,
-      "badge_icon": "??",
-      "badge_title": "The Box Model (Padding/Margin) Medal",
-      "title": "Station 8: Level 2 Session 4: The Box Model (Padding/Margin)",
-      "desc": "Interactive The Box Model (Padding/Margin) activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 2 Session 4: The Box Model (Padding/Margin)</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>The Box Model (Padding/Margin)</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> The Box Model (Padding/Margin) Challenge</div>",
-      "simple": "Imagine The Box Model (Padding/Margin) is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated The Box Model (Padding/Margin)!');</code>",
-      "challenge": "Print: <code>console.log('Activated The Box Model (Padding/Margin)!');</code>",
-      "starter_code": "<!-- Activate The Box Model (Padding/Margin) -->\n<script>\n    console.log('Activated The Box Model (Padding/Margin)!');\n</script>",
+      "badge_icon": "🌄",
+      "badge_title": "Background Magic Medal",
+      "title": "Station 8: Advanced CSS Background Styling",
+      "desc": "Style your container backgrounds with colors, images, sizing, and attachments!",
+      "story": "<h3>🌄 Advanced CSS Backgrounds!</h3>Let's learn how to add beautiful background textures, patterns, and full-screen covers to containers!<br><br><b>💡 Key Lessons:</b><ul><li><code>background-color</code>: Set the background fill.</li><li><code>background-image</code>: Uses <code>url('image_url')</code> to specify the background image.</li><li><code>background-repeat</code>: Controls repeating (<code>repeat-x</code> horizontally, <code>repeat-y</code> vertically, or <code>no-repeat</code>).</li><li><code>background-attachment</code>: Sets scrolling behavior. <code>scroll</code> moves with page; <code>fixed</code> locks it in place!</li><li><code>background-position</code>: Centering image using values like <code>top</code>, <code>center</code>, <code>bottom</code>, and x/y alignments.</li><li><code>background-size</code>: <code>auto</code> (original size), <code>cover</code> (covers container completely, clipping if needed), or <code>contain</code> (fully visible inside).</li></ul>",
+      "simple": "The cover value stretches your background picture to cover the entire page like a beautiful blanket!",
+      "hint": "Set up background styles like: <code>background-image: url('...'); background-repeat: no-repeat; background-size: cover;</code>.",
+      "challenge": "Style a division with a class of 'hero-banner' to have a height of 200px, a background color, a background image, set to no-repeat, cover, and centered!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .hero-banner {\n            height: 200px;\n            /* Add background styles below! */\n            \n        }\n    </style>\n</head>\n<body>\n    <div class=\"hero-banner\"></div>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated The Box Model (Padding/Margin)!');"
+          "label": "Add Background Image",
+          "code": "background-image: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809');"
+        },
+        {
+          "label": "Add no-repeat",
+          "code": "background-repeat: no-repeat;"
+        },
+        {
+          "label": "Add cover size",
+          "code": "background-size: cover;"
+        },
+        {
+          "label": "Add center position",
+          "code": "background-position: center;"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated The Box Model (Padding/Margin)!",
+        "required_output_text": "hero-banner",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: The Box Model (Padding/Margin)",
-        "desc": "Practice The Box Model (Padding/Margin) at home in your web project!",
-        "code": "<!-- Home Challenge: The Box Model (Padding/Margin) -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: The Box Model (Padding/Margin) -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Fixed Hero Banner",
+        "desc": "Style a full page background or banner division at home to have a fixed background image <code>background-attachment: fixed;</code> that does not scroll, centered on the screen, and sized as cover!",
+        "code": "<style>\n  .banner {\n    height: 400px;\n    background-image: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    background-attachment: fixed;\n  }\n</style>\n<div class=\"banner\"></div>",
+        "starter_code": "<!-- Create your Fixed Hero Banner here! -->"
       }
     },
     {
       "id": 9,
-      "badge_icon": "??",
-      "badge_title": "Flexbox Basics Medal",
-      "title": "Station 9: Level 3 Session 1: Flexbox Basics",
-      "desc": "Interactive Flexbox Basics activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 3 Session 1: Flexbox Basics</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Flexbox Basics</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Flexbox Basics Challenge</div>",
-      "simple": "Imagine Flexbox Basics is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Flexbox Basics!');</code>",
-      "challenge": "Print: <code>console.log('Activated Flexbox Basics!');</code>",
-      "starter_code": "<!-- Activate Flexbox Basics -->\n<script>\n    console.log('Activated Flexbox Basics!');\n</script>",
+      "badge_icon": "📦",
+      "badge_title": "Box Model Medal",
+      "title": "Station 9: Level 3 Session 1: CSS Box Model & Borders",
+      "desc": "Control spacings with margins, padding, custom borders, and width sizes!",
+      "story": "<h3>📦 Master the CSS Box Model!</h3>Every element in HTML is a rectangular box. Spacings are controlled by margins, borders, and padding!<br><br><b>💡 Key Lessons:</b><ul><li><b>Box Components:</b>  <ul>    <li><b>Content:</b> The text or image itself.</li>    <li><b>Padding:</b> Space INSIDE the border, around the content.</li>    <li><b>Border:</b> The boundary wrapping the padding and content.</li>    <li><b>Margin:</b> Space OUTSIDE the border, keeping elements apart.</li>  </ul></li><li><b>Shorthand Rules (Margins & Paddings):</b>  <ul>    <li>4 values: <code>top right bottom left</code> (Clockwise!).</li>    <li>3 values: <code>top (right/left) bottom</code>.</li>    <li>2 values: <code>(top/bottom) (right/left)</code>.</li>    <li>1 value: <code>all-four-sides</code>.</li>  </ul></li><li><b>Borders:</b> Style using <code>border-style</code> (<code>solid</code>, <code>dashed</code>, <code>dotted</code>, <code>double</code>), <code>border-width</code>, <code>border-color</code>, or shorthand (e.g. <code>border: 3px solid #10b981;</code>).</li><li><b>Width:</b> Size boxes using percentages (<code>%</code>) or absolute pixels (<code>px</code>).</li></ul>",
+      "simple": "Margin pushes away other elements, while padding pushes contents inside, inflating the element's box!",
+      "hint": "Set up a box with padding, margin, border, and width: <code>width: 300px; padding: 20px; border: 2px solid green; margin: 15px;</code>.",
+      "challenge": "Style a class 'info-box' to have a width of 80%, margin set to '10px auto' (centered), padding of 20px, and a 3px solid border!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .info-box {\n            /* Add Box Model properties below! */\n            \n        }\n    </style>\n</head>\n<body>\n    <div class=\"info-box\">We love the Box Model!</div>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Flexbox Basics!');"
+          "label": "Add Width 80%",
+          "code": "width: 80%;"
+        },
+        {
+          "label": "Add Centered Margin",
+          "code": "margin: 10px auto;"
+        },
+        {
+          "label": "Add Padding 20px",
+          "code": "padding: 20px;"
+        },
+        {
+          "label": "Add Border Shorthand",
+          "code": "border: 3px solid #10b981;"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Flexbox Basics!",
+        "required_output_text": "info-box",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Flexbox Basics",
-        "desc": "Practice Flexbox Basics at home in your web project!",
-        "code": "<!-- Home Challenge: Flexbox Basics -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Flexbox Basics -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Double Border Box",
+        "desc": "Design a box division at home styled with a double border of 5px size, colored in purple, with a 30px padding on the inside and a 50px margin on the bottom!",
+        "code": "<style>\n  .magic-box {\n    border-style: double;\n    border-width: 5px;\n    border-color: darkmagenta;\n    padding: 30px;\n    margin-bottom: 50px;\n  }\n</style>\n<div class=\"magic-box\">Double Border Magic!</div>",
+        "starter_code": "<!-- Create your Double Border Box here! -->"
       }
     },
     {
       "id": 10,
-      "badge_icon": "??",
-      "badge_title": "Grid Layouts Medal",
-      "title": "Station 10: Level 3 Session 2: Grid Layouts",
-      "desc": "Interactive Grid Layouts activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 3 Session 2: Grid Layouts</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Grid Layouts</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Grid Layouts Challenge</div>",
-      "simple": "Imagine Grid Layouts is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Grid Layouts!');</code>",
-      "challenge": "Print: <code>console.log('Activated Grid Layouts!');</code>",
-      "starter_code": "<!-- Activate Grid Layouts -->\n<script>\n    console.log('Activated Grid Layouts!');\n</script>",
+      "badge_icon": "🔤",
+      "badge_title": "Typography Medal",
+      "title": "Station 10: Level 3 Session 2: CSS Typography",
+      "desc": "Format font-families, font weights, text alignments, capitalization, and spacings!",
+      "story": "<h3>🔤 Make Text Beautiful!</h3>Let's learn how to style texts and load custom font families using CSS Typography properties!<br><br><b>💡 Key Lessons:</b><ul><li><code>color</code>: Set text color.</li><li><code>text-align</code>: Alignment (<code>left</code>, <code>right</code>, <code>center</code>).</li><li><code>direction</code>: Control reading direction (<code>ltr</code> for English, <code>rtl</code> for Arabic).</li><li><code>text-transform</code>: Text capitalization (<code>uppercase</code>, <code>lowercase</code>, <code>capitalize</code>).</li><li><code>letter-spacing</code> & <code>word-spacing</code>: Spacings between letters and words (in px).</li><li><code>font-family</code>: Defines fonts. Uses fallbacks separated by commas (e.g. <code>Arial, sans-serif</code>). Wrap multi-word font names in quotation marks!</li><li><code>font-size</code>: Sized in pixels (<code>px</code>).</li><li><code>font-weight</code>: Boldness (<code>normal</code>, <code>bold</code>).</li></ul>",
+      "simple": "When a font name has two words like 'Times New Roman', you must wrap it in quotation marks so the browser doesn't get confused!",
+      "hint": "Set up text styles: <code>font-size: 24px; font-weight: bold; text-align: center; text-transform: uppercase;</code>.",
+      "challenge": "Style the heading with class 'main-heading' to have a bold Arial font of 24px size, centered alignment, and transform text to uppercase!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .main-heading {\n            /* Add typography styles below! */\n            \n        }\n    </style>\n</head>\n<body>\n    <h1 class=\"main-heading\">Megaminds is Awesome</h1>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Grid Layouts!');"
+          "label": "Add Arial Font",
+          "code": "font-family: Arial, sans-serif;"
+        },
+        {
+          "label": "Add Font Size 24px",
+          "code": "font-size: 24px;"
+        },
+        {
+          "label": "Add Bold Font",
+          "code": "font-weight: bold;"
+        },
+        {
+          "label": "Add Uppercase",
+          "code": "text-transform: uppercase;"
+        },
+        {
+          "label": "Add Center Alignment",
+          "code": "text-align: center;"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Grid Layouts!",
+        "required_output_text": "main-heading",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Grid Layouts",
-        "desc": "Practice Grid Layouts at home in your web project!",
-        "code": "<!-- Home Challenge: Grid Layouts -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Grid Layouts -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Book Title Styling",
+        "desc": "Design a book title display at home. Use a serif font, uppercase styling, bold text, 3px letter-spacing, and deep indigo color!",
+        "code": "<style>\n  .book-title {\n    font-family: 'Times New Roman', serif;\n    font-size: 32px;\n    font-weight: bold;\n    text-transform: uppercase;\n    letter-spacing: 3px;\n    color: indigo;\n    text-align: center;\n  }\n</style>\n<h1 class=\"book-title\">The Story of Coding</h1>",
+        "starter_code": "<!-- Create your Book Title layout here! -->"
       }
     },
     {
       "id": 11,
-      "badge_icon": "??",
-      "badge_title": "Positioning (Relative/Absolute) Medal",
-      "title": "Station 11: Level 3 Session 3: Positioning (Relative/Absolute)",
-      "desc": "Interactive Positioning (Relative/Absolute) activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 3 Session 3: Positioning (Relative/Absolute)</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Positioning (Relative/Absolute)</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Positioning (Relative/Absolute) Challenge</div>",
-      "simple": "Imagine Positioning (Relative/Absolute) is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Positioning (Relative/Absolute)!');</code>",
-      "challenge": "Print: <code>console.log('Activated Positioning (Relative/Absolute)!');</code>",
-      "starter_code": "<!-- Activate Positioning (Relative/Absolute) -->\n<script>\n    console.log('Activated Positioning (Relative/Absolute)!');\n</script>",
+      "badge_icon": "⛵",
+      "badge_title": "Float & Flow Medal",
+      "title": "Station 11: Level 3 Session 3: Float & Overflow",
+      "desc": "Float images next to paragraphs, clear floats, and control overflow scrolls!",
+      "story": "<h3>⛵ Floating & Content التدفق!</h3>Let's master alignment using floats and control what happens when content exceeds its box borders!<br><br><b>💡 Key Lessons:</b><ul><li><code>float</code>: Positions elements to float to the <code>left</code>, <code>right</code>, or <code>none</code> of their containers (allowing paragraphs to wrap around them!).</li><li><code>clear</code>: Stops floating elements from hugging sides. Pushes next elements below left floats (<code>left</code>), right floats (<code>right</code>), or both (<code>both</code>).</li><li><code>overflow</code>: Controls content exceeding height/width boxes. Values: <code>visible</code> (renders outside, default), <code>hidden</code> (clops and hides content), <code>scroll</code> (adds scrollbars), and <code>auto</code> (scrollbars only when needed!).</li></ul>",
+      "simple": "When you float an image to the left, the text surrounding it wraps around it on the right side like water flowing past a stone!",
+      "hint": "Set up floating image and overflow-scroll container using: <code>float: left; overflow: auto;</code>.",
+      "challenge": "Style the class 'avatar' to float left with margin-right of 10px, and style class 'box' to have height 100px and auto overflow scrollbars!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .avatar {\n            /* Float this! */\n            \n        }\n        .box {\n            height: 100px;\n            border: 2px solid #ccc;\n            /* Add overflow control below! */\n            \n        }\n    </style>\n</head>\n<body>\n    <div class=\"box\">\n        <img class=\"avatar\" src=\"https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe\" width=\"50\" height=\"50\">\n        This is a scrolling box that handles very long paragraphs using overflow configurations!\n    </div>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Positioning (Relative/Absolute)!');"
+          "label": "Add Float Left",
+          "code": "float: left;"
+        },
+        {
+          "label": "Add Margin Right",
+          "code": "margin-right: 10px;"
+        },
+        {
+          "label": "Add Overflow Auto",
+          "code": "overflow: auto;"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Positioning (Relative/Absolute)!",
+        "required_output_text": "avatar",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Positioning (Relative/Absolute)",
-        "desc": "Practice Positioning (Relative/Absolute) at home in your web project!",
-        "code": "<!-- Home Challenge: Positioning (Relative/Absolute) -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Positioning (Relative/Absolute) -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Double Column Layout",
+        "desc": "Create a layout at home with an image floated to the right of a story, and place a footer paragraph underneath that uses <code>clear: both;</code> so it always starts on a fresh line below the image!",
+        "code": "<img src=\"img.jpg\" style=\"float: right; margin-left: 10px;\" width=\"100\">\n<p>This is paragraph text describing the beautiful float alignments.</p>\n<p style=\"clear: both; background: #e2e8f0; padding: 10px;\">I am a cleared footer text safely appearing below!</p>",
+        "starter_code": "<!-- Create your Double Column Layout here! -->"
       }
     },
     {
       "id": 12,
-      "badge_icon": "??",
-      "badge_title": "Navigation Bars Medal",
-      "title": "Station 12: Level 3 Session 4: Navigation Bars",
-      "desc": "Interactive Navigation Bars activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 3 Session 4: Navigation Bars</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Navigation Bars</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Navigation Bars Challenge</div>",
-      "simple": "Imagine Navigation Bars is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Navigation Bars!');</code>",
-      "challenge": "Print: <code>console.log('Activated Navigation Bars!');</code>",
-      "starter_code": "<!-- Activate Navigation Bars -->\n<script>\n    console.log('Activated Navigation Bars!');\n</script>",
+      "badge_icon": "👁️",
+      "badge_title": "Display States Medal",
+      "title": "Station 12: Level 3 Session 4: CSS Display & States",
+      "desc": "Master block vs inline elements, hide containers, and style links with hover effects!",
+      "story": "<h3>👁️ Display Behaviors & Interactive Links!</h3>Let's master how elements sit on screen and how hyperlinks transition dynamically when hovered!<br><br><b>💡 Key Lessons:</b><ul><li><code>display</code>: Sets element display properties.  <ul>    <li><code>block</code>: Starts fresh line, takes full width (e.g. <code>&lt;div&gt;</code>, <code>&lt;h1&gt;</code>).</li>    <li><code>inline</code>: Same line, only takes needed width; top/bottom padding/margin ignored (e.g. <code>&lt;span&gt;</code>, <code>&lt;a&gt;</code>).</li>    <li><code>inline-block</code>: Same line, but allows setting custom width/height and respects all margins/paddings!</li>    <li><code>none</code>: Hides element completely (layout acts as if it is not there!).</li>  </ul></li><li><code>visibility: hidden;</code>: Hides element, but retains its structural blank space!</li><li><b>Interactive Links:</b> Style text color, add/remove underlines (<code>text-decoration: none;</code>), and customize hover transitions using the <code>a:hover</code> pseudo-class!</li></ul>",
+      "simple": "display: none hides the element and deletes its space, while visibility: hidden hides it but leaves an empty ghost space!",
+      "hint": "Set style: <code>text-decoration: none;</code>, and <code>a:hover { color: #f59e0b; text-decoration: underline; }</code>.",
+      "challenge": "Style standard links to have no underline (none) and change color to gold on hover using `a:hover`!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        a {\n            color: #3b82f6;\n            /* Remove underline below! */\n            \n        }\n        /* Add hover selector below! */\n        \n    </style>\n</head>\n<body>\n    <a href=\"#\">Hover Over Me!</a>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Navigation Bars!');"
+          "label": "Remove Underline",
+          "code": "text-decoration: none;"
+        },
+        {
+          "label": "Add Hover pseudo",
+          "code": "a:hover {\n  color: #ffb703;\n  text-decoration: underline;\n}"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Navigation Bars!",
+        "required_output_text": "hover",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Navigation Bars",
-        "desc": "Practice Navigation Bars at home in your web project!",
-        "code": "<!-- Home Challenge: Navigation Bars -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Navigation Bars -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Interactive Navigation Links",
+        "desc": "Design navigation menu links at home! Display them in a line using <code>display: inline-block;</code>, remove lines under them, and change background and color when hovered!",
+        "code": "<style>\n  .nav-link {\n    display: inline-block;\n    padding: 10px 20px;\n    color: #fff;\n    background-color: #023047;\n    text-decoration: none;\n    border-radius: 5px;\n  }\n  .nav-link:hover {\n    background-color: #ffb703;\n    color: #023047;\n  }\n</style>\n<a href=\"#\" class=\"nav-link\">Dashboard</a>",
+        "starter_code": "<!-- Create your Interactive Navigation Links here! -->"
       }
     },
     {
       "id": 13,
-      "badge_icon": "??",
-      "badge_title": "Media Queries Medal",
-      "title": "Station 13: Level 4 Session 1: Media Queries",
-      "desc": "Interactive Media Queries activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 4 Session 1: Media Queries</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Media Queries</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Media Queries Challenge</div>",
-      "simple": "Imagine Media Queries is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Media Queries!');</code>",
-      "challenge": "Print: <code>console.log('Activated Media Queries!');</code>",
-      "starter_code": "<!-- Activate Media Queries -->\n<script>\n    console.log('Activated Media Queries!');\n</script>",
+      "badge_icon": "📍",
+      "badge_title": "Positioning Medal",
+      "title": "Station 13: Level 4 Session 1: CSS Positioning & Shadows",
+      "desc": "Position containers (relative, fixed, absolute), add shadows, and load Font Awesome icons!",
+      "story": "<h3>📍 Positioning, Shadows & Icon Libraries!</h3>Let's master absolute placing coordinates, create gorgeous dimensional shadows, and load beautiful scalable vector icons!<br><br><b>💡 Key Lessons:</b><ul><li><code>position</code>: Positioning models.  <ul>    <li><code>relative</code>: Positioned relative to its normal position.</li>    <li><code>fixed</code>: Locked relative to viewport window (doesn't scroll, stays in place!).</li>    <li><code>absolute</code>: Positioned relative to its closest positioned parent.</li>  </ul></li><li><b>Shadow Effects:</b>  <ul>    <li><code>text-shadow</code>: Shadow on texts (horizontal, vertical, blur, color).</li>    <li><code>box-shadow</code>: Shadow on box boxes (horizontal, vertical, blur, color).</li>  </ul></li><li><b>Icon Libraries:</b> Link **Font Awesome** CDN inside `<head>` and display icons inside inline elements (like `&lt;i class=\"fas fa-fire\"&gt;&lt;/i&gt;`).</li></ul>",
+      "simple": "A fixed element does not scroll with the page. It sits in the exact same spot like a sticky note on your screen!",
+      "hint": "Set box styles: <code>box-shadow: 5px 5px 10px gainsboro; position: absolute; top: 10px; right: 10px;</code>.",
+      "challenge": "Style class 'card' to have relative positioning and a subtle box-shadow, and load a star icon inside it!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\">\n    <style>\n        .card {\n            width: 200px;\n            padding: 20px;\n            background: #fff;\n            /* Add position and box-shadow below! */\n            \n        }\n    </style>\n</head>\n<body>\n    <div class=\"card\">\n        <!-- Add star icon here! -->\n        Best Choice\n    </div>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Media Queries!');"
+          "label": "Add Position Relative",
+          "code": "position: relative;"
+        },
+        {
+          "label": "Add Box Shadow",
+          "code": "box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);"
+        },
+        {
+          "label": "Add Star Icon tag",
+          "code": "<i class=\"fas fa-star\" style=\"color:gold;\"></i>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Media Queries!",
+        "required_output_text": "fa-star",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Media Queries",
-        "desc": "Practice Media Queries at home in your web project!",
-        "code": "<!-- Home Challenge: Media Queries -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Media Queries -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Glow Card with Icons",
+        "desc": "Create a glowing card at home! Include a fire icon, a text heading with an orange text-shadow glow, and styled with relative coordinates!",
+        "code": "<head>\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\">\n  <style>\n    .glow-card {\n      position: relative;\n      padding: 30px;\n      background: #111;\n      color: #fff;\n      box-shadow: 0 0 15px #f59e0b;\n      border-radius: 10px;\n      text-align: center;\n    }\n    h2 {\n      text-shadow: 0 0 8px #f59e0b;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"glow-card\">\n    <i class=\"fas fa-fire\" style=\"color:orange; font-size: 2rem;\"></i>\n    <h2>Mega Fire!</h2>\n  </div>\n</body>",
+        "starter_code": "<!-- Create your Glow Card here! -->"
       }
     },
     {
       "id": 14,
-      "badge_icon": "??",
-      "badge_title": "Responsive Images Medal",
-      "title": "Station 14: Level 4 Session 2: Responsive Images",
-      "desc": "Interactive Responsive Images activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 4 Session 2: Responsive Images</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Responsive Images</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Responsive Images Challenge</div>",
-      "simple": "Imagine Responsive Images is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Responsive Images!');</code>",
-      "challenge": "Print: <code>console.log('Activated Responsive Images!');</code>",
-      "starter_code": "<!-- Activate Responsive Images -->\n<script>\n    console.log('Activated Responsive Images!');\n</script>",
+      "badge_icon": "🎬",
+      "badge_title": "Animation Medal",
+      "title": "Station 14: Level 4 Session 2: CSS Keyframe Animations",
+      "desc": "Bring elements to life with @keyframes, durations, delays, and loop counts!",
+      "story": "<h3>🎬 Animation Magic!</h3>CSS lets us animate elements from one style to another without Javascript! Let's learn how!<br><br><b>💡 Key Lessons:</b><ul><li><code>@keyframes</code>: The animation script. Define key moments using keywords <code>from</code> & <code>to</code>, or percentages (<code>0%</code>, <code>50%</code>, <code>100%</code>).</li><li><code>animation-name</code>: Links keyframes rule to elements.</li><li><code>animation-duration</code>: Defines duration in seconds (e.g. <code>2s</code>). Default is <code>0s</code> (no animation!).</li><li><code>animation-delay</code>: Set standard delay before animation begins.</li><li><code>animation-iteration-count</code>: Loop counts. Set to <code>infinite</code> to run forever!</li></ul>",
+      "simple": "Think of keyframes like pages in a flipbook. When you flip them fast, the drawing starts moving!",
+      "hint": "Create code: <code>animation: slide 2s infinite;</code> and define <code>@keyframes slide { from { left: 0px; } to { left: 100px; } }</code>.",
+      "challenge": "Create a pulse keyframes animation (from scale 1 to 1.1) and apply it to a button infinitely with a 1.5s duration!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        /* Define keyframes below! */\n        \n        .pulse-btn {\n            padding: 10px 20px;\n            background: #ec4899;\n            color: white;\n            border: none;\n            border-radius: 5px;\n            /* Apply animation below! */\n            \n        }\n    </style>\n</head>\n<body>\n    <button class=\"pulse-btn\">Animate Me!</button>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Responsive Images!');"
+          "label": "Add Keyframes Pulse",
+          "code": "@keyframes pulse {\n  0% { transform: scale(1); }\n  50% { transform: scale(1.1); }\n  100% { transform: scale(1); }\n}"
+        },
+        {
+          "label": "Apply Pulse Animation",
+          "code": "animation: pulse 1.5s infinite;"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Responsive Images!",
+        "required_output_text": "pulse",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Responsive Images",
-        "desc": "Practice Responsive Images at home in your web project!",
-        "code": "<!-- Home Challenge: Responsive Images -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Responsive Images -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Infinite Spinner",
+        "desc": "Build an infinite loader spinning wheel at home! Create keyframes that rotate the element 360 degrees and run infinitely!",
+        "code": "<style>\n  @keyframes spin {\n    from { transform: rotate(0deg); }\n    to { transform: rotate(360deg); }\n  }\n  .spinner {\n    width: 50px;\n    height: 50px;\n    border: 5px solid #ccc;\n    border-top: 5px solid #3b82f6;\n    border-radius: 50%;\n    animation: spin 1s linear infinite;\n  }\n</style>\n<div class=\"spinner\"></div>",
+        "starter_code": "<!-- Create your Infinite Spinner here! -->"
       }
     },
     {
       "id": 15,
-      "badge_icon": "??",
-      "badge_title": "Intro to JavaScript Medal",
-      "title": "Station 15: Level 4 Session 3: Intro to JavaScript",
-      "desc": "Interactive Intro to JavaScript activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 4 Session 3: Intro to JavaScript</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Intro to JavaScript</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Intro to JavaScript Challenge</div>",
-      "simple": "Imagine Intro to JavaScript is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated Intro to JavaScript!');</code>",
-      "challenge": "Print: <code>console.log('Activated Intro to JavaScript!');</code>",
-      "starter_code": "<!-- Activate Intro to JavaScript -->\n<script>\n    console.log('Activated Intro to JavaScript!');\n</script>",
+      "badge_icon": "🍔",
+      "badge_title": "Delicious Part 1 Medal",
+      "title": "Station 15: Level 4 Session 3: Delicious Restaurant - Part 1",
+      "desc": "Setup the layout, navbar links, and header banner for the final Delicious Project!",
+      "story": "<h3>🍔 Delicious Restaurant Website - Part 1!</h3>It's final capstone project time! We are building a high-end restaurant landing page called <b>Delicious Restaurant</b>!<br><br><b>💡 Key Lessons:</b><ul><li><b>Setup:</b> Link custom Google Fonts (like <code>Pacifico</code> and <code>Great Vibes</code>) and **Font Awesome** CDN inside `<head>`.</li><li><b>Header & Navbar:</b> Create a structural navbar containing a left logo (using fire/fork icons) and right navigation menu links (Home, Products, Our Offers, Services, Contact) styled in a horizontal line.</li><li><b>Banner Hero Content:</b> Style a welcome banner with high-quality headers and taglines.</li></ul>",
+      "simple": "We use flexbox to align our logo on the left and our links on the right, keeping our menu neat and clean!",
+      "hint": "Build your navbar layout using standard flex displays: <code>display: flex; justify-content: space-between;</code>.",
+      "challenge": "Setup a navigation bar for Delicious with a class of 'nav-container', displaying the logo and a list of links side by side!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Delicious Restaurant</title>\n    <link href=\"https://fonts.googleapis.com/css2?family=Pacifico&display=swap\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\">\n    <style>\n        body { font-family: 'Pacifico', cursive; margin:0; }\n        /* Style the navbar display below! */\n        \n    </style>\n</head>\n<body>\n    <nav class=\"nav-container\">\n        <div class=\"logo\"><i class=\"fas fa-utensils\"></i> Delicious</div>\n        <ul class=\"links\" style=\"display:flex; list-style:none; gap:20px;\">\n            <li><a href=\"#\" style=\"color:#fff; text-decoration:none;\">Home</a></li>\n            <li><a href=\"#\" style=\"color:#fff; text-decoration:none;\">Products</a></li>\n        </ul>\n    </nav>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Intro to JavaScript!');"
+          "label": "Style Nav Container",
+          "code": ".nav-container {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background: #333;\n  color: #fff;\n  padding: 15px 30px;\n}"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Intro to JavaScript!",
+        "required_output_text": "nav-container",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Intro to JavaScript",
-        "desc": "Practice Intro to JavaScript at home in your web project!",
-        "code": "<!-- Home Challenge: Intro to JavaScript -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Intro to JavaScript -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Delicious Welcome Banner",
+        "desc": "Build the welcome banner for your restaurant at home! Align text in the center, style it with custom fonts, and add a Book Table button with glowing box-shadows!",
+        "code": "<div class=\"welcome-banner\">\n  <h1 style=\"font-family:'Pacifico', cursive; font-size:3rem;\">Welcome To Delicious</h1>\n  <p>Savour delightful dishes made with fresh ingredients daily!</p>\n  <button style=\"padding:12px 24px; background:orange; border:none; border-radius:5px; font-weight:bold; cursor:pointer;\">BOOK NOW</button>\n</div>",
+        "starter_code": "<!-- Create your Welcome Banner here! -->"
       }
     },
     {
       "id": 16,
-      "badge_icon": "??",
-      "badge_title": "DOM Click Events Medal",
-      "title": "Station 16: Level 4 Session 4: DOM Click Events",
-      "desc": "Interactive DOM Click Events activities",
-      "story": "<h3>?? Welcome, future Web Designer!</h3>Let's dive into <b>Level 4 Session 4: DOM Click Events</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>DOM Click Events</b>: Building beautiful web pages!</li></ul><b>? Objectives:</b><ul><li>?? Understand web tags and styles</li><li>?? Apply modern design</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> DOM Click Events Challenge</div>",
-      "simple": "Imagine DOM Click Events is like drawing a beautiful painting on a digital canvas!",
-      "hint": "Type: <code>console.log('Activated DOM Click Events!');</code>",
-      "challenge": "Print: <code>console.log('Activated DOM Click Events!');</code>",
-      "starter_code": "<!-- Activate DOM Click Events -->\n<script>\n    console.log('Activated DOM Click Events!');\n</script>",
+      "badge_icon": "🦞",
+      "badge_title": "Delicious Part 2 Medal",
+      "title": "Station 16: Level 4 Session 4: Delicious Restaurant - Part 2",
+      "desc": "Add food product cards (Chicken & Seafood), styling, borders, and footer details!",
+      "story": "<h3>🦞 Delicious Restaurant Website - Part 2!</h3>Let's complete our beautiful <b>Delicious Restaurant</b> landing page by adding food product cards, styled tables, and contact details!<br><br><b>💡 Key Lessons:</b><ul><li><b>Product Sections:</b> Create two cards: <b>Chicken</b> (\"We offer you the best types of chicken...\") and <b>Seafood</b> (\"fresh seafood with a variety of unique recipes...\").</li><li><b>Visual Cards:</b> Style cards with borders, border-radius, centered layouts, and add nice hover scaling transitions.</li><li><b>Address Footer:</b> Add a styled footer with a nice map-address \"1 St Mostafa Kamel, Somouha, Alexandria\" and Font Awesome social icons!</li></ul>",
+      "simple": "The transition property makes image card scaling smooth and elegant, preventing jarring changes!",
+      "hint": "Set up food product cards using nice borders and hover: <code>.card:hover { transform: scale(1.05); transition: 0.3s; }</code>.",
+      "challenge": "Create a seafood product card styled with borders and hover scale transitions, and add a footer displaying the Somouha, Alexandria address!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .menu-container { display: flex; gap: 20px; justify-content: center; padding: 20px; }\n        .card { border: 1px solid #ddd; padding: 15px; border-radius: 8px; text-align: center; width: 220px; }\n        /* Add hover scale animation below! */\n        \n        footer { background: #222; color: #fff; text-align: center; padding: 15px; margin-top: 30px; }\n    </style>\n</head>\n<body>\n    <div class=\"menu-container\">\n        <div class=\"card\">\n            <h3>Seafood</h3>\n            <p>Mouth-watering fresh seafood recipes!</p>\n        </div>\n    </div>\n    <footer>\n        <!-- Add footer content below! -->\n        \n    </footer>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated DOM Click Events!');"
+          "label": "Add Hover Animation",
+          "code": ".card:hover {\n  transform: scale(1.05);\n  transition: transform 0.3s ease;\n  box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}"
+        },
+        {
+          "label": "Add Footer Content",
+          "code": "<p><i class=\"fas fa-map-marker-alt\" style=\"color:orange;\"></i> 1 St Mostafa Kamel, Somouha, Alexandria</p>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated DOM Click Events!",
+        "required_output_text": "Somouha",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: DOM Click Events",
-        "desc": "Practice DOM Click Events at home in your web project!",
-        "code": "<!-- Home Challenge: DOM Click Events -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: DOM Click Events -->\n<!-- Write your creative solution here! -->"
+        "title": "🎉 Magic Home Challenge: Completed Restaurant Website!",
+        "desc": "Assemble all sections at home! Put together your styled navigation bar, hero banner, food product cards (chicken & seafood) with hover animations, and the Somouha, Alexandria footer. You have built a production-grade restaurant page! Excellent work! 🌟",
+        "code": "<!-- Completed Delicious Restaurant Landing Page! -->",
+        "starter_code": "<!-- Completed Delicious Restaurant Landing Page! -->"
       }
     }
   ]

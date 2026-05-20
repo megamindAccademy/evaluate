@@ -1,456 +1,476 @@
 {
   "course_id": "senior_web_design_advanced",
-  "course_title": "Web Design Advanced",
-  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Web Design Advanced. Unlock custom medals, solve daily challenges, and program your own digital masterpieces!",
+  "course_title": "Web Design Advanced (Bootstrap/JS)",
+  "course_subtitle": "Speed up layout structures with Bootstrap grids and add programming logic with JavaScript!",
   "xp_total": 1600,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
-      "badge_icon": "??",
-      "badge_title": "Session 1 Medal",
-      "title": "Station 1: Session 1",
-      "desc": "Interactive Session 1 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 1</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 1 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 1 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 1 -->\n<script>\n  console.log('Session 1 activated successfully!');\n</script>",
+      "badge_icon": "⚡",
+      "badge_title": "Bootstrap CDN Medal",
+      "title": "Station 1: Web Development Advanced - Bootstrap 1 Intro",
+      "desc": "Link Bootstrap CDN, load responsive Navbars, and design layout cards!",
+      "story": "<h3>⚡ Welcome to Web Advanced!</h3>Let's learn how to build professional websites in minutes using **Bootstrap**, the world's most popular CSS framework!<br><br><b>💡 Key Lessons:</b><ul><li><b>What is Bootstrap?</b> A pre-styled collection of CSS and JS utilities for fast, responsive web design.</li><li><b>Linking CDN:</b> Reference the Bootstrap stylesheet link inside the `<head>` tag.</li><li><b>Bootstrap Components:</b> Create gorgeous **Navbar** and **Card** elements without writing custom CSS!</li></ul>",
+      "simple": "Bootstrap gives you pre-made CSS classes. Type the class name, and your button or layout instantly looks awesome!",
+      "hint": "Link Bootstrap inside head: <code>&lt;link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\"&gt;</code>.",
+      "challenge": "Link the Bootstrap 5.3 CDN inside the head section, and create a Bootstrap styled Card division with a class of 'card'!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <!-- Link Bootstrap CDN below! -->\n    \n</head>\n<body class=\"p-4\">\n    <!-- Add Bootstrap Card below! -->\n    \n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate Session 1",
-          "code": "console.log('Session 1 activated successfully!');"
+          "label": "Link Bootstrap CDN",
+          "code": "<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">"
+        },
+        {
+          "label": "Add Bootstrap Card",
+          "code": "<div class=\"card\" style=\"width: 18rem;\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Bootstrap Card</h5>\n    <p class=\"card-text\">Linked successfully!</p>\n  </div>\n</div>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 1 activated successfully!",
+        "required_output_text": "bootstrap",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 1",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 1 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 1 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Bootstrap Navbar",
+        "desc": "Link Bootstrap at home and design a fully styled navigation bar using classes like <code>navbar</code>, <code>navbar-dark</code>, and <code>bg-dark</code>!",
+        "code": "<head>\n  <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n</head>\n<body>\n  <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n    <div class=\"container-fluid\">\n      <a class=\"navbar-brand\" href=\"#\">My Brand</a>\n    </div>\n  </nav>\n</body>",
+        "starter_code": "<!-- Create your Bootstrap Navbar here! -->"
       }
     },
     {
       "id": 2,
-      "badge_icon": "??",
-      "badge_title": "Session 2 Medal",
-      "title": "Station 2: Session 2",
-      "desc": "Interactive Session 2 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 2</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 2 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 2 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 2 -->\n<script>\n  console.log('Session 2 activated successfully!');\n</script>",
+      "badge_icon": "🗂️",
+      "badge_title": "Flexbox Wrap Medal",
+      "title": "Station 2: Flexbox Core: Wrapping & Justification",
+      "desc": "Align items in horizontal rows and handle line wrapping automatically!",
+      "story": "<h3>🗂️ Flexbox Wrapping & Justification!</h3>Let's master alignment using CSS Flexbox layout systems!<br><br><b>💡 Key Lessons:</b><ul><li><code>display: flex;</code>: Initializes flex display layout on parents.</li><li><code>flex-wrap</code>: Sets row wrapping behavior when items exceed parents' width. Values: <code>nowrap</code> (stay in one line), <code>wrap</code> (wrap into multiple lines), and <code>wrap-reverse</code>.</li><li><code>justify-content</code>: Horizontal alignments inside flex rows. Values: <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>space-between</code>, <code>space-around</code>, and <code>space-evenly</code>.</li></ul>",
+      "simple": "Flex-wrap is like text-wrapping. When you run out of room in a row, the next box drops to the next line!",
+      "hint": "Set flex styles on parents: <code>display: flex; flex-wrap: wrap; justify-content: space-between;</code>.",
+      "challenge": "Style the parent class 'flex-container' to display as flex, wrap items, and justify them with space-between spaces!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .flex-container {\n            /* Add flex alignments below! */\n            \n        }\n    </style>\n</head>\n<body>\n    <div class=\"flex-container\">\n        <div style=\"width:100px; background:red;\">Item 1</div>\n        <div style=\"width:100px; background:blue;\">Item 2</div>\n    </div>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate Session 2",
-          "code": "console.log('Session 2 activated successfully!');"
+          "label": "Add display flex",
+          "code": "display: flex;"
+        },
+        {
+          "label": "Add flex-wrap wrap",
+          "code": "flex-wrap: wrap;"
+        },
+        {
+          "label": "Add space-between",
+          "code": "justify-content: space-between;"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 2 activated successfully!",
+        "required_output_text": "flex-container",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 2",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 2 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 2 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Flex Centering Layout",
+        "desc": "Design a display parent at home that perfectly centers children horizontally and wraps them automatically using flex wrap!",
+        "code": "<style>\n  .centered-flex {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    gap: 15px;\n  }\n</style>",
+        "starter_code": "<!-- Create your Flex Centering Layout here! -->"
       }
     },
     {
       "id": 3,
-      "badge_icon": "??",
-      "badge_title": "Session 3 Medal",
-      "title": "Station 3: Session 3",
-      "desc": "Interactive Session 3 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 3</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 3 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 3 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 3 -->\n<script>\n  console.log('Session 3 activated successfully!');\n</script>",
+      "badge_icon": "↕️",
+      "badge_title": "Flex Directions Medal",
+      "title": "Station 3: Flexbox Directions & Alignments",
+      "desc": "Align items vertically and flip axis orientations from rows to columns!",
+      "story": "<h3>↕️ Vertical Flex Alignments!</h3>Let's master item directions and vertical centering using Flexbox properties!<br><br><b>💡 Key Lessons:</b><ul><li><code>flex-direction</code>: Sets main layout axis. Directions: <code>row</code> (horizontal line, default), <code>row-reverse</code>, <code>column</code> (stacked vertically), and <code>column-reverse</code>.</li><li><code>align-items</code>: Vertical alignment along the cross-axis. Configurations: <code>stretch</code> (expands full height, default), <code>flex-start</code> (align to top), <code>flex-end</code> (align to bottom), and <code>center</code> (perfect vertical centering!).</li></ul>",
+      "simple": "When you set flex-direction to column, justify-content controls vertical alignment, and align-items controls horizontal alignment!",
+      "hint": "Write CSS: <code>flex-direction: column; align-items: center;</code>.",
+      "challenge": "Style the parent class 'column-container' to have vertical column direction and center items horizontally!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .column-container {\n            display: flex;\n            /* Add direction and alignment below! */\n            \n        }\n    </style>\n</head>\n<body>\n    <div class=\"column-container\">\n        <div>Item 1</div>\n        <div>Item 2</div>\n    </div>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate Session 3",
-          "code": "console.log('Session 3 activated successfully!');"
+          "label": "Add direction column",
+          "code": "flex-direction: column;"
+        },
+        {
+          "label": "Add align-items center",
+          "code": "align-items: center;"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 3 activated successfully!",
+        "required_output_text": "column-container",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 3",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 3 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 3 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Vertical Profile Box",
+        "desc": "Create a layout at home where profile pictures, names, and buttons are stacked vertically and centered perfectly using flex columns!",
+        "code": "<style>\n  .profile-box {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 20px;\n    border: 1px solid #ccc;\n  }\n</style>",
+        "starter_code": "<!-- Create your Vertical Profile Box here! -->"
       }
     },
     {
       "id": 4,
-      "badge_icon": "??",
-      "badge_title": "Session 4 Medal",
-      "title": "Station 4: Session 4",
-      "desc": "Interactive Session 4 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 4</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 4 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 4 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 4 -->\n<script>\n  console.log('Session 4 activated successfully!');\n</script>",
+      "badge_icon": "🛠️",
+      "badge_title": "Bootstrap Utilities Medal",
+      "title": "Station 4: Bootstrap Layout Utilities",
+      "desc": "Speed up coding using pre-made classes for spacing, borders, and displays!",
+      "story": "<h3>🛠️ Bootstrap Utility Power!</h3>Let's master pre-styled utility classes in Bootstrap to handle margins, paddings, backgrounds, and display states without writing CSS!<br><br><b>💡 Key Lessons:</b><ul><li><b>Spacing shorthand:</b> <code>m-</code> (margin), <code>p-</code> (padding), <code>mt-</code> (margin-top), <code>pe-</code> (padding-end/right) from 1 to 5. E.g. <code>p-3</code> adds medium padding.</li><li><b>Borders:</b> <code>border</code>, <code>border-primary</code>, <code>rounded</code>, and <code>rounded-circle</code>.</li><li><b>Text Utilities:</b> <code>text-center</code>, <code>text-primary</code> (blue), <code>text-danger</code> (red), and <code>text-white</code>.</li><li><b>Display:</b> <code>d-block</code>, <code>d-inline</code>, and <code>d-inline-block</code>.</li></ul>",
+      "simple": "Instead of writing padding: 15px; in CSS, you can just add the class p-3 to your element in Bootstrap. It's incredibly fast!",
+      "hint": "Link Bootstrap and apply helper classes: <code>class=\"p-5 bg-dark text-white rounded text-center\"</code>.",
+      "challenge": "Style a division in Bootstrap with a dark background, white text, 48px padding (p-5), centered text, and rounded corners!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <!-- Add Bootstrap classes below! -->\n    <div class=\"\">\n        <h3>Speedy Utilities!</h3>\n    </div>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate Session 4",
-          "code": "console.log('Session 4 activated successfully!');"
+          "label": "Apply spacing utilities",
+          "code": "class=\"p-5 bg-dark text-white rounded text-center\""
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 4 activated successfully!",
+        "required_output_text": "bg-dark",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 4",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 4 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 4 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Avatar Thumbnail",
+        "desc": "Design a rounded circle avatar at home using Bootstrap classes for padding, borders, round shape <code>rounded-circle</code>, and centered alignment!",
+        "code": "<img src=\"avatar.png\" class=\"p-2 border border-primary rounded-circle\" width=\"100\">",
+        "starter_code": "<!-- Add your Avatar classes here! -->"
       }
     },
     {
       "id": 5,
-      "badge_icon": "??",
-      "badge_title": "Session 5 Medal",
-      "title": "Station 5: Session 5",
-      "desc": "Interactive Session 5 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 5</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 5 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 5 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 5 -->\n<script>\n  console.log('Session 5 activated successfully!');\n</script>",
+      "badge_icon": "🕸️",
+      "badge_title": "Bootstrap Grid Medal",
+      "title": "Station 5: Level 2 Session 1: Grid System Intro",
+      "desc": "Rely on structural Bootstrap containers, rows, and columns for grids!",
+      "story": "<h3>🕸️ The Powerful 12-Column Grid!</h3>Bootstrap layout works on a flexible 12-column grid. Let's learn how rows and cols divide space!<br><br><b>💡 Key Lessons:</b><ul><li><code>.container</code>: Sets center-aligned layout boundaries.</li><li><code>.row</code>: Group container for columns (acts like a flex parent).</li><li><code>.col</code>: Column block. Automatically divides row space evenly!</li><li><b>12-Column Rule:</b> You can specify size using classes like <code>col-6</code> (takes half row) or <code>col-4</code> (takes 1/3 row). Sum of columns in one row should equal 12!</li></ul>",
+      "simple": "Think of the row as a box that fits exactly 12 small books. A col-6 is a book that takes the space of 6 columns!",
+      "hint": "Set up a grid with columns: <code>&lt;div class=\"row\"&gt;&lt;div class=\"col-6\"&gt;Half&lt;/div&gt;&lt;div class=\"col-6\"&gt;Half&lt;/div&gt;&lt;/div&gt;</code>.",
+      "challenge": "Create a Bootstrap layout row with two columns, each taking exactly half the screen (col-6)!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div class=\"container\">\n        <!-- Create your grid row and columns below! -->\n        \n    </div>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate Session 5",
-          "code": "console.log('Session 5 activated successfully!');"
+          "label": "Add Grid Row",
+          "code": "<div class=\"row\">\n  <div class=\"col-6 bg-info p-3\">Column A</div>\n  <div class=\"col-6 bg-warning p-3\">Column B</div>\n</div>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 5 activated successfully!",
+        "required_output_text": "col-6",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 5",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 5 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 5 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Three-Column Card Layout",
+        "desc": "Build a grid system row at home that holds exactly three equal columns (col-4), each containing a styled card product!",
+        "code": "<div class=\"row\">\n  <div class=\"col-4\">Card 1</div>\n  <div class=\"col-4\">Card 2</div>\n  <div class=\"col-4\">Card 3</div>\n</div>",
+        "starter_code": "<!-- Create your Three Column row here! -->"
       }
     },
     {
       "id": 6,
-      "badge_icon": "??",
-      "badge_title": "Session 6 Medal",
-      "title": "Station 6: Session 6",
-      "desc": "Interactive Session 6 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 6</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 6 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 6 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 6 -->\n<script>\n  console.log('Session 6 activated successfully!');\n</script>",
+      "badge_icon": "📱",
+      "badge_title": "Responsive Grid Medal",
+      "title": "Station 6: Responsive Screen Sizes & Columns",
+      "desc": "Make layouts responsive across different screens using breakpoint classes!",
+      "story": "<h3>📱 Layouts that fit every device!</h3>Let's master responsive grid sizing based on target screens (phones, tablets, and laptops)!<br><br><b>💡 Key Lessons:</b><ul><li><b>Five Sizing Breakpoints:</b>  <ul>    <li><code>col-</code> (Extra small phones).</li>    <li><code>col-sm-</code> (Small tablet, >576px).</li>    <li><code>col-md-</code> (Medium tablets, >768px).</li>    <li><code>col-lg-</code> (Laptop screen, >992px).</li>    <li><code>col-xl-</code> (Extra large screen, >1200px).</li>  </ul></li><li><b>Responsiveness:</b> Write mixed grid sizes like <code>class=\"col-12 col-md-6\"</code> (takes full width on phone, but half on tablet!).</li></ul>",
+      "simple": "When you specify col-12 col-md-6, your columns automatically stack on top of each other on mobile phones, but sit side by side on desktop computers!",
+      "hint": "Set classes: <code>class=\"col-12 col-md-4\"</code>.",
+      "challenge": "Style three column divisions to take full width (col-12) on mobile, but take 1/3 of the width (col-md-4) on tablet screens!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div class=\"container\">\n        <div class=\"row\">\n            <!-- Add responsive column classes below! -->\n            <div class=\"\">Card A</div>\n            <div class=\"\">Card B</div>\n            <div class=\"\">Card C</div>\n        </div>\n    </div>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate Session 6",
-          "code": "console.log('Session 6 activated successfully!');"
+          "label": "Apply responsive classes",
+          "code": "class=\"col-12 col-md-4 bg-light p-3 border\""
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 6 activated successfully!",
+        "required_output_text": "col-md-4",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 6",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 6 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 6 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Responsive Profile Cards",
+        "desc": "Build a responsive grid layout at home that holds 2 profile cards taking 100% width on phone, but 50% width <code>col-sm-6</code> on tablet screens!",
+        "code": "<div class=\"row\">\n  <div class=\"col-12 col-sm-6\">Profile Card A</div>\n  <div class=\"col-12 col-sm-6\">Profile Card B</div>\n</div>",
+        "starter_code": "<!-- Create your Responsive Profile Cards grid here! -->"
       }
     },
     {
       "id": 7,
-      "badge_icon": "??",
-      "badge_title": "Session 7 Medal",
-      "title": "Station 7: Session 7",
-      "desc": "Interactive Session 7 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 7</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 7 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 7 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 7 -->\n<script>\n  console.log('Session 7 activated successfully!');\n</script>",
+      "badge_icon": "🏨",
+      "badge_title": "Royal Hotel Part 1 Medal",
+      "title": "Station 7: Level 2 Session 2: Royal Hotel Template - Part 1",
+      "desc": "Build a luxurious hotel home banner layout using Bootstrap Grids!",
+      "story": "<h3>🏨 Final Project: Royal Hotel Landing Page!</h3>Let's combine all Bootstrap elements to build a gorgeous, premium website landing page called <b>Royal Hotel</b>!<br><br><b>💡 Key Lessons:</b><ul><li><b>Navigation Header:</b> Create a sticky header with a dark brand and clean navigation links (Home, Rooms, Services, Gallery, Booking).</li><li><b>Hero Carousel Banner:</b> Create a stunning welcome slider with centered responsive text, customized with buttons.</li></ul>",
+      "simple": "We use Bootstrap helper classes to quickly format full-width dark headers and add glowing buttons to book hotel rooms!",
+      "hint": "Set up a grid container: <code>&lt;div class=\"container\"&gt;&lt;div class=\"row\"&gt;...&lt;/div&gt;&lt;/div&gt;</code>.",
+      "challenge": "Setup the header container and home landing row using grid system rows styled with Bootstrap text alignments!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <!-- Setup Royal Hotel banner markup below! -->\n    \n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate Session 7",
-          "code": "console.log('Session 7 activated successfully!');"
+          "label": "Add Royal Hero Banner",
+          "code": "<div class=\"bg-dark text-white text-center py-5\">\n  <h1 class=\"display-4\">Royal Hotel & Resort</h1>\n  <p class=\"lead\">Savour luxury in the heart of our paradise resort.</p>\n  <button class=\"btn btn-warning btn-lg\">Book Room</button>\n</div>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 7 activated successfully!",
+        "required_output_text": "Resort",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 7",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 7 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 7 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Royal Services Bar",
+        "desc": "Design a 3-column services showcase for your Royal Hotel at home using Bootstrap classes. Display icons representing Spa, Free Wifi, and Restaurant food!",
+        "code": "<div class=\"row text-center mt-4\">\n  <div class=\"col-md-4\"><i class=\"fas fa-wifi\"></i><h4>Free Wifi</h4></div>\n  <div class=\"col-md-4\"><i class=\"fas fa-spa\"></i><h4>Luxury Spa</h4></div>\n  <div class=\"col-md-4\"><i class=\"fas fa-utensils\"></i><h4>Restaurant</h4></div>\n</div>",
+        "starter_code": "<!-- Create your Services grid here! -->"
       }
     },
     {
       "id": 8,
-      "badge_icon": "??",
-      "badge_title": "Session 8 Medal",
-      "title": "Station 8: Session 8",
-      "desc": "Interactive Session 8 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 8</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 8 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 8 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 8 -->\n<script>\n  console.log('Session 8 activated successfully!');\n</script>",
+      "badge_icon": "🛎️",
+      "badge_title": "Royal Hotel Completed Medal",
+      "title": "Station 8: Level 2 Session 3: Royal Hotel Template - Part 2",
+      "desc": "Add room cards, styled service columns, booking forms, and complete the template!",
+      "story": "<h3>🛎️ Complete the Royal Hotel!</h3>Let's complete our premium hotel website by adding beautiful room product cards, a contact booking form, and styled layouts!<br><br><b>💡 Key Lessons:</b><ul><li><b>Rooms section:</b> Create product cards showing room features, booking options, and pricing tags.</li><li><b>Contact Form:</b> Design an elegant hotel reservation form using form utilities.</li><li><b>Review:</b> Review and align all columns, making sure the entire landing page is perfectly responsive!</li></ul>",
+      "simple": "We use the grid col-md-4 to showcase three luxurious room choices side by side on laptop screens!",
+      "hint": "Set up a grid row of room cards: <code>&lt;div class=\"row\"&gt;&lt;div class=\"col-md-4\"&gt;&lt;div class=\"card\"&gt;...&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</code>.",
+      "challenge": "Create a room product card styled with Bootstrap cards, badges, and a Book button, and add a footer with address!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<head>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div class=\"container\">\n        <div class=\"row\">\n            <!-- Add Room card below! -->\n            \n        </div>\n    </div>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate Session 8",
-          "code": "console.log('Session 8 activated successfully!');"
+          "label": "Add Room Card",
+          "code": "<div class=\"col-md-4\">\n  <div class=\"card\">\n    <div class=\"card-body\">\n      <h5 class=\"card-title\">Deluxe Suite</h5>\n      <p class=\"card-text\">$150 / Night</p>\n      <button class=\"btn btn-primary\">Book Room</button>\n    </div>\n  </div>\n</div>"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 8 activated successfully!",
+        "required_output_text": "Suite",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 8",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 8 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 8 -->\n<!-- Write your creative solution here! -->"
+        "title": "🎉 Magic Home Challenge: Completed Royal Resort Page!",
+        "desc": "Assemble your entire hotel website at home! Combine the dark brand navigation bar, custom carousel welcome hero banner, Wifi/Spa service columns, room suites cards, booking registration form, and hotel address. You've completed a high-end Bootstrap template! 🌟",
+        "code": "<!-- Completed Royal Hotel Landing Page! -->",
+        "starter_code": "<!-- Completed Royal Hotel Landing Page! -->"
       }
     },
     {
       "id": 9,
-      "badge_icon": "??",
-      "badge_title": "Session 9 Medal",
-      "title": "Station 9: Session 9",
-      "desc": "Interactive Session 9 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 9</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 9 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 9 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 9 -->\n<script>\n  console.log('Session 9 activated successfully!');\n</script>",
+      "badge_icon": "🔀",
+      "badge_title": "JS Intro Medal",
+      "title": "Station 9: Level 3 Session 1: JavaScript programming Core",
+      "desc": "Add script tags, load data variables, and write logs to the console!",
+      "story": "<h3>🔀 Welcome to JavaScript!</h3>JavaScript is the brain of a website! It brings static pages to life with math, animations, logic, and interactivity!<br><br><b>💡 Key Lessons:</b><ul><li><b>Where to write JS:</b> Put code inside <code>&lt;script&gt;</code> tags (internal or external).</li><li><b>JS Syntax:</b> Declare variables using <code>var</code> (or <code>let</code>/<code>const</code>).</li><li><b>Data Types:</b> <code>String</code> (\"text\"), <code>Number</code> (12), and <code>Boolean</code> (true/false).</li><li><b>Output Methods:</b>  <ul>    <li><code>console.log(value)</code>: Prints directly to the console debugger screen.</li>    <li><code>window.alert(value)</code>: Triggers a pop-up window notification.</li>    <li><code>document.getElementById().innerHTML</code>: Changes text inside HTML tags!</li>  </ul></li></ul>",
+      "simple": "HTML builds the skeleton, CSS paints the dress, but JS makes the website think and talk!",
+      "hint": "Write JS output: <code>console.log('Hello from JS!');</code> or declare variable: <code>var score = 100;</code>.",
+      "challenge": "Write a script declaring a variable 'studentName' containing 'Rowan', and print 'Activated Session 9!' to the console!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<body>\n    <h1>JavaScript Basics</h1>\n    <script>\n        // Declare variable and write console.log below!\n        \n    </script>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate Session 9",
-          "code": "console.log('Session 9 activated successfully!');"
+          "label": "Console log code",
+          "code": "console.log('Activated Session 9!');"
+        },
+        {
+          "label": "Declare variables",
+          "code": "var studentName = 'Rowan';\nconsole.log(studentName);"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 9 activated successfully!",
+        "required_output_text": "Activated Session 9!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 9",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 9 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 9 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Hello Alerts!",
+        "desc": "Write code at home that declares two variables (first name and age), prints them to the console, and triggers a window alert popup saying 'Welcome to JS Coding!'!",
+        "code": "<script>\n  var name = 'Rowan';\n  var age = 15;\n  console.log(name + ' is ' + age);\n  window.alert('Welcome to JS Coding!');\n</script>",
+        "starter_code": "<!-- Write your script here! -->"
       }
     },
     {
       "id": 10,
-      "badge_icon": "??",
-      "badge_title": "Session 10 Medal",
-      "title": "Station 10: Session 10",
-      "desc": "Interactive Session 10 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 10</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 10 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 10 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 10 -->\n<script>\n  console.log('Session 10 activated successfully!');\n</script>",
+      "badge_icon": "🔀",
+      "badge_title": "JS Logic Medal",
+      "title": "Station 10: Level 3 Session 2: JS Operators & Conditionals",
+      "desc": "Compare values and run code selectively using IF-else and comparison operators!",
+      "story": "<h3>🗂️ JS Logic & Decisions!</h3>Let's master mathematical operators and make smart decisions using conditional statements!<br><br><b>💡 Key Lessons:</b><ul><li><b>Operators:</b>  <ul>    <li><b>Arithmetic:</b> <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>.</li>    <li><b>Assignment:</b> <code>=</code>.</li>    <li><b>Comparison:</b> <code>==</code> (equal), <code>!=</code> (not equal), <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code>.</li>  </ul></li><li><b>Conditional Statements:</b>  <ul>    <li><code>if (condition) { ... } else { ... }</code>: Runs code depending on logic.</li>    <li><code>Nested-if</code> & <code>switch</code> statements.</li>  </ul></li><li><b>Logical Operators:</b> <code>&&</code> (AND), <code>||</code> (OR), and <code>!</code> (NOT).</li></ul>",
+      "simple": "Conditionals are like road signs. If the light is green, drive. Else, stop!",
+      "hint": "Create condition: <code>if (score >= 50) { console.log('Pass'); } else { console.log('Fail'); }</code>.",
+      "challenge": "Write an IF-else statement checking if a score variable (set to 85) is greater than or equal to 50, and print 'Pass'!",
+      "starter_code": "<script>\n    var score = 85;\n    // Write your conditional statement below!\n    \n</script>",
       "pills": [
         {
-          "label": "Activate Session 10",
-          "code": "console.log('Session 10 activated successfully!');"
+          "label": "Add IF statement",
+          "code": "if (score >= 50) {\n    console.log('Pass');\n} else {\n    console.log('Fail');\n}"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 10 activated successfully!",
+        "required_output_text": "Pass",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 10",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 10 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 10 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Smart Alarm System",
+        "desc": "Design a smart condition checking alarm status at home! If temperature is greater than 100 or smoke is true, print 'DANGER'; else print 'All Clear'!",
+        "code": "<script>\n  var temp = 105;\n  var smoke = true;\n  if (temp > 100 || smoke == true) {\n    console.log('DANGER');\n  } else {\n    console.log('All Clear');\n  }\n</script>",
+        "starter_code": "<!-- Create your Smart Alarm script here! -->"
       }
     },
     {
       "id": 11,
-      "badge_icon": "??",
-      "badge_title": "Session 11 Medal",
-      "title": "Station 11: Session 11",
-      "desc": "Interactive Session 11 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 11</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 11 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 11 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 11 -->\n<script>\n  console.log('Session 11 activated successfully!');\n</script>",
+      "badge_icon": "🔄",
+      "badge_title": "JS Loops Medal",
+      "title": "Station 11: Level 3 Session 3: JS Loops: For & While",
+      "desc": "Repeat block actions infinitely or conditionally using for, while, and do-while loops!",
+      "story": "<h3>🔄 Repeat with Loops!</h3>Let's master repeating operations in programming to save writing hundreds of redundant lines!<br><br><b>💡 Key Lessons:</b><ul><li><code>for</code>: Repeats code a set number of times. Contains starting counter, limit condition, and step increment (e.g. <code>for (var i = 0; i &lt; 5; i++)</code>).</li><li><code>while</code>: Repeats as long as a condition remains true.</li><li><code>do-while</code>: Always runs the code block at least ONCE before checking the condition!</li></ul>",
+      "simple": "A loop is like running laps around a playground. You keep going until you complete your target count!",
+      "hint": "Write loop: <code>for (var i = 1; i <= 5; i++) { console.log('Count ' + i); }</code>.",
+      "challenge": "Write a `for` loop that prints numbers from 1 to 5 to the console!",
+      "starter_code": "<script>\n    // Write your for loop below!\n    \n</script>",
       "pills": [
         {
-          "label": "Activate Session 11",
-          "code": "console.log('Session 11 activated successfully!');"
+          "label": "Add for loop",
+          "code": "for (var i = 1; i <= 5; i++) {\n    console.log('Count ' + i);\n}"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 11 activated successfully!",
+        "required_output_text": "Count 5",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 11",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 11 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 11 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Countdown Timer",
+        "desc": "Create a loop at home that counts down backwards from 10 to 1, followed by printing 'Blast Off!' to the console!",
+        "code": "<script>\n  for (var i = 10; i >= 1; i--) {\n    console.log(i);\n  }\n  console.log('Blast Off!');\n</script>",
+        "starter_code": "<!-- Create your Countdown Timer here! -->"
       }
     },
     {
       "id": 12,
-      "badge_icon": "??",
-      "badge_title": "Session 12 Medal",
-      "title": "Station 12: Session 12",
-      "desc": "Interactive Session 12 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 12</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 12 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 12 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 12 -->\n<script>\n  console.log('Session 12 activated successfully!');\n</script>",
+      "badge_icon": "🗃️",
+      "badge_title": "JS Arrays Medal",
+      "title": "Station 12: Level 3 Session 4: JS Arrays & Elements",
+      "desc": "Group multiple elements into lists, pop, push, and loop arrays!",
+      "story": "<h3>🗃️ Store Lists inside Arrays!</h3>Let's learn how to organize multiple related variables inside a single data container called an **Array**!<br><br><b>💡 Key Lessons:</b><ul><li><b>Create:</b> Declare lists using brackets, e.g. <code>var fruits = [\"Apple\", \"Banana\"];</code>.</li><li><b>Access:</b> Access items using index numbers starting from 0 (e.g. <code>fruits[0]</code> is Apple).</li><li><code>length</code>: Property returning the count of items in an array.</li><li><code>push(item)</code>: Adds a new item to the END of an array.</li><li><code>pop()</code>: Removes the last item from an array.</li><li><b>Conversion:</b> Convert arrays to a single string using methods.</li></ul>",
+      "simple": "Remember, computer indexing starts at 0, not 1! So the very first element of your array lives at index 0!",
+      "hint": "Write code: <code>var colors = ['Red', 'Blue']; colors.push('Green'); console.log(colors[2]);</code>.",
+      "challenge": "Create an array called 'hobbies' with 'Coding' and 'Gaming', push 'Robotics' to it, and log the array to the console!",
+      "starter_code": "<script>\n    // Create array and push elements below!\n    \n</script>",
       "pills": [
         {
-          "label": "Activate Session 12",
-          "code": "console.log('Session 12 activated successfully!');"
+          "label": "Add Array operations",
+          "code": "var hobbies = ['Coding', 'Gaming'];\nhobbies.push('Robotics');\nconsole.log(hobbies);"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 12 activated successfully!",
+        "required_output_text": "Robotics",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 12",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 12 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 12 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Shopping List POP",
+        "desc": "Declare an array of 3 grocery items at home. Push a 4th item, then pop the last item and log the length of your list to the console!",
+        "code": "<script>\n  var list = ['Milk', 'Eggs', 'Bread'];\n  list.push('Butter');\n  list.pop();\n  console.log('List length: ' + list.length);\n</script>",
+        "starter_code": "<!-- Create your Shopping List here! -->"
       }
     },
     {
       "id": 13,
-      "badge_icon": "??",
-      "badge_title": "Session 13 Medal",
-      "title": "Station 13: Session 13",
-      "desc": "Interactive Session 13 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 13</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 13 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 13 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 13 -->\n<script>\n  console.log('Session 13 activated successfully!');\n</script>",
+      "badge_icon": "⚙️",
+      "badge_title": "JS Functions Medal",
+      "title": "Station 13: Level 4 Session 1: JS Functions & Event Calls",
+      "desc": "Write reusable code blocks using functions and triggers!",
+      "story": "<h3>⚙️ Reusable Code blocks with Functions!</h3>Let's master reusable code scripts. Declare them once, and call them anywhere using functions!<br><br><b>💡 Key Lessons:</b><ul><li><b>Built-in vs User-defined:</b> JS has pre-made functions, but we can write our own!</li><li><b>Function Syntax:</b> Defined using the keyword <code>function name(params) { ... }</code>.</li><li><b>Calling:</b> Trigger functions directly in code or assign them to web element triggers (like button clicks!).</li><li><code>return</code>: Outputs values back from function scripts.</li><li><code>.value</code>: Read values typed inside input boxes!</li></ul>",
+      "simple": "A function is like a recipe. You write the recipe down once, and cook it whenever you are hungry by calling it!",
+      "hint": "Define: <code>function sayHello() { console.log('Welcome!'); }</code>.",
+      "challenge": "Create a function called 'sayHello' that prints 'Welcome Rowan!' to the console, and call it!",
+      "starter_code": "<script>\n    // Define and call function below!\n    \n</script>",
       "pills": [
         {
-          "label": "Activate Session 13",
-          "code": "console.log('Session 13 activated successfully!');"
+          "label": "Add function",
+          "code": "function sayHello() {\n  console.log('Welcome Rowan!');\n}\nsayHello();"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 13 activated successfully!",
+        "required_output_text": "Rowan",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 13",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 13'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 13 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 13 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Magic Multiplier",
+        "desc": "Define a custom function at home that accepts two numbers as parameters, multiplies them together, returns the product, and logs the result to the console!",
+        "code": "<script>\n  function multiply(a, b) {\n    return a * b;\n  }\n  var result = multiply(5, 6);\n  console.log('Product: ' + result);\n</script>",
+        "starter_code": "<!-- Write your custom function here! -->"
       }
     },
     {
       "id": 14,
-      "badge_icon": "??",
-      "badge_title": "Session 14 Medal",
-      "title": "Station 14: Session 14",
-      "desc": "Interactive Session 14 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 14</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 14 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 14 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 14 -->\n<script>\n  console.log('Session 14 activated successfully!');\n</script>",
+      "badge_icon": "🌴",
+      "badge_title": "HTML DOM Medal",
+      "title": "Station 14: Level 4 Session 2: HTML DOM Selectors",
+      "desc": "Navigate HTML trees and select elements using IDs, classes, and tags!",
+      "story": "<h3>🌴 The Document Object Model (DOM)!</h3>The DOM represents your web page structure as a tree of objects. Let's learn how JavaScript selects tags to modify them!<br><br><b>💡 Key Lessons:</b><ul><li><b>What is the DOM?</b> The structured tree map of a web page loaded in browsers.</li><li><b>Accessing Selectors:</b>  <ul>    <li><code>document.getElementById('id')</code>: Selects a single tag by unique ID.</li>    <li><code>document.getElementsByClassName('class')</code>: Selects lists of classes.</li>    <li><code>document.querySelector('selector')</code>: Modern selector matching CSS syntax!</li>  </ul></li><li><b>Accessing Core Objects:</b> Instantly access structural parts like <code>document.head</code>, <code>document.body</code>, and <code>document.title</code>!</li></ul>",
+      "simple": "The querySelector works exactly like CSS selectors. Use a dot for class names and a hash for IDs!",
+      "hint": "Select tag: <code>var header = document.getElementById('my-header'); console.log(header.innerHTML);</code>.",
+      "challenge": "Select the heading with ID 'my-header' using DOM methods and log its innerHTML text to the console!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<body>\n    <h1 id=\"my-header\">Megaminds Studio</h1>\n    <script>\n        // Select element and log below!\n        \n    </script>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate Session 14",
-          "code": "console.log('Session 14 activated successfully!');"
+          "label": "Select by ID",
+          "code": "var header = document.getElementById('my-header');\nconsole.log(header.innerHTML);"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 14 activated successfully!",
+        "required_output_text": "Megaminds",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 14",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 14'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 14 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 14 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Title grabber",
+        "desc": "Write code at home that dynamically grabs the page title <code>document.title</code> and prints it to the console!",
+        "code": "<script>\n  var pageTitle = document.title;\n  console.log('The document title is: ' + pageTitle);\n</script>",
+        "starter_code": "<!-- Create your Title Grabber here! -->"
       }
     },
     {
       "id": 15,
-      "badge_icon": "??",
-      "badge_title": "Session 15 Medal",
-      "title": "Station 15: Session 15",
-      "desc": "Interactive Session 15 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 15</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 15 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 15 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 15 -->\n<script>\n  console.log('Session 15 activated successfully!');\n</script>",
+      "badge_icon": "🪄",
+      "badge_title": "DOM Manipulation Medal",
+      "title": "Station 15: Level 4 Session 3: DOM Style & Event Triggers",
+      "desc": "Modify HTML tags, inject custom CSS styles, and handle button clicks!",
+      "story": "<h3>🪄 Modify Elements on Clicks!</h3>Let's learn how JavaScript modifies elements and style colors dynamically in response to user actions!<br><br><b>💡 Key Lessons:</b><ul><li><b>Modifying Styles:</b> Change layout CSS directly using <code>element.style.color = \"blue\";</code> or overwrite blocks with <code>element.style.cssText</code>.</li><li><b>Set Attributes:</b> Change element states dynamically.</li><li><b>Interactive Events:</b> Triggers code in response to user actions: <code>onclick</code> (mouse click), <code>onchange</code> (typing change), and <code>onmouseover</code> (hovering!).</li></ul>",
+      "simple": "When you assign element.style.backgroundColor, you are painting your website dynamically behind the scenes using code!",
+      "hint": "Set click event and modify style: <code>btn.onclick = function() { text.style.color = 'red'; };</code>.",
+      "challenge": "Style the paragraph text color to green when the button is clicked using the `onclick` DOM trigger!",
+      "starter_code": "<!DOCTYPE html>\n<html>\n<body>\n    <h1 id=\"text\">Magic Text</h1>\n    <button id=\"my-btn\">Change Color</button>\n    <script>\n        var btn = document.getElementById('my-btn');\n        var text = document.getElementById('text');\n        // Add click event below!\n        \n    </script>\n</body>\n</html>",
       "pills": [
         {
-          "label": "Activate Session 15",
-          "code": "console.log('Session 15 activated successfully!');"
+          "label": "Add Click Event",
+          "code": "btn.onclick = function() {\n  text.style.color = 'green';\n};"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 15 activated successfully!",
+        "required_output_text": "onclick",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 15",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 15'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 15 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 15 -->\n<!-- Write your creative solution here! -->"
+        "title": "🏠 Magic Home Challenge: Toggle Light Mode",
+        "desc": "Design a toggle button at home! When clicked, change the background color of the body <code>document.body.style.backgroundColor</code> to dark blue and text color to white!",
+        "code": "<script>\n  var btn = document.getElementById('toggle-btn');\n  btn.onclick = function() {\n    document.body.style.backgroundColor = '#023047';\n    document.body.style.color = '#fff';\n  }\n</script>",
+        "starter_code": "<!-- Create your Toggle Light Mode here! -->"
       }
     },
     {
       "id": 16,
-      "badge_icon": "??",
-      "badge_title": "Session 16 Medal",
-      "title": "Station 16: Session 16",
-      "desc": "Interactive Session 16 activities",
-      "story": "<h3>?? Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 16</b>!<br><br><b>?? Key Points Covered in this Session:</b><ul><li>?? <b>Core Concepts</b>: Building amazing projects and writing clean code!</li></ul><b>? Session Objectives:</b><ul><li>?? Master the syntax</li><li>?? Create interactive elements</li></ul><b>?? Key Coding Blocks:</b><ul><li><code>html_tags</code>, <code>css_properties</code>, <code>javascript</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>DIY Session Project:</b> Interactive Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! ????</p>",
-      "simple": "Imagine that learning this is like assembling LEGO blocks to build a spectacular castle!",
-      "hint": "Type in the editor: <code>console.log('Session 16 activated successfully!');</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>console.log('Session 16 activated successfully!');</code> to unlock the medal!",
-      "starter_code": "<!-- Activate Session 16 -->\n<script>\n  console.log('Session 16 activated successfully!');\n</script>",
+      "badge_icon": "🏆",
+      "badge_title": "Grand Master Medal",
+      "title": "Station 16: Level 5 Session 1: Objects, BOM & Royal Hotel",
+      "desc": "Construct Objects, interact with Window sizes, Local Storage, and final project!",
+      "story": "<h3>🏆 JS Objects, Browser Windows & Graduation!</h3>Congratulations, Grand Master! Let's complete the final hotel template with JS animations, storage, and explore modern ES6 variables!<br><br><b>💡 Key Lessons:</b><ul><li><b>JS Objects:</b> Group property data and functional methods together, e.g. <code>var room = { name: \"Suite\", price: 150 };</code>.</li><li><b>BOM (Browser Object Model):</b> Interact with window environments.  <ul>    <li>Window size: <code>window.innerWidth</code> & <code>window.innerHeight</code>.</li>    <li>Shorthand scrolling: <code>window.scrollTo()</code>.</li>  </ul></li><li><b>Local Storage:</b> Save persistent data (<code>localStorage.setItem()</code>) and read it back (<code>localStorage.getItem()</code>) so user details survive browser page refreshes!</li><li><b>ES6 Variables:</b> Upgrade from <code>var</code> to block scoped <code>let</code> and constant <code>const</code> variables.</li></ul>",
+      "simple": "Local Storage acts like a tiny drawer inside the browser. Put a note in it, and it will still be there tomorrow when you open the page!",
+      "hint": "Set up a key in storage: <code>localStorage.setItem('username', 'Rowan');</code>.",
+      "challenge": "Write code to save 'Rowan' in the local storage under key 'user', and declare a constant variable 'PI' set to 3.14!",
+      "starter_code": "<script>\n    // Write local storage and const code below!\n    \n</script>",
       "pills": [
         {
-          "label": "Activate Session 16",
-          "code": "console.log('Session 16 activated successfully!');"
+          "label": "Add Storage & ES6 code",
+          "code": "localStorage.setItem('user', 'Rowan');\nconst PI = 3.14;\nconsole.log(localStorage.getItem('user'));"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Session 16 activated successfully!",
+        "required_output_text": "Rowan",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 16",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 16'. Use the starter template below!",
-        "code": "<!-- Home Challenge: Session 16 -->\n<!-- Write your creative solution here! -->",
-        "starter_code": "<!-- Home Challenge: Session 16 -->\n<!-- Write your creative solution here! -->"
+        "title": "🎉 Magic Graduation Challenge: Completed Hotel Landing Page!",
+        "desc": "Connect JavaScript triggers to your Bootstrap Royal Hotel template at home! Add a reservation button that saves the booking details in Local Storage and alerts 'Welcome' when loaded! You have successfully mastered Web Design and Web Advanced Programming! Incredible work, Developer! 🎓🏆🌟",
+        "code": "<!-- Completed Royal Hotel interactive landing page! -->",
+        "starter_code": "<!-- Completed Royal Hotel interactive landing page! -->"
       }
     }
   ]

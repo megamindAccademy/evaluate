@@ -1,126 +1,71 @@
 {
-  "quiz_name": "Quiz 4: Asset Integration & Styles",
+  "quiz_title": "Web Design - Quiz 4: Backgrounds & Spacings",
+  "quiz_name": "Quiz 4: Backgrounds & Spacings",
   "questions": [
     {
-      "q": "Which component handles standard 'Static Media' properties in Web Design (HTML/CSS)?",
+      "q": "Which property stretches background images to cover the container fully?",
       "opts": [
-        "Aesthetic Static Media Controller",
-        "Default Static Media Interface",
-        "Custom Static Media Data Handler",
-        "Standard Static Media Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Static Media' component is designed to manage functional Static Media layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Custom Styling' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Custom Styling Controller",
-        "Default Custom Styling Interface",
-        "Custom Custom Styling Data Handler",
-        "Standard Custom Styling Wrapper"
+        "background-size: contain;",
+        "background-size: cover;",
+        "background-repeat: no-repeat;",
+        "background-size: auto;"
       ],
       "correct": 1,
-      "exp": "The 'Custom Styling' component is designed to manage functional Custom Styling layers inside the Web Design (HTML/CSS) framework."
+      "exp": "background-size: cover; scales the background picture so it covers the entire box, cropping margins if needed!"
     },
     {
-      "q": "Which component handles standard 'Vector offsets' properties in Web Design (HTML/CSS)?",
+      "q": "In the CSS Box Model, what is the space OUTSIDE the border?",
       "opts": [
-        "Aesthetic Vector offsets Controller",
-        "Default Vector offsets Interface",
-        "Custom Vector offsets Data Handler",
-        "Standard Vector offsets Wrapper"
+        "Padding",
+        "Content",
+        "Margin",
+        "Outline"
       ],
       "correct": 2,
-      "exp": "The 'Vector offsets' component is designed to manage functional Vector offsets layers inside the Web Design (HTML/CSS) framework."
+      "exp": "Margin is the spacing outside elements, borders are boundary edges, and padding is spacing inside elements!"
     },
     {
-      "q": "Which component handles standard 'Color Themes' properties in Web Design (HTML/CSS)?",
+      "q": "Which background attachment locks the image on screen so it does not move during scroll?",
       "opts": [
-        "Aesthetic Color Themes Controller",
-        "Default Color Themes Interface",
-        "Custom Color Themes Data Handler",
-        "Standard Color Themes Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Color Themes' component is designed to manage functional Color Themes layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Static Media' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Static Media Controller",
-        "Default Static Media Interface",
-        "Custom Static Media Data Handler",
-        "Standard Static Media Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Static Media' component is designed to manage functional Static Media layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Custom Styling' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Custom Styling Controller",
-        "Default Custom Styling Interface",
-        "Custom Custom Styling Data Handler",
-        "Standard Custom Styling Wrapper"
+        "scroll",
+        "fixed",
+        "local",
+        "static"
       ],
       "correct": 1,
-      "exp": "The 'Custom Styling' component is designed to manage functional Custom Styling layers inside the Web Design (HTML/CSS) framework."
+      "exp": "background-attachment: fixed; locks the background in place, creating a beautiful parallax scrolling effect!"
     },
     {
-      "q": "Which component handles standard 'Vector offsets' properties in Web Design (HTML/CSS)?",
+      "q": "If you write margin: 10px 20px 30px 40px; which value represents the LEFT margin?",
       "opts": [
-        "Aesthetic Vector offsets Controller",
-        "Default Vector offsets Interface",
-        "Custom Vector offsets Data Handler",
-        "Standard Vector offsets Wrapper"
-      ],
-      "correct": 2,
-      "exp": "The 'Vector offsets' component is designed to manage functional Vector offsets layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Color Themes' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Color Themes Controller",
-        "Default Color Themes Interface",
-        "Custom Color Themes Data Handler",
-        "Standard Color Themes Wrapper"
+        "10px",
+        "20px",
+        "30px",
+        "40px"
       ],
       "correct": 3,
-      "exp": "The 'Color Themes' component is designed to manage functional Color Themes layers inside the Web Design (HTML/CSS) framework."
+      "exp": "CSS values follow a clockwise order: Top (10px), Right (20px), Bottom (30px), Left (40px)!"
     },
     {
-      "q": "Which component handles standard 'Static Media' properties in Web Design (HTML/CSS)?",
+      "q": "How do you set a solid, red border with a thickness of 3 pixels?",
       "opts": [
-        "Aesthetic Static Media Controller",
-        "Default Static Media Interface",
-        "Custom Static Media Data Handler",
-        "Standard Static Media Wrapper"
+        "border: 3px solid red;",
+        "border: solid red 3px;",
+        "border-style: red solid 3px;",
+        "border: 3px red;"
       ],
       "correct": 0,
-      "exp": "The 'Static Media' component is designed to manage functional Static Media layers inside the Web Design (HTML/CSS) framework."
-    },
-    {
-      "q": "Which component handles standard 'Custom Styling' properties in Web Design (HTML/CSS)?",
-      "opts": [
-        "Aesthetic Custom Styling Controller",
-        "Default Custom Styling Interface",
-        "Custom Custom Styling Data Handler",
-        "Standard Custom Styling Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'Custom Styling' component is designed to manage functional Custom Styling layers inside the Web Design (HTML/CSS) framework."
+      "exp": "The shorthand 'border' accepts border-width (3px), border-style (solid), and border-color (red) in one neat line!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Static Media Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Static Media properties inside the Web Design (HTML/CSS) setup."
+      "title": "Center a Box",
+      "desc": "Apply margin 'auto' and specify a percentage width on a div."
     },
     {
-      "title": "Optimize Custom Styling Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize Custom Styling operations for user-centered design."
+      "title": "Set Hero Background",
+      "desc": "Set cover centered background image without repeating."
     }
-  ],
-  "quiz_title": "Web Design (HTML/CSS) - Challenge 4"
+  ]
 }
