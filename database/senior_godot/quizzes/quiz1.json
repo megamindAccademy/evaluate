@@ -1,126 +1,126 @@
 {
   "quiz_title": "Godot Game Development - Challenge 1",
-  "quiz_name": "الاختبار 1: العقد والمشاهد ولغة GDScript السحرية! 🏰📝",
+  "quiz_name": "Quiz 1: Nodes, Scenes, and Magic GDScript! 🏰📝",
   "questions": [
     {
-      "q": "ما هي قطعة الليجو الأساسية وحجر البناء لكل جزء في محرك جودوت؟",
+      "q": "What is the primary building block of every object and feature in the Godot Engine?",
       "opts": [
-        "العقدة أو الـ Node اللطيفة",
-        "الملف البرمجي أو الـ Script",
-        "المحرك الفيزيائي",
-        "عقدة الكاميرا فقط"
+        "A sweet Node",
+        "A code script file",
+        "A physics engine",
+        "A camera node only"
       ],
       "correct": 0,
-      "exp": "العقدة (Node) هي حجر الأساس واللبنة الملونة الأساسية التي نبني بها كل جزء وتفصيلة في ألعابنا بجودوت!"
+      "exp": "A Node is the fundamental building block and Lego piece in Godot used to build everything from characters to backgrounds!"
     },
     {
-      "q": "ماذا نطلق على مجموعة العقد المنظمة بشكل شجري والتي تمثل عالماً أو مستوى كاملاً؟",
+      "q": "What do we call a tree-like organization of nodes representing a complete world or screen level?",
       "opts": [
-        "الحدث أو Event",
-        "المشهد أو Scene اللطيف",
-        "قاعدة البيانات",
-        "مكتبة الأصوات"
+        "An Event",
+        "A sweet Scene",
+        "A database",
+        "A sound library"
       ],
       "correct": 1,
-      "exp": "المشهد (Scene) هو مثل غرفة الألعاب الكبيرة التي نجمع فيها كل العقد الملونة لتمثيل مستوى أو واجهة كاملة!"
+      "exp": "A Scene is like a playroom where we combine various nodes together to represent a level or menu screen!"
     },
     {
-      "q": "في علاقة الأب والابن داخل جودوت، ماذا يحدث لخصائص الابن؟",
+      "q": "In the Parent-Child hierarchy inside Godot, what happens to the Child node's properties?",
       "opts": [
-        "تختفي تماماً وتلغى",
-        "ترث العقدة الابن الخصائص والموضع من العقدة الأب اللطيف",
-        "تتحكم في العقدة الأب وتغير موضعه",
-        "تتحول إلى أكواد برمجية معقدة"
+        "They disappear completely",
+        "The child inherits properties (like position) from the parent",
+        "They override the parent node entirely",
+        "They convert to complex text files"
       ],
       "correct": 1,
-      "exp": "ترث العقدة الابن خصائص العقدة الأب (مثل موضعه وحركته) لتتحرك معه أينما ذهب في عالم اللعبة اللطيف!"
+      "exp": "The Child node inherits coordinate scales and movements from its Parent node, walking with it everywhere in the game!"
     },
     {
-      "q": "ما هي لغة البرمجة الأساسية في جودوت المتميزة ببساطتها وتشابهها مع بايثون؟",
+      "q": "What is the primary scripting language in Godot, designed to be simple and similar to Python?",
       "opts": [
-        "لغة جافا سكريبت",
-        "لغة سي بلس بلس",
-        "لغة GDScript السحرية اللطيفة",
-        "لغة البلوكس التفاعلية"
+        "JavaScript",
+        "C++",
+        "GDScript language",
+        "Visual Blocks"
       ],
       "correct": 2,
-      "exp": "لغة GDScript هي اللغة السحرية المصممة خصيصاً لمحرك جودوت لتكون سهلة للغاية وتشبه لغة بايثون الرائعة!"
+      "exp": "GDScript is a sweet, simple scripting language created specifically for Godot, making it very easy for beginners to learn!"
     },
     {
-      "q": "أي كلمة سحرية نستخدمها لنصنع صندوقاً ذكياً (متغيراً) نخزن فيه بيانات اللعبة؟",
+      "q": "Which magic keyword do we use to declare a smart box (variable) to store game values?",
       "opts": [
-        "الكلمة السحرية var",
-        "الكلمة السحرية func",
-        "الكلمة السحرية const",
-        "الكلمة السحرية print"
+        "var",
+        "func",
+        "const",
+        "print"
       ],
       "correct": 0,
-      "exp": "الكلمة var هي اختصار لـ Variable، ونستخدمها لنصنع صناديق ذكية تحفظ قلوب أبطالنا ونقاطهم!"
+      "exp": "The keyword 'var' stands for variable, which prepares a smart memory box to hold scores, health, or speeds!"
     },
     {
-      "q": "إذا أردنا حفظ عدد قلوب البطل وقيمتها 3 (رقم صحيح)، ما هو نوع هذه البيانات؟",
+      "q": "If we want to store our hero's health hearts count (e.g. 3) as a whole number, what is the type of data?",
       "opts": [
-        "بيانات عشرية Float",
-        "بيانات منطقية Bool",
-        "بيانات النصوص String",
-        "بيانات صحيحة int اللطيفة"
+        "Float decimal values",
+        "Bool logic values",
+        "String text values",
+        "int integer values"
       ],
       "correct": 3,
-      "exp": "النوع int (Integer) هو المخصص للأرقام الصحيحة والكاملة دون كسور مثل عدد القلوب أو النقاط!"
+      "exp": "An 'int' (integer) data type is used specifically for storing whole numbers without any fractions, like hearts or counts!"
     },
     {
-      "q": "ما هو نوع البيانات الذي يحتمل خيارين سحريين فقط: صح (true) أو خطأ (false)؟",
+      "q": "Which data type stores only two logical choices: true or false?",
       "opts": [
-        "نوع البيانات المنطقي bool",
-        "نوع البيانات float",
-        "نوع البيانات int",
-        "العقد الملونة"
+        "bool logic values",
+        "float decimal values",
+        "int values",
+        "Lego nodes"
       ],
       "correct": 0,
-      "exp": "النوع bool (Boolean) هو صندوق الاختيارات اللطيف الذي يخبرنا بنعم أو لا، مثل هل البطل يطير أم لا!"
+      "exp": "A 'bool' (boolean) data type holds only true or false choices, telling us if our hero is flying, alive, or grounded!"
     },
     {
-      "q": "متى يتم استدعاء دالة البداية السحرية _ready() في جودوت؟",
+      "q": "When is the ready() function automatically called in Godot?",
       "opts": [
-        "في كل إطار من إطارات اللعبة بسرعة فائقة",
-        "مرة واحدة فقط في البداية عند تشغيل المشهد ودخول العقدة",
-        "عند تصادم الأجسام ببعضها فقط",
-        "عند إغلاق اللعبة"
+        "Continuously on every single frame",
+        "Once at the beginning when the scene loads and node enters the tree",
+        "Only when objects collide",
+        "When the application exits"
       ],
       "correct": 1,
-      "exp": "دالة ready() هي مثل منبه الصباح، توقظ العقدة مرة واحدة في بداية اللعب لتستعد لأداء مهامها!"
+      "exp": "The _ready() function runs once like a morning alarm, waking up nodes to configure their initial states!"
     },
     {
-      "q": "أي دالة سريعة تستدعى باستمرار وتحدث حركة الشخصيات بلمح البصر في كل إطار؟",
+      "q": "Which fast function is called continuously on every frame to update movements and character positions?",
       "opts": [
-        "دالة ready()",
-        "دالة quit()",
-        "دالة التحديث المستمر _process(delta)",
-        "دالة change_scene()"
+        "ready()",
+        "quit()",
+        "_process(delta) process update",
+        "change_scene()"
       ],
       "correct": 2,
-      "exp": "دالة _process(delta) هي المحرك النفاث الذي يحدث الحركة والأنشطة بسرعة فائقة في كل إطار من اللعبة!"
+      "exp": "The _process(delta) function runs constantly at high speeds to keep game loops updating movements smoothly!"
     },
     {
-      "q": "ما هي الفائدة الأساسية لمحرك الألعاب (Game Engine) مثل جودوت؟",
+      "q": "What is the primary benefit of using a Game Engine like Godot?",
       "opts": [
-        "لتصفح الإنترنت ولعب ألعاب الآخرين فقط",
-        "لبرمجة المواقع الإلكترونية الكبيرة",
-        "لتوفير أدوات جاهزة لتسهيل بناء حركات وأصوات وصور الألعاب بسلاسة",
-        "لرسم اللوحات الفنية الكلاسيكية فقط"
+        "To browse websites only",
+        "To program giant office spreadsheets",
+        "To provide ready-made tools for physics, rendering, and sound to easily build games",
+        "To paint digital canvases only"
       ],
       "correct": 2,
-      "exp": "يوفر محرك الألعاب صندوقاً كاملاً يحتوي على محرك فيزيائي وأدوات صوت ورسم لتسهيل بناء ألعابنا المذهلة!"
+      "exp": "A game engine provides pre-built libraries for graphics, sounds, and physics, saving developers from writing systems from scratch!"
     }
   ],
   "tasks": [
     {
-      "title": "تحدي ترحيب جودوت اللطيف",
-      "desc": "اكتب كوداً يطبع عبارة ترحيبية دافئة داخل دالة ready() واختبرها لتثبت سلامة مشروعك الأول!"
+      "title": "Godot Sweet Welcome Challenge",
+      "desc": "Write code printing a warm welcome text in the _ready() function to test your project startup!"
     },
     {
-      "title": "صندوق طاقة ديينو الذكي",
-      "desc": "قم بتعريف متغير برقم عشري يمثل حجم ديينو اللطيف، ثم اطبع الحجم على الشاشة لتشجيعه!"
+      "title": "Smart Energy Variable",
+      "desc": "Define a variable storing Dino's energy value and print it to verify memory box creations!"
     }
   ]
 }

@@ -1,126 +1,127 @@
 {
   "quiz_title": "Godot Game Development - Challenge 3",
-  "quiz_name": "الاختبار 3: رحلة الـ SDLC وتصميم واجهات الألعاب الملونة! 💡🖥️",
+  "quiz_name": "Quiz 3: Game SDLC, UI Controls, and Container Layouts! 🖥️💡",
   "questions": [
     {
-      "q": "ماذا تعني الحروف اللطيفة SDLC في عالم تطوير وهندسة الألعاب؟",
+      "q": "What does SDLC stand for in game and software engineering?",
       "opts": [
-        "مركز أبحاث الألعاب الفنية",
-        "دورة حياة تطوير البرمجيات للألعاب (Software Development Life Cycle)",
-        "نظام تتبع الأصوات الكلاسيكية",
-        "برنامج تحريك الأرانب السريعة"
+        "Simple Design Level Control",
+        "Software Development Life Cycle",
+        "Sound Dynamic Loop Code",
+        "Static Body Layer Collision"
       ],
       "correct": 1,
-      "exp": "الـ SDLC هي الدورة الذهبية المنظمة التي ترسم خطوات بناء اللعبة من فكرة بسيطة في ذهننا حتى تصبح منتجاً حقيقياً!"
+      "exp": "SDLC (Software Development Life Cycle) represents the structured steps developers follow from initial concept to release!"
     },
     {
-      "q": "في أي مرحلة من مراحل الـ SDLC نجلس معاً للعصف الذهني والتفكير في القصة وقواعد اللعب؟",
+      "q": "Which phase of the SDLC is dedicated to brainstorming initial features, story settings, and game play themes?",
       "opts": [
-        "مرحلة الاختبار Testing",
-        "مرحلة توليد الفكرة أو Idea Generation الممتعة",
-        "مرحلة النشر والإطلاق",
-        "مرحلة كتابة أكواد واجهة المستخدم"
-      ],
-      "correct": 1,
-      "exp": "مرحلة توليد الفكرة (Idea Generation) هي المحطة الأولى حيث تتدفق الأفكار الخيالية ونختار فكرة لعبتنا الأسطورية!"
-    },
-    {
-      "q": "ما هي ميزة بناء نموذج أولي (Prototype) سريع وقابل للعب للعبتنا اللطيفة؟",
-      "opts": [
-        "لاختبار ميكانيكية اللعب ومتعته واكتشاف المشاكل مبكراً دون خسارة مجهود طويل",
-        "لبيعه للجمهور والحصول على أرباح فورية",
-        "لتثبيت الموسيقى الخلفية فقط",
-        "لحذف ملفات المشروع بالكامل"
+        "Idea Generation phase",
+        "Testing phase",
+        "Development phase",
+        "HTML Export phase"
       ],
       "correct": 0,
-      "exp": "بناء النموذج الأولي يتيح لنا تجربة اللعبة بسرعة والتأكد من أنها ممتعة وسهلة اللعب قبل استثمار الوقت في الرسم والتطوير الكامل!"
+      "exp": "Idea Generation is the very first golden phase, hosting brainstorming sessions to establish rules, characters, and gameplay!"
     },
     {
-      "q": "أي خطوة نقوم فيها بكتابة كود GDScript الحقيقي وتوزيع العقد في محرك جودوت؟",
+      "q": "Why is the Prototyping phase crucial during game development?",
       "opts": [
-        "مرحلة توليد الفكرة",
-        "مرحلة التصميم الجمالي",
-        "مرحلة التطوير البرمجي أو Development الذكية",
-        "مرحلة النشر النهائي"
-      ],
-      "correct": 2,
-      "exp": "مرحلة التطوير (Development) هي المحطة التي تتحول فيها أفكارنا ورسوماتنا إلى أكواد برمجية وتتكامل داخل محرك جودوت!"
-    },
-    {
-      "q": "لماذا تعد مرحلة الاختبار (Testing) بالغة الأهمية قبل نشر اللعبة لأصدقائنا؟",
-      "opts": [
-        "لأنها تجعل اللعبة أكبر حجماً فقط",
-        "لأنها تضمن خلو اللعبة من الأخطاء والانهيارات وتوفر تجربة لعب مريحة وسلسة",
-        "لتغيير اسم بطل اللعبة فجأة",
-        "لأن جودوت لا يعمل بدونها"
+        "To sell the game to players immediately",
+        "To build a quick, simple test version of gameplay mechanics to verify if the core idea is fun",
+        "To program rich sounds",
+        "To publish files on itch.io"
       ],
       "correct": 1,
-      "exp": "تساعدنا مرحلة الاختبار في العثور على الأخطاء البرمجية (Bugs) وحلها لنقدم لأصدقائنا لعبة مستقرة ومريحة وممتعة!"
+      "exp": "A prototype lets developers test simple mechanics quickly, ensuring the game is engaging before investing effort in art and code!"
     },
     {
-      "q": "ما هي واجهة المستخدم (UI) في الألعاب اللطيفة؟",
+      "q": "What do we call the SDLC phase where developers play the game repeatedly to hunt and resolve bugs?",
       "opts": [
-        "الأسلاك الكهربائية التي تشغل الحاسوب",
-        "طريقة تواصل وتفاعل اللاعب مع اللعبة لعرض النقاط والصحة والقوائم والأزرار الملونة",
-        "الملف البرمجي للجاذبية الأرضية",
-        "صوت ركض كيتي الجميلة"
+        "Idea phase",
+        "Testing phase",
+        "Design phase",
+        "Release phase"
       ],
       "correct": 1,
-      "exp": "الـ UI هي اللوحات والنصوص والأزرار الجذابة التي تخبر اللاعب بوضعه في اللعبة وتسهل تفاعله معها بنقرة زر!"
+      "exp": "The Testing phase is where playtesters hunt down errors, visual glitches, and bugs to ensure a smooth, stable experience!"
     },
     {
-      "q": "أي عقدة واجهة مستخدم (UI Node) نستخدمها لعرض نصوص مثل النقاط أو الصحة على الشاشة؟",
+      "q": "What is UI (User Interface) in games?",
       "opts": [
-        "عقدة النصوص Label اللطيفة",
-        "عقدة الأزرار Button",
-        "عقدة التصادم Area2D",
-        "عقدة الكاميرا Camera2D"
-      ],
-      "correct": 0,
-      "exp": "عقدة النصوص (Label) هي صندوق الكلمات اللطيف المسؤول عن طباعة وعرض النصوص والأرقام الملونة في الواجهة!"
-    },
-    {
-      "q": "أي عقدة واجهة مستخدم نستخدمها لتنفيذ حدث أو أمر معين عندما ينقر عليها اللاعب اللطيف؟",
-      "opts": [
-        "عقدة حقل النصوص LineEdit",
-        "عقدة الحاوية VBoxContainer",
-        "عقدة الأزرار التفاعلية Button المدهشة",
-        "عقدة الصوت الموسيقي"
-      ],
-      "correct": 2,
-      "exp": "عقدة Button هي زر تفاعلي نضغط عليه لنفتح القائمة أو نبدأ مغامرتنا الشيقة بروعة وسهولة!"
-    },
-    {
-      "q": "إذا أردنا تنظيم مجموعة أزرار القائمة عمودياً فوق بعضها بانتظام، أي حاوية نختار؟",
-      "opts": [
-        "الحاوية الأفقية HBoxContainer",
-        "عقدة النصوص Label",
-        "الحاوية العمودية VBoxContainer المنظمة",
-        "عقدة الكاميرا 2D"
-      ],
-      "correct": 2,
-      "exp": "الحاوية العمودية VBoxContainer ترتب وتصطف الأزرار عمودياً فوق بعضها بشكل آلي رائع ومريح للعين!"
-    },
-    {
-      "q": "ما هي الفائدة من استخدام عقدة إدخال النص (LineEdit) في لعبتنا؟",
-      "opts": [
-        "لعرض صور البطل وهو يجري",
-        "لتمكين اللاعب الصغير من كتابة اسمه البطل بخط يده ليحفظ في قائمة الفائزين",
-        "لتسريع حركة أرنوب السريع",
-        "لتشغيل الموسيقى الحالمة"
+        "The code that controls physics gravity",
+        "The visual layer (scores, buttons, health) that lets players interact with and read game info",
+        "A folder of audio recordings",
+        "The camera node"
       ],
       "correct": 1,
-      "exp": "تتيح عقدة LineEdit للاعب كتابة الحروف والكلمات (مثل اسمه أو أكواد سرية) ليقراها الكود ويتفاعل معها!"
+      "exp": "User Interface (UI) is the presentation layer consisting of health bars, buttons, and scores that lets players communicate with the game!"
+    },
+    {
+      "q": "Which Godot UI node is used specifically to render and display static or dynamic texts like 'Score: 50'?",
+      "opts": [
+        "Button node",
+        "Label node",
+        "LineEdit node",
+        "VBoxContainer"
+      ],
+      "correct": 1,
+      "exp": "The Label node displays any text sentences, scores, or titles on the screen for players to view!"
+    },
+    {
+      "q": "Which UI node is used to receive mouse click interactions to start levels or open panels?",
+      "opts": [
+        "Label node",
+        "Button node",
+        "LineEdit node",
+        "AudioStreamPlayer2D"
+      ],
+      "correct": 1,
+      "exp": "The Button node triggers pressed signals when clicked, allowing players to launch games, select options, or buy upgrades!"
+    },
+    {
+      "q": "Which UI node allows players to type in customized text strings like entering their custom hero name?",
+      "opts": [
+        "Label node",
+        "LineEdit node",
+        "Button node",
+        "HBoxContainer"
+      ],
+      "correct": 1,
+      "exp": "The LineEdit node provides a text entry box where players can type names, inputs, or secret cheat codes!"
+    },
+    {
+      "q": "What is the primary function of Container nodes like VBoxContainer in Godot?",
+      "opts": [
+        "To play sound effects",
+        "To automatically align and organize child UI controls vertically (above each other)",
+        "To move paddles up and down",
+        "To create parallax depth"
+      ],
+      "correct": 1,
+      "exp": "VBoxContainer stands for Vertical Box Container, which aligns all child buttons and labels neatly in a vertical column!"
+    },
+    {
+      "q": "Which container aligns child controls horizontally side-by-side in a neat row?",
+      "opts": [
+        "VBoxContainer",
+        "HBoxContainer",
+        "GridContainer",
+        "Sprite node"
+      ],
+      "correct": 1,
+      "exp": "HBoxContainer stands for Horizontal Box Container, which arranges buttons or icons side-by-side in a row!"
     }
   ],
+  "questions_count": 10,
   "tasks": [
     {
-      "title": "تحدي تخطيط فكرة اللعبة",
-      "desc": "قم بكتابة ملخص قصصي لفكرة لعبتك الأولى، وتخيل كيف ستسير مراحل الـ SDLC لتصنع لعبتك اللطيفة!"
+      "title": "UI Dashboard Assembly",
+      "desc": "Build a main menu with a Title Label, Start Button, and VBoxContainer aligning your layouts!"
     },
     {
-      "title": "تحدي تصميم لوحة الأزرار",
-      "desc": "باستخدام الحاوية العمودية VBoxContainer، قم بتنظيم ثلاثة أزرار (ابدأ اللعب، الإعدادات، الخروج) بشكل منسق وجميل!"
+      "title": "Player Name Box",
+      "desc": "Integrate a LineEdit box for player name entry, displaying a welcome message on a Label!"
     }
   ]
 }

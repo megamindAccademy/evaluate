@@ -1,126 +1,126 @@
 {
   "quiz_title": "Godot Game Development - Challenge 6",
-  "quiz_name": "الاختبار 6: أسرار لعبة البونج وتحدي الارتداد والإعلانات الترويجية! 🏓🏆",
+  "quiz_name": "Quiz 6: Classic Pong Physics, Collisions, and Promos! 🏓🏆",
   "questions": [
     {
-      "q": "ما هي الفكرة الأساسية وميكانيكية اللعب في لعبة البونج (Pong Game) الكلاسيكية؟",
+      "q": "What is the core gameplay mechanic in the classic game of Pong?",
       "opts": [
-        "القفز فوق الحواجز وجمع القطع الذهبية",
-        "تحريك المضارب لصد الكرة اللطيفة ومنعها من تجاوز حدودنا وإرسالها لملعب الخصم",
-        "برمجة كاميرا ذكية تتبع العصافير تطير",
-        "تصميم إعلانات ترويجية فقط"
+        "Jumping over hurdles and collecting coins",
+        "Moving paddles vertically to hit and bounce a ball, preventing it from passing behind your boundary",
+        "Programming cameras to follow birds",
+        "Designing promotional flyers only"
       ],
       "correct": 1,
-      "exp": "لعبة البونج هي مبارزة تفاعلية ممتعة، يتحرك فيها المضارب رأسياً لصد الكرة المندفعة ومنعها من الخروج عن الحدود!"
+      "exp": "Pong is a legendary table-tennis duel where players control paddles vertically to bounce a ball back and forth!"
     },
     {
-      "q": "أي نوع من العقد الفيزيائية الثابتة نستخدمه لصنع جدران وحدود ملعب البونج لتصد الكرة؟",
+      "q": "Which physical body node in Godot is ideal for solid walls that do not move but serve to block and bounce objects?",
       "opts": [
-        "عقد الحركة KinematicBody2D",
-        "عقد الحدود والجدران StaticBody2D الثابتة",
-        "عقد النصوص Label",
-        "عقد الصوت AudioStreamPlayer2D"
+        "KinematicBody2D",
+        "StaticBody2D solid physics body",
+        "Label node",
+        "AudioStreamPlayer2D"
       ],
       "correct": 1,
-      "exp": "عقدة StaticBody2D هي مثل حوائط البناء القوية! جدران ثابتة لا تتحرك وظيفتها الأساسية صد الأجسام الفيزيائية والكرة المندفعة!"
+      "exp": "StaticBody2D is perfect for solid, immovable barriers (walls, floors) designed to block and bounce moving bodies!"
     },
     {
-      "q": "أي نوع من العقد نستخدمه للمضارب والكرة حيث نريد كتابة أكواد خاصة لتتحكم بحركتها وفيزيائها؟",
+      "q": "Which physics body is ideal for players paddles and balls, where we want custom script codes to drive movement?",
       "opts": [
-        "عقد الحركة والتحكم KinematicBody2D اللطيفة",
-        "عقد الحدود StaticBody2D",
-        "عقدة الكاميرا Camera2D",
-        "عقدة واجهات المستخدم"
+        "KinematicBody2D controllable body",
+        "StaticBody2D node",
+        "Camera2D",
+        "User Interface container"
       ],
       "correct": 0,
-      "exp": "عقدة KinematicBody2D تمنحنا التحكم الكامل برمجياً بالسرعة والحركة والفيزياء، وهي مثالية للمضارب والكرة اللطيفة في بونج!"
+      "exp": "KinematicBody2D gives developers precise control over velocities, collisions, and movements through scripting!"
     },
     {
-      "q": "كيف يتم توجيه والتحكم بمضارب اللاعبين في كود لعبة البونج الخاصة بنا؟",
+      "q": "How do players control paddle directions in our classic Pong level design?",
       "opts": [
-        "المضارب تتحرك عشوائياً وتلقائياً دون تدخل",
-        "المضرب الأيسر بمفاتيح W/S للاعب الأول، والمضرب الأيمن بالأسهم للاعب الثاني اللطيف",
-        "بالنقر بالماوس على كرة اللعب فقط",
-        "باستخدام الميكروفون والأصوات"
+        "Paddles move automatically without controls",
+        "Left paddle uses W/S keys, and Right paddle uses keyboard Up/Down arrows",
+        "Clicking randomly with mouse buttons",
+        "Using microphone sounds"
       ],
       "correct": 1,
-      "exp": "اللاعب الأول يستخدم مفاتيح W للأعلى و S للأسفل، واللاعب الثاني يستخدم أسهم الكيبورد للأعلى والأسفل لخوض المنافسة المثيرة!"
+      "exp": "The left player controls with W (up) and S (down), and the right player controls with Up/Down Arrows!"
     },
     {
-      "q": "أي دالة فيزيائية مخصصة في جودوت نكتب داخلها كود حركة المضارب والكرة لتحديثها بانتظام؟",
+      "q": "Which dedicated update function in GDScript is used to process physics movements and collision velocities?",
       "opts": [
-        "دالة البداية ready()",
-        "دالة الفيزياء _physics_process(delta) الذكية",
-        "دالة تغيير المشاهد change_scene()",
-        "دالة الخروج quit()"
+        "ready() function",
+        "_physics_process(delta) loop",
+        "change_scene() method",
+        "quit() command"
       ],
       "correct": 1,
-      "exp": "دالة _physics_process(delta) هي المنسق الفيزيائي الموثوق الذي يضمن تحديث وحساب سرعات المضارب والكرة بانتظام مدهش!"
+      "exp": "The _physics_process(delta) loop is synchronized with physics frames, making it ideal for moving paddles and balls!"
     },
     {
-      "q": "أي عقدة كشف تصادم نستخدمها في ملعب البونج لتشعر بدخول الكرة في مساحة الهدف لتسجيل نقطة؟",
+      "q": "Which collision sensor node is used in goals to detect when balls enter score zones?",
       "opts": [
-        "عقدة النصوص Label",
-        "عقدة استشعار التصادم Area2D السحرية",
-        "عقدة الكاميرا Camera2D",
-        "عقدة الصوت الموسيقي"
+        "Label node",
+        "Area2D overlap sensor node",
+        "Camera2D",
+        "Music player node"
       ],
       "correct": 1,
-      "exp": "عقدة Area2D هي شبكة الاستشعار اللطيفة! تشعر فوراً بملامسة الكرة وتطلق إشارة لتخبر الكود بتسجيل هدف وحساب نقطة!"
+      "exp": "Area2D registers overlaps and intersections rather than physical blocks, making it perfect for goal nets and trigger areas!"
     },
     {
-      "q": "برمجياً في GDScript، كيف نجعل الكرة ترتد أفقياً عند اصطدامها بالمضرب لتعود للاتجاه المعاكس؟",
+      "q": "Script-wise in GDScript, how do we reflect the ball's horizontal direction when it collides with a paddle?",
       "opts": [
-        "بضرب السرعة الأفقية في صفر تماماً",
-        "بضرب السرعة الأفقية في سالب واحد (speed.x = -speed.x) لتعكس حركتها",
-        "بزيادة سرعة الكرة عشرة أضعاف فجأة",
-        "باستدعاء دالة get_tree().quit()"
+        "Multiply horizontal speed by zero",
+        "Multiply horizontal speed by negative one (speed.x = -speed.x)",
+        "Increase speed tenfold instantly",
+        "Call get_tree().quit()"
       ],
       "correct": 1,
-      "exp": "الضرب في سالب واحد (speed.x = -speed.x) هو المعادلة السحرية لعكس اتجاه حركة الكرة يميناً ويساراً عند التصادم اللطيف!"
+      "exp": "Multiplying velocity by -1 (speed.x = -speed.x) flips the sign, reversing the ball's horizontal direction!"
     },
     {
-      "q": "كيف نعرض النتيجة والأهداف الحالية للاعبين على شاشة لعبة البونج؟",
+      "q": "How do we display and update current game scores on the screen during a Pong match?",
       "opts": [
-        "باستخدام عقدة الصوت play()",
-        "بإضافة عقدة نصوص Label وتحديث خاصية text برمجياً فور تسجيل هدف جديد",
-        "برسم النتيجة على ورقة حركة كيتي",
-        "باستخدام دالة set_scale() لتكبير الملعب"
+        "Using audio playing triggers",
+        "Adding a Label UI node and updating its text property when a goal Area2D triggers a point",
+        "Drawing numbers on a Sprite Sheet",
+        "Calling set_scale() to enlarge viewports"
       ],
       "correct": 1,
-      "exp": "نستخدم عقدة نصوص Label ملونة، وعندما تسجل إشارة Area2D هدفاً، نغير خاصية text للـ Label لتعرض الأرقام الجديدة فورا!"
+      "exp": "We place Label nodes on screen. When goal sensors detect scoring, scripts increment score variables and update Label texts!"
     },
     {
-      "q": "ما هو إعلان اللعبة الترويجي (Game Trailer) وما الفائدة الكبرى من تصميمه؟",
+      "q": "What is a Game Trailer and why is it important?",
       "opts": [
-        "برنامج برمجي لإزالة الأخطاء من جودوت",
-        "مقطع فيديو قصير مشوق يعرض ميزات اللعب والWizard السحري ليجذب اللاعبين ويلهمهم لتجربة لعبتنا اللطيفة",
-        "ملف صوت BGM يلعب طوال الوقت",
-        "حد فيزيائي StaticBody2D"
+        "A tool to fix bugs in Godot",
+        "A short, engaging showcase video displaying gameplay actions to hook players and encourage downloads on itch.io",
+        "A music loop file",
+        "A static wall boundary"
       ],
       "correct": 1,
-      "exp": "الفيديو الترويجي أو التريلر يعرض لقطات لعب حماسية سريعة وتشويقية ليشوق اللاعبين ويدعوهم لزيارة رابط اللعبة وتنزيلها!"
+      "exp": "A trailer packs high-intensity highlights into a short clip, convincing viewers that the game is fun and worth playing!"
     },
     {
-      "q": "كيف يمكننا تعزيز متعة وإثارة لعبة البونج عند صقلها وتجهيزها للنشر النهائي؟",
+      "q": "How can we make our classic Pong game extremely fun and satisfying to play?",
       "opts": [
-        "بحذف أصوات اللعبة بالكامل وجعلها صامتة",
-        "بإضافة مؤثرات صوتية عند صد المضرب للكرة ونغمات حماسية لخلفية اللعب وتلوين الواجهات بمرح",
-        "بإلغاء حركة المضرب الأيمن للاعب الثاني",
-        "بإغلاق الحاسوب فجأة"
+        "Delete all sound effects entirely",
+        "Add satisfying bounce SFX, energetic BGM, juice visual sparks, and clean color schemes",
+        "Disable left paddle control variables",
+        "Turn off computers during play"
       ],
       "correct": 1,
-      "exp": "تألق اللعبة وصقلها يكتمل بوضع مؤثرات صد الكرة الحماسية، لوحة نقاط جذابة وموسيقى خلفية تشعل المنافسة اللطيفة!"
+      "exp": "Juicy sound effects upon hit, background tracks, screenshakes, and pleasant art styles turn simple mechanics into addictive fun!"
     }
   ],
   "tasks": [
     {
-      "title": "تحدي بناء أساسيات البونج",
-      "desc": "قم بإعداد مشهد بونج يحتوي على الجدران StaticBody2D والمضارب والكرة KinematicBody2D بمقاسات صحيحة وملونة!"
+      "title": "Pong Physics Arena",
+      "desc": "Set up a Pong scene with StaticBody2D boundaries, KinematicBody2D paddles, and configure movement scripts!"
     },
     {
-      "title": "تحدي الفيديو الترويجي الرائع",
-      "desc": "سجل مقطعاً تشويقياً قصيراً للعبتك الأسطورية، وتخيل شعاراً وبانراً يروجان لقصة بطل السحر والصداد!"
+      "title": "Goal Sensors Integration",
+      "desc": "Add Area2D goal detectors, connect overlap signals to increment score variables, and print results!"
     }
   ]
 }

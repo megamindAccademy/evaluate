@@ -1,126 +1,126 @@
 {
   "quiz_title": "Godot Game Development - Challenge 5",
-  "quiz_name": "الاختبار 5: الكاميرا الكاشفة وتلميع الألعاب وصقلها للنشر! 📸🚀",
+  "quiz_name": "Quiz 5: Smoothing Cameras, Parallax Backgrounds, and Game Polishing! 📸🚀",
   "questions": [
     {
-      "q": "ما هي الفائدة الأساسية لعقدة الكاميرا (Camera2D) في ألعاب المغامرات ثنائية الأبعاد؟",
+      "q": "What is the primary role of the Camera2D node in 2D platformers and adventure games?",
       "opts": [
-        "لرسم شخصيات جديدة بالكامل",
-        "لتحديد ما يراه اللاعب وتتبع البطل بسلاسة أثناء تجوله في العوالم الواسعة",
-        "لتشغيل أصوات قفز شهدور",
-        "لتعديل حجم الأزرار فقط"
+        "To paint sprites",
+        "To control what the player sees and follow characters smoothly around vast levels",
+        "To trigger jump sound effects",
+        "To resize UI buttons"
       ],
       "correct": 1,
-      "exp": "عقدة Camera2D هي عدستنا السحرية وعين اللاعب اللطيفة التي تتحرك مع بطلنا الصغير لتكشف له أسرار عالم اللعبة الواسع!"
+      "exp": "The Camera2D acts as the player's eye, following character coordinates smoothly to show the active surrounding level!"
     },
     {
-      "q": "كيف نجعل الكاميرا2D تتبع اللاعب وتكون هي الشاشة النشطة الرئيسية في جودوت؟",
+      "q": "How do we make a Camera2D node active, ensuring it is the main screen viewpoint?",
       "opts": [
-        "بجعل الكاميرا طفلاً للاعب وتفعيل خيار current إلى صح (true)",
-        "بحذف الكاميرا وترك المشهد بدونها",
-        "بربط إشارة pressed() بالكاميرا",
-        "باستدعاء دالة get_tree().quit()"
+        "Set the 'current' property to true in the inspector",
+        "Delete the camera and leave the scene default",
+        "Connect a button signal to the camera",
+        "Call get_tree().quit()"
       ],
       "correct": 0,
-      "exp": "بجعل الكاميرا ابناً يتبع موضع البطل وتفعيل خاصية current، ستعرض الشاشة دائماً موضع بطلنا اللطيف وتتحرك معه!"
+      "exp": "Setting 'current' to true turns the Camera2D node into the active viewport controller, projecting its framing to the screen!"
     },
     {
-      "q": "ماذا تفعل خاصية تنعيم وتلطيف حركة الكاميرا (Smoothing) في الكاميرا2D؟",
+      "q": "What does the 'Smoothing' property do when enabled in a Camera2D node?",
       "opts": [
-        "تجعل الكاميرا تهتز بسرعة لتخيف اللاعب",
-        "تمنح الكاميرا حركة ناعمة وبطيئة أثناء اللحاق بالبطل لتمنع اهتزاز الشاشة المزعج",
-        "تحول صور اللعبة إلى بكسل آرت",
-        "توقف جميع المؤثرات الصوتية"
+        "It makes the screen shake violently",
+        "It creates a smooth, lag-free transition as the camera catches up to player movements, reducing screen stutter",
+        "It converts graphics to pixel art",
+        "It silences audio nodes"
       ],
       "correct": 1,
-      "exp": "ميزة التنعيم (Smoothing) تجعل تتبع الكاميرا ناعماً ولطيفاً جداً مثل تتبع العين المريح، مما يعزز جمال اللعبة التفاعلية!"
+      "exp": "Smoothing enables the camera to glide gently after the character rather than centering instantly, offering comfortable views!"
     },
     {
-      "q": "ما هو تأثير العمق المتداخل (Parallax Background) وكيف نحققه في ألعاب جودوت اللطيفة؟",
+      "q": "What is the Parallax Background effect and how does it enhance game worlds?",
       "opts": [
-        "هو كود فيزيائي لتسريع ارتداد الكرة",
-        "هو تأثير يجعل طبقات الخلفية البعيدة تتحرك أبطأ من القريبة لصنع عمق وحيوية مذهلة لعالم اللعبة",
-        "هو زر تفاعلي نضغط عليه لنخرج من اللعبة",
-        "هو صوت BGM يعمل باستمرار"
+        "A physics code to speed up ball bounces",
+        "A layered visual system where distant background layers move slower than near layers to create depth",
+        "An exit button system",
+        "A looping sound player"
       ],
       "correct": 1,
-      "exp": "تأثير Parallax يجعل عوالمنا تنبض بالحياة عبر تحريك الجبال البعيدة ببطء والسحب بنعومة، مما يمنح إحساساً رائعاً بالعمق!"
+      "exp": "Parallax scrolling moves far layers (like mountains) slowly and near layers quickly, mimicking realistic depth!"
     },
     {
-      "q": "ما هي الفائدة الكبرى لاستخدام ميثود التحميل المسبق preload(\"res://RainDrop.tscn\") في لعبتنا؟",
+      "q": "What is the key benefit of preloading scenes in code using preload(\"path\")?",
       "opts": [
-        "لتحميل المورد في الذاكرة مسبقاً قبل بدء اللعب لتفادي أي تقطيع أو تجميد مفاجئ عند إنتاجه",
-        "لحذف المورد نهائياً وتوفير مساحة القرص",
-        "لتصغير حجم الأزرار",
-        "لإلغاء خاصية تنعيم حركة الكاميرا"
+        "To load resources into memory before gameplay starts to avoid sudden stutter when spawning items",
+        "To delete items to save disk space",
+        "To scale down button nodes",
+        "To cancel camera smoothing properties"
       ],
       "correct": 0,
-      "exp": "التحميل المسبق (preload) يجهز قطرات المطر أو رصاص البطل في الذاكرة مسبقاً ليطلقها الكود بسرعة البرق ودون أي تقطيع!"
+      "exp": "Preloading cache-loads assets like raindrops or bullets beforehand, avoiding lag when they spawn during gameplay!"
     },
     {
-      "q": "ما هو مفهوم تلميع وصقل الألعاب (Polishing)؟",
+      "q": "What does game 'Polishing' refer to in the development life cycle?",
       "opts": [
-        "مسح الغبار عن شاشة الحاسوب فقط",
-        "إضافة اللمسات الأخيرة المبهجة، صقل الرسوم، تعديل التجاوب، وحل كافة الأخطاء (Bugs) لتقديم لعبة مبهرة وخالية من المشاكل",
-        "تغيير اسم اللعبة في itch.io",
-        "برمجة دالة ready() لأول مرة"
+        "Wiping computer monitors",
+        "Adding fine visual details, refining controls responsiveness, adding sound effects, and fixing all minor bugs for smooth play",
+        "Renaming games in itch.io files",
+        "Writing ready() code blocks for the first time"
       ],
       "correct": 1,
-      "exp": "التلميع (Polishing) هو لمسة الإبداع الأخيرة التي تصنع الفارق الكبير! تزيل الأخطاء وتضيف بهجة وحيوية تسعد قلوب اللاعبين!"
+      "exp": "Polishing adds sparkle! It enhances responsiveness, injects juicy effects, and removes minor glitches before public launch!"
     },
     {
-      "q": "عند صقل الألعاب، ماذا يعني مؤشر الحيوية والتفاعل (Liveliness) اللطيف؟",
+      "q": "During game polishing, what does the 'Liveliness' factor represent?",
       "opts": [
-        "أن اللعبة تعمل فقط دون انهيار",
-        "أن عالم اللعبة يبدو حياً ونابضاً بالأنشطة والمؤثرات البصرية اللطيفة التي تثير مشاعر اللاعبين",
-        "سرعة استجابة الأزرار للكيبورد",
-        "حجم ملف اللعبة النهائي"
+        "The game client running without crashes",
+        "Making game worlds feel alive and reactive with small details (wind, grass swaying, flying birds, particles)",
+        "How fast buttons respond to keyboard keys",
+        "The total file size of games"
       ],
       "correct": 1,
-      "exp": "الحيوية (Liveliness) تجعل اللعبة تبدو كأنها عالم حقيقي ينبض بالحياة، مثل سحب تتحرك، عصافير تطير، وأوراق شجر تهتز بمرح!"
+      "exp": "Liveliness injects ambient life, like clouds drifting, birds chirping, or grass swaying, making levels immersive!"
     },
     {
-      "q": "أي تنسيق تصدير (Export) نختاره في جودوت لنحصل على ألعاب تعمل مباشرة داخل أي متصفح إنترنت؟",
+      "q": "Which export target do we configure in Godot to play our games directly inside any web browser?",
       "opts": [
-        "التصدير لمنصة الهواتف القديمة",
-        "التصدير لمنصة HTML5 السحرية للويب",
-        "التصدير كملف نصي عادي txt",
-        "التصدير لمنصة بلاي ستيشن فقط"
+        "Old retro phone packaging",
+        "HTML5 platform export for Web",
+        "Normal plain text files (.txt)",
+        "Console format exclusively"
       ],
       "correct": 1,
-      "exp": "التصدير كـ HTML5 يتيح للعبتنا أن تعمل بسحر وسرعة داخل متصفحات الويب ليتمكن الجميع من لعبها فوراً بنقرة واحدة!"
+      "exp": "HTML5 compiles game scenes into files readable by web browsers, allowing players to play instantly with one link!"
     },
     {
-      "q": "ما هو موقع itch.io الشهير في عالم تطوير الألعاب المستقلة؟",
+      "q": "What is itch.io in the indie game development ecosystem?",
       "opts": [
-        "موقع لمشاهدة الفيديوهات الكرتونية فقط",
-        "منصة مجانية ساحرة تتيح للمبدعين الصغار رفع ألعابهم ونشرها ومشاركتها مع العالم كله",
-        "برنامج لتصميم رسوم البكسل",
-        "محرك ألعاب منافس لجودوت"
+        "A cartoon streaming website",
+        "A popular free platform where developers publish, share, and host indie games for the world to play",
+        "A pixel art design software",
+        "A game engine competitor to Godot"
       ],
       "correct": 1,
-      "exp": "منصة itch.io هي قصر الألعاب الكبير! نرفع عليها ألعاب الويب والكمبيوتر الخاصة بنا لنفخر بمجهودنا أمام عائلتنا وأصدقائنا!"
+      "exp": "itch.io is the indie game playground! It lets you upload game builds easily, share links, and build portfolio pages!"
     },
     {
-      "q": "ما هي خطوات تصدير لعبتنا لـ HTML5 بالترتيب الصحيح في محرك جودوت؟",
+      "q": "What are the correct steps to export your Godot project to web HTML5 files?",
       "opts": [
-        "حذف المشروع وإعادة كتابته فجأة",
-        "1. Go to Project -> 2. Export -> 3. Add HTML5 -> 4. Click Export Project ودون وضع علامة debug",
-        "كتابة كود quit() في البداية",
-        "الاتصال بموقع itch.io عبر الهاتف"
+        "Delete the project and write it again",
+        "Go to Project -> Export -> Add HTML5 -> Click Export Project without debug marks",
+        "Write quit() statements at ready",
+        "Call itch.io support directly"
       ],
       "correct": 1,
-      "exp": "نذهب لقائمة المشروع ثم تصدير ونضيف هدف ويب HTML5 ونحفظ الملفات في مجلد خاص تمهيداً لضغطها ونشرها!"
+      "exp": "Open project settings, choose export targets, add an HTML5 profile, and click export to generate playable directories!"
     }
   ],
   "tasks": [
     {
-      "title": "تحدي الخلفية المتداخلة الساحرة",
-      "desc": "قم بإعداد طبقتين للخلفية (طبقة جبال بعيدة وسحب قريبة) واضبط سرعة حركتهما لتبدو لعبتك ذات عمق ساحر بفضل Parallax!"
+      "title": "Parallax Depth World",
+      "desc": "Build a scene with a dual-layered parallax background (mountains and clouds) moving at different scales!"
     },
     {
-      "title": "تحدي تلميع اللعبة للنشر",
-      "desc": "راجع لعبتك المفضلة، أضف مؤثرات بصرية مبهجة وصوتية مرحة لتلميعها وصقلها استعداداً لرفعها على itch.io!"
+      "title": "Publishing Preparation",
+      "desc": "Export your polished game to HTML5, prepare it for upload, and design its promotional banner!"
     }
   ]
 }

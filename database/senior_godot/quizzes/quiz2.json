@@ -1,126 +1,126 @@
 {
   "quiz_title": "Godot Game Development - Challenge 2",
-  "quiz_name": "الاختبار 2: أساليب الرسم الفني والعمليات الرياضية لأرنوب! 🎨🐰",
+  "quiz_name": "Quiz 2: Art Styles, Animation, and Bunny Mathematics! 🎨🐰",
   "questions": [
     {
-      "q": "أي أسلوب رسم يعتمد على مربعات صغيرة ملونة تذكرنا بالألعاب الكلاسيكية القديمة والجميلة؟",
+      "q": "Which art style relies on small colored square grids to represent retro classic games?",
       "opts": [
-        "الرسم ثلاثي الأبعاد 3D",
-        "أسلوب بكسل آرت أو Pixel Art اللطيف",
-        "الرسم المتجهي Vector",
-        "الرسم الواقعي Grit"
+        "3D Art",
+        "Pixel Art style",
+        "Vector graphics",
+        "Realistic styles"
       ],
       "correct": 1,
-      "exp": "أسلوب Pixel Art يعتمد على المربعات الصغيرة الملونة ليمنح لعبتنا طابعاً كلاسيكياً وجميلاً يحبه الجميع!"
+      "exp": "Pixel Art is made of tiny, visible colored squares, giving games a classic, retro, and cute look!"
     },
     {
-      "q": "ماذا نطلق على الصور الثنائية الأبعاد الفردية التي تمثل الأبطال والأشياء في عالم اللعبة؟",
+      "q": "What do we call the individual 2D images representing characters and items in game worlds?",
       "opts": [
-        "العقد الصوتية",
-        "الصور الكارتونية Sprite اللطيفة",
-        "المشهد الكبير",
-        "دالة الرياضيات"
+        "Audio nodes",
+        "Sprites",
+        "Large Scenes",
+        "Math formulas"
       ],
       "correct": 1,
-      "exp": "الـ Sprites هي الصور ثنائية الأبعاد اللطيفة التي تمثل الأبطال والأشرار والكنوز داخل لعبتنا الملونة!"
+      "exp": "Sprites are the 2D images used to display players, items, and decorations inside our colorful levels!"
     },
     {
-      "q": "ما هي ورقة الحركة (Sprite Sheet)؟",
+      "q": "What is a Sprite Sheet in 2D game development?",
       "opts": [
-        "ورقة ترسم فيها الأفكار على لوحة خشبية",
-        "صورة واحدة كبيرة تجمع عدة لقطات متعاقبة لحركات البطل لتوفير ذاكرة جهازنا اللطيف",
-        "كود برمجي طويل جداً",
-        "مشهد يحتوي على كاميرات كثيرة"
+        "A folder full of sound clips",
+        "One large image combining all animation frames of a character to save memory",
+        "A list of variables",
+        "A physics boundary node"
       ],
       "correct": 1,
-      "exp": "ورقة الحركة تجمع كل لقطات ركض وقفز بطلنا اللطيف في صورة واحدة كبيرة وموفرة لذاكرة الحاسوب!"
+      "exp": "A Sprite Sheet aggregates all poses and frames of a character into one single image file, conserving memory and improving speed!"
     },
     {
-      "q": "أي عقدة سحرية نستخدمها في جودوت لجمع إطارات الحركة وعرضها متتالية لتبدو الشخصية كأنها تجري؟",
+      "q": "Which node in Godot is specifically designed to play frame-by-frame sequences of player running frames?",
       "opts": [
-        "عقدة الكاميرا Camera2D",
-        "عقدة النصوص Label",
-        "عقدة الصور المتحركة AnimatedSprite الساحرة",
-        "عقدة الحدود StaticBody2D"
-      ],
-      "correct": 2,
-      "exp": "عقدة AnimatedSprite هي البوابة السحرية التي تجمع لقطات متعاقبة (Frames) وتعرضها بسرعة لتبدو الشخصية حية وتتحرك!"
-    },
-    {
-      "q": "كيف نحسب الحركة والسرعة في الألعاب بصورة صحيحة وسلسة في كل إطار؟",
-      "opts": [
-        "بالتحديث العشوائي دون استخدام الأكواد",
-        "بتحديث موضع الصورة بناءً على سرعتها والزمن الفاصل delta لضمان سلاسة الحركة",
-        "بتكبير حجم الشخصية باستمرار",
-        "بإيقاف الصوت فجأة"
+        "StaticBody2D",
+        "AnimatedSprite node",
+        "AudioStreamPlayer2D",
+        "Camera2D"
       ],
       "correct": 1,
-      "exp": "نضرب السرعة في الزمن delta لتكون الحركة ناعمة وسلسة ومتناسقة على كافة الأجهزة الذكية!"
+      "exp": "The AnimatedSprite node handles playing frame sequences smoothly to animate characters while walking or jumping!"
     },
     {
-      "q": "أي عملية حسابية نستخدمها برمجياً لمعرفة باقي القسمة اللطيف (مثلاً 10 % 3)؟",
+      "q": "Which arithmetic operator do we use in code to multiply speeds or double scores?",
       "opts": [
-        "عملية القسمة /",
-        "عملية الضرب *",
-        "عملية باقي القسمة أو Modulus (%)",
-        "عملية الجمع +"
-      ],
-      "correct": 2,
-      "exp": "الرمز % يمثل عملية باقي القسمة (Modulus)، فباقي قسمة 10 على 3 هو 1 اللطيف!"
-    },
-    {
-      "q": "أي مقارنة نستخدمها لنتأكد من أن سرعة أرنوب تساوي تماماً القيمة 100؟",
-      "opts": [
-        "استخدام رمز يساوي المفرد =",
-        "استخدام رمز التساوي الثنائي == السحري",
-        "استخدام رمز التعجب !",
-        "استخدام رمز الضرب *"
+        "Plus sign (+)",
+        "Asterisk sign (*)",
+        "Slash sign (/)",
+        "Percent sign (%)"
       ],
       "correct": 1,
-      "exp": "نستخدم رمز التساوي المزدوج == لمقارنة القيم والتحقق من تساويها برمجياً (مثل speed == 100)!"
+      "exp": "We use the asterisk symbol (*) for multiplication in scripting to scale speeds, double values, or calculate dimensions!"
     },
     {
-      "q": "أي رابط منطقي يعود بالصواب (true) فقط إذا تحقق الشرطان معاً في نفس الوقت؟",
+      "q": "Which comparison operator checks if two values are exactly equal to each other?",
       "opts": [
-        "الرابط المنطقي and الذكي",
-        "الرابط المنطقي or اللطيف",
-        "الرابط المنطقي not العاكس",
-        "عملية الضرب"
+        "Single equals (=)",
+        "Double equals (==)",
+        "Exclamation equals (!=)",
+        "Greater than sign (>)"
+      ],
+      "correct": 1,
+      "exp": "Double equals (==) is the equality checker in programming, whereas single equals (=) assigns values to variables!"
+    },
+    {
+      "q": "What does the logical 'and' operator require to make the whole condition true?",
+      "opts": [
+        "Only one of the combined conditions must be true",
+        "All combined conditions must be true",
+        "None of the conditions must be true",
+        "The scale must equal 1"
+      ],
+      "correct": 1,
+      "exp": "The logical 'and' operator demands that all connected conditions evaluate to true for the final statement to be true!"
+    },
+    {
+      "q": "Which function allows us to resize (grow or shrink) our characters in Godot?",
+      "opts": [
+        "set_scale(Vector2)",
+        "change_scene()",
+        "play()",
+        "stop()"
       ],
       "correct": 0,
-      "exp": "الرابط and يتطلب تحقق الشرطين معاً، مثل: هل أرنوب يملك الجناح ولديه طاقة كافية ليطير؟"
+      "exp": "We use set_scale(Vector2(x, y)) to multiply the scaling size of characters or objects in both axes!"
     },
     {
-      "q": "ماذا تفعل دالة الحجم الرائعة set_scale(Vector2(2, 2)) لعقدة اللعبة؟",
+      "q": "In vector coordinates Vector2(x, y), what does the 'x' axis represent?",
       "opts": [
-        "تخفي العقدة تماماً وتحذفها",
-        "تضاعف حجم ومظهر العقدة مرتين على محوري x و y لتصبح عملاقة ولطيفة",
-        "تغير لون العقدة إلى الأحمر",
-        "تشغل مؤثرات صوتية حزينة"
+        "Vertical up-and-down movement",
+        "Horizontal left-and-right coordinate",
+        "Audio volume level",
+        "The color palette"
       ],
       "correct": 1,
-      "exp": "دالة set_scale تغير مقاس وحجم العقدة، وتمرير القيمة 2 يضاعف طولها وعرضها لتصبح عملاقة ومرحة!"
+      "exp": "In 2D coordinate spaces, x coordinates represent horizontal positions (left-and-right) and y coordinates represent vertical positions!"
     },
     {
-      "q": "لماذا تختلف الألوان الفنية بين ألعاب المغامرات الكلاسيكية وألعاب الأكشن الحديثة؟",
+      "q": "If a character's base speed is 40 and we want to divide it by 2 in code, which symbol do we use?",
       "opts": [
-        "لأن جودوت لا يدعم سوى الألوان البيضاء",
-        "لأن لوحة الألوان والتصميم يحددان طابع ومزاج اللعبة ومشاعر اللاعبين",
-        "بسبب حجم ملف اللعبة فقط",
-        "لأن الألعاب القديمة لم تكن تحتوي على أكواد"
+        "Plus (+)",
+        "Slash (/)",
+        "Minus (-)",
+        "Ampersand (&)"
       ],
       "correct": 1,
-      "exp": "تحديد الألوان الساطعة والداكنة يعبر عن روح اللعبة؛ فالألوان البراقة تنشر البهجة، والألوان الترابية تمنح طابع المغامرة والواقعية!"
+      "exp": "We use the forward slash (/) for division in scripting languages to calculate quotients and split speeds!"
     }
   ],
   "tasks": [
     {
-      "title": "تحدي ورقة حركة كيتي",
-      "desc": "صمم ورقة حركة تخيلية واكتب كوداً برمجياً يحدد سرعة حركة الإطارات لتبدو كيتي وكأنها تركض بنعومة!"
+      "title": "Animated Sprite Setup",
+      "desc": "Configure an AnimatedSprite with a Sprite Sheet containing player running frames and adjust frame speed!"
     },
     {
-      "title": "تحدي مضاعفة حجم أرنوب",
-      "desc": "استخدم دالة set_scale لتكبير أرنوب إلى ثلاثة أضعاف حجمه الأصلي عند ملامسة الجزرة السحرية برمجياً!"
+      "title": "Speed Doubler",
+      "desc": "Write code to double character movement speed and resize the player's scale Vector2!"
     }
   ]
 }
