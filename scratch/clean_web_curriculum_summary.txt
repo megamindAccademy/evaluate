@@ -1,0 +1,1406 @@
+========================================
+level 1\Session 1\summary\Session 1.pdf
+========================================
+--- Page 1 ---
+Session 1
+Level 1
+--- Page 2 ---
+--- Page 3 ---
+Headings
+Navigation bar
+Forms
+Background
+--- Page 4 ---
+Headings
+Colors
+Paragraph
+Lists
+--- Page 5 ---
+HTML
+CSS
+Bootstrap
+javascript
+--- Page 6 ---
+HTML stands for Hyper Text Markup Language .
+HTML is the standard markup language for creating Web pages .
+HTML describes the structure of a Web page .
+HTML consists of a series of elements .
+--- Page 7 ---
+--- Page 8 ---
+The <!DOCTYPE html> declaration defines that this document is an
+HTML5 document .
+The <html> element is the root element of an HTML page .
+The <head> element contains meta information about the HTML page .
+The <title> element specifies a title for the HTML page  .
+The <body> element defines the document's body, and is a container
+for all the visible contents, such as headings, paragraphs, images,
+hyperlinks, tables, lists, etc .
+--- Page 9 ---
+Element : is defined by a start tag,some
+content, and an end tag.
+<tagname>Content goes here...</tagname>
+Some HTML elements have no content (like the
+<br> , <img> element). These elements are
+called empty elements, do not have an end tag .
+HTML comments are not displayed in the
+browser, but they can help document your HTML
+source code .
+--- Page 10 ---
+يستخدم لكتابة العناوين ويتراوح حجمها من<h1>
+(أكبر حجماً) إلى <h6> (أصغر حجماً) .
+--- Page 11 ---
+The HTML <p> element defines a paragraph.
+Paragraph always starts on a new line, and
+browsers automatically add some white
+space before and after a paragraph.
+--- Page 12 ---
+Use <br> if you want a line break (a new line)
+without starting a new paragraph
+--- Page 13 ---
+The <hr> tag defines a thematic break in an HTML page
+, and is most often displayed as a horizontal rule.
+The <hr> element is used to separate
+content (or define a change) in an HTML page .
+--- Page 14 ---
+v
+What is HTML?
+What is The <!DOCTYPE html> ?
+What is the root element of an HTML page ?
+What is the <head> ?
+What is the <title> ?
+What is the <body> ?
+Example for :
+Nested element
+Empty element
+--- Page 15 ---
+<Title>
+<p>
+<hr>
+<h1>
+<hr>
+<br>
+<p>
+
+========================================
+level 1\Session 2\summary\Session 2.pdf
+========================================
+--- Page 1 ---
+Web design (HTML)
+Session 2
+Level 1
+--- Page 2 ---
+5
+Images
+<img> tag is used to embed an image in a web page, it is empty
+element,
+contains attributes only, and does not have a end tag.
+<img> tag has two required attributes:
+src attribute specifies the path (URL) to the image.
+نضع اسم الصورة مع إمتداده في الsrcعندما تكون
+الصورة بجوار file HTMLفي نفس الفولدر.
+--- Page 3 ---
+1
+Images
+<img> tag is used to embed an image in a web page, it is empty
+element,
+contains attributes only, and does not have a end tag.
+<img> tag has two required attributes:
+src attribute specifies the path (URL) to the image.
+نضعاسمالصورةمعإمتدادهفيالsrcعندماتكون
+الصورةبجوارfile HTMLفينفسالفولدر.
+--- Page 4 ---
+2
+إذا كانت الصور ليست بجوارال HTML fileنضع
+علامة
+/بين الفولدر الموجود به الصورة واسم الصورة .
+عند استخدام صورة من ال internet
+نضع الimage link في الsrc atribute
+--- Page 5 ---
+3
+عند استخدام صورة من الinternet
+نضع الimage link في الsrc
+كما في المثال السابق.
+--- Page 6 ---
+4
+alt attribute provides an alternate text for an image,
+if the user for some reason cannot view it (because
+of slow connection, an error in the src attribute, or
+if the user uses a screen reader).
+--- Page 7 ---
+5
+Width and Height:
+width and height attributes are all valid in HTML ,
+and used to determine the dimensions of the image .
+نحدد أبعاد الصورة باستحدام وحدة البكسل px
+--- Page 8 ---
+6
+Links
+The HTML <a> tag defines a hyperlink, it has two required
+attributes:
+The Href The Most Important Attribute, Which Indicates
+The Link's Destination.
+<a href = “url” >  link text  </a>
+The link text is the part that will be visible to the reader.
+--- Page 9 ---
+7
+The target attribute specifies where to open the
+linked document.
+self : Default. Opens the document in the same
+window/tab as it was clicked.
+--- Page 10 ---
+8
+_blank - Opens the document in a new
+window or tab.
+--- Page 11 ---
+vRevision
+<Title>
+<img>
+<p>
+<a>
+<h1>
+<hr>
+9
+
+========================================
+level 1\Session 3\summary\session 3.pdf
+========================================
+--- Page 1 ---
+Web design (HTML)
+Session 3
+Level 1
+--- Page 2 ---
+1
+Lists
+Lists : there are types of lists, the most important of which are ..
+Unordered List <ul> :
+the <ul> contains list item starts with the<li> ,
+The list items will be marked with bullets
+(small black circles) by default:
+1
+--- Page 3 ---
+2
+The <ul> Chooses List Item Marker by( Disc ‘default’ , Circle, Square) respectively .
+--- Page 4 ---
+3
+Nested HTML Lists :
+Lists can be nested (list inside list)
+--- Page 5 ---
+4
+Ordered List <ol>
+The <ol>  contains list item starts with
+the <li> , The list items will be marked
+with numbers by default:
+2
+--- Page 6 ---
+5
+The <ol> Chooses List Item Marker by ( Number ‘default’ , Letters, Roman numbers ) respectively .
+--- Page 7 ---
+6
+We can write Letters, Roman letters in
+uppercase , lowercase
+يمكننا التحكم في الترقيم حيث نضعstart =“”نبدأ من
+أي رقم او اي حرف ونكمل ترقيم بعده.
+يمكننا الترقيم تنازلياً فنضع reversed في ال  .<ol>
+--- Page 8 ---
+7
+Tables
+HTML tables allow web developers to arrange data into rows and
+columns.
+<table> tag defines an HTML table.
+<th> tag defines a table header.
+<tr> tag defines a table row.
+<td> tag defines a table data/cell.
+Example :-
+--- Page 9 ---
+8
+The <table> consists of 3 parts : head , body , footer .
+Head:
+<thead> : Groups the header content In a table .
+Body:
+<tbody> : Groups the body content in a table .
+--- Page 10 ---
+9
+Foot:
+<tfoot> : Groups the footer content In a table .
+--- Page 11 ---
+10
+عند استخدام <th> يتم وضع عدة تنسيقات لهذا الصف
+من الجدول سنراها عند كتابة الكود :
+--- Page 12 ---
+caption
+<caption> Defines a table caption/ title .
+11
+Border:
+the border property to define a border .
+Width:
+The width controls a table width .
+--- Page 13 ---
+the colspan attribute to make a cell span many
+columns .
+12
+Example :-
+--- Page 14 ---
+vRevision
+<p>
+<ul>
+<ol>
+<a>
+<h1>
+<img>
+<h3>
+<title>
+
+========================================
+level 1\Session 4\summary\session 4.pdf
+========================================
+--- Page 1 ---
+Web design (HTML)
+Session 4
+Level 1
+--- Page 2 ---
+1
+Audio
+<audio> element is used to play an audio file on a web page .
+<audio> element has required attributes:
+Controls is the most important attribute adds
+audio controls,
+like play, pause, and volume.
+autoplay attribute T o start an audio file automatically
+بعض الbrowsers لا تدعم خاصيةال autoplayمثلGoogle chrome ,Opera.
+--- Page 3 ---
+2
+loop attribute :يعمل على إعادة تشغيلaudio
+التلقائي مرة أخرى بعدما يخلص
+Muted : بدون صوت او صامت  audio يجعلال
+source> element allows you to specify alternative audio files
+which the browser may choose from. The browser
+will use the first recognized format .
+<source> element has two required attributes:
+--- Page 4 ---
+3
+Src attribute specifies the path (URL) to the
+audio .
+Type attribute important MIME type for the web .
+طريقة كتابة الsrc في الaudio نفس طريقة كتابته في الimage
+--- Page 5 ---
+4
+Video
+<video> element is used to show a video on a web page.
+<video> element has required attributes:
+Width and height attributes If height and width are not
+set, the
+page might flicker while the video loads
+Controls is the most important attribute adds video
+controls,
+like play, pause, and volume.
+Autoplay attribute T o start a video file automatically
+--- Page 6 ---
+5
+<Source> element allows you to specify alternative video files
+which the browser may choose from. The browser
+will use the first recognized format.
+<Source> element has two required attributes:
+Loop Attribute :
+video يعمل على إعادة تشغيل ال
+تلقائي مرة أخرى بعدما يخلص
+Muted :بدون صوت او صامتvideoيجعلال
+Poster : للفيديو قبل تشغيلهCoverصورة توضع ك
+--- Page 7 ---
+6
+Src attribute specifies the path (URL) to the
+video .
+Type attribute important MIME type for the
+web .
+طريقة كتابة الsrc في الvideo نفس طريقة
+كتابته في ال image , audio
+--- Page 8 ---
+vRevision
+Muted
+Loop
+Src
+Type
+Width , Height
+Poster
+Control
+<h1>
+<h3>
+<audio>
+<source>
+<p>
+<video>
+<source>
+<title>
+
+========================================
+level 2\Session 5\Summary\session 5.pdf
+========================================
+--- Page 1 ---
+Session 5
+Level 1
+--- Page 2 ---
+<form> element is used to create an HTML form for user input ,
+it is a container for different types of input elements,
+such as: input fields, password, checkboxes, radio,
+submit buttons, etc..
+<form> element can contain one or more of the form lements:
+• <label>
+• <input>
+• <select>
+• <option>
+• <button>
+•  <fieldset>
+• <textarea>
+<label>: element defines a label
+for many form elements.
+--- Page 3 ---
+<input>
+<input> element is the most used
+form element, it can be displayed
+in many ways, depending on
+the type attribute.
+Here are the different input types
+you can use in HTML:
+<input type="text"> defines a single-line
+text input field:
+--- Page 4 ---
+<input type=“email">
+is used for input fields that should
+contain an e-mail address :
+--- Page 5 ---
+<input type="number">
+defines a numeric input field
+You can also use the min and max attributes
+to add restrictions to number:
+--- Page 6 ---
+<input type=“password">
+defines a password field:
+--- Page 7 ---
+<input type=“radio ">
+defines a radio button.
+Radio buttons let a user select only
+one of a limited number of
+choices:
+نستخدم الname attribute لتعرف المجموعة
+الذي ينتمي إليها ال radio buttons.
+--- Page 8 ---
+<input type="submit">
+defines a button for submitting
+form data to a form-handler.
+--- Page 9 ---
+<input type="reset">
+defines a reset button that will
+rese all form values to their default
+values:
+يعتبر الreset ,submit من أنواع الbuttonsوإذا
+أردنا عمل button لأي غرض نستخدم الbutton
+attribute مثلا لعملsave  .
+--- Page 10 ---
+<form> element can contain one or more of the
+form elements sach
+as <input> , Here are the different input types
+you can use in HTML:
+Checkboxes let a user select ZERO or MORE
+options of a limited number of choices .
+<input type=" checkbox"> defines a checkbox.
+--- Page 11 ---
+<input type=“color”>
+is used for input fields that should
+contain a color .
+<input type=“file">
+defines a file-select field and a
+“Browse" button for file uploads.:
+--- Page 12 ---
+<select>
+element defines a drop-down list :
+<option> elements defines an option that can
+be selected.
+By default, the first item in the drop-down list is
+selected. to define a pre-selected option, add
+the selected attribute to the option:
+--- Page 13 ---
+< textarea >
+element defines a multi-line input field (a
+text area).
+The rows attribute specifies the visible number
+of lines in a text area.
+The cols attribute specifies the visible width of
+a text area.
+--- Page 14 ---
+<fieldset>
+element is used to group related data in a
+form.
+<legend> element defines a caption for
+the <fieldset> element .
+--- Page 15 ---
+the different attributes for the HTML <input> element.value Attribute :
+The input value attribute specifies an initial
+value for an input field:
+يمكننا استخدام هذه الattributes التاليه  في  كل الinputtype .
+تعطي الvalue attribute قيم
+لل input بمجرد فتح الform
+قبل البدء في ملئها.
+--- Page 16 ---
+< textarea >
+placeholder Attribute : specifies a short hint
+that describes the expected value of an input
+field .
+The short hint is displayed in the input  field
+before the user enters a value.
+This attribute works with the following input
+types: text, number, textarea, email, and
+password
+--- Page 17 ---
+Required Attribute :
+specifies that an input field must be
+filled out before submitting the form.
+The required attribute works with the
+following input types: text, email, password ,
+number, checkbox, radio, and file:
+--- Page 18 ---
+v
+<form>
+<fieldset>
+<legend>
+<label>
+<input>
+Type
+<p>
+<label>
+<select>
+<option>
+<textarea>
+Text
+Pleaceholder
+Email
+Password
+Required
+value
+Radio
+Name
+Checkbox
+Color
+File
+submit
+
+========================================
+level 2\Session 6\Summary\session 6.pdf
+========================================
+--- Page 1 ---
+Session 6
+Level 1
+--- Page 2 ---
+<div> element : is often used as a container for other
+HTML elements.
+<div> element : has no required attributes,
+but style, class and id are common.
+When used together with CSS, the <div> element
+can be used to style blocks of content :
+--- Page 3 ---
+<span> element is an inline container used to mark up a
+part of a text, or a part of a document.
+<span> element has no required attributes, but style,
+class and id are common.
+When used together with CSS, the <span> element
+can be used to style parts of the text:
+--- Page 4 ---
+CLASS ATTRIBUTE : is used to specify a
+class for an HTML element.
+Multiple HTML elements can share
+the same class.
+When used together with CSS, the <span> element
+can be used to style parts of the text:
+class attribute : is often used to point to a class name in a style sheet .
+نستخدمالclassمع
+أي عنصر لتعريف العنصر
+وتنسيقه بسمات معينة
+باستخدام ال css
+--- Page 5 ---
+we have two <div> elements with a class attribute .
+يمكننا استخدام نفسال class
+لأكثر من عنصر في نفس ال page.
+--- Page 6 ---
+Id Attribute : is used to specify a unique id for
+an HTML element
+You cannot have more than one element with
+the same id in an HTML document.
+يستخدم الid attribute نفس استخدامالclass
+إلا أنه لا يمكن استخدام نفس الidلاكثر من
+عنصر في نفس ال page
+--- Page 7 ---
+v
+id
+Src
+class
+background
+color
+Text-align
+<h2>
+<img>
+<br>
+<p>
+<span>
+<div>
+
+========================================
+level 2\Session 7\Summary\session 7.pdf
+========================================
+--- Page 1 ---
+Session 1
+Level 2
+--- Page 2 ---
+CSS stands for Cascading Style Sheets .
+CSS describes how HTML elements are to be displayed on screen,
+paper, or in other media .
+CSS saves a lot of work. It can control the layout of multiple web
+pages all at once .
+External stylesheets are stored in CSS files .
+--- Page 3 ---
+Margin
+Text align
+Font
+Background
+Color
+Padding
+--- Page 4 ---
+Selector: points to the HTML
+element you want to style.
+Declaration block: contains one
+or more declarations separated
+by semicolons, each declaration
+includes a CSS property name
+and a value, separated by a colon.
+Color is a property, Red is the property value.
+Padding is a property, 10px is the property
+value.
+CSS rule consists of a selector and a declaration block.
+--- Page 5 ---
+Id Selector to select an element with a specific
+id, write a hash (#) character, followed by the id
+of the element.
+Element Selector selects HTML elements
+based on the element name.
+--- Page 6 ---
+Class Selectors To select elements with a
+specific class, write a period (.) character,
+followed by the class name.
+Inline CSS
+An inline style sheet may be used to apply
+a unique style  for a single element. To use
+inline styles, add the style attribute to the
+relevant element. The style attribute can
+contain any CSS property.
+.
+Ways to Insert CSS
+There are three ways of inserting a
+style sheet:
+--- Page 7 ---
+Internal CSS
+An internal style sheet may be used if one single HTML page
+has a unique style, and it is defined inside the
+<style> element, inside the head section.
+--- Page 8 ---
+External CSS
+An external style sheet , you can change the look of an entire
+website by changing just one file!
+Each HTML page must include a reference to the external style
+sheet file inside the <link> element, inside the head section.
+--- Page 9 ---
+v
+Color name :
+In CSS, a color can be
+specified by using a
+predefined color
+name:
+Colors are specified using predefined color names, or RGB,
+HEX, HSL, RGBA, HSLA values.
+--- Page 10 ---
+RGB Color :
+represents red, green, blue light sources, using
+this formula: rgb(red, green, blue) , Each
+parameter of them defines the intensity of the
+color between 0 and 255.
+For example, rgb(255, 0, 0) is displayed as red,
+because red is set to its highest value (255)
+and the others are set to 0.
+To display black, set all color parameters to 0,
+like this: rgb(0, 0, 0).
+To display white, set all color parameters to
+255, like this: rgb(255, 255, 255).
+--- Page 11 ---
+RGBA Value :
+is an extension of RGB color values with an
+alpha channel which specifies
+the opacity for a color, using this formula:
+rgba(red, green, blue, alpha) .
+The alpha parameter is a number between 0.0
+and 1.0:
+--- Page 12 ---
+HEX Colors:
+In CSS, a color can be specified using a
+hexadecimal value in the form: #rrggbb.
+Where rr (red), gg (green) and bb (blue) are
+hexadecimal values between 00    and ff
+(same as decimal 0-255).
+For example, #ff0000 is displayed as red,
+because red is set to its highest value (ff) and
+the others are set to the lowest value (00).
+--- Page 13 ---
+v
+selector
+Cascading style sheet
+properity
+inline
+internal
+external
+#000
+#FFF
+class
+id
+Color name
+RGB
+RGBa
+(0 :255)
+hexa
+element
+
+========================================
+level 2\Session 8\Summary\session 8.pdf
+========================================
+--- Page 1 ---
+Session 2
+Level 2
+--- Page 2 ---
+The CSS background properties are used to add background
+effects for elements.
+Background-color :
+property specifies the background color of an element.
+With CSS, a color is most often specified by:
+Color name : "red“
+HEX value : "#ff0000"
+RGB value : "rgb(255,0,0)"
+Look at CSS color
+--- Page 3 ---
+background-image :
+property specifies an image to use as the background
+of an element. by default, the image is repeated so
+it covers the entire element
+--- Page 4 ---
+background-repeat :
+By default, the background-image property repeats an
+image both horizontally and vertically. Some images
+should be repeated only horizontally or vertically, or
+they will look strange, like this:
+background-repeat: repeat-x;
+the background will look better:  If the image above
+is repeated only horizontally .
+--- Page 5 ---
+--- Page 6 ---
+background-repeat: repeat-y;
+To repeat an image vertically .
+--- Page 7 ---
+background-repeat: no-repeat;
+Showing the background image only once is also
+specified by the background-repeat property:
+--- Page 8 ---
+background-attachment
+The background-attachment property specifies
+whether the background image should scroll or
+be fixed (will not scroll with the rest of the page):
+background-attachment: scroll;
+--- Page 9 ---
+Background-attachment: Fixed;
+--- Page 10 ---
+Background-position
+background-position property is used to specify
+the position of the background image.
+background-position-x: top;
+: center ;
+: bottom ;
+--- Page 11 ---
+Background-position-y: Top;
+: center ;
+: bottom ;
+--- Page 12 ---
+Background–size
+background–size : auto;
+Default value. The background image is
+displayed in its original size .
+--- Page 13 ---
+Background–size : Cover;
+resize the background image to cover the entire
+container, even if it has to stretch the image or
+cut a little bit off one of the edges .
+--- Page 14 ---
+Background–size : Contain;
+Resize the background image to make sure the
+image is fully visible .
+--- Page 15 ---
+v
+Background-image
+url();
+Background-repeat
+no-repeat
+Background-size
+contain
+color
+button
+Background-attachment
+Background-position
+
+========================================
+level 3\session 09\Summary\session 9.pdf
+========================================
+--- Page 1 ---
+Web design (CSS)
+Session 3
+Level 2
+--- Page 2 ---
+1
+padding
+Padding properties: are used to generate space around an element's
+content, inside of any defined borders.
+You have control over the padding. By setting the padding foside of an
+element (top, right, bottom, and left).
+All the padding properties can have the following
+values:
+Length - specifies a padding in px, pt, cm, etc.
+If the padding property has 4 values:
+top padding is 18px
+right padding is 14px
+bottom padding is 16px
+left padding is 18px
+--- Page 3 ---
+2
+If the padding property has 3 values:
+top padding is 18px .
+right and left paddings are 20px .
+bottom padding is 16px .
+--- Page 4 ---
+3
+If the padding property has 2 values:
+top and bottom paddings are 16px
+right and left paddings are 20px
+--- Page 5 ---
+4
+If the padding property has one value:
+padding: 25px;
+all four paddings are 25px .
+Padding - Individual Sides
+CSS has properties for specifying the padding for each side of
+an element:
+Padding-top
+--- Page 6 ---
+5
+Padding-right
+--- Page 7 ---
+6
+Padding-bottom
+--- Page 8 ---
+7
+Padding-left
+--- Page 9 ---
+8
+Margins
+margin properties: are used to create space around elements, outside of
+any defined borders.
+You have control over the margins. By setting the margin for each side of
+an element (top, right, bottom, and left).
+All the margin properties can have the following
+values:
+auto - the browser calculates the margin
+Length - specifies a margin in px, pt, cm, etc.
+--- Page 10 ---
+9
+If the margin property has four values:
+top margin is 20px
+right margin is 14px
+bottom margin is 16px
+left margin is 18px
+this property is called shorthand property.
+--- Page 11 ---
+10
+If the margin property has 3 values:
+top margin is 20px .
+right and left margins are 25px .
+bottom margin is 16px .
+--- Page 12 ---
+11
+If the margin property has 2 values:
+top and bottom margins are 20px
+right and left margins are 14px
+--- Page 13 ---
+12
+If the margin property has one value:
+Margin : 25px;
+all four margins are 25px .
+Margin - Individual Sides
+CSS has properties for specifying the margin for each
+side of an element:
+Margin-top
+--- Page 14 ---
+13
+Margin-right
+--- Page 15 ---
+14
+Margin-bottom
+--- Page 16 ---
+15
+Margin-left
+--- Page 17 ---
+16
+borders
+Border Properties: allow you to specify the width, color, and style of an
+element's border.
+Border Style
+The border-style property: specifies what kind of
+border to display.
+The following values are allowed:
+solid - Defines a solid border .
+dashed - Defines a dashed border .
+dotted - Defines a dotted border .
+double - Defines a double border .
+Solid
+--- Page 18 ---
+17
+Dashed
+Dotted
+--- Page 19 ---
+18
+Double
+The border-style property can have from one
+to four values (for the top border, right border,
+bottom border, and the left border).
+Border Width
+The border-width property: specifies the width of the
+four borders.
+The width can be set as a specific size (in px, pt, cm,
+em, etc) .
+The border-width  can have from one to four values
+(for the top border, right border, bottom border, and
+the left border):
+--- Page 20 ---
+19
+The border-width is written in the same way as
+the margins and padding with (4 values  , 3
+values  , 2  values  or 1 value ).
+CSS has properties for specifying the border for
+each side of an element:
+border-top-width
+border-right-width
+border-bottom-width
+border-left-width
+--- Page 21 ---
+20
+Border Color
+The border-color property is used to set the color of the
+four borders.
+The color can be set by:
+name - specify a color name  "red"
+HEX - specify a HEX value  "#ff0000"
+RGB - specify a RGB value “rgb(255,0,0)“
+The border-color property can have from one to four
+values (for the top border, right border, bottom border,
+and the left border):
+Color Name
+--- Page 22 ---
+RGB Color
+HEX Color
+21
+--- Page 23 ---
+22
+Border - Shorthand
+Like you saw in the previous page, there are many
+properties to consider when dealing with borders.
+To shorten the code, it is also possible to specify all the
+individual border properties in one property.
+The border property is a shorthand property for the
+following individual border properties:
+border-width
+border-style (required)
+border-color
+--- Page 24 ---
+width
+Width property : Sets the width of an element
+The width property does not include padding, borders, or margins. It sets
+the width of the area inside the padding, border, and margin of the
+element
+The width property may have the following values:
+% : Defines the width in percent of the containing
+block .
+23
+--- Page 25 ---
+px : Defines the width in pixels .
+24
+--- Page 26 ---
+vRevision
+Top
+Right
+Bottom
+Left
+Padding
+Border-width
+Border-style
+Solid
+Dashed
+Dotted
+Double
+Color Name
+RGB
+HEX
+(width style color)
+Margin
+Border-color Border
+25
+
+========================================
+level 3\Session 10\Summary\session 10.pdf
+========================================
+--- Page 1 ---
+Web design (CSS)
+Session 4
+Level 2
+--- Page 2 ---
+1
+Text
+CSS has a lot of properties for formatting text.
+Text Color
+The color property is used to set the color of the text.
+The color is specified by:
+a color name - like "red"
+a HEX value - like "#ff0000"
+an RGB value - like "rgb(255,0,0)"
+يمكنك استخدام أي طريقة من طرق كتابة الألوان  كما تريد.
+--- Page 3 ---
+2
+Text Alignment
+The text-align property is used to set the
+horizontal alignment of a text.
+A text can be left or right aligned or centered.
+The following example shows center aligned, and
+left and right aligned text (left alignment is default
+if text direction is left-to-right, and right alignment
+is default if text direction is right-to-left):
+--- Page 4 ---
+3
+Text Direction
+The direction property can be used to change the
+text direction of an element.
+direction :ltr
+Text direction goes from left-to-right. This is default
+like, The previous example.
+direction : rtl
+Text direction goes from right-to-left .
+like, The following example.
+--- Page 5 ---
+4
+Text Transformation
+The text-transformproperty is used to specify
+uppercase and lowercase letters in a text.
+It can be used to turn everything into uppercase or
+lowercase letters, or capitalize the first letter of
+each word:
+--- Page 6 ---
+5
+Text Spacing
+Letter Spacing
+The letter-spacing property is used to specify the
+space between
+the characters in a text .
+Word Spacing
+The word-spacing property is used to specify the
+space between
+the words in a text .
+--- Page 7 ---
+6
+Font
+Font-family
+we use the font-family property to specify the font of a
+text.
+This property should hold several font names as a
+"fallback" system, to ensure maximum compatibility
+between browsers/operating systems. Start with the font
+you want, and end with a generic family (to let the
+browser pick a similar font in the generic family, if no
+other fonts are available). The font names should be
+separated with comma.
+Serif
+--- Page 8 ---
+7
+If the font name is more than one word,
+it must be in quotation marks, like:
+"Times New Roman“ .
+Sans-serif
+--- Page 9 ---
+8
+Font Size
+The font-size property sets the size of the text.
+Set Font Size With Pixels
+Setting the text size with pixels gives you full control over
+the text size:
+--- Page 10 ---
+9
+Font Weight
+The font-weight property specifies the weight of a font .
+Font-weight : normal
+--- Page 11 ---
+10
+Font-weight : bold
+--- Page 12 ---
+vRevision
+Text-align
+Direction
+button
+Font-family
+Font-size
+Font-weight
+Text-transform
+Text-spacing
+Word-spacing
+letter-spacing
+center
+left
+ltr
+serif
+bold
+px
+center
+Sans-serif
+normal
+
+========================================
+level 3\Session 11\Summary\session 11.pdf
+========================================
+--- Page 1 ---
+Web design (CSS)
+Session 5
+Level 2
+--- Page 2 ---
+1
+Float
+The float property is used for positioning and formatting content  , it can
+have one of the following values:
+left - The element floats to the left of its container
+right - The element floats to the right of its container
+none - The element does not float . This is default
+Float: Left;
+The following example specifies that an image should
+float to the left in a text
+--- Page 3 ---
+2
+Float: Right;
+The following example specifies that an image should
+float to the right in a text:
+--- Page 4 ---
+3
+Float: None
+In the following example the image will be displayed just
+where it occurs in the text (float: none;):
+--- Page 5 ---
+4
+Example - Float Next T o Each Other
+إذا أردنا تنسيقهم وضع مسافات بينهمmargin نستخدم
+خاصية ال
+--- Page 6 ---
+6
+clear
+When we use thefloat property, and we want the next element below
+(not on right or left), we will have to use theclear property.
+The clear property specifies what should happen with the element that is
+next to a floating element.
+The clear property can have one of the following values:
+Clear: none;
+The element is not pushed below left or right floated
+elements. This is default
+--- Page 7 ---
+8
+Clear: left ; The element is pushed below left floated elements .
+Clear: right ;The element is pushed
+below right floated elements .
+--- Page 8 ---
+7
+Clear: both ; The element is pushed below
+both left and right floated elements
+--- Page 9 ---
+8
+Overflow
+The CSS overflow property controls what happens to content that is too big
+to fit into an area.
+The overflow property specifies whether to clip the content or to add
+scrollbars when the content of an element is too big to fit in the specified
+area.
+The overflow property has the following values:
+Visible
+The overflow is not clipped. The content renders
+outside the element's box . (Default)
+--- Page 10 ---
+9
+Hidden: The overflow is clipped, and the
+rest of the content will be invisible .
+--- Page 11 ---
+10
+Scroll: the value to scroll, the overflow is clipped and a scrollbar is
+added to scroll inside the box. Note that this will add a scrollbar
+both horizontally and vertically (even if you do not need it):
+--- Page 12 ---
+11
+Auto: Similar to scroll, but it adds
+scrollbars only when  necessary .
+--- Page 13 ---
+vRevision
+overflow
+float
+margin
+Clear
+Scroll
+Hidden
+Visible
+Right
+left
+auto
+left
+left
+Both
+Right
+left
+
+========================================
+level 3\Session 12\Summary\session 12.pdf
+========================================
+--- Page 1 ---
+Web design (CSS)
+Session 6
+Level 2
+--- Page 2 ---
+1
+display
+The display property specifies if/how an element is displayed.
+Every HTML element has a default display value depending on what type of
+element it is. The default display value for most elements isblock , inline or
+inline-block .
+Block
+block-level element always starts on a new line and
+takes up the full width
+available and.
+--- Page 3 ---
+2
+Inline
+An inline element does not start on a new line and only
+takes up as much width as necessary.
+Examples of inline elements: [ <span> , <a> , <img> ] .
+--- Page 4 ---
+3
+Inline-block
+inline-block Value: Compared to display: inline, the
+major difference is that display: inline-block allows to
+set a width and height on the element , the top and
+bottom margins/paddings are respected, but
+with display: inline they are not.
+Compared to display: block, the major difference is
+that display: inline-block does not add a line -break
+after the element, so the element can sit next to
+other elements.
+--- Page 5 ---
+4
+Display: none;
+none : is commonly used with JavaScript to hide and show
+elements without deleting and recreating them. as default. Hiding an element can be done by setting
+the display property to none. The element will be hidden, and
+the page will be displayed as if the element is not there .
+--- Page 6 ---
+5
+Visibility : hidden ;
+also hides an element.
+However, the element will still take up the same space as
+before. The element will  be hidden, but still affect the layout
+--- Page 7 ---
+6
+Links
+In addition, links can be styled differently depending on whatstate they are in.Color
+We can change the color of the link text .
+--- Page 8 ---
+7
+Text-decoration
+text-decoration property is mostly used to remove
+underlines from links:
+هناك قيم اخرى لtext-decoration مثلunderline , overline ,
+line-throughولكنnone أكثر استخداماً.
+--- Page 9 ---
+8
+a:hover
+a:hover - a link when the user mouses over it .
+--- Page 10 ---
+vRevision
+Display
+Inline-block
+block
+Inline
+None
+visibility
+hidden
+link
+color
+Text-decoration
+hover
+
+========================================
+level 4\Session 13\Summary\Redesign\session 13.pdf
+========================================
+--- Page 1 ---
+Web design (CSS)
+Session 7
+Level 2
+--- Page 2 ---
+1
+Position
+The position property specifies the type of positioning method
+used for an element . there are different position values: (
+Relative - Fixed – absolute ) .
+Elements are positioned using the top, bottom, left, and right
+properties.
+Position: Fixed;
+position: fixed; is positioned relative to the
+viewport, which means it always stays in
+the same place even if the page is scrolled.
+The top, right, bottom, and left properties
+are used to position the element.
+A fixed element does not leave a gap in
+the page where it would normally have
+been located.
+--- Page 3 ---
+3
+Position: Relative;
+position: relative; is positioned relative to
+its normal position.
+Setting the top, right, bottom, and left
+properties of a relatively-positioned
+element will cause it to be adjusted away
+from its normal position. Other content
+will not be adjusted to fit into any gap
+left by the element.
+--- Page 4 ---
+3
+Position: Absolute;
+An element with position: absolute; is
+positioned relative to the nearest
+positioned ancestor .
+However; if an absolute positioned
+element has no positioned ancestors, it
+uses the document body, and moves
+along with page scrolling.
+--- Page 5 ---
+4
+Shadow Effects
+With CSS you can add shadow to text and to elements.
+In these chapters you will learn about the following properties:
+Text Shadow
+The CSS text-shadow property applies
+shadow to text.
+In its simplest use, you only specify the
+horizontal shadow and the vertical
+shadow , Next, add a blur effect to the
+shadow , Then, add a color to the shadow:
+the horizontal shadow  :  2px .
+the vertical shadow  :  2px .
+a blur effect to the shadow :  5px .
+a color to the shadow :  orangered .
+--- Page 6 ---
+5
+Box Shadow
+The CSS box-shadow property applies
+shadow to elements.
+In its simplest use, you only specify the
+horizontal shadow and the vertical
+shadow ,Next, add a blur effect to the
+shadow , then, add a color to the shadow .
+the horizontal shadow  :  5px .
+the vertical shadow  :  5px .
+a blur effect to the shadow :  6px .
+a color to the shadow :  gainsboro .
+--- Page 7 ---
+6
+Icon
+Icons can easily be added to your HTML page, by using an icon library.
+The simplest way to add an icon to your HTML page, is with an icon
+library, such as Font Awesome.
+Add the name of the specified icon class to any inline HTML element .
+All the icons in the icon libraries below, are scalable vectors that can be
+customized with CSS (size, color, shadow, etc.)
+To use the Font Awesome icons, go
+to fontawesome.com, sign in, and get
+a code to add in the <head> section of
+your HTML page:
+--- Page 8 ---
+vRevision
+Position
+shadow
+Text-shadow
+Box-shadow
+icon
+Font Awesome
+all.min
+Float
+absolute
+relative
+Horizontal
+vertical
+Blur
+Color
+Link
+left
+
+========================================
+level 4\Session 14\Summary\Redesign\session 14.pdf
+========================================
+--- Page 1 ---
+Web design (CSS)
+Session 8
+Level 2
+--- Page 2 ---
+1
+Animations
+An animation lets an element gradually change from one style
+to another.
+You can change as many CSS properties you want, as many
+times as you want. To use CSS animation, you must first specify
+some keyframes for the animation. Keyframes hold what styles
+the element will have at certain times.
+@keyframes
+When you specify CSS styles inside
+the @keyframes rule, the animation will
+gradually change from the current style to
+the new style at certain times.
+animation-name
+--- Page 3 ---
+2
+Animation-duration
+The animation-duration property defines
+how long an animation should take to
+complete. If the animation-
+duration property is not specified, no
+animation will occur, because the default
+value is 0s (0 seconds).
+In the example above we have specified
+when the style will change by using the
+keywords "from" and "to" (which
+represents 0% (start) and 100%
+(complete)).
+--- Page 4 ---
+3
+Animation-delay
+The animation-delay property specifies a
+delay for the start of an animation.
+--- Page 5 ---
+4
+Animation-iteration-count
+The animation-iteration-count property
+specifies the number of times an
+animation should run.
+--- Page 6 ---
+vRevision
+Html page
+link
+Frame duration
+Repeat
+Name
+times
+

@@ -1,0 +1,101 @@
+=== Page 1 ===
+Session 4
+Godot Movement &  
+Logic: Operators 
+in Action
+
+=== Page 2 ===
+2
+1
+All rights reserved
+This presentation will introduce you to basic 
+movement mechanics and the operators 
+that power them, including arithmetic, 
+comparison, and logical operators.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o GDScript
+o Game Art Style
+o Animating Sprites for Movement
+o Frame Animation
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Understand and apply the basics of functions 
+and control structures in GDScript.
+o Learn how to use logical operators (and, or, 
+not) effectively.
+o Gain an understanding of comparison 
+operators (==, !=, <, >).
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Operator Description Example Result
++ Addition 5 + 3 8
+- Subtraction 10 - 6 4
+* Multiplication 4 * 2 8
+/ Division 9 / 3 3
+% Modulus (remainder) 10 % 3 1
+** / ^ Exponentiation (power) 2 ** 3 8
+// Floor Division (integer division) 7 // 2 3
+
+=== Page 6 ===
+2
+5
+All rights reserved
+Operator Description Example Result
+== Equal to 5 == 5 true
+!= Not equal to 5 != 3 true
+> Greater than 7 > 4 true
+< Less than 3 < 5 true
+>= Greater than or equal to 6 >= 6 true
+<= Less than or equal to 4 <= 5 true
+
+=== Page 7 ===
+2
+6
+All rights reserved
+Operator Description Example Result
+and
+Returns true if both conditions
+ are true (5 > 3) and (2 < 4) true
+or
+Returns true if at least 
+one condition is true (5 > 3) or (2 > 4) true
+not
+Reverses the boolean value
+ of a condition not(5 > 3) false
+
+=== Page 8 ===
+2
+7
+All rights reserved
+we’ll use  operator to 
+make the move more 
+restriction 
+=== Page 9 ===
+2
+8
+All rights reserved
+CREATE variable hold node
+compare the position for 
+current sprite with another one
+call set_scale function to handel 
+the flipping for sprite 
+=== Page 10 ===
+2
+9
+All rights reserved
+ Can you name three types of Comparison Operators, 
+Logical Operators, Znd Arithmetic Operators?
+ What does the function set_scale(Vector2(x, y)) do?
+ How can Logical Operators be used to combine 
+multiple conditions?
+

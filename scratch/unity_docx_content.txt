@@ -1,0 +1,161 @@
+Session one
+Games (Player, Game Engine, Game Creator)
+Why unity
+Language used in unity
+Hint on C-harp
+Setup unity
+Template (2D,3D)
+Session two
+Unity interface
+What is Asset store? 
+Use asset store
+Fundamentals on unity
+Session three
+Script of the game
+Visual Scripting
+Bolt
+Bolt setup
+Bolt Example 
+Session four
+Create project
+Import asset
+Import bolt
+Script (rotate)
+Session one
+flappy bird game (1)
+Create project
+Import external asset
+Import bolt
+Game layout
+Script (bird jump)
+Script (pipe move)
+Session two
+flappy bird game (2)
+Prefabs meaning and using 
+Flag meaning and using
+Script (destroy player when collide on pipe)
+Method 
+Script (pipe repeat)
+Session three
+flappy bird game (3)
+Scenes meaning 
+Make scenes (start scene, end scene)
+UI toolkit (button example)
+Script (switch scenes)
+Session four
+flappy bird game (4)
+Script (calculate point)
+Is Trigger 
+Variables (meaning, types, set & get)
+UI toolkit (text example)
+Script (add score in end scene)
+Build and extract the game
+Session one
+What is C#?
+C# used for
+C# Install
+First project in c#
+C# Output
+C# User Input
+C# Comments
+Session two
+C# Variables
+Creating Variables
+Constants in c#
+Arithmetic Operators 
+assignment operators
+Comparison Operators
+Logical Operators
+Session three
+Conditions 
+The if Statement 
+The else if Statement
+Loops
+C# While Loop
+C# For Loop
+Session four
+Method
+Classes
+object
+ Access Modifiers
+Session one
+                    Sunny land 2D Game (1)
+Deal with sprite
+Tile palette
+Tile map
+Start use C# with 2D game
+Start & update method
+Move by keyboard input  
+Session two
+            Sunny land 2D Game (2)
+Physical move 
+Change Player Direction 
+Input Manager
+Physical component (2D Rigidbody, Box Collider 2D, Tilemap Collider 2D, circle collider 2D)
+Player Constraints 
+camera
+Session three
+           Sunny land 2D Game (3)
+Player’s Jump
+Deal with tags
+Player’s health
+Deal with score
+prefabs
+Session four
+          Sunny land 2D Game (4)
+Enemy Script
+Destroy Enemy
+UI (User Interface)
+Sounds
+Build the game
+Session one
+RPG Poly Pack (1)
+Create project 3D
+How to use Object 3D
+Import assets and models
+Deal with Materials
+Camera Cinemachine (tracking targets)
+Session two
+RPG Poly Pack (2)
+Mesh Collider (collision detection)
+Physical component (Capsule Collider)
+Character Controller (component)
+Movement’s player
+Gravity & Jump
+Session three
+RPG Poly Pack (3)
+Player’s Run
+Normalization & magnitude
+Animation settings
+Edit animation with camera
+Session four
+RPG Poly Pack (4)
+NavMesh (AI)- enemy track
+Agents and target
+Attack the player
+Edit animation of Enemy
+Bit the player
+Session five
+RPG Poly Pack (5)
+Static data & awake
+Edit player animation 
+Player (Hit by Sward)
+Destroy Enemy
+Session six
+RPG Poly Pack (6)
+Player’s health
+Enemy’s health 
+Scrollbar (health above head)
+Session seven
+RPG Poly Pack (7)
+Collectible items
+Sound in game
+Session eight
+RPG Poly Pack (8)
+UI (user interface)
+Build as WebGL
+Share game on itch.io
+Session eight
+Final project 
+Desktop app
+Web app

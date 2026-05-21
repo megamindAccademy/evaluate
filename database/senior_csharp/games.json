@@ -1,680 +1,680 @@
 {
   "course_id": "senior_csharp",
-  "course_title": "C# Application Dev",
-  "course_subtitle": "Master C# Application Dev!",
+  "course_title": "C# Desktop Application Development",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in C# Desktop Application Development. Meet Leo, solve fun challenges, and build outstanding systems! 🎮✨",
   "xp_total": 2400,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
-      "badge_icon": "??",
-      "badge_title": "Session 1 Medal",
-      "title": "Station 1: Session 1: Core Concepts",
-      "desc": "Interactive Session 1: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 1: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 1</div>",
-      "simple": "Imagine Session 1: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 1!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 1!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 1!\");\n    }\n}",
+      "badge_icon": "🚀",
+      "badge_title": "Welcome to C# & Visual Studio Medal",
+      "title": "Station 1: Welcome to C# & Visual Studio",
+      "desc": "Introduction to game engines, IDE setup, and running your first desktop window.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Welcome to C# & Visual Studio</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Welcome to C# & Visual Studio</b>: Introduction to game engines, IDE setup, and running your first desktop window.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Setup IDE</li><li>🎯 Run Hello World</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Welcome to C# & Visual Studio is like building the magic playground gates before you enter and play with toys!",
+      "hint": "Type in the editor: <code>print(\"Welcome to C#!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Welcome to C#!</code> to unlock the Welcome to C# & Visual Studio medal!",
+      "starter_code": "// Simulate Welcome to C# & Visual Studio activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 1!\");"
+          "label": "Activate Welcome to C# & Visual Studio",
+          "code": "print(\"Welcome to C#!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 1!",
+        "required_output_text": "Welcome to C#!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 1",
-        "desc": "Practice Session 1 at home!",
-        "code": "// Home Challenge: Session 1",
-        "starter_code": "// Home Challenge: Session 1"
+        "title": "🏠 Magic Home Challenge: Welcome to C# & Visual Studio Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Welcome to C# & Visual Studio' using the starter template below!",
+        "code": "// Home Challenge: Welcome to C# & Visual Studio Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Welcome to C# & Visual Studio Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 2,
-      "badge_icon": "??",
-      "badge_title": "Session 2 Medal",
-      "title": "Station 2: Session 2: Core Concepts",
-      "desc": "Interactive Session 2: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 2: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 2</div>",
-      "simple": "Imagine Session 2: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 2!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 2!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 2!\");\n    }\n}",
+      "badge_icon": "💻",
+      "badge_title": "Variables & Smart Data Types Medal",
+      "title": "Station 2: Variables & Smart Data Types",
+      "desc": "Learn int, float, string, and bool to store game scores and usernames.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Variables & Smart Data Types</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Variables & Smart Data Types</b>: Learn int, float, string, and bool to store game scores and usernames.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Create variables</li><li>🎯 Understand datatypes</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Variables & Smart Data Types is like having smart boxes in your bedroom where you keep toys, labeled perfectly so they never get lost!",
+      "hint": "Type in the editor: <code>print(\"Variables & Smart Data Types activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Variables & Smart Data Types activated successfully!</code> to unlock the Variables & Smart Data Types medal!",
+      "starter_code": "// Simulate Variables & Smart Data Types activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 2!\");"
+          "label": "Activate Variables & Smart Data Types",
+          "code": "print(\"Variables & Smart Data Types activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 2!",
+        "required_output_text": "Variables & Smart Data Types activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 2",
-        "desc": "Practice Session 2 at home!",
-        "code": "// Home Challenge: Session 2",
-        "starter_code": "// Home Challenge: Session 2"
+        "title": "🏠 Magic Home Challenge: Variables & Smart Data Types Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Variables & Smart Data Types' using the starter template below!",
+        "code": "// Home Challenge: Variables & Smart Data Types Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Variables & Smart Data Types Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 3,
-      "badge_icon": "??",
-      "badge_title": "Session 3 Medal",
-      "title": "Station 3: Session 3: Core Concepts",
-      "desc": "Interactive Session 3: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 3: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 3</div>",
-      "simple": "Imagine Session 3: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 3!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 3!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 3!\");\n    }\n}",
+      "badge_icon": "🎯",
+      "badge_title": "Arithmetic & Comparisons Medal",
+      "title": "Station 3: Arithmetic & Comparisons",
+      "desc": "Add, subtract, and compare variables to control game elements.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Arithmetic & Comparisons</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Arithmetic & Comparisons</b>: Add, subtract, and compare variables to control game elements.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Math operators</li><li>🎯 Compare values</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Arithmetic & Comparisons is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Arithmetic & Comparisons activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Arithmetic & Comparisons activated successfully!</code> to unlock the Arithmetic & Comparisons medal!",
+      "starter_code": "// Simulate Arithmetic & Comparisons activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 3!\");"
+          "label": "Activate Arithmetic & Comparisons",
+          "code": "print(\"Arithmetic & Comparisons activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 3!",
+        "required_output_text": "Arithmetic & Comparisons activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 3",
-        "desc": "Practice Session 3 at home!",
-        "code": "// Home Challenge: Session 3",
-        "starter_code": "// Home Challenge: Session 3"
+        "title": "🏠 Magic Home Challenge: Arithmetic & Comparisons Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Arithmetic & Comparisons' using the starter template below!",
+        "code": "// Home Challenge: Arithmetic & Comparisons Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Arithmetic & Comparisons Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 4,
-      "badge_icon": "??",
-      "badge_title": "Session 4 Medal",
-      "title": "Station 4: Session 4: Core Concepts",
-      "desc": "Interactive Session 4: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 4: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 4</div>",
-      "simple": "Imagine Session 4: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 4!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 4!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 4!\");\n    }\n}",
+      "badge_icon": "💻",
+      "badge_title": "Smart Conditionals (If-Else) Medal",
+      "title": "Station 4: Smart Conditionals (If-Else)",
+      "desc": "Write smart branches to decide if a player wins or loses based on points.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Smart Conditionals (If-Else)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Smart Conditionals (If-Else)</b>: Write smart branches to decide if a player wins or loses based on points.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 If statements</li><li>🎯 Else branches</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Smart Conditionals (If-Else) is like a traffic light. If the light is green, your hero walks. Else, your hero stands still!",
+      "hint": "Type in the editor: <code>print(\"Pass\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Pass</code> to unlock the Smart Conditionals (If-Else) medal!",
+      "starter_code": "// Simulate Smart Conditionals (If-Else) activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 4!\");"
+          "label": "Activate Smart Conditionals (If-Else)",
+          "code": "print(\"Pass\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 4!",
+        "required_output_text": "Pass",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 4",
-        "desc": "Practice Session 4 at home!",
-        "code": "// Home Challenge: Session 4",
-        "starter_code": "// Home Challenge: Session 4"
+        "title": "🏠 Magic Home Challenge: Smart Conditionals (If-Else) Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Smart Conditionals (If-Else)' using the starter template below!",
+        "code": "// Home Challenge: Smart Conditionals (If-Else) Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Smart Conditionals (If-Else) Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 5,
-      "badge_icon": "??",
-      "badge_title": "Session 5 Medal",
-      "title": "Station 5: Session 5: Core Concepts",
-      "desc": "Interactive Session 5: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 5: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 5</div>",
-      "simple": "Imagine Session 5: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 5!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 5!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 5!\");\n    }\n}",
+      "badge_icon": "🎯",
+      "badge_title": "Switch Cases for Decisions Medal",
+      "title": "Station 5: Switch Cases for Decisions",
+      "desc": "Clean up nested conditions with clean, multi-choice switch cases.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Switch Cases for Decisions</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Switch Cases for Decisions</b>: Clean up nested conditions with clean, multi-choice switch cases.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Switch syntax</li><li>🎯 Break statements</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Switch Cases for Decisions is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Choice A\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Choice A</code> to unlock the Switch Cases for Decisions medal!",
+      "starter_code": "// Simulate Switch Cases for Decisions activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 5!\");"
+          "label": "Activate Switch Cases for Decisions",
+          "code": "print(\"Choice A\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 5!",
+        "required_output_text": "Choice A",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 5",
-        "desc": "Practice Session 5 at home!",
-        "code": "// Home Challenge: Session 5",
-        "starter_code": "// Home Challenge: Session 5"
+        "title": "🏠 Magic Home Challenge: Switch Cases for Decisions Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Switch Cases for Decisions' using the starter template below!",
+        "code": "// Home Challenge: Switch Cases for Decisions Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Switch Cases for Decisions Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 6,
-      "badge_icon": "??",
-      "badge_title": "Session 6 Medal",
-      "title": "Station 6: Session 6: Core Concepts",
-      "desc": "Interactive Session 6: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 6: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 6</div>",
-      "simple": "Imagine Session 6: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 6!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 6!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 6!\");\n    }\n}",
+      "badge_icon": "💻",
+      "badge_title": "While Loops & Conditions Medal",
+      "title": "Station 6: While Loops & Conditions",
+      "desc": "Repeat coding instructions until a magic condition becomes true.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>While Loops & Conditions</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>While Loops & Conditions</b>: Repeat coding instructions until a magic condition becomes true.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 While loops</li><li>🎯 Loop safety</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine While Loops & Conditions is like a traffic light. If the light is green, your hero walks. Else, your hero stands still!",
+      "hint": "Type in the editor: <code>print(\"Repeating...\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Repeating...</code> to unlock the While Loops & Conditions medal!",
+      "starter_code": "// Simulate While Loops & Conditions activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 6!\");"
+          "label": "Activate While Loops & Conditions",
+          "code": "print(\"Repeating...\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 6!",
+        "required_output_text": "Repeating...",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 6",
-        "desc": "Practice Session 6 at home!",
-        "code": "// Home Challenge: Session 6",
-        "starter_code": "// Home Challenge: Session 6"
+        "title": "🏠 Magic Home Challenge: While Loops & Conditions Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'While Loops & Conditions' using the starter template below!",
+        "code": "// Home Challenge: While Loops & Conditions Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: While Loops & Conditions Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 7,
-      "badge_icon": "??",
-      "badge_title": "Session 7 Medal",
-      "title": "Station 7: Session 7: Core Concepts",
-      "desc": "Interactive Session 7: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 7: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 7</div>",
-      "simple": "Imagine Session 7: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 7!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 7!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 7!\");\n    }\n}",
+      "badge_icon": "💻",
+      "badge_title": "For Loops & Dynamic Grids Medal",
+      "title": "Station 7: For Loops & Dynamic Grids",
+      "desc": "Count and build perfect repeating rows and grids with For loops.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>For Loops & Dynamic Grids</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>For Loops & Dynamic Grids</b>: Count and build perfect repeating rows and grids with For loops.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 For loops</li><li>🎯 Counters</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine For Loops & Dynamic Grids is like a music box that keeps playing your favorite sweet song over and over until you close the lid!",
+      "hint": "Type in the editor: <code>print(\"Grid Cell\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Grid Cell</code> to unlock the For Loops & Dynamic Grids medal!",
+      "starter_code": "// Simulate For Loops & Dynamic Grids activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 7!\");"
+          "label": "Activate For Loops & Dynamic Grids",
+          "code": "print(\"Grid Cell\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 7!",
+        "required_output_text": "Grid Cell",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 7",
-        "desc": "Practice Session 7 at home!",
-        "code": "// Home Challenge: Session 7",
-        "starter_code": "// Home Challenge: Session 7"
+        "title": "🏠 Magic Home Challenge: For Loops & Dynamic Grids Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'For Loops & Dynamic Grids' using the starter template below!",
+        "code": "// Home Challenge: For Loops & Dynamic Grids Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: For Loops & Dynamic Grids Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 8,
-      "badge_icon": "??",
-      "badge_title": "Session 8 Medal",
-      "title": "Station 8: Session 8: Core Concepts",
-      "desc": "Interactive Session 8: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 8: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 8</div>",
-      "simple": "Imagine Session 8: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 8!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 8!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 8!\");\n    }\n}",
+      "badge_icon": "🎯",
+      "badge_title": "Storing Lists inside Arrays Medal",
+      "title": "Station 8: Storing Lists inside Arrays",
+      "desc": "Store groups of gold coins and enemy names inside structured arrays.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Storing Lists inside Arrays</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Storing Lists inside Arrays</b>: Store groups of gold coins and enemy names inside structured arrays.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Array structures</li><li>🎯 Indexes</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Storing Lists inside Arrays is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Array of size 5\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Array of size 5</code> to unlock the Storing Lists inside Arrays medal!",
+      "starter_code": "// Simulate Storing Lists inside Arrays activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 8!\");"
+          "label": "Activate Storing Lists inside Arrays",
+          "code": "print(\"Array of size 5\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 8!",
+        "required_output_text": "Array of size 5",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 8",
-        "desc": "Practice Session 8 at home!",
-        "code": "// Home Challenge: Session 8",
-        "starter_code": "// Home Challenge: Session 8"
+        "title": "🏠 Magic Home Challenge: Storing Lists inside Arrays Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Storing Lists inside Arrays' using the starter template below!",
+        "code": "// Home Challenge: Storing Lists inside Arrays Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Storing Lists inside Arrays Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 9,
-      "badge_icon": "??",
-      "badge_title": "Session 9 Medal",
-      "title": "Station 9: Session 9: Core Concepts",
-      "desc": "Interactive Session 9: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 9: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 9</div>",
-      "simple": "Imagine Session 9: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 9!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 9!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 9!\");\n    }\n}",
+      "badge_icon": "💻",
+      "badge_title": "Methods & Fun Functions Medal",
+      "title": "Station 9: Methods & Fun Functions",
+      "desc": "Write reusable blocks of code that take parameters and return results.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Methods & Fun Functions</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Methods & Fun Functions</b>: Write reusable blocks of code that take parameters and return results.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Method parameters</li><li>🎯 Return types</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Methods & Fun Functions is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Function active\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Function active</code> to unlock the Methods & Fun Functions medal!",
+      "starter_code": "// Simulate Methods & Fun Functions activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 9!\");"
+          "label": "Activate Methods & Fun Functions",
+          "code": "print(\"Function active\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 9!",
+        "required_output_text": "Function active",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 9",
-        "desc": "Practice Session 9 at home!",
-        "code": "// Home Challenge: Session 9",
-        "starter_code": "// Home Challenge: Session 9"
+        "title": "🏠 Magic Home Challenge: Methods & Fun Functions Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Methods & Fun Functions' using the starter template below!",
+        "code": "// Home Challenge: Methods & Fun Functions Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Methods & Fun Functions Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 10,
-      "badge_icon": "??",
-      "badge_title": "Session 10 Medal",
-      "title": "Station 10: Session 10: Core Concepts",
-      "desc": "Interactive Session 10: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 10: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 10</div>",
-      "simple": "Imagine Session 10: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 10!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 10!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 10!\");\n    }\n}",
+      "badge_icon": "💻",
+      "badge_title": "Classes & Object-Oriented C# Medal",
+      "title": "Station 10: Classes & Object-Oriented C#",
+      "desc": "Understand Object-Oriented Programming (OOP) classes and real instances.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Classes & Object-Oriented C#</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Classes & Object-Oriented C#</b>: Understand Object-Oriented Programming (OOP) classes and real instances.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 OOP Classes</li><li>🎯 Instances</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Classes & Object-Oriented C# is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Class Instance\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Class Instance</code> to unlock the Classes & Object-Oriented C# medal!",
+      "starter_code": "// Simulate Classes & Object-Oriented C# activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 10!\");"
+          "label": "Activate Classes & Object-Oriented C#",
+          "code": "print(\"Class Instance\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 10!",
+        "required_output_text": "Class Instance",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 10",
-        "desc": "Practice Session 10 at home!",
-        "code": "// Home Challenge: Session 10",
-        "starter_code": "// Home Challenge: Session 10"
+        "title": "🏠 Magic Home Challenge: Classes & Object-Oriented C# Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Classes & Object-Oriented C#' using the starter template below!",
+        "code": "// Home Challenge: Classes & Object-Oriented C# Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Classes & Object-Oriented C# Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 11,
-      "badge_icon": "??",
-      "badge_title": "Session 11 Medal",
-      "title": "Station 11: Session 11: Core Concepts",
-      "desc": "Interactive Session 11: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 11: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 11</div>",
-      "simple": "Imagine Session 11: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 11!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 11!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 11!\");\n    }\n}",
+      "badge_icon": "🎯",
+      "badge_title": "Constructors & Object Creation Medal",
+      "title": "Station 11: Constructors & Object Creation",
+      "desc": "Initialize your classes instantly using constructor methods.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Constructors & Object Creation</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Constructors & Object Creation</b>: Initialize your classes instantly using constructor methods.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Constructors</li><li>🎯 Arguments</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Constructors & Object Creation is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Object created\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Object created</code> to unlock the Constructors & Object Creation medal!",
+      "starter_code": "// Simulate Constructors & Object Creation activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 11!\");"
+          "label": "Activate Constructors & Object Creation",
+          "code": "print(\"Object created\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 11!",
+        "required_output_text": "Object created",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 11",
-        "desc": "Practice Session 11 at home!",
-        "code": "// Home Challenge: Session 11",
-        "starter_code": "// Home Challenge: Session 11"
+        "title": "🏠 Magic Home Challenge: Constructors & Object Creation Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Constructors & Object Creation' using the starter template below!",
+        "code": "// Home Challenge: Constructors & Object Creation Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Constructors & Object Creation Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 12,
-      "badge_icon": "??",
-      "badge_title": "Session 12 Medal",
-      "title": "Station 12: Session 12: Core Concepts",
-      "desc": "Interactive Session 12: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 12: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 12</div>",
-      "simple": "Imagine Session 12: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 12!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 12!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 12!\");\n    }\n}",
+      "badge_icon": "💻",
+      "badge_title": "Inheritance & Smart Subclasses Medal",
+      "title": "Station 12: Inheritance & Smart Subclasses",
+      "desc": "Derive child classes from parents to inherit special game behaviors.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Inheritance & Smart Subclasses</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Inheritance & Smart Subclasses</b>: Derive child classes from parents to inherit special game behaviors.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Base classes</li><li>🎯 Inherited fields</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Inheritance & Smart Subclasses is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Child Inherited\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Child Inherited</code> to unlock the Inheritance & Smart Subclasses medal!",
+      "starter_code": "// Simulate Inheritance & Smart Subclasses activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 12!\");"
+          "label": "Activate Inheritance & Smart Subclasses",
+          "code": "print(\"Child Inherited\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 12!",
+        "required_output_text": "Child Inherited",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 12",
-        "desc": "Practice Session 12 at home!",
-        "code": "// Home Challenge: Session 12",
-        "starter_code": "// Home Challenge: Session 12"
+        "title": "🏠 Magic Home Challenge: Inheritance & Smart Subclasses Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Inheritance & Smart Subclasses' using the starter template below!",
+        "code": "// Home Challenge: Inheritance & Smart Subclasses Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Inheritance & Smart Subclasses Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 13,
-      "badge_icon": "??",
-      "badge_title": "Session 13 Medal",
-      "title": "Station 13: Session 13: Core Concepts",
-      "desc": "Interactive Session 13: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 13: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 13</div>",
-      "simple": "Imagine Session 13: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 13!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 13!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 13!\");\n    }\n}",
+      "badge_icon": "💻",
+      "badge_title": "Encapsulation & Access Modifiers Medal",
+      "title": "Station 13: Encapsulation & Access Modifiers",
+      "desc": "Protect class fields using public and private keywords.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Encapsulation & Access Modifiers</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Encapsulation & Access Modifiers</b>: Protect class fields using public and private keywords.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Access modifiers</li><li>🎯 Getters/Setters</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Encapsulation & Access Modifiers is like a traffic light. If the light is green, your hero walks. Else, your hero stands still!",
+      "hint": "Type in the editor: <code>print(\"Encapsulation OK\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Encapsulation OK</code> to unlock the Encapsulation & Access Modifiers medal!",
+      "starter_code": "// Simulate Encapsulation & Access Modifiers activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 13!\");"
+          "label": "Activate Encapsulation & Access Modifiers",
+          "code": "print(\"Encapsulation OK\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 13!",
+        "required_output_text": "Encapsulation OK",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 13",
-        "desc": "Practice Session 13 at home!",
-        "code": "// Home Challenge: Session 13",
-        "starter_code": "// Home Challenge: Session 13"
+        "title": "🏠 Magic Home Challenge: Encapsulation & Access Modifiers Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Encapsulation & Access Modifiers' using the starter template below!",
+        "code": "// Home Challenge: Encapsulation & Access Modifiers Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Encapsulation & Access Modifiers Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 14,
-      "badge_icon": "??",
-      "badge_title": "Session 14 Medal",
-      "title": "Station 14: Session 14: Core Concepts",
-      "desc": "Interactive Session 14: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 14: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 14</div>",
-      "simple": "Imagine Session 14: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 14!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 14!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 14!\");\n    }\n}",
+      "badge_icon": "🎯",
+      "badge_title": "Exception Handling (Try-Catch) Medal",
+      "title": "Station 14: Exception Handling (Try-Catch)",
+      "desc": "Catch and resolve unexpected coding errors safely without crashing.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Exception Handling (Try-Catch)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Exception Handling (Try-Catch)</b>: Catch and resolve unexpected coding errors safely without crashing.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Try-catch blocks</li><li>🎯 Exceptions</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Exception Handling (Try-Catch) is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Error Handled\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Error Handled</code> to unlock the Exception Handling (Try-Catch) medal!",
+      "starter_code": "// Simulate Exception Handling (Try-Catch) activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 14!\");"
+          "label": "Activate Exception Handling (Try-Catch)",
+          "code": "print(\"Error Handled\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 14!",
+        "required_output_text": "Error Handled",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 14",
-        "desc": "Practice Session 14 at home!",
-        "code": "// Home Challenge: Session 14",
-        "starter_code": "// Home Challenge: Session 14"
+        "title": "🏠 Magic Home Challenge: Exception Handling (Try-Catch) Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Exception Handling (Try-Catch)' using the starter template below!",
+        "code": "// Home Challenge: Exception Handling (Try-Catch) Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Exception Handling (Try-Catch) Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 15,
-      "badge_icon": "??",
-      "badge_title": "Session 15 Medal",
-      "title": "Station 15: Session 15: Core Concepts",
-      "desc": "Interactive Session 15: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 15: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 15</div>",
-      "simple": "Imagine Session 15: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 15!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 15!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 15!\");\n    }\n}",
+      "badge_icon": "🎯",
+      "badge_title": "Lists & Dynamic Generics Medal",
+      "title": "Station 15: Lists & Dynamic Generics",
+      "desc": "Use dynamic List structures that shrink and grow automatically.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Lists & Dynamic Generics</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Lists & Dynamic Generics</b>: Use dynamic List structures that shrink and grow automatically.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 List generic type</li><li>🎯 Add/Remove methods</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Lists & Dynamic Generics is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"List active\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>List active</code> to unlock the Lists & Dynamic Generics medal!",
+      "starter_code": "// Simulate Lists & Dynamic Generics activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 15!\");"
+          "label": "Activate Lists & Dynamic Generics",
+          "code": "print(\"List active\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 15!",
+        "required_output_text": "List active",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 15",
-        "desc": "Practice Session 15 at home!",
-        "code": "// Home Challenge: Session 15",
-        "starter_code": "// Home Challenge: Session 15"
+        "title": "🏠 Magic Home Challenge: Lists & Dynamic Generics Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Lists & Dynamic Generics' using the starter template below!",
+        "code": "// Home Challenge: Lists & Dynamic Generics Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Lists & Dynamic Generics Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 16,
-      "badge_icon": "??",
-      "badge_title": "Session 16 Medal",
-      "title": "Station 16: Session 16: Core Concepts",
-      "desc": "Interactive Session 16: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 16: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 16</div>",
-      "simple": "Imagine Session 16: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 16!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 16!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 16!\");\n    }\n}",
+      "badge_icon": "📱",
+      "badge_title": "Intro to Windows Forms UI Medal",
+      "title": "Station 16: Intro to Windows Forms UI",
+      "desc": "Design graphic window frames and add buttons and text areas.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Intro to Windows Forms UI</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Intro to Windows Forms UI</b>: Design graphic window frames and add buttons and text areas.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Form controls</li><li>🎯 UI design</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Intro to Windows Forms UI is like drawing beautiful rooms, buttons, and stickers on a white canvas to make your application look spectacular!",
+      "hint": "Type in the editor: <code>print(\"Form Loaded\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Form Loaded</code> to unlock the Intro to Windows Forms UI medal!",
+      "starter_code": "// Simulate Intro to Windows Forms UI activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 16!\");"
+          "label": "Activate Intro to Windows Forms UI",
+          "code": "print(\"Form Loaded\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 16!",
+        "required_output_text": "Form Loaded",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 16",
-        "desc": "Practice Session 16 at home!",
-        "code": "// Home Challenge: Session 16",
-        "starter_code": "// Home Challenge: Session 16"
+        "title": "🏠 Magic Home Challenge: Intro to Windows Forms UI Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Intro to Windows Forms UI' using the starter template below!",
+        "code": "// Home Challenge: Intro to Windows Forms UI Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Intro to Windows Forms UI Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 17,
-      "badge_icon": "??",
-      "badge_title": "Session 17 Medal",
-      "title": "Station 17: Session 17: Core Concepts",
-      "desc": "Interactive Session 17: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 17: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 17</div>",
-      "simple": "Imagine Session 17: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 17!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 17!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 17!\");\n    }\n}",
+      "badge_icon": "📱",
+      "badge_title": "Windows Forms Advanced Layouts Medal",
+      "title": "Station 17: Windows Forms Advanced Layouts",
+      "desc": "Position and align text controls, background colors, and labels.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Windows Forms Advanced Layouts</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Windows Forms Advanced Layouts</b>: Position and align text controls, background colors, and labels.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Layout layouts</li><li>🎯 Padding/margins</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Windows Forms Advanced Layouts is like drawing beautiful rooms, buttons, and stickers on a white canvas to make your application look spectacular!",
+      "hint": "Type in the editor: <code>print(\"Layout configured\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Layout configured</code> to unlock the Windows Forms Advanced Layouts medal!",
+      "starter_code": "// Simulate Windows Forms Advanced Layouts activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 17!\");"
+          "label": "Activate Windows Forms Advanced Layouts",
+          "code": "print(\"Layout configured\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 17!",
+        "required_output_text": "Layout configured",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 17",
-        "desc": "Practice Session 17 at home!",
-        "code": "// Home Challenge: Session 17",
-        "starter_code": "// Home Challenge: Session 17"
+        "title": "🏠 Magic Home Challenge: Windows Forms Advanced Layouts Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Windows Forms Advanced Layouts' using the starter template below!",
+        "code": "// Home Challenge: Windows Forms Advanced Layouts Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Windows Forms Advanced Layouts Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 18,
-      "badge_icon": "??",
-      "badge_title": "Session 18 Medal",
-      "title": "Station 18: Session 18: Core Concepts",
-      "desc": "Interactive Session 18: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 18: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 18</div>",
-      "simple": "Imagine Session 18: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 18!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 18!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 18!\");\n    }\n}",
+      "badge_icon": "🎯",
+      "badge_title": "Events & Event Handlers Medal",
+      "title": "Station 18: Events & Event Handlers",
+      "desc": "Capture mouse clicks and button pressed actions to trigger code.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Events & Event Handlers</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Events & Event Handlers</b>: Capture mouse clicks and button pressed actions to trigger code.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Event handlers</li><li>🎯 Delegate triggers</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Events & Event Handlers is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Event triggered\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Event triggered</code> to unlock the Events & Event Handlers medal!",
+      "starter_code": "// Simulate Events & Event Handlers activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 18!\");"
+          "label": "Activate Events & Event Handlers",
+          "code": "print(\"Event triggered\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 18!",
+        "required_output_text": "Event triggered",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 18",
-        "desc": "Practice Session 18 at home!",
-        "code": "// Home Challenge: Session 18",
-        "starter_code": "// Home Challenge: Session 18"
+        "title": "🏠 Magic Home Challenge: Events & Event Handlers Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Events & Event Handlers' using the starter template below!",
+        "code": "// Home Challenge: Events & Event Handlers Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Events & Event Handlers Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 19,
-      "badge_icon": "??",
-      "badge_title": "Session 19 Medal",
-      "title": "Station 19: Session 19: Core Concepts",
-      "desc": "Interactive Session 19: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 19: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 19</div>",
-      "simple": "Imagine Session 19: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 19!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 19!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 19!\");\n    }\n}",
+      "badge_icon": "📱",
+      "badge_title": "Building a Calculator App Medal",
+      "title": "Station 19: Building a Calculator App",
+      "desc": "Assemble a functional calculator using forms, variables, and math.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Building a Calculator App</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Building a Calculator App</b>: Assemble a functional calculator using forms, variables, and math.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Form arithmetic</li><li>🎯 State updates</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Building a Calculator App is like drawing beautiful rooms, buttons, and stickers on a white canvas to make your application look spectacular!",
+      "hint": "Type in the editor: <code>print(\"Calculator active\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Calculator active</code> to unlock the Building a Calculator App medal!",
+      "starter_code": "// Simulate Building a Calculator App activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 19!\");"
+          "label": "Activate Building a Calculator App",
+          "code": "print(\"Calculator active\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 19!",
+        "required_output_text": "Calculator active",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 19",
-        "desc": "Practice Session 19 at home!",
-        "code": "// Home Challenge: Session 19",
-        "starter_code": "// Home Challenge: Session 19"
+        "title": "🏠 Magic Home Challenge: Building a Calculator App Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Building a Calculator App' using the starter template below!",
+        "code": "// Home Challenge: Building a Calculator App Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Building a Calculator App Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 20,
-      "badge_icon": "??",
-      "badge_title": "Session 20 Medal",
-      "title": "Station 20: Session 20: Core Concepts",
-      "desc": "Interactive Session 20: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 20: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 20</div>",
-      "simple": "Imagine Session 20: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 20!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 20!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 20!\");\n    }\n}",
+      "badge_icon": "💾",
+      "badge_title": "Database & Data Persistence Medal",
+      "title": "Station 20: Database & Data Persistence",
+      "desc": "Connect C# apps to local databases to save player progress.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Database & Data Persistence</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Database & Data Persistence</b>: Connect C# apps to local databases to save player progress.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Local DB connection</li><li>🎯 SQL commands</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Database & Data Persistence is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
+      "hint": "Type in the editor: <code>print(\"DB connected\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>DB connected</code> to unlock the Database & Data Persistence medal!",
+      "starter_code": "// Simulate Database & Data Persistence activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 20!\");"
+          "label": "Activate Database & Data Persistence",
+          "code": "print(\"DB connected\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 20!",
+        "required_output_text": "DB connected",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 20",
-        "desc": "Practice Session 20 at home!",
-        "code": "// Home Challenge: Session 20",
-        "starter_code": "// Home Challenge: Session 20"
+        "title": "🏠 Magic Home Challenge: Database & Data Persistence Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Database & Data Persistence' using the starter template below!",
+        "code": "// Home Challenge: Database & Data Persistence Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Database & Data Persistence Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 21,
-      "badge_icon": "??",
-      "badge_title": "Session 21 Medal",
-      "title": "Station 21: Session 21: Core Concepts",
-      "desc": "Interactive Session 21: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 21: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 21</div>",
-      "simple": "Imagine Session 21: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 21!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 21!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 21!\");\n    }\n}",
+      "badge_icon": "💾",
+      "badge_title": "Reading & Writing Files Medal",
+      "title": "Station 21: Reading & Writing Files",
+      "desc": "Save player highscores permanently into text files on the disk.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Reading & Writing Files</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Reading & Writing Files</b>: Save player highscores permanently into text files on the disk.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 StreamReader</li><li>🎯 StreamWriter</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Reading & Writing Files is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"File saved\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>File saved</code> to unlock the Reading & Writing Files medal!",
+      "starter_code": "// Simulate Reading & Writing Files activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 21!\");"
+          "label": "Activate Reading & Writing Files",
+          "code": "print(\"File saved\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 21!",
+        "required_output_text": "File saved",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 21",
-        "desc": "Practice Session 21 at home!",
-        "code": "// Home Challenge: Session 21",
-        "starter_code": "// Home Challenge: Session 21"
+        "title": "🏠 Magic Home Challenge: Reading & Writing Files Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Reading & Writing Files' using the starter template below!",
+        "code": "// Home Challenge: Reading & Writing Files Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Reading & Writing Files Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 22,
-      "badge_icon": "??",
-      "badge_title": "Session 22 Medal",
-      "title": "Station 22: Session 22: Core Concepts",
-      "desc": "Interactive Session 22: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 22: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 22</div>",
-      "simple": "Imagine Session 22: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 22!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 22!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 22!\");\n    }\n}",
+      "badge_icon": "📱",
+      "badge_title": "Building a Tic-Tac-Toe Game Medal",
+      "title": "Station 22: Building a Tic-Tac-Toe Game",
+      "desc": "Design a two-player grid board with victory validation algorithms.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Building a Tic-Tac-Toe Game</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Building a Tic-Tac-Toe Game</b>: Design a two-player grid board with victory validation algorithms.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Grid validation</li><li>🎯 Turn management</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Building a Tic-Tac-Toe Game is like drawing beautiful rooms, buttons, and stickers on a white canvas to make your application look spectacular!",
+      "hint": "Type in the editor: <code>print(\"Winner validated\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Winner validated</code> to unlock the Building a Tic-Tac-Toe Game medal!",
+      "starter_code": "// Simulate Building a Tic-Tac-Toe Game activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 22!\");"
+          "label": "Activate Building a Tic-Tac-Toe Game",
+          "code": "print(\"Winner validated\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 22!",
+        "required_output_text": "Winner validated",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 22",
-        "desc": "Practice Session 22 at home!",
-        "code": "// Home Challenge: Session 22",
-        "starter_code": "// Home Challenge: Session 22"
+        "title": "🏠 Magic Home Challenge: Building a Tic-Tac-Toe Game Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Building a Tic-Tac-Toe Game' using the starter template below!",
+        "code": "// Home Challenge: Building a Tic-Tac-Toe Game Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Building a Tic-Tac-Toe Game Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 23,
-      "badge_icon": "??",
-      "badge_title": "Session 23 Medal",
-      "title": "Station 23: Session 23: Core Concepts",
-      "desc": "Interactive Session 23: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 23: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 23</div>",
-      "simple": "Imagine Session 23: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 23!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 23!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 23!\");\n    }\n}",
+      "badge_icon": "🎯",
+      "badge_title": "Game Architecture in C# Medal",
+      "title": "Station 23: Game Architecture in C#",
+      "desc": "Master standard loops, physics updates, and game structure.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Game Architecture in C#</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Game Architecture in C#</b>: Master standard loops, physics updates, and game structure.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Game loops</li><li>🎯 Delta timing</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Game Architecture in C# is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Engine started\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Engine started</code> to unlock the Game Architecture in C# medal!",
+      "starter_code": "// Simulate Game Architecture in C# activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 23!\");"
+          "label": "Activate Game Architecture in C#",
+          "code": "print(\"Engine started\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 23!",
+        "required_output_text": "Engine started",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 23",
-        "desc": "Practice Session 23 at home!",
-        "code": "// Home Challenge: Session 23",
-        "starter_code": "// Home Challenge: Session 23"
+        "title": "🏠 Magic Home Challenge: Game Architecture in C# Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Game Architecture in C#' using the starter template below!",
+        "code": "// Home Challenge: Game Architecture in C# Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Game Architecture in C# Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 24,
-      "badge_icon": "??",
-      "badge_title": "Session 24 Medal",
-      "title": "Station 24: Session 24: Core Concepts",
-      "desc": "Interactive Session 24: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 24: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering C# Application Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 24</div>",
-      "simple": "Imagine Session 24: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>Console.WriteLine(\"Activated Session 24!\");</code>",
-      "challenge": "Print: <code>Console.WriteLine(\"Activated Session 24!\");</code>",
-      "starter_code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Activated Session 24!\");\n    }\n}",
+      "badge_icon": "🏆",
+      "badge_title": "Mega Desktop Graduation Project Medal",
+      "title": "Station 24: Mega Desktop Graduation Project",
+      "desc": "Assemble the final desktop hero app with UI, databases, and logic.",
+      "story": "<h3>🦁 Hello, future coding hero!</h3>I am your friend <b>Leo</b>, and today I will accompany you on an exciting coding adventure to explore <b>Mega Desktop Graduation Project</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦁 <b>Mega Desktop Graduation Project</b>: Assemble the final desktop hero app with UI, databases, and logic.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Final integration</li><li>🎯 Polishing</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Mega Desktop Graduation Project is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Graduation complete\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Graduation complete</code> to unlock the Mega Desktop Graduation Project medal!",
+      "starter_code": "// Simulate Mega Desktop Graduation Project activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Console.WriteLine(\"Activated Session 24!\");"
+          "label": "Activate Mega Desktop Graduation Project",
+          "code": "print(\"Graduation complete\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 24!",
+        "required_output_text": "Graduation complete",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 24",
-        "desc": "Practice Session 24 at home!",
-        "code": "// Home Challenge: Session 24",
-        "starter_code": "// Home Challenge: Session 24"
+        "title": "🏠 Magic Home Challenge: Mega Desktop Graduation Project Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Mega Desktop Graduation Project' using the starter template below!",
+        "code": "// Home Challenge: Mega Desktop Graduation Project Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Mega Desktop Graduation Project Simulator\n# Write your creative solution here!"
       }
     }
   ]

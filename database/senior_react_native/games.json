@@ -1,344 +1,344 @@
 {
   "course_id": "senior_react_native",
-  "course_title": "React Native Mobile Dev",
-  "course_subtitle": "Master React Native Mobile Dev!",
+  "course_title": "React Native Mobile App Development",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in React Native Mobile App Development. Meet Pixel, solve fun challenges, and build outstanding systems! 🎮✨",
   "xp_total": 1200,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
-      "badge_icon": "??",
-      "badge_title": "Session 1 Medal",
-      "title": "Station 1: Session 1: Core Concepts",
-      "desc": "Interactive Session 1: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 1: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 1</div>",
-      "simple": "Imagine Session 1: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 1!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 1!');</code>",
-      "starter_code": "// Activate Session 1\nconsole.log('Activated Session 1!');",
+      "badge_icon": "🚀",
+      "badge_title": "Welcome to React Native & Expo Medal",
+      "title": "Station 1: Welcome to React Native & Expo",
+      "desc": "Initialize React Native, install Expo Go, and preview code on your phone.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>Welcome to React Native & Expo</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>Welcome to React Native & Expo</b>: Initialize React Native, install Expo Go, and preview code on your phone.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Expo setup</li><li>🎯 App component</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Welcome to React Native & Expo is like building the magic playground gates before you enter and play with toys!",
+      "hint": "Type in the editor: <code>print(\"Expo active!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Expo active!</code> to unlock the Welcome to React Native & Expo medal!",
+      "starter_code": "# Simulate Welcome to React Native & Expo activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 1!');"
+          "label": "Activate Welcome to React Native & Expo",
+          "code": "print(\"Expo active!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 1!",
+        "required_output_text": "Expo active!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 1",
-        "desc": "Practice Session 1 at home!",
-        "code": "// Home Challenge: Session 1",
-        "starter_code": "// Home Challenge: Session 1"
+        "title": "🏠 Magic Home Challenge: Welcome to React Native & Expo Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Welcome to React Native & Expo' using the starter template below!",
+        "code": "# Home Challenge: Welcome to React Native & Expo Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Welcome to React Native & Expo Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 2,
-      "badge_icon": "??",
-      "badge_title": "Session 2 Medal",
-      "title": "Station 2: Session 2: Core Concepts",
-      "desc": "Interactive Session 2: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 2: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 2</div>",
-      "simple": "Imagine Session 2: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 2!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 2!');</code>",
-      "starter_code": "// Activate Session 2\nconsole.log('Activated Session 2!');",
+      "badge_icon": "💻",
+      "badge_title": "JS ES6 Essentials & Logic Medal",
+      "title": "Station 2: JS ES6 Essentials & Logic",
+      "desc": "Learn arrow functions, destructured variables, and smart arrays.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>JS ES6 Essentials & Logic</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>JS ES6 Essentials & Logic</b>: Learn arrow functions, destructured variables, and smart arrays.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 ES6 variables</li><li>🎯 Arrow methods</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine JS ES6 Essentials & Logic is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"JS ES6 Essentials & Logic activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>JS ES6 Essentials & Logic activated successfully!</code> to unlock the JS ES6 Essentials & Logic medal!",
+      "starter_code": "# Simulate JS ES6 Essentials & Logic activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 2!');"
+          "label": "Activate JS ES6 Essentials & Logic",
+          "code": "print(\"JS ES6 Essentials & Logic activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 2!",
+        "required_output_text": "JS ES6 Essentials & Logic activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 2",
-        "desc": "Practice Session 2 at home!",
-        "code": "// Home Challenge: Session 2",
-        "starter_code": "// Home Challenge: Session 2"
+        "title": "🏠 Magic Home Challenge: JS ES6 Essentials & Logic Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'JS ES6 Essentials & Logic' using the starter template below!",
+        "code": "# Home Challenge: JS ES6 Essentials & Logic Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: JS ES6 Essentials & Logic Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 3,
-      "badge_icon": "??",
-      "badge_title": "Session 3 Medal",
-      "title": "Station 3: Session 3: Core Concepts",
-      "desc": "Interactive Session 3: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 3: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 3</div>",
-      "simple": "Imagine Session 3: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 3!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 3!');</code>",
-      "starter_code": "// Activate Session 3\nconsole.log('Activated Session 3!');",
+      "badge_icon": "🎯",
+      "badge_title": "View, Text & Image Components Medal",
+      "title": "Station 3: View, Text & Image Components",
+      "desc": "Display custom texts, visual panels, and photos on mobile interfaces.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>View, Text & Image Components</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>View, Text & Image Components</b>: Display custom texts, visual panels, and photos on mobile interfaces.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 View element</li><li>🎯 Text & Image</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine View, Text & Image Components is like drawing beautiful rooms, buttons, and stickers on a white canvas to make your application look spectacular!",
+      "hint": "Type in the editor: <code>print(\"Component rendered\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Component rendered</code> to unlock the View, Text & Image Components medal!",
+      "starter_code": "# Simulate View, Text & Image Components activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 3!');"
+          "label": "Activate View, Text & Image Components",
+          "code": "print(\"Component rendered\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 3!",
+        "required_output_text": "Component rendered",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 3",
-        "desc": "Practice Session 3 at home!",
-        "code": "// Home Challenge: Session 3",
-        "starter_code": "// Home Challenge: Session 3"
+        "title": "🏠 Magic Home Challenge: View, Text & Image Components Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'View, Text & Image Components' using the starter template below!",
+        "code": "# Home Challenge: View, Text & Image Components Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: View, Text & Image Components Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 4,
-      "badge_icon": "??",
-      "badge_title": "Session 4 Medal",
-      "title": "Station 4: Session 4: Core Concepts",
-      "desc": "Interactive Session 4: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 4: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 4</div>",
-      "simple": "Imagine Session 4: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 4!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 4!');</code>",
-      "starter_code": "// Activate Session 4\nconsole.log('Activated Session 4!');",
+      "badge_icon": "📱",
+      "badge_title": "Flexbox Mobile Grid Styling Medal",
+      "title": "Station 4: Flexbox Mobile Grid Styling",
+      "desc": "Position cards and stretch headers responsively using CSS Flexbox layout.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>Flexbox Mobile Grid Styling</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>Flexbox Mobile Grid Styling</b>: Position cards and stretch headers responsively using CSS Flexbox layout.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Flex direction</li><li>🎯 Align items</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Flexbox Mobile Grid Styling is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Flexbox active\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Flexbox active</code> to unlock the Flexbox Mobile Grid Styling medal!",
+      "starter_code": "# Simulate Flexbox Mobile Grid Styling activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 4!');"
+          "label": "Activate Flexbox Mobile Grid Styling",
+          "code": "print(\"Flexbox active\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 4!",
+        "required_output_text": "Flexbox active",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 4",
-        "desc": "Practice Session 4 at home!",
-        "code": "// Home Challenge: Session 4",
-        "starter_code": "// Home Challenge: Session 4"
+        "title": "🏠 Magic Home Challenge: Flexbox Mobile Grid Styling Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Flexbox Mobile Grid Styling' using the starter template below!",
+        "code": "# Home Challenge: Flexbox Mobile Grid Styling Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Flexbox Mobile Grid Styling Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 5,
-      "badge_icon": "??",
-      "badge_title": "Session 5 Medal",
-      "title": "Station 5: Session 5: Core Concepts",
-      "desc": "Interactive Session 5: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 5: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 5</div>",
-      "simple": "Imagine Session 5: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 5!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 5!');</code>",
-      "starter_code": "// Activate Session 5\nconsole.log('Activated Session 5!');",
+      "badge_icon": "🎯",
+      "badge_title": "Stateful Hooks with useState Medal",
+      "title": "Station 5: Stateful Hooks with useState",
+      "desc": "Update values and change scores instantly when the user taps elements.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>Stateful Hooks with useState</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>Stateful Hooks with useState</b>: Update values and change scores instantly when the user taps elements.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 useState hook</li><li>🎯 State changes</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Stateful Hooks with useState is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"State changed\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>State changed</code> to unlock the Stateful Hooks with useState medal!",
+      "starter_code": "# Simulate Stateful Hooks with useState activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 5!');"
+          "label": "Activate Stateful Hooks with useState",
+          "code": "print(\"State changed\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 5!",
+        "required_output_text": "State changed",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 5",
-        "desc": "Practice Session 5 at home!",
-        "code": "// Home Challenge: Session 5",
-        "starter_code": "// Home Challenge: Session 5"
+        "title": "🏠 Magic Home Challenge: Stateful Hooks with useState Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Stateful Hooks with useState' using the starter template below!",
+        "code": "# Home Challenge: Stateful Hooks with useState Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Stateful Hooks with useState Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 6,
-      "badge_icon": "??",
-      "badge_title": "Session 6 Medal",
-      "title": "Station 6: Session 6: Core Concepts",
-      "desc": "Interactive Session 6: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 6: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 6</div>",
-      "simple": "Imagine Session 6: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 6!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 6!');</code>",
-      "starter_code": "// Activate Session 6\nconsole.log('Activated Session 6!');",
+      "badge_icon": "🎯",
+      "badge_title": "FlatList Scrolling Components Medal",
+      "title": "Station 6: FlatList Scrolling Components",
+      "desc": "Render extremely large grids and rows of products efficiently.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>FlatList Scrolling Components</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>FlatList Scrolling Components</b>: Render extremely large grids and rows of products efficiently.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 FlatList render</li><li>🎯 Key extractor</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine FlatList Scrolling Components is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"FlatList loaded\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>FlatList loaded</code> to unlock the FlatList Scrolling Components medal!",
+      "starter_code": "# Simulate FlatList Scrolling Components activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 6!');"
+          "label": "Activate FlatList Scrolling Components",
+          "code": "print(\"FlatList loaded\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 6!",
+        "required_output_text": "FlatList loaded",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 6",
-        "desc": "Practice Session 6 at home!",
-        "code": "// Home Challenge: Session 6",
-        "starter_code": "// Home Challenge: Session 6"
+        "title": "🏠 Magic Home Challenge: FlatList Scrolling Components Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'FlatList Scrolling Components' using the starter template below!",
+        "code": "# Home Challenge: FlatList Scrolling Components Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: FlatList Scrolling Components Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 7,
-      "badge_icon": "??",
-      "badge_title": "Session 7 Medal",
-      "title": "Station 7: Session 7: Core Concepts",
-      "desc": "Interactive Session 7: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 7: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 7</div>",
-      "simple": "Imagine Session 7: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 7!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 7!');</code>",
-      "starter_code": "// Activate Session 7\nconsole.log('Activated Session 7!');",
+      "badge_icon": "🎯",
+      "badge_title": "TextInputs & Button Triggers Medal",
+      "title": "Station 7: TextInputs & Button Triggers",
+      "desc": "Create secure input fields and interactive primary buttons.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>TextInputs & Button Triggers</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>TextInputs & Button Triggers</b>: Create secure input fields and interactive primary buttons.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 TextInput focus</li><li>🎯 Button onPress</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine TextInputs & Button Triggers is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Input saved\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Input saved</code> to unlock the TextInputs & Button Triggers medal!",
+      "starter_code": "# Simulate TextInputs & Button Triggers activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 7!');"
+          "label": "Activate TextInputs & Button Triggers",
+          "code": "print(\"Input saved\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 7!",
+        "required_output_text": "Input saved",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 7",
-        "desc": "Practice Session 7 at home!",
-        "code": "// Home Challenge: Session 7",
-        "starter_code": "// Home Challenge: Session 7"
+        "title": "🏠 Magic Home Challenge: TextInputs & Button Triggers Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'TextInputs & Button Triggers' using the starter template below!",
+        "code": "# Home Challenge: TextInputs & Button Triggers Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: TextInputs & Button Triggers Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 8,
-      "badge_icon": "??",
-      "badge_title": "Session 8 Medal",
-      "title": "Station 8: Session 8: Core Concepts",
-      "desc": "Interactive Session 8: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 8: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 8</div>",
-      "simple": "Imagine Session 8: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 8!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 8!');</code>",
-      "starter_code": "// Activate Session 8\nconsole.log('Activated Session 8!');",
+      "badge_icon": "📱",
+      "badge_title": "React Navigation Screens Medal",
+      "title": "Station 8: React Navigation Screens",
+      "desc": "Build multi-screen apps with bottom tabs and sliding drawer menus.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>React Navigation Screens</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>React Navigation Screens</b>: Build multi-screen apps with bottom tabs and sliding drawer menus.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 NavigationContainer</li><li>🎯 Stack navigator</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine React Navigation Screens is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Tab active\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Tab active</code> to unlock the React Navigation Screens medal!",
+      "starter_code": "# Simulate React Navigation Screens activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 8!');"
+          "label": "Activate React Navigation Screens",
+          "code": "print(\"Tab active\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 8!",
+        "required_output_text": "Tab active",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 8",
-        "desc": "Practice Session 8 at home!",
-        "code": "// Home Challenge: Session 8",
-        "starter_code": "// Home Challenge: Session 8"
+        "title": "🏠 Magic Home Challenge: React Navigation Screens Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'React Navigation Screens' using the starter template below!",
+        "code": "# Home Challenge: React Navigation Screens Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: React Navigation Screens Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 9,
-      "badge_icon": "??",
-      "badge_title": "Session 9 Medal",
-      "title": "Station 9: Session 9: Core Concepts",
-      "desc": "Interactive Session 9: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 9: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 9</div>",
-      "simple": "Imagine Session 9: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 9!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 9!');</code>",
-      "starter_code": "// Activate Session 9\nconsole.log('Activated Session 9!');",
+      "badge_icon": "🎯",
+      "badge_title": "Fetching Online Web Data Medal",
+      "title": "Station 9: Fetching Online Web Data",
+      "desc": "Make live asynchronous web requests to read API data in JSON format.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>Fetching Online Web Data</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>Fetching Online Web Data</b>: Make live asynchronous web requests to read API data in JSON format.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Fetch API</li><li>🎯 Async await</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Fetching Online Web Data is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Fetch success\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Fetch success</code> to unlock the Fetching Online Web Data medal!",
+      "starter_code": "# Simulate Fetching Online Web Data activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 9!');"
+          "label": "Activate Fetching Online Web Data",
+          "code": "print(\"Fetch success\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 9!",
+        "required_output_text": "Fetch success",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 9",
-        "desc": "Practice Session 9 at home!",
-        "code": "// Home Challenge: Session 9",
-        "starter_code": "// Home Challenge: Session 9"
+        "title": "🏠 Magic Home Challenge: Fetching Online Web Data Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Fetching Online Web Data' using the starter template below!",
+        "code": "# Home Challenge: Fetching Online Web Data Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Fetching Online Web Data Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 10,
-      "badge_icon": "??",
-      "badge_title": "Session 10 Medal",
-      "title": "Station 10: Session 10: Core Concepts",
-      "desc": "Interactive Session 10: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 10: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 10</div>",
-      "simple": "Imagine Session 10: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 10!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 10!');</code>",
-      "starter_code": "// Activate Session 10\nconsole.log('Activated Session 10!');",
+      "badge_icon": "💾",
+      "badge_title": "AsyncStorage Local Database Medal",
+      "title": "Station 10: AsyncStorage Local Database",
+      "desc": "Save items permanently inside the phone's local storage database.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>AsyncStorage Local Database</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>AsyncStorage Local Database</b>: Save items permanently inside the phone's local storage database.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 AsyncStorage set</li><li>🎯 AsyncStorage get</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine AsyncStorage Local Database is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
+      "hint": "Type in the editor: <code>print(\"Storage active\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Storage active</code> to unlock the AsyncStorage Local Database medal!",
+      "starter_code": "# Simulate AsyncStorage Local Database activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 10!');"
+          "label": "Activate AsyncStorage Local Database",
+          "code": "print(\"Storage active\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 10!",
+        "required_output_text": "Storage active",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 10",
-        "desc": "Practice Session 10 at home!",
-        "code": "// Home Challenge: Session 10",
-        "starter_code": "// Home Challenge: Session 10"
+        "title": "🏠 Magic Home Challenge: AsyncStorage Local Database Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'AsyncStorage Local Database' using the starter template below!",
+        "code": "# Home Challenge: AsyncStorage Local Database Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: AsyncStorage Local Database Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 11,
-      "badge_icon": "??",
-      "badge_title": "Session 11 Medal",
-      "title": "Station 11: Session 11: Core Concepts",
-      "desc": "Interactive Session 11: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 11: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 11</div>",
-      "simple": "Imagine Session 11: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 11!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 11!');</code>",
-      "starter_code": "// Activate Session 11\nconsole.log('Activated Session 11!');",
+      "badge_icon": "🎯",
+      "badge_title": "Native Features & Cameras Medal",
+      "title": "Station 11: Native Features & Cameras",
+      "desc": "Unlock phone cameras, alert dialogs, and GPS location coordinates.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>Native Features & Cameras</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>Native Features & Cameras</b>: Unlock phone cameras, alert dialogs, and GPS location coordinates.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Native sensors</li><li>🎯 Permissions</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Native Features & Cameras is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Camera active\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Camera active</code> to unlock the Native Features & Cameras medal!",
+      "starter_code": "# Simulate Native Features & Cameras activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 11!');"
+          "label": "Activate Native Features & Cameras",
+          "code": "print(\"Camera active\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 11!",
+        "required_output_text": "Camera active",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 11",
-        "desc": "Practice Session 11 at home!",
-        "code": "// Home Challenge: Session 11",
-        "starter_code": "// Home Challenge: Session 11"
+        "title": "🏠 Magic Home Challenge: Native Features & Cameras Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Native Features & Cameras' using the starter template below!",
+        "code": "# Home Challenge: Native Features & Cameras Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Native Features & Cameras Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 12,
-      "badge_icon": "??",
-      "badge_title": "Session 12 Medal",
-      "title": "Station 12: Session 12: Core Concepts",
-      "desc": "Interactive Session 12: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 12: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering React Native Mobile Dev techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 12</div>",
-      "simple": "Imagine Session 12: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>console.log('Activated Session 12!');</code>",
-      "challenge": "Print: <code>console.log('Activated Session 12!');</code>",
-      "starter_code": "// Activate Session 12\nconsole.log('Activated Session 12!');",
+      "badge_icon": "🏆",
+      "badge_title": "Mega React Native Graduation Project Medal",
+      "title": "Station 12: Mega React Native Graduation Project",
+      "desc": "Compile and polish a gorgeous mobile social application for pets.",
+      "story": "<h3>🐶 Hello, future coding hero!</h3>I am your friend <b>Pixel</b>, and today I will accompany you on an exciting coding adventure to explore <b>Mega React Native Graduation Project</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐶 <b>Mega React Native Graduation Project</b>: Compile and polish a gorgeous mobile social application for pets.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 App compilation</li><li>🎯 Final polishing</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Mega React Native Graduation Project is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Social App active\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Social App active</code> to unlock the Mega React Native Graduation Project medal!",
+      "starter_code": "# Simulate Mega React Native Graduation Project activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "console.log('Activated Session 12!');"
+          "label": "Activate Mega React Native Graduation Project",
+          "code": "print(\"Social App active\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 12!",
+        "required_output_text": "Social App active",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 12",
-        "desc": "Practice Session 12 at home!",
-        "code": "// Home Challenge: Session 12",
-        "starter_code": "// Home Challenge: Session 12"
+        "title": "🏠 Magic Home Challenge: Mega React Native Graduation Project Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Mega React Native Graduation Project' using the starter template below!",
+        "code": "# Home Challenge: Mega React Native Graduation Project Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Mega React Native Graduation Project Simulator\n# Write your creative solution here!"
       }
     }
   ]

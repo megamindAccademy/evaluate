@@ -1,0 +1,92 @@
+=== Page 1 ===
+Session 7
+User Interface 
+Programming 
+with Godot
+
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll explore how to program the user interface (UI) in 
+your Godot games. We'll learn how to create and 
+interact with buttons, text fields, menus, and more.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o user interfaces (UI)
+o Labels, Buttons,Text Fields
+o contral 
+o Grids
+=== Page 4 ===
+2
+3
+All rights reserved
+o Revisiting Events
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Remember Events ?
+ Recall how you used events in the previous 
+module to detect clicks on sprites.
+=== Page 6 ===
+2
+5
+All rights reserved
+ You can apply the same concept 
+of events to UI elements.
+=== Page 7 ===
+2
+6
+All rights reserved
+Button Press
+ How can you program an action to 
+happen when a button is clicked in 
+Godot?
+=== Page 8 ===
+2
+7
+All rights reserved
+
+=== Page 9 ===
+2
+8
+All rights reserved
+
+=== Page 10 ===
+2
+9
+All rights reserved
+
+=== Page 11 ===
+2
+10
+All rights reserved
+
+=== Page 12 ===
+2
+11
+All rights reserved
+get_tree().change_scene("res://Scenes/Main.tscn")
+
+=== Page 13 ===
+2
+12
+All rights reserved
+get_tree().quit()
+
+=== Page 14 ===
+2
+13
+All rights reserved
+1. How to switch between to scenes in godot?
+2. Can you name more than one UI Node in Godot? 
+3. which function can you use it to exit from your game ?
+

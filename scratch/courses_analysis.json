@@ -1,0 +1,1790 @@
+[
+  {
+    "course_id": "junior_mit_app",
+    "title": "MIT Mobile App",
+    "total_stations": 6,
+    "placeholders": 0,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Text-to-Speech app",
+        "required_text": "Welcome to the Megaminds mobile application",
+        "is_placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Calculator and animal sounds",
+        "required_text": "Score 100 with the meow sound playing!",
+        "is_placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Stop 3: Canvas",
+        "required_text": "The Paint and Finger Drawing application ran successfully",
+        "is_placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Station 4: IQ application",
+        "required_text": "Correct answer! 10 points have been added to your balance",
+        "is_placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Balloon popping application",
+        "required_text": "The balloon was successfully popped and the point was calculated",
+        "is_placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Vibrating stone paper scissors application",
+        "required_text": "The mobile phone was shaken and the rock-paper-scissors game played successfully!",
+        "is_placeholder": false
+      }
+    ]
+  },
+  {
+    "course_id": "junior_pictoblox",
+    "title": "PicToBlox",
+    "total_stations": 6,
+    "placeholders": 0,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Installing the Magic Blocks",
+        "required_text": "The software blocks have been installed successfully",
+        "is_placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Animation",
+        "required_text": "The character jumps up and moves skillfully",
+        "is_placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Music and Sounds",
+        "required_text": "Play fun music and sounds",
+        "is_placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Feed the Pet (Pet Game)",
+        "required_text": "The dog eats food and is very happy",
+        "is_placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Color Match",
+        "required_text": "Color matching is 100% correct.",
+        "is_placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Station 6: The Great Balloon Popping Challenge",
+        "required_text": "The balloon popping game has been played and the little hero wins!",
+        "is_placeholder": false
+      }
+    ]
+  },
+  {
+    "course_id": "junior_pictoblox_3d",
+    "title": "PicToBlox 3D",
+    "total_stations": 6,
+    "placeholders": 0,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Coordinates and 3D camera",
+        "required_text": "The camera and 3D coordinates have been set successfully",
+        "is_placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Gravity and realistic physics",
+        "required_text": "The ball fell and hit the ground due to gravity",
+        "is_placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Steering the 3D race car",
+        "required_text": "The 3D racing car started skillfully",
+        "is_placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Solar system simulation",
+        "required_text": "The planets revolve around the sun in three-dimensional orbits",
+        "is_placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "Station 5: 3D duck hunting game",
+        "required_text": "The flying duck is caught and the 3D point is counted",
+        "is_placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Station 6: 3D game interfaces and sounds",
+        "required_text": "The fully 3D game runs successfully and the hero wins!",
+        "is_placeholder": false
+      }
+    ]
+  },
+  {
+    "course_id": "junior_pictoblox_with_ai",
+    "title": "PicToBlox with AI",
+    "total_stations": 6,
+    "placeholders": 0,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Camera face detection (AI)",
+        "required_text": "The AI ​​camera and face detection were successfully turned on",
+        "is_placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Funny facial features and masks",
+        "required_text": "The funny mask is superimposed on the facial features",
+        "is_placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Station 3: AI animal classification",
+        "required_text": "The model is trained and classifies the image: cat",
+        "is_placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Solve the maze with voice commands",
+        "required_text": "The voice command is heard and the object moves right",
+        "is_placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Track hand and finger movement",
+        "required_text": "Hand movement was tracked and 5 fingers raised were counted",
+        "is_placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Driving the rocket with a hand gesture",
+        "required_text": "The missile was successfully directed with a hand gesture and the hero won!",
+        "is_placeholder": false
+      }
+    ]
+  },
+  {
+    "course_id": "junior_python",
+    "title": "Python Junior",
+    "total_stations": 6,
+    "placeholders": 0,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Write your first real Python code",
+        "required_text": "I'm a super junior Python programmer",
+        "is_placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Animating Toby Bear with codes",
+        "required_text": "Toby Bear moved 10 steps forward",
+        "is_placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Programming the smart calculation bot",
+        "required_text": "The sum of the two numbers is: 70",
+        "is_placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Draw the box with the loop",
+        "required_text": "",
+        "is_placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Apple hunting game with codes",
+        "required_text": "The apple was caught and the code points increased",
+        "is_placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Stop 6: Grand Prix Race Game",
+        "required_text": "The grand car racing game is on and the little hero wins!",
+        "is_placeholder": false
+      }
+    ]
+  },
+  {
+    "course_id": "senior_ai",
+    "title": "Artificial Intelligence Lab 🧠",
+    "total_stations": 12,
+    "placeholders": 0,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Introduction to AI & K-NN Classifier 🧱",
+        "required_text": "Euclidean distance:",
+        "is_placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Computer Vision & Face Detection with OpenCV 📷",
+        "required_text": "OpenCV camera and face detection turned on!",
+        "is_placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Automation with PyWhatKit & ChatGPT 🤖",
+        "required_text": "Welcome, AI Hero",
+        "is_placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Station 4: No-Code Chatbots with WotNot 🤖",
+        "required_text": "Welcome to Megaminds, what's your favorite track?",
+        "is_placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Deep Learning & CNN Architecture 🕸️",
+        "required_text": "['Convolutional', 'Pooling', 'Flattening', 'Dense']",
+        "is_placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Cats vs. Dogs Classification with TFLite 🐱🐶",
+        "required_text": "Normalized pixels:",
+        "is_placeholder": false
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Hand Drawing Recognition - Data Collection 📝",
+        "required_text": "{'Heart': 15, 'Star': 15, 'Flower': 15}",
+        "is_placeholder": false
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Drawing Recognition - API & Coding 🔌",
+        "required_text": "Installing: numpy",
+        "is_placeholder": false
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Object Detection with OpenCV DNN 👁️",
+        "required_text": "Cleaned label: person",
+        "is_placeholder": false
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Custom Object Detection with Roboflow 🏷️",
+        "required_text": "High confidence score: 0.85",
+        "is_placeholder": false
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Hand Tracking Game - MediaPipe & cvzone ✋",
+        "required_text": "Raised fingers: 2",
+        "is_placeholder": false
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Rock-Paper-Scissors Game Logic 🎮",
+        "required_text": "Player wins! Paper covers Rock.",
+        "is_placeholder": false
+      }
+    ]
+  },
+  {
+    "course_id": "senior_csharp",
+    "title": "C# Application Dev",
+    "total_stations": 24,
+    "placeholders": 24,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Session 1: Core Concepts",
+        "required_text": "Activated Session 1!",
+        "is_placeholder": true
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Session 2: Core Concepts",
+        "required_text": "Activated Session 2!",
+        "is_placeholder": true
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Session 3: Core Concepts",
+        "required_text": "Activated Session 3!",
+        "is_placeholder": true
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Session 4: Core Concepts",
+        "required_text": "Activated Session 4!",
+        "is_placeholder": true
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Session 5: Core Concepts",
+        "required_text": "Activated Session 5!",
+        "is_placeholder": true
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Session 6: Core Concepts",
+        "required_text": "Activated Session 6!",
+        "is_placeholder": true
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Session 7: Core Concepts",
+        "required_text": "Activated Session 7!",
+        "is_placeholder": true
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Session 8: Core Concepts",
+        "required_text": "Activated Session 8!",
+        "is_placeholder": true
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Session 9: Core Concepts",
+        "required_text": "Activated Session 9!",
+        "is_placeholder": true
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Session 10: Core Concepts",
+        "required_text": "Activated Session 10!",
+        "is_placeholder": true
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Session 11: Core Concepts",
+        "required_text": "Activated Session 11!",
+        "is_placeholder": true
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Session 12: Core Concepts",
+        "required_text": "Activated Session 12!",
+        "is_placeholder": true
+      },
+      {
+        "id": 13,
+        "title": "Station 13: Session 13: Core Concepts",
+        "required_text": "Activated Session 13!",
+        "is_placeholder": true
+      },
+      {
+        "id": 14,
+        "title": "Station 14: Session 14: Core Concepts",
+        "required_text": "Activated Session 14!",
+        "is_placeholder": true
+      },
+      {
+        "id": 15,
+        "title": "Station 15: Session 15: Core Concepts",
+        "required_text": "Activated Session 15!",
+        "is_placeholder": true
+      },
+      {
+        "id": 16,
+        "title": "Station 16: Session 16: Core Concepts",
+        "required_text": "Activated Session 16!",
+        "is_placeholder": true
+      },
+      {
+        "id": 17,
+        "title": "Station 17: Session 17: Core Concepts",
+        "required_text": "Activated Session 17!",
+        "is_placeholder": true
+      },
+      {
+        "id": 18,
+        "title": "Station 18: Session 18: Core Concepts",
+        "required_text": "Activated Session 18!",
+        "is_placeholder": true
+      },
+      {
+        "id": 19,
+        "title": "Station 19: Session 19: Core Concepts",
+        "required_text": "Activated Session 19!",
+        "is_placeholder": true
+      },
+      {
+        "id": 20,
+        "title": "Station 20: Session 20: Core Concepts",
+        "required_text": "Activated Session 20!",
+        "is_placeholder": true
+      },
+      {
+        "id": 21,
+        "title": "Station 21: Session 21: Core Concepts",
+        "required_text": "Activated Session 21!",
+        "is_placeholder": true
+      },
+      {
+        "id": 22,
+        "title": "Station 22: Session 22: Core Concepts",
+        "required_text": "Activated Session 22!",
+        "is_placeholder": true
+      },
+      {
+        "id": 23,
+        "title": "Station 23: Session 23: Core Concepts",
+        "required_text": "Activated Session 23!",
+        "is_placeholder": true
+      },
+      {
+        "id": 24,
+        "title": "Station 24: Session 24: Core Concepts",
+        "required_text": "Activated Session 24!",
+        "is_placeholder": true
+      }
+    ]
+  },
+  {
+    "course_id": "senior_cyber_security",
+    "title": "Cyber Security",
+    "total_stations": 12,
+    "placeholders": 12,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Session 1: Core Security Pillars",
+        "required_text": "Session 1: Core Security Pillars activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Session 2: Phishing Vectors",
+        "required_text": "Session 2: Phishing Vectors activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Session 3: Red vs Blue Teams",
+        "required_text": "Session 3: Red vs Blue Teams activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Session 4: Operating Systems",
+        "required_text": "Session 4: Operating Systems activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Session 5: Linux Commands",
+        "required_text": "Session 5: Linux Commands activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Session 6: Data Integrity",
+        "required_text": "Session 6: Data Integrity activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Session 7: Password recovery",
+        "required_text": "Session 7: Password recovery activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Session 8: Sandbox Environments",
+        "required_text": "Session 8: Sandbox Environments activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Session 9: Static Malware Checks",
+        "required_text": "Session 9: Static Malware Checks activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Session 10: Dynamic Malware logs",
+        "required_text": "Session 10: Dynamic Malware logs activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Session 11: Firewall Filtering",
+        "required_text": "Session 11: Firewall Filtering activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Session 12: Public Keys Exchange",
+        "required_text": "Session 12: Public Keys Exchange activated successfully!",
+        "is_placeholder": true
+      }
+    ]
+  },
+  {
+    "course_id": "senior_flutter",
+    "title": "Flutter Mobile Development",
+    "total_stations": 12,
+    "placeholders": 12,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Session 1: Core Concepts",
+        "required_text": "Activated Session 1!",
+        "is_placeholder": true
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Session 2: Core Concepts",
+        "required_text": "Activated Session 2!",
+        "is_placeholder": true
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Session 3: Core Concepts",
+        "required_text": "Activated Session 3!",
+        "is_placeholder": true
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Session 4: Core Concepts",
+        "required_text": "Activated Session 4!",
+        "is_placeholder": true
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Session 5: Core Concepts",
+        "required_text": "Activated Session 5!",
+        "is_placeholder": true
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Session 6: Core Concepts",
+        "required_text": "Activated Session 6!",
+        "is_placeholder": true
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Session 7: Core Concepts",
+        "required_text": "Activated Session 7!",
+        "is_placeholder": true
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Session 8: Core Concepts",
+        "required_text": "Activated Session 8!",
+        "is_placeholder": true
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Session 9: Core Concepts",
+        "required_text": "Activated Session 9!",
+        "is_placeholder": true
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Session 10: Core Concepts",
+        "required_text": "Activated Session 10!",
+        "is_placeholder": true
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Session 11: Core Concepts",
+        "required_text": "Activated Session 11!",
+        "is_placeholder": true
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Session 12: Core Concepts",
+        "required_text": "Activated Session 12!",
+        "is_placeholder": true
+      }
+    ]
+  },
+  {
+    "course_id": "senior_godot",
+    "title": "Godot Game Development",
+    "total_stations": 12,
+    "placeholders": 0,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Welcome to the Magical World of Godot! 🏰",
+        "required_text": "Welcome to the fun world of Godot!",
+        "is_placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Secret Codes and Smart Variables! 📝",
+        "required_text": "100",
+        "is_placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Station 3: The Little Artist and Animated Sprites! 🎨",
+        "required_text": "Kitty's active speed is: 150",
+        "is_placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Speedy Bunny and Smart Operators! 🐰",
+        "required_text": "Speedy Bunny's new speed is: 100",
+        "is_placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Journey of a Game from Idea to Light! 💡🌱",
+        "required_text": "The first step is idea generation!",
+        "is_placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Magical Buttons and Colorful Panels! 🖥️",
+        "required_text": "Score: 50",
+        "is_placeholder": false
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Signal Language and Interactive Buttons! 📡",
+        "required_text": "Scene changed to Game.tscn",
+        "is_placeholder": false
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Joyful Sounds and Dreamy Music! 🎵",
+        "required_text": "Playing sweet sound!",
+        "is_placeholder": false
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Magic Camera and Moving Backgrounds! 📸🌌",
+        "required_text": "Raindrop loaded successfully!",
+        "is_placeholder": false
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Polishing Games and Launching to the Universe! 🚀✨",
+        "required_text": "Game is polished and ready!",
+        "is_placeholder": false
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Birth of the Legendary Pong Game - Part 1! 🏓",
+        "required_text": "Moving paddle up",
+        "is_placeholder": false
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Return of Pong and the Ultimate Climax - Part 2! 🏆💥",
+        "required_text": "Ball bounced off the paddle!",
+        "is_placeholder": false
+      }
+    ]
+  },
+  {
+    "course_id": "senior_laravel_mobile",
+    "title": "Laravel Mobile API Backend",
+    "total_stations": 24,
+    "placeholders": 24,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: PHP Installation & Basic Syntax",
+        "required_text": "PHP Installation & Basic Syntax activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Logical Conditions in PHP",
+        "required_text": "Logical Conditions in PHP activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Loops in PHP",
+        "required_text": "Loops in PHP activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Functions & Scope",
+        "required_text": "Functions & Scope activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 5,
+        "title": "Station 5: OOP Introduction (Classes & Objects)",
+        "required_text": "OOP Introduction (Classes & Objects) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 6,
+        "title": "Station 6: OOP Encapsulation & Properties",
+        "required_text": "OOP Encapsulation & Properties activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 7,
+        "title": "Station 7: OOP Inheritance & Polymorphism",
+        "required_text": "OOP Inheritance & Polymorphism activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 8,
+        "title": "Station 8: OOP Abstraction & Interfaces",
+        "required_text": "OOP Abstraction & Interfaces activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Introduction to Relational Databases",
+        "required_text": "Introduction to Relational Databases activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Database Normalization & Design",
+        "required_text": "Database Normalization & Design activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Real Practice - Company Database Design",
+        "required_text": "Real Practice - Company Database Design activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Real Practice - Social Media Blog DB",
+        "required_text": "Real Practice - Social Media Blog DB activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 13,
+        "title": "Station 13: Laravel API Framework & Setup",
+        "required_text": "Laravel API Framework & Setup activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 14,
+        "title": "Station 14: Laravel Controllers & API Routing",
+        "required_text": "Laravel Controllers & API Routing activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 15,
+        "title": "Station 15: Migrations & Seeders for APIs",
+        "required_text": "Migrations & Seeders for APIs activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 16,
+        "title": "Station 16: Eloquent Models for APIs",
+        "required_text": "Eloquent Models for APIs activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 17,
+        "title": "Station 17: API Form Validation & JSON Errors",
+        "required_text": "API Form Validation & JSON Errors activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 18,
+        "title": "Station 18: Eloquent CRUD API Database Actions",
+        "required_text": "Eloquent CRUD API Database Actions activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 19,
+        "title": "Station 19: REST API Design Standards (Part 1)",
+        "required_text": "REST API Design Standards (Part 1) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 20,
+        "title": "Station 20: REST API Design Standards (Part 2)",
+        "required_text": "REST API Design Standards (Part 2) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 21,
+        "title": "Station 21: Mobile API Security & Sanitization",
+        "required_text": "Mobile API Security & Sanitization activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 22,
+        "title": "Station 22: Live Project API - Cake Store Backend",
+        "required_text": "Live Project API - Cake Store Backend activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 23,
+        "title": "Station 23: Flutter App Integration - Connecting APIs",
+        "required_text": "Flutter App Integration - Connecting APIs activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 24,
+        "title": "Station 24: Flutter Live Data Rendering & Update",
+        "required_text": "Flutter Live Data Rendering & Update activated successfully!",
+        "is_placeholder": true
+      }
+    ]
+  },
+  {
+    "course_id": "senior_laravel_web",
+    "title": "Laravel PHP Backend (Web)",
+    "total_stations": 16,
+    "placeholders": 16,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Laravel Installation & Setup",
+        "required_text": "Laravel Installation & Setup activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 2,
+        "title": "Station 2: MVC Architecture & Basic Routing",
+        "required_text": "MVC Architecture & Basic Routing activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Advanced Routing & Groups",
+        "required_text": "Advanced Routing & Groups activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Blade Templating Engine Basics",
+        "required_text": "Blade Templating Engine Basics activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Advanced Blade Directives",
+        "required_text": "Advanced Blade Directives activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Controllers (Logic Managers)",
+        "required_text": "Controllers (Logic Managers) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Database Schemas & Migrations",
+        "required_text": "Database Schemas & Migrations activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Database Seeding & Faker",
+        "required_text": "Database Seeding & Faker activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Introduction to Eloquent ORM",
+        "required_text": "Introduction to Eloquent ORM activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Forms & CSRF Protection",
+        "required_text": "Forms & CSRF Protection activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Form Validation & Errors",
+        "required_text": "Form Validation & Errors activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Database CRUD Operations (Part 1)",
+        "required_text": "Database CRUD Operations (Part 1) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 13,
+        "title": "Station 13: Database CRUD Operations (Part 2)",
+        "required_text": "Database CRUD Operations (Part 2) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 14,
+        "title": "Station 14: User Authentication (Login & Register)",
+        "required_text": "User Authentication (Login & Register) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 15,
+        "title": "Station 15: File Uploading & Image Storage",
+        "required_text": "File Uploading & Image Storage activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 16,
+        "title": "Station 16: Mega Project - Dynamic Cake Shop Website",
+        "required_text": "Mega Project - Dynamic Cake Shop Website activated successfully!",
+        "is_placeholder": true
+      }
+    ]
+  },
+  {
+    "course_id": "senior_mit_app",
+    "title": "MIT App Inventor (Senior)",
+    "total_stations": 12,
+    "placeholders": 12,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Introduction & App Inventor Interface",
+        "required_text": "Introduction & App Inventor Interface activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Layouts & Canvas (Whiteboard Painting App)",
+        "required_text": "Layouts & Canvas (Whiteboard Painting App) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 3,
+        "title": "Station 3: ImageSprites & Touching (Catch the Cat Game)",
+        "required_text": "ImageSprites & Touching (Catch the Cat Game) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Audio & Voice Controls (Speech Calculator)",
+        "required_text": "Audio & Voice Controls (Speech Calculator) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Multi-Screen & Login Validation App",
+        "required_text": "Multi-Screen & Login Validation App activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Advanced Screens & Local DB (TinyDB Profile App)",
+        "required_text": "Advanced Screens & Local DB (TinyDB Profile App) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Edge Collisions & Bounce Physics (Pong Ball Game)",
+        "required_text": "Edge Collisions & Bounce Physics (Pong Ball Game) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Data Lists & ListView (To-Do List App)",
+        "required_text": "Data Lists & ListView (To-Do List App) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Random Choice Logic (Rock Paper Scissors Game)",
+        "required_text": "Random Choice Logic (Rock Paper Scissors Game) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Multi-screen Advanced Architecture (Medical Clinic App)",
+        "required_text": "Multi-screen Advanced Architecture (Medical Clinic App) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Generative AI & Web Services (ChatGPT Assistant)",
+        "required_text": "Generative AI & Web Services (ChatGPT Assistant) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Advanced AI Components (ImageCreator DALL-E App)",
+        "required_text": "Advanced AI Components (ImageCreator DALL-E App) activated successfully!",
+        "is_placeholder": true
+      }
+    ]
+  },
+  {
+    "course_id": "senior_network_hacking",
+    "title": "Network & Hacking",
+    "total_stations": 12,
+    "placeholders": 12,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Session 1: LAN & WAN setups",
+        "required_text": "Session 1: LAN & WAN setups activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Session 2: 7 Layers OSI Model",
+        "required_text": "Session 2: 7 Layers OSI Model activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Session 3: TCP/IP 3-Way Handshake",
+        "required_text": "Session 3: TCP/IP 3-Way Handshake activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Session 4: Addressing & Subnetting",
+        "required_text": "Session 4: Addressing & Subnetting activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Session 5: Terminal Diagnostics",
+        "required_text": "Session 5: Terminal Diagnostics activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Session 6: Packet Capturing",
+        "required_text": "Session 6: Packet Capturing activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Session 7: Network Port Scanning",
+        "required_text": "Session 7: Network Port Scanning activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Session 8: ARP Poisoning MITM",
+        "required_text": "Session 8: ARP Poisoning MITM activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Session 9: DNS Cache Spoofing",
+        "required_text": "Session 9: DNS Cache Spoofing activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Session 10: Wireless Network Auditing",
+        "required_text": "Session 10: Wireless Network Auditing activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Session 11: Firewall Port Filters",
+        "required_text": "Session 11: Firewall Port Filters activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Session 12: VPN Tunnel Encryption",
+        "required_text": "Session 12: VPN Tunnel Encryption activated successfully!",
+        "is_placeholder": true
+      }
+    ]
+  },
+  {
+    "course_id": "senior_python",
+    "title": "Magical Python Island",
+    "total_stations": 12,
+    "placeholders": 0,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Introduction to Python, the print function, and variables 🧱",
+        "required_text": "Welcome to Megaminds Academy! 🚀",
+        "is_placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Data types, input function, and lists 🧪",
+        "required_text": "list",
+        "is_placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Arithmetic and logical operations and function design ➕",
+        "required_text": "50",
+        "is_placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Static class and programming dictionaries 🔒📖",
+        "required_text": "Falcon",
+        "is_placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Programming conditions and while loops",
+        "required_text": "",
+        "is_placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Station 6: For loops and nested functions 🔄🌀",
+        "required_text": "",
+        "is_placeholder": false
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Building and designing software functions (Functions) ⚙️",
+        "required_text": "Megaminds",
+        "is_placeholder": false
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Python libraries and interactive turtle graphics 🐢🎨",
+        "required_text": "Draw a circle",
+        "is_placeholder": false
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Object-oriented programming and building classes 🧬",
+        "required_text": "Flash",
+        "is_placeholder": false
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Web Hacking and Server Protection Lab 💻🔒",
+        "required_text": "Flask Server Active",
+        "is_placeholder": false
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Building a ping pong game - Part 1 🏓",
+        "required_text": "Ping Pong Screen Initialized",
+        "is_placeholder": false
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Building a ping pong game - Part 2 🏓🏆",
+        "required_text": "Ping Pong Game Completed",
+        "is_placeholder": false
+      }
+    ]
+  },
+  {
+    "course_id": "senior_python_problem_solving",
+    "title": "Python Problem-Solving",
+    "total_stations": 12,
+    "placeholders": 12,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Turtle Geometry & Maze Navigation",
+        "required_text": "Turtle Geometry & Maze Navigation activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Variables & Interactive Inputs",
+        "required_text": "Variables & Interactive Inputs activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 3,
+        "title": "Station 3: String Operations & Advanced Shapes",
+        "required_text": "String Operations & Advanced Shapes activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Conditional Logic & Branching",
+        "required_text": "Conditional Logic & Branching activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Iteration & Geometric Polygons (Traffic Controller)",
+        "required_text": "Iteration & Geometric Polygons (Traffic Controller) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Parallel Loops & Simulations (Turtle Race)",
+        "required_text": "Parallel Loops & Simulations (Turtle Race) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Key-Value Dictionaries (Smart Quiz App)",
+        "required_text": "Key-Value Dictionaries (Smart Quiz App) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Advanced Algorithms - Recursion (Factorial & Spiral)",
+        "required_text": "Advanced Algorithms - Recursion (Factorial & Spiral) activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Debugging Workshop & Code Refactoring",
+        "required_text": "Debugging Workshop & Code Refactoring activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Dynamic Lists & Data Structures",
+        "required_text": "Dynamic Lists & Data Structures activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Validation & Exception Handling",
+        "required_text": "Validation & Exception Handling activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Capstone Project - Attendance & Report System",
+        "required_text": "Capstone Project - Attendance & Report System activated successfully!",
+        "is_placeholder": true
+      }
+    ]
+  },
+  {
+    "course_id": "senior_react_native",
+    "title": "React Native Mobile Dev",
+    "total_stations": 12,
+    "placeholders": 12,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Session 1: Core Concepts",
+        "required_text": "Activated Session 1!",
+        "is_placeholder": true
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Session 2: Core Concepts",
+        "required_text": "Activated Session 2!",
+        "is_placeholder": true
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Session 3: Core Concepts",
+        "required_text": "Activated Session 3!",
+        "is_placeholder": true
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Session 4: Core Concepts",
+        "required_text": "Activated Session 4!",
+        "is_placeholder": true
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Session 5: Core Concepts",
+        "required_text": "Activated Session 5!",
+        "is_placeholder": true
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Session 6: Core Concepts",
+        "required_text": "Activated Session 6!",
+        "is_placeholder": true
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Session 7: Core Concepts",
+        "required_text": "Activated Session 7!",
+        "is_placeholder": true
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Session 8: Core Concepts",
+        "required_text": "Activated Session 8!",
+        "is_placeholder": true
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Session 9: Core Concepts",
+        "required_text": "Activated Session 9!",
+        "is_placeholder": true
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Session 10: Core Concepts",
+        "required_text": "Activated Session 10!",
+        "is_placeholder": true
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Session 11: Core Concepts",
+        "required_text": "Activated Session 11!",
+        "is_placeholder": true
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Session 12: Core Concepts",
+        "required_text": "Activated Session 12!",
+        "is_placeholder": true
+      }
+    ]
+  },
+  {
+    "course_id": "senior_ui_ux",
+    "title": "UI-UX Design",
+    "total_stations": 12,
+    "placeholders": 12,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Session 1: Visual Layout Principles",
+        "required_text": "Session 1: Visual Layout Principles activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Session 2: Information Architecture",
+        "required_text": "Session 2: Information Architecture activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Session 3: Interactive User Flows",
+        "required_text": "Session 3: Interactive User Flows activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Session 4: Low-Fidelity Wireframes",
+        "required_text": "Session 4: Low-Fidelity Wireframes activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Session 5: Figma Canvas Setup",
+        "required_text": "Session 5: Figma Canvas Setup activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Session 6: Responsive layout Grids",
+        "required_text": "Session 6: Responsive layout Grids activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Session 7: Figma Auto-Layout",
+        "required_text": "Session 7: Figma Auto-Layout activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Session 8: Reusable Components",
+        "required_text": "Session 8: Reusable Components activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Session 9: Interactive Prototypes",
+        "required_text": "Session 9: Interactive Prototypes activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Session 10: Sleek Smart Animation",
+        "required_text": "Session 10: Sleek Smart Animation activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Session 11: Real Usability Testing",
+        "required_text": "Session 11: Real Usability Testing activated successfully!",
+        "is_placeholder": true
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Session 12: Capstone Presentation",
+        "required_text": "Session 12: Capstone Presentation activated successfully!",
+        "is_placeholder": true
+      }
+    ]
+  },
+  {
+    "course_id": "senior_unity",
+    "title": "Unity Game Development",
+    "total_stations": 24,
+    "placeholders": 0,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Level 1 Session 1: Game Engine Basics",
+        "required_text": "Activated Game Engine Basics!",
+        "is_placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Level 1 Session 2: Console & Debug.Log",
+        "required_text": "Activated Console & Debug.Log!",
+        "is_placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Level 1 Session 3: Unity Editor Windows",
+        "required_text": "Activated Unity Editor Windows!",
+        "is_placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Level 1 Session 4: Asset Store Magic",
+        "required_text": "Activated Asset Store Magic!",
+        "is_placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Level 2 Session 1: Physics & Rigidbody 2D",
+        "required_text": "Activated Physics & Rigidbody 2D!",
+        "is_placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Level 2 Session 2: Jumping & Velocity",
+        "required_text": "Activated Jumping & Velocity!",
+        "is_placeholder": false
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Level 2 Session 3: Prefabs & Instantiate",
+        "required_text": "Activated Prefabs & Instantiate!",
+        "is_placeholder": false
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Level 2 Session 4: Collision Detection",
+        "required_text": "Activated Collision Detection!",
+        "is_placeholder": false
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Level 3 Session 1: C# Variables & Syntax",
+        "required_text": "Activated C# Variables & Syntax!",
+        "is_placeholder": false
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Level 3 Session 2: If Conditions",
+        "required_text": "Activated If Conditions!",
+        "is_placeholder": false
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Level 3 Session 3: Loops (For/While)",
+        "required_text": "Activated Loops (For/While)!",
+        "is_placeholder": false
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Level 3 Session 4: Classes & Objects",
+        "required_text": "Activated Classes & Objects!",
+        "is_placeholder": false
+      },
+      {
+        "id": 13,
+        "title": "Station 13: Level 4 Session 1: Tilemaps & Level Design",
+        "required_text": "Activated Tilemaps & Level Design!",
+        "is_placeholder": false
+      },
+      {
+        "id": 14,
+        "title": "Station 14: Level 4 Session 2: Input Management",
+        "required_text": "Activated Input Management!",
+        "is_placeholder": false
+      },
+      {
+        "id": 15,
+        "title": "Station 15: Level 4 Session 3: Cinemachine Cameras",
+        "required_text": "Activated Cinemachine Cameras!",
+        "is_placeholder": false
+      },
+      {
+        "id": 16,
+        "title": "Station 16: Level 4 Session 4: Enemy AI Patrol",
+        "required_text": "Activated Enemy AI Patrol!",
+        "is_placeholder": false
+      },
+      {
+        "id": 17,
+        "title": "Station 17: Level 5 Session 1: 3D Coordinate Systems",
+        "required_text": "Activated 3D Coordinate Systems!",
+        "is_placeholder": false
+      },
+      {
+        "id": 18,
+        "title": "Station 18: Level 5 Session 2: Materials & Textures",
+        "required_text": "Activated Materials & Textures!",
+        "is_placeholder": false
+      },
+      {
+        "id": 19,
+        "title": "Station 19: Level 5 Session 3: Character Controller",
+        "required_text": "Activated Character Controller!",
+        "is_placeholder": false
+      },
+      {
+        "id": 20,
+        "title": "Station 20: Level 5 Session 4: NavMesh Pathfinding",
+        "required_text": "Activated NavMesh Pathfinding!",
+        "is_placeholder": false
+      },
+      {
+        "id": 21,
+        "title": "Station 21: Level 6 Session 1: Awake vs Start",
+        "required_text": "Activated Awake vs Start!",
+        "is_placeholder": false
+      },
+      {
+        "id": 22,
+        "title": "Station 22: Level 6 Session 2: Static Variables",
+        "required_text": "Activated Static Variables!",
+        "is_placeholder": false
+      },
+      {
+        "id": 23,
+        "title": "Station 23: Level 6 Session 3: Health & UI Sliders",
+        "required_text": "Activated Health & UI Sliders!",
+        "is_placeholder": false
+      },
+      {
+        "id": 24,
+        "title": "Station 24: Level 6 Session 4: WebGL Publishing",
+        "required_text": "Activated WebGL Publishing!",
+        "is_placeholder": false
+      }
+    ]
+  },
+  {
+    "course_id": "senior_web_design",
+    "title": "Web Design (HTML/CSS)",
+    "total_stations": 16,
+    "placeholders": 0,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: HTML Structure & Basic Elements",
+        "required_text": "Megaminds",
+        "is_placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Embedded Images & Hyperlinks",
+        "required_text": "Megaminds",
+        "is_placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Station 3: HTML Lists & Data Tables",
+        "required_text": "Age",
+        "is_placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Station 4: HTML Audio & Video Players",
+        "required_text": "video",
+        "is_placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Level 2 Session 1: Interactive HTML Forms",
+        "required_text": "Submit",
+        "is_placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Layout Elements, Class & ID Selectors",
+        "required_text": "hero-box",
+        "is_placeholder": false
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Level 2 Session 2: Intro to CSS & Colors",
+        "required_text": "style",
+        "is_placeholder": false
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Advanced CSS Background Styling",
+        "required_text": "hero-banner",
+        "is_placeholder": false
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Level 3 Session 1: CSS Box Model & Borders",
+        "required_text": "info-box",
+        "is_placeholder": false
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Level 3 Session 2: CSS Typography",
+        "required_text": "main-heading",
+        "is_placeholder": false
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Level 3 Session 3: Float & Overflow",
+        "required_text": "avatar",
+        "is_placeholder": false
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Level 3 Session 4: CSS Display & States",
+        "required_text": "hover",
+        "is_placeholder": false
+      },
+      {
+        "id": 13,
+        "title": "Station 13: Level 4 Session 1: CSS Positioning & Shadows",
+        "required_text": "fa-star",
+        "is_placeholder": false
+      },
+      {
+        "id": 14,
+        "title": "Station 14: Level 4 Session 2: CSS Keyframe Animations",
+        "required_text": "pulse",
+        "is_placeholder": false
+      },
+      {
+        "id": 15,
+        "title": "Station 15: Level 4 Session 3: Delicious Restaurant - Part 1",
+        "required_text": "nav-container",
+        "is_placeholder": false
+      },
+      {
+        "id": 16,
+        "title": "Station 16: Level 4 Session 4: Delicious Restaurant - Part 2",
+        "required_text": "Somouha",
+        "is_placeholder": false
+      }
+    ]
+  },
+  {
+    "course_id": "senior_web_design_advanced",
+    "title": "Web Design Advanced (Bootstrap/JS)",
+    "total_stations": 16,
+    "placeholders": 1,
+    "stations": [
+      {
+        "id": 1,
+        "title": "Station 1: Web Development Advanced - Bootstrap 1 Intro",
+        "required_text": "bootstrap",
+        "is_placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Station 2: Flexbox Core: Wrapping & Justification",
+        "required_text": "flex-container",
+        "is_placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Station 3: Flexbox Directions & Alignments",
+        "required_text": "column-container",
+        "is_placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Station 4: Bootstrap Layout Utilities",
+        "required_text": "bg-dark",
+        "is_placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "Station 5: Level 2 Session 1: Grid System Intro",
+        "required_text": "col-6",
+        "is_placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Station 6: Responsive Screen Sizes & Columns",
+        "required_text": "col-md-4",
+        "is_placeholder": false
+      },
+      {
+        "id": 7,
+        "title": "Station 7: Level 2 Session 2: Royal Hotel Template - Part 1",
+        "required_text": "Resort",
+        "is_placeholder": false
+      },
+      {
+        "id": 8,
+        "title": "Station 8: Level 2 Session 3: Royal Hotel Template - Part 2",
+        "required_text": "Suite",
+        "is_placeholder": false
+      },
+      {
+        "id": 9,
+        "title": "Station 9: Level 3 Session 1: JavaScript programming Core",
+        "required_text": "Activated Session 9!",
+        "is_placeholder": true
+      },
+      {
+        "id": 10,
+        "title": "Station 10: Level 3 Session 2: JS Operators & Conditionals",
+        "required_text": "Pass",
+        "is_placeholder": false
+      },
+      {
+        "id": 11,
+        "title": "Station 11: Level 3 Session 3: JS Loops: For & While",
+        "required_text": "Count 5",
+        "is_placeholder": false
+      },
+      {
+        "id": 12,
+        "title": "Station 12: Level 3 Session 4: JS Arrays & Elements",
+        "required_text": "Robotics",
+        "is_placeholder": false
+      },
+      {
+        "id": 13,
+        "title": "Station 13: Level 4 Session 1: JS Functions & Event Calls",
+        "required_text": "Rowan",
+        "is_placeholder": false
+      },
+      {
+        "id": 14,
+        "title": "Station 14: Level 4 Session 2: HTML DOM Selectors",
+        "required_text": "Megaminds",
+        "is_placeholder": false
+      },
+      {
+        "id": 15,
+        "title": "Station 15: Level 4 Session 3: DOM Style & Event Triggers",
+        "required_text": "onclick",
+        "is_placeholder": false
+      },
+      {
+        "id": 16,
+        "title": "Station 16: Level 5 Session 1: Objects, BOM & Royal Hotel",
+        "required_text": "Rowan",
+        "is_placeholder": false
+      }
+    ]
+  }
+]

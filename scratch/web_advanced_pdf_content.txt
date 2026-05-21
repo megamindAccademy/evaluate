@@ -1,0 +1,226 @@
+--- Page 1 ---
+(WEB DEVELOPMENT 
+ADVANCED)
+AGES ( 10-16)
+Megaminds Academy
+light your child Mind
+Become b 
+--- Page 2 ---
+Megaminds Academy
+light your child Mind
+WEB DEVELOPMENT ADVANCED - BOOTSTRAP 1
+AGES (10-16)
+level 1
+subjectsession
+Session
+one
+Session
+four
+Session
+two
+Session
+three
+What's Bootstrap?
+Where to get bootstrap ?
+How to  link Bootstrap from CDN ?
+How to download Bootstrap files ?
+How to link Bootstrap files ?
+Examples :
+ Navbar.
+Card .
+Flex box (Portion of css3)
+Display .
+Flex-wrap  (Nowrap , Wrap ,Wrap-reverse).
+Justify-content (flex-start , flex-end , center ,                
+ space-between , Space-arround , Space-evenly) .
+Flex-direction :
+Row , Row-reverse .
+Column , column-reverse .
+Align :
+Stretch .
+flex-start .
+flex-end .
+center .
+Utilities :
+Background-color .
+Margin , Padding .
+Width .
+Border .
+Border-radius .
+Float ( right , left , clearfix ).
+Text ( color , Alignment )  .
+ Display ( block , inline , inline-block ) .
+--- Page 3 ---
+Megaminds Academy
+light your child Mind
+AGES ( 10-16
+)level 2
+subjectsession
+Session
+one
+Session
+four
+Session
+two
+Session
+three
+Royal Hotel Template  part 1
+Royal Hotel Template  part 2
+Discussion in restaurant template (Hw)  
+WEB DEVELOPMENT ADVANCED - BOOTSTRAP 2
+Grid system :
+Introduction .
+Main classes ( container , row , cols ) .
+Different five screen sizes .
+Five classes for grid system ( col-xsm , col-sm ,                    
+ col-md , col-lg , col-xl) .
+Example for each class .
+Mix Emaples .
+--- Page 4 ---
+Megaminds Academy
+light your child Mind
+AGES (10-16)
+level 3
+subjectsession
+Session
+one
+Session
+four
+Session
+two
+Session
+three
+introduction :
+JS where to :  internal , external  .
+JS syntax .
+Data type : 
+Display / output :
+         (what is JavaScript ? , difference html, css, js ) .
+                ( String , Number , Boolean ) .
+                (Console.log() , window.alret() , innerHtml).
+some operators :
+Conditional statements : 
+Loop : 
+             ( Arithmetic , Assignment , comparison) .
+             ( IF-else , Nested-if , switch) .
+             ( for , while , Do_while).
+array :
+ Create array .
+ Access to (full array - element).
+ Looping with array .
+array length .
+ Convert to string .
+change array element
+ popping ,  pushing
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+Logical operator . 
+Functions :  
+Function Syntax .     
+Function call : ( as a Function , as a event ) .
+Function return .
+input text value properties .
+              ( Built-in function , user-defined function ) .
+WEB DEVELOPMENT ADVANCED - JAVASCRIPT 1
+--- Page 5 ---
+Megaminds Academy
+light your child Mind
+AGES (10-16)
+level 4
+subjectsession
+Session
+one
+Session
+four
+Session
+two
+Session
+three
+DOM :
+Events :
+ on click .
+ on change .
+mouse over .
+event syntax.
+Examples . 
+1.
+2.
+3.
+ DOM :
+    1. set HTML attributes :
+                         ( replace , change , style ) .
+    2. changing Html style  :
+                         ( properties , csstxt ) .
+    3. Example
+WEB DEVELOPMENT ADVANCED - JAVASCRIPT 2
+Object :
+ Create Object properties .
+ Access to Object properties .
+ Create Object methods .
+Access to Object methods.
+adding new properties .
+ deleting new properties .
+1.
+2.
+3.
+4.
+5.
+6.
+DOM : 
+What is the Html DOM .
+ properties of all Html element . 
+1.
+2.
+        a. accessing Html Objects (head , body , title , links ,
+                   forms , images ,...) .
+        b. accessing Html elements ( Id , className , tagName , 
+                  QuerySelector ,  QuerySelectorAll ) .
+--- Page 6 ---
+Megaminds Academy
+light your child Mind
+AGES (10-16)
+level 5
+subjectsession
+Session
+one
+Session
+four
+Session
+two
+Session
+three
+BOM : 
+window object.
+window size :
+1.
+2.
+                     ( window.innerHight , window.innerwidth) .
+  3.window screen :
+                     ( screen.width , screen.height) .
+  4.Local storge :
+                      ( save data , read data) .
+BOM :
+scroll To .
+scroll By .
+scroll Y .
+scroll X .
+Example
+      Scroll :-
+1.
+2.
+3.
+4.
+ 
+Final template ( Royal Hotel with JS )
+ES6 :
+          1. let , const (Example) .
+          2. Redeclare ( var , let , const ) .
+          3. reassign ( var , let , const ) .
+          4. scope ( var , let , const ) .
+          5. Hoisting ( Example ) .
+WEB DEVELOPMENT ADVANCED - JAVASCRIPT 3

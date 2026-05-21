@@ -1,0 +1,36 @@
+=== Page 1 ===
+Game Art and Animation
+Types of Sprites:
+Sprites are 2D images or animations that represent objects in a game. 
+They can be static or animated, used for characters, environments, and UI elements.
+Game Art Style:
+Game art style defines the visual appearance of a game, including colors, textures, and design
+techniques.
+Types of Game Art Style:
+- Pixel Art: Uses small pixels to create images, common in retro games.
+- 3D Art: Uses 3D models and rendering for realistic visuals.
+- Vector Art: Uses scalable vector graphics for smooth and clean visuals.
+- Hand-Drawn Art: Styled like traditional drawings.
+- Low-Poly Art: Simplified 3D graphics with low polygon counts.
+Animating Sprites for Movement:
+Sprites are animated using multiple frames to create a smooth motion effect.
+Frame Animation:
+Frame-by-frame animation is used to create movement by displaying different images (frames) in
+sequence.
+Movement and Speed in Game:
+Movement in games depends on frame rate and physics. Speed is controlled by updating the
+sprite?s position per frame.
+Questions & Answers:
+1. What is art style?
+Art style is the visual design approach used in a game, including color schemes, character designs,
+and artistic techniques.
+2. What type of art style are we aiming for in the game?
+The choice of art style depends on the game's theme. For example, a retro game may use pixel art,
+while a modern game might use 3D or hand-drawn styles.
+=== Page 2 ===
+3. Can you explain the steps to add an animated sprite and frames in a game?
+   - Create or import a sprite sheet with multiple frames.
+   - Load the sprite sheet into the game engine.
+   - Define the animation sequence by setting frame order and timing.
+   - Implement a loop to update the sprite frame at each time interval.
+   - Integrate movement and physics if needed.

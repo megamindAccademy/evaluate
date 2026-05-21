@@ -1,0 +1,276 @@
+=== Page 1 ===
+There  are  many  sources  from  which  you  can  bring  
+sounds.
+ ●  https://www.zapsplat.com/ ●  https://opengameart.org/ ●  https://freesound.org/ ●  https://soundbible.com/7 ●  https://www.kenney.nl/assets ●  https://pixabay.com/sound-effects/ ●     Warning :  This  project  is  also  in  session  number  9.  
+Just
+ 
+explain
+ 
+the
+ 
+sound.
+   
+1.  Importance  of  Sound  in  Games  
+●  Enhances  player  immersion.  ●  Provides  feedback  and  guidance.  ●  Creates  emotional  impact.  
+2.  Types  of  Game  Audio  
+●  Sound  Effects:  Short  clips  for  actions  (jumping,  
+shooting,
+ 
+collecting
+ 
+items).
+ 
+=== Page 2 ===
+●  Background  Music:  Continuous  audio  that  sets  
+the
+ 
+game
+ 
+atmosphere.
+ 
+3.  How  to  Add  Sounds  in  Godot  
+1.  Choose  a  Sound  Effect  ○  Example:  Jumping  sound  or  item  collection  
+sound.
+ 2.  Import  the  Sound  Effect  ○  Add  it  to  the  Audio  folder  in  FileSystem .  3.  Attach  to  Node  ○  Use  AudioStreamPlayer2D  and  attach  it  to  
+the
+ 
+relevant
+ 
+game
+ 
+object.
+ 4.  Control  Audio  with  Scripts  ○  Use  play()  and  stop()  functions  to  manage  
+audio
+ 
+playback.
+   
+=== Page 3 ===
+ 
+Lesson  Activities  
+Activity  1:  Adding  Sound  Effects  
+●  Guide  students  to  import  a  sound  effect  and  
+attach
+ 
+it
+ 
+to
+ 
+a
+ 
+game
+ 
+object.
+ ●  Ask  them  to  trigger  the  sound  using  play()  when  
+an
+ 
+action
+ 
+occurs.
+ 
+Activity  2:  Background  Music  Implementation  
+●  Demonstrate  adding  a  looping  background  
+music
+ 
+track.
+ ●  Adjust  volume  and  pitch  properties  for  
+customization.
+ 
+Discussion  Questions  &  Answers  
+
+=== Page 4 ===
+1.  How  does  sound  improve  a  player's  gaming  
+experience?
+ ○  Sound  enhances  immersion  by  creating  a  
+realistic
+ 
+or
+ 
+atmospheric
+ 
+environment.
+ 
+It
+ 
+provides
+ 
+important
+ 
+feedback
+ 
+to
+ 
+the
+ 
+player,
+ 
+such
+ 
+as
+ 
+indicating
+ 
+success,
+ 
+failure,
+ 
+or
+ 
+danger.
+ 
+Additionally,
+ 
+it
+ 
+helps
+ 
+set
+ 
+the
+ 
+emotional
+ 
+tone
+ 
+of
+ 
+the
+ 
+game,
+ 
+making
+ 
+the
+ 
+experience
+ 
+more
+ 
+engaging.
+ 2.  What  is  the  difference  between  sound  effects  
+and
+ 
+background
+ 
+music?
+ ○  Sound  effects  are  short,  action-triggered  
+sounds
+ 
+like
+ 
+jumping,
+ 
+shooting,
+ 
+or
+ 
+collecting
+ 
+items.
+ 
+They
+ 
+provide
+ 
+immediate
+ 
+feedback
+ 
+to
+ 
+the
+ 
+player.
+ 
+Background
+ 
+music
+,
+ 
+on
+ 
+the
+ 
+other
+ 
+hand,
+ 
+is
+ 
+continuous
+ 
+and
+ 
+sets
+ 
+the
+ 
+overall
+ 
+mood
+ 
+and
+ 
+ambiance
+ 
+of
+ 
+the
+ 
+game
+ 
+without
+ 
+being
+ 
+directly
+ 
+triggered
+ 
+by
+ 
+player
+ 
+actions.
+ 3.  How  can  we  stop  all  sounds  in  Godot?  In  Godot ,  you  can  stop  all  sounds  by  accessing  all  
+AudioStreamPlayer
+ 
+nodes
+ 
+and
+ 
+calling
+ 
+the
+ 
+stop()
+ 
+function.
+ 
+For
+ 
+example,
+ 
+you
+ 
+can
+ 
+use
+ 
+a
+ 
+script
+ 
+like:
+ 
+for
+ 
+node
+ 
+in
+ 
+get_tree().get_nodes_in_group("AudioPlayers"):
+ 
+=== Page 5 ===
+○      node.stop()  
+ 
+

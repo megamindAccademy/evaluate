@@ -1,680 +1,680 @@
 {
   "course_id": "senior_unity",
   "course_title": "Unity Game Development",
-  "course_subtitle": "Master 2D and 3D game design using Unity Engine and C#!",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Unity Game Development. Meet Unity Unicorn, solve fun challenges, and build outstanding systems! 🎮✨",
   "xp_total": 2400,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
-      "badge_icon": "???",
+      "badge_icon": "🎮",
       "badge_title": "Game Engine Basics Medal",
-      "title": "Station 1: Level 1 Session 1: Game Engine Basics",
-      "desc": "Interactive Game Engine Basics activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 1 Session 1: Game Engine Basics</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Game Engine Basics</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Game Engine Basics simulation</div>",
-      "simple": "Imagine Game Engine Basics is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Game Engine Basics!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Game Engine Basics!\");</code>",
-      "starter_code": "// Activate Game Engine Basics\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 1: Game Engine Basics",
+      "desc": "Discover the core architecture of game engines and how Unity coordinates sprites, physics, and gameplay.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Game Engine Basics</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Game Engine Basics</b>: Discover the core architecture of game engines and how Unity coordinates sprites, physics, and gameplay.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Game Engines</li><li>🎯 Navigate Unity Workspace</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Game Engine Basics Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Game Engine Basics is like building the magical gates of your dream game playground before adding the players and trees!",
+      "hint": "Type in the editor: <code>print(\"Game Engine Basics activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Game Engine Basics activated successfully!</code> to unlock the Game Engine Basics medal!",
+      "starter_code": "// Simulate Game Engine Basics activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Game Engine Basics!\");"
+          "label": "Activate Game Engine Basics",
+          "code": "print(\"Game Engine Basics activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Game Engine Basics!",
+        "required_output_text": "Game Engine Basics activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Game Engine Basics",
-        "desc": "Practice Game Engine Basics at home in your Unity project!",
-        "code": "// Home Challenge: Game Engine Basics\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Game Engine Basics\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Game Engine Basics Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Game Engine Basics' using the starter template below!",
+        "code": "// Home Challenge: Game Engine Basics Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Game Engine Basics Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 2,
-      "badge_icon": "???",
+      "badge_icon": "💻",
       "badge_title": "Console & Debug.Log Medal",
-      "title": "Station 2: Level 1 Session 2: Console & Debug.Log",
-      "desc": "Interactive Console & Debug.Log activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 1 Session 2: Console & Debug.Log</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Console & Debug.Log</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Console & Debug.Log simulation</div>",
-      "simple": "Imagine Console & Debug.Log is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Console & Debug.Log!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Console & Debug.Log!\");</code>",
-      "starter_code": "// Activate Console & Debug.Log\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 2: Console & Debug.Log",
+      "desc": "Learn how to communicate with your game engine and log messages in the console to track bugs and flow.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Console & Debug.Log</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Console & Debug.Log</b>: Learn how to communicate with your game engine and log messages in the console to track bugs and flow.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Locate Console Window</li><li>🎯 Write your first Debug.Log statement</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Console & Debug.Log Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Console & Debug.Log is like sending secret walkie-talkie messages from your running player back to the developer desk!",
+      "hint": "Type in the editor: <code>print(\"Console & Debug.Log activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Console & Debug.Log activated successfully!</code> to unlock the Console & Debug.Log medal!",
+      "starter_code": "// Simulate Console & Debug.Log activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Console & Debug.Log!\");"
+          "label": "Activate Console & Debug.Log",
+          "code": "print(\"Console & Debug.Log activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Console & Debug.Log!",
+        "required_output_text": "Console & Debug.Log activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Console & Debug.Log",
-        "desc": "Practice Console & Debug.Log at home in your Unity project!",
-        "code": "// Home Challenge: Console & Debug.Log\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Console & Debug.Log\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Console & Debug.Log Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Console & Debug.Log' using the starter template below!",
+        "code": "// Home Challenge: Console & Debug.Log Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Console & Debug.Log Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 3,
-      "badge_icon": "???",
+      "badge_icon": "🎮",
       "badge_title": "Unity Editor Windows Medal",
-      "title": "Station 3: Level 1 Session 3: Unity Editor Windows",
-      "desc": "Interactive Unity Editor Windows activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 1 Session 3: Unity Editor Windows</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Unity Editor Windows</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Unity Editor Windows simulation</div>",
-      "simple": "Imagine Unity Editor Windows is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Unity Editor Windows!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Unity Editor Windows!\");</code>",
-      "starter_code": "// Activate Unity Editor Windows\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 3: Unity Editor Windows",
+      "desc": "Master the layout by exploring the Scene View, Game View, Hierarchy, Project, and Inspector panels.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Unity Editor Windows</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Unity Editor Windows</b>: Master the layout by exploring the Scene View, Game View, Hierarchy, Project, and Inspector panels.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Explore Editor Layout</li><li>🎯 Inspect GameObjects & Components</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Unity Editor Windows Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Unity Editor Windows is like arranging your magical artist studio with drawers for brushes, canvas for painting, and preview screens!",
+      "hint": "Type in the editor: <code>print(\"Unity Editor Windows activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Unity Editor Windows activated successfully!</code> to unlock the Unity Editor Windows medal!",
+      "starter_code": "// Simulate Unity Editor Windows activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Unity Editor Windows!\");"
+          "label": "Activate Unity Editor Windows",
+          "code": "print(\"Unity Editor Windows activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Unity Editor Windows!",
+        "required_output_text": "Unity Editor Windows activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Unity Editor Windows",
-        "desc": "Practice Unity Editor Windows at home in your Unity project!",
-        "code": "// Home Challenge: Unity Editor Windows\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Unity Editor Windows\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Unity Editor Windows Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Unity Editor Windows' using the starter template below!",
+        "code": "// Home Challenge: Unity Editor Windows Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Unity Editor Windows Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 4,
-      "badge_icon": "???",
+      "badge_icon": "🎨",
       "badge_title": "Asset Store Magic Medal",
-      "title": "Station 4: Level 1 Session 4: Asset Store Magic",
-      "desc": "Interactive Asset Store Magic activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 1 Session 4: Asset Store Magic</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Asset Store Magic</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Asset Store Magic simulation</div>",
-      "simple": "Imagine Asset Store Magic is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Asset Store Magic!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Asset Store Magic!\");</code>",
-      "starter_code": "// Activate Asset Store Magic\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 4: Asset Store Magic",
+      "desc": "Learn how to fetch beautiful art packages, sprites, and animations from the Unity Asset Store to style your worlds.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Asset Store Magic</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Asset Store Magic</b>: Learn how to fetch beautiful art packages, sprites, and animations from the Unity Asset Store to style your worlds.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Search Asset Store</li><li>🎯 Import Packages into Project</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Asset Store Magic Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Asset Store Magic is like visiting a huge free toy store where you can grab any sprite, sound, or block to use in your game!",
+      "hint": "Type in the editor: <code>print(\"Asset Store Magic activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Asset Store Magic activated successfully!</code> to unlock the Asset Store Magic medal!",
+      "starter_code": "// Simulate Asset Store Magic activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Asset Store Magic!\");"
+          "label": "Activate Asset Store Magic",
+          "code": "print(\"Asset Store Magic activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Asset Store Magic!",
+        "required_output_text": "Asset Store Magic activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Asset Store Magic",
-        "desc": "Practice Asset Store Magic at home in your Unity project!",
-        "code": "// Home Challenge: Asset Store Magic\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Asset Store Magic\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Asset Store Magic Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Asset Store Magic' using the starter template below!",
+        "code": "// Home Challenge: Asset Store Magic Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Asset Store Magic Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 5,
-      "badge_icon": "???",
+      "badge_icon": "⚡",
       "badge_title": "Physics & Rigidbody 2D Medal",
-      "title": "Station 5: Level 2 Session 1: Physics & Rigidbody 2D",
-      "desc": "Interactive Physics & Rigidbody 2D activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 2 Session 1: Physics & Rigidbody 2D</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Physics & Rigidbody 2D</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Physics & Rigidbody 2D simulation</div>",
-      "simple": "Imagine Physics & Rigidbody 2D is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Physics & Rigidbody 2D!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Physics & Rigidbody 2D!\");</code>",
-      "starter_code": "// Activate Physics & Rigidbody 2D\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 5: Physics & Rigidbody 2D",
+      "desc": "Understand rigidbodies, gravity scales, and dynamic mass in 2D systems to simulate realistic weight.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Physics & Rigidbody 2D</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Physics & Rigidbody 2D</b>: Understand rigidbodies, gravity scales, and dynamic mass in 2D systems to simulate realistic weight.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Apply Rigidbody 2D</li><li>🎯 Configure gravity and mass</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Physics & Rigidbody 2D Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Physics & Rigidbody 2D is like blowing a puff of wind that pulls game blocks down to the ground using real-world gravity!",
+      "hint": "Type in the editor: <code>print(\"Physics & Rigidbody 2D activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Physics & Rigidbody 2D activated successfully!</code> to unlock the Physics & Rigidbody 2D medal!",
+      "starter_code": "// Simulate Physics & Rigidbody 2D activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Physics & Rigidbody 2D!\");"
+          "label": "Activate Physics & Rigidbody 2D",
+          "code": "print(\"Physics & Rigidbody 2D activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Physics & Rigidbody 2D!",
+        "required_output_text": "Physics & Rigidbody 2D activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Physics & Rigidbody 2D",
-        "desc": "Practice Physics & Rigidbody 2D at home in your Unity project!",
-        "code": "// Home Challenge: Physics & Rigidbody 2D\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Physics & Rigidbody 2D\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Physics & Rigidbody 2D Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Physics & Rigidbody 2D' using the starter template below!",
+        "code": "// Home Challenge: Physics & Rigidbody 2D Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Physics & Rigidbody 2D Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 6,
-      "badge_icon": "???",
+      "badge_icon": "⚡",
       "badge_title": "Jumping & Velocity Medal",
-      "title": "Station 6: Level 2 Session 2: Jumping & Velocity",
-      "desc": "Interactive Jumping & Velocity activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 2 Session 2: Jumping & Velocity</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Jumping & Velocity</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Jumping & Velocity simulation</div>",
-      "simple": "Imagine Jumping & Velocity is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Jumping & Velocity!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Jumping & Velocity!\");</code>",
-      "starter_code": "// Activate Jumping & Velocity\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 6: Jumping & Velocity",
+      "desc": "Write code controls to push players upward and manage vertical velocity loops.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Jumping & Velocity</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Jumping & Velocity</b>: Write code controls to push players upward and manage vertical velocity loops.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Control Jump Triggers</li><li>🎯 Apply upward velocity forces</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Jumping & Velocity Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Jumping & Velocity is like attaching a small spring to your player's shoes that launches them high when you tap space!",
+      "hint": "Type in the editor: <code>print(\"Jumping & Velocity activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Jumping & Velocity activated successfully!</code> to unlock the Jumping & Velocity medal!",
+      "starter_code": "// Simulate Jumping & Velocity activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Jumping & Velocity!\");"
+          "label": "Activate Jumping & Velocity",
+          "code": "print(\"Jumping & Velocity activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Jumping & Velocity!",
+        "required_output_text": "Jumping & Velocity activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Jumping & Velocity",
-        "desc": "Practice Jumping & Velocity at home in your Unity project!",
-        "code": "// Home Challenge: Jumping & Velocity\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Jumping & Velocity\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Jumping & Velocity Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Jumping & Velocity' using the starter template below!",
+        "code": "// Home Challenge: Jumping & Velocity Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Jumping & Velocity Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 7,
-      "badge_icon": "???",
+      "badge_icon": "📦",
       "badge_title": "Prefabs & Instantiate Medal",
-      "title": "Station 7: Level 2 Session 3: Prefabs & Instantiate",
-      "desc": "Interactive Prefabs & Instantiate activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 2 Session 3: Prefabs & Instantiate</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Prefabs & Instantiate</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Prefabs & Instantiate simulation</div>",
-      "simple": "Imagine Prefabs & Instantiate is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Prefabs & Instantiate!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Prefabs & Instantiate!\");</code>",
-      "starter_code": "// Activate Prefabs & Instantiate\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 7: Prefabs & Instantiate",
+      "desc": "Master template cloning using Prefabs to dynamically spawn repeating obstacles and collectible coins.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Prefabs & Instantiate</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Prefabs & Instantiate</b>: Master template cloning using Prefabs to dynamically spawn repeating obstacles and collectible coins.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Create Prefab templates</li><li>🎯 Instantiate new clones programmatically</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Prefabs & Instantiate Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Prefabs & Instantiate is like having a magical cookie cutter that lets you stamp out endless yummy game obstacle clones instantly!",
+      "hint": "Type in the editor: <code>print(\"Prefabs & Instantiate activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Prefabs & Instantiate activated successfully!</code> to unlock the Prefabs & Instantiate medal!",
+      "starter_code": "// Simulate Prefabs & Instantiate activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Prefabs & Instantiate!\");"
+          "label": "Activate Prefabs & Instantiate",
+          "code": "print(\"Prefabs & Instantiate activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Prefabs & Instantiate!",
+        "required_output_text": "Prefabs & Instantiate activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Prefabs & Instantiate",
-        "desc": "Practice Prefabs & Instantiate at home in your Unity project!",
-        "code": "// Home Challenge: Prefabs & Instantiate\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Prefabs & Instantiate\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Prefabs & Instantiate Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Prefabs & Instantiate' using the starter template below!",
+        "code": "// Home Challenge: Prefabs & Instantiate Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Prefabs & Instantiate Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 8,
-      "badge_icon": "???",
+      "badge_icon": "📦",
       "badge_title": "Collision Detection Medal",
-      "title": "Station 8: Level 2 Session 4: Collision Detection",
-      "desc": "Interactive Collision Detection activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 2 Session 4: Collision Detection</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Collision Detection</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Collision Detection simulation</div>",
-      "simple": "Imagine Collision Detection is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Collision Detection!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Collision Detection!\");</code>",
-      "starter_code": "// Activate Collision Detection\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 8: Collision Detection",
+      "desc": "Detect intersections using Colliders and triggers to react when players collect gems or crash into walls.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Collision Detection</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Collision Detection</b>: Detect intersections using Colliders and triggers to react when players collect gems or crash into walls.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Configure Colliders & Triggers</li><li>🎯 Intercept overlap callback events</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Collision Detection Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Collision Detection is like wrapping an invisible bubble around your hero that pops and rings a bell whenever they touch a coin!",
+      "hint": "Type in the editor: <code>print(\"Collision Detection activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Collision Detection activated successfully!</code> to unlock the Collision Detection medal!",
+      "starter_code": "// Simulate Collision Detection activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Collision Detection!\");"
+          "label": "Activate Collision Detection",
+          "code": "print(\"Collision Detection activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Collision Detection!",
+        "required_output_text": "Collision Detection activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Collision Detection",
-        "desc": "Practice Collision Detection at home in your Unity project!",
-        "code": "// Home Challenge: Collision Detection\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Collision Detection\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Collision Detection Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Collision Detection' using the starter template below!",
+        "code": "// Home Challenge: Collision Detection Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Collision Detection Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 9,
-      "badge_icon": "???",
+      "badge_icon": "💻",
       "badge_title": "C# Variables & Syntax Medal",
-      "title": "Station 9: Level 3 Session 1: C# Variables & Syntax",
-      "desc": "Interactive C# Variables & Syntax activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 3 Session 1: C# Variables & Syntax</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>C# Variables & Syntax</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> C# Variables & Syntax simulation</div>",
-      "simple": "Imagine C# Variables & Syntax is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated C# Variables & Syntax!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated C# Variables & Syntax!\");</code>",
-      "starter_code": "// Activate C# Variables & Syntax\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 9: C# Variables & Syntax",
+      "desc": "Dive into variables like int, float, string, and bool to keep track of scores and health.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>C# Variables & Syntax</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>C# Variables & Syntax</b>: Dive into variables like int, float, string, and bool to keep track of scores and health.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn C# variable syntax</li><li>🎯 Store scores and player names</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> C# Variables & Syntax Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine C# Variables & Syntax is like writing on small sticky labels to track player life, score points, and usernames!",
+      "hint": "Type in the editor: <code>print(\"C# Variables & Syntax activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>C# Variables & Syntax activated successfully!</code> to unlock the C# Variables & Syntax medal!",
+      "starter_code": "// Simulate C# Variables & Syntax activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated C# Variables & Syntax!\");"
+          "label": "Activate C# Variables & Syntax",
+          "code": "print(\"C# Variables & Syntax activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated C# Variables & Syntax!",
+        "required_output_text": "C# Variables & Syntax activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: C# Variables & Syntax",
-        "desc": "Practice C# Variables & Syntax at home in your Unity project!",
-        "code": "// Home Challenge: C# Variables & Syntax\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: C# Variables & Syntax\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: C# Variables & Syntax Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'C# Variables & Syntax' using the starter template below!",
+        "code": "// Home Challenge: C# Variables & Syntax Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: C# Variables & Syntax Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 10,
-      "badge_icon": "???",
+      "badge_icon": "💻",
       "badge_title": "If Conditions Medal",
-      "title": "Station 10: Level 3 Session 2: If Conditions",
-      "desc": "Interactive If Conditions activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 3 Session 2: If Conditions</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>If Conditions</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> If Conditions simulation</div>",
-      "simple": "Imagine If Conditions is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated If Conditions!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated If Conditions!\");</code>",
-      "starter_code": "// Activate If Conditions\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 10: If Conditions",
+      "desc": "Empower your scripts to make smart choices using branch statements and logical operators.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>If Conditions</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>If Conditions</b>: Empower your scripts to make smart choices using branch statements and logical operators.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Write If-Else branches</li><li>🎯 Use logic comparisons</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> If Conditions Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine If Conditions is like creating paths. If player has 3 keys, unlock the gold chest. Else, say 'Keep searching!'",
+      "hint": "Type in the editor: <code>print(\"If Conditions activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>If Conditions activated successfully!</code> to unlock the If Conditions medal!",
+      "starter_code": "// Simulate If Conditions activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated If Conditions!\");"
+          "label": "Activate If Conditions",
+          "code": "print(\"If Conditions activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated If Conditions!",
+        "required_output_text": "If Conditions activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: If Conditions",
-        "desc": "Practice If Conditions at home in your Unity project!",
-        "code": "// Home Challenge: If Conditions\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: If Conditions\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: If Conditions Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'If Conditions' using the starter template below!",
+        "code": "// Home Challenge: If Conditions Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: If Conditions Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 11,
-      "badge_icon": "???",
+      "badge_icon": "💻",
       "badge_title": "Loops (For/While) Medal",
-      "title": "Station 11: Level 3 Session 3: Loops (For/While)",
-      "desc": "Interactive Loops (For/While) activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 3 Session 3: Loops (For/While)</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Loops (For/While)</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Loops (For/While) simulation</div>",
-      "simple": "Imagine Loops (For/While) is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Loops (For/While)!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Loops (For/While)!\");</code>",
-      "starter_code": "// Activate Loops (For/While)\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 11: Loops (For/While)",
+      "desc": "Repeat coding blocks automatically to generate grid levels, trees, and maps without rewriting lines.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Loops (For/While)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Loops (For/While)</b>: Repeat coding blocks automatically to generate grid levels, trees, and maps without rewriting lines.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Write For loops</li><li>🎯 Build Repeating grids</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Loops (For/While) Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Loops (For/While) is like a music loop playing your favorite song on repeat until you press the stop button!",
+      "hint": "Type in the editor: <code>print(\"Loops (For/While) activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Loops (For/While) activated successfully!</code> to unlock the Loops (For/While) medal!",
+      "starter_code": "// Simulate Loops (For/While) activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Loops (For/While)!\");"
+          "label": "Activate Loops (For/While)",
+          "code": "print(\"Loops (For/While) activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Loops (For/While)!",
+        "required_output_text": "Loops (For/While) activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Loops (For/While)",
-        "desc": "Practice Loops (For/While) at home in your Unity project!",
-        "code": "// Home Challenge: Loops (For/While)\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Loops (For/While)\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Loops (For/While) Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Loops (For/While)' using the starter template below!",
+        "code": "// Home Challenge: Loops (For/While) Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Loops (For/While) Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 12,
-      "badge_icon": "???",
+      "badge_icon": "💻",
       "badge_title": "Classes & Objects Medal",
-      "title": "Station 12: Level 3 Session 4: Classes & Objects",
-      "desc": "Interactive Classes & Objects activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 3 Session 4: Classes & Objects</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Classes & Objects</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Classes & Objects simulation</div>",
-      "simple": "Imagine Classes & Objects is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Classes & Objects!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Classes & Objects!\");</code>",
-      "starter_code": "// Activate Classes & Objects\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 12: Classes & Objects",
+      "desc": "Understand Object-Oriented C# classes, class components, and MonoBehaviour instances.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Classes & Objects</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Classes & Objects</b>: Understand Object-Oriented C# classes, class components, and MonoBehaviour instances.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Learn OOP structure</li><li>🎯 Manage GameObject scripts</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Classes & Objects Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Classes & Objects is like using a blue blueprint to build many physical sports cars, each with distinct paint colors!",
+      "hint": "Type in the editor: <code>print(\"Classes & Objects activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Classes & Objects activated successfully!</code> to unlock the Classes & Objects medal!",
+      "starter_code": "// Simulate Classes & Objects activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Classes & Objects!\");"
+          "label": "Activate Classes & Objects",
+          "code": "print(\"Classes & Objects activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Classes & Objects!",
+        "required_output_text": "Classes & Objects activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Classes & Objects",
-        "desc": "Practice Classes & Objects at home in your Unity project!",
-        "code": "// Home Challenge: Classes & Objects\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Classes & Objects\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Classes & Objects Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Classes & Objects' using the starter template below!",
+        "code": "// Home Challenge: Classes & Objects Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Classes & Objects Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 13,
-      "badge_icon": "???",
+      "badge_icon": "🗺️",
       "badge_title": "Tilemaps & Level Design Medal",
-      "title": "Station 13: Level 4 Session 1: Tilemaps & Level Design",
-      "desc": "Interactive Tilemaps & Level Design activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 4 Session 1: Tilemaps & Level Design</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Tilemaps & Level Design</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Tilemaps & Level Design simulation</div>",
-      "simple": "Imagine Tilemaps & Level Design is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Tilemaps & Level Design!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Tilemaps & Level Design!\");</code>",
-      "starter_code": "// Activate Tilemaps & Level Design\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 13: Tilemaps & Level Design",
+      "desc": "Design complex, pixel-perfect 2D levels by drawing tiles directly onto a dynamic Tilemap Grid.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Tilemaps & Level Design</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Tilemaps & Level Design</b>: Design complex, pixel-perfect 2D levels by drawing tiles directly onto a dynamic Tilemap Grid.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Setup Grid and Tilemaps</li><li>🎯 Paint layouts using Tile Palettes</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Tilemaps & Level Design Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Tilemaps & Level Design is like using a magic paintbrush to paint bricks, ladders, and grass platforms onto the game screen!",
+      "hint": "Type in the editor: <code>print(\"Tilemaps & Level Design activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Tilemaps & Level Design activated successfully!</code> to unlock the Tilemaps & Level Design medal!",
+      "starter_code": "// Simulate Tilemaps & Level Design activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Tilemaps & Level Design!\");"
+          "label": "Activate Tilemaps & Level Design",
+          "code": "print(\"Tilemaps & Level Design activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Tilemaps & Level Design!",
+        "required_output_text": "Tilemaps & Level Design activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Tilemaps & Level Design",
-        "desc": "Practice Tilemaps & Level Design at home in your Unity project!",
-        "code": "// Home Challenge: Tilemaps & Level Design\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Tilemaps & Level Design\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Tilemaps & Level Design Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Tilemaps & Level Design' using the starter template below!",
+        "code": "// Home Challenge: Tilemaps & Level Design Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Tilemaps & Level Design Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 14,
-      "badge_icon": "???",
+      "badge_icon": "🚀",
       "badge_title": "Input Management Medal",
-      "title": "Station 14: Level 4 Session 2: Input Management",
-      "desc": "Interactive Input Management activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 4 Session 2: Input Management</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Input Management</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Input Management simulation</div>",
-      "simple": "Imagine Input Management is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Input Management!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Input Management!\");</code>",
-      "starter_code": "// Activate Input Management\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 14: Input Management",
+      "desc": "Capture keystrokes, gamepad taps, and mouse clicks smoothly to steer player animations.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Input Management</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Input Management</b>: Capture keystrokes, gamepad taps, and mouse clicks smoothly to steer player animations.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Configure Input settings</li><li>🎯 Translate inputs to movement</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Input Management Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Input Management is like linking your keyboard arrows directly to the character's feet so they walk when you tap!",
+      "hint": "Type in the editor: <code>print(\"Input Management activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Input Management activated successfully!</code> to unlock the Input Management medal!",
+      "starter_code": "// Simulate Input Management activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Input Management!\");"
+          "label": "Activate Input Management",
+          "code": "print(\"Input Management activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Input Management!",
+        "required_output_text": "Input Management activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Input Management",
-        "desc": "Practice Input Management at home in your Unity project!",
-        "code": "// Home Challenge: Input Management\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Input Management\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Input Management Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Input Management' using the starter template below!",
+        "code": "// Home Challenge: Input Management Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Input Management Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 15,
-      "badge_icon": "???",
+      "badge_icon": "🗺️",
       "badge_title": "Cinemachine Cameras Medal",
-      "title": "Station 15: Level 4 Session 3: Cinemachine Cameras",
-      "desc": "Interactive Cinemachine Cameras activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 4 Session 3: Cinemachine Cameras</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Cinemachine Cameras</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Cinemachine Cameras simulation</div>",
-      "simple": "Imagine Cinemachine Cameras is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Cinemachine Cameras!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Cinemachine Cameras!\");</code>",
-      "starter_code": "// Activate Cinemachine Cameras\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 15: Cinemachine Cameras",
+      "desc": "Create professional, smooth-scrolling smart cameras that lock onto moving characters.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Cinemachine Cameras</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Cinemachine Cameras</b>: Create professional, smooth-scrolling smart cameras that lock onto moving characters.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Install Cinemachine packages</li><li>🎯 Configure Virtual Cameras and tracking</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Cinemachine Cameras Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Cinemachine Cameras is like hiring a professional camera operator who flies behind your hero and keeps them in perfect focus!",
+      "hint": "Type in the editor: <code>print(\"Cinemachine Cameras activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Cinemachine Cameras activated successfully!</code> to unlock the Cinemachine Cameras medal!",
+      "starter_code": "// Simulate Cinemachine Cameras activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Cinemachine Cameras!\");"
+          "label": "Activate Cinemachine Cameras",
+          "code": "print(\"Cinemachine Cameras activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Cinemachine Cameras!",
+        "required_output_text": "Cinemachine Cameras activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Cinemachine Cameras",
-        "desc": "Practice Cinemachine Cameras at home in your Unity project!",
-        "code": "// Home Challenge: Cinemachine Cameras\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Cinemachine Cameras\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Cinemachine Cameras Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Cinemachine Cameras' using the starter template below!",
+        "code": "// Home Challenge: Cinemachine Cameras Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Cinemachine Cameras Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 16,
-      "badge_icon": "???",
+      "badge_icon": "🗺️",
       "badge_title": "Enemy AI Patrol Medal",
-      "title": "Station 16: Level 4 Session 4: Enemy AI Patrol",
-      "desc": "Interactive Enemy AI Patrol activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 4 Session 4: Enemy AI Patrol</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Enemy AI Patrol</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Enemy AI Patrol simulation</div>",
-      "simple": "Imagine Enemy AI Patrol is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Enemy AI Patrol!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Enemy AI Patrol!\");</code>",
-      "starter_code": "// Activate Enemy AI Patrol\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 16: Enemy AI Patrol",
+      "desc": "Build patrol sequences that steer enemy movements back and forth between navigation targets.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Enemy AI Patrol</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Enemy AI Patrol</b>: Build patrol sequences that steer enemy movements back and forth between navigation targets.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Define Waypoint targets</li><li>🎯 Steer enemy transforms automatically</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Enemy AI Patrol Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Enemy AI Patrol is like placing two small signposts that tell the enemy soldier to march from Point A to Point B and back!",
+      "hint": "Type in the editor: <code>print(\"Enemy AI Patrol activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Enemy AI Patrol activated successfully!</code> to unlock the Enemy AI Patrol medal!",
+      "starter_code": "// Simulate Enemy AI Patrol activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Enemy AI Patrol!\");"
+          "label": "Activate Enemy AI Patrol",
+          "code": "print(\"Enemy AI Patrol activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Enemy AI Patrol!",
+        "required_output_text": "Enemy AI Patrol activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Enemy AI Patrol",
-        "desc": "Practice Enemy AI Patrol at home in your Unity project!",
-        "code": "// Home Challenge: Enemy AI Patrol\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Enemy AI Patrol\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Enemy AI Patrol Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Enemy AI Patrol' using the starter template below!",
+        "code": "// Home Challenge: Enemy AI Patrol Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Enemy AI Patrol Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 17,
-      "badge_icon": "???",
+      "badge_icon": "⚡",
       "badge_title": "3D Coordinate Systems Medal",
-      "title": "Station 17: Level 5 Session 1: 3D Coordinate Systems",
-      "desc": "Interactive 3D Coordinate Systems activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 5 Session 1: 3D Coordinate Systems</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>3D Coordinate Systems</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> 3D Coordinate Systems simulation</div>",
-      "simple": "Imagine 3D Coordinate Systems is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated 3D Coordinate Systems!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated 3D Coordinate Systems!\");</code>",
-      "starter_code": "// Activate 3D Coordinate Systems\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 17: 3D Coordinate Systems",
+      "desc": "Navigate three-dimensional spaces using X, Y, and Z vector coordinates for rotation and position.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>3D Coordinate Systems</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>3D Coordinate Systems</b>: Navigate three-dimensional spaces using X, Y, and Z vector coordinates for rotation and position.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Vector3 structures</li><li>🎯 Manipulate 3D transforms</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> 3D Coordinate Systems Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine 3D Coordinate Systems is like adding depth to your drawing! Moving forward, backward, left, right, and high up in the sky!",
+      "hint": "Type in the editor: <code>print(\"3D Coordinate Systems activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>3D Coordinate Systems activated successfully!</code> to unlock the 3D Coordinate Systems medal!",
+      "starter_code": "// Simulate 3D Coordinate Systems activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated 3D Coordinate Systems!\");"
+          "label": "Activate 3D Coordinate Systems",
+          "code": "print(\"3D Coordinate Systems activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated 3D Coordinate Systems!",
+        "required_output_text": "3D Coordinate Systems activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: 3D Coordinate Systems",
-        "desc": "Practice 3D Coordinate Systems at home in your Unity project!",
-        "code": "// Home Challenge: 3D Coordinate Systems\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: 3D Coordinate Systems\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: 3D Coordinate Systems Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating '3D Coordinate Systems' using the starter template below!",
+        "code": "// Home Challenge: 3D Coordinate Systems Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: 3D Coordinate Systems Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 18,
-      "badge_icon": "???",
+      "badge_icon": "🎨",
       "badge_title": "Materials & Textures Medal",
-      "title": "Station 18: Level 5 Session 2: Materials & Textures",
-      "desc": "Interactive Materials & Textures activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 5 Session 2: Materials & Textures</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Materials & Textures</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Materials & Textures simulation</div>",
-      "simple": "Imagine Materials & Textures is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Materials & Textures!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Materials & Textures!\");</code>",
-      "starter_code": "// Activate Materials & Textures\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 18: Materials & Textures",
+      "desc": "Dress plain 3D models with colorful materials, custom textures, and shaders.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Materials & Textures</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Materials & Textures</b>: Dress plain 3D models with colorful materials, custom textures, and shaders.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Apply Materials to Meshes</li><li>🎯 Tweak specular, metallic, and smooth sliders</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Materials & Textures Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Materials & Textures is like wrapping plain gray clay statues in beautiful colorful gift-wrap paper to look like gold or stone!",
+      "hint": "Type in the editor: <code>print(\"Materials & Textures activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Materials & Textures activated successfully!</code> to unlock the Materials & Textures medal!",
+      "starter_code": "// Simulate Materials & Textures activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Materials & Textures!\");"
+          "label": "Activate Materials & Textures",
+          "code": "print(\"Materials & Textures activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Materials & Textures!",
+        "required_output_text": "Materials & Textures activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Materials & Textures",
-        "desc": "Practice Materials & Textures at home in your Unity project!",
-        "code": "// Home Challenge: Materials & Textures\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Materials & Textures\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Materials & Textures Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Materials & Textures' using the starter template below!",
+        "code": "// Home Challenge: Materials & Textures Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Materials & Textures Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 19,
-      "badge_icon": "???",
+      "badge_icon": "🚀",
       "badge_title": "Character Controller Medal",
-      "title": "Station 19: Level 5 Session 3: Character Controller",
-      "desc": "Interactive Character Controller activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 5 Session 3: Character Controller</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Character Controller</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Character Controller simulation</div>",
-      "simple": "Imagine Character Controller is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Character Controller!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Character Controller!\");</code>",
-      "starter_code": "// Activate Character Controller\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 19: Character Controller",
+      "desc": "Build solid 3D player movement controllers that slide down hills and climb steps smoothly.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Character Controller</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Character Controller</b>: Build solid 3D player movement controllers that slide down hills and climb steps smoothly.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Add Character Controller components</li><li>🎯 Write 3D motion script parameters</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Character Controller Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Character Controller is like stepping inside a robust astronaut suit that moves perfectly over rocky space craters!",
+      "hint": "Type in the editor: <code>print(\"Character Controller activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Character Controller activated successfully!</code> to unlock the Character Controller medal!",
+      "starter_code": "// Simulate Character Controller activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Character Controller!\");"
+          "label": "Activate Character Controller",
+          "code": "print(\"Character Controller activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Character Controller!",
+        "required_output_text": "Character Controller activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Character Controller",
-        "desc": "Practice Character Controller at home in your Unity project!",
-        "code": "// Home Challenge: Character Controller\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Character Controller\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Character Controller Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Character Controller' using the starter template below!",
+        "code": "// Home Challenge: Character Controller Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Character Controller Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 20,
-      "badge_icon": "???",
+      "badge_icon": "🗺️",
       "badge_title": "NavMesh Pathfinding Medal",
-      "title": "Station 20: Level 5 Session 4: NavMesh Pathfinding",
-      "desc": "Interactive NavMesh Pathfinding activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 5 Session 4: NavMesh Pathfinding</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>NavMesh Pathfinding</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> NavMesh Pathfinding simulation</div>",
-      "simple": "Imagine NavMesh Pathfinding is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated NavMesh Pathfinding!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated NavMesh Pathfinding!\");</code>",
-      "starter_code": "// Activate NavMesh Pathfinding\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 20: NavMesh Pathfinding",
+      "desc": "Configure AI agents that navigate around complex obstacles using baked NavMesh pathfinding grids.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>NavMesh Pathfinding</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>NavMesh Pathfinding</b>: Configure AI agents that navigate around complex obstacles using baked NavMesh pathfinding grids.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Bake NavMesh surfaces</li><li>🎯 Define NavMesh Agent destinations</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> NavMesh Pathfinding Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine NavMesh Pathfinding is like giving your pet robot a smart map of the living room so it walks around chairs instead of hitting them!",
+      "hint": "Type in the editor: <code>print(\"NavMesh Pathfinding activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>NavMesh Pathfinding activated successfully!</code> to unlock the NavMesh Pathfinding medal!",
+      "starter_code": "// Simulate NavMesh Pathfinding activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated NavMesh Pathfinding!\");"
+          "label": "Activate NavMesh Pathfinding",
+          "code": "print(\"NavMesh Pathfinding activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated NavMesh Pathfinding!",
+        "required_output_text": "NavMesh Pathfinding activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: NavMesh Pathfinding",
-        "desc": "Practice NavMesh Pathfinding at home in your Unity project!",
-        "code": "// Home Challenge: NavMesh Pathfinding\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: NavMesh Pathfinding\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: NavMesh Pathfinding Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'NavMesh Pathfinding' using the starter template below!",
+        "code": "// Home Challenge: NavMesh Pathfinding Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: NavMesh Pathfinding Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 21,
-      "badge_icon": "???",
+      "badge_icon": "🚀",
       "badge_title": "Awake vs Start Medal",
-      "title": "Station 21: Level 6 Session 1: Awake vs Start",
-      "desc": "Interactive Awake vs Start activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 6 Session 1: Awake vs Start</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Awake vs Start</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Awake vs Start simulation</div>",
-      "simple": "Imagine Awake vs Start is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Awake vs Start!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Awake vs Start!\");</code>",
-      "starter_code": "// Activate Awake vs Start\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 21: Awake vs Start",
+      "desc": "Master initialization life cycle functions to run state setup before regular updates begin.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Awake vs Start</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Awake vs Start</b>: Master initialization life cycle functions to run state setup before regular updates begin.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Understand Awake call timing</li><li>🎯 Initialize components inside Start</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Awake vs Start Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Awake vs Start is like waking up and putting on your shoes (Awake) before you step outside and start playing (Start)!",
+      "hint": "Type in the editor: <code>print(\"Awake vs Start activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Awake vs Start activated successfully!</code> to unlock the Awake vs Start medal!",
+      "starter_code": "// Simulate Awake vs Start activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Awake vs Start!\");"
+          "label": "Activate Awake vs Start",
+          "code": "print(\"Awake vs Start activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Awake vs Start!",
+        "required_output_text": "Awake vs Start activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Awake vs Start",
-        "desc": "Practice Awake vs Start at home in your Unity project!",
-        "code": "// Home Challenge: Awake vs Start\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Awake vs Start\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Awake vs Start Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Awake vs Start' using the starter template below!",
+        "code": "// Home Challenge: Awake vs Start Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Awake vs Start Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 22,
-      "badge_icon": "???",
+      "badge_icon": "💻",
       "badge_title": "Static Variables Medal",
-      "title": "Station 22: Level 6 Session 2: Static Variables",
-      "desc": "Interactive Static Variables activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 6 Session 2: Static Variables</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Static Variables</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Static Variables simulation</div>",
-      "simple": "Imagine Static Variables is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Static Variables!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Static Variables!\");</code>",
-      "starter_code": "// Activate Static Variables\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 22: Static Variables",
+      "desc": "Maintain global persistent variables like scores and levels across different levels and scenes.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Static Variables</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Static Variables</b>: Maintain global persistent variables like scores and levels across different levels and scenes.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Declare static variables</li><li>🎯 Access values globally across scripts</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Static Variables Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Static Variables is like a large scoreboard in the clouds that keeps your points safe even when you travel to different lands!",
+      "hint": "Type in the editor: <code>print(\"Static Variables activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Static Variables activated successfully!</code> to unlock the Static Variables medal!",
+      "starter_code": "// Simulate Static Variables activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Static Variables!\");"
+          "label": "Activate Static Variables",
+          "code": "print(\"Static Variables activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Static Variables!",
+        "required_output_text": "Static Variables activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Static Variables",
-        "desc": "Practice Static Variables at home in your Unity project!",
-        "code": "// Home Challenge: Static Variables\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Static Variables\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Static Variables Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Static Variables' using the starter template below!",
+        "code": "// Home Challenge: Static Variables Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Static Variables Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 23,
-      "badge_icon": "???",
+      "badge_icon": "🚀",
       "badge_title": "Health & UI Sliders Medal",
-      "title": "Station 23: Level 6 Session 3: Health & UI Sliders",
-      "desc": "Interactive Health & UI Sliders activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 6 Session 3: Health & UI Sliders</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>Health & UI Sliders</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Health & UI Sliders simulation</div>",
-      "simple": "Imagine Health & UI Sliders is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated Health & UI Sliders!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated Health & UI Sliders!\");</code>",
-      "starter_code": "// Activate Health & UI Sliders\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 23: Health & UI Sliders",
+      "desc": "Draw interactive health bar sliders on screens and link them to variables.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>Health & UI Sliders</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>Health & UI Sliders</b>: Draw interactive health bar sliders on screens and link them to variables.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Design Canvas UI components</li><li>🎯 Link script values to UI Slider components</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Health & UI Sliders Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Health & UI Sliders is like putting a glowing progress bar on your hero's forehead that shrinks when they stub their toe!",
+      "hint": "Type in the editor: <code>print(\"Health & UI Sliders activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Health & UI Sliders activated successfully!</code> to unlock the Health & UI Sliders medal!",
+      "starter_code": "// Simulate Health & UI Sliders activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated Health & UI Sliders!\");"
+          "label": "Activate Health & UI Sliders",
+          "code": "print(\"Health & UI Sliders activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Health & UI Sliders!",
+        "required_output_text": "Health & UI Sliders activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Health & UI Sliders",
-        "desc": "Practice Health & UI Sliders at home in your Unity project!",
-        "code": "// Home Challenge: Health & UI Sliders\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: Health & UI Sliders\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Health & UI Sliders Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Health & UI Sliders' using the starter template below!",
+        "code": "// Home Challenge: Health & UI Sliders Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: Health & UI Sliders Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 24,
-      "badge_icon": "???",
+      "badge_icon": "🏆",
       "badge_title": "WebGL Publishing Medal",
-      "title": "Station 24: Level 6 Session 4: WebGL Publishing",
-      "desc": "Interactive WebGL Publishing activities",
-      "story": "<h3>?? Welcome, future game developer!</h3>Let's dive into <b>Level 6 Session 4: WebGL Publishing</b>!<br><br><b>?? Key Points:</b><ul><li>?? <b>WebGL Publishing</b>: Mastering Unity engine techniques!</li></ul><b>? Objectives:</b><ul><li>?? Understand C# integration</li><li>?? Apply game logic</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> WebGL Publishing simulation</div>",
-      "simple": "Imagine WebGL Publishing is like designing the rules for your favorite board game!",
-      "hint": "Type: <code>Debug.Log(\"Activated WebGL Publishing!\");</code>",
-      "challenge": "Print: <code>Debug.Log(\"Activated WebGL Publishing!\");</code>",
-      "starter_code": "// Activate WebGL Publishing\nusing UnityEngine;\n\npublic class SessionSimulator : MonoBehaviour {\n    void Start() {\n        // Write code here\n    }\n}",
+      "title": "Station 24: WebGL Publishing",
+      "desc": "Compile, compress, and publish your final game so it loads directly inside web browsers.",
+      "story": "<h3>🦄 Hello, future coding hero!</h3>I am your friend <b>Unity Unicorn</b>, and today I will accompany you on an exciting coding adventure to explore <b>WebGL Publishing</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦄 <b>WebGL Publishing</b>: Compile, compress, and publish your final game so it loads directly inside web browsers.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Configure WebGL platform targets</li><li>🎯 Export, test, and publish HTML builds</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> WebGL Publishing Practical Simulator</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine WebGL Publishing is like packing your final game into a magic link that you can text to all your friends to play online!",
+      "hint": "Type in the editor: <code>print(\"WebGL Publishing activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>WebGL Publishing activated successfully!</code> to unlock the WebGL Publishing medal!",
+      "starter_code": "// Simulate WebGL Publishing activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "Debug.Log(\"Activated WebGL Publishing!\");"
+          "label": "Activate WebGL Publishing",
+          "code": "print(\"WebGL Publishing activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated WebGL Publishing!",
+        "required_output_text": "WebGL Publishing activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: WebGL Publishing",
-        "desc": "Practice WebGL Publishing at home in your Unity project!",
-        "code": "// Home Challenge: WebGL Publishing\n// Write your creative solution here!",
-        "starter_code": "// Home Challenge: WebGL Publishing\n// Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: WebGL Publishing Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'WebGL Publishing' using the starter template below!",
+        "code": "// Home Challenge: WebGL Publishing Simulator\n# Write your creative solution here!",
+        "starter_code": "// Home Challenge: WebGL Publishing Simulator\n# Write your creative solution here!"
       }
     }
   ]

@@ -3,121 +3,169 @@
   "recaps": [
     {
       "id": 1,
-      "title": "Session 1 Recap",
+      "title": "Welcome to React Native & Expo Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Initialize React Native, install Expo Go, and preview code on your phone."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Initialize React Native, install Expo Go, and preview code on your phone. Experiment and design beautiful features with 🐶!"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Session 2 Recap",
+      "title": "JS ES6 Essentials & Logic Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Learn arrow functions, destructured variables, and smart arrays."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Learn arrow functions, destructured variables, and smart arrays. Experiment and design beautiful features with 🐶!"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Session 3 Recap",
+      "title": "View, Text & Image Components Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Display custom texts, visual panels, and photos on mobile interfaces."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Display custom texts, visual panels, and photos on mobile interfaces. Experiment and design beautiful features with 🐶!"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Session 4 Recap",
+      "title": "Flexbox Mobile Grid Styling Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Position cards and stretch headers responsively using CSS Flexbox layout."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Position cards and stretch headers responsively using CSS Flexbox layout. Experiment and design beautiful features with 🐶!"
         }
       ]
     },
     {
       "id": 5,
-      "title": "Session 5 Recap",
+      "title": "Stateful Hooks with useState Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Update values and change scores instantly when the user taps elements."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Update values and change scores instantly when the user taps elements. Experiment and design beautiful features with 🐶!"
         }
       ]
     },
     {
       "id": 6,
-      "title": "Session 6 Recap",
+      "title": "FlatList Scrolling Components Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Render extremely large grids and rows of products efficiently."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Render extremely large grids and rows of products efficiently. Experiment and design beautiful features with 🐶!"
         }
       ]
     },
     {
       "id": 7,
-      "title": "Session 7 Recap",
+      "title": "TextInputs & Button Triggers Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Create secure input fields and interactive primary buttons."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Create secure input fields and interactive primary buttons. Experiment and design beautiful features with 🐶!"
         }
       ]
     },
     {
       "id": 8,
-      "title": "Session 8 Recap",
+      "title": "React Navigation Screens Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Build multi-screen apps with bottom tabs and sliding drawer menus."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Build multi-screen apps with bottom tabs and sliding drawer menus. Experiment and design beautiful features with 🐶!"
         }
       ]
     },
     {
       "id": 9,
-      "title": "Session 9 Recap",
+      "title": "Fetching Online Web Data Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Make live asynchronous web requests to read API data in JSON format."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Make live asynchronous web requests to read API data in JSON format. Experiment and design beautiful features with 🐶!"
         }
       ]
     },
     {
       "id": 10,
-      "title": "Session 10 Recap",
+      "title": "AsyncStorage Local Database Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Save items permanently inside the phone's local storage database."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Save items permanently inside the phone's local storage database. Experiment and design beautiful features with 🐶!"
         }
       ]
     },
     {
       "id": 11,
-      "title": "Session 11 Recap",
+      "title": "Native Features & Cameras Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Unlock phone cameras, alert dialogs, and GPS location coordinates."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Unlock phone cameras, alert dialogs, and GPS location coordinates. Experiment and design beautiful features with 🐶!"
         }
       ]
     },
     {
       "id": 12,
-      "title": "Session 12 Recap",
+      "title": "Mega React Native Graduation Project Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Compile and polish a gorgeous mobile social application for pets."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Compile and polish a gorgeous mobile social application for pets. Experiment and design beautiful features with 🐶!"
         }
       ]
     }

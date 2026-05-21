@@ -1,0 +1,540 @@
+
+=========================================
+FILE: SESSION_01_SLIDE_session1.txt
+=========================================
+=== Page 1 ===
+Session 1
+Welcome to
+Game Development with
+Godot Engine
+=== Page 2 ===
+2
+1
+All rights reserved
+In this course, you'll dive into the captivating world of
+game development
+using the powerful and versatile Godot Engine. We'll
+explore the fundamentals of game design,
+programming, and bring your creative ideas to life.
+=== Page 3 ===
+2
+2
+All rights reserved
+o Introduction (5 minutes)
+o what is game Development(5 minutes)
+o What is the game Engine (10 minutes)
+o introduction Godot Engine (15 minutes)
+o What are Nodes? (10 minutes)
+o Hands-On: Adding Nodes in Godot (10 minutes)
+o What are Scenes? (10 minutes)
+o Hands-On: Creating a Scene in Godot (10 minutes)
+o Interface of the Godot and make (25 minutes)
+o Recap for the session  (5 minutes)
+o Any Question (5 minutes)
+=== Page 4 ===
+2
+3
+All rights reserved
+Creating Interactive Experiences
+Game development involves designing and building
+engaging, interactive worlds that players can
+explore and interact with.
+Multidisciplinary Approach
+Game development combines various skills,
+including programming, art, sound design, and
+...
+
+=========================================
+FILE: SESSION_02_SLIDE_session2.txt
+=========================================
+=== Page 1 ===
+Session 2
+Nodes, Scenes,
+and Functions
+in Godot
+=== Page 2 ===
+2
+1
+All rights reserved
+In this lesson, we'll dive deep into the fundamental building
+blocks of Godot: nodes and scenes. We'll explore how these
+elements work together to create complex game
+structures and learn about GDScript, Godot's powerful
+scripting language. By the end of this lesson, you'll have a
+solid understanding of how to organize your project,
+create interactive scenes, and write efficient code using
+functions. Get ready to take your Godot skills to the next
+level as we embark on this exciting journey into the heart
+of game development!
+=== Page 3 ===
+2
+2
+All rights reserved
+What they remember about each of the following topics:
+o Game Engines
+o Godot Game Engine
+o Nodes
+=== Page 4 ===
+2
+3
+All rights reserved
+o What are Nodes and Scenes?
+o Creating and Organizing Nodes and scence
+o Organizing Your Project Files
+o Godot's Scripting Language
+o GDScript Syntax
+o Functions in GDScript
+o Special Functions: ready() and process()
+=== Page 5 ===
+2
+...
+
+=========================================
+FILE: SESSION_03_SLIDE_session3.txt
+=========================================
+=== Page 1 ===
+Session 3
+Game Art style
+and Animated
+Sprite
+=== Page 2 ===
+2
+1
+All rights reserved
+This lesson will guide you through creating
+captivating 2D game worlds. You'll learn to
+bring your ideas to life by building and
+animating sprites, the visual foundation of
+your game. We'll also explore how to make
+objects interact with each other using
+collision detection.
+=== Page 3 ===
+2
+2
+All rights reserved
+What they remember about each of the following topics:
+o What are Nodes and Scenes?
+o Godot's Scripting Language
+o What is the  Special Functions?
+=== Page 4 ===
+2
+3
+All rights reserved
+o What are Sprites?
+o Types of Sprites
+o Game Art Style
+o type of game art style
+o Animating Sprites for Movement
+o Frame Animation
+o movment and speed in game
+=== Page 5 ===
+2
+4
+All rights reserved
+=== Page 6 ===
+...
+
+=========================================
+FILE: SESSION_04_SLIDE_session4.txt
+=========================================
+=== Page 1 ===
+Session 4
+Godot Movement &
+Logic: Operators
+in Action
+=== Page 2 ===
+2
+1
+All rights reserved
+This presentation will introduce you to basic
+movement mechanics and the operators
+that power them, including arithmetic,
+comparison, and logical operators.
+=== Page 3 ===
+2
+2
+All rights reserved
+o GDScript
+o Game Art Style
+o Animating Sprites for Movement
+o Frame Animation
+=== Page 4 ===
+2
+3
+All rights reserved
+o Understand and apply the basics of functions
+and control structures in GDScript.
+o Learn how to use logical operators (and, or,
+not) effectively.
+o Gain an understanding of comparison
+operators (==, !=, <, >).
+=== Page 5 ===
+2
+4
+All rights reserved
+Operator Description Example Result
++ Addition 5 + 3 8
+- Subtraction 10 - 6 4
+* Multiplication 4 * 2 8
+/ Division 9 / 3 3
+...
+
+=========================================
+FILE: SESSION_05_SLIDE_session5.txt
+=========================================
+=== Page 1 ===
+Session 5
+The Software
+Development Life Cycle
+(SDLC) for Game
+Development
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll explore the Software Development Life Cycle
+(SDLC) and how it applies to building amazing games.
+We'll discuss the process from ideation to release and
+how to integrate it with game design principles.
+=== Page 3 ===
+2
+2
+All rights reserved
+o comparison operators (==, !=, <, >)
+o logical operators (and, or, not)
+o set_scale function
+=== Page 4 ===
+2
+3
+All rights reserved
+o Introduction to SDLC in Game Development (5 mins)
+o Phases of SDLC (15 mins)
+o Game Design Principles (10 mins)
+=== Page 5 ===
+2
+4
+All rights reserved
+Idea Generation
+Start by brainstorming! Let your creativity flow and come
+up with exciting game concepts. Consider the target
+audience, gameplay mechanics, and story elements.
+Prototyping
+Create a basic, playable version of your game to test
+core mechanics and gather feedback. Prototyping
+helps identify potential problems early on.
+...
+
+=========================================
+FILE: SESSION_06_SLIDE_session6.txt
+=========================================
+=== Page 1 ===
+Session 6
+Creating and
+Using UI
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll dive into the world of user interfaces (UI) and learn
+how to design and implement them in Godot. We'll explore
+different UI nodes, understand how to connect them to
+game logic, and build a simple UI for our game. Get ready
+to make your games more interactive and engaging!
+=== Page 3 ===
+2
+2
+All rights reserved
+o what is SDLC in Game Development
+o Game Design Principles
+=== Page 4 ===
+2
+3
+All rights reserved
+o Introduction  the world of user interfaces (UI)
+o how to design and implement them in Godot.
+o build a simple UI for our game
+o make your games more interactive
+=== Page 5 ===
+2
+4
+All rights reserved
+=== Page 6 ===
+2
+5
+All rights reserved
+ Triggers Actions like starting a game, moving between
+levels, or purchasing items
+ Navigation: Menu navigation, accessing settings, or
+switching between game sences
+=== Page 7 ===
+...
+
+=========================================
+FILE: SESSION_07_SLIDE_session7.txt
+=========================================
+=== Page 1 ===
+Session 7
+User Interface
+Programming
+with Godot
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll explore how to program the user interface (UI) in
+your Godot games. We'll learn how to create and
+interact with buttons, text fields, menus, and more.
+=== Page 3 ===
+2
+2
+All rights reserved
+o user interfaces (UI)
+o Labels, Buttons,Text Fields
+o contral
+o Grids
+=== Page 4 ===
+2
+3
+All rights reserved
+o Revisiting Events
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+=== Page 5 ===
+2
+4
+All rights reserved
+Remember Events ?
+ Recall how you used events in the previous
+module to detect clicks on sprites.
+=== Page 6 ===
+2
+5
+All rights reserved
+ You can apply the same concept
+...
+
+=========================================
+FILE: SESSION_08_SLIDE_session8.txt
+=========================================
+=== Page 1 ===
+Session 8
+Game Sound and
+Audio
+=== Page 2 ===
+2
+1
+All rights reserved
+where we'll learn how to add audio to your
+game, making it more immersive and
+engaging for your players.
+=== Page 3 ===
+2
+2
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes
+o UI Events
+=== Page 4 ===
+2
+3
+All rights reserved
+o Revisiting Events
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+=== Page 5 ===
+2
+4
+All rights reserved
+=== Page 6 ===
+2
+5
+All rights reserved
+Sound Effects
+These are short audio clips that represent actions in your
+game, like jumping, shooting, or collecting items.
+Background Music
+This is the music that plays in the background of your
+...
+
+=========================================
+FILE: SESSION_09_SLIDE_session9.txt
+=========================================
+=== Page 1 ===
+Session 9
+Camera and Parallax
+Backgrounds for
+2D Games
+=== Page 2 ===
+2
+1
+All rights reserved
+We'll be diving into the world of cameras and parallax
+backgrounds in Godot Engine. Prepare to create
+dynamic and visually engaging 2D game
+environments!
+=== Page 3 ===
+2
+2
+All rights reserved
+o Button Clicks
+o Signals for UI Control
+o changes scenes
+o Creating Interactive UI
+=== Page 4 ===
+2
+3
+All rights reserved
+o use a camera
+o backgrounds in your 2D game
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+=== Page 5 ===
+2
+4
+All rights reserved
+The Camera Node
+=== Page 6 ===
+2
+5
+All rights reserved
+The Camera Node
+...
+
+=========================================
+FILE: SESSION_10_SLIDE_session10.txt
+=========================================
+=== Page 1 ===
+Session 10
+=== Page 2 ===
+All rights reserved
+we'll explore the crucial final step in game
+development: polishing. This step involves adding
+those final touches that transform a functional
+game into a captivating and polished experience.
+Welcome ! In this session,
+=== Page 3 ===
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes
+o UI Events
+o camera 2D
+o Get mouse postion and create instance
+Recap:
+=== Page 4 ===
+All rights reserved
+o Polishing your  Game
+o publish the Game
+o Different platform you can polishing for it
+Agenda for this lesson :
+=== Page 5 ===
+All rights reserved
+Polishing Your Game: The Secret
+to Making It Great
+=== Page 6 ===
+All rights reserved
+Fun Factor
+Does the game feel enjoyable and engaging? Are players
+drawn in and eager to keep playing?
+Interactivity
+Does the game respond to player input in a way that feels natural and satisfying?
+Are players actively participating in the gameplay?
+Beyond Functionality: Asking the Right Questions
+=== Page 7 ===
+All rights reserved
+Activity: Adding Sound Effects
+...
+
+=========================================
+FILE: SESSION_11_SLIDE_session_11.txt
+=========================================
+=== Page 1 ===
+Session 11
+Polishing Your Game:
+The Secret to Making
+It Great
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll guide you through setting up the foundation
+of your Pong game. Learn the fundamental
+elements and start coding your first interactive
+components.
+=== Page 3 ===
+2
+2
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes
+o UI Events
+=== Page 4 ===
+2
+3
+All rights reserved
+o Revisiting Events
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+=== Page 5 ===
+2
+4
+All rights reserved
+Objective
+Create a basic Pong game, where two players control paddles
+to bounce a ball.
+Game Setup
+Establish the game environment with boundaries, paddles, and a ball. You'll use
+these components to create the game's core mechanics.
+=== Page 6 ===
+...
+
+=========================================
+FILE: SESSION_12_SLIDE_session12.txt
+=========================================
+=== Page 1 ===
+Session 12
+Building Pong:
+Part 2
+=== Page 2 ===
+2
+1
+All rights reserved
+We'll Add Interactivity And Scoring To Make
+This Game Come Alive.
+=== Page 3 ===
+2
+2
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes
+o UI Events
+=== Page 4 ===
+2
+3
+All rights reserved
+o Objective: Bring Pong to Life
+o Interactive Gameplay
+We'll breathe life into our game by adding the
+fundamental elements of interactivity. Prepare to feel
+the excitement of a good old-fashioned Pong game!
+o Dynamic Scoring System
+=== Page 5 ===
+2
+4
+All rights reserved
+Area2D
+Get ready to introduce collision detection using the Area2D node,
+a powerful tool that detects when objects touch.
+Ball Movement and Bouncing
+We'll give the ball a life of its own by scripting its movement and
+bouncing off the paddles and boundaries.
+Score Display
+Prepare to showcase your scores! We'll use Label nodes to display
+...

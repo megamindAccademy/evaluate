@@ -1,0 +1,187 @@
+=== Page 1 ===
+Session 1
+Welcome to
+Game Development with 
+Godot Engine
+
+=== Page 2 ===
+2
+1
+All rights reserved
+In this course, you'll dive into the captivating world of 
+game development 
+using the powerful and versatile Godot Engine. We'll 
+explore the fundamentals of game design, 
+programming, and bring your creative ideas to life.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o Introduction (5 minutes)
+o what is game Development(5 minutes)
+o What is the game Engine (10 minutes)
+o introduction Godot Engine (15 minutes)
+o What are Nodes? (10 minutes)
+o Hands-On: Adding Nodes in Godot (10 minutes)
+o What are Scenes? (10 minutes)
+o Hands-On: Creating a Scene in Godot (10 minutes)
+o Interface of the Godot and make (25 minutes)
+o Recap for the session  (5 minutes)
+o Any Question (5 minutes)
+
+=== Page 4 ===
+2
+3
+All rights reserved
+Creating Interactive Experiences
+Game development involves designing and building 
+engaging, interactive worlds that players can 
+explore and interact with.
+Multidisciplinary Approach
+Game development combines various skills, 
+including programming, art, sound design, and 
+storytelling.
+Endless Possibilities
+The game development field offers a vast array of 
+opportunities, from mobile apps to console games and 
+virtual reality experiences.
+
+=== Page 5 ===
+2
+4
+All rights reserved
+
+=== Page 6 ===
+2
+5
+All rights reserved
+Open-Source Power
+Godot is a free and open-source 
+game engine that offers a 
+comprehensive set of tools for 
+game development.
+Free assets
+Light Wight to Developed
+Cross-Platform Compatibility
+Godot allows you to build games for 
+a wide range of platforms, including 
+PC, console, and mobile devices.
+Design 2D and 3D Games
+Intuitive Interface
+Godot's user-friendly interface 
+and visual scripting system make 
+it accessible for both experienced 
+and novice developers.
+Use GD Scrapt
+=== Page 7 ===
+2
+6
+All rights reserved
+Based Building Block On Code 
+The child node inherits properties from the parent 
+=== Page 8 ===
+2
+7
+All rights reserved
+New Node
+=== Page 9 ===
+2
+8
+All rights reserved
+Scenes
+Godot organizes your game into individual scenes, which 
+can be combined to create the full game world.
+Nodes
+Nodes are the building blocks of your scenes, 
+representing different game elements like characters, 
+objects, or UI components.
+Scripting
+Godot's scripting system, using GDScript or other 
+programming languages, allows you to add interactivity 
+and logic to your game.
+
+=== Page 10 ===
+2
+9
+All rights reserved
+Add text here
+=== Page 11 ===
+2
+10
+All rights reserved
+Add text here
+=== Page 12 ===
+2
+11
+All rights reserved
+Add text here
+=== Page 13 ===
+2
+12
+All rights reserved
+Add text here
+=== Page 14 ===
+2
+13
+All rights reserved
+Add text here
+=== Page 15 ===
+2
+14
+All rights reserved
+Add text here
+=== Page 16 ===
+2
+15
+All rights reserved
+o Give the script a name then press Create.
+o The Script Editor will open with your script.
+o make your code inside any special  method
+o explan the Ready() and  process()
+=== Page 17 ===
+2
+16
+All rights reserved
+Add text here
+=== Page 18 ===
+2
+17
+All rights reserved
+• Documentation
+Comprehensive official documentation 
+to help you learn and master Godot.
+• Tutorial Videos
+Explore a wealth of tutorial videos on YouTube 
+to enhance your Godot skills.
+• Open-Source Resources
+Discover a vast library of open-source Godot 
+projects to learn from and build upon.
+• Community Forums
+Engage with a vibrant community of Godot 
+developers to ask questions and share ideas.
+=== Page 19 ===
+2
+18
+All rights reserved
+Unleash Your Creativity
+Godot empowers you to bring your game 
+ideas to life, no matter how ambitious or 
+unique they may be.
+Develop Essential Skills
+By learning Godot, you'll cultivate valuable 
+skills in programming, art, design, and 
+project management.
+Endless Possibilities
+The game development field offers a wide 
+range of career opportunities, from indie 
+studios to major publishers.
+
+=== Page 20 ===
+2
+19
+All rights reserved
+ What is a Node ?
+ What are the key benefits of using Godot?
+  What is the Game Engine 
+

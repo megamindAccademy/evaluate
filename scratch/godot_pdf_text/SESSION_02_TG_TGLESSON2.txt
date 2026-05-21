@@ -1,0 +1,30 @@
+=== Page 1 ===
+Programming Questions and Agenda Explanation
+1. What is GDScript?
+GDScript is a high-level, dynamically typed programming language used in the Godot Engine. It is
+designed specifically for game development and integrates seamlessly with Godot's features,
+offering a simple and efficient way to write scripts for game logic, UI interactions, and more.
+2. What is a Variable?
+A variable is a named storage location in memory that holds a value, which can change during
+program execution. Variables are fundamental in programming, allowing developers to store and
+manipulate data efficiently.
+3. Explain 3 primitive data types?
+- Integer (int): Represents whole numbers, such as 10 and -5.
+- Float: Represents decimal numbers, such as 3.14 and -0.5.
+- Boolean (bool): Represents true or false values.
+Agenda Explanation
+What are Nodes and Scenes?
+Scenes and Nodes form the foundation of Godot projects. A scene is a collection of nodes.
+Creating and Organizing Nodes and Scenes
+Explains how to create and manage nodes within scenes for structured game design.
+Organizing Your Project Files
+Covers best practices for file organization within Godot for maintainability and teamwork.
+Godot's Scripting Language
+Introduces GDScript, the primary scripting language for Godot.
+GDScript Syntax
+Covers the basic syntax of GDScript, including variables and functions.
+=== Page 2 ===
+Functions in GDScript
+Explains how to create and use functions in GDScript.
+Special Functions: ready() and process()
+Details the purpose of ready() and process() functions in controlling game logic.

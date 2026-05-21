@@ -1,7 +1,7 @@
 {
   "course_id": "senior_python_problem_solving",
   "course_title": "Python Problem-Solving",
-  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Python Problem-Solving. Unlock custom medals, solve daily challenges, and program your own digital masterpieces!",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Python Problem-Solving. Meet Py-Python, solve fun challenges, and build outstanding systems! 🎮✨",
   "xp_total": 1200,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
@@ -10,9 +10,9 @@
       "badge_icon": "🎯",
       "badge_title": "Turtle Geometry & Maze Navigation Medal",
       "title": "Station 1: Turtle Geometry & Maze Navigation",
-      "desc": "An excellent graphical library in Python for representing coordinates, movement of software objects, and drawing geometric shapes.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Turtle Geometry & Maze Navigation</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐢 <b>Python drawing library (Turtle)</b>: An excellent graphical library in Python for representing coordinates, movement of software objects, and drawing geometric shapes.</li><li>🎮 <b>Draw mazes and move freely</b>: Programming the turtle to move forward, backward, and rotate at right angles to draw beautiful, precise geometric mazes.</li></ul><br><h4>💻 Starter Code Block - Draw mazes and move freely:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>import turtle\nt = turtle.Turtle()\nt.forward(100)\nt.left(90)\nt.forward(50)</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Drawing a 2D maze with turtle action step by step.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Python drawing library (Turtle) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Turtle Geometry & Maze Navigation concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>Turtle Geometry & Maze Navigation</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>Python drawing library (Turtle)</b>: An excellent graphical library in Python for representing coordinates, movement of software objects, and drawing geometric shapes.</li><li>🐍 <b>Draw mazes and move freely</b>: Programming the turtle to move forward, backward, and rotate at right angles to draw beautiful, precise geometric mazes.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Turtle Geometry & Maze Navigation</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Turtle Geometry & Maze Navigation Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Turtle Geometry & Maze Navigation is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Turtle Geometry & Maze Navigation activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Turtle Geometry & Maze Navigation activated successfully!</code> to unlock the Turtle Geometry & Maze Navigation medal!",
       "starter_code": "# Simulate Turtle Geometry & Maze Navigation activation:\n",
@@ -28,7 +28,7 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Turtle Geometry & Maze Navigation Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Turtle Geometry & Maze Navigation'. Specifically, design a feature demonstrating: 'Draw mazes and move freely' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Turtle Geometry & Maze Navigation' using the starter template below!",
         "code": "# Home Challenge: Turtle Geometry & Maze Navigation Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Turtle Geometry & Maze Navigation Simulator\n# Write your creative solution here!"
       }
@@ -38,9 +38,9 @@
       "badge_icon": "💻",
       "badge_title": "Variables & Interactive Inputs Medal",
       "title": "Station 2: Variables & Interactive Inputs",
-      "desc": "Using the input function to receive texts and numbers from the user and store them in prepared software variables.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Variables & Interactive Inputs</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📟 <b>Reserve variables and interactive inputs</b>: Using the input function to receive texts and numbers from the user and store them in prepared software variables.</li><li>🧮 <b>Calculate distances and multiply values</b>: Passing digital inputs typed by the user to dynamically direct the turtle's movement on the screen.</li></ul><br><h4>💻 Starter Code Block - Calculate distances and multiply values:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>steps = int(input(\"Enter the number of steps of the turtle: \"))\nt.forward(steps)</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> An application that asks the user about the side length of a square and draws it immediately.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Reserve variables and interactive inputs is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Variables & Interactive Inputs concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>Variables & Interactive Inputs</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>Reserve variables and interactive inputs</b>: Using the input function to receive texts and numbers from the user and store them in prepared software variables.</li><li>🐍 <b>Calculate distances and multiply values</b>: Passing digital inputs typed by the user to dynamically direct the turtle's movement on the screen.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Variables & Interactive Inputs</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Variables & Interactive Inputs Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Variables & Interactive Inputs is like having smart boxes in your bedroom where you keep toys, labeled perfectly so they never get lost!",
       "hint": "Type in the editor: <code>print(\"Variables & Interactive Inputs activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Variables & Interactive Inputs activated successfully!</code> to unlock the Variables & Interactive Inputs medal!",
       "starter_code": "# Simulate Variables & Interactive Inputs activation:\n",
@@ -56,7 +56,7 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Variables & Interactive Inputs Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Variables & Interactive Inputs'. Specifically, design a feature demonstrating: 'Calculate distances and multiply values' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Variables & Interactive Inputs' using the starter template below!",
         "code": "# Home Challenge: Variables & Interactive Inputs Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Variables & Interactive Inputs Simulator\n# Write your creative solution here!"
       }
@@ -66,9 +66,9 @@
       "badge_icon": "🎯",
       "badge_title": "String Operations & Advanced Shapes Medal",
       "title": "Station 3: String Operations & Advanced Shapes",
-      "desc": "Merge texts and change their code state to intelligently arrange and display welcome messages and outputs.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>String Operations & Advanced Shapes</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🔤 <b>Manipulating text strings</b>: Merge texts and change their code state to intelligently arrange and display welcome messages and outputs.</li><li>✨ <b>Drawing complex geometric shapes</b>: Draw complex stars and polygons at varying angles and color them based on the user's preferred text choices.</li></ul><br><h4>💻 Starter Code Block - Drawing complex geometric shapes:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>color = input(\"Choose the color of the turtle (red, blue): \").strip().lower()\nt.color(color)</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Writing the student's name combined with colorful welcome phrases on the drawing board.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Manipulating text strings is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master String Operations & Advanced Shapes concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>String Operations & Advanced Shapes</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>Manipulating text strings</b>: Merge texts and change their code state to intelligently arrange and display welcome messages and outputs.</li><li>🐍 <b>Drawing complex geometric shapes</b>: Draw complex stars and polygons at varying angles and color them based on the user's preferred text choices.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of String Operations & Advanced Shapes</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> String Operations & Advanced Shapes Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine String Operations & Advanced Shapes is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"String Operations & Advanced Shapes activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>String Operations & Advanced Shapes activated successfully!</code> to unlock the String Operations & Advanced Shapes medal!",
       "starter_code": "# Simulate String Operations & Advanced Shapes activation:\n",
@@ -84,7 +84,7 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: String Operations & Advanced Shapes Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'String Operations & Advanced Shapes'. Specifically, design a feature demonstrating: 'Drawing complex geometric shapes' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'String Operations & Advanced Shapes' using the starter template below!",
         "code": "# Home Challenge: String Operations & Advanced Shapes Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: String Operations & Advanced Shapes Simulator\n# Write your creative solution here!"
       }
@@ -94,9 +94,9 @@
       "badge_icon": "💻",
       "badge_title": "Conditional Logic & Branching Medal",
       "title": "Station 4: Conditional Logic & Branching",
-      "desc": "Instructing the program to execute custom code only when certain conditions are matched using reserved words if and else.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Conditional Logic & Branching</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚦 <b>Logical conditions and decision making (If-Else)</b>: Instructing the program to execute custom code only when certain conditions are matched using reserved words if and else.</li><li>🔄 <b>Programming the conditions for the direction of the turtle's movement</b>: Verifying the choice of travel direction (forward, left) and adjusting movement and angles based on the quality and safety of the condition.</li></ul><br><h4>💻 Starter Code Block - Programming the conditions for the direction of the turtle's movement:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>direction = input(\"Where are you heading? (left/right):\")\nif direction == \"left\":\n    t.left(90)\nelse:\n    t.right(90)</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> An application that checks the air temperature and advises you to wear heavy clothes.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Logical conditions and decision making (If-Else) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Conditional Logic & Branching concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>Conditional Logic & Branching</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>Logical conditions and decision making (If-Else)</b>: Instructing the program to execute custom code only when certain conditions are matched using reserved words if and else.</li><li>🐍 <b>Programming the conditions for the direction of the turtle's movement</b>: Verifying the choice of travel direction (forward, left) and adjusting movement and angles based on the quality and safety of the condition.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Conditional Logic & Branching</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Conditional Logic & Branching Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Conditional Logic & Branching is like a traffic light. If the light is green, your hero walks. Else, your hero stands still!",
       "hint": "Type in the editor: <code>print(\"Conditional Logic & Branching activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Conditional Logic & Branching activated successfully!</code> to unlock the Conditional Logic & Branching medal!",
       "starter_code": "# Simulate Conditional Logic & Branching activation:\n",
@@ -112,19 +112,19 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Conditional Logic & Branching Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Conditional Logic & Branching'. Specifically, design a feature demonstrating: 'Programming the conditions for the direction of the turtle's movement' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Conditional Logic & Branching' using the starter template below!",
         "code": "# Home Challenge: Conditional Logic & Branching Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Conditional Logic & Branching Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 5,
-      "badge_icon": "💻",
+      "badge_icon": "🎯",
       "badge_title": "Iteration & Geometric Polygons (Traffic Controller) Medal",
       "title": "Station 5: Iteration & Geometric Polygons (Traffic Controller)",
-      "desc": "Repeating code execution a specified number of times using for and range to speed up programming tasks.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Iteration & Geometric Polygons (Traffic Controller)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🔄 <b>For Loops</b>: Repeating code execution a specified number of times using for and range to speed up programming tasks.</li><li>🚥 <b>Drawing polygons and traffic light system</b>: Drawing regular geometric shapes (such as square and hexagon) and applying software to simulate an intelligent traffic light system.</li></ul><br><h4>💻 Starter Code Block - Drawing polygons and traffic light system:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>for i in range(4):\n    t.forward(100)\n    t.left(90)</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Traffic light simulation application (red stop, yellow standby, green go) in Python.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that For Loops is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Iteration & Geometric Polygons (Traffic Controller) concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>Iteration & Geometric Polygons (Traffic Controller)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>For Loops</b>: Repeating code execution a specified number of times using for and range to speed up programming tasks.</li><li>🐍 <b>Drawing polygons and traffic light system</b>: Drawing regular geometric shapes (such as square and hexagon) and applying software to simulate an intelligent traffic light system.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Iteration & Geometric Polygons (Traffic Controller)</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Iteration & Geometric Polygons (Traffic Controller) Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Iteration & Geometric Polygons (Traffic Controller) is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Iteration & Geometric Polygons (Traffic Controller) activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Iteration & Geometric Polygons (Traffic Controller) activated successfully!</code> to unlock the Iteration & Geometric Polygons (Traffic Controller) medal!",
       "starter_code": "# Simulate Iteration & Geometric Polygons (Traffic Controller) activation:\n",
@@ -140,7 +140,7 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Iteration & Geometric Polygons (Traffic Controller) Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Iteration & Geometric Polygons (Traffic Controller)'. Specifically, design a feature demonstrating: 'Drawing polygons and traffic light system' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Iteration & Geometric Polygons (Traffic Controller)' using the starter template below!",
         "code": "# Home Challenge: Iteration & Geometric Polygons (Traffic Controller) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Iteration & Geometric Polygons (Traffic Controller) Simulator\n# Write your creative solution here!"
       }
@@ -150,9 +150,9 @@
       "badge_icon": "💻",
       "badge_title": "Parallel Loops & Simulations (Turtle Race) Medal",
       "title": "Station 6: Parallel Loops & Simulations (Turtle Race)",
-      "desc": "Passing and navigating through parallel data lists to calculate grades and total points for students in an automated format.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Parallel Loops & Simulations (Turtle Race)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📊 <b>Arrays and parallel iteration</b>: Passing and navigating through parallel data lists to calculate grades and total points for students in an automated format.</li><li>🏁 <b>Turtle Race game</b>: Simulating a race of three colored strings moving at random distances, calculating the winning turtle and displaying an announcement of its victory.</li></ul><br><h4>💻 Starter Code Block - Turtle Race game:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>import random\ndistances = [random.randint(50, 150) for _ in range(3)]\nwinner = distances.index(max(distances))</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> A race of colored strings (red, blue, green) with a random win to calculate the odds.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Arrays and parallel iteration is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Parallel Loops & Simulations (Turtle Race) concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>Parallel Loops & Simulations (Turtle Race)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>Arrays and parallel iteration</b>: Passing and navigating through parallel data lists to calculate grades and total points for students in an automated format.</li><li>🐍 <b>Turtle Race game</b>: Simulating a race of three colored strings moving at random distances, calculating the winning turtle and displaying an announcement of its victory.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Parallel Loops & Simulations (Turtle Race)</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Parallel Loops & Simulations (Turtle Race) Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Parallel Loops & Simulations (Turtle Race) is like a music box that keeps playing your favorite sweet song over and over until you close the lid!",
       "hint": "Type in the editor: <code>print(\"Parallel Loops & Simulations (Turtle Race) activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Parallel Loops & Simulations (Turtle Race) activated successfully!</code> to unlock the Parallel Loops & Simulations (Turtle Race) medal!",
       "starter_code": "# Simulate Parallel Loops & Simulations (Turtle Race) activation:\n",
@@ -168,7 +168,7 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Parallel Loops & Simulations (Turtle Race) Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Parallel Loops & Simulations (Turtle Race)'. Specifically, design a feature demonstrating: 'Turtle Race game' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Parallel Loops & Simulations (Turtle Race)' using the starter template below!",
         "code": "# Home Challenge: Parallel Loops & Simulations (Turtle Race) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Parallel Loops & Simulations (Turtle Race) Simulator\n# Write your creative solution here!"
       }
@@ -178,9 +178,9 @@
       "badge_icon": "📱",
       "badge_title": "Key-Value Dictionaries (Smart Quiz App) Medal",
       "title": "Station 7: Key-Value Dictionaries (Smart Quiz App)",
-      "desc": "An advanced data structure for keeping records and storing values ​​using distinct keys instead of numeric indexes.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Key-Value Dictionaries (Smart Quiz App)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📖 <b>Dictionaries</b>: An advanced data structure for keeping records and storing values ​​using distinct keys instead of numeric indexes.</li><li>🏆 <b>Smart question bank and competitions application</b>: Use dictionaries to store questions and their model answers and check students' answers while calculating their total score.</li></ul><br><h4>💻 Starter Code Block - Smart question bank and competitions application:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>question = {\"q\": \"What is the capital of Egypt?\", \"a\": \"Cairo\"}\nanswer = input(question[\"q\"])\nif answer == question[\"a\"]:\n    print(\"Correct answer! 🎉\")</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Student control panel screen application to save his information, age, and favorite subject.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Dictionaries is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Key-Value Dictionaries (Smart Quiz App) concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>Key-Value Dictionaries (Smart Quiz App)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>Dictionaries</b>: An advanced data structure for keeping records and storing values ​​using distinct keys instead of numeric indexes.</li><li>🐍 <b>Smart question bank and competitions application</b>: Use dictionaries to store questions and their model answers and check students' answers while calculating their total score.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Key-Value Dictionaries (Smart Quiz App)</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Key-Value Dictionaries (Smart Quiz App) Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Key-Value Dictionaries (Smart Quiz App) is like drawing beautiful rooms, buttons, and stickers on a white canvas to make your application look spectacular!",
       "hint": "Type in the editor: <code>print(\"Key-Value Dictionaries (Smart Quiz App) activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Key-Value Dictionaries (Smart Quiz App) activated successfully!</code> to unlock the Key-Value Dictionaries (Smart Quiz App) medal!",
       "starter_code": "# Simulate Key-Value Dictionaries (Smart Quiz App) activation:\n",
@@ -196,7 +196,7 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Key-Value Dictionaries (Smart Quiz App) Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Key-Value Dictionaries (Smart Quiz App)'. Specifically, design a feature demonstrating: 'Smart question bank and competitions application' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Key-Value Dictionaries (Smart Quiz App)' using the starter template below!",
         "code": "# Home Challenge: Key-Value Dictionaries (Smart Quiz App) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Key-Value Dictionaries (Smart Quiz App) Simulator\n# Write your creative solution here!"
       }
@@ -206,9 +206,9 @@
       "badge_icon": "🎯",
       "badge_title": "Advanced Algorithms - Recursion (Factorial & Spiral) Medal",
       "title": "Station 8: Advanced Algorithms - Recursion (Factorial & Spiral)",
-      "desc": "An intelligent and advanced technology in which the software function calls itself to solve complex and difficult problems step by step.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Advanced Algorithms - Recursion (Factorial & Spiral)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌀 <b>Recursion algorithms</b>: An intelligent and advanced technology in which the software function calls itself to solve complex and difficult problems step by step.</li><li>🧹 <b>Drawing spirals and calculating the factorial (Factorial)</b>: Draw a cool geometric spiral, calculate the factorial of numbers (such as 5 factorial = 120), and program a simulation of a housekeeping robot.</li></ul><br><h4>💻 Starter Code Block - Drawing spirals and calculating the factorial (Factorial):</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n - 1)</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> A wonderful geometric spiral drawing that automatically decreases in size until the stopping condition is zero.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Recursion algorithms is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Advanced Algorithms - Recursion (Factorial & Spiral) concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>Advanced Algorithms - Recursion (Factorial & Spiral)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>Recursion algorithms</b>: An intelligent and advanced technology in which the software function calls itself to solve complex and difficult problems step by step.</li><li>🐍 <b>Drawing spirals and calculating the factorial (Factorial)</b>: Draw a cool geometric spiral, calculate the factorial of numbers (such as 5 factorial = 120), and program a simulation of a housekeeping robot.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Advanced Algorithms - Recursion (Factorial & Spiral)</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Advanced Algorithms - Recursion (Factorial & Spiral) Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Advanced Algorithms - Recursion (Factorial & Spiral) is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Advanced Algorithms - Recursion (Factorial & Spiral) activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Advanced Algorithms - Recursion (Factorial & Spiral) activated successfully!</code> to unlock the Advanced Algorithms - Recursion (Factorial & Spiral) medal!",
       "starter_code": "# Simulate Advanced Algorithms - Recursion (Factorial & Spiral) activation:\n",
@@ -224,7 +224,7 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Advanced Algorithms - Recursion (Factorial & Spiral) Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Advanced Algorithms - Recursion (Factorial & Spiral)'. Specifically, design a feature demonstrating: 'Drawing spirals and calculating the factorial (Factorial)' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Advanced Algorithms - Recursion (Factorial & Spiral)' using the starter template below!",
         "code": "# Home Challenge: Advanced Algorithms - Recursion (Factorial & Spiral) Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Advanced Algorithms - Recursion (Factorial & Spiral) Simulator\n# Write your creative solution here!"
       }
@@ -234,9 +234,9 @@
       "badge_icon": "💻",
       "badge_title": "Debugging Workshop & Code Refactoring Medal",
       "title": "Station 9: Debugging Workshop & Code Refactoring",
-      "desc": "Developing the thinking of a professional developer through training in spotting spelling and logical errors and correcting indentations and punctuation marks.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Debugging Workshop & Code Refactoring</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Debugging</b>: Developing the thinking of a professional developer through training in spotting spelling and logical errors and correcting indentations and punctuation marks.</li><li>🧹 <b>Correct missing comparisons and symbols</b>: Corrected library typing, inserted missing commas and colons, and checked input conversion to numeric type.</li></ul><br><h4>💻 Starter Code Block - Correct missing comparisons and symbols:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>#Common error: age = input() ; if age > 10:\n# Approved correction:\nage = int(input(\"Enter your age: \"))\nif age > 10:\n    print(\"You are over 10 years old!\")</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Fixed a broken engineering drawing script and restarted it with great success.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Debugging is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Debugging Workshop & Code Refactoring concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>Debugging Workshop & Code Refactoring</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>Debugging</b>: Developing the thinking of a professional developer through training in spotting spelling and logical errors and correcting indentations and punctuation marks.</li><li>🐍 <b>Correct missing comparisons and symbols</b>: Corrected library typing, inserted missing commas and colons, and checked input conversion to numeric type.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Debugging Workshop & Code Refactoring</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Debugging Workshop & Code Refactoring Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Debugging Workshop & Code Refactoring is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Debugging Workshop & Code Refactoring activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Debugging Workshop & Code Refactoring activated successfully!</code> to unlock the Debugging Workshop & Code Refactoring medal!",
       "starter_code": "# Simulate Debugging Workshop & Code Refactoring activation:\n",
@@ -252,19 +252,19 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Debugging Workshop & Code Refactoring Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Debugging Workshop & Code Refactoring'. Specifically, design a feature demonstrating: 'Correct missing comparisons and symbols' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Debugging Workshop & Code Refactoring' using the starter template below!",
         "code": "# Home Challenge: Debugging Workshop & Code Refactoring Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Debugging Workshop & Code Refactoring Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 10,
-      "badge_icon": "💻",
+      "badge_icon": "🎯",
       "badge_title": "Dynamic Lists & Data Structures Medal",
       "title": "Station 10: Dynamic Lists & Data Structures",
-      "desc": "Use advanced add, delete, and edit functions to manage student shopping lists and tasks efficiently and seamlessly.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Dynamic Lists & Data Structures</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📋 <b>Managing dynamic lists</b>: Use advanced add, delete, and edit functions to manage student shopping lists and tasks efficiently and seamlessly.</li><li>⚡ <b>Arranging and filtering software data</b>: Add new items to the array, sort them alphabetically or numerically, and delete completed records with an interactive click.</li></ul><br><h4>💻 Starter Code Block - Arranging and filtering software data:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>fruits = [\"apple\", \"banana\"]\nfruits.append(\"Mango\")\nfruits.sort()\nprint(fruits)</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Interactive shopping list management app with automatic price ordering.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Managing dynamic lists is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Dynamic Lists & Data Structures concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>Dynamic Lists & Data Structures</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>Managing dynamic lists</b>: Use advanced add, delete, and edit functions to manage student shopping lists and tasks efficiently and seamlessly.</li><li>🐍 <b>Arranging and filtering software data</b>: Add new items to the array, sort them alphabetically or numerically, and delete completed records with an interactive click.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Dynamic Lists & Data Structures</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Dynamic Lists & Data Structures Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Dynamic Lists & Data Structures is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Dynamic Lists & Data Structures activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Dynamic Lists & Data Structures activated successfully!</code> to unlock the Dynamic Lists & Data Structures medal!",
       "starter_code": "# Simulate Dynamic Lists & Data Structures activation:\n",
@@ -280,7 +280,7 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Dynamic Lists & Data Structures Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Dynamic Lists & Data Structures'. Specifically, design a feature demonstrating: 'Arranging and filtering software data' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Dynamic Lists & Data Structures' using the starter template below!",
         "code": "# Home Challenge: Dynamic Lists & Data Structures Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Dynamic Lists & Data Structures Simulator\n# Write your creative solution here!"
       }
@@ -290,9 +290,9 @@
       "badge_icon": "🎯",
       "badge_title": "Validation & Exception Handling Medal",
       "title": "Station 11: Validation & Exception Handling",
-      "desc": "Protect the program from sudden crash when entering text instead of numbers using efficient try and except blocks.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Validation & Exception Handling</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛑 <b>Ensure data integrity and handle exceptions</b>: Protect the program from sudden crash when entering text instead of numbers using efficient try and except blocks.</li><li>⚠️ <b>Verify that integers are entered</b>: Forcing the user to enter integer and positive numbers and repeat the question until the entered data matches 100%.</li></ul><br><h4>💻 Starter Code Block - Verify that integers are entered:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>while True:\n    try:\n        num = int(input(\"Enter positive number: \"))\n        if num > 0: break\n    exceptValueError:\n        print(\"Please type only numbers!\")</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Secure the patient age receiving box to ensure the quality and consistency of record data.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Ensure data integrity and handle exceptions is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Validation & Exception Handling concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>Validation & Exception Handling</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>Ensure data integrity and handle exceptions</b>: Protect the program from sudden crash when entering text instead of numbers using efficient try and except blocks.</li><li>🐍 <b>Verify that integers are entered</b>: Forcing the user to enter integer and positive numbers and repeat the question until the entered data matches 100%.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Validation & Exception Handling</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Validation & Exception Handling Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Validation & Exception Handling is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Validation & Exception Handling activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Validation & Exception Handling activated successfully!</code> to unlock the Validation & Exception Handling medal!",
       "starter_code": "# Simulate Validation & Exception Handling activation:\n",
@@ -308,19 +308,19 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Validation & Exception Handling Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Validation & Exception Handling'. Specifically, design a feature demonstrating: 'Verify that integers are entered' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Validation & Exception Handling' using the starter template below!",
         "code": "# Home Challenge: Validation & Exception Handling Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Validation & Exception Handling Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 12,
-      "badge_icon": "🛡️",
+      "badge_icon": "🏆",
       "badge_title": "Capstone Project - Attendance & Report System Medal",
       "title": "Station 12: Capstone Project - Attendance & Report System",
-      "desc": "Collecting all the concepts to build an integrated application that asks about the number of students, ensures the validity of the inputs, and monitors the attendance and absence of students dynamically.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Capstone Project - Attendance & Report System</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎓 <b>Super Capstone Project: Absence and Attendance Monitoring System</b>: Collecting all the concepts to build an integrated application that asks about the number of students, ensures the validity of the inputs, and monitors the attendance and absence of students dynamically.</li><li>💾 <b>Save attendance reports in real text files</b>: Writing a summary of monitoring absence, calculating it and the attendance rate, and storing the report in an external text file with the name of the updated day.</li></ul><br><h4>💻 Starter Code Block - Save attendance reports in real text files:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>import datetime\nwith open(f\"attendance_{datetime.date.today()}.txt\", \"w\", encoding=\"utf-8\") as file:\n    file.write(\"Attendance and absence report for the day: \" + str(datetime.date.today()))</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Export and save a real text file containing attendance reports for the entire semester!</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Super Capstone Project: Absence and Attendance Monitoring System is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Capstone Project - Attendance & Report System concepts and boost your developer XP!",
+      "story": "<h3>🐍 Hello, future coding hero!</h3>I am your friend <b>Py-Python</b>, and today I will accompany you on an exciting coding adventure to explore <b>Capstone Project - Attendance & Report System</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐍 <b>Super Capstone Project: Absence and Attendance Monitoring System</b>: Collecting all the concepts to build an integrated application that asks about the number of students, ensures the validity of the inputs, and monitors the attendance and absence of students dynamically.</li><li>🐍 <b>Save attendance reports in real text files</b>: Writing a summary of monitoring absence, calculating it and the attendance rate, and storing the report in an external text file with the name of the updated day.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Capstone Project - Attendance & Report System</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Capstone Project - Attendance & Report System Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Capstone Project - Attendance & Report System is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Capstone Project - Attendance & Report System activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Capstone Project - Attendance & Report System activated successfully!</code> to unlock the Capstone Project - Attendance & Report System medal!",
       "starter_code": "# Simulate Capstone Project - Attendance & Report System activation:\n",
@@ -336,7 +336,7 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Capstone Project - Attendance & Report System Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Capstone Project - Attendance & Report System'. Specifically, design a feature demonstrating: 'Save attendance reports in real text files' using the starter template below!",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Capstone Project - Attendance & Report System' using the starter template below!",
         "code": "# Home Challenge: Capstone Project - Attendance & Report System Simulator\n# Write your creative solution here!",
         "starter_code": "# Home Challenge: Capstone Project - Attendance & Report System Simulator\n# Write your creative solution here!"
       }

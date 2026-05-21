@@ -1,0 +1,409 @@
+=== Page 1 ===
+In  this  lesson,  we  will  add  interactivity  and  a  scoring  
+system
+ 
+to
+ 
+the
+ 
+Pong
+ 
+game
+ 
+to
+ 
+make
+ 
+it
+ 
+more
+ 
+engaging
+ 
+and
+ 
+dynamic.
+ 
+We
+ 
+will
+ 
+learn
+ 
+how
+ 
+to
+ 
+use
+ 
+Signals
+ 
+for
+ 
+UI
+ 
+control,
+ 
+explore
+ 
+Collision
+ 
+Detection
+ 
+using
+ 
+the
+ 
+Area2D
+ 
+node
+,
+ 
+and
+ 
+implement
+ 
+a
+ 
+scoring
+ 
+system
+.
+ 
+ 
+Links  you  will  need.  ●  https://itch.io/dashboard ●  https://clipchamp.com/ ●    
+ 
+Learning  Outcomes:  
+By  the  end  of  this  lesson,  students  will  be  able  to:  ●  Understand  how  to  program  ball  movement  and  
+bouncing.
+ ●  Use  Label  Nodes  to  display  scores  during  
+gameplay.
+ ●  Apply  Pong  game  logic  to  make  it  fully  playable.  
+=== Page 2 ===
+ 
+Detailed  Explanation  
+1.  Using  Signals  for  UI  Control  
+●  Signals  in  Godot  Engine  are  used  to  link  
+events
+ 
+between
+ 
+objects.
+ ●  Example:  A  signal  can  be  sent  when  a  new  goal  
+is
+ 
+scored
+ 
+to
+ 
+update
+ 
+the
+ 
+UI.
+ 
+2.  Creating  an  Interactive  UI  
+●  We  will  use  Label  Nodes  to  display  the  game  
+score.
+ ●  When  a  player  scores,  this  node  should  be  
+updated
+ 
+to
+ 
+reflect
+ 
+the
+ 
+new
+ 
+score.
+ 
+3.  Collision  Detection  with  Area2D  
+●  Node:  Area2D  is  an  object  used  to  detect  
+collisions
+ 
+in
+ 
+the
+ 
+game.
+ ●  A  Collision  Shape  must  be  added  to  define  its  
+boundaries.
+ 
+4.  Ball  Movement  and  Bouncing  
+●  To  create  natural  movement,  the  ball  needs  
+speed
+ 
+and
+ 
+direction.
+ 
+=== Page 3 ===
+●  When  the  ball  hits  the  walls  or  paddles,  it  should  
+bounce
+ 
+at
+ 
+appropriate
+ 
+angles.
+ 
+5.  Displaying  Scores  with  Label  Nodes  
+●  We  will  use  Label  Nodes  to  show  the  current  
+score.
+ ●  When  the  ball  passes  a  paddle,  the  score  
+updates,
+ 
+and
+ 
+the
+ 
+ball
+ 
+resets.
+ 
+6.  Coding  Collision  Detection  
+Example  Code  for  Ball-Paddle  Collision:  extends  Area2D   var  speed  =  Vector2(200,  200)   func  _physics_process(delta):      position  +=  speed  *  delta      if  position.y  <=  0  or  position.y  >=  
+600:
+         speed.y  =  -speed.y   def  _on_body_entered(body):      if  body.name  ==  "Paddle":          speed.x  =  -speed.x  
+=== Page 4 ===
+7.  Updating  the  Scoring  System  
+●  When  the  ball  passes  a  paddle,  the  score  
+updates.
+ ●  The  Label  Node  should  reflect  the  new  score  
+immediately.
+ 
+Quiz  Answers  
+1.  How  can  we  play  sounds  in  Godot?  
+●  Use  AudioStreamPlayer  or  
+AudioStreamPlayer2D
+.
+ ●  Load  an  audio  file  and  use  play() to  play  it.  
+2.  How  can  sound  enhance  the  player  experience?  
+●  Add  sound  effects  when  a  point  is  scored.  ●  Play  background  music  during  gameplay.  ●  Include  sound  effects  when  the  ball  hits  the  
+paddle.
+ 
+3.  How  do  you  stop  all  sounds  in  Godot?  
+●  Use  stop() on  all  AudioStreamPlayers .  ●  Another  way  is  setting  the  volume  to  zero  using  AudioServer.set_bus_volume_db().  
+=== Page 5 ===
+Ask  the  students,  What  is  this  trailer  that  we  need  to  
+design?
+ Trailer  Explain  that  a  trailer  (also  known  as  a  preview  or  
+attraction
+ 
+video)
+ 
+is
+ 
+a
+ 
+commercial
+ 
+advertisement
+ 
+for
+ 
+their
+ 
+product
+ 
+which
+ 
+is
+ 
+their
+ 
+game.
+ Explain  that  they  will  design  a  video  trailer  as  an  
+attraction
+ 
+highlighting
+ 
+the
+ 
+game
+ 
+features
+ 
+for
+ 
+players
+ 
+to
+ 
+explore
+ 
+and
+ 
+try
+ 
+their
+ 
+game.
+ Trailer  design  ideas:   First  and  most  important  decision  is  to  choose  what  
+is
+ 
+the
+ 
+theme
+ 
+you
+ 
+want
+ 
+to
+ 
+present
+ 
+your
+ 
+game
+ 
+(serious
+ 
+or
+ 
+light-hearted
+ 
+comedic),
+ 
+depending
+ 
+on
+ 
+your
+ 
+decision
+ 
+choose
+ 
+an
+ 
+appropriate
+ 
+text,
+ 
+images,
+ 
+voices
+ 
+or
+ 
+even
+ 
+voice
+ 
+over
+ 
+your
+ 
+trail
+  1.  Text  appears  “One  day  a  portal  opened  in  the  
+sky”
+ 2.  Transition  3.  Text  appears  “Spawned  Dangerous  creatures!”  4.  Transition  
+=== Page 6 ===
+5.  Play  a  video  (play  video  of  citizens  running  
+around
+ 
+in
+ 
+fear)
+ 6.  Transition  7.  Play  a  video  of  gameplay  (where  the  wizard  is  
+swinging
+ 
+his
+ 
+staff
+ 
+around
+ 
+as
+ 
+he
+ 
+is
+ 
+getting
+ 
+ready
+ 
+to
+ 
+defend
+ 
+the
+ 
+innocent
+ 
+against
+ 
+the
+ 
+incoming
+ 
+terror
+ 
+in
+ 
+the
+ 
+sky)
+ 8.  Transition  9.  Text  appears  “But  there  is  one  hero,  who  stood  
+against
+ 
+this
+ 
+terror!”
+ 10.  Transition  11.  Play  a  video  (Play  a  gameplay  video  where  
+the
+ 
+wizard
+ 
+is
+ 
+fighting
+ 
+eagles
+ 
+and
+ 
+dodging
+ 
+enemies)
+ 12.  Transition  13.  Text  appears  showing  the  name  of  the  game  
+“Magic
+ 
+Caster”
+ 14.  Transition  15.  Text  appears  “Now  available  on  itch.io”  Making  the  Trailer:  Banner  (for  YouTube  video):  To  create  a  banner  
+for
+ 
+your
+ 
+game,
+ 
+simply
+ 
+take
+ 
+a
+ 
+screenshot
+ 
+of
+ 
+the
+ 
+game
+ 
+and
+ 
+add
+ 
+the
+ 
+game
+ 
+logo.
+ 
+=== Page 7 ===
+ 

@@ -1,0 +1,5852 @@
+
+================================================================================
+SESSION 1 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_01_SLIDE_session1.txt ---
+=== Page 1 ===
+Session 1
+Welcome to
+Game Development with 
+Godot Engine
+
+=== Page 2 ===
+2
+1
+All rights reserved
+In this course, you'll dive into the captivating world of 
+game development 
+using the powerful and versatile Godot Engine. We'll 
+explore the fundamentals of game design, 
+programming, and bring your creative ideas to life.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o Introduction (5 minutes)
+o what is game Development(5 minutes)
+o What is the game Engine (10 minutes)
+o introduction Godot Engine (15 minutes)
+o What are Nodes? (10 minutes)
+o Hands-On: Adding Nodes in Godot (10 minutes)
+o What are Scenes? (10 minutes)
+o Hands-On: Creating a Scene in Godot (10 minutes)
+o Interface of the Godot and make (25 minutes)
+o Recap for the session  (5 minutes)
+o Any Question (5 minutes)
+
+=== Page 4 ===
+2
+3
+All rights reserved
+Creating Interactive Experiences
+Game development involves designing and building 
+engaging, interactive worlds that players can 
+explore and interact with.
+Multidisciplinary Approach
+Game development combines various skills, 
+including programming, art, sound design, and 
+storytelling.
+Endless Possibilities
+The game development field offers a vast array of 
+opportunities, from mobile apps to console games and 
+virtual reality experiences.
+
+=== Page 5 ===
+2
+4
+All rights reserved
+
+=== Page 6 ===
+2
+5
+All rights reserved
+Open-Source Power
+Godot is a free and open-source 
+game engine that offers a 
+comprehensive set of tools for 
+game development.
+Free assets
+Light Wight to Developed
+Cross-Platform Compatibility
+Godot allows you to build games for 
+a wide range of platforms, including 
+PC, console, and mobile devices.
+Design 2D and 3D Games
+Intuitive Interface
+Godot's user-friendly interface 
+and visual scripting system make 
+it accessible for both experienced 
+and novice developers.
+Use GD Scrapt
+=== Page 7 ===
+2
+6
+All rights reserved
+Based Building Block On Code 
+The child node inherits properties from the parent 
+=== Page 8 ===
+2
+7
+All rights reserved
+New Node
+=== Page 9 ===
+2
+8
+All rights reserved
+Scenes
+Godot organizes your game into individual scenes, which 
+can be combined to create the full game world.
+Nodes
+Nodes are the building blocks of your scenes, 
+representing different game elements like characters, 
+objects, or UI components.
+Scripting
+Godot's scripting system, using GDScript or other 
+programming languages, allows you to add interactivity 
+and logic to your game.
+
+=== Page 10 ===
+2
+9
+All rights reserved
+Add text here
+=== Page 11 ===
+2
+10
+All rights reserved
+Add text here
+=== Page 12 ===
+2
+11
+All rights reserved
+Add text here
+=== Page 13 ===
+2
+12
+All rights reserved
+Add text here
+=== Page 14 ===
+2
+13
+All rights reserved
+Add text here
+=== Page 15 ===
+2
+14
+All rights reserved
+Add text here
+=== Page 16 ===
+2
+15
+All rights reserved
+o Give the script a name then press Create.
+o The Script Editor will open with your script.
+o make your code inside any special  method
+o explan the Ready() and  process()
+=== Page 17 ===
+2
+16
+All rights reserved
+Add text here
+=== Page 18 ===
+2
+17
+All rights reserved
+• Documentation
+Comprehensive official documentation 
+to help you learn and master Godot.
+• Tutorial Videos
+Explore a wealth of tutorial videos on YouTube 
+to enhance your Godot skills.
+• Open-Source Resources
+Discover a vast library of open-source Godot 
+projects to learn from and build upon.
+• Community Forums
+Engage with a vibrant community of Godot 
+developers to ask questions and share ideas.
+=== Page 19 ===
+2
+18
+All rights reserved
+Unleash Your Creativity
+Godot empowers you to bring your game 
+ideas to life, no matter how ambitious or 
+unique they may be.
+Develop Essential Skills
+By learning Godot, you'll cultivate valuable 
+skills in programming, art, design, and 
+project management.
+Endless Possibilities
+The game development field offers a wide 
+range of career opportunities, from indie 
+studios to major publishers.
+
+=== Page 20 ===
+2
+19
+All rights reserved
+ What is a Node ?
+ What are the key benefits of using Godot?
+  What is the Game Engine 
+
+
+
+--- FILE: SESSION_01_TG_TG__session_1.txt ---
+=== Page 1 ===
+ Download   https://godotengine.org/download/   Documentation  
+ https://docs.godotengine.org/en/stable/   https://www.youtube.com/watch?v=QKgTZWbwD1U https://www.youtube.com/watch?v=V57nUF7kOjs   Quiz  
+What
+ 
+is
+ 
+a
+ 
+Note?
+ 
+A  note  can  refer  to  various  concepts  depending  on  
+the
+ 
+context,
+ 
+but
+ 
+generally,
+ 
+it
+ 
+means:
+ 1.  Written  Information :  A  short  piece  of  writing  to  
+capture
+ 
+important
+ 
+points,
+ 
+reminders,
+ 
+or
+ 
+observations.
+ 2.  Musical  Tone :  A  sound  with  a  specific  pitch  and  
+duration,
+ 
+used
+ 
+in
+ 
+music.
+ 
+=== Page 2 ===
+3.  General  Reference :  Any  form  of  remark,  
+annotation,
+ 
+or
+ 
+acknowledgment.
+ In  programming  or  game  development,  a  "note"  
+might
+ 
+refer
+ 
+to
+ 
+a
+ 
+comment
+ 
+within
+ 
+the
+ 
+code
+ 
+or
+ 
+a
+ 
+point
+ 
+of
+ 
+reference
+ 
+in
+ 
+documentation.
+  
+What  is  a  Game  Engine?  
+A  game  engine  is  a  software  framework  or  platform  
+designed
+ 
+to
+ 
+streamline
+ 
+the
+ 
+creation
+ 
+and
+ 
+development
+ 
+of
+ 
+video
+ 
+games.
+ 
+It
+ 
+provides
+ 
+tools,
+ 
+functionalities,
+ 
+and
+ 
+libraries
+ 
+to
+ 
+handle
+ 
+the
+ 
+core
+ 
+elements
+ 
+of
+ 
+game
+ 
+development,
+ 
+such
+ 
+as:
+ 1.  Graphics  Rendering :  To  display  2D  or  3D  
+visuals.
+ 2.  Physics  Simulation :  To  create  realistic  object  
+interactions.
+ 3.  Animation :  To  design  movements  of  characters  
+and
+ 
+objects.
+ 4.  Audio :  To  integrate  sound  effects  and  music.  5.  Input  Handling :  To  process  user  interactions  
+(keyboard,
+ 
+mouse,
+ 
+or
+ 
+controllers).
+ 6.  Scripting :  To  define  game  logic  and  behaviors.  
+=== Page 3 ===
+7.  Multiplatform  Support :  To  deploy  games  on  
+multiple
+ 
+platforms
+ 
+(PC,
+ 
+mobile,
+ 
+console).
+ Popular  game  engines  include  Unity,  Unreal  Engine,  
+Godot,
+ 
+and
+ 
+GameMaker
+ 
+Studio.
+  
+What  are  the  Key  Benefits  of  Using  Godot?  
+Godot  is  an  open-source  and  user-friendly  game  
+engine
+ 
+that
+ 
+has
+ 
+become
+ 
+popular
+ 
+for
+ 
+both
+ 
+2D
+ 
+and
+ 
+3D
+ 
+game
+ 
+development.
+ 
+Below
+ 
+are
+ 
+its
+ 
+key
+ 
+benefits
+:
+ 
+1.  Open  Source  and  Free:  
+●  Godot  is  entirely  free  to  use  with  no  royalties  or  
+subscription
+ 
+fees.
+ ●  You  can  modify  its  source  code  to  suit  your  
+needs.
+ 
+2.  Strong  Support  for  2D  and  3D  Games:  
+●  It  has  separate  engines  for  2D  and  3D  
+development,
+ 
+offering
+ 
+optimized
+ 
+performance.
+ ●  The  2D  engine  is  particularly  robust  for  
+pixel-perfect
+ 
+games.
+ 
+3.  Easy-to-Learn  Scripting:  
+=== Page 4 ===
+●  Uses  GDScript,  a  Python-like  language,  which  is  
+easy
+ 
+to
+ 
+learn
+ 
+and
+ 
+highly
+ 
+optimized
+ 
+for
+ 
+game
+ 
+development.
+ ●  Supports  C#,  VisualScript,  and  C++  for  more  
+advanced
+ 
+users.
+ 
+4.  Lightweight  and  Fast:  
+●  Godot  has  a  small  file  size  and  performs  
+efficiently,
+ 
+even
+ 
+on
+ 
+less
+ 
+powerful
+ 
+hardware.
+ 
+5.  Node-Based  Architecture:  
+●  Projects  in  Godot  are  structured  hierarchically  
+using
+ 
+nodes,
+ 
+making
+ 
+it
+ 
+easy
+ 
+to
+ 
+organize
+ 
+and
+ 
+develop
+ 
+complex
+ 
+games.
+ 
+6.  Cross-Platform  Support:  
+●  You  can  export  your  games  to  PC,  mobile,  web,  
+and
+ 
+even
+ 
+console
+ 
+platforms.
+ 
+7.  Rich  Editor  Features:  
+●  Godot  includes  a  fully-featured,  intuitive  editor  
+with
+ 
+support
+ 
+for
+ 
+animation,
+ 
+visual
+ 
+scripting,
+ 
+and
+ 
+live
+ 
+debugging.
+ 
+8.  Vibrant  Community  and  Documentation:  
+●  A  growing  community  provides  tutorials,  plugins,  
+and
+ 
+support.
+ 
+=== Page 5 ===
+●  Extensive  documentation  and  guides  for  
+beginners.
+ 
+9.  No  Royalties  or  Licensing  Fees:  
+●  Unlike  some  engines,  Godot  lets  you  keep  100%  
+of
+ 
+your
+ 
+game's
+ 
+revenue.
+ 
+10.  Active  Development:  
+●  The  Godot  team  frequently  updates  the  engine  
+with
+ 
+new
+ 
+features
+ 
+and
+ 
+improvements.
+  
+
+
+================================================================================
+SESSION 2 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_02_SLIDE_session2.txt ---
+=== Page 1 ===
+Session 2
+Nodes, Scenes,
+and Functions 
+in Godot
+
+=== Page 2 ===
+2
+1
+All rights reserved
+In this lesson, we'll dive deep into the fundamental building 
+blocks of Godot: nodes and scenes. We'll explore how these 
+elements work together to create complex game 
+structures and learn about GDScript, Godot's powerful 
+scripting language. By the end of this lesson, you'll have a 
+solid understanding of how to organize your project, 
+create interactive scenes, and write efficient code using 
+functions. Get ready to take your Godot skills to the next 
+level as we embark on this exciting journey into the heart 
+of game development!
+
+=== Page 3 ===
+2
+2
+All rights reserved
+What they remember about each of the following topics:
+o Game Engines
+o Godot Game Engine
+o Nodes
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o What are Nodes and Scenes?
+o Creating and Organizing Nodes and scence
+o Organizing Your Project Files
+o Godot's Scripting Language
+o GDScript Syntax
+o Functions in GDScript
+o Special Functions: ready() and process()
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Nodes: The Building Blocks
+Nodes are the fundamental elements in Godot, 
+representing specific functionalities like sprites, 
+sounds, or physics objects. They are the atomic 
+units of your game, each with its own properties 
+and behaviors.
+Scenes: Organizing Complexity
+Scenes are collections of nodes arranged in a 
+hierarchical structure. They allow you to create 
+reusable, modular components of your game, 
+from characters to entire levels.
+Scene Tree: The Big Picture
+The scene tree is the overall structure of your 
+game, showing how different scenes and nodes 
+are connected and interact with each other.
+Inheritance: Power of Reusability
+Scenes can inherit from other scenes, allowing 
+you to create complex objects while maintaining 
+a clean, organized structure and promoting 
+code reuse.
+
+=== Page 6 ===
+2
+5
+All rights reserved
+• ADDING NODES
+Start by clicking the '+' button in the Scene panel or using the "Add Child Node" option. Choose from 
+a variety of node types like Sprite, Area2D, or KinematicBody2D to suit your game's needs.
+• NAMING AND POSITIONING
+Give your nodes descriptive names and arrange them in the Scene tree. Use parent-
+child relationships to create logical groupings and establish inheritance.
+• CONFIGURING PROPERTIES
+Adjust node properties in the Inspector panel. Set positions, scales, and other attributes 
+to define how each node behaves and appears in your game.
+• ADDING SCRIPTS
+Attach GDScript files to nodes to add custom behavior. Right-click a node and select 
+"Attach Script" to create or link a script file.
+
+=== Page 7 ===
+2
+6
+All rights reserved
+add new node and 
+any node you create will 
+found it here 
+=== Page 8 ===
+2
+7
+All rights reserved
+Step 1: Set Up the Scene
+Step 2: Add Player 
+Character Step 3: Create UI Elements
+Create a new scene with a Node2D 
+as the root. Add a Sprite node for 
+the background and set its 
+texture. Position it to cover the 
+entire game view.
+Create a KinematicBody2D node 
+as a child of the root. Add a Sprite 
+node to it and set the player's 
+texture. Adjust the collision shape 
+to match the sprite.
+Add a CanvasLayer node for the 
+UI. Create Label nodes for the 
+score and health display. Position 
+them appropriately on the screen 
+using anchors and margins.
+
+=== Page 9 ===
+2
+8
+All rights reserved
+here you can create scene 
+and select 2D or 3D game
+=== Page 10 ===
+2
+9
+All rights reserved
+Design Game Structure:
+Plan your game's overall structure, identifying main components like players, 
+enemies, and levels. Sketch out how these elements will interact within the 
+game world.
+Create Main Scenes
+Develop separate scenes for major game elements. For example, create a 
+"Player" scene with all necessary nodes and scripts, and a "Level" scene to 
+house the game environment.
+Build Hierarchies
+Organize your nodes within each scene logically. Use parent-child relationships 
+to group related elements and create efficient, modular structures.
+Instance and Combine
+Instance your created scenes within a main game scene. This allows you to bring 
+all elements together while maintaining the ability to edit individual components 
+separately.
+=== Page 11 ===
+2
+10
+All rights reserved
+Scenes
+ Folder
+Assets
+ Folder
+Scripts 
+Folder
+Resources 
+Folder
+=== Page 12 ===
+2
+11
+All rights reserved
+Performance Optimized
+Designed specifically for Godot, 
+GDScript offers excellent performance 
+for game development tasks and 
+seamless engine integration.
+Python-like Syntax
+GDScript features a syntax similar 
+to Python, making it easy to learn 
+for beginners and familiar to 
+experienced programmers.
+
+=== Page 13 ===
+2
+12
+All rights reserved
+
+=== Page 14 ===
+2
+13
+All rights reserved
+Feature Example Description
+Variables var health = 100
+Declare variables with 'var' 
+keyword
+Functions func jump():
+Define functions with 'func' 
+keyword
+Conditionals if health <= 0:
+Use if, elif, and else for control 
+flow
+Loops for item in inventory:
+Use for and while loops for 
+iteration
+Classes class_name Player
+Create custom classes with 
+inheritance
+
+=== Page 15 ===
+2
+14
+All rights reserved
+
+=== Page 16 ===
+2
+15
+All rights reserved
+
+=== Page 17 ===
+2
+16
+All rights reserved
+
+=== Page 18 ===
+2
+17
+All rights reserved
+
+=== Page 19 ===
+2
+18
+All rights reserved
+FUNCTION BODY
+Write the function's code block indented after a colon. Use the 'return' keyword to specify the function's 
+output. Example: return attack_power - defense
+FUNCTION DECLARATION
+Use the 'func' keyword followed by the function name and parentheses. Optionally specify parameters 
+and return type. For example: func calculate_damage(attack_power: int, defense: int) -> int:
+CALLING FUNCTIONS
+Invoke functions using their name followed by parentheses, passing any required arguments. For 
+instance: var damage = calculate_damage(player.attack, enemy.defense)
+BUILT-IN FUNCTIONS
+Utilize Godot's extensive library of built-in functions for common tasks. These include node 
+operations, math utilities, and engine callbacks like _ready() and _process(delta).
+
+=== Page 20 ===
+2
+19
+All rights reserved
+
+=== Page 21 ===
+2
+20
+All rights reserved
+print(“Hello”)
+print(“5+4”)
+print(“5+4”)
+=== Page 22 ===
+2
+21
+All rights reserved
+ What is GDScript ?
+ What is a Variable ?
+ Explain 3 primitive data type ?
+
+
+
+--- FILE: SESSION_02_TG_TGLESSON2.txt ---
+=== Page 1 ===
+Programming Questions and Agenda Explanation
+1. What is GDScript?
+GDScript is a high-level, dynamically typed programming language used in the Godot Engine. It is
+designed specifically for game development and integrates seamlessly with Godot's features,
+offering a simple and efficient way to write scripts for game logic, UI interactions, and more.
+2. What is a Variable?
+A variable is a named storage location in memory that holds a value, which can change during
+program execution. Variables are fundamental in programming, allowing developers to store and
+manipulate data efficiently.
+3. Explain 3 primitive data types?
+- Integer (int): Represents whole numbers, such as 10 and -5.
+- Float: Represents decimal numbers, such as 3.14 and -0.5.
+- Boolean (bool): Represents true or false values.
+Agenda Explanation
+What are Nodes and Scenes?
+Scenes and Nodes form the foundation of Godot projects. A scene is a collection of nodes.
+Creating and Organizing Nodes and Scenes
+Explains how to create and manage nodes within scenes for structured game design.
+Organizing Your Project Files
+Covers best practices for file organization within Godot for maintainability and teamwork.
+Godot's Scripting Language
+Introduces GDScript, the primary scripting language for Godot.
+GDScript Syntax
+Covers the basic syntax of GDScript, including variables and functions.
+=== Page 2 ===
+Functions in GDScript
+Explains how to create and use functions in GDScript.
+Special Functions: ready() and process()
+Details the purpose of ready() and process() functions in controlling game logic.
+
+
+================================================================================
+SESSION 3 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_03_SLIDE_session3.txt ---
+=== Page 1 ===
+Session 3
+Game Art style 
+and Animated 
+Sprite
+
+=== Page 2 ===
+2
+1
+All rights reserved
+This lesson will guide you through creating 
+captivating 2D game worlds. You'll learn to 
+bring your ideas to life by building and 
+animating sprites, the visual foundation of 
+your game. We'll also explore how to make 
+objects interact with each other using 
+collision detection.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+What they remember about each of the following topics:
+o What are Nodes and Scenes?
+o Godot's Scripting Language
+o What is the  Special Functions?
+=== Page 4 ===
+2
+3
+All rights reserved
+o What are Sprites?
+o Types of Sprites
+o Game Art Style
+o type of game art style
+o Animating Sprites for Movement
+o Frame Animation
+o movment and speed in game
+
+=== Page 5 ===
+2
+4
+All rights reserved
+
+=== Page 6 ===
+2
+5
+All rights reserved
+Game art styles uses visual aesthetics 
+to create unique and immersive 
+experiences
+
+=== Page 7 ===
+2
+6
+All rights reserved
+Realistic Art Style
+
+=== Page 8 ===
+2
+7
+All rights reserved
+Cartoonish Art Style
+
+=== Page 9 ===
+2
+8
+All rights reserved
+Pixel Art Style
+
+=== Page 10 ===
+2
+9
+All rights reserved
+
+=== Page 11 ===
+2
+10
+All rights reserved
+Aspect PUBG Fortnite
+Overall Style Realistic Cartoonish
+Color Palette Muted, earthy tones Bright, vibrant colors
+Character Design Realistic proportions Exaggerated features
+Environment Detailed, gritty landscapes Stylized, whimsical settings
+
+=== Page 12 ===
+2
+11
+All rights reserved
+www.CraftPix.net
+opengameart.org/
+gamedevmarket.net
+assetstore.unity.com
+
+=== Page 13 ===
+2
+12
+All rights reserved
+Sprite Sheets
+Sprite sheets efficiently organize multiple sprites 
+within a single image, saving memory and 
+improving performance.
+What are Sprites?
+Sprites are the individual images used to create 
+the visuals of your game. They represent 
+characters, objects, and background elements.
+Types of Sprites
+Common sprite types include character sprites, 
+object sprites, and tile-based sprites for 
+backgrounds.
+
+=== Page 14 ===
+2
+13
+All rights reserved
+
+=== Page 15 ===
+2
+14
+All rights reserved
+• FRAME-BY-FRAME ANIMATION
+This technique involves creating multiple individual frames of 
+animation that are displayed in sequence to create movement.
+• SPRITE SHEETS
+Sprite sheets can be used to efficiently store and manage 
+the multiple frames needed for animation.
+• ANIMATION TIMING
+Adjusting the speed at which frames are displayed controls 
+the pace and fluidity of the animation.
+
+=== Page 16 ===
+2
+15
+All rights reserved
+ Sprite sheets can be used to 
+efficiently store and manage 
+the multiple frames needed for 
+animation.
+=== Page 17 ===
+2
+16
+All rights reserved
+
+=== Page 18 ===
+2
+17
+All rights reserved
+
+=== Page 19 ===
+2
+18
+All rights reserved
+first creat Node 2D as 
+parent
+=== Page 20 ===
+2
+19
+All rights reserved
+2 add child node called 
+Animated sprite
+=== Page 21 ===
+2
+20
+All rights reserved
+You may see a warning 
+here because the frame is 
+still empty.
+=== Page 22 ===
+2
+21
+All rights reserved
+Drag and drop your frame 
+here, generate a name, 
+and click play.
+=== Page 23 ===
+2
+22
+All rights reserved
+ What is art style ?
+ What type of art style are we aiming for in 
+the game?
+ Can you explain the steps to add an animated 
+sprite and frames in a game?
+
+
+
+--- FILE: SESSION_03_TG_TG_LESSON_3.txt ---
+=== Page 1 ===
+Game Art and Animation
+Types of Sprites:
+Sprites are 2D images or animations that represent objects in a game. 
+They can be static or animated, used for characters, environments, and UI elements.
+Game Art Style:
+Game art style defines the visual appearance of a game, including colors, textures, and design
+techniques.
+Types of Game Art Style:
+- Pixel Art: Uses small pixels to create images, common in retro games.
+- 3D Art: Uses 3D models and rendering for realistic visuals.
+- Vector Art: Uses scalable vector graphics for smooth and clean visuals.
+- Hand-Drawn Art: Styled like traditional drawings.
+- Low-Poly Art: Simplified 3D graphics with low polygon counts.
+Animating Sprites for Movement:
+Sprites are animated using multiple frames to create a smooth motion effect.
+Frame Animation:
+Frame-by-frame animation is used to create movement by displaying different images (frames) in
+sequence.
+Movement and Speed in Game:
+Movement in games depends on frame rate and physics. Speed is controlled by updating the
+sprite?s position per frame.
+Questions & Answers:
+1. What is art style?
+Art style is the visual design approach used in a game, including color schemes, character designs,
+and artistic techniques.
+2. What type of art style are we aiming for in the game?
+The choice of art style depends on the game's theme. For example, a retro game may use pixel art,
+while a modern game might use 3D or hand-drawn styles.
+=== Page 2 ===
+3. Can you explain the steps to add an animated sprite and frames in a game?
+   - Create or import a sprite sheet with multiple frames.
+   - Load the sprite sheet into the game engine.
+   - Define the animation sequence by setting frame order and timing.
+   - Implement a loop to update the sprite frame at each time interval.
+   - Integrate movement and physics if needed.
+
+
+================================================================================
+SESSION 4 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_04_SLIDE_session4.txt ---
+=== Page 1 ===
+Session 4
+Godot Movement &  
+Logic: Operators 
+in Action
+
+=== Page 2 ===
+2
+1
+All rights reserved
+This presentation will introduce you to basic 
+movement mechanics and the operators 
+that power them, including arithmetic, 
+comparison, and logical operators.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o GDScript
+o Game Art Style
+o Animating Sprites for Movement
+o Frame Animation
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Understand and apply the basics of functions 
+and control structures in GDScript.
+o Learn how to use logical operators (and, or, 
+not) effectively.
+o Gain an understanding of comparison 
+operators (==, !=, <, >).
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Operator Description Example Result
++ Addition 5 + 3 8
+- Subtraction 10 - 6 4
+* Multiplication 4 * 2 8
+/ Division 9 / 3 3
+% Modulus (remainder) 10 % 3 1
+** / ^ Exponentiation (power) 2 ** 3 8
+// Floor Division (integer division) 7 // 2 3
+
+=== Page 6 ===
+2
+5
+All rights reserved
+Operator Description Example Result
+== Equal to 5 == 5 true
+!= Not equal to 5 != 3 true
+> Greater than 7 > 4 true
+< Less than 3 < 5 true
+>= Greater than or equal to 6 >= 6 true
+<= Less than or equal to 4 <= 5 true
+
+=== Page 7 ===
+2
+6
+All rights reserved
+Operator Description Example Result
+and
+Returns true if both conditions
+ are true (5 > 3) and (2 < 4) true
+or
+Returns true if at least 
+one condition is true (5 > 3) or (2 > 4) true
+not
+Reverses the boolean value
+ of a condition not(5 > 3) false
+
+=== Page 8 ===
+2
+7
+All rights reserved
+we’ll use  operator to 
+make the move more 
+restriction 
+=== Page 9 ===
+2
+8
+All rights reserved
+CREATE variable hold node
+compare the position for 
+current sprite with another one
+call set_scale function to handel 
+the flipping for sprite 
+=== Page 10 ===
+2
+9
+All rights reserved
+ Can you name three types of Comparison Operators, 
+Logical Operators, Znd Arithmetic Operators?
+ What does the function set_scale(Vector2(x, y)) do?
+ How can Logical Operators be used to combine 
+multiple conditions?
+
+
+
+--- FILE: SESSION_04_TG_TG__session_4.txt ---
+=== Page 1 ===
+ Download   https://godotengine.org/download/   Documentation  
+ https://docs.godotengine.org/en/stable/     Quiz  
+1.
+ 
+Three
+ 
+Types
+ 
+of
+ 
+Comparison,
+ 
+Logical,
+ 
+and
+ 
+Arithmetic
+ 
+Operators
+ 
+Comparison  Operators:  
+Comparison  operators  are  used  to  compare  two  
+values.
+ 
+Here
+ 
+are
+ 
+three
+ 
+types:
+ 
+●  == (Equal  to)  →  Checks  if  two  values  are  equal.  
+Example:
+ 5  ==  5 (True)  ●  != (Not  equal  to)  →  Checks  if  two  values  are  not  
+equal.
+ 
+Example:
+ 10  !=  5 (True)  
+=== Page 2 ===
+●  >= (Greater  than  or  equal  to)  →  Checks  if  a  
+value
+ 
+is
+ 
+greater
+ 
+than
+ 
+or
+ 
+equal
+ 
+to
+ 
+another.
+ 
+Example:
+ 8  >=  6 (True)  
+Logical  Operators:  
+Logical  operators  are  used  to  combine  multiple  
+conditions
+ 
+and
+ 
+return
+ 
+a
+ 
+boolean
+ 
+result.
+ 
+Three
+ 
+common
+ 
+ones
+ 
+are:
+ 
+●  and →  Returns  True if  both  conditions  are  true.  
+Example:
+ (5  >  2)  and  (10  <  20) (True)  ●  or →  Returns  True if  at  least  one  condition  is  
+true.
+ 
+Example:
+ (5  <  2)  or  (10  <  20) 
+(True)
+ ●  not →  Reverses  the  boolean  value  of  a  
+condition.
+ 
+Example:
+ not  (5  >  2) (False)  
+Arithmetic  Operators:  
+Arithmetic  operators  perform  mathematical  
+operations.
+ 
+Three
+ 
+examples
+ 
+are:
+ 
+●  + (Addition)  →  Adds  two  numbers.  Example:  5  
++
+ 
+3 (8)  ●  - (Subtraction)  →  Subtracts  one  number  from  
+another.
+ 
+Example:
+ 10  -  4 (6)  
+=== Page 3 ===
+●  * (Multiplication)  →  Multiplies  two  numbers.  
+Example:
+ 7  *  2 (14)  
+ 
+2.  What  does  the  function  set_scale(Vector2(x,  y)) do?  
+The  function  set_scale(Vector2(x,  y)) is  
+typically
+ 
+used
+ 
+in
+ 
+game
+ 
+development,
+ 
+especially
+ 
+in
+ 
+engines
+ 
+like
+ 
+Godot
+,
+ 
+to
+ 
+change
+ 
+the
+ 
+scale
+ 
+of
+ 
+an
+ 
+object.
+ 
+●  Vector2(x,  y) represents  a  2D  vector  
+where:
+ ○  x is  the  scaling  factor  along  the  horizontal  
+axis.
+ ○  y is  the  scaling  factor  along  the  vertical  axis.  ●  Effect:  It  resizes  the  object  by  scaling  it.  Example:  
+sprite.set_scale(Vector2(2,
+ 
+2))
+  
+#
+ 
+Doubles
+ 
+the
+ 
+size
+ 
+of
+ 
+the
+ 
+sprite
+ ●  sprite.set_scale(Vector2(0.5,  0.5))   #  Shrinks  the  
+sprite
+ 
+to
+ 
+half
+ 
+its
+ 
+size
+ 
+=== Page 4 ===
+  3.  How  can  Logical  Operators  be  used  to  combine  multiple  conditions?  
+Logical  operators  (and,  or,  not)  allow  us  to  
+evaluate
+ 
+multiple
+ 
+conditions
+ 
+together,
+ 
+returning
+ True 
+or
+ False based  on  the  results.  
+Using  and (Both  conditions  must  be  true)  
+Example:  Checking  if  a  student  passes  both  Math  
+and
+ 
+English:
+ 
+
+=== Page 5 ===
+  
+
+
+
+================================================================================
+SESSION 5 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_05_SLIDE_session5.txt ---
+=== Page 1 ===
+Session 5
+The Software 
+Development Life Cycle 
+(SDLC) for Game 
+Development
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll explore the Software Development Life Cycle 
+(SDLC) and how it applies to building amazing games. 
+We'll discuss the process from ideation to release and 
+how to integrate it with game design principles.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o comparison operators (==, !=, <, >)
+o logical operators (and, or, not)
+o set_scale function
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Introduction to SDLC in Game Development (5 mins)
+o Phases of SDLC (15 mins)
+o Game Design Principles (10 mins)
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Idea Generation
+Start by brainstorming! Let your creativity flow and come 
+up with exciting game concepts. Consider the target 
+audience, gameplay mechanics, and story elements.
+Prototyping
+Create a basic, playable version of your game to test 
+core mechanics and gather feedback. Prototyping 
+helps identify potential problems early on.
+
+=== Page 6 ===
+2
+5
+All rights reserved
+
+=== Page 7 ===
+2
+6
+All rights reserved
+Aesthetics
+The main objective of the game, 
+what players aim to achieve.
+Story
+The narrative that drives 
+the game's experience.
+Rules
+The guidelines that govern 
+gameplay and interactions.
+Mechanics
+Technology refers to any materials 
+and interactions that make your game 
+possible. The roles that technology 
+plays in games vary from game types.
+
+=== Page 8 ===
+2
+7
+All rights reserved
+
+=== Page 9 ===
+2
+8
+All rights reserved
+Define project scope, requirements, and timelines. 
+Establish a roadmap for development.
+
+=== Page 10 ===
+2
+9
+All rights reserved
+Develop detailed blueprints for the software, 
+including architecture and user interface design.
+
+=== Page 11 ===
+2
+10
+All rights reserved
+Transform the design into functional code, following 
+best practices and coding standards.
+
+=== Page 12 ===
+2
+11
+All rights reserved
+Thoroughly test the software to identify and fix 
+bugs and ensure it meets requirements.
+
+=== Page 13 ===
+2
+12
+All rights reserved
+Release the software to users, making it accessible 
+for play or use.
+
+=== Page 14 ===
+2
+13
+All rights reserved
+Address bugs, update features, and provide ongoing 
+support after release.
+
+=== Page 15 ===
+2
+14
+All rights reserved
+Implementation
+Coding, art assets, and sound design.
+Planning
+Game concept, target audience, and development goals.
+Design
+Game mechanics, levels, characters, UI, and sound.
+Testing
+Gameplay, bug fixing, and balance adjustments.
+Deployment
+Release, marketing, and ongoing support.
+
+=== Page 16 ===
+2
+15
+All rights reserved
+ Can you name the main phases of the Software Development Life 
+Cycle (SDLC)? How do you think they relate to creating a game?
+ Why is it important to integrate game design principles, like player 
+engagement or storytelling, into the SDLC process?
+ During the SDLC, which phase do you think is the 
+most challenging for game development, and why?
+
+
+
+--- FILE: SESSION_05_TG_TG__session_5.txt ---
+=== Page 1 ===
+     
+ﺗﻛﻣل اﻟﻣﺷروع اﻟﺧﺎص  MOVE  
+SPRITE
+ 
+    SDLC  دورة ﺣﯾﺎة ﺗطوﯾر  اﻟﺑرﻣﺟﯾﺎت  Software  Development  Life  
+Cycle
+ 
+-
+ 
+SDLC)
+ 
+ھﻲ
+ 
+ﻣﺟﻣوﻋﺔ
+ 
+ﻣن
+ 
+اﻟﺧطوات
+ 
+اﻟﺗﻲ
+ 
+ﯾﺗﺑﻌﮭﺎ
+ 
+اﻟﻣطورون
+ 
+ﻋﻧد
+ 
+إﻧﺷﺎء
+ 
+أي
+ 
+ﺑرﻧﺎﻣﺞ
+ 
+أو
+ 
+ﻟﻌﺑﺔ.
+ 
+ﯾﻣﻛﻧﻧﺎ
+ 
+ﺗﺷﺑﯾﮭﮭﺎ
+ 
+ﺑﺧطوات
+ 
+ﺑﻧﺎء
+ 
+ﻣﻧزل
+ 
+أو
+ 
+إﻋداد
+ 
+وﺻﻔﺔ
+ 
+طﻌﺎم،
+ 
+ﺣﯾث
+ 
+ﯾﺟب
+ 
+اﺗﺑﺎع
+ 
+ﺧطوات
+ 
+ﻣﻌﯾﻧﺔ
+ 
+ﻟﻠوﺻول
+ 
+إﻟﻰ
+ 
+اﻟﻧﺗﯾﺟﺔ
+ 
+اﻟﻣطﻠوﺑﺔ
+.
+ 
+1.  اﻟﺗﺧطﯾط  Planning)  
+📌  ﻣﺎ  ھو  اﻟﺗﺧطﯾط؟  
+ 
+ھذه
+ 
+ھﻲ
+ 
+اﻟﺧطوة
+ 
+اﻷوﻟﻰ
+ 
+اﻟﺗﻲ
+ 
+ﻧﻘوم
+ 
+ﻓﯾﮭﺎ
+ 
+ﺑوﺿﻊ
+ 
+ﻓﻛرة
+ 
+واﺿﺣﺔ
+ 
+ﺣول
+ 
+اﻟﻣﺷروع.
+ 
+ﻓﻲ
+ 
+ﺣﺎﻟﺔ
+ 
+اﻷﻟﻌﺎب،
+ 
+ﻧﺳﺄل
+ 
+أﺳﺋﻠﺔ
+ 
+ﻣﺛل
+:
+ 
+=== Page 2 ===
+●  ﻣﺎ  ﻧوع  اﻟﻠﻌﺑﺔ  اﻟﺗﻲ  ﻧرﯾد  إﻧﺷﺎﺋﮭﺎ؟  )أﻛﺷن،  ﺗﻌﻠﯾﻣﯾﺔ،  ﻣﻐﺎﻣرات؟)  ●  ﻣن  ھو  اﻟﺟﻣﮭور  اﻟﻣﺳﺗﮭدف؟  )أطﻔﺎل،  ﻣراھﻘون،  ﺑﺎﻟﻐون؟)  ●  ﻣﺎ  ھﻲ  اﻷھداف  اﻟﺗﻲ  ﻧرﯾد  ﺗﺣﻘﯾﻘﮭﺎ؟  🎮  ﻣﺛﺎل  
+ 
+ﺗﺧﯾل
+ 
+أﻧﻧﺎ
+ 
+ﻧرﯾد
+ 
+إﻧﺷﺎء
+ 
+ﻟﻌﺑﺔ
+ 
+ﺗﻌﻠﯾﻣﯾﺔ
+ 
+ﺗﺳﺎﻋد
+ 
+اﻷطﻔﺎل
+ 
+ﻋﻠﻰ
+ 
+ﺗﻌﻠم
+ 
+اﻟرﯾﺎﺿﯾﺎت
+ 
+ﺑطرﯾﻘﺔ
+ 
+ﻣﻣﺗﻌﺔ
+.
+  
+2.  اﻟﺗﺻﻣﯾم  Design)  
+📌  ﻣﺎ  ھو  اﻟﺗﺻﻣﯾم؟  
+ 
+ﻓﻲ
+ 
+ھذه
+ 
+اﻟﻣرﺣﻠﺔ،
+ 
+ﻧﺑدأ
+ 
+ﻓﻲ
+ 
+ﺗﺧطﯾط
+ 
+ﺗﻔﺎﺻﯾل
+ 
+اﻟﻠﻌﺑﺔ
+ 
+أو
+ 
+اﻟﺑرﻧﺎﻣﺞ
+ 
+ﻣن
+ 
+ﺧﻼل
+:
+ ●  ﺗﺻﻣﯾم  اﻟﺷﺧﺻﯾﺎت  واﻟﻣﺳﺗوﯾﺎت.  ●  ﺗﺣدﯾد  طرﯾﻘﺔ  اﻟﻠﻌب  )ﻛﯾف  ﺳﯾﺗﺣرك  اﻟﻼﻋب؟  ﻛﯾف  ﺳﯾﻛﺳب  ﻧﻘﺎطًﺎ؟.)  ●  ﺗﺻﻣﯾم  اﻟواﺟﮭﺔ  )اﻷزرار،  اﻷﻟوان،  اﻟﺧطوط.)  ●  اﺧﺗﯾﺎر  اﻷﺻوات  واﻟﺗﺄﺛﯾرات  اﻟﺑﺻرﯾﺔ.  🎨  ﻣﺛﺎل  
+ 
+إذا
+ 
+ﻛﻧﺎ
+ 
+ﻧﺻﻣم
+ 
+ﻟﻌﺑﺔ
+ 
+ﺗﻌﻠﯾﻣﯾﺔ،
+ 
+ﺳﻧﺣدد
+ 
+ﻛﯾف
+ 
+ﺳﺗظﮭر
+ 
+اﻟﻣﺳﺎﺋل
+ 
+اﻟرﯾﺎﺿﯾﺔ،
+ 
+وﻣﺎ
+ 
+ﯾﺣدث
+ 
+ﻋﻧد
+ 
+اﻹﺟﺎﺑﺔ
+ 
+ﺑﺷﻛل
+ 
+ﺻﺣﯾﺢ
+ 
+أو
+ 
+ﺧﺎطﺊ
+.
+  
+3.  اﻟﺗﻧﻔﯾذ  Implementation)  
+=== Page 3 ===
+📌  ﻣﺎ  ھو  اﻟﺗﻧﻔﯾذ؟  
+ 
+ھذه
+ 
+ھﻲ
+ 
+اﻟﻣرﺣﻠﺔ
+ 
+اﻟﺗﻲ
+ 
+ﯾﺑدأ
+ 
+ﻓﯾﮭﺎ
+ 
+اﻟﻣطورون
+ 
+ﺑﻛﺗﺎﺑﺔ
+ 
+اﻟﻛود
+ 
+اﻟﻔﻌﻠﻲ
+ 
+ﻟﻠﻌﺑﺔ
+ 
+أو
+ 
+اﻟﺑرﻧﺎﻣﺞ،
+ 
+وإﺿﺎﻓﺔ
+ 
+اﻟﺻور،
+ 
+واﻷﺻوات،
+ 
+واﻟرﺳوم
+ 
+اﻟﻣﺗﺣرﻛﺔ
+.
+ 󰞵  ﻣﺛﺎل  
+ 
+ﻓﻲ
+ 
+ﻟﻌﺑﺗﻧﺎ
+ 
+اﻟﺗﻌﻠﯾﻣﯾﺔ،
+ 
+ﺳﻧﻛﺗب
+ 
+اﻷﻛواد
+ 
+اﻟﺗﻲ
+ 
+ﺗﻌرض
+ 
+اﻷﺳﺋﻠﺔ
+ 
+وﺗﺣﺳب
+ 
+اﻹﺟﺎﺑﺎت
+ 
+وﺗظﮭر
+ 
+اﻟﻧﺗﺎﺋﺞ
+ 
+ﻋﻠﻰ
+ 
+اﻟﺷﺎﺷﺔ
+.
+  
+4.  اﻻﺧﺗﺑﺎر  Testing)  
+📌  ﻣﺎ  ھو  اﻻﺧﺗﺑﺎر؟  
+ 
+ﺑﻌد
+ 
+اﻻﻧﺗﮭﺎء
+ 
+ﻣن
+ 
+اﻟﺑرﻣﺟﺔ،
+ 
+ﻧﻘوم
+ 
+ﺑﺗﺟرﺑﺔ
+ 
+اﻟﻠﻌﺑﺔ
+ 
+أو
+ 
+اﻟﺑرﻧﺎﻣﺞ
+ 
+ﻻﻛﺗﺷﺎف
+ 
+أي
+ 
+ﻣﺷﺎﻛل
+ 
+أو
+ 
+أﺧطﺎء
+ 
+Bugs).
+ 
+ﻧﺣﺗﺎج
+ 
+إﻟﻰ
+ 
+اﻟﺗﺄﻛد
+ 
+ﻣن
+:
+ ●  أن  اﻟﻠﻌﺑﺔ  ﺗﻌﻣل  ﻛﻣﺎ  ھو  ﻣﺗوﻗﻊ.  ●  أﻧﮫ  ﻻ  ﺗوﺟد  ﻣﺷﺎﻛل  ﻓﻲ  اﻷزرار  أو  اﻻﺳﺗﺟﺎﺑﺎت.  ●  أن  اﻟﻠﻌﺑﺔ  ﻣﻣﺗﻌﺔ  وﻣﺗوازﻧﺔ  )ﻟﯾﺳت  ﺳﮭﻠﺔ  ﺟدًا  أو  ﺻﻌﺑﺔ  ﺟدًا.)  🐞  ﻣﺛﺎل  
+ 
+إذا
+ 
+ﻛﺎن
+ 
+ھﻧﺎك
+ 
+ﺳؤال
+ 
+رﯾﺎﺿﻲ
+ 
+ﻓﻲ
+ 
+اﻟﻠﻌﺑﺔ
+ 
+وﻛﺎﻧت
+ 
+اﻹﺟﺎﺑﺔ
+ 
+اﻟﺻﺣﯾﺣﺔ
+ 
+ﻻ
+ 
+ﺗُﻘﺑل
+ 
+ﺑﺳﺑب
+ 
+ﺧطﺄ
+ 
+ﻓﻲ
+ 
+اﻟﻛود،
+ 
+ﻓﮭذه
+ 
+ﻣﺷﻛﻠﺔ
+ 
+ﯾﺟب
+ 
+إﺻﻼﺣﮭﺎ
+.
+  
+5.  اﻟﻧﺷر  Deployment)  
+=== Page 4 ===
+📌  ﻣﺎ  ھو  اﻟﻧﺷر؟  
+ 
+ﻋﻧد
+ 
+اﻻﻧﺗﮭﺎء
+ 
+ﻣن
+ 
+اﻻﺧﺗﺑﺎر
+ 
+واﻟﺗﺄﻛد
+ 
+ﻣن
+ 
+أن
+ 
+ﻛل
+ 
+ﺷﻲء
+ 
+ﯾﻌﻣل
+ 
+ﺟﯾدًا،
+ 
+ﻧﻘوم
+ 
+ﺑﺈطﻼق
+ 
+اﻟﻠﻌﺑﺔ
+ 
+أو
+ 
+اﻟﺗطﺑﯾق
+ 
+ﻟﻠﻣﺳﺗﺧدﻣﯾن
+ 
+ﻋﺑر
+ 
+ﻣﺗﺎﺟر
+ 
+اﻟﺗطﺑﯾﻘﺎت
+ 
+أو
+ 
+اﻹﻧﺗرﻧت
+.
+ 🚀  ﻣﺛﺎل  
+ 
+ﻧرﻓﻊ
+ 
+ﻟﻌﺑﺗﻧﺎ
+ 
+اﻟﺗﻌﻠﯾﻣﯾﺔ
+ 
+ﻋﻠﻰ
+ 
+ﻣﺗﺟر
+ 
+ﺟوﺟل
+ 
+ﺑﻼي
+ 
+أو
+ 
+ﻣﺗﺟر
+ 
+أﺑل
+ 
+ﻟﯾﺗﻣﻛن
+ 
+اﻷطﻔﺎل
+ 
+ﻣن
+ 
+ﺗﺣﻣﯾﻠﮭﺎ
+ 
+واﻻﺳﺗﻣﺗﺎع
+ 
+ﺑﮭﺎ
+.
+  
+ﻣﺛﺎل ﺗطﺑﯾﻘﻲ  ﻛﺎﻣل  
+ﺗﺧﯾل أﻧك  ﺗرﯾد  ﺻﻧﻊ  ﻟﻌﺑﺔ  "ﺗﺣدي  اﻟﻌواﺻم"  ﺣﯾث  ﯾظﮭر  اﺳم  دوﻟﺔ،  وﯾﺟب  
+ﻋﻠﻰ
+ 
+اﻟﻼﻋب
+ 
+اﺧﺗﯾﺎر
+ 
+اﻟﻌﺎﺻﻣﺔ
+ 
+اﻟﺻﺣﯾﺣﺔ
+ 
+ﻣن
+ 
+ﺑﯾن
+ 
+ﺛﻼث
+ 
+ﺧﯾﺎرات
+.
+ 🔹  اﻟﺗﺧطﯾط  ﺗﺣدﯾد  ﻓﻛرة  اﻟﻠﻌﺑﺔ،  واﻟﻔﺋﺔ  اﻟﻌﻣرﯾﺔ،  وﻛﯾﻔﯾﺔ  ﻛﺳب  اﻟﻧﻘﺎط.  
+ 
+🔹
+ 
+اﻟﺗﺻﻣﯾم
+ 
+ﺗﺣدﯾد
+ 
+ﺷﻛل
+ 
+اﻷزرار،
+ 
+ﻋدد
+ 
+اﻟﻣﺳﺗوﯾﺎت،
+ 
+اﻷﻟوان،
+ 
+واﻟﺻور.
+ 
+ 
+🔹
+ 
+اﻟﺗﻧﻔﯾذ
+ 
+ﻛﺗﺎﺑﺔ
+ 
+اﻷﻛواد،
+ 
+إﺿﺎﻓﺔ
+ 
+ﻗواﻋد
+ 
+اﻟﻠﻌﺑﺔ،
+ 
+وﺗﺣﻣﯾل
+ 
+اﻟﺻور.
+ 
+ 
+🔹
+ 
+اﻻﺧﺗﺑﺎر
+ 
+ﺗﺟرﺑﺔ
+ 
+اﻟﻠﻌﺑﺔ،
+ 
+إﺻﻼح
+ 
+أي
+ 
+أﺧطﺎء،
+ 
+واﻟﺗﺄﻛد
+ 
+ﻣن
+ 
+ﺳﮭوﻟﺔ
+ 
+اﻻﺳﺗﺧدام.
+ 
+ 
+🔹
+ 
+اﻟﻧﺷر
+ 
+رﻓﻊ
+ 
+اﻟﻠﻌﺑﺔ
+ 
+ﻋﻠﻰ
+ 
+ﻣﺗﺟر
+ 
+اﻟﺗطﺑﯾﻘﺎت
+ 
+وﻣﺷﺎرﻛﺗﮭﺎ
+ 
+ﻣﻊ
+ 
+اﻵﺧرﯾن
+.
+ ﺑﮭذه اﻟطرﯾﻘﺔ،  ﯾﺗم  ﺗطوﯾر  أي  ﻟﻌﺑﺔ  أو  ﺑرﻧﺎﻣﺞ  ﺑطرﯾﻘﺔ  ﻣﻧظﻣﺔ  وﻧﺎﺟﺣﺔ!  
+🚀🎮
+   
+=== Page 5 ===
+ 
+Game  Design  Elements: 
+ 
+ﻋﻧد
+ 
+ﺗﺻﻣﯾم
+ 
+أي
+ 
+ﻟﻌﺑﺔ،
+ 
+ﻧﺣﺗﺎج
+ 
+إﻟﻰ
+ 
+اﻟﺗﻔﻛﯾر
+ 
+ﻓﻲ
+ 
+ﻋﻧﺎﺻر
+ 
+ﻣﮭﻣﺔ
+ 
+ﺗﺟﻌﻠﮭﺎ
+ 
+ﻣﻣﺗﻌﺔ
+ 
+وﻣﺛﯾرة.
+ 
+ﯾﻣﻛﻧﻧﺎ
+ 
+ﺗﻘﺳﯾم
+ 
+ﺗﺻﻣﯾم
+ 
+اﻷﻟﻌﺎب
+ 
+إﻟﻰ
+ 
+أرﺑﻌﺔ
+ 
+ﻋﻧﺎﺻر
+ 
+رﺋﯾﺳﯾﺔ
+:
+  
+1.  اﻟﻘﺻﺔ  Story)  📖  
+📌  ﻣﺎ  ھﻲ  اﻟﻘﺻﺔ؟  
+ 
+اﻟﻘﺻﺔ
+ 
+ھﻲ
+ 
+اﻟﺣﻛﺎﯾﺔ
+ 
+أو
+ 
+اﻟﻣﻐﺎﻣرة
+ 
+اﻟﺗﻲ
+ 
+ﯾﻌﯾﺷﮭﺎ
+ 
+اﻟﻼﻋب
+ 
+داﺧل
+ 
+اﻟﻠﻌﺑﺔ،
+ 
+وھﻲ
+ 
+اﻟﺗﻲ
+ 
+ﺗﺟﻌﻠﮫ
+ 
+ﻣﺗﺣﻣﺳًﺎ
+ 
+ﻟﻼﺳﺗﻣرار.
+ 
+ﺑدون
+ 
+ﻗﺻﺔ،
+ 
+ﻗد
+ 
+ﺗﺑدو
+ 
+اﻟﻠﻌﺑﺔ
+ 
+ﻣﻣﻠﺔ
+ 
+أو
+ 
+ﺑدون
+ 
+ھدف
+.
+ 🎮  ﻣﺛﺎل  
+ 
+ﻓﻲ
+ 
+ﻟﻌﺑﺔ
+ 
+ﻣﺛل
+ 
+"ﺳوﺑر
+ 
+ﻣﺎرﯾو"،
+ 
+اﻟﻘﺻﺔ
+ 
+ﺗدور
+ 
+ﺣول
+ 
+إﻧﻘﺎذ
+ 
+اﻷﻣﯾرة
+ 
+ﻣن
+ 
+اﻟوﺣش
+ 
+اﻟﺷرﯾر
+ 
+"ﺑﺎوزر".
+ 
+ھذه
+ 
+اﻟﻘﺻﺔ
+ 
+ﺗﻌطﻲ
+ 
+اﻟﻼﻋب
+ 
+ھدﻓًﺎ
+ 
+ﯾﺟﻌﻠﮫ
+ 
+ﯾﺳﺗﻣر
+ 
+ﻓﻲ
+ 
+اﻟﻠﻌب
+.
+  
+2.  اﻟﻘواﻋد  Rules)  📜  
+📌  ﻣﺎ  ھﻲ  اﻟﻘواﻋد؟  
+ 
+اﻟﻘواﻋد
+ 
+ھﻲ
+ 
+اﻟﻘواﻧﯾن
+ 
+اﻟﺗﻲ
+ 
+ﺗﺣدد
+ 
+ﻛﯾﻔﯾﺔ
+ 
+اﻟﻠﻌب،
+ 
+ﻣﺛل
+:
+ ●  ﻛﯾف  ﯾﻔوز  اﻟﻼﻋب؟  ●  ﻣﺎ  اﻷﺷﯾﺎء  اﻟﺗﻲ  ﯾُﺳﻣﺢ  ﻟﮫ  ﺑﻔﻌﻠﮭﺎ  وﻣﺎ  ﻻ  ﯾُﺳﻣﺢ  ﺑﮫ؟  
+=== Page 6 ===
+●  ﻛﯾف  ﯾﺗﺣرك  اﻟﻼﻋب؟  🎲  ﻣﺛﺎل  
+ 
+ﻓﻲ
+ 
+ﻟﻌﺑﺔ
+ 
+اﻟﺷطرﻧﺞ،
+ 
+اﻟﻘﺎﻋدة
+ 
+ﺗﻘول
+ 
+إن
+ 
+اﻟﻣﻠك
+ 
+ﯾﺟب
+ 
+ﺣﻣﺎﯾﺗﮫ،
+ 
+وﻛل
+ 
+ﻗطﻌﺔ
+ 
+ﺗﺗﺣرك
+ 
+ﺑطرﯾﻘﺔ
+ 
+ﻣﻌﯾﻧﺔ.
+ 
+ﻓﻲ
+ 
+ﻟﻌﺑﺔ
+ 
+"ﻛﺎﻧدي
+ 
+ﻛراش"،
+ 
+اﻟﻘﺎﻋدة
+ 
+ھﻲ
+ 
+أن
+ 
+اﻟﻼﻋب
+ 
+ﯾﺟب
+ 
+أن
+ 
+ﯾطﺎﺑق
+ 
+3
+ 
+ﻗطﻊ
+ 
+أو
+ 
+أﻛﺛر
+ 
+ﻣن
+ 
+ﻧﻔس
+ 
+اﻟﻠون
+ 
+ﻟﻛﺳب
+ 
+اﻟﻧﻘﺎط
+.
+  
+3.  اﻟﺟﻣﺎﻟﯾﺎت  Aesthetics)  🎨  
+📌  ﻣﺎ  ھﻲ  اﻟﺟﻣﺎﻟﯾﺎت؟  
+ 
+اﻟﺟﻣﺎﻟﯾﺎت
+ 
+ﺗﺷﻣل
+ 
+ﺷﻛل
+ 
+اﻟﻠﻌﺑﺔ،
+ 
+اﻷﻟوان،
+ 
+اﻟرﺳوﻣﺎت،
+ 
+واﻟﻣوﺳﯾﻘﻰ،
+ 
+وھﻲ
+ 
+اﻟﺗﻲ
+ 
+ﺗﺟﻌل
+ 
+اﻟﻠﻌﺑﺔ
+ 
+ﻣﻣﺗﻌﺔ
+ 
+ﺑﺻرﯾًﺎ
+ 
+وﺗﺟذب
+ 
+اﻟﻼﻋﺑﯾن
+ 
+ﻟﻼﺳﺗﻣﺗﺎع
+ 
+ﺑﮭﺎ
+.
+ 🎵  ﻣﺛﺎل  
+ 
+ﻟﻌﺑﺔ
+ 
+ﻣﺛل
+ 
+"ﻣﺎﯾن
+ 
+ﻛراﻓت"
+ 
+ﻟدﯾﮭﺎ
+ 
+ﺗﺻﻣﯾم
+ 
+ﺑﺳﯾط
+ 
+ﻟﻛﻧﮫ
+ 
+ﻣﻣﯾز،
+ 
+ﺑﯾﻧﻣﺎ
+ 
+ﻟﻌﺑﺔ
+ 
+ﻣﺛل
+ 
+"ﻓورﺗﻧﺎﯾت"
+ 
+ﺗﺣﺗوي
+ 
+ﻋﻠﻰ
+ 
+رﺳوﻣﺎت
+ 
+ﻣﻠوﻧﺔ
+ 
+وﺣرﻛﺎت
+ 
+دﯾﻧﺎﻣﯾﻛﯾﺔ
+ 
+ﺗﺟذب
+ 
+اﻟﻼﻋﺑﯾن
+.
+  
+4.  اﻟﻣﯾﻛﺎﻧﯾﻛﯾﺎت  Mechanics)  ⚙  
+📌  ﻣﺎ  ھﻲ  اﻟﻣﯾﻛﺎﻧﯾﻛﯾﺎت؟  
+ 
+اﻟﻣﯾﻛﺎﻧﯾﻛﯾﺎت
+ 
+ھﻲ
+ 
+طرﯾﻘﺔ
+ 
+اﻟﻠﻌب
+ 
+اﻟﻔﻌﻠﯾﺔ،
+ 
+أي
+ 
+ﻛﯾف
+ 
+ﯾﺗﺣرك
+ 
+اﻟﻼﻋب،
+ 
+ﻛﯾف
+ 
+ﯾﻘﺎﺗل،
+ 
+ﻛﯾف
+ 
+ﯾﺟﻣﻊ
+ 
+اﻟﻧﻘﺎط،
+ 
+وﻛﯾف
+ 
+ﯾﺗﻔﺎﻋل
+ 
+ﻣﻊ
+ 
+اﻟﺑﯾﺋﺔ
+ 
+داﺧل
+ 
+اﻟﻠﻌﺑﺔ
+.
+ 🎯  ﻣﺛﺎل:  
+=== Page 7 ===
+●  ﻓﻲ  "ﺳوﺑر  ﻣﺎرﯾو"،  اﻟﻘﻔز  ﻋﻠﻰ  اﻷﻋداء  ﻣﯾﻛﺎﻧﯾﻛﯾﺔ  رﺋﯾﺳﯾﺔ.  ●  ﻓﻲ  "ﺳﺑﺎق  اﻟﺳﯾﺎرات"،  اﻟﺿﻐط  ﻋﻠﻰ  زر  ﻣﻌﯾن  ﻟزﯾﺎدة  اﻟﺳرﻋﺔ  ھو  ﺟزء  
+ﻣن
+ 
+اﻟﻣﯾﻛﺎﻧﯾﻛﯾﺎت
+.
+ ●  ﻓﻲ  "ﻛﺎﻧدي  ﻛراش"،  ﺳﺣب  ﻗطﻌﺔ  إﻟﻰ  ﻗطﻌﺔ  أﺧرى  ھو  ﻣﯾﻛﺎﻧﯾﻛﯾﺔ  
+اﻟﻠﻌب
+ 
+اﻷﺳﺎﺳﯾﺔ
+.
+  
+ﻣﺛﺎل ﻛﺎﻣل ﻋﻠﻰ  ﺗطﺑﯾق  ھذه  اﻟﻌﻧﺎﺻر  ﻓﻲ  ﻟﻌﺑﺔ  ﺑﺳﯾطﺔ  
+🎮  ﻟﻌﺑﺔ  ﻣﻐﺎﻣرة  اﻟﻔﺎرس  اﻟﺷﺟﺎع  🏰🏹  🔹  اﻟﻘﺻﺔ  ﻓﺎرس  ﯾﺑﺣث  ﻋن  ﻛﻧز  ﻣﻔﻘود  ﻓﻲ  ﻗﻠﻌﺔ  ﻣﮭﺟورة  ﻣﻠﯾﺋﺔ  ﺑﺎﻟﻣﺧﺎطر.  
+ 
+🔹
+ 
+اﻟﻘواﻋد
+ 
+ﯾﺟب
+ 
+ﻋﻠﻰ
+ 
+اﻟﻔﺎرس
+ 
+ﺟﻣﻊ
+ 
+10
+ 
+ﻣﻔﺎﺗﯾﺢ
+ 
+ﻟﻔﺗﺢ
+ 
+ﺑﺎب
+ 
+اﻟﻛﻧز،
+ 
+ﻟﻛن
+ 
+إذا
+ 
+ﻟﻣس
+ 
+اﻟوﺣوش
+ 
+3
+ 
+ﻣرات،
+ 
+ﯾﺧﺳر.
+ 
+ 
+🔹
+ 
+اﻟﺟﻣﺎﻟﯾﺎت
+ 
+اﻟﻠﻌﺑﺔ
+ 
+ﺗﺣﺗوي
+ 
+ﻋﻠﻰ
+ 
+أﻟوان
+ 
+زاھﯾﺔ،
+ 
+ﻣوﺳﯾﻘﻰ
+ 
+ﻣﻐﺎﻣرة،
+ 
+ورﺳوﻣﺎت
+ 
+ﺟﻣﯾﻠﺔ
+ 
+ﺗﺟﻌل
+ 
+اﻟﻼﻋب
+ 
+ﻣﺳﺗﻣﺗﻌًﺎ.
+ 
+ 
+🔹
+ 
+اﻟﻣﯾﻛﺎﻧﯾﻛﯾﺎت
+ 
+ﯾﺗﺣرك
+ 
+اﻟﻔﺎرس
+ 
+ﻋﺑر
+ 
+اﻷﺳﮭم،
+ 
+ﯾﻘﻔز
+ 
+ﻋﺑر
+ 
+اﻟﻌﻘﺑﺎت،
+ 
+وﯾﺳﺗﺧدم
+ 
+اﻟﺳﯾف
+ 
+ﻟﻣﺣﺎرﺑﺔ
+ 
+اﻟوﺣوش
+.
+  Quiz   1.  What  is  the  story  in  game  design?  
+ 
+The
+ 
+story
+ 
+is
+ 
+the
+ 
+narrative
+ 
+that
+ 
+drives
+ 
+the
+ 
+game's
+ 
+experience,
+ 
+giving
+ 
+players
+ 
+a
+ 
+purpose
+ 
+and
+ 
+motivation
+ 
+to
+ 
+progress.
+ 
+=== Page 8 ===
+2.  What  are  the  rules  in  a  game?  
+ 
+Rules
+ 
+define
+ 
+how
+ 
+the
+ 
+game
+ 
+is
+ 
+played,
+ 
+setting
+ 
+guidelines
+ 
+for
+ 
+player
+ 
+interactions,
+ 
+objectives,
+ 
+and
+ 
+limitations.
+ 3.  What  are  aesthetics  in  a  game?  
+ 
+Aesthetics
+ 
+refer
+ 
+to
+ 
+the
+ 
+visual
+ 
+and
+ 
+audio
+ 
+elements,
+ 
+including
+ 
+graphics,
+ 
+colors,
+ 
+animations,
+ 
+and
+ 
+sounds,
+ 
+which
+ 
+enhance
+ 
+the
+ 
+player’s
+ 
+experience.
+ 4.  What  are  mechanics  in  game  design?  
+ 
+Mechanics
+ 
+are
+ 
+the
+ 
+core
+ 
+gameplay
+ 
+interactions,
+ 
+such
+ 
+as
+ 
+movement,
+ 
+combat,
+ 
+and
+ 
+puzzle-solving,
+ 
+that
+ 
+define
+ 
+how
+ 
+players
+ 
+engage
+ 
+with
+ 
+the
+ 
+game.
+ Let  me  know  if  you  need  more  details!  😊   
+
+
+================================================================================
+SESSION 6 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_06_SLIDE_session6.txt ---
+=== Page 1 ===
+Session 6
+Creating and 
+Using UI
+
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll dive into the world of user interfaces (UI) and learn 
+how to design and implement them in Godot. We'll explore 
+different UI nodes, understand how to connect them to 
+game logic, and build a simple UI for our game. Get ready 
+to make your games more interactive and engaging!
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o what is SDLC in Game Development 
+o Game Design Principles
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Introduction  the world of user interfaces (UI)
+o how to design and implement them in Godot.
+o build a simple UI for our game
+o make your games more interactive
+
+=== Page 5 ===
+2
+4
+All rights reserved
+
+=== Page 6 ===
+2
+5
+All rights reserved
+ Triggers Actions like starting a game, moving between 
+levels, or purchasing items
+ Navigation: Menu navigation, accessing settings, or 
+switching between game sences
+=== Page 7 ===
+2
+6
+All rights reserved
+ Score: Tracking player progress and achievements
+ Health: Indicates the player's remaining life 
+or resources
+
+=== Page 8 ===
+2
+7
+All rights reserved
+ Inventory: Displaying and managing items collected 
+by the player
+ Quest Log:Tracking active missions and objectives
+
+=== Page 9 ===
+2
+8
+All rights reserved
+ Name: For player registration or customization
+ Password:For account security or accessing features
+
+=== Page 10 ===
+2
+9
+All rights reserved
+Changing display brightness
+Adjusting audio volume
+Modifying game difficulty
+
+=== Page 11 ===
+2
+10
+All rights reserved
+Sound Effects
+Enabling or disabling in-game audio
+Music
+Controlling the background music playback
+
+=== Page 12 ===
+2
+11
+All rights reserved
+Select User Interface
+=== Page 13 ===
+2
+12
+All rights reserved
+The element of UI you 
+can use 
+
+=== Page 14 ===
+2
+13
+All rights reserved
+After selecting the button as 
+a child of the control, it will be 
+displayed on the stage.
+=== Page 15 ===
+2
+14
+All rights reserved
+A layout button that has 
+pre-set layouts to help 
+position our UI.
+=== Page 16 ===
+2
+15
+All rights reserved
+
+=== Page 17 ===
+2
+16
+All rights reserved
+
+=== Page 18 ===
+2
+17
+All rights reserved
+1. What is UI and why is it  important ?
+2. Anchors do just that as they automatically reposition and rescale 
+the UI controls with the different screen resolutions
+3. What is a Grid?
+
+
+
+--- FILE: SESSION_06_TG_TG__session_6.txt ---
+=== Page 1 ===
+Lesson  Overview  
+In  this  lesson,  students  will  learn  about  User  
+Interfaces
+ 
+(UI)
+ 
+in
+ 
+game
+ 
+development
+ 
+using
+ 
+the
+ 
+Godot
+ 
+engine.
+ 
+They
+ 
+will
+ 
+explore
+ 
+different
+ 
+UI
+ 
+nodes,
+ 
+understand
+ 
+how
+ 
+to
+ 
+connect
+ 
+them
+ 
+to
+ 
+game
+ 
+logic,
+ 
+and
+ 
+build
+ 
+a
+ 
+simple
+ 
+UI
+ 
+for
+ 
+their
+ 
+game.
+  
+Learning  Objectives  
+By  the  end  of  this  session,  students  will  be  able  to:  ●  Understand  what  a  UI  is  and  why  it  is  important  
+in
+ 
+game
+ 
+development.
+ ●  Identify  and  use  different  UI  elements  in  Godot.  ●  Design  and  implement  a  simple  UI  layout.  ●  Connect  UI  components  to  game  logic.   
+Lesson  Agenda  
+1.  Introduction  to  UI  ○  Definition  and  importance  of  UI  in  games.  ○  Examples  of  UI  in  popular  games.  2.  Exploring  UI  Nodes  in  Godot  
+=== Page 2 ===
+○  Buttons:  Triggers  actions  like  starting  a  
+game
+ 
+or
+ 
+navigating
+ 
+between
+ 
+levels.
+ ○  Labels:  Displays  information  such  as  score  
+or
+ 
+health.
+ ○  Panels:  Used  for  structuring  UI  elements  
+(e.g.,
+ 
+inventory,
+ 
+quest
+ 
+log).
+ ○  Text  Fields:  Allows  user  input  (e.g.,  name  
+entry,
+ 
+password
+ 
+fields).
+ ○  Sliders:  Adjusts  settings  such  as  volume  
+and
+ 
+brightness.
+ ○  Toggle  Switches:  Controls  on/off  features  
+like
+ 
+background
+ 
+music.
+ 3.  Implementing  UI  in  Godot  ○  Creating  a  UI  scene.  ○  Adding  and  positioning  UI  elements.  ○  Using  anchors  and  grids  for  responsive  
+design.
+ 4.  Hands-on  Activity  ○  Build  a  simple  UI  with  a  button,  label,  and  
+slider.
+ ○  Connect  the  UI  to  a  script  for  interaction.  5.  Quiz  &  Discussion  ○  Short  quiz  to  reinforce  concepts.  ○  Open  discussion  on  UI  best  practices.  
+=== Page 3 ===
+ 
+Teaching  Notes  
+●  Engage  Students:  Show  real-world  examples  
+of
+ 
+UI
+ 
+in
+ 
+different
+ 
+games.
+ ●  Demonstrate  in  Godot:  Open  Godot  and  guide  
+students
+ 
+through
+ 
+creating
+ 
+a
+ 
+simple
+ 
+UI.
+ ●  Encourage  Interaction:  Ask  students  to  
+suggest
+ 
+UI
+ 
+elements
+ 
+they
+ 
+have
+ 
+seen
+ 
+in
+ 
+games.
+ ●  Provide  Hands-on  Practice:  Let  students  
+experiment
+ 
+with
+ 
+different
+ 
+UI
+ 
+nodes.
+  
+Quiz  Questions  
+What  is  UI  and  why  is  it  important  in  games?  
+ ●  UI  (User  Interface)  is  the  part  of  a  game  that  
+allows
+ 
+players
+ 
+to
+ 
+interact
+ 
+with
+ 
+it,
+ 
+such
+ 
+as
+ 
+menus,
+ 
+buttons,
+ 
+health
+ 
+bars,
+ 
+and
+ 
+score
+ 
+displays.
+ 
+It
+ 
+is
+ 
+important
+ 
+because
+ 
+it
+ 
+improves
+ 
+usability,
+ 
+enhances
+ 
+player
+ 
+experience,
+ 
+and
+ 
+provides
+ 
+necessary
+ 
+information
+ 
+during
+ 
+gameplay.
+ 
+=== Page 4 ===
+What  are  anchors  and  how  do  they  help  with  
+screen
+ 
+resolution
+ 
+adjustments?
+ 
+ ●  Anchors  in  Godot  define  how  a  UI  element  is  
+positioned
+ 
+relative
+ 
+to
+ 
+the
+ 
+screen
+ 
+or
+ 
+its
+ 
+parent
+ 
+container.
+ 
+They
+ 
+help
+ 
+ensure
+ 
+that
+ 
+UI
+ 
+elements
+ 
+remain
+ 
+correctly
+ 
+placed
+ 
+across
+ 
+different
+ 
+screen
+ 
+sizes
+ 
+and
+ 
+resolutions
+ 
+by
+ 
+dynamically
+ 
+adjusting
+ 
+their
+ 
+position
+ 
+and
+ 
+size.
+ What  is  a  grid,  and  how  can  it  be  used  in  UI  
+design?
+ 
+ ●  A  grid  is  a  structured  layout  system  that  divides  
+the
+ 
+screen
+ 
+into
+ 
+rows
+ 
+and
+ 
+columns.
+ 
+It
+ 
+helps
+ 
+in
+ 
+organizing
+ 
+UI
+ 
+elements
+ 
+neatly,
+ 
+ensuring
+ 
+alignment
+ 
+and
+ 
+consistency.
+ 
+In
+ 
+UI
+ 
+design,
+ 
+grids
+ 
+improve
+ 
+visual
+ 
+hierarchy
+ 
+and
+ 
+make
+ 
+it
+ 
+easier
+ 
+to
+ 
+adapt
+ 
+UI
+ 
+elements
+ 
+to
+ 
+different
+ 
+screen
+ 
+sizes.
+   
+Additional  Activities  
+=== Page 5 ===
+●  Challenge  students  to  design  a  UI  for  a  simple  
+mobile
+ 
+game.
+ ●  Ask  students  to  modify  an  existing  UI  in  Godot  
+and
+ 
+explain
+ 
+their
+ 
+design
+ 
+choices.
+ ●  Ask  students  to  modify  an  existing  UI  in  Godot  
+for
+ 
+previously
+ 
+game
+ 
+.
+  
+
+
+================================================================================
+SESSION 7 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_07_SLIDE_session7.txt ---
+=== Page 1 ===
+Session 7
+User Interface 
+Programming 
+with Godot
+
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll explore how to program the user interface (UI) in 
+your Godot games. We'll learn how to create and 
+interact with buttons, text fields, menus, and more.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o user interfaces (UI)
+o Labels, Buttons,Text Fields
+o contral 
+o Grids
+=== Page 4 ===
+2
+3
+All rights reserved
+o Revisiting Events
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Remember Events ?
+ Recall how you used events in the previous 
+module to detect clicks on sprites.
+=== Page 6 ===
+2
+5
+All rights reserved
+ You can apply the same concept 
+of events to UI elements.
+=== Page 7 ===
+2
+6
+All rights reserved
+Button Press
+ How can you program an action to 
+happen when a button is clicked in 
+Godot?
+=== Page 8 ===
+2
+7
+All rights reserved
+
+=== Page 9 ===
+2
+8
+All rights reserved
+
+=== Page 10 ===
+2
+9
+All rights reserved
+
+=== Page 11 ===
+2
+10
+All rights reserved
+
+=== Page 12 ===
+2
+11
+All rights reserved
+get_tree().change_scene("res://Scenes/Main.tscn")
+
+=== Page 13 ===
+2
+12
+All rights reserved
+get_tree().quit()
+
+=== Page 14 ===
+2
+13
+All rights reserved
+1. How to switch between to scenes in godot?
+2. Can you name more than one UI Node in Godot? 
+3. which function can you use it to exit from your game ?
+
+
+
+--- FILE: SESSION_07_TG_TG__session_7.txt ---
+=== Page 1 ===
+Recap:  
+Before  starting,  ask  students  about  the  concepts  
+they
+ 
+have
+ 
+learned
+ 
+in
+ 
+previous
+ 
+sessions:
+ ●  What  are  User  Interfaces  (UI)?  ●  What  are  basic  UI  elements  like  Labels,  
+Buttons,
+ 
+Text
+ 
+Fields
+?
+ ●  What  is  the  concept  of  Control  and  Grids ?  
+Agenda:  
+By  the  end  of  this  session,  students  will  be  able  to:  ●  Understand  how  to  handle  UI  events  ●  Program  button  click  actions  ●  Use  Signals  for  UI  control  ●  Create  an  interactive  UI   
+Revisiting  Events:  
+Understanding  Events  in  Godot  
+What  Are  Events?  
+Events  in  programming  refer  to  actions  or  
+occurrences
+ 
+that
+ 
+happen
+ 
+within
+ 
+a
+ 
+system
+ 
+and
+ 
+can
+ 
+trigger
+ 
+responses
+ 
+in
+ 
+a
+ 
+program.
+ 
+Events
+ 
+are
+ 
+widely
+ 
+used
+ 
+in
+ 
+game
+ 
+development
+ 
+to
+ 
+handle
+ 
+user
+ 
+=== Page 2 ===
+interactions,  such  as  clicks,  key  presses,  and  
+collisions.
+ 
+Reviewing  Previous  Knowledge  
+In  previous  sessions,  students  used  events  to  detect  
+mouse
+ 
+clicks
+ 
+on
+ 
+objects.
+ 
+This
+ 
+involved
+ 
+handling
+ 
+input
+ 
+actions
+ 
+where
+ 
+a
+ 
+function
+ 
+would
+ 
+execute
+ 
+when
+ 
+a
+ 
+user
+ 
+interacted
+ 
+with
+ 
+an
+ 
+object,
+ 
+such
+ 
+as
+ 
+clicking
+ 
+on
+ 
+a
+ 
+sprite.
+ Now,  the  same  principle  applies  to  UI  elements  like  
+buttons,
+ 
+text
+ 
+fields,
+ 
+and
+ 
+sliders.
+ 
+These
+ 
+elements
+ 
+use
+ 
+signals
+ 
+to
+ 
+notify
+ 
+the
+ 
+program
+ 
+when
+ 
+a
+ 
+specific
+ 
+event
+ 
+occurs,
+ 
+allowing
+ 
+us
+ 
+to
+ 
+define
+ 
+corresponding
+ 
+responses.
+  
+Handling  Button  Clicks  in  Godot  
+How  Can  We  Trigger  an  Action  When  a  Button  Is  Clicked?  
+In  Godot,  buttons  are  interactive  UI  elements  that  
+can
+ 
+respond
+ 
+to
+ 
+user
+ 
+input.
+ 
+To
+ 
+make
+ 
+a
+ 
+button
+ 
+trigger
+ 
+an
+ 
+action,
+ 
+we
+ 
+need
+ 
+to
+ 
+connect
+ 
+it
+ 
+to
+ 
+a
+ 
+function
+ 
+that
+ 
+executes
+ 
+when
+ 
+the
+ 
+button
+ 
+is
+ 
+clicked.
+ 
+Practical  Example:  Connecting  a  Button  to  a  Function  
+=== Page 3 ===
+1.  
+Create
+ 
+a
+ 
+Button
+ 
+in
+ 
+the
+ 
+Scene:
+ 
+ 
+○  Add  a  Button node  to  the  scene.  ○  Rename  it  to  something  meaningful  like  "StartButton".  2.  Connect  the  Button's  Pressed  Signal:  
+ ○  Select  the  button  in  the  Scene  panel .  ○  Go  to  the  Node  tab  in  the  Inspector .  ○  Find  the  pressed() signal  and  double-click  
+it.
+ ○  Click  "Connect"  and  choose  a  script  
+attached
+ 
+to
+ 
+the
+ 
+parent
+ 
+node.
+ 3.  Write  the  Function  to  Handle  the  Button  
+Click:
+ 
+ 
+ 
+This  function  will  load  the  "Game.tscn" scene  
+when
+ 
+the
+ 
+Play
+ 
+button
+ 
+is
+ 
+clicked.
+ 
+Programming  Main  Menu  Buttons  
+
+=== Page 4 ===
+1.  Switching  Between  Scenes  
+To  move  between  different  game  sections,  we  use  
+the
+ get_tree().change_scene() method.  
+Example:  Moving  from  the  Main  Menu  to  the  
+Game
+ 
+Scene:
+  
+ When  the  player  clicks  the  "Start"  button,  they  are  
+taken
+ 
+to
+ 
+the
+ 
+Game
+ 
+Scene
+.
+ 
+2.  Exiting  the  Game  
+We  can  allow  the  player  to  exit  the  game  by  calling  get_tree().quit().  
+Example:  Handling  the  Exit  Button  Click:   
+
+=== Page 5 ===
+    
+Simple  Quiz:  
+1.  How  do  you  switch  between  scenes  in  Godot?  
+Answer:
+ 
+By
+ 
+using
+ 
+get_tree().change_scene("res://Scenes/Main.t
+scn")
+.
+ 2.  Can  you  name  more  than  one  UI  Node  in  
+Godot?
+ 
+Answer:
+ 
+Button,
+ 
+Label,
+ 
+TextEdit,
+ 
+CheckBox,
+ 
+OptionButton,
+ 
+Slider,
+ 
+Panel
+.
+ 3.  Which  function  can  you  use  to  exit  the  game?  
+Answer:
+ 
+get_tree().quit()
+.
+ 
+
+=== Page 6 ===
+ 
+Additional  Notes  for  the  Instructor:  
+●  Keep  the  session  interactive  by  asking  students  
+questions.
+ ●  Encourage  them  to  try  coding  directly  in  Godot.  ●  Motivate  students  to  explore  more  UI  elements  
+after
+ 
+the
+ 
+lesson.
+   
+ 
+
+
+
+================================================================================
+SESSION 8 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_08_SLIDE_session8.txt ---
+=== Page 1 ===
+Session 8
+Game Sound and 
+Audio
+
+=== Page 2 ===
+2
+1
+All rights reserved
+where we'll learn how to add audio to your 
+game, making it more immersive and 
+engaging for your players.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes 
+o UI Events
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Revisiting Events
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+
+=== Page 5 ===
+2
+4
+All rights reserved
+
+=== Page 6 ===
+2
+5
+All rights reserved
+Sound Effects
+These are short audio clips that represent actions in your 
+game, like jumping, shooting, or collecting items.
+Background Music
+This is the music that plays in the background of your 
+game, setting the atmosphere and mood.
+
+=== Page 7 ===
+2
+6
+All rights reserved
+We use this node to 
+play any sound
+=== Page 8 ===
+2
+7
+All rights reserved
+Here, you can find any sound you need.
+
+=== Page 9 ===
+2
+10
+All rights reserved
+Property Description
+Stream The audio file to be played.
+Volume The loudness of the sound.
+Pitch The frequency of the sound, affecting its pitch (higher or 
+lower).
+Bus The audio bus to which the sound is routed, allowing you to 
+group and control different sounds.
+
+=== Page 10 ===
+2
+9
+All rights reserved
+the properties of the 
+AudioStreamPlayer2D 
+node in Godot 
+=== Page 11 ===
+2
+10
+All rights reserved
+
+=== Page 12 ===
+2
+11
+All rights reserved
+Play Function
+The play ( ) function initiates the playback of the audio 
+stream attached to the AudioStreamPlayer2D node.
+Stop Function
+The stop ( ) function halts the playback of the audio stream 
+associated with the AudioStreamPlayer2D node.
+
+=== Page 13 ===
+2
+12
+All rights reserved
+Create a Sound Effect
+Choose a sound effect that you 
+want to use for your game. For 
+example, a jumping sound or a 
+sound for collecting an item.
+Import Sound Effect
+Import your selected sound 
+effect into your Godot project by 
+adding it to the "Audio" folder in 
+the "FileSystem" tab.
+Connect Script
+In the script of the character or 
+object, use the play() function to 
+play the sound effect when the 
+corresponding action occurs.
+Attach to Node
+Attach an AudioStreamPlayer2D 
+node to your character node or 
+the game object associated with 
+the sound effect.
+
+=== Page 14 ===
+2
+13
+All rights reserved
+
+=== Page 15 ===
+2
+14
+All rights reserved
+Immersive Experience
+Sound contributes significantly to immersing players in the game world, 
+enhancing the overall experience.
+Feedback and Guidance
+Sound effects provide instant feedback to players, guiding them through 
+actions and events in the game.
+Emotional Impact
+Music and sound effects can evoke a wide range of emotions in players, 
+influencing their feelings towards the game.
+
+=== Page 16 ===
+2
+15
+All rights reserved
+ How do you think we can play sounds in Godot?
+ How can you use sound to enhance the player's 
+experience in your game?
+ how to stop all sounds in Godot?
+
+
+
+--- FILE: SESSION_08_TG_TG__session_8.txt ---
+=== Page 1 ===
+There  are  many  sources  from  which  you  can  bring  
+sounds.
+ ●  https://www.zapsplat.com/ ●  https://opengameart.org/ ●  https://freesound.org/ ●  https://soundbible.com/7 ●  https://www.kenney.nl/assets ●  https://pixabay.com/sound-effects/ ●     Warning :  This  project  is  also  in  session  number  9.  
+Just
+ 
+explain
+ 
+the
+ 
+sound.
+   
+1.  Importance  of  Sound  in  Games  
+●  Enhances  player  immersion.  ●  Provides  feedback  and  guidance.  ●  Creates  emotional  impact.  
+2.  Types  of  Game  Audio  
+●  Sound  Effects:  Short  clips  for  actions  (jumping,  
+shooting,
+ 
+collecting
+ 
+items).
+ 
+=== Page 2 ===
+●  Background  Music:  Continuous  audio  that  sets  
+the
+ 
+game
+ 
+atmosphere.
+ 
+3.  How  to  Add  Sounds  in  Godot  
+1.  Choose  a  Sound  Effect  ○  Example:  Jumping  sound  or  item  collection  
+sound.
+ 2.  Import  the  Sound  Effect  ○  Add  it  to  the  Audio  folder  in  FileSystem .  3.  Attach  to  Node  ○  Use  AudioStreamPlayer2D  and  attach  it  to  
+the
+ 
+relevant
+ 
+game
+ 
+object.
+ 4.  Control  Audio  with  Scripts  ○  Use  play()  and  stop()  functions  to  manage  
+audio
+ 
+playback.
+   
+=== Page 3 ===
+ 
+Lesson  Activities  
+Activity  1:  Adding  Sound  Effects  
+●  Guide  students  to  import  a  sound  effect  and  
+attach
+ 
+it
+ 
+to
+ 
+a
+ 
+game
+ 
+object.
+ ●  Ask  them  to  trigger  the  sound  using  play()  when  
+an
+ 
+action
+ 
+occurs.
+ 
+Activity  2:  Background  Music  Implementation  
+●  Demonstrate  adding  a  looping  background  
+music
+ 
+track.
+ ●  Adjust  volume  and  pitch  properties  for  
+customization.
+ 
+Discussion  Questions  &  Answers  
+
+=== Page 4 ===
+1.  How  does  sound  improve  a  player's  gaming  
+experience?
+ ○  Sound  enhances  immersion  by  creating  a  
+realistic
+ 
+or
+ 
+atmospheric
+ 
+environment.
+ 
+It
+ 
+provides
+ 
+important
+ 
+feedback
+ 
+to
+ 
+the
+ 
+player,
+ 
+such
+ 
+as
+ 
+indicating
+ 
+success,
+ 
+failure,
+ 
+or
+ 
+danger.
+ 
+Additionally,
+ 
+it
+ 
+helps
+ 
+set
+ 
+the
+ 
+emotional
+ 
+tone
+ 
+of
+ 
+the
+ 
+game,
+ 
+making
+ 
+the
+ 
+experience
+ 
+more
+ 
+engaging.
+ 2.  What  is  the  difference  between  sound  effects  
+and
+ 
+background
+ 
+music?
+ ○  Sound  effects  are  short,  action-triggered  
+sounds
+ 
+like
+ 
+jumping,
+ 
+shooting,
+ 
+or
+ 
+collecting
+ 
+items.
+ 
+They
+ 
+provide
+ 
+immediate
+ 
+feedback
+ 
+to
+ 
+the
+ 
+player.
+ 
+Background
+ 
+music
+,
+ 
+on
+ 
+the
+ 
+other
+ 
+hand,
+ 
+is
+ 
+continuous
+ 
+and
+ 
+sets
+ 
+the
+ 
+overall
+ 
+mood
+ 
+and
+ 
+ambiance
+ 
+of
+ 
+the
+ 
+game
+ 
+without
+ 
+being
+ 
+directly
+ 
+triggered
+ 
+by
+ 
+player
+ 
+actions.
+ 3.  How  can  we  stop  all  sounds  in  Godot?  In  Godot ,  you  can  stop  all  sounds  by  accessing  all  
+AudioStreamPlayer
+ 
+nodes
+ 
+and
+ 
+calling
+ 
+the
+ 
+stop()
+ 
+function.
+ 
+For
+ 
+example,
+ 
+you
+ 
+can
+ 
+use
+ 
+a
+ 
+script
+ 
+like:
+ 
+for
+ 
+node
+ 
+in
+ 
+get_tree().get_nodes_in_group("AudioPlayers"):
+ 
+=== Page 5 ===
+○      node.stop()  
+ 
+
+
+
+================================================================================
+SESSION 9 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_09_SLIDE_session9.txt ---
+=== Page 1 ===
+Session 9
+Camera and Parallax 
+Backgrounds for
+2D Games 
+
+=== Page 2 ===
+2
+1
+All rights reserved
+We'll be diving into the world of cameras and parallax 
+backgrounds in Godot Engine. Prepare to create 
+dynamic and visually engaging 2D game 
+environments!
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o Button Clicks
+o Signals for UI Control
+o changes scenes 
+o Creating Interactive UI
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o use a camera
+o backgrounds in your 2D game
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+
+=== Page 5 ===
+2
+4
+All rights reserved
+The Camera Node
+=== Page 6 ===
+2
+5
+All rights reserved
+The Camera Node
+The Camera node is the player's window into the game world. 
+It determines what is visible on the screen.
+Camera Follow
+You can configure the camera to follow the player smoothly 
+as they move through the game.
+
+=== Page 7 ===
+2
+6
+All rights reserved
+
+=== Page 8 ===
+2
+7
+All rights reserved
+
+=== Page 9 ===
+2
+8
+All rights reserved
+ create new scene called RainDrop 
+ add sprite node
+ then add attach script
+
+=== Page 10 ===
+2
+9
+All rights reserved
+ add two image for cloud and rain 
+
+=== Page 11 ===
+2
+10
+All rights reserved
+ move the rain down using y axis and delta 
+
+=== Page 12 ===
+2
+11
+All rights reserved
+ create main scene
+ add attach script 
+var raindrop_scene = preload("res://RainDrop.tscn")
+=== Page 13 ===
+2
+12
+All rights reserved
+ following the code below 
+ add sprite node (cloud)
+ then add image at  texture 
+from inspector 
+
+=== Page 14 ===
+2
+13
+All rights reserved
+ following the code below 
+ attach script on  node 
+(cloud)
+
+=== Page 15 ===
+2
+13
+All rights reserved
+ create a function called   
+click_mouse_inside_cloud():
+
+=== Page 16 ===
+2
+15
+All rights reserved
+ following this  code below 
+
+=== Page 17 ===
+2
+16
+All rights reserved
+ What is the role of the camera in 2D games? 
+ How can it be set up to follow the player in Godot? 
+ what is the benefit of use preload method?
+
+
+
+--- FILE: SESSION_09_TG_TG__session_9.txt ---
+=== Page 1 ===
+Lesson  9,  which  covers  the  use  of  cameras  and  
+parallax
+ 
+backgrounds
+ 
+in
+ 
+Godot
+.
+ By  the  end  of  this  session,  students  should  be  able  
+to:
+ ●  Understand  the  role  of  the  camera  in  2D  games.  ●  Implement  a  camera  that  follows  the  player  
+smoothly.
+ ●  Use  parallax  backgrounds  to  enhance  game  
+visuals.
+ ●  Work  with  signals  and  UI  control.  
+Key  Concepts  to  Cover  
+1.  The  Camera  Node  
+●  The  Camera2D  node  defines  the  visible  area  of  
+the
+ 
+game.
+ ●  It  can  be  set  to  follow  the  player  dynamically.  ●  Adjusting  the  smoothing  settings  allows  for  a  
+smoother
+ 
+camera
+ 
+movement.
+ 
+2.  Implementing  a  Camera  in  Godot  
+1.  Create  a  Camera2D  node  ○  Attach  it  to  the  player  or  main  character.  2.  Enable  Camera  Follow  
+=== Page 2 ===
+○  Set  current  to  true .  ○  Adjust  the  drag  margins  to  control  how  
+much
+ 
+movement
+ 
+triggers
+ 
+the
+ 
+camera.
+ 3.  Smooth  Movement  ○  Enable  smoothing  and  set  appropriate  
+values
+ 
+for
+ 
+speed
+ 
+adjustments.
+ 
+3.  Parallax  Backgrounds  
+●  Parallax  backgrounds  create  depth  by  moving  at  
+different
+ 
+speeds
+ 
+relative
+ 
+to
+ 
+the
+ 
+foreground.
+ ●  ParallaxBackground  and  ParallaxLayer  nodes  
+help
+ 
+in
+ 
+setting
+ 
+up
+ 
+dynamic
+ 
+backgrounds.
+ ●  Adjusting  motion  scales  helps  achieve  the  
+desired
+ 
+effect.
+ 
+4.  Project:  Implementing  Camera  &  Parallax  Effects  
+Steps  to  Create  the  Project  
+1.  
+Create
+ 
+a
+ 
+new
+ 
+scene
+ 
+called
+ 
+"RainDrop"
+ 
+○  Add  a  Sprite  node.  ○  Attach  a  script.  2.  Add  two  images:  a  cloud  and  rain  ○  Import  and  set  them  as  textures.  3.  Move  the  rain  downward  ○  Use  the  Y-axis  and  delta  for  smooth  
+animation.
+ 
+=== Page 3 ===
+4.  Create  the  main  scene  and  attach  scripts  ○  Use  preload("res://RainDrop.tscn").  5.  Add  a  Sprite  node  for  the  cloud  ○  Set  the  texture  from  the  Inspector .  6.  Attach  a  script  to  the  cloud  node  ○  Create  a  function  click_mouse_inside_cloud() to  
+handle
+ 
+interactions.
+   
+Activity  1:  Setting  Up  Camera  Movement  
+●  Guide  students  to  add  a  Camera2D  node  and  
+configure
+ 
+its
+ 
+properties.
+ ●  Demonstrate  smooth  camera  movement.  
+Discussion  Questions  &  Answers  
+1.  What  is  the  role  of  the  camera  in  2D  games?  ○  The  camera  defines  what  part  of  the  game  
+world
+ 
+is
+ 
+visible
+ 
+on
+ 
+screen.
+ ○   It  allows  players  to  focus  on  the  action  and  
+follow
+ 
+the
+ 
+player
+ 
+smoothly.
+ 
+=== Page 4 ===
+2.  How  can  it  be  set  up  to  follow  the  player  in  
+Godot?
+ ○  By  adding  a  Camera2D  node  to  the  player  
+and
+ 
+enabling
+ 
+current
+.
+ 
+ ○  Adjusting  drag  margins  and  smoothing  
+settings
+ 
+enhances
+ 
+movement.
+ 3.  What  is  the  benefit  of  using  the  preload  
+method?
+ ○  Preloading  improves  performance  by  
+loading
+ 
+a
+ 
+resource
+ 
+once
+ ○   at  the  beginning  rather  than  dynamically  
+every
+ 
+time
+ 
+it
+ 
+is
+ 
+needed.
+  
+Common  Issues  &  Troubleshooting  
+●  Camera  not  following  the  player?  Ensure  
+current
+ 
+is
+ 
+enabled.
+ ●  Parallax  effect  not  visible?  Check  the  motion  
+scale
+ 
+values
+ 
+of
+ 
+ParallaxLayer
+ 
+nodes.
+ ●  Objects  moving  too  fast  or  slow?  Adjust  
+delta-based
+ 
+movement
+ 
+calculations.
+  
+
+
+================================================================================
+SESSION 10 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_10_SLIDE_session10.txt ---
+=== Page 1 ===
+Session 10
+
+=== Page 2 ===
+All rights reserved
+we'll explore the crucial final step in game 
+development: polishing. This step involves adding 
+those final touches that transform a functional 
+game into a captivating and polished experience.
+Welcome ! In this session, 
+=== Page 3 ===
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes 
+o UI Events
+o camera 2D
+o Get mouse postion and create instance 
+Recap:
+=== Page 4 ===
+All rights reserved
+o Polishing your  Game 
+o publish the Game
+o Different platform you can polishing for it 
+Agenda for this lesson : 
+=== Page 5 ===
+All rights reserved
+Polishing Your Game: The Secret 
+to Making It Great
+=== Page 6 ===
+All rights reserved
+Fun Factor
+Does the game feel enjoyable and engaging? Are players 
+drawn in and eager to keep playing?
+Interactivity
+Does the game respond to player input in a way that feels natural and satisfying?
+ Are players actively participating in the gameplay?
+Beyond Functionality: Asking the Right Questions
+
+=== Page 7 ===
+All rights reserved
+Activity: Adding Sound Effects
+Liveliness
+Does the game have a vibrant personality? 
+Does it evoke emotions and feel like a world that's alive?
+Responsiveness
+Does the game react quickly and smoothly to player actions?
+ Does it provide immediate feedback, creating a sense of control?
+
+=== Page 8 ===
+All rights reserved
+The Final Touch
+Polishing goes beyond just fixing bugs. It's about ensuring 
+every element of the game is refined and cohesive.
+Polishing: The Art of Perfection
+Consistency is Key
+All aspects of the game, from graphics and sound to 
+gameplay mechanics and UI, should feel like a unified whole.
+
+=== Page 9 ===
+All rights reserved
+Striving for Excellence
+Polishing aims for perfection. It's about creating a game 
+that's not only functional, but also aesthetically pleasing 
+and enjoyable to play.
+Polishing: The Art of Perfection
+
+=== Page 10 ===
+All rights reserved
+Core Gameplay Mechanics
+▪ Gameplay should be balanced, 
+engaging, and satisfying, providing a 
+rewarding experience for players.
+=== Page 11 ===
+All rights reserved
+The Importance of Error
+-
+Free Gameplay
+Polishing ensures that your game is free from 
+any bugs or glitches that could disrupt 
+gameplay and frustrate players.
+Bugs
+=== Page 12 ===
+All rights reserved
+The Importance of Error
+-
+Free Gameplay
+A polished game should be stable and reliable, 
+avoiding unexpected crashes or freezes that 
+can lead to frustration.
+Crashes
+
+=== Page 13 ===
+All rights reserved
+The Importance of Error
+-
+Free Gameplay
+Polishing eliminates any errors or inconsistencies 
+that could hinder player progress or detract 
+from the overall experience.
+Errors
+
+=== Page 14 ===
+All rights reserved
+Polishing for Different Game Types
+Mobile Games
+Focus on intuitive controls, optimized performance, 
+and engaging gameplay for short sessions.
+
+=== Page 15 ===
+All rights reserved
+Polishing for Different Game Types
+PC Games
+Prioritize high-quality graphics, complex gameplay 
+mechanics, and a robust experience for dedicated players.
+
+=== Page 16 ===
+All rights reserved
+Polishing for Different Game Types
+Console Games
+Ensure smooth controls, a compelling narrative, and a 
+satisfying gameplay loop that utilizes console features.
+
+=== Page 17 ===
+All rights reserved
+Add text here
+
+=== Page 18 ===
+All rights reserved
+Follow the steps on the slides as following:
+1. Go to project → Export.
+2. Click Add.
+3. Select HTML5.
+4. Leave the default configurations as it is fine.
+5. Click Export Project.
+6. Make sure to uncheck Export With Debug.
+7. Choose a path and create a new folder for the exported project files.
+8. Click Save.
+=== Page 19 ===
+Follow the steps on the slides as following:
+All rights reserved
+
+=== Page 20 ===
+Follow the steps on the slides as following:
+All rights reserved
+
+=== Page 21 ===
+•
+ //
+•
+•
+•
+•
+•
+•
+•
+•
+All rights reserved
+
+=== Page 22 ===
+VISITE WEBSITE CALLED :
+-
+ https://itch.io
+All rights reserved
+
+=== Page 23 ===
+All rights reserved
+
+=== Page 24 ===
+All rights reserved
+
+=== Page 25 ===
+All rights reserved
+Here you can see all the projects you uploaded, and you can also 
+create a new project
+=== Page 26 ===
+All rights reserved
+
+=== Page 27 ===
+All rights reserved
+
+=== Page 28 ===
+All rights reserved
+
+=== Page 29 ===
+Simple Quiz 
+All rights reserved
+▪ what is the   Different Game Types and platform ?
+▪ mention some of the video games 
+platforms?
+
+
+
+--- FILE: SESSION_10_PROJECT_PROJECT_SESSION_10.txt ---
+=== Page 1 ===
+In  this  session,  there  will  be  no  project  creation.   
+Instead,
+ 
+the
+ 
+session
+ 
+is
+ 
+focused
+ 
+on
+ 
+teaching
+ 
+children
+ 
+how
+ 
+to
+ 
+publish
+ 
+their
+ 
+previously
+ 
+created
+ 
+projects
+ 
+and
+ 
+games
+ 
+on
+ 
+multiple
+ 
+platforms,
+ 
+ 
+such
+ 
+as:
+ ●  Web  
+ ●  Android  
+ ●  PlayStation   …………..    At  least  2  or  3  projects  will  be  published  on  different  
+platforms.
+ 
+
+
+--- FILE: SESSION_10_TG_TG__session_10pdf.txt ---
+=== Page 1 ===
+Lesson  10,   
+which  focuses  on  improving  games  and  adding  final  touches  to  make  them  
+more
+ 
+engaging
+ 
+and
+ 
+high-quality.
+ 
+Links  you  will  need.   https://itch.io/dashboard  
+Lesson  Overview  
+By  the  end  of  this  lesson,  students  should  be  able  to:  
+●  Understand  the  importance  of  polishing  games.  ●  Identify  factors  that  make  a  game  fun  and  engaging.  ●  Explore  ways  to  enhance  responsiveness  and  interaction  within  the  
+game.
+ ●  Export  games  to  different  platforms.  
+Key  Concepts  to  Cover  
+1.  Importance  of  Polishing  Games  
+●  Adds  final  improvements  that  make  the  game  more  attractive.  ●  Helps  eliminate  technical  and  programming  errors.  ●  Enhances  the  player  experience  by  improving  interaction  and  
+responsiveness.
+ 
+2.  Elements  of  Game  Improvement  
+A.  Fun  Factor  
+●  Does  the  player  enjoy  playing  the  game?  ●  Does  the  game  create  excitement  and  keep  players  engaged?  
+B.  Interactivity  
+●  Does  the  game  respond  smoothly  to  player  inputs?  ●  Does  the  player  feel  actively  involved  in  the  experience?  
+=== Page 2 ===
+C.  Responsiveness  
+●  Does  the  game  react  quickly  to  player  actions?  ●  Does  it  provide  immediate  feedback  that  enhances  the  sense  of  
+control?
+ 
+D.  Liveliness  
+●  Does  the  game  feel  dynamic  and  interactive?  ●  Does  it  evoke  emotions  and  create  an  immersive  experience?  
+3.  Exporting  Games  to  Different  Platforms  
+●  Mobile  Games:  Optimize  controls,  performance,  and  short  play  
+experiences.
+ ●  PC  Games:  Focus  on  high-quality  graphics  and  advanced  gameplay  
+experience.
+ ●  Console  Games:  Ensure  smooth  controls  and  deliver  an  engaging  
+story.
+ 
+4.  Essential  Steps  for  Exporting  the  Game  
+1.  Go  to  Project  →  Export.  2.  Click  Add,  and  select  HTML5.  3.  Leave  the  default  settings  as  they  are.  4.  Click  Export  Project.  5.  Ensure  Export  With  Debug  is  unchecked.  6.  Choose  an  export  path  and  create  a  new  folder  to  save  the  files.  7.  Save  the  file,  then  rename  the  .html  file  to  index.  8.  Compress  the  folder  into  a  .zip  file.  
+ 
+ 
+ 
+Activity  1:  ﺗﺣﺳﯾن  اﻟﻠﻌﺑﺔ  
+=== Page 3 ===
+●  اطﻠب  ﻣن  اﻟطﻼب  ﻣراﺟﻌﺔ  أﻟﻌﺎﺑﮭم  وإﺿﺎﻓﺔ  ﺗﺣﺳﯾﻧﺎت  ﻋﻠﻰ  طرﯾﻘﺔ  
+اﻟﻠﻌب
+ 
+واﻟرﺳوﻣﺎت
+.
+ ●  ﺗﺄﻛد  ﻣن  أن  اﻟﻠﻌﺑﺔ  ﻣﺗﺟﺎوﺑﺔ  وﺳﻠﺳﺔ  ﻓﻲ  اﻟﺗﻌﺎﻣل  ﻣﻊ  إدﺧﺎﻻت  اﻟﻣﺳﺗﺧدم.  
+Activity  2:  ﻧﺷر   اﻟﻠﻌﺑﺔ  
+●  ﻗم  ﺑﺗوﺟﯾﮫ  اﻟطﻼب  ﻟﻧﺷر  أﻟﻌﺎﺑﮭم  ﺑﺎﺳﺗﺧدام  اﻟﺧطوات  اﻟﻣذﻛورة  أﻋﻼه.  ●  ﺳﺎﻋدھم  ﻓﻲ  اﺧﺗﺑﺎر  اﻷﻟﻌﺎب  ﻋﻠﻰ  اﻟﻣﻧﺻﺎت  اﻟﻣﺧﺗﻠﻔﺔ.    
+Discussion  Questions  &  Answers  
+1.  Why  is  polishing  a  game  an  essential  part  of  game  development?  
+Polishing  a  game  is  crucial  as  it  enhances  the  
+overall
+ 
+player
+ 
+experience
+ 
+by
+ 
+eliminating
+ 
+bugs,
+ 
+improving
+ 
+responsiveness,
+ 
+refining
+ 
+graphics,
+ 
+and
+ 
+ensuring
+ 
+smooth
+ 
+gameplay.
+ 
+It
+ 
+also
+ 
+makes
+ 
+the
+ 
+game
+ 
+more
+ 
+immersive
+ 
+and
+ 
+engaging.
+ 
+2.  What  are  the  differences  between  various  types  of  games  and  the  
+platforms
+ 
+they
+ 
+run
+ 
+on?
+ 
+●  Mobile  Games:  Designed  for  smartphones  and  
+tablets,
+ 
+requiring
+ 
+touch-based
+ 
+controls
+ 
+and
+ 
+optimized
+ 
+performance.
+ 
+=== Page 4 ===
+●  PC  Games:  Usually  offer  higher  graphics  
+quality,
+ 
+customizable
+ 
+controls,
+ 
+and
+ 
+more
+ 
+complex
+ 
+gameplay
+ 
+mechanics.
+ ●  Console  Games:  Built  for  gaming  consoles  like  
+PlayStation,
+ 
+Xbox,
+ 
+and
+ 
+Nintendo,
+ 
+providing
+ 
+seamless
+ 
+controller
+ 
+support
+ 
+and
+ 
+often
+ 
+high-end
+ 
+visuals.
+ 
+3.  What  are  some  common  issues  that  may  arise  when  exporting  a  game?  
+●  Game  is  not  responsive?  Check  control  and  
+interaction
+ 
+scripts.
+ ●  Music  or  sound  is  not  working?  Ensure  the  
+audio
+ 
+settings
+ 
+are
+ 
+correct
+ 
+and
+ 
+the
+ 
+play()
+ 
+function
+ 
+is
+ 
+properly
+ 
+called.
+ ●  Project  is  not  exporting  correctly?  Verify  the  
+export
+ 
+settings
+ 
+as
+ 
+explained
+ 
+above.
+  
+
+
+================================================================================
+SESSION 11 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_11_SLIDE_session_11.txt ---
+=== Page 1 ===
+Session 11
+Polishing Your Game: 
+The Secret to Making 
+It Great
+
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll guide you through setting up the foundation 
+of your Pong game. Learn the fundamental 
+elements and start coding your first interactive 
+components.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes 
+o UI Events
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Revisiting Events
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Objective
+Create a basic Pong game, where two players control paddles 
+to bounce a ball.
+Game Setup
+Establish the game environment with boundaries, paddles, and a ball. You'll use 
+these components to create the game's core mechanics.
+
+=== Page 6 ===
+2
+5
+All rights reserved
+
+=== Page 7 ===
+2
+6
+All rights reserved
+Boundaries
+Use StaticBody2D nodes to define the game's borders, preventing 
+the ball from going out of bounds.
+Paddles
+Create KinematicBody2D nodes for the paddles, controlled by 
+players. They will bounce the ball.
+Ball
+Use a KinematicBody2D for the ball, which bounces off the paddles 
+and boundaries. The ball is the core element of the game.
+
+=== Page 8 ===
+2
+7
+All rights reserved
+Create Scene
+=== Page 9 ===
+2
+8
+All rights reserved
+ Drag and drop the boundaries, paddles, 
+and ball nodes into the scene.
+
+=== Page 10 ===
+2
+9
+All rights reserved
+ Arrange the nodes within the game area, ensuring the 
+ball is centered and paddles are positioned correctly.
+ Set properties for each node, such as size, color, and 
+movement speed.
+
+=== Page 11 ===
+2
+10
+All rights reserved
+
+=== Page 12 ===
+2
+11
+All rights reserved
+Code : Paddle 
+Movement
+=== Page 13 ===
+2
+12
+All rights reserved
+Code : Ball behavior
+=== Page 14 ===
+2
+13
+All rights reserved
+Code : Paddle 
+Movement
+=== Page 15 ===
+2
+14
+All rights reserved
+Stay tuned for the next session where we'll dive 
+into the exciting world of ball physics and how to 
+make the game ball bounce realistically!
+=== Page 16 ===
+2
+15
+All rights reserved
+ what this function do   
+_on_area_entered (area)?
+
+
+
+--- FILE: SESSION_11_TG_TG_Session11.txt ---
+=== Page 1 ===
+By  the  end  of  this  session,  students  will:  ●  Understand  the  basic  mechanics  of  a  Pong  
+game.
+ ●  Learn  about  signals  and  UI  events  in  game  
+development.
+ ●  Set  up  a  basic  game  scene  with  paddles,  a  ball,  
+and
+ 
+boundaries.
+ ●  Implement  basic  movement  controls  for  paddles  
+and
+ 
+ball
+ 
+physics.
+ 
+Key  Concepts  
+●  Signals  &  UI  Events :  Used  to  trigger  actions  in  
+response
+ 
+to
+ 
+user
+ 
+input.
+ ●  Nodes  in  Godot :  Understanding  StaticBody2D,  
+KinematicBody2D,
+ 
+and
+ 
+UI
+ 
+elements.
+ ●  Game  Environment  Setup :  Arranging  game  
+objects
+ 
+in
+ 
+a
+ 
+scene.
+ ●  Basic  Physics  Implementation :  Making  the  
+ball
+ 
+bounce
+ 
+off
+ 
+paddles
+ 
+and
+ 
+walls.
+  
+Step-by-Step  Explanation  
+1.  Recap  of  Previous  Concepts  
+=== Page 2 ===
+●  
+Signals
+ 
+for
+ 
+UI
+ 
+Control
+:  Events  that  trigger  UI  responses  
+(e.g.,
+ 
+button
+ 
+clicks).
+ ●  Creating  Interactive  UI :  Labels,  buttons,  and  
+scene
+ 
+changes.
+ ●  Understanding  Scene  Changes :  Switching  
+between
+ 
+different
+ 
+game
+ 
+states.
+ 
+2.  Game  Setup  
+●  Explain  the  goal:  Two  players  use  paddles  to  
+bounce
+ 
+a
+ 
+ball
+ 
+and
+ 
+prevent
+ 
+it
+ 
+from
+ 
+going
+ 
+out
+ 
+of
+ 
+bounds.
+ ●  Discuss  the  required  components:  ○  Boundaries  (StaticBody2D)  to  keep  the  ball  
+inside
+ 
+the
+ 
+play
+ 
+area.
+ ○  Paddles  (KinematicBody2D)  controlled  by  
+players.
+ ○  Ball  (KinematicBody2D)  that  bounces  off  
+paddles
+ 
+and
+ 
+walls.
+ 
+3.  Creating  the  Game  Scene  
+1.  
+Create
+ 
+a
+ 
+New
+ 
+Scene
+:  Set  up  the  environment  for  the  
+game.
+ 2.  Add  Nodes :  ○  StaticBody2D  for  the  boundaries.  ○  KinematicBody2D  for  paddles.  
+=== Page 3 ===
+○  KinematicBody2D  for  the  ball.  3.  Position  the  Nodes :  ○  Center  the  ball  at  the  starting  position.  ○  Position  paddles  on  either  side.  4.  Configure  Node  Properties :  ○  Set  size,  color,  and  movement  speed  of  the  
+paddles
+ 
+and
+ 
+ball.
+ 
+4.  Controlling  the  Paddles  
+●  Introduce  movement  controls:  ○  Left  paddle:  Controlled  by  W/S  keys.  ○  Right  paddle:  Controlled  by  Up/Down  arrow  
+keys.
+ Provide  sample  code  for  paddle  
+movement:
+ 
+func
+ 
+_physics_process(delta):
+     if  
+Input.is_action_pressed("move_up")
+:
+         position.y  -=  speed  *  delta      elif  
+Input.is_action_pressed("move_dow
+n"):
+ ●          position.y  +=  speed  *  delta  
+=== Page 4 ===
+5.  Implementing  Ball  Behavior  
+●  Explain  how  the  ball  should  move  and  bounce.  Provide  sample  code  for  the  ball’s  
+movement:
+ 
+func
+ 
+_physics_process(delta):
+     position  +=  velocity  *  delta      if  position.y  <=  0  or  position.y  >=  
+screen_height:
+ ●          velocity.y  *=  -1   #  Bounce  off  walls  
+6.  Understanding  Signals  
+●  
+Question
+:  What  does  _on_area_entered(area) 
+do?
+ ●   Answer :  It  detects  when  an  object  enters  a  
+specific
+ 
+area
+ 
+and
+ 
+can
+ 
+be
+ 
+used
+ 
+to
+ 
+trigger
+ 
+an
+ 
+event
+ 
+(e.g.,
+ 
+scoring
+ 
+a
+ 
+point
+ 
+when
+ 
+the
+ 
+ball
+ 
+crosses
+ 
+a
+ 
+boundary).
+  
+
+
+================================================================================
+SESSION 12 CONTENT DUMP
+================================================================================
+
+--- FILE: SESSION_12_SLIDE_session12.txt ---
+=== Page 1 ===
+Session 12
+Building Pong: 
+Part 2
+
+=== Page 2 ===
+2
+1
+All rights reserved
+We'll Add Interactivity And Scoring To Make 
+This Game Come Alive.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes 
+o UI Events
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Objective: Bring Pong to Life
+o Interactive Gameplay
+We'll breathe life into our game by adding the 
+fundamental elements of interactivity. Prepare to feel 
+the excitement of a good old-fashioned Pong game!
+o Dynamic Scoring System
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Area2D
+Get ready to introduce collision detection using the Area2D node, 
+a powerful tool that detects when objects touch.
+Ball Movement and Bouncing
+We'll give the ball a life of its own by scripting its movement and 
+bouncing off the paddles and boundaries.
+Score Display
+Prepare to showcase your scores! We'll use Label nodes to display 
+the points as you compete.
+
+=== Page 6 ===
+2
+5
+All rights reserved
+
+=== Page 7 ===
+2
+6
+All rights reserved
+ Let's bring the ball to life! Write the code to make it bounce off the paddles and boundaries. 
+It's like a virtual tennis match.
+
+=== Page 8 ===
+2
+7
+All rights reserved
+ Now for the exciting part! Code the score to update 
+each time the ball goes past the paddles.
+
+=== Page 9 ===
+2
+8
+All rights reserved
+Ball Mechanics
+The ball will bounce off the paddles and walls, 
+bringing the game to life.
+Scoring System
+Each time the ball crosses the paddle, 
+the score will update.
+Final Touches
+The game will be complete, playable, and 
+ready to entertain.
+
+=== Page 10 ===
+2
+9
+All rights reserved
+ You'll understand how to add the core game logic 
+that makes Pong a classic
+Master Pong Logic
+ You'll create a fully functional Pong game that's 
+ready for action.
+Playable Pong Game
+
+=== Page 11 ===
+2
+10
+All rights reserved
+Level Design
+Add more challenges by creating different game levels 
+or difficulties.
+Power-Ups
+Spice things up by introducing power-ups that modify 
+gameplay, like speed boosts or temporary shields.
+
+=== Page 12 ===
+2
+11
+All rights reserved
+You've mastered the basics of Pong 
+development! Now it's time to explore, 
+experiment, and create your own unique 
+game variations.
+
+=== Page 13 ===
+2
+12
+All rights reserved
+ How do you think we can play sounds in Godot?
+ How can you use sound to enhance the 
+player's experience in your game?
+ how to stop all sounds in Godot?
+
+
+--- FILE: SESSION_12_TG_TG_Session_12.txt ---
+=== Page 1 ===
+In  this  lesson,  we  will  add  interactivity  and  a  scoring  
+system
+ 
+to
+ 
+the
+ 
+Pong
+ 
+game
+ 
+to
+ 
+make
+ 
+it
+ 
+more
+ 
+engaging
+ 
+and
+ 
+dynamic.
+ 
+We
+ 
+will
+ 
+learn
+ 
+how
+ 
+to
+ 
+use
+ 
+Signals
+ 
+for
+ 
+UI
+ 
+control,
+ 
+explore
+ 
+Collision
+ 
+Detection
+ 
+using
+ 
+the
+ 
+Area2D
+ 
+node
+,
+ 
+and
+ 
+implement
+ 
+a
+ 
+scoring
+ 
+system
+.
+ 
+ 
+Links  you  will  need.  ●  https://itch.io/dashboard ●  https://clipchamp.com/ ●    
+ 
+Learning  Outcomes:  
+By  the  end  of  this  lesson,  students  will  be  able  to:  ●  Understand  how  to  program  ball  movement  and  
+bouncing.
+ ●  Use  Label  Nodes  to  display  scores  during  
+gameplay.
+ ●  Apply  Pong  game  logic  to  make  it  fully  playable.  
+=== Page 2 ===
+ 
+Detailed  Explanation  
+1.  Using  Signals  for  UI  Control  
+●  Signals  in  Godot  Engine  are  used  to  link  
+events
+ 
+between
+ 
+objects.
+ ●  Example:  A  signal  can  be  sent  when  a  new  goal  
+is
+ 
+scored
+ 
+to
+ 
+update
+ 
+the
+ 
+UI.
+ 
+2.  Creating  an  Interactive  UI  
+●  We  will  use  Label  Nodes  to  display  the  game  
+score.
+ ●  When  a  player  scores,  this  node  should  be  
+updated
+ 
+to
+ 
+reflect
+ 
+the
+ 
+new
+ 
+score.
+ 
+3.  Collision  Detection  with  Area2D  
+●  Node:  Area2D  is  an  object  used  to  detect  
+collisions
+ 
+in
+ 
+the
+ 
+game.
+ ●  A  Collision  Shape  must  be  added  to  define  its  
+boundaries.
+ 
+4.  Ball  Movement  and  Bouncing  
+●  To  create  natural  movement,  the  ball  needs  
+speed
+ 
+and
+ 
+direction.
+ 
+=== Page 3 ===
+●  When  the  ball  hits  the  walls  or  paddles,  it  should  
+bounce
+ 
+at
+ 
+appropriate
+ 
+angles.
+ 
+5.  Displaying  Scores  with  Label  Nodes  
+●  We  will  use  Label  Nodes  to  show  the  current  
+score.
+ ●  When  the  ball  passes  a  paddle,  the  score  
+updates,
+ 
+and
+ 
+the
+ 
+ball
+ 
+resets.
+ 
+6.  Coding  Collision  Detection  
+Example  Code  for  Ball-Paddle  Collision:  extends  Area2D   var  speed  =  Vector2(200,  200)   func  _physics_process(delta):      position  +=  speed  *  delta      if  position.y  <=  0  or  position.y  >=  
+600:
+         speed.y  =  -speed.y   def  _on_body_entered(body):      if  body.name  ==  "Paddle":          speed.x  =  -speed.x  
+=== Page 4 ===
+7.  Updating  the  Scoring  System  
+●  When  the  ball  passes  a  paddle,  the  score  
+updates.
+ ●  The  Label  Node  should  reflect  the  new  score  
+immediately.
+ 
+Quiz  Answers  
+1.  How  can  we  play  sounds  in  Godot?  
+●  Use  AudioStreamPlayer  or  
+AudioStreamPlayer2D
+.
+ ●  Load  an  audio  file  and  use  play() to  play  it.  
+2.  How  can  sound  enhance  the  player  experience?  
+●  Add  sound  effects  when  a  point  is  scored.  ●  Play  background  music  during  gameplay.  ●  Include  sound  effects  when  the  ball  hits  the  
+paddle.
+ 
+3.  How  do  you  stop  all  sounds  in  Godot?  
+●  Use  stop() on  all  AudioStreamPlayers .  ●  Another  way  is  setting  the  volume  to  zero  using  AudioServer.set_bus_volume_db().  
+=== Page 5 ===
+Ask  the  students,  What  is  this  trailer  that  we  need  to  
+design?
+ Trailer  Explain  that  a  trailer  (also  known  as  a  preview  or  
+attraction
+ 
+video)
+ 
+is
+ 
+a
+ 
+commercial
+ 
+advertisement
+ 
+for
+ 
+their
+ 
+product
+ 
+which
+ 
+is
+ 
+their
+ 
+game.
+ Explain  that  they  will  design  a  video  trailer  as  an  
+attraction
+ 
+highlighting
+ 
+the
+ 
+game
+ 
+features
+ 
+for
+ 
+players
+ 
+to
+ 
+explore
+ 
+and
+ 
+try
+ 
+their
+ 
+game.
+ Trailer  design  ideas:   First  and  most  important  decision  is  to  choose  what  
+is
+ 
+the
+ 
+theme
+ 
+you
+ 
+want
+ 
+to
+ 
+present
+ 
+your
+ 
+game
+ 
+(serious
+ 
+or
+ 
+light-hearted
+ 
+comedic),
+ 
+depending
+ 
+on
+ 
+your
+ 
+decision
+ 
+choose
+ 
+an
+ 
+appropriate
+ 
+text,
+ 
+images,
+ 
+voices
+ 
+or
+ 
+even
+ 
+voice
+ 
+over
+ 
+your
+ 
+trail
+  1.  Text  appears  “One  day  a  portal  opened  in  the  
+sky”
+ 2.  Transition  3.  Text  appears  “Spawned  Dangerous  creatures!”  4.  Transition  
+=== Page 6 ===
+5.  Play  a  video  (play  video  of  citizens  running  
+around
+ 
+in
+ 
+fear)
+ 6.  Transition  7.  Play  a  video  of  gameplay  (where  the  wizard  is  
+swinging
+ 
+his
+ 
+staff
+ 
+around
+ 
+as
+ 
+he
+ 
+is
+ 
+getting
+ 
+ready
+ 
+to
+ 
+defend
+ 
+the
+ 
+innocent
+ 
+against
+ 
+the
+ 
+incoming
+ 
+terror
+ 
+in
+ 
+the
+ 
+sky)
+ 8.  Transition  9.  Text  appears  “But  there  is  one  hero,  who  stood  
+against
+ 
+this
+ 
+terror!”
+ 10.  Transition  11.  Play  a  video  (Play  a  gameplay  video  where  
+the
+ 
+wizard
+ 
+is
+ 
+fighting
+ 
+eagles
+ 
+and
+ 
+dodging
+ 
+enemies)
+ 12.  Transition  13.  Text  appears  showing  the  name  of  the  game  
+“Magic
+ 
+Caster”
+ 14.  Transition  15.  Text  appears  “Now  available  on  itch.io”  Making  the  Trailer:  Banner  (for  YouTube  video):  To  create  a  banner  
+for
+ 
+your
+ 
+game,
+ 
+simply
+ 
+take
+ 
+a
+ 
+screenshot
+ 
+of
+ 
+the
+ 
+game
+ 
+and
+ 
+add
+ 
+the
+ 
+game
+ 
+logo.
+ 
+=== Page 7 ===
+ 
+

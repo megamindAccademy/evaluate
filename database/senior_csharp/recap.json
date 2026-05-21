@@ -3,241 +3,337 @@
   "recaps": [
     {
       "id": 1,
-      "title": "Session 1 Recap",
+      "title": "Welcome to C# & Visual Studio Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Introduction to game engines, IDE setup, and running your first desktop window."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Introduction to game engines, IDE setup, and running your first desktop window. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Session 2 Recap",
+      "title": "Variables & Smart Data Types Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Learn int, float, string, and bool to store game scores and usernames."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Learn int, float, string, and bool to store game scores and usernames. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Session 3 Recap",
+      "title": "Arithmetic & Comparisons Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Add, subtract, and compare variables to control game elements."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Add, subtract, and compare variables to control game elements. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Session 4 Recap",
+      "title": "Smart Conditionals (If-Else) Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Write smart branches to decide if a player wins or loses based on points."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Write smart branches to decide if a player wins or loses based on points. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 5,
-      "title": "Session 5 Recap",
+      "title": "Switch Cases for Decisions Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Clean up nested conditions with clean, multi-choice switch cases."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Clean up nested conditions with clean, multi-choice switch cases. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 6,
-      "title": "Session 6 Recap",
+      "title": "While Loops & Conditions Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Repeat coding instructions until a magic condition becomes true."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Repeat coding instructions until a magic condition becomes true. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 7,
-      "title": "Session 7 Recap",
+      "title": "For Loops & Dynamic Grids Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Count and build perfect repeating rows and grids with For loops."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Count and build perfect repeating rows and grids with For loops. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 8,
-      "title": "Session 8 Recap",
+      "title": "Storing Lists inside Arrays Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Store groups of gold coins and enemy names inside structured arrays."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Store groups of gold coins and enemy names inside structured arrays. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 9,
-      "title": "Session 9 Recap",
+      "title": "Methods & Fun Functions Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Write reusable blocks of code that take parameters and return results."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Write reusable blocks of code that take parameters and return results. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 10,
-      "title": "Session 10 Recap",
+      "title": "Classes & Object-Oriented C# Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Understand Object-Oriented Programming (OOP) classes and real instances."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Understand Object-Oriented Programming (OOP) classes and real instances. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 11,
-      "title": "Session 11 Recap",
+      "title": "Constructors & Object Creation Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Initialize your classes instantly using constructor methods."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Initialize your classes instantly using constructor methods. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 12,
-      "title": "Session 12 Recap",
+      "title": "Inheritance & Smart Subclasses Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Derive child classes from parents to inherit special game behaviors."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Derive child classes from parents to inherit special game behaviors. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 13,
-      "title": "Session 13 Recap",
+      "title": "Encapsulation & Access Modifiers Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Protect class fields using public and private keywords."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Protect class fields using public and private keywords. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 14,
-      "title": "Session 14 Recap",
+      "title": "Exception Handling (Try-Catch) Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Catch and resolve unexpected coding errors safely without crashing."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Catch and resolve unexpected coding errors safely without crashing. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 15,
-      "title": "Session 15 Recap",
+      "title": "Lists & Dynamic Generics Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Use dynamic List structures that shrink and grow automatically."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Use dynamic List structures that shrink and grow automatically. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 16,
-      "title": "Session 16 Recap",
+      "title": "Intro to Windows Forms UI Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Design graphic window frames and add buttons and text areas."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Design graphic window frames and add buttons and text areas. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 17,
-      "title": "Session 17 Recap",
+      "title": "Windows Forms Advanced Layouts Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Position and align text controls, background colors, and labels."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Position and align text controls, background colors, and labels. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 18,
-      "title": "Session 18 Recap",
+      "title": "Events & Event Handlers Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Capture mouse clicks and button pressed actions to trigger code."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Capture mouse clicks and button pressed actions to trigger code. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 19,
-      "title": "Session 19 Recap",
+      "title": "Building a Calculator App Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Assemble a functional calculator using forms, variables, and math."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Assemble a functional calculator using forms, variables, and math. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 20,
-      "title": "Session 20 Recap",
+      "title": "Database & Data Persistence Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Connect C# apps to local databases to save player progress."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Connect C# apps to local databases to save player progress. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 21,
-      "title": "Session 21 Recap",
+      "title": "Reading & Writing Files Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Save player highscores permanently into text files on the disk."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Save player highscores permanently into text files on the disk. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 22,
-      "title": "Session 22 Recap",
+      "title": "Building a Tic-Tac-Toe Game Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Design a two-player grid board with victory validation algorithms."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Design a two-player grid board with victory validation algorithms. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 23,
-      "title": "Session 23 Recap",
+      "title": "Game Architecture in C# Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Master standard loops, physics updates, and game structure."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Master standard loops, physics updates, and game structure. Experiment and design beautiful features with 🦁!"
         }
       ]
     },
     {
       "id": 24,
-      "title": "Session 24 Recap",
+      "title": "Mega Desktop Graduation Project Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Assemble the final desktop hero app with UI, databases, and logic."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Assemble the final desktop hero app with UI, databases, and logic. Experiment and design beautiful features with 🦁!"
         }
       ]
     }

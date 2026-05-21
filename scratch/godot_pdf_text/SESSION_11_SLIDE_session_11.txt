@@ -1,0 +1,120 @@
+=== Page 1 ===
+Session 11
+Polishing Your Game: 
+The Secret to Making 
+It Great
+
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll guide you through setting up the foundation 
+of your Pong game. Learn the fundamental 
+elements and start coding your first interactive 
+components.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes 
+o UI Events
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Revisiting Events
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Objective
+Create a basic Pong game, where two players control paddles 
+to bounce a ball.
+Game Setup
+Establish the game environment with boundaries, paddles, and a ball. You'll use 
+these components to create the game's core mechanics.
+
+=== Page 6 ===
+2
+5
+All rights reserved
+
+=== Page 7 ===
+2
+6
+All rights reserved
+Boundaries
+Use StaticBody2D nodes to define the game's borders, preventing 
+the ball from going out of bounds.
+Paddles
+Create KinematicBody2D nodes for the paddles, controlled by 
+players. They will bounce the ball.
+Ball
+Use a KinematicBody2D for the ball, which bounces off the paddles 
+and boundaries. The ball is the core element of the game.
+
+=== Page 8 ===
+2
+7
+All rights reserved
+Create Scene
+=== Page 9 ===
+2
+8
+All rights reserved
+ Drag and drop the boundaries, paddles, 
+and ball nodes into the scene.
+
+=== Page 10 ===
+2
+9
+All rights reserved
+ Arrange the nodes within the game area, ensuring the 
+ball is centered and paddles are positioned correctly.
+ Set properties for each node, such as size, color, and 
+movement speed.
+
+=== Page 11 ===
+2
+10
+All rights reserved
+
+=== Page 12 ===
+2
+11
+All rights reserved
+Code : Paddle 
+Movement
+=== Page 13 ===
+2
+12
+All rights reserved
+Code : Ball behavior
+=== Page 14 ===
+2
+13
+All rights reserved
+Code : Paddle 
+Movement
+=== Page 15 ===
+2
+14
+All rights reserved
+Stay tuned for the next session where we'll dive 
+into the exciting world of ball physics and how to 
+make the game ball bounce realistically!
+=== Page 16 ===
+2
+15
+All rights reserved
+ what this function do   
+_on_area_entered (area)?
+

@@ -3,121 +3,169 @@
   "recaps": [
     {
       "id": 1,
-      "title": "Session 1 Recap",
+      "title": "Welcome to Flutter & Mobile Dev Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Set up Dart, install Flutter SDK, and boot the virtual phone simulator."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Set up Dart, install Flutter SDK, and boot the virtual phone simulator. Experiment and design beautiful features with 🐦!"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Session 2 Recap",
+      "title": "Dart Syntax & Variables Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Store player progress and app names inside Dart data type containers."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Store player progress and app names inside Dart data type containers. Experiment and design beautiful features with 🐦!"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Session 3 Recap",
+      "title": "Dart Classes & Subclasses Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Design reusable components using Dart classes and properties."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Design reusable components using Dart classes and properties. Experiment and design beautiful features with 🐦!"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Session 4 Recap",
+      "title": "Stateless vs Stateful Widgets Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Learn the building blocks of mobile screens and widgets that change dynamically."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Learn the building blocks of mobile screens and widgets that change dynamically. Experiment and design beautiful features with 🐦!"
         }
       ]
     },
     {
       "id": 5,
-      "title": "Session 5 Recap",
+      "title": "Layouts with Columns & Rows Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Structure mobile components vertically (Column) and horizontally (Row)."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Structure mobile components vertically (Column) and horizontally (Row). Experiment and design beautiful features with 🐦!"
         }
       ]
     },
     {
       "id": 6,
-      "title": "Session 6 Recap",
+      "title": "Scrolling Lists with ListView Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Load dynamic list rows that scroll smoothly without screen lag."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Load dynamic list rows that scroll smoothly without screen lag. Experiment and design beautiful features with 🐦!"
         }
       ]
     },
     {
       "id": 7,
-      "title": "Session 7 Recap",
+      "title": "Forms & TextField Inputs Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Create secure login and checkout form fields that collect inputs."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Create secure login and checkout form fields that collect inputs. Experiment and design beautiful features with 🐦!"
         }
       ]
     },
     {
       "id": 8,
-      "title": "Session 8 Recap",
+      "title": "Navigation & App Screens Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Teleport users between different screens using standard Navigator routes."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Teleport users between different screens using standard Navigator routes. Experiment and design beautiful features with 🐦!"
         }
       ]
     },
     {
       "id": 9,
-      "title": "Session 9 Recap",
+      "title": "State Management Basics Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Sync and refresh data across multiple widget screens automatically."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Sync and refresh data across multiple widget screens automatically. Experiment and design beautiful features with 🐦!"
         }
       ]
     },
     {
       "id": 10,
-      "title": "Session 10 Recap",
+      "title": "Fetching API Data online Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Connect your app to the cloud to fetch real-time weather or post data."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Connect your app to the cloud to fetch real-time weather or post data. Experiment and design beautiful features with 🐦!"
         }
       ]
     },
     {
       "id": 11,
-      "title": "Session 11 Recap",
+      "title": "Local Storage Preferences Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Save user login states and themes locally inside phone memory."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Save user login states and themes locally inside phone memory. Experiment and design beautiful features with 🐦!"
         }
       ]
     },
     {
       "id": 12,
-      "title": "Session 12 Recap",
+      "title": "Mega Flutter Graduation Project Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "Great job!"
+          "heading": "🌟 Core Concept",
+          "text": "Deploy a complete dynamic mobile app with beautiful responsive screens."
+        },
+        {
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Deploy a complete dynamic mobile app with beautiful responsive screens. Experiment and design beautiful features with 🐦!"
         }
       ]
     }

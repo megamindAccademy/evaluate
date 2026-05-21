@@ -1,0 +1,210 @@
+=== Page 1 ===
+Lesson  10,   
+which  focuses  on  improving  games  and  adding  final  touches  to  make  them  
+more
+ 
+engaging
+ 
+and
+ 
+high-quality.
+ 
+Links  you  will  need.   https://itch.io/dashboard  
+Lesson  Overview  
+By  the  end  of  this  lesson,  students  should  be  able  to:  
+●  Understand  the  importance  of  polishing  games.  ●  Identify  factors  that  make  a  game  fun  and  engaging.  ●  Explore  ways  to  enhance  responsiveness  and  interaction  within  the  
+game.
+ ●  Export  games  to  different  platforms.  
+Key  Concepts  to  Cover  
+1.  Importance  of  Polishing  Games  
+●  Adds  final  improvements  that  make  the  game  more  attractive.  ●  Helps  eliminate  technical  and  programming  errors.  ●  Enhances  the  player  experience  by  improving  interaction  and  
+responsiveness.
+ 
+2.  Elements  of  Game  Improvement  
+A.  Fun  Factor  
+●  Does  the  player  enjoy  playing  the  game?  ●  Does  the  game  create  excitement  and  keep  players  engaged?  
+B.  Interactivity  
+●  Does  the  game  respond  smoothly  to  player  inputs?  ●  Does  the  player  feel  actively  involved  in  the  experience?  
+=== Page 2 ===
+C.  Responsiveness  
+●  Does  the  game  react  quickly  to  player  actions?  ●  Does  it  provide  immediate  feedback  that  enhances  the  sense  of  
+control?
+ 
+D.  Liveliness  
+●  Does  the  game  feel  dynamic  and  interactive?  ●  Does  it  evoke  emotions  and  create  an  immersive  experience?  
+3.  Exporting  Games  to  Different  Platforms  
+●  Mobile  Games:  Optimize  controls,  performance,  and  short  play  
+experiences.
+ ●  PC  Games:  Focus  on  high-quality  graphics  and  advanced  gameplay  
+experience.
+ ●  Console  Games:  Ensure  smooth  controls  and  deliver  an  engaging  
+story.
+ 
+4.  Essential  Steps  for  Exporting  the  Game  
+1.  Go  to  Project  →  Export.  2.  Click  Add,  and  select  HTML5.  3.  Leave  the  default  settings  as  they  are.  4.  Click  Export  Project.  5.  Ensure  Export  With  Debug  is  unchecked.  6.  Choose  an  export  path  and  create  a  new  folder  to  save  the  files.  7.  Save  the  file,  then  rename  the  .html  file  to  index.  8.  Compress  the  folder  into  a  .zip  file.  
+ 
+ 
+ 
+Activity  1:  ﺗﺣﺳﯾن  اﻟﻠﻌﺑﺔ  
+=== Page 3 ===
+●  اطﻠب  ﻣن  اﻟطﻼب  ﻣراﺟﻌﺔ  أﻟﻌﺎﺑﮭم  وإﺿﺎﻓﺔ  ﺗﺣﺳﯾﻧﺎت  ﻋﻠﻰ  طرﯾﻘﺔ  
+اﻟﻠﻌب
+ 
+واﻟرﺳوﻣﺎت
+.
+ ●  ﺗﺄﻛد  ﻣن  أن  اﻟﻠﻌﺑﺔ  ﻣﺗﺟﺎوﺑﺔ  وﺳﻠﺳﺔ  ﻓﻲ  اﻟﺗﻌﺎﻣل  ﻣﻊ  إدﺧﺎﻻت  اﻟﻣﺳﺗﺧدم.  
+Activity  2:  ﻧﺷر   اﻟﻠﻌﺑﺔ  
+●  ﻗم  ﺑﺗوﺟﯾﮫ  اﻟطﻼب  ﻟﻧﺷر  أﻟﻌﺎﺑﮭم  ﺑﺎﺳﺗﺧدام  اﻟﺧطوات  اﻟﻣذﻛورة  أﻋﻼه.  ●  ﺳﺎﻋدھم  ﻓﻲ  اﺧﺗﺑﺎر  اﻷﻟﻌﺎب  ﻋﻠﻰ  اﻟﻣﻧﺻﺎت  اﻟﻣﺧﺗﻠﻔﺔ.    
+Discussion  Questions  &  Answers  
+1.  Why  is  polishing  a  game  an  essential  part  of  game  development?  
+Polishing  a  game  is  crucial  as  it  enhances  the  
+overall
+ 
+player
+ 
+experience
+ 
+by
+ 
+eliminating
+ 
+bugs,
+ 
+improving
+ 
+responsiveness,
+ 
+refining
+ 
+graphics,
+ 
+and
+ 
+ensuring
+ 
+smooth
+ 
+gameplay.
+ 
+It
+ 
+also
+ 
+makes
+ 
+the
+ 
+game
+ 
+more
+ 
+immersive
+ 
+and
+ 
+engaging.
+ 
+2.  What  are  the  differences  between  various  types  of  games  and  the  
+platforms
+ 
+they
+ 
+run
+ 
+on?
+ 
+●  Mobile  Games:  Designed  for  smartphones  and  
+tablets,
+ 
+requiring
+ 
+touch-based
+ 
+controls
+ 
+and
+ 
+optimized
+ 
+performance.
+ 
+=== Page 4 ===
+●  PC  Games:  Usually  offer  higher  graphics  
+quality,
+ 
+customizable
+ 
+controls,
+ 
+and
+ 
+more
+ 
+complex
+ 
+gameplay
+ 
+mechanics.
+ ●  Console  Games:  Built  for  gaming  consoles  like  
+PlayStation,
+ 
+Xbox,
+ 
+and
+ 
+Nintendo,
+ 
+providing
+ 
+seamless
+ 
+controller
+ 
+support
+ 
+and
+ 
+often
+ 
+high-end
+ 
+visuals.
+ 
+3.  What  are  some  common  issues  that  may  arise  when  exporting  a  game?  
+●  Game  is  not  responsive?  Check  control  and  
+interaction
+ 
+scripts.
+ ●  Music  or  sound  is  not  working?  Ensure  the  
+audio
+ 
+settings
+ 
+are
+ 
+correct
+ 
+and
+ 
+the
+ 
+play()
+ 
+function
+ 
+is
+ 
+properly
+ 
+called.
+ ●  Project  is  not  exporting  correctly?  Verify  the  
+export
+ 
+settings
+ 
+as
+ 
+explained
+ 
+above.
+  

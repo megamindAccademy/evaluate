@@ -1,0 +1,196 @@
+=== Page 1 ===
+Lesson  9,  which  covers  the  use  of  cameras  and  
+parallax
+ 
+backgrounds
+ 
+in
+ 
+Godot
+.
+ By  the  end  of  this  session,  students  should  be  able  
+to:
+ ●  Understand  the  role  of  the  camera  in  2D  games.  ●  Implement  a  camera  that  follows  the  player  
+smoothly.
+ ●  Use  parallax  backgrounds  to  enhance  game  
+visuals.
+ ●  Work  with  signals  and  UI  control.  
+Key  Concepts  to  Cover  
+1.  The  Camera  Node  
+●  The  Camera2D  node  defines  the  visible  area  of  
+the
+ 
+game.
+ ●  It  can  be  set  to  follow  the  player  dynamically.  ●  Adjusting  the  smoothing  settings  allows  for  a  
+smoother
+ 
+camera
+ 
+movement.
+ 
+2.  Implementing  a  Camera  in  Godot  
+1.  Create  a  Camera2D  node  ○  Attach  it  to  the  player  or  main  character.  2.  Enable  Camera  Follow  
+=== Page 2 ===
+○  Set  current  to  true .  ○  Adjust  the  drag  margins  to  control  how  
+much
+ 
+movement
+ 
+triggers
+ 
+the
+ 
+camera.
+ 3.  Smooth  Movement  ○  Enable  smoothing  and  set  appropriate  
+values
+ 
+for
+ 
+speed
+ 
+adjustments.
+ 
+3.  Parallax  Backgrounds  
+●  Parallax  backgrounds  create  depth  by  moving  at  
+different
+ 
+speeds
+ 
+relative
+ 
+to
+ 
+the
+ 
+foreground.
+ ●  ParallaxBackground  and  ParallaxLayer  nodes  
+help
+ 
+in
+ 
+setting
+ 
+up
+ 
+dynamic
+ 
+backgrounds.
+ ●  Adjusting  motion  scales  helps  achieve  the  
+desired
+ 
+effect.
+ 
+4.  Project:  Implementing  Camera  &  Parallax  Effects  
+Steps  to  Create  the  Project  
+1.  
+Create
+ 
+a
+ 
+new
+ 
+scene
+ 
+called
+ 
+"RainDrop"
+ 
+○  Add  a  Sprite  node.  ○  Attach  a  script.  2.  Add  two  images:  a  cloud  and  rain  ○  Import  and  set  them  as  textures.  3.  Move  the  rain  downward  ○  Use  the  Y-axis  and  delta  for  smooth  
+animation.
+ 
+=== Page 3 ===
+4.  Create  the  main  scene  and  attach  scripts  ○  Use  preload("res://RainDrop.tscn").  5.  Add  a  Sprite  node  for  the  cloud  ○  Set  the  texture  from  the  Inspector .  6.  Attach  a  script  to  the  cloud  node  ○  Create  a  function  click_mouse_inside_cloud() to  
+handle
+ 
+interactions.
+   
+Activity  1:  Setting  Up  Camera  Movement  
+●  Guide  students  to  add  a  Camera2D  node  and  
+configure
+ 
+its
+ 
+properties.
+ ●  Demonstrate  smooth  camera  movement.  
+Discussion  Questions  &  Answers  
+1.  What  is  the  role  of  the  camera  in  2D  games?  ○  The  camera  defines  what  part  of  the  game  
+world
+ 
+is
+ 
+visible
+ 
+on
+ 
+screen.
+ ○   It  allows  players  to  focus  on  the  action  and  
+follow
+ 
+the
+ 
+player
+ 
+smoothly.
+ 
+=== Page 4 ===
+2.  How  can  it  be  set  up  to  follow  the  player  in  
+Godot?
+ ○  By  adding  a  Camera2D  node  to  the  player  
+and
+ 
+enabling
+ 
+current
+.
+ 
+ ○  Adjusting  drag  margins  and  smoothing  
+settings
+ 
+enhances
+ 
+movement.
+ 3.  What  is  the  benefit  of  using  the  preload  
+method?
+ ○  Preloading  improves  performance  by  
+loading
+ 
+a
+ 
+resource
+ 
+once
+ ○   at  the  beginning  rather  than  dynamically  
+every
+ 
+time
+ 
+it
+ 
+is
+ 
+needed.
+  
+Common  Issues  &  Troubleshooting  
+●  Camera  not  following  the  player?  Ensure  
+current
+ 
+is
+ 
+enabled.
+ ●  Parallax  effect  not  visible?  Check  the  motion  
+scale
+ 
+values
+ 
+of
+ 
+ParallaxLayer
+ 
+nodes.
+ ●  Objects  moving  too  fast  or  slow?  Adjust  
+delta-based
+ 
+movement
+ 
+calculations.
+  

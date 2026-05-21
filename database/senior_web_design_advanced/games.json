@@ -267,7 +267,7 @@
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 9!",
+        "required_output_text": "Rowan",
         "required_canvas": false
       },
       "homework": {

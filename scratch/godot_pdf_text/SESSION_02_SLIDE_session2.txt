@@ -1,0 +1,249 @@
+=== Page 1 ===
+Session 2
+Nodes, Scenes,
+and Functions 
+in Godot
+
+=== Page 2 ===
+2
+1
+All rights reserved
+In this lesson, we'll dive deep into the fundamental building 
+blocks of Godot: nodes and scenes. We'll explore how these 
+elements work together to create complex game 
+structures and learn about GDScript, Godot's powerful 
+scripting language. By the end of this lesson, you'll have a 
+solid understanding of how to organize your project, 
+create interactive scenes, and write efficient code using 
+functions. Get ready to take your Godot skills to the next 
+level as we embark on this exciting journey into the heart 
+of game development!
+
+=== Page 3 ===
+2
+2
+All rights reserved
+What they remember about each of the following topics:
+o Game Engines
+o Godot Game Engine
+o Nodes
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o What are Nodes and Scenes?
+o Creating and Organizing Nodes and scence
+o Organizing Your Project Files
+o Godot's Scripting Language
+o GDScript Syntax
+o Functions in GDScript
+o Special Functions: ready() and process()
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Nodes: The Building Blocks
+Nodes are the fundamental elements in Godot, 
+representing specific functionalities like sprites, 
+sounds, or physics objects. They are the atomic 
+units of your game, each with its own properties 
+and behaviors.
+Scenes: Organizing Complexity
+Scenes are collections of nodes arranged in a 
+hierarchical structure. They allow you to create 
+reusable, modular components of your game, 
+from characters to entire levels.
+Scene Tree: The Big Picture
+The scene tree is the overall structure of your 
+game, showing how different scenes and nodes 
+are connected and interact with each other.
+Inheritance: Power of Reusability
+Scenes can inherit from other scenes, allowing 
+you to create complex objects while maintaining 
+a clean, organized structure and promoting 
+code reuse.
+
+=== Page 6 ===
+2
+5
+All rights reserved
+• ADDING NODES
+Start by clicking the '+' button in the Scene panel or using the "Add Child Node" option. Choose from 
+a variety of node types like Sprite, Area2D, or KinematicBody2D to suit your game's needs.
+• NAMING AND POSITIONING
+Give your nodes descriptive names and arrange them in the Scene tree. Use parent-
+child relationships to create logical groupings and establish inheritance.
+• CONFIGURING PROPERTIES
+Adjust node properties in the Inspector panel. Set positions, scales, and other attributes 
+to define how each node behaves and appears in your game.
+• ADDING SCRIPTS
+Attach GDScript files to nodes to add custom behavior. Right-click a node and select 
+"Attach Script" to create or link a script file.
+
+=== Page 7 ===
+2
+6
+All rights reserved
+add new node and 
+any node you create will 
+found it here 
+=== Page 8 ===
+2
+7
+All rights reserved
+Step 1: Set Up the Scene
+Step 2: Add Player 
+Character Step 3: Create UI Elements
+Create a new scene with a Node2D 
+as the root. Add a Sprite node for 
+the background and set its 
+texture. Position it to cover the 
+entire game view.
+Create a KinematicBody2D node 
+as a child of the root. Add a Sprite 
+node to it and set the player's 
+texture. Adjust the collision shape 
+to match the sprite.
+Add a CanvasLayer node for the 
+UI. Create Label nodes for the 
+score and health display. Position 
+them appropriately on the screen 
+using anchors and margins.
+
+=== Page 9 ===
+2
+8
+All rights reserved
+here you can create scene 
+and select 2D or 3D game
+=== Page 10 ===
+2
+9
+All rights reserved
+Design Game Structure:
+Plan your game's overall structure, identifying main components like players, 
+enemies, and levels. Sketch out how these elements will interact within the 
+game world.
+Create Main Scenes
+Develop separate scenes for major game elements. For example, create a 
+"Player" scene with all necessary nodes and scripts, and a "Level" scene to 
+house the game environment.
+Build Hierarchies
+Organize your nodes within each scene logically. Use parent-child relationships 
+to group related elements and create efficient, modular structures.
+Instance and Combine
+Instance your created scenes within a main game scene. This allows you to bring 
+all elements together while maintaining the ability to edit individual components 
+separately.
+=== Page 11 ===
+2
+10
+All rights reserved
+Scenes
+ Folder
+Assets
+ Folder
+Scripts 
+Folder
+Resources 
+Folder
+=== Page 12 ===
+2
+11
+All rights reserved
+Performance Optimized
+Designed specifically for Godot, 
+GDScript offers excellent performance 
+for game development tasks and 
+seamless engine integration.
+Python-like Syntax
+GDScript features a syntax similar 
+to Python, making it easy to learn 
+for beginners and familiar to 
+experienced programmers.
+
+=== Page 13 ===
+2
+12
+All rights reserved
+
+=== Page 14 ===
+2
+13
+All rights reserved
+Feature Example Description
+Variables var health = 100
+Declare variables with 'var' 
+keyword
+Functions func jump():
+Define functions with 'func' 
+keyword
+Conditionals if health <= 0:
+Use if, elif, and else for control 
+flow
+Loops for item in inventory:
+Use for and while loops for 
+iteration
+Classes class_name Player
+Create custom classes with 
+inheritance
+
+=== Page 15 ===
+2
+14
+All rights reserved
+
+=== Page 16 ===
+2
+15
+All rights reserved
+
+=== Page 17 ===
+2
+16
+All rights reserved
+
+=== Page 18 ===
+2
+17
+All rights reserved
+
+=== Page 19 ===
+2
+18
+All rights reserved
+FUNCTION BODY
+Write the function's code block indented after a colon. Use the 'return' keyword to specify the function's 
+output. Example: return attack_power - defense
+FUNCTION DECLARATION
+Use the 'func' keyword followed by the function name and parentheses. Optionally specify parameters 
+and return type. For example: func calculate_damage(attack_power: int, defense: int) -> int:
+CALLING FUNCTIONS
+Invoke functions using their name followed by parentheses, passing any required arguments. For 
+instance: var damage = calculate_damage(player.attack, enemy.defense)
+BUILT-IN FUNCTIONS
+Utilize Godot's extensive library of built-in functions for common tasks. These include node 
+operations, math utilities, and engine callbacks like _ready() and _process(delta).
+
+=== Page 20 ===
+2
+19
+All rights reserved
+
+=== Page 21 ===
+2
+20
+All rights reserved
+print(“Hello”)
+print(“5+4”)
+print(“5+4”)
+=== Page 22 ===
+2
+21
+All rights reserved
+ What is GDScript ?
+ What is a Variable ?
+ Explain 3 primitive data type ?
+

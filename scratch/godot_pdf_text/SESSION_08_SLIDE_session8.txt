@@ -1,0 +1,147 @@
+=== Page 1 ===
+Session 8
+Game Sound and 
+Audio
+
+=== Page 2 ===
+2
+1
+All rights reserved
+where we'll learn how to add audio to your 
+game, making it more immersive and 
+engaging for your players.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes 
+o UI Events
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Revisiting Events
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+
+=== Page 5 ===
+2
+4
+All rights reserved
+
+=== Page 6 ===
+2
+5
+All rights reserved
+Sound Effects
+These are short audio clips that represent actions in your 
+game, like jumping, shooting, or collecting items.
+Background Music
+This is the music that plays in the background of your 
+game, setting the atmosphere and mood.
+
+=== Page 7 ===
+2
+6
+All rights reserved
+We use this node to 
+play any sound
+=== Page 8 ===
+2
+7
+All rights reserved
+Here, you can find any sound you need.
+
+=== Page 9 ===
+2
+10
+All rights reserved
+Property Description
+Stream The audio file to be played.
+Volume The loudness of the sound.
+Pitch The frequency of the sound, affecting its pitch (higher or 
+lower).
+Bus The audio bus to which the sound is routed, allowing you to 
+group and control different sounds.
+
+=== Page 10 ===
+2
+9
+All rights reserved
+the properties of the 
+AudioStreamPlayer2D 
+node in Godot 
+=== Page 11 ===
+2
+10
+All rights reserved
+
+=== Page 12 ===
+2
+11
+All rights reserved
+Play Function
+The play ( ) function initiates the playback of the audio 
+stream attached to the AudioStreamPlayer2D node.
+Stop Function
+The stop ( ) function halts the playback of the audio stream 
+associated with the AudioStreamPlayer2D node.
+
+=== Page 13 ===
+2
+12
+All rights reserved
+Create a Sound Effect
+Choose a sound effect that you 
+want to use for your game. For 
+example, a jumping sound or a 
+sound for collecting an item.
+Import Sound Effect
+Import your selected sound 
+effect into your Godot project by 
+adding it to the "Audio" folder in 
+the "FileSystem" tab.
+Connect Script
+In the script of the character or 
+object, use the play() function to 
+play the sound effect when the 
+corresponding action occurs.
+Attach to Node
+Attach an AudioStreamPlayer2D 
+node to your character node or 
+the game object associated with 
+the sound effect.
+
+=== Page 14 ===
+2
+13
+All rights reserved
+
+=== Page 15 ===
+2
+14
+All rights reserved
+Immersive Experience
+Sound contributes significantly to immersing players in the game world, 
+enhancing the overall experience.
+Feedback and Guidance
+Sound effects provide instant feedback to players, guiding them through 
+actions and events in the game.
+Emotional Impact
+Music and sound effects can evoke a wide range of emotions in players, 
+influencing their feelings towards the game.
+
+=== Page 16 ===
+2
+15
+All rights reserved
+ How do you think we can play sounds in Godot?
+ How can you use sound to enhance the player's 
+experience in your game?
+ how to stop all sounds in Godot?
+

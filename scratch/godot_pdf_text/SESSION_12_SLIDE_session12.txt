@@ -1,0 +1,118 @@
+=== Page 1 ===
+Session 12
+Building Pong: 
+Part 2
+
+=== Page 2 ===
+2
+1
+All rights reserved
+We'll Add Interactivity And Scoring To Make 
+This Game Come Alive.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes 
+o UI Events
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Objective: Bring Pong to Life
+o Interactive Gameplay
+We'll breathe life into our game by adding the 
+fundamental elements of interactivity. Prepare to feel 
+the excitement of a good old-fashioned Pong game!
+o Dynamic Scoring System
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Area2D
+Get ready to introduce collision detection using the Area2D node, 
+a powerful tool that detects when objects touch.
+Ball Movement and Bouncing
+We'll give the ball a life of its own by scripting its movement and 
+bouncing off the paddles and boundaries.
+Score Display
+Prepare to showcase your scores! We'll use Label nodes to display 
+the points as you compete.
+
+=== Page 6 ===
+2
+5
+All rights reserved
+
+=== Page 7 ===
+2
+6
+All rights reserved
+ Let's bring the ball to life! Write the code to make it bounce off the paddles and boundaries. 
+It's like a virtual tennis match.
+
+=== Page 8 ===
+2
+7
+All rights reserved
+ Now for the exciting part! Code the score to update 
+each time the ball goes past the paddles.
+
+=== Page 9 ===
+2
+8
+All rights reserved
+Ball Mechanics
+The ball will bounce off the paddles and walls, 
+bringing the game to life.
+Scoring System
+Each time the ball crosses the paddle, 
+the score will update.
+Final Touches
+The game will be complete, playable, and 
+ready to entertain.
+
+=== Page 10 ===
+2
+9
+All rights reserved
+ You'll understand how to add the core game logic 
+that makes Pong a classic
+Master Pong Logic
+ You'll create a fully functional Pong game that's 
+ready for action.
+Playable Pong Game
+
+=== Page 11 ===
+2
+10
+All rights reserved
+Level Design
+Add more challenges by creating different game levels 
+or difficulties.
+Power-Ups
+Spice things up by introducing power-ups that modify 
+gameplay, like speed boosts or temporary shields.
+
+=== Page 12 ===
+2
+11
+All rights reserved
+You've mastered the basics of Pong 
+development! Now it's time to explore, 
+experiment, and create your own unique 
+game variations.
+
+=== Page 13 ===
+2
+12
+All rights reserved
+ How do you think we can play sounds in Godot?
+ How can you use sound to enhance the 
+player's experience in your game?
+ how to stop all sounds in Godot?

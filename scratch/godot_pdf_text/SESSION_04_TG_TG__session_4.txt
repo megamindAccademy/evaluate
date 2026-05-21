@@ -1,0 +1,213 @@
+=== Page 1 ===
+ Download   https://godotengine.org/download/   Documentation  
+ https://docs.godotengine.org/en/stable/     Quiz  
+1.
+ 
+Three
+ 
+Types
+ 
+of
+ 
+Comparison,
+ 
+Logical,
+ 
+and
+ 
+Arithmetic
+ 
+Operators
+ 
+Comparison  Operators:  
+Comparison  operators  are  used  to  compare  two  
+values.
+ 
+Here
+ 
+are
+ 
+three
+ 
+types:
+ 
+●  == (Equal  to)  →  Checks  if  two  values  are  equal.  
+Example:
+ 5  ==  5 (True)  ●  != (Not  equal  to)  →  Checks  if  two  values  are  not  
+equal.
+ 
+Example:
+ 10  !=  5 (True)  
+=== Page 2 ===
+●  >= (Greater  than  or  equal  to)  →  Checks  if  a  
+value
+ 
+is
+ 
+greater
+ 
+than
+ 
+or
+ 
+equal
+ 
+to
+ 
+another.
+ 
+Example:
+ 8  >=  6 (True)  
+Logical  Operators:  
+Logical  operators  are  used  to  combine  multiple  
+conditions
+ 
+and
+ 
+return
+ 
+a
+ 
+boolean
+ 
+result.
+ 
+Three
+ 
+common
+ 
+ones
+ 
+are:
+ 
+●  and →  Returns  True if  both  conditions  are  true.  
+Example:
+ (5  >  2)  and  (10  <  20) (True)  ●  or →  Returns  True if  at  least  one  condition  is  
+true.
+ 
+Example:
+ (5  <  2)  or  (10  <  20) 
+(True)
+ ●  not →  Reverses  the  boolean  value  of  a  
+condition.
+ 
+Example:
+ not  (5  >  2) (False)  
+Arithmetic  Operators:  
+Arithmetic  operators  perform  mathematical  
+operations.
+ 
+Three
+ 
+examples
+ 
+are:
+ 
+●  + (Addition)  →  Adds  two  numbers.  Example:  5  
++
+ 
+3 (8)  ●  - (Subtraction)  →  Subtracts  one  number  from  
+another.
+ 
+Example:
+ 10  -  4 (6)  
+=== Page 3 ===
+●  * (Multiplication)  →  Multiplies  two  numbers.  
+Example:
+ 7  *  2 (14)  
+ 
+2.  What  does  the  function  set_scale(Vector2(x,  y)) do?  
+The  function  set_scale(Vector2(x,  y)) is  
+typically
+ 
+used
+ 
+in
+ 
+game
+ 
+development,
+ 
+especially
+ 
+in
+ 
+engines
+ 
+like
+ 
+Godot
+,
+ 
+to
+ 
+change
+ 
+the
+ 
+scale
+ 
+of
+ 
+an
+ 
+object.
+ 
+●  Vector2(x,  y) represents  a  2D  vector  
+where:
+ ○  x is  the  scaling  factor  along  the  horizontal  
+axis.
+ ○  y is  the  scaling  factor  along  the  vertical  axis.  ●  Effect:  It  resizes  the  object  by  scaling  it.  Example:  
+sprite.set_scale(Vector2(2,
+ 
+2))
+  
+#
+ 
+Doubles
+ 
+the
+ 
+size
+ 
+of
+ 
+the
+ 
+sprite
+ ●  sprite.set_scale(Vector2(0.5,  0.5))   #  Shrinks  the  
+sprite
+ 
+to
+ 
+half
+ 
+its
+ 
+size
+ 
+=== Page 4 ===
+  3.  How  can  Logical  Operators  be  used  to  combine  multiple  conditions?  
+Logical  operators  (and,  or,  not)  allow  us  to  
+evaluate
+ 
+multiple
+ 
+conditions
+ 
+together,
+ 
+returning
+ True 
+or
+ False based  on  the  results.  
+Using  and (Both  conditions  must  be  true)  
+Example:  Checking  if  a  student  passes  both  Math  
+and
+ 
+English:
+ 
+
+=== Page 5 ===
+  
+

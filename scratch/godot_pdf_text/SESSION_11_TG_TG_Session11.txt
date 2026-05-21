@@ -1,0 +1,217 @@
+=== Page 1 ===
+By  the  end  of  this  session,  students  will:  ●  Understand  the  basic  mechanics  of  a  Pong  
+game.
+ ●  Learn  about  signals  and  UI  events  in  game  
+development.
+ ●  Set  up  a  basic  game  scene  with  paddles,  a  ball,  
+and
+ 
+boundaries.
+ ●  Implement  basic  movement  controls  for  paddles  
+and
+ 
+ball
+ 
+physics.
+ 
+Key  Concepts  
+●  Signals  &  UI  Events :  Used  to  trigger  actions  in  
+response
+ 
+to
+ 
+user
+ 
+input.
+ ●  Nodes  in  Godot :  Understanding  StaticBody2D,  
+KinematicBody2D,
+ 
+and
+ 
+UI
+ 
+elements.
+ ●  Game  Environment  Setup :  Arranging  game  
+objects
+ 
+in
+ 
+a
+ 
+scene.
+ ●  Basic  Physics  Implementation :  Making  the  
+ball
+ 
+bounce
+ 
+off
+ 
+paddles
+ 
+and
+ 
+walls.
+  
+Step-by-Step  Explanation  
+1.  Recap  of  Previous  Concepts  
+=== Page 2 ===
+●  
+Signals
+ 
+for
+ 
+UI
+ 
+Control
+:  Events  that  trigger  UI  responses  
+(e.g.,
+ 
+button
+ 
+clicks).
+ ●  Creating  Interactive  UI :  Labels,  buttons,  and  
+scene
+ 
+changes.
+ ●  Understanding  Scene  Changes :  Switching  
+between
+ 
+different
+ 
+game
+ 
+states.
+ 
+2.  Game  Setup  
+●  Explain  the  goal:  Two  players  use  paddles  to  
+bounce
+ 
+a
+ 
+ball
+ 
+and
+ 
+prevent
+ 
+it
+ 
+from
+ 
+going
+ 
+out
+ 
+of
+ 
+bounds.
+ ●  Discuss  the  required  components:  ○  Boundaries  (StaticBody2D)  to  keep  the  ball  
+inside
+ 
+the
+ 
+play
+ 
+area.
+ ○  Paddles  (KinematicBody2D)  controlled  by  
+players.
+ ○  Ball  (KinematicBody2D)  that  bounces  off  
+paddles
+ 
+and
+ 
+walls.
+ 
+3.  Creating  the  Game  Scene  
+1.  
+Create
+ 
+a
+ 
+New
+ 
+Scene
+:  Set  up  the  environment  for  the  
+game.
+ 2.  Add  Nodes :  ○  StaticBody2D  for  the  boundaries.  ○  KinematicBody2D  for  paddles.  
+=== Page 3 ===
+○  KinematicBody2D  for  the  ball.  3.  Position  the  Nodes :  ○  Center  the  ball  at  the  starting  position.  ○  Position  paddles  on  either  side.  4.  Configure  Node  Properties :  ○  Set  size,  color,  and  movement  speed  of  the  
+paddles
+ 
+and
+ 
+ball.
+ 
+4.  Controlling  the  Paddles  
+●  Introduce  movement  controls:  ○  Left  paddle:  Controlled  by  W/S  keys.  ○  Right  paddle:  Controlled  by  Up/Down  arrow  
+keys.
+ Provide  sample  code  for  paddle  
+movement:
+ 
+func
+ 
+_physics_process(delta):
+     if  
+Input.is_action_pressed("move_up")
+:
+         position.y  -=  speed  *  delta      elif  
+Input.is_action_pressed("move_dow
+n"):
+ ●          position.y  +=  speed  *  delta  
+=== Page 4 ===
+5.  Implementing  Ball  Behavior  
+●  Explain  how  the  ball  should  move  and  bounce.  Provide  sample  code  for  the  ball’s  
+movement:
+ 
+func
+ 
+_physics_process(delta):
+     position  +=  velocity  *  delta      if  position.y  <=  0  or  position.y  >=  
+screen_height:
+ ●          velocity.y  *=  -1   #  Bounce  off  walls  
+6.  Understanding  Signals  
+●  
+Question
+:  What  does  _on_area_entered(area) 
+do?
+ ●   Answer :  It  detects  when  an  object  enters  a  
+specific
+ 
+area
+ 
+and
+ 
+can
+ 
+be
+ 
+used
+ 
+to
+ 
+trigger
+ 
+an
+ 
+event
+ 
+(e.g.,
+ 
+scoring
+ 
+a
+ 
+point
+ 
+when
+ 
+the
+ 
+ball
+ 
+crosses
+ 
+a
+ 
+boundary).
+  

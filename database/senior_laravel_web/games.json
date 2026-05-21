@@ -1,7 +1,7 @@
 {
   "course_id": "senior_laravel_web",
   "course_title": "Laravel PHP Backend (Web)",
-  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Laravel PHP Backend (Web). Unlock custom medals, solve daily challenges, and program your own digital masterpieces!",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Laravel PHP Backend (Web). Meet Robo-Elephant, solve fun challenges, and build outstanding systems! 🎮✨",
   "xp_total": 1600,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
@@ -10,12 +10,12 @@
       "badge_icon": "🚀",
       "badge_title": "Laravel Installation & Setup Medal",
       "title": "Station 1: Laravel Installation & Setup",
-      "desc": "Install a XAMPP server to provide a local server with a MySQL database, and use the Composer package manager to download and install the Laravel framework.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Laravel Installation & Setup</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>⚙️ <b>Configure the local environment and install Laravel</b>: Install a XAMPP server to provide a local server with a MySQL database, and use the Composer package manager to download and install the Laravel framework.</li><li>🚀 <b>Running your first Laravel project</b>: Create a new Laravel project and run the internal development server by calling simple commands.</li></ul><br><h4>💻 Starter Code Block - Running your first Laravel project:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>composer create-project laravel/laravel my-web-app\ncd my-web-app\nphp artisan serve</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Open a web browser and go to the link http://127.0.0.1:8000 to see the Laravel welcome interface.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Configure the local environment and install Laravel is like building the magic playground gates before you enter and play with toys!",
+      "desc": "Master Laravel Installation & Setup concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Laravel Installation & Setup</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Configure the local environment and install Laravel</b>: Install a XAMPP server to provide a local server with a MySQL database, and use the Composer package manager to download and install the Laravel framework.</li><li>🐘 <b>Running your first Laravel project</b>: Create a new Laravel project and run the internal development server by calling simple commands.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Laravel Installation & Setup</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Laravel Installation & Setup Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Laravel Installation & Setup is like building the magic playground gates before you enter and play with toys!",
       "hint": "Type in the editor: <code>print(\"Laravel Installation & Setup activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Laravel Installation & Setup activated successfully!</code> to unlock the Laravel Installation & Setup medal!",
-      "starter_code": "# Simulate Laravel Installation & Setup activation:\n",
+      "starter_code": "// PHP Simulate Laravel Installation & Setup activation:\n",
       "pills": [
         {
           "label": "Activate Laravel Installation & Setup",
@@ -28,22 +28,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Laravel Installation & Setup Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Laravel Installation & Setup'. Specifically, design a feature demonstrating: 'Running your first Laravel project' using the starter template below!",
-        "code": "# Home Challenge: Laravel Installation & Setup Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Laravel Installation & Setup Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Laravel Installation & Setup' using the starter template below!",
+        "code": "// PHP Home Challenge: Laravel Installation & Setup Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Laravel Installation & Setup Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 2,
-      "badge_icon": "🔊",
+      "badge_icon": "🎯",
       "badge_title": "MVC Architecture & Basic Routing Medal",
       "title": "Station 2: MVC Architecture & Basic Routing",
-      "desc": "An architecture that separates data storage logic (Model), user interfaces (View), and process coordinator (Controller).",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>MVC Architecture & Basic Routing</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🏛️ <b>Understanding the MVC architecture for websites</b>: An architecture that separates data storage logic (Model), user interfaces (View), and process coordinator (Controller).</li><li>🌐 <b>Writing basic routes</b>: Directing the browser to display a specific interface or execute a specific throwing command when a specific URL is requested.</li></ul><br><h4>💻 Starter Code Block - Writing basic routes:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>Route::get('/welcome', function () {\n    return view('welcome_page');\n});</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Direct the user to view the welcome page by simply typing the link /welcome.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Understanding the MVC architecture for websites is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master MVC Architecture & Basic Routing concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>MVC Architecture & Basic Routing</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Understanding the MVC architecture for websites</b>: An architecture that separates data storage logic (Model), user interfaces (View), and process coordinator (Controller).</li><li>🐘 <b>Writing basic routes</b>: Directing the browser to display a specific interface or execute a specific throwing command when a specific URL is requested.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of MVC Architecture & Basic Routing</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> MVC Architecture & Basic Routing Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine MVC Architecture & Basic Routing is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"MVC Architecture & Basic Routing activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>MVC Architecture & Basic Routing activated successfully!</code> to unlock the MVC Architecture & Basic Routing medal!",
-      "starter_code": "# Simulate MVC Architecture & Basic Routing activation:\n",
+      "starter_code": "// PHP Simulate MVC Architecture & Basic Routing activation:\n",
       "pills": [
         {
           "label": "Activate MVC Architecture & Basic Routing",
@@ -56,9 +56,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: MVC Architecture & Basic Routing Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'MVC Architecture & Basic Routing'. Specifically, design a feature demonstrating: 'Writing basic routes' using the starter template below!",
-        "code": "# Home Challenge: MVC Architecture & Basic Routing Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: MVC Architecture & Basic Routing Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'MVC Architecture & Basic Routing' using the starter template below!",
+        "code": "// PHP Home Challenge: MVC Architecture & Basic Routing Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: MVC Architecture & Basic Routing Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -66,12 +66,12 @@
       "badge_icon": "🎯",
       "badge_title": "Advanced Routing & Groups Medal",
       "title": "Station 3: Advanced Routing & Groups",
-      "desc": "Receiving variable values ​​directly from the URL (such as the cookie code number) and processing them within the path.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Advanced Routing & Groups</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🔗 <b>Passing variables via links (Route Parameters)</b>: Receiving variable values ​​directly from the URL (such as the cookie code number) and processing them within the path.</li><li>📂 <b>Named paths and path groups</b>: Naming paths to facilitate their recall in interfaces, and grouping similar paths under a unified prefix such as the control panel.</li></ul><br><h4>💻 Starter Code Block - Named paths and path groups:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>Route::get('/cake/{id}', function ($id) {\n    return \"You are viewing details for cake number: \". $id;\n})->name('cake.detail');</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Group store administration routes with a unified prefix: Route::prefix('admin').</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Passing variables via links (Route Parameters) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Advanced Routing & Groups concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Advanced Routing & Groups</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Passing variables via links (Route Parameters)</b>: Receiving variable values ​​directly from the URL (such as the cookie code number) and processing them within the path.</li><li>🐘 <b>Named paths and path groups</b>: Naming paths to facilitate their recall in interfaces, and grouping similar paths under a unified prefix such as the control panel.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Advanced Routing & Groups</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Advanced Routing & Groups Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Advanced Routing & Groups is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Advanced Routing & Groups activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Advanced Routing & Groups activated successfully!</code> to unlock the Advanced Routing & Groups medal!",
-      "starter_code": "# Simulate Advanced Routing & Groups activation:\n",
+      "starter_code": "// PHP Simulate Advanced Routing & Groups activation:\n",
       "pills": [
         {
           "label": "Activate Advanced Routing & Groups",
@@ -84,9 +84,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Advanced Routing & Groups Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Advanced Routing & Groups'. Specifically, design a feature demonstrating: 'Named paths and path groups' using the starter template below!",
-        "code": "# Home Challenge: Advanced Routing & Groups Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Advanced Routing & Groups Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Advanced Routing & Groups' using the starter template below!",
+        "code": "// PHP Home Challenge: Advanced Routing & Groups Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Advanced Routing & Groups Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -94,12 +94,12 @@
       "badge_icon": "🎯",
       "badge_title": "Blade Templating Engine Basics Medal",
       "title": "Station 4: Blade Templating Engine Basics",
-      "desc": "A smart and attractive engine in Laravel that allows writing complex HTML codes combined with PHP code very smoothly and without clutter.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Blade Templating Engine Basics</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🗡️ <b>Blade display template engine</b>: A smart and attractive engine in Laravel that allows writing complex HTML codes combined with PHP code very smoothly and without clutter.</li><li>🏗️ <b>Designing the unified structure of the site (Master Layout)</b>: Design a unified main web template (containing the header and footer) and inherit it for all sub-pages of the site to prevent duplication of codes.</li></ul><br><h4>💻 Starter Code Block - Designing the unified structure of the site (Master Layout):</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code><!-- master.blade.php -->\n<html>\n<body>\n    @yield('main_content')\n</body>\n</html>\n\n<!-- home.blade.php -->\n@extends('layouts.master')\n@section('main_content')\n    <p>This is the content of the home page!</p>\n@endsection</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Building a template for the basic structure of the site and inheriting it to the store and contact us pages.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Blade display template engine is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Blade Templating Engine Basics concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Blade Templating Engine Basics</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Blade display template engine</b>: A smart and attractive engine in Laravel that allows writing complex HTML codes combined with PHP code very smoothly and without clutter.</li><li>🐘 <b>Designing the unified structure of the site (Master Layout)</b>: Design a unified main web template (containing the header and footer) and inherit it for all sub-pages of the site to prevent duplication of codes.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Blade Templating Engine Basics</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Blade Templating Engine Basics Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Blade Templating Engine Basics is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Blade Templating Engine Basics activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Blade Templating Engine Basics activated successfully!</code> to unlock the Blade Templating Engine Basics medal!",
-      "starter_code": "# Simulate Blade Templating Engine Basics activation:\n",
+      "starter_code": "// PHP Simulate Blade Templating Engine Basics activation:\n",
       "pills": [
         {
           "label": "Activate Blade Templating Engine Basics",
@@ -112,9 +112,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Blade Templating Engine Basics Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Blade Templating Engine Basics'. Specifically, design a feature demonstrating: 'Designing the unified structure of the site (Master Layout)' using the starter template below!",
-        "code": "# Home Challenge: Blade Templating Engine Basics Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Blade Templating Engine Basics Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Blade Templating Engine Basics' using the starter template below!",
+        "code": "// PHP Home Challenge: Blade Templating Engine Basics Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Blade Templating Engine Basics Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -122,12 +122,12 @@
       "badge_icon": "🎯",
       "badge_title": "Advanced Blade Directives Medal",
       "title": "Station 5: Advanced Blade Directives",
-      "desc": "Use simple directives like foreach and if to dynamically display products and cakes based on data.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Advanced Blade Directives</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🔄 <b>Loops and Conditions in Blade</b>: Use simple directives like foreach and if to dynamically display products and cakes based on data.</li><li>🛍️ <b>View interactive product listings</b>: Display arrays of items and prices in elegant tables and display a default message if the cart is empty.</li></ul><br><h4>💻 Starter Code Block - View interactive product listings:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>@foreach ($cakes as $cake)\n    <h3>{{ $cake['name'] }}</h3>\n    <p>Price: {{ $cake['price'] }} $</p>\n@endforeach</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> View the list of birthday cakes with updated prices in the storefront.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Loops and Conditions in Blade is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Advanced Blade Directives concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Advanced Blade Directives</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Loops and Conditions in Blade</b>: Use simple directives like foreach and if to dynamically display products and cakes based on data.</li><li>🐘 <b>View interactive product listings</b>: Display arrays of items and prices in elegant tables and display a default message if the cart is empty.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Advanced Blade Directives</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Advanced Blade Directives Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Advanced Blade Directives is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Advanced Blade Directives activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Advanced Blade Directives activated successfully!</code> to unlock the Advanced Blade Directives medal!",
-      "starter_code": "# Simulate Advanced Blade Directives activation:\n",
+      "starter_code": "// PHP Simulate Advanced Blade Directives activation:\n",
       "pills": [
         {
           "label": "Activate Advanced Blade Directives",
@@ -140,9 +140,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Advanced Blade Directives Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Advanced Blade Directives'. Specifically, design a feature demonstrating: 'View interactive product listings' using the starter template below!",
-        "code": "# Home Challenge: Advanced Blade Directives Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Advanced Blade Directives Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Advanced Blade Directives' using the starter template below!",
+        "code": "// PHP Home Challenge: Advanced Blade Directives Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Advanced Blade Directives Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -150,12 +150,12 @@
       "badge_icon": "💻",
       "badge_title": "Controllers (Logic Managers) Medal",
       "title": "Station 6: Controllers (Logic Managers)",
-      "desc": "Dedicated programming classes to separate the script's decision-making logic from the main path file to organize the application.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Controllers (Logic Managers)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎮 <b>Controllers</b>: Dedicated programming classes to separate the script's decision-making logic from the main path file to organize the application.</li><li>🔌 <b>Connecting paths to controllers</b>: Automatically directs browser requests to a specific function within the controller to process data and display the appropriate page.</li></ul><br><h4>💻 Starter Code Block - Connecting paths to controllers:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>class CakeController extends Controller {\n    public function showAll() {\n        return view('cakes_list');\n    }\n}\n\n// In the routes/web.php file\nRoute::get('/cakes', [CakeController::class, 'showAll']);</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Call the function to display cake products from the database immediately after requesting the main store page.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Controllers is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Controllers (Logic Managers) concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Controllers (Logic Managers)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Controllers</b>: Dedicated programming classes to separate the script's decision-making logic from the main path file to organize the application.</li><li>🐘 <b>Connecting paths to controllers</b>: Automatically directs browser requests to a specific function within the controller to process data and display the appropriate page.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Controllers (Logic Managers)</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Controllers (Logic Managers) Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Controllers (Logic Managers) is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Controllers (Logic Managers) activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Controllers (Logic Managers) activated successfully!</code> to unlock the Controllers (Logic Managers) medal!",
-      "starter_code": "# Simulate Controllers (Logic Managers) activation:\n",
+      "starter_code": "// PHP Simulate Controllers (Logic Managers) activation:\n",
       "pills": [
         {
           "label": "Activate Controllers (Logic Managers)",
@@ -168,9 +168,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Controllers (Logic Managers) Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Controllers (Logic Managers)'. Specifically, design a feature demonstrating: 'Connecting paths to controllers' using the starter template below!",
-        "code": "# Home Challenge: Controllers (Logic Managers) Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Controllers (Logic Managers) Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Controllers (Logic Managers)' using the starter template below!",
+        "code": "// PHP Home Challenge: Controllers (Logic Managers) Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Controllers (Logic Managers) Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -178,12 +178,12 @@
       "badge_icon": "💾",
       "badge_title": "Database Schemas & Migrations Medal",
       "title": "Station 7: Database Schemas & Migrations",
-      "desc": "An intelligent database tracking and versioning system in Laravel that allows you to create and modify tables programmatically without the need to write SQL.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Database Schemas & Migrations</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🗄️ <b>Database Migrants</b>: An intelligent database tracking and versioning system in Laravel that allows you to create and modify tables programmatically without the need to write SQL.</li><li>📐 <b>Design product tables and cakes</b>: Build text and numeric fields and timestamps for site tables and implement instant synchronization with MySQL server.</li></ul><br><h4>💻 Starter Code Block - Design product tables and cakes:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>Schema::create('cakes', function (Blueprint $table) {\n    $table->id();\n    $table->string('name');\n    $table->decimal('price', 8, 2);\n    $table->timestamps();\n});</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Build a table of bakery cakes and customize the Name, Description, Price, and Availability fields.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Database Migrants is like having a digital treasure box where you store all your gold coins safely so they never disappear!",
+      "desc": "Master Database Schemas & Migrations concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Database Schemas & Migrations</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Database Migrants</b>: An intelligent database tracking and versioning system in Laravel that allows you to create and modify tables programmatically without the need to write SQL.</li><li>🐘 <b>Design product tables and cakes</b>: Build text and numeric fields and timestamps for site tables and implement instant synchronization with MySQL server.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Database Schemas & Migrations</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Database Schemas & Migrations Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Database Schemas & Migrations is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
       "hint": "Type in the editor: <code>print(\"Database Schemas & Migrations activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Database Schemas & Migrations activated successfully!</code> to unlock the Database Schemas & Migrations medal!",
-      "starter_code": "# Simulate Database Schemas & Migrations activation:\n",
+      "starter_code": "// PHP Simulate Database Schemas & Migrations activation:\n",
       "pills": [
         {
           "label": "Activate Database Schemas & Migrations",
@@ -196,9 +196,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Database Schemas & Migrations Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Database Schemas & Migrations'. Specifically, design a feature demonstrating: 'Design product tables and cakes' using the starter template below!",
-        "code": "# Home Challenge: Database Schemas & Migrations Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Database Schemas & Migrations Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Database Schemas & Migrations' using the starter template below!",
+        "code": "// PHP Home Challenge: Database Schemas & Migrations Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Database Schemas & Migrations Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -206,12 +206,12 @@
       "badge_icon": "💾",
       "badge_title": "Database Seeding & Faker Medal",
       "title": "Station 8: Database Seeding & Faker",
-      "desc": "A smart tool for feeding and filling tables with fictitious and virtual data useful for site scanning and testing purposes.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Database Seeding & Faker</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌱 <b>Database Seeding</b>: A smart tool for feeding and filling tables with fictitious and virtual data useful for site scanning and testing purposes.</li><li>🎭 <b>Advanced mock data generation</b>: Use the popular Faker library to generate hundreds of random, realistic names, addresses, and prices at a glance.</li></ul><br><h4>💻 Starter Code Block - Advanced mock data generation:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>public function run() {\n    $faker = \\Faker\\Factory::create();\n    for ($i = 0; $i < 10; $i++) {\n        Cake::create([\n            'name' => $faker->word . ' Cake',\n            'price' => $faker->randomFloat(2, 10, 100)\n        ]);\n    }\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Generate 50 random cookies at varying prices to test browsing efficiency and site speed.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Database Seeding is like having a digital treasure box where you store all your gold coins safely so they never disappear!",
+      "desc": "Master Database Seeding & Faker concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Database Seeding & Faker</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Database Seeding</b>: A smart tool for feeding and filling tables with fictitious and virtual data useful for site scanning and testing purposes.</li><li>🐘 <b>Advanced mock data generation</b>: Use the popular Faker library to generate hundreds of random, realistic names, addresses, and prices at a glance.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Database Seeding & Faker</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Database Seeding & Faker Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Database Seeding & Faker is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
       "hint": "Type in the editor: <code>print(\"Database Seeding & Faker activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Database Seeding & Faker activated successfully!</code> to unlock the Database Seeding & Faker medal!",
-      "starter_code": "# Simulate Database Seeding & Faker activation:\n",
+      "starter_code": "// PHP Simulate Database Seeding & Faker activation:\n",
       "pills": [
         {
           "label": "Activate Database Seeding & Faker",
@@ -224,9 +224,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Database Seeding & Faker Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Database Seeding & Faker'. Specifically, design a feature demonstrating: 'Advanced mock data generation' using the starter template below!",
-        "code": "# Home Challenge: Database Seeding & Faker Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Database Seeding & Faker Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Database Seeding & Faker' using the starter template below!",
+        "code": "// PHP Home Challenge: Database Seeding & Faker Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Database Seeding & Faker Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -234,12 +234,12 @@
       "badge_icon": "🚀",
       "badge_title": "Introduction to Eloquent ORM Medal",
       "title": "Station 9: Introduction to Eloquent ORM",
-      "desc": "Laravel's entity handling engine. Each table in the database is linked to a model to facilitate data queries.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Introduction to Eloquent ORM</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🤖 <b>Smart ORM (Eloquent)</b>: Laravel's entity handling engine. Each table in the database is linked to a model to facilitate data queries.</li><li>🔍 <b>Fast query and search script</b>: Read or filter all records and search for a specific cookie using powerful and shortcut functions and without complex SQL.</li></ul><br><h4>💻 Starter Code Block - Fast query and search script:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>// Fetch all products\n$cakes = Cake::all();\n// Find a cake with a price higher than 50\n$expensiveCakes = Cake::where('price', '>', 50)->get();</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Display only chocolate cakes in the section filter interface.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Smart ORM (Eloquent) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Introduction to Eloquent ORM concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Introduction to Eloquent ORM</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Smart ORM (Eloquent)</b>: Laravel's entity handling engine. Each table in the database is linked to a model to facilitate data queries.</li><li>🐘 <b>Fast query and search script</b>: Read or filter all records and search for a specific cookie using powerful and shortcut functions and without complex SQL.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Introduction to Eloquent ORM</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Introduction to Eloquent ORM Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Introduction to Eloquent ORM is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Introduction to Eloquent ORM activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Introduction to Eloquent ORM activated successfully!</code> to unlock the Introduction to Eloquent ORM medal!",
-      "starter_code": "# Simulate Introduction to Eloquent ORM activation:\n",
+      "starter_code": "// PHP Simulate Introduction to Eloquent ORM activation:\n",
       "pills": [
         {
           "label": "Activate Introduction to Eloquent ORM",
@@ -252,9 +252,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Introduction to Eloquent ORM Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Introduction to Eloquent ORM'. Specifically, design a feature demonstrating: 'Fast query and search script' using the starter template below!",
-        "code": "# Home Challenge: Introduction to Eloquent ORM Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Introduction to Eloquent ORM Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Introduction to Eloquent ORM' using the starter template below!",
+        "code": "// PHP Home Challenge: Introduction to Eloquent ORM Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Introduction to Eloquent ORM Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -262,12 +262,12 @@
       "badge_icon": "🎯",
       "badge_title": "Forms & CSRF Protection Medal",
       "title": "Station 10: Forms & CSRF Protection",
-      "desc": "Receiving data and inputs written by website visitors (such as adding a new cake to the store) and directing them to the controller.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Forms & CSRF Protection</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📝 <b>Processing input forms (HTML Forms)</b>: Receiving data and inputs written by website visitors (such as adding a new cake to the store) and directing them to the controller.</li><li>🛡️ <b>Site protected by @csrf</b>: A built-in and enforceable security mechanism in Laravel to protect the site from cross-site pharming attacks and secure form reception.</li></ul><br><h4>💻 Starter Code Block - Site protected by @csrf:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code><form action=\"/cakes/store\" method=\"POST\">\n    @csrf\n    <input type=\"text\" name=\"name\">\n    <button type=\"submit\">Save</button>\n</form></code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Attach the automatic security code @csrf to the registration form to purchase the cake.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Processing input forms (HTML Forms) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Forms & CSRF Protection concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Forms & CSRF Protection</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Processing input forms (HTML Forms)</b>: Receiving data and inputs written by website visitors (such as adding a new cake to the store) and directing them to the controller.</li><li>🐘 <b>Site protected by @csrf</b>: A built-in and enforceable security mechanism in Laravel to protect the site from cross-site pharming attacks and secure form reception.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Forms & CSRF Protection</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Forms & CSRF Protection Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Forms & CSRF Protection is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Forms & CSRF Protection activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Forms & CSRF Protection activated successfully!</code> to unlock the Forms & CSRF Protection medal!",
-      "starter_code": "# Simulate Forms & CSRF Protection activation:\n",
+      "starter_code": "// PHP Simulate Forms & CSRF Protection activation:\n",
       "pills": [
         {
           "label": "Activate Forms & CSRF Protection",
@@ -280,9 +280,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Forms & CSRF Protection Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Forms & CSRF Protection'. Specifically, design a feature demonstrating: 'Site protected by @csrf' using the starter template below!",
-        "code": "# Home Challenge: Forms & CSRF Protection Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Forms & CSRF Protection Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Forms & CSRF Protection' using the starter template below!",
+        "code": "// PHP Home Challenge: Forms & CSRF Protection Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Forms & CSRF Protection Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -290,12 +290,12 @@
       "badge_icon": "🎯",
       "badge_title": "Form Validation & Errors Medal",
       "title": "Station 11: Form Validation & Errors",
-      "desc": "Prevent any false or empty data from being saved by checking the quality of the input and ensuring that it conforms to the programming laws.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Form Validation & Errors</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛑 <b>Validation of inputs</b>: Prevent any false or empty data from being saved by checking the quality of the input and ensuring that it conforms to the programming laws.</li><li>⚠️ <b>Display warning and error messages</b>: Displaying clear and interactive Arabic alert messages to the user when they forget to fill out one of the required fields.</li></ul><br><h4>💻 Starter Code Block - Display warning and error messages:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>$request->validate([\n    'name' => 'required|min:3',\n    'price' => 'required|numeric'\n]);</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Alert the user that the 'Price' field must contain numbers only.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Validation of inputs is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Form Validation & Errors concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Form Validation & Errors</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Validation of inputs</b>: Prevent any false or empty data from being saved by checking the quality of the input and ensuring that it conforms to the programming laws.</li><li>🐘 <b>Display warning and error messages</b>: Displaying clear and interactive Arabic alert messages to the user when they forget to fill out one of the required fields.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Form Validation & Errors</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Form Validation & Errors Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Form Validation & Errors is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Form Validation & Errors activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Form Validation & Errors activated successfully!</code> to unlock the Form Validation & Errors medal!",
-      "starter_code": "# Simulate Form Validation & Errors activation:\n",
+      "starter_code": "// PHP Simulate Form Validation & Errors activation:\n",
       "pills": [
         {
           "label": "Activate Form Validation & Errors",
@@ -308,22 +308,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Form Validation & Errors Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Form Validation & Errors'. Specifically, design a feature demonstrating: 'Display warning and error messages' using the starter template below!",
-        "code": "# Home Challenge: Form Validation & Errors Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Form Validation & Errors Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Form Validation & Errors' using the starter template below!",
+        "code": "// PHP Home Challenge: Form Validation & Errors Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Form Validation & Errors Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 12,
-      "badge_icon": "🎨",
+      "badge_icon": "💾",
       "badge_title": "Database CRUD Operations (Part 1) Medal",
       "title": "Station 12: Database CRUD Operations (Part 1)",
-      "desc": "Save new approved data in MySQL tables, read it and display it in a dynamic and fast way in the interfaces.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Database CRUD Operations (Part 1)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💾 <b>Basic operations (Create & Read)</b>: Save new approved data in MySQL tables, read it and display it in a dynamic and fast way in the interfaces.</li><li>➕ <b>Add cake products to the database</b>: Add and store new cakes with name and price, save them in the store, and successfully redirect the admin to the control panel page.</li></ul><br><h4>💻 Starter Code Block - Add cake products to the database:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>public function store(Request $request) {\n    Cake::create($request->all());\n    return redirect()->route('cakes.index')->with('success', 'The magic cake was added successfully!');\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Submit your new cake template and save it immediately to appear in your store's product list.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Basic operations (Create & Read) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Database CRUD Operations (Part 1) concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Database CRUD Operations (Part 1)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Basic operations (Create & Read)</b>: Save new approved data in MySQL tables, read it and display it in a dynamic and fast way in the interfaces.</li><li>🐘 <b>Add cake products to the database</b>: Add and store new cakes with name and price, save them in the store, and successfully redirect the admin to the control panel page.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Database CRUD Operations (Part 1)</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Database CRUD Operations (Part 1) Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Database CRUD Operations (Part 1) is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
       "hint": "Type in the editor: <code>print(\"Database CRUD Operations (Part 1) activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Database CRUD Operations (Part 1) activated successfully!</code> to unlock the Database CRUD Operations (Part 1) medal!",
-      "starter_code": "# Simulate Database CRUD Operations (Part 1) activation:\n",
+      "starter_code": "// PHP Simulate Database CRUD Operations (Part 1) activation:\n",
       "pills": [
         {
           "label": "Activate Database CRUD Operations (Part 1)",
@@ -336,22 +336,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Database CRUD Operations (Part 1) Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Database CRUD Operations (Part 1)'. Specifically, design a feature demonstrating: 'Add cake products to the database' using the starter template below!",
-        "code": "# Home Challenge: Database CRUD Operations (Part 1) Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Database CRUD Operations (Part 1) Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Database CRUD Operations (Part 1)' using the starter template below!",
+        "code": "// PHP Home Challenge: Database CRUD Operations (Part 1) Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Database CRUD Operations (Part 1) Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 13,
-      "badge_icon": "🎨",
+      "badge_icon": "💾",
       "badge_title": "Database CRUD Operations (Part 2) Medal",
       "title": "Station 13: Database CRUD Operations (Part 2)",
-      "desc": "Update the prices and information of cakes or remove them and delete them completely from the database when the available quantity in the store runs out.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Database CRUD Operations (Part 2)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🗑️ <b>Edit & Delete (Update & Delete)</b>: Update the prices and information of cakes or remove them and delete them completely from the database when the available quantity in the store runs out.</li><li>❌ <b>Delete an item from the store</b>: Search for the chosen item by sub-identifier, delete it with a glance, and display a notification stating the success of the operation to the user.</li></ul><br><h4>💻 Starter Code Block - Delete an item from the store:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>public function destroy($id) {\n    $cake = Cake::findOrFail($id);\n    $cake->delete();\n    return redirect()->back();\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Press the trash button to delete a damaged cake from the store control panel.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Edit & Delete (Update & Delete) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Database CRUD Operations (Part 2) concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Database CRUD Operations (Part 2)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Edit & Delete (Update & Delete)</b>: Update the prices and information of cakes or remove them and delete them completely from the database when the available quantity in the store runs out.</li><li>🐘 <b>Delete an item from the store</b>: Search for the chosen item by sub-identifier, delete it with a glance, and display a notification stating the success of the operation to the user.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Database CRUD Operations (Part 2)</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Database CRUD Operations (Part 2) Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Database CRUD Operations (Part 2) is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
       "hint": "Type in the editor: <code>print(\"Database CRUD Operations (Part 2) activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Database CRUD Operations (Part 2) activated successfully!</code> to unlock the Database CRUD Operations (Part 2) medal!",
-      "starter_code": "# Simulate Database CRUD Operations (Part 2) activation:\n",
+      "starter_code": "// PHP Simulate Database CRUD Operations (Part 2) activation:\n",
       "pills": [
         {
           "label": "Activate Database CRUD Operations (Part 2)",
@@ -364,9 +364,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Database CRUD Operations (Part 2) Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Database CRUD Operations (Part 2)'. Specifically, design a feature demonstrating: 'Delete an item from the store' using the starter template below!",
-        "code": "# Home Challenge: Database CRUD Operations (Part 2) Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Database CRUD Operations (Part 2) Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Database CRUD Operations (Part 2)' using the starter template below!",
+        "code": "// PHP Home Challenge: Database CRUD Operations (Part 2) Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Database CRUD Operations (Part 2) Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -374,12 +374,12 @@
       "badge_icon": "🎯",
       "badge_title": "User Authentication (Login & Register) Medal",
       "title": "Station 14: User Authentication (Login & Register)",
-      "desc": "Building a website security system and ensuring the protection of buyers and moderators' accounts using encryption technologies built into Laravel.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>User Authentication (Login & Register)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🔑 <b>Site security and login</b>: Building a website security system and ensuring the protection of buyers and moderators' accounts using encryption technologies built into Laravel.</li><li>🛡️ <b>Verify and confirm the buyer's account</b>: Automatic verification of mail and encrypted password and opening a secure browsing session for the user.</li></ul><br><h4>💻 Starter Code Block - Verify and confirm the buyer's account:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>if (Auth::attempt(['email' => $email, 'password' => $password])) {\n    return redirect()->intended('dashboard');\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Prevent browsing the administrative control panel until you successfully type the correct password.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Site security and login is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master User Authentication (Login & Register) concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>User Authentication (Login & Register)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Site security and login</b>: Building a website security system and ensuring the protection of buyers and moderators' accounts using encryption technologies built into Laravel.</li><li>🐘 <b>Verify and confirm the buyer's account</b>: Automatic verification of mail and encrypted password and opening a secure browsing session for the user.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of User Authentication (Login & Register)</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> User Authentication (Login & Register) Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine User Authentication (Login & Register) is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"User Authentication (Login & Register) activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>User Authentication (Login & Register) activated successfully!</code> to unlock the User Authentication (Login & Register) medal!",
-      "starter_code": "# Simulate User Authentication (Login & Register) activation:\n",
+      "starter_code": "// PHP Simulate User Authentication (Login & Register) activation:\n",
       "pills": [
         {
           "label": "Activate User Authentication (Login & Register)",
@@ -392,9 +392,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: User Authentication (Login & Register) Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'User Authentication (Login & Register)'. Specifically, design a feature demonstrating: 'Verify and confirm the buyer's account' using the starter template below!",
-        "code": "# Home Challenge: User Authentication (Login & Register) Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: User Authentication (Login & Register) Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'User Authentication (Login & Register)' using the starter template below!",
+        "code": "// PHP Home Challenge: User Authentication (Login & Register) Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: User Authentication (Login & Register) Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -402,12 +402,12 @@
       "badge_icon": "💾",
       "badge_title": "File Uploading & Image Storage Medal",
       "title": "Station 15: File Uploading & Image Storage",
-      "desc": "Providing the administrator with the opportunity to upload pictures of delicious cakes, store the files safely on the application servers, and link the image path to the database.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>File Uploading & Image Storage</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🖼️ <b>Upload and store photos and files</b>: Providing the administrator with the opportunity to upload pictures of delicious cakes, store the files safely on the application servers, and link the image path to the database.</li><li>📂 <b>Save and display product images</b>: Confirm receipt of the image file, save it to the public storage folder, and view the cake art in the store.</li></ul><br><h4>💻 Starter Code Block - Save and display product images:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>if ($request->hasFile('photo')) {\n    $path = $request->file('photo')->store('public/cakes');\n    $cake->photo_path = Storage::url($path);\n    $cake->save();\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Download and view the newly uploaded high-quality birthday cake image in the store.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Upload and store photos and files is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master File Uploading & Image Storage concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>File Uploading & Image Storage</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>Upload and store photos and files</b>: Providing the administrator with the opportunity to upload pictures of delicious cakes, store the files safely on the application servers, and link the image path to the database.</li><li>🐘 <b>Save and display product images</b>: Confirm receipt of the image file, save it to the public storage folder, and view the cake art in the store.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of File Uploading & Image Storage</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> File Uploading & Image Storage Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine File Uploading & Image Storage is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
       "hint": "Type in the editor: <code>print(\"File Uploading & Image Storage activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>File Uploading & Image Storage activated successfully!</code> to unlock the File Uploading & Image Storage medal!",
-      "starter_code": "# Simulate File Uploading & Image Storage activation:\n",
+      "starter_code": "// PHP Simulate File Uploading & Image Storage activation:\n",
       "pills": [
         {
           "label": "Activate File Uploading & Image Storage",
@@ -420,22 +420,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: File Uploading & Image Storage Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'File Uploading & Image Storage'. Specifically, design a feature demonstrating: 'Save and display product images' using the starter template below!",
-        "code": "# Home Challenge: File Uploading & Image Storage Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: File Uploading & Image Storage Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'File Uploading & Image Storage' using the starter template below!",
+        "code": "// PHP Home Challenge: File Uploading & Image Storage Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: File Uploading & Image Storage Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 16,
-      "badge_icon": "🎯",
+      "badge_icon": "🏆",
       "badge_title": "Mega Project - Dynamic Cake Shop Website Medal",
       "title": "Station 16: Mega Project - Dynamic Cake Shop Website",
-      "desc": "Bringing together all the techniques we've learned to build a full-fledged magic cake shop, featuring a customer screen and a comprehensive admin screen.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Mega Project - Dynamic Cake Shop Website</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎂 <b>The culmination of a challenging project</b>: Bringing together all the techniques we've learned to build a full-fledged magic cake shop, featuring a customer screen and a comprehensive admin screen.</li><li>🛒 <b>Browse and book dream cakes</b>: A screen that allows visitors to browse available cakes, reserve cakes, and write their feedback with the interactive shopping cart.</li></ul><br><h4>💻 Starter Code Block - Browse and book dream cakes:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>// Cake order reservation confirmation code\n$order = Order::create([\n    'user_id' => Auth::id(),\n    'cake_id' => $cake_id,\n    'quantity' => 1\n]);</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> An integrated, locally published cake store application that connects all interfaces to one live and active database!</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that The culmination of a challenging project is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Mega Project - Dynamic Cake Shop Website concepts and boost your developer XP!",
+      "story": "<h3>🐘 Hello, future coding hero!</h3>I am your friend <b>Robo-Elephant</b>, and today I will accompany you on an exciting coding adventure to explore <b>Mega Project - Dynamic Cake Shop Website</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐘 <b>The culmination of a challenging project</b>: Bringing together all the techniques we've learned to build a full-fledged magic cake shop, featuring a customer screen and a comprehensive admin screen.</li><li>🐘 <b>Browse and book dream cakes</b>: A screen that allows visitors to browse available cakes, reserve cakes, and write their feedback with the interactive shopping cart.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Mega Project - Dynamic Cake Shop Website</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Mega Project - Dynamic Cake Shop Website Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Mega Project - Dynamic Cake Shop Website is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Mega Project - Dynamic Cake Shop Website activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Mega Project - Dynamic Cake Shop Website activated successfully!</code> to unlock the Mega Project - Dynamic Cake Shop Website medal!",
-      "starter_code": "# Simulate Mega Project - Dynamic Cake Shop Website activation:\n",
+      "starter_code": "// PHP Simulate Mega Project - Dynamic Cake Shop Website activation:\n",
       "pills": [
         {
           "label": "Activate Mega Project - Dynamic Cake Shop Website",
@@ -448,9 +448,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Mega Project - Dynamic Cake Shop Website Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Mega Project - Dynamic Cake Shop Website'. Specifically, design a feature demonstrating: 'Browse and book dream cakes' using the starter template below!",
-        "code": "# Home Challenge: Mega Project - Dynamic Cake Shop Website Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Mega Project - Dynamic Cake Shop Website Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Mega Project - Dynamic Cake Shop Website' using the starter template below!",
+        "code": "// PHP Home Challenge: Mega Project - Dynamic Cake Shop Website Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Mega Project - Dynamic Cake Shop Website Simulator\n# Write your creative solution here!"
       }
     }
   ]

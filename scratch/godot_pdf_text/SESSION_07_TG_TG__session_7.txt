@@ -1,0 +1,367 @@
+=== Page 1 ===
+Recap:  
+Before  starting,  ask  students  about  the  concepts  
+they
+ 
+have
+ 
+learned
+ 
+in
+ 
+previous
+ 
+sessions:
+ ●  What  are  User  Interfaces  (UI)?  ●  What  are  basic  UI  elements  like  Labels,  
+Buttons,
+ 
+Text
+ 
+Fields
+?
+ ●  What  is  the  concept  of  Control  and  Grids ?  
+Agenda:  
+By  the  end  of  this  session,  students  will  be  able  to:  ●  Understand  how  to  handle  UI  events  ●  Program  button  click  actions  ●  Use  Signals  for  UI  control  ●  Create  an  interactive  UI   
+Revisiting  Events:  
+Understanding  Events  in  Godot  
+What  Are  Events?  
+Events  in  programming  refer  to  actions  or  
+occurrences
+ 
+that
+ 
+happen
+ 
+within
+ 
+a
+ 
+system
+ 
+and
+ 
+can
+ 
+trigger
+ 
+responses
+ 
+in
+ 
+a
+ 
+program.
+ 
+Events
+ 
+are
+ 
+widely
+ 
+used
+ 
+in
+ 
+game
+ 
+development
+ 
+to
+ 
+handle
+ 
+user
+ 
+=== Page 2 ===
+interactions,  such  as  clicks,  key  presses,  and  
+collisions.
+ 
+Reviewing  Previous  Knowledge  
+In  previous  sessions,  students  used  events  to  detect  
+mouse
+ 
+clicks
+ 
+on
+ 
+objects.
+ 
+This
+ 
+involved
+ 
+handling
+ 
+input
+ 
+actions
+ 
+where
+ 
+a
+ 
+function
+ 
+would
+ 
+execute
+ 
+when
+ 
+a
+ 
+user
+ 
+interacted
+ 
+with
+ 
+an
+ 
+object,
+ 
+such
+ 
+as
+ 
+clicking
+ 
+on
+ 
+a
+ 
+sprite.
+ Now,  the  same  principle  applies  to  UI  elements  like  
+buttons,
+ 
+text
+ 
+fields,
+ 
+and
+ 
+sliders.
+ 
+These
+ 
+elements
+ 
+use
+ 
+signals
+ 
+to
+ 
+notify
+ 
+the
+ 
+program
+ 
+when
+ 
+a
+ 
+specific
+ 
+event
+ 
+occurs,
+ 
+allowing
+ 
+us
+ 
+to
+ 
+define
+ 
+corresponding
+ 
+responses.
+  
+Handling  Button  Clicks  in  Godot  
+How  Can  We  Trigger  an  Action  When  a  Button  Is  Clicked?  
+In  Godot,  buttons  are  interactive  UI  elements  that  
+can
+ 
+respond
+ 
+to
+ 
+user
+ 
+input.
+ 
+To
+ 
+make
+ 
+a
+ 
+button
+ 
+trigger
+ 
+an
+ 
+action,
+ 
+we
+ 
+need
+ 
+to
+ 
+connect
+ 
+it
+ 
+to
+ 
+a
+ 
+function
+ 
+that
+ 
+executes
+ 
+when
+ 
+the
+ 
+button
+ 
+is
+ 
+clicked.
+ 
+Practical  Example:  Connecting  a  Button  to  a  Function  
+=== Page 3 ===
+1.  
+Create
+ 
+a
+ 
+Button
+ 
+in
+ 
+the
+ 
+Scene:
+ 
+ 
+○  Add  a  Button node  to  the  scene.  ○  Rename  it  to  something  meaningful  like  "StartButton".  2.  Connect  the  Button's  Pressed  Signal:  
+ ○  Select  the  button  in  the  Scene  panel .  ○  Go  to  the  Node  tab  in  the  Inspector .  ○  Find  the  pressed() signal  and  double-click  
+it.
+ ○  Click  "Connect"  and  choose  a  script  
+attached
+ 
+to
+ 
+the
+ 
+parent
+ 
+node.
+ 3.  Write  the  Function  to  Handle  the  Button  
+Click:
+ 
+ 
+ 
+This  function  will  load  the  "Game.tscn" scene  
+when
+ 
+the
+ 
+Play
+ 
+button
+ 
+is
+ 
+clicked.
+ 
+Programming  Main  Menu  Buttons  
+
+=== Page 4 ===
+1.  Switching  Between  Scenes  
+To  move  between  different  game  sections,  we  use  
+the
+ get_tree().change_scene() method.  
+Example:  Moving  from  the  Main  Menu  to  the  
+Game
+ 
+Scene:
+  
+ When  the  player  clicks  the  "Start"  button,  they  are  
+taken
+ 
+to
+ 
+the
+ 
+Game
+ 
+Scene
+.
+ 
+2.  Exiting  the  Game  
+We  can  allow  the  player  to  exit  the  game  by  calling  get_tree().quit().  
+Example:  Handling  the  Exit  Button  Click:   
+
+=== Page 5 ===
+    
+Simple  Quiz:  
+1.  How  do  you  switch  between  scenes  in  Godot?  
+Answer:
+ 
+By
+ 
+using
+ 
+get_tree().change_scene("res://Scenes/Main.t
+scn")
+.
+ 2.  Can  you  name  more  than  one  UI  Node  in  
+Godot?
+ 
+Answer:
+ 
+Button,
+ 
+Label,
+ 
+TextEdit,
+ 
+CheckBox,
+ 
+OptionButton,
+ 
+Slider,
+ 
+Panel
+.
+ 3.  Which  function  can  you  use  to  exit  the  game?  
+Answer:
+ 
+get_tree().quit()
+.
+ 
+
+=== Page 6 ===
+ 
+Additional  Notes  for  the  Instructor:  
+●  Keep  the  session  interactive  by  asking  students  
+questions.
+ ●  Encourage  them  to  try  coding  directly  in  Godot.  ●  Motivate  students  to  explore  more  UI  elements  
+after
+ 
+the
+ 
+lesson.
+   
+ 
+

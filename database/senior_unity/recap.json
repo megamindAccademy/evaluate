@@ -3,337 +3,337 @@
   "recaps": [
     {
       "id": 1,
-      "title": "Session 1 Recap",
+      "title": "Game Engine Basics Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 1, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Discover the core architecture of game engines and how Unity coordinates sprites, physics, and gameplay."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Discover the core architecture of game engines and how Unity coordinates sprites, physics, and gameplay. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Session 2 Recap",
+      "title": "Console & Debug.Log Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 2, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Learn how to communicate with your game engine and log messages in the console to track bugs and flow."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Learn how to communicate with your game engine and log messages in the console to track bugs and flow. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Session 3 Recap",
+      "title": "Unity Editor Windows Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 3, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Master the layout by exploring the Scene View, Game View, Hierarchy, Project, and Inspector panels."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Master the layout by exploring the Scene View, Game View, Hierarchy, Project, and Inspector panels. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Session 4 Recap",
+      "title": "Asset Store Magic Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 4, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Learn how to fetch beautiful art packages, sprites, and animations from the Unity Asset Store to style your worlds."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Learn how to fetch beautiful art packages, sprites, and animations from the Unity Asset Store to style your worlds. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 5,
-      "title": "Session 5 Recap",
+      "title": "Physics & Rigidbody 2D Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 5, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Understand rigidbodies, gravity scales, and dynamic mass in 2D systems to simulate realistic weight."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Understand rigidbodies, gravity scales, and dynamic mass in 2D systems to simulate realistic weight. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 6,
-      "title": "Session 6 Recap",
+      "title": "Jumping & Velocity Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 6, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Write code controls to push players upward and manage vertical velocity loops."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Write code controls to push players upward and manage vertical velocity loops. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 7,
-      "title": "Session 7 Recap",
+      "title": "Prefabs & Instantiate Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 7, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Master template cloning using Prefabs to dynamically spawn repeating obstacles and collectible coins."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Master template cloning using Prefabs to dynamically spawn repeating obstacles and collectible coins. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 8,
-      "title": "Session 8 Recap",
+      "title": "Collision Detection Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 8, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Detect intersections using Colliders and triggers to react when players collect gems or crash into walls."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Detect intersections using Colliders and triggers to react when players collect gems or crash into walls. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 9,
-      "title": "Session 9 Recap",
+      "title": "C# Variables & Syntax Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 9, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Dive into variables like int, float, string, and bool to keep track of scores and health."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Dive into variables like int, float, string, and bool to keep track of scores and health. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 10,
-      "title": "Session 10 Recap",
+      "title": "If Conditions Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 10, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Empower your scripts to make smart choices using branch statements and logical operators."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Empower your scripts to make smart choices using branch statements and logical operators. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 11,
-      "title": "Session 11 Recap",
+      "title": "Loops (For/While) Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 11, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Repeat coding blocks automatically to generate grid levels, trees, and maps without rewriting lines."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Repeat coding blocks automatically to generate grid levels, trees, and maps without rewriting lines. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 12,
-      "title": "Session 12 Recap",
+      "title": "Classes & Objects Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 12, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Understand Object-Oriented C# classes, class components, and MonoBehaviour instances."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Understand Object-Oriented C# classes, class components, and MonoBehaviour instances. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 13,
-      "title": "Session 13 Recap",
+      "title": "Tilemaps & Level Design Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 13, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Design complex, pixel-perfect 2D levels by drawing tiles directly onto a dynamic Tilemap Grid."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Design complex, pixel-perfect 2D levels by drawing tiles directly onto a dynamic Tilemap Grid. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 14,
-      "title": "Session 14 Recap",
+      "title": "Input Management Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 14, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Capture keystrokes, gamepad taps, and mouse clicks smoothly to steer player animations."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Capture keystrokes, gamepad taps, and mouse clicks smoothly to steer player animations. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 15,
-      "title": "Session 15 Recap",
+      "title": "Cinemachine Cameras Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 15, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Create professional, smooth-scrolling smart cameras that lock onto moving characters."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Create professional, smooth-scrolling smart cameras that lock onto moving characters. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 16,
-      "title": "Session 16 Recap",
+      "title": "Enemy AI Patrol Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 16, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Build patrol sequences that steer enemy movements back and forth between navigation targets."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Build patrol sequences that steer enemy movements back and forth between navigation targets. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 17,
-      "title": "Session 17 Recap",
+      "title": "3D Coordinate Systems Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 17, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Navigate three-dimensional spaces using X, Y, and Z vector coordinates for rotation and position."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Navigate three-dimensional spaces using X, Y, and Z vector coordinates for rotation and position. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 18,
-      "title": "Session 18 Recap",
+      "title": "Materials & Textures Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 18, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Dress plain 3D models with colorful materials, custom textures, and shaders."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Dress plain 3D models with colorful materials, custom textures, and shaders. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 19,
-      "title": "Session 19 Recap",
+      "title": "Character Controller Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 19, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Build solid 3D player movement controllers that slide down hills and climb steps smoothly."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Build solid 3D player movement controllers that slide down hills and climb steps smoothly. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 20,
-      "title": "Session 20 Recap",
+      "title": "NavMesh Pathfinding Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 20, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Configure AI agents that navigate around complex obstacles using baked NavMesh pathfinding grids."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Configure AI agents that navigate around complex obstacles using baked NavMesh pathfinding grids. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 21,
-      "title": "Session 21 Recap",
+      "title": "Awake vs Start Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 21, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Master initialization life cycle functions to run state setup before regular updates begin."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Master initialization life cycle functions to run state setup before regular updates begin. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 22,
-      "title": "Session 22 Recap",
+      "title": "Static Variables Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 22, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Maintain global persistent variables like scores and levels across different levels and scenes."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Maintain global persistent variables like scores and levels across different levels and scenes. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 23,
-      "title": "Session 23 Recap",
+      "title": "Health & UI Sliders Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 23, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Draw interactive health bar sliders on screens and link them to variables."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Draw interactive health bar sliders on screens and link them to variables. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     },
     {
       "id": 24,
-      "title": "Session 24 Recap",
+      "title": "WebGL Publishing Recap",
       "sections": [
         {
-          "heading": "?? Core Concept",
-          "text": "In Session 24, we learned how to build robust systems and write clean code."
+          "heading": "🌟 Core Concept",
+          "text": "Compile, compress, and publish your final game so it loads directly inside web browsers."
         },
         {
-          "heading": "?? Key Takeaway",
-          "text": "Practice makes perfect! Experiment with different variables and structures."
+          "heading": "🚀 Golden Takeaway",
+          "text": "Always remember: Compile, compress, and publish your final game so it loads directly inside web browsers. Experiment and design beautiful Unity features with 🏆!"
         }
       ]
     }

@@ -1,24 +1,24 @@
 {
   "course_id": "senior_ui_ux",
   "course_title": "UI-UX Design",
-  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in UI-UX Design. Unlock custom medals, solve daily challenges, and program your own digital masterpieces!",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in UI-UX Design. Meet Bella, solve fun challenges, and build outstanding systems! 🎮✨",
   "xp_total": 1200,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
       "badge_icon": "📱",
-      "badge_title": "Session 1: Visual Layout Principles Medal",
-      "title": "Station 1: Session 1: Visual Layout Principles",
-      "desc": "Visual Layout Principles Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 1: Visual Layout Principles</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Visual Layout Principles</b>: Applying typography hierarchy, color psychology, and contrast to screen canvases.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Visual Layout Principles Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Curated Outfit fonts</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Visual Layout Principles is like drawing colorful buttons and stickers on your toy car to make it look incredibly cool!",
+      "badge_title": "Visual Layout Principles Medal",
+      "title": "Station 1: Visual Layout Principles",
+      "desc": "Master Session 1: Visual Layout Principles concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Visual Layout Principles</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Visual Layout Principles</b>: Applying typography hierarchy, color psychology, and contrast to screen canvases.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Visual Layout Principles Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Visual Layout Principles is like drawing beautiful rooms, buttons, and stickers on a white canvas to make your application look spectacular!",
       "hint": "Type in the editor: <code>print(\"Session 1: Visual Layout Principles activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 1: Visual Layout Principles activated successfully!</code> to unlock the Session 1: Visual Layout Principles medal!",
-      "starter_code": "# Simulate Session 1: Visual Layout Principles activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 1: Visual Layout Principles activated successfully!</code> to unlock the Visual Layout Principles medal!",
+      "starter_code": "# Simulate Visual Layout Principles activation:\n",
       "pills": [
         {
-          "label": "Activate Session 1: Visual Layout Principles",
+          "label": "Activate Visual Layout Principles",
           "code": "print(\"Session 1: Visual Layout Principles activated successfully!\")"
         }
       ],
@@ -27,26 +27,26 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 1: Visual Layout Principles Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 1: Visual Layout Principles'. Specifically, design a feature demonstrating: 'Visual Layout Principles' using the starter template below!",
-        "code": "# Home Challenge: Session 1: Visual Layout Principles Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 1: Visual Layout Principles Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Visual Layout Principles Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Visual Layout Principles' using the starter template below!",
+        "code": "# Home Challenge: Visual Layout Principles Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Visual Layout Principles Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 2,
-      "badge_icon": "🔊",
-      "badge_title": "Session 2: Information Architecture Medal",
-      "title": "Station 2: Session 2: Information Architecture",
-      "desc": "Information Architecture Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 2: Information Architecture</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Information Architecture</b>: Creating sitemap trees and navigating menus logically to improve UX flow.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Information Architecture Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Main menu sitemaps</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Information Architecture is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "badge_icon": "🎯",
+      "badge_title": "Information Architecture Medal",
+      "title": "Station 2: Information Architecture",
+      "desc": "Master Session 2: Information Architecture concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Information Architecture</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Information Architecture</b>: Creating sitemap trees and navigating menus logically to improve UX flow.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Information Architecture Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Information Architecture is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Session 2: Information Architecture activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 2: Information Architecture activated successfully!</code> to unlock the Session 2: Information Architecture medal!",
-      "starter_code": "# Simulate Session 2: Information Architecture activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 2: Information Architecture activated successfully!</code> to unlock the Information Architecture medal!",
+      "starter_code": "# Simulate Information Architecture activation:\n",
       "pills": [
         {
-          "label": "Activate Session 2: Information Architecture",
+          "label": "Activate Information Architecture",
           "code": "print(\"Session 2: Information Architecture activated successfully!\")"
         }
       ],
@@ -55,26 +55,26 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 2: Information Architecture Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 2: Information Architecture'. Specifically, design a feature demonstrating: 'Information Architecture' using the starter template below!",
-        "code": "# Home Challenge: Session 2: Information Architecture Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 2: Information Architecture Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Information Architecture Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Information Architecture' using the starter template below!",
+        "code": "# Home Challenge: Information Architecture Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Information Architecture Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 3,
       "badge_icon": "🎯",
-      "badge_title": "Session 3: Interactive User Flows Medal",
-      "title": "Station 3: Session 3: Interactive User Flows",
-      "desc": "Interactive User Flows Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 3: Interactive User Flows</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Interactive User Flows</b>: Mapping out the steps a visitor takes from product selection to purchase confirmation.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Interactive User Flows Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Decision node flowcharts</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Interactive User Flows is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "badge_title": "Interactive User Flows Medal",
+      "title": "Station 3: Interactive User Flows",
+      "desc": "Master Session 3: Interactive User Flows concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Interactive User Flows</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Interactive User Flows</b>: Mapping out the steps a visitor takes from product selection to purchase confirmation.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Interactive User Flows Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Interactive User Flows is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Session 3: Interactive User Flows activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 3: Interactive User Flows activated successfully!</code> to unlock the Session 3: Interactive User Flows medal!",
-      "starter_code": "# Simulate Session 3: Interactive User Flows activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 3: Interactive User Flows activated successfully!</code> to unlock the Interactive User Flows medal!",
+      "starter_code": "# Simulate Interactive User Flows activation:\n",
       "pills": [
         {
-          "label": "Activate Session 3: Interactive User Flows",
+          "label": "Activate Interactive User Flows",
           "code": "print(\"Session 3: Interactive User Flows activated successfully!\")"
         }
       ],
@@ -83,26 +83,26 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 3: Interactive User Flows Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 3: Interactive User Flows'. Specifically, design a feature demonstrating: 'Interactive User Flows' using the starter template below!",
-        "code": "# Home Challenge: Session 3: Interactive User Flows Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 3: Interactive User Flows Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Interactive User Flows Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Interactive User Flows' using the starter template below!",
+        "code": "# Home Challenge: Interactive User Flows Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Interactive User Flows Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 4,
       "badge_icon": "🎯",
-      "badge_title": "Session 4: Low-Fidelity Wireframes Medal",
-      "title": "Station 4: Session 4: Low-Fidelity Wireframes",
-      "desc": "Low-Fidelity Wireframes Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 4: Low-Fidelity Wireframes</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Low-Fidelity Wireframes</b>: Sketching simple page skeletons to plan content placement without visual clutter.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Low-Fidelity Wireframes Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Paper sketches</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Low-Fidelity Wireframes is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "badge_title": "Low-Fidelity Wireframes Medal",
+      "title": "Station 4: Low-Fidelity Wireframes",
+      "desc": "Master Session 4: Low-Fidelity Wireframes concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Low-Fidelity Wireframes</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Low-Fidelity Wireframes</b>: Sketching simple page skeletons to plan content placement without visual clutter.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Low-Fidelity Wireframes Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Low-Fidelity Wireframes is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Session 4: Low-Fidelity Wireframes activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 4: Low-Fidelity Wireframes activated successfully!</code> to unlock the Session 4: Low-Fidelity Wireframes medal!",
-      "starter_code": "# Simulate Session 4: Low-Fidelity Wireframes activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 4: Low-Fidelity Wireframes activated successfully!</code> to unlock the Low-Fidelity Wireframes medal!",
+      "starter_code": "# Simulate Low-Fidelity Wireframes activation:\n",
       "pills": [
         {
-          "label": "Activate Session 4: Low-Fidelity Wireframes",
+          "label": "Activate Low-Fidelity Wireframes",
           "code": "print(\"Session 4: Low-Fidelity Wireframes activated successfully!\")"
         }
       ],
@@ -111,26 +111,26 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 4: Low-Fidelity Wireframes Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 4: Low-Fidelity Wireframes'. Specifically, design a feature demonstrating: 'Low-Fidelity Wireframes' using the starter template below!",
-        "code": "# Home Challenge: Session 4: Low-Fidelity Wireframes Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 4: Low-Fidelity Wireframes Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Low-Fidelity Wireframes Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Low-Fidelity Wireframes' using the starter template below!",
+        "code": "# Home Challenge: Low-Fidelity Wireframes Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Low-Fidelity Wireframes Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 5,
       "badge_icon": "🚀",
-      "badge_title": "Session 5: Figma Canvas Setup Medal",
-      "title": "Station 5: Session 5: Figma Canvas Setup",
-      "desc": "Figma Canvas Setup Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 5: Figma Canvas Setup</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Figma Canvas Setup</b>: Navigating the Figma interface, drawing vector shapes, and layering text.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Figma Canvas Setup Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> iPhone 15 frame layers</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Figma Canvas Setup is like building the magic playground gates before you enter and play with toys!",
+      "badge_title": "Figma Canvas Setup Medal",
+      "title": "Station 5: Figma Canvas Setup",
+      "desc": "Master Session 5: Figma Canvas Setup concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Figma Canvas Setup</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Figma Canvas Setup</b>: Navigating the Figma interface, drawing vector shapes, and layering text.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Figma Canvas Setup Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Figma Canvas Setup is like building the magic playground gates before you enter and play with toys!",
       "hint": "Type in the editor: <code>print(\"Session 5: Figma Canvas Setup activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 5: Figma Canvas Setup activated successfully!</code> to unlock the Session 5: Figma Canvas Setup medal!",
-      "starter_code": "# Simulate Session 5: Figma Canvas Setup activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 5: Figma Canvas Setup activated successfully!</code> to unlock the Figma Canvas Setup medal!",
+      "starter_code": "# Simulate Figma Canvas Setup activation:\n",
       "pills": [
         {
-          "label": "Activate Session 5: Figma Canvas Setup",
+          "label": "Activate Figma Canvas Setup",
           "code": "print(\"Session 5: Figma Canvas Setup activated successfully!\")"
         }
       ],
@@ -139,26 +139,26 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 5: Figma Canvas Setup Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 5: Figma Canvas Setup'. Specifically, design a feature demonstrating: 'Figma Canvas Setup' using the starter template below!",
-        "code": "# Home Challenge: Session 5: Figma Canvas Setup Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 5: Figma Canvas Setup Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Figma Canvas Setup Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Figma Canvas Setup' using the starter template below!",
+        "code": "# Home Challenge: Figma Canvas Setup Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Figma Canvas Setup Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 6,
       "badge_icon": "📱",
-      "badge_title": "Session 6: Responsive layout Grids Medal",
-      "title": "Station 6: Session 6: Responsive layout Grids",
-      "desc": "Responsive layout Grids Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 6: Responsive layout Grids</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Responsive layout Grids</b>: Setting columns and gutters to align interface blocks neatly across devices.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Responsive layout Grids Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Mobile 4-column alignment</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Responsive layout Grids is like drawing colorful buttons and stickers on your toy car to make it look incredibly cool!",
+      "badge_title": "Responsive layout Grids Medal",
+      "title": "Station 6: Responsive layout Grids",
+      "desc": "Master Session 6: Responsive layout Grids concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Responsive layout Grids</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Responsive layout Grids</b>: Setting columns and gutters to align interface blocks neatly across devices.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Responsive layout Grids Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Responsive layout Grids is like drawing beautiful rooms, buttons, and stickers on a white canvas to make your application look spectacular!",
       "hint": "Type in the editor: <code>print(\"Session 6: Responsive layout Grids activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 6: Responsive layout Grids activated successfully!</code> to unlock the Session 6: Responsive layout Grids medal!",
-      "starter_code": "# Simulate Session 6: Responsive layout Grids activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 6: Responsive layout Grids activated successfully!</code> to unlock the Responsive layout Grids medal!",
+      "starter_code": "# Simulate Responsive layout Grids activation:\n",
       "pills": [
         {
-          "label": "Activate Session 6: Responsive layout Grids",
+          "label": "Activate Responsive layout Grids",
           "code": "print(\"Session 6: Responsive layout Grids activated successfully!\")"
         }
       ],
@@ -167,26 +167,26 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 6: Responsive layout Grids Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 6: Responsive layout Grids'. Specifically, design a feature demonstrating: 'Responsive layout Grids' using the starter template below!",
-        "code": "# Home Challenge: Session 6: Responsive layout Grids Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 6: Responsive layout Grids Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Responsive layout Grids Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Responsive layout Grids' using the starter template below!",
+        "code": "# Home Challenge: Responsive layout Grids Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Responsive layout Grids Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 7,
       "badge_icon": "📱",
-      "badge_title": "Session 7: Figma Auto-Layout Medal",
-      "title": "Station 7: Session 7: Figma Auto-Layout",
-      "desc": "Figma Auto-Layout Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 7: Figma Auto-Layout</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Figma Auto-Layout</b>: Applying responsive resizing rules (Hug Contents vs Fill Container) to elements.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Figma Auto-Layout Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Auto-expanding buttons</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Figma Auto-Layout is like drawing colorful buttons and stickers on your toy car to make it look incredibly cool!",
+      "badge_title": "Figma Auto-Layout Medal",
+      "title": "Station 7: Figma Auto-Layout",
+      "desc": "Master Session 7: Figma Auto-Layout concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Figma Auto-Layout</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Figma Auto-Layout</b>: Applying responsive resizing rules (Hug Contents vs Fill Container) to elements.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Figma Auto-Layout Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Figma Auto-Layout is like drawing beautiful rooms, buttons, and stickers on a white canvas to make your application look spectacular!",
       "hint": "Type in the editor: <code>print(\"Session 7: Figma Auto-Layout activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 7: Figma Auto-Layout activated successfully!</code> to unlock the Session 7: Figma Auto-Layout medal!",
-      "starter_code": "# Simulate Session 7: Figma Auto-Layout activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 7: Figma Auto-Layout activated successfully!</code> to unlock the Figma Auto-Layout medal!",
+      "starter_code": "# Simulate Figma Auto-Layout activation:\n",
       "pills": [
         {
-          "label": "Activate Session 7: Figma Auto-Layout",
+          "label": "Activate Figma Auto-Layout",
           "code": "print(\"Session 7: Figma Auto-Layout activated successfully!\")"
         }
       ],
@@ -195,26 +195,26 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 7: Figma Auto-Layout Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 7: Figma Auto-Layout'. Specifically, design a feature demonstrating: 'Figma Auto-Layout' using the starter template below!",
-        "code": "# Home Challenge: Session 7: Figma Auto-Layout Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 7: Figma Auto-Layout Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Figma Auto-Layout Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Figma Auto-Layout' using the starter template below!",
+        "code": "# Home Challenge: Figma Auto-Layout Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Figma Auto-Layout Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 8,
       "badge_icon": "🎯",
-      "badge_title": "Session 8: Reusable Components Medal",
-      "title": "Station 8: Session 8: Reusable Components",
-      "desc": "Reusable Components Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 8: Reusable Components</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Reusable Components</b>: Designing Master elements and variants to speed up layout consistency.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Reusable Components Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Variant button styles</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Reusable Components is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "badge_title": "Reusable Components Medal",
+      "title": "Station 8: Reusable Components",
+      "desc": "Master Session 8: Reusable Components concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Reusable Components</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Reusable Components</b>: Designing Master elements and variants to speed up layout consistency.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Reusable Components Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Reusable Components is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Session 8: Reusable Components activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 8: Reusable Components activated successfully!</code> to unlock the Session 8: Reusable Components medal!",
-      "starter_code": "# Simulate Session 8: Reusable Components activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 8: Reusable Components activated successfully!</code> to unlock the Reusable Components medal!",
+      "starter_code": "# Simulate Reusable Components activation:\n",
       "pills": [
         {
-          "label": "Activate Session 8: Reusable Components",
+          "label": "Activate Reusable Components",
           "code": "print(\"Session 8: Reusable Components activated successfully!\")"
         }
       ],
@@ -223,26 +223,26 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 8: Reusable Components Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 8: Reusable Components'. Specifically, design a feature demonstrating: 'Reusable Components' using the starter template below!",
-        "code": "# Home Challenge: Session 8: Reusable Components Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 8: Reusable Components Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Reusable Components Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Reusable Components' using the starter template below!",
+        "code": "# Home Challenge: Reusable Components Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Reusable Components Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 9,
       "badge_icon": "🎯",
-      "badge_title": "Session 9: Interactive Prototypes Medal",
-      "title": "Station 9: Session 9: Interactive Prototypes",
-      "desc": "Interactive Prototypes Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 9: Interactive Prototypes</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Interactive Prototypes</b>: Linking screens with hover and click triggers to simulate actual apps.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Interactive Prototypes Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Screen-to-screen routing</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Interactive Prototypes is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "badge_title": "Interactive Prototypes Medal",
+      "title": "Station 9: Interactive Prototypes",
+      "desc": "Master Session 9: Interactive Prototypes concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Interactive Prototypes</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Interactive Prototypes</b>: Linking screens with hover and click triggers to simulate actual apps.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Interactive Prototypes Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Interactive Prototypes is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Session 9: Interactive Prototypes activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 9: Interactive Prototypes activated successfully!</code> to unlock the Session 9: Interactive Prototypes medal!",
-      "starter_code": "# Simulate Session 9: Interactive Prototypes activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 9: Interactive Prototypes activated successfully!</code> to unlock the Interactive Prototypes medal!",
+      "starter_code": "# Simulate Interactive Prototypes activation:\n",
       "pills": [
         {
-          "label": "Activate Session 9: Interactive Prototypes",
+          "label": "Activate Interactive Prototypes",
           "code": "print(\"Session 9: Interactive Prototypes activated successfully!\")"
         }
       ],
@@ -251,26 +251,26 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 9: Interactive Prototypes Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 9: Interactive Prototypes'. Specifically, design a feature demonstrating: 'Interactive Prototypes' using the starter template below!",
-        "code": "# Home Challenge: Session 9: Interactive Prototypes Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 9: Interactive Prototypes Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Interactive Prototypes Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Interactive Prototypes' using the starter template below!",
+        "code": "# Home Challenge: Interactive Prototypes Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Interactive Prototypes Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 10,
-      "badge_icon": "🎨",
-      "badge_title": "Session 10: Sleek Smart Animation Medal",
-      "title": "Station 10: Session 10: Sleek Smart Animation",
-      "desc": "Sleek Smart Animation Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 10: Sleek Smart Animation</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Sleek Smart Animation</b>: Smoothing page transitions and floating menus using Smart Animate.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Sleek Smart Animation Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Dynamic loader bars</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Sleek Smart Animation is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "badge_icon": "🎯",
+      "badge_title": "Sleek Smart Animation Medal",
+      "title": "Station 10: Sleek Smart Animation",
+      "desc": "Master Session 10: Sleek Smart Animation concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Sleek Smart Animation</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Sleek Smart Animation</b>: Smoothing page transitions and floating menus using Smart Animate.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Sleek Smart Animation Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Sleek Smart Animation is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Session 10: Sleek Smart Animation activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 10: Sleek Smart Animation activated successfully!</code> to unlock the Session 10: Sleek Smart Animation medal!",
-      "starter_code": "# Simulate Session 10: Sleek Smart Animation activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 10: Sleek Smart Animation activated successfully!</code> to unlock the Sleek Smart Animation medal!",
+      "starter_code": "# Simulate Sleek Smart Animation activation:\n",
       "pills": [
         {
-          "label": "Activate Session 10: Sleek Smart Animation",
+          "label": "Activate Sleek Smart Animation",
           "code": "print(\"Session 10: Sleek Smart Animation activated successfully!\")"
         }
       ],
@@ -279,26 +279,26 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 10: Sleek Smart Animation Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 10: Sleek Smart Animation'. Specifically, design a feature demonstrating: 'Sleek Smart Animation' using the starter template below!",
-        "code": "# Home Challenge: Session 10: Sleek Smart Animation Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 10: Sleek Smart Animation Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Sleek Smart Animation Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Sleek Smart Animation' using the starter template below!",
+        "code": "# Home Challenge: Sleek Smart Animation Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Sleek Smart Animation Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 11,
       "badge_icon": "🎯",
-      "badge_title": "Session 11: Real Usability Testing Medal",
-      "title": "Station 11: Session 11: Real Usability Testing",
-      "desc": "Real Usability Testing Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 11: Real Usability Testing</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Real Usability Testing</b>: Observing users interact with prototypes to identify navigation friction points.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Real Usability Testing Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Task completion audits</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Real Usability Testing is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "badge_title": "Real Usability Testing Medal",
+      "title": "Station 11: Real Usability Testing",
+      "desc": "Master Session 11: Real Usability Testing concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Real Usability Testing</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Real Usability Testing</b>: Observing users interact with prototypes to identify navigation friction points.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Real Usability Testing Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Real Usability Testing is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Session 11: Real Usability Testing activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 11: Real Usability Testing activated successfully!</code> to unlock the Session 11: Real Usability Testing medal!",
-      "starter_code": "# Simulate Session 11: Real Usability Testing activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 11: Real Usability Testing activated successfully!</code> to unlock the Real Usability Testing medal!",
+      "starter_code": "# Simulate Real Usability Testing activation:\n",
       "pills": [
         {
-          "label": "Activate Session 11: Real Usability Testing",
+          "label": "Activate Real Usability Testing",
           "code": "print(\"Session 11: Real Usability Testing activated successfully!\")"
         }
       ],
@@ -307,26 +307,26 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 11: Real Usability Testing Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 11: Real Usability Testing'. Specifically, design a feature demonstrating: 'Real Usability Testing' using the starter template below!",
-        "code": "# Home Challenge: Session 11: Real Usability Testing Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 11: Real Usability Testing Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Real Usability Testing Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Real Usability Testing' using the starter template below!",
+        "code": "# Home Challenge: Real Usability Testing Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Real Usability Testing Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 12,
       "badge_icon": "🎯",
-      "badge_title": "Session 12: Capstone Presentation Medal",
-      "title": "Station 12: Session 12: Capstone Presentation",
-      "desc": "Capstone Presentation Design Portfolio Page",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Session 12: Capstone Presentation</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎨 <b>Capstone Presentation</b>: Assembling a complete high-fidelity app showcase and portfolio case study.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><b>🧱 Key Coding Blocks & Concepts:</b><ul><li><code>figma_frame</code></li><li><code>auto_layout</code></li><li><code>smart_animate</code></li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>🚀 <b>DIY Session Project:</b> Capstone Presentation Design Portfolio Page</div><br><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Finished UX Case Study</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Capstone Presentation is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "badge_title": "Capstone Presentation Medal",
+      "title": "Station 12: Capstone Presentation",
+      "desc": "Master Session 12: Capstone Presentation concepts and boost your developer XP!",
+      "story": "<h3>🐼 Hello, future coding hero!</h3>I am your friend <b>Bella</b>, and today I will accompany you on an exciting coding adventure to explore <b>Capstone Presentation</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐼 <b>Capstone Presentation</b>: Assembling a complete high-fidelity app showcase and portfolio case study.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Analyze user habits</li><li>🎯 Create design frames</li><li>🎯 Prototype smooth transitions</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Capstone Presentation Design Portfolio Page</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Capstone Presentation is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Session 12: Capstone Presentation activated successfully!\")</code> and press Run!",
-      "challenge": "Print the exact activation message: <code>Session 12: Capstone Presentation activated successfully!</code> to unlock the Session 12: Capstone Presentation medal!",
-      "starter_code": "# Simulate Session 12: Capstone Presentation activation:\n",
+      "challenge": "Print the exact activation message: <code>Session 12: Capstone Presentation activated successfully!</code> to unlock the Capstone Presentation medal!",
+      "starter_code": "# Simulate Capstone Presentation activation:\n",
       "pills": [
         {
-          "label": "Activate Session 12: Capstone Presentation",
+          "label": "Activate Capstone Presentation",
           "code": "print(\"Session 12: Capstone Presentation activated successfully!\")"
         }
       ],
@@ -335,10 +335,10 @@
         "required_canvas": false
       },
       "homework": {
-        "title": "🏠 Magic Home Challenge: Session 12: Capstone Presentation Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Session 12: Capstone Presentation'. Specifically, design a feature demonstrating: 'Capstone Presentation' using the starter template below!",
-        "code": "# Home Challenge: Session 12: Capstone Presentation Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Session 12: Capstone Presentation Simulator\n# Write your creative solution here!"
+        "title": "🏠 Magic Home Challenge: Capstone Presentation Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Capstone Presentation' using the starter template below!",
+        "code": "# Home Challenge: Capstone Presentation Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Capstone Presentation Simulator\n# Write your creative solution here!"
       }
     }
   ]

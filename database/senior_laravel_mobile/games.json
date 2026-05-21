@@ -1,7 +1,7 @@
 {
   "course_id": "senior_laravel_mobile",
   "course_title": "Laravel Mobile API Backend",
-  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Laravel Mobile API Backend. Unlock custom medals, solve daily challenges, and program your own digital masterpieces!",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Laravel Mobile API Backend. Meet Artisan Beaver, solve fun challenges, and build outstanding systems! 🎮✨",
   "xp_total": 2400,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
@@ -10,12 +10,12 @@
       "badge_icon": "🚀",
       "badge_title": "PHP Installation & Basic Syntax Medal",
       "title": "Station 1: PHP Installation & Basic Syntax",
-      "desc": "Installed a XAMPP server to run PHP, and used the VS Code editor to write scripts and understand the PHP tag structure.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>PHP Installation & Basic Syntax</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>⚙️ <b>Configured the development server and interpreter for PHP</b>: Installed a XAMPP server to run PHP, and used the VS Code editor to write scripts and understand the PHP tag structure.</li><li>📟 <b>Variables and printing in PHP</b>: How to reserve space in the program's memory to store texts and numbers and print them on the screen for the user.</li></ul><br><h4>💻 Starter Code Block - Variables and printing in PHP:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code><?php\n$userName = \"Megaminds Hero\";\n$userAge = 14;\necho \"You're welcome.\" $userName;</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Display the student's welcome phrase on the browser screen.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Configured the development server and interpreter for PHP is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master PHP Installation & Basic Syntax concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>PHP Installation & Basic Syntax</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Configured the development server and interpreter for PHP</b>: Installed a XAMPP server to run PHP, and used the VS Code editor to write scripts and understand the PHP tag structure.</li><li>🦫 <b>Variables and printing in PHP</b>: How to reserve space in the program's memory to store texts and numbers and print them on the screen for the user.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of PHP Installation & Basic Syntax</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> PHP Installation & Basic Syntax Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine PHP Installation & Basic Syntax is like building the magic playground gates before you enter and play with toys!",
       "hint": "Type in the editor: <code>print(\"PHP Installation & Basic Syntax activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>PHP Installation & Basic Syntax activated successfully!</code> to unlock the PHP Installation & Basic Syntax medal!",
-      "starter_code": "# Simulate PHP Installation & Basic Syntax activation:\n",
+      "starter_code": "// PHP Simulate PHP Installation & Basic Syntax activation:\n",
       "pills": [
         {
           "label": "Activate PHP Installation & Basic Syntax",
@@ -28,9 +28,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: PHP Installation & Basic Syntax Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'PHP Installation & Basic Syntax'. Specifically, design a feature demonstrating: 'Variables and printing in PHP' using the starter template below!",
-        "code": "# Home Challenge: PHP Installation & Basic Syntax Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: PHP Installation & Basic Syntax Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'PHP Installation & Basic Syntax' using the starter template below!",
+        "code": "// PHP Home Challenge: PHP Installation & Basic Syntax Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: PHP Installation & Basic Syntax Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -38,12 +38,12 @@
       "badge_icon": "💻",
       "badge_title": "Logical Conditions in PHP Medal",
       "title": "Station 2: Logical Conditions in PHP",
-      "desc": "Use logical comparison statements to execute specific codes only when the conditions specified in the program are met.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Logical Conditions in PHP</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🚦 <b>Make software decisions (Logical If)</b>: Use logical comparison statements to execute specific codes only when the conditions specified in the program are met.</li><li>🎓 <b>Check test scores</b>: Verifying the student’s score and directing him to wonderful, personalized win messages and incentives.</li></ul><br><h4>💻 Starter Code Block - Check test scores:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>$score = 85;\nif ($score >= 90) {\n    echo \"Excellent! 🎉\";\n} else if ($score >= 50) {\n    echo \"Successful and champion! 🚀\";\n} else {\n    echo \"Try again! 💪\";\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Dynamically change the status of the success and congratulations message.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Make software decisions (Logical If) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Logical Conditions in PHP concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Logical Conditions in PHP</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Make software decisions (Logical If)</b>: Use logical comparison statements to execute specific codes only when the conditions specified in the program are met.</li><li>🦫 <b>Check test scores</b>: Verifying the student’s score and directing him to wonderful, personalized win messages and incentives.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Logical Conditions in PHP</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Logical Conditions in PHP Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Logical Conditions in PHP is like a traffic light. If the light is green, your hero walks. Else, your hero stands still!",
       "hint": "Type in the editor: <code>print(\"Logical Conditions in PHP activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Logical Conditions in PHP activated successfully!</code> to unlock the Logical Conditions in PHP medal!",
-      "starter_code": "# Simulate Logical Conditions in PHP activation:\n",
+      "starter_code": "// PHP Simulate Logical Conditions in PHP activation:\n",
       "pills": [
         {
           "label": "Activate Logical Conditions in PHP",
@@ -56,9 +56,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Logical Conditions in PHP Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Logical Conditions in PHP'. Specifically, design a feature demonstrating: 'Check test scores' using the starter template below!",
-        "code": "# Home Challenge: Logical Conditions in PHP Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Logical Conditions in PHP Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Logical Conditions in PHP' using the starter template below!",
+        "code": "// PHP Home Challenge: Logical Conditions in PHP Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Logical Conditions in PHP Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -66,12 +66,12 @@
       "badge_icon": "💻",
       "badge_title": "Loops in PHP Medal",
       "title": "Station 3: Loops in PHP",
-      "desc": "Using loops such as for and while to perform tasks repeated thousands of times at lightning speed and with very short code.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Loops in PHP</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🔄 <b>Repeated code execution</b>: Using loops such as for and while to perform tasks repeated thousands of times at lightning speed and with very short code.</li><li>🚀 <b>Countdown to the missile launch</b>: Simulating a countdown before a rocket launch to program games using a decreasing iteration loop.</li></ul><br><h4>💻 Starter Code Block - Countdown to the missile launch:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>for ($i = 5; $i >= 1; $i--) {\n    echo $i . \".. \";\n}\necho \"Go! 💥\";</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Print individual numbers from 1 to 20 at a glance.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Repeated code execution is like writing a list of secret rules telling your helper robot exactly what to do step-by-step!",
+      "desc": "Master Loops in PHP concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Loops in PHP</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Repeated code execution</b>: Using loops such as for and while to perform tasks repeated thousands of times at lightning speed and with very short code.</li><li>🦫 <b>Countdown to the missile launch</b>: Simulating a countdown before a rocket launch to program games using a decreasing iteration loop.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Loops in PHP</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Loops in PHP Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Loops in PHP is like a music box that keeps playing your favorite sweet song over and over until you close the lid!",
       "hint": "Type in the editor: <code>print(\"Loops in PHP activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Loops in PHP activated successfully!</code> to unlock the Loops in PHP medal!",
-      "starter_code": "# Simulate Loops in PHP activation:\n",
+      "starter_code": "// PHP Simulate Loops in PHP activation:\n",
       "pills": [
         {
           "label": "Activate Loops in PHP",
@@ -84,22 +84,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Loops in PHP Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Loops in PHP'. Specifically, design a feature demonstrating: 'Countdown to the missile launch' using the starter template below!",
-        "code": "# Home Challenge: Loops in PHP Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Loops in PHP Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Loops in PHP' using the starter template below!",
+        "code": "// PHP Home Challenge: Loops in PHP Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Loops in PHP Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 4,
-      "badge_icon": "💻",
+      "badge_icon": "🎯",
       "badge_title": "Functions & Scope Medal",
       "title": "Station 4: Functions & Scope",
-      "desc": "Grouping related codes into a specific function with a subname that can be called at any time to facilitate work and avoid code clutter.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Functions & Scope</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📦 <b>Building PHP Functions</b>: Grouping related codes into a specific function with a subname that can be called at any time to facilitate work and avoid code clutter.</li><li>🧮 <b>Purchasing invoice calculation function</b>: A function that receives the original price of the item and the discount percentage and returns to us the final approved and discounted price.</li></ul><br><h4>💻 Starter Code Block - Purchasing invoice calculation function:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>function calculateDiscount($price, $discount) {\n    $finalPrice = $price - ($price * ($discount / 100));\n    return $finalPrice;\n}\necho calculateDiscount(100, 15); // will print 85</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Call the custom function to calculate the discount value for Magic Cake Shop.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Building PHP Functions is like drawing colorful buttons and stickers on your toy car to make it look incredibly cool!",
+      "desc": "Master Functions & Scope concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Functions & Scope</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Building PHP Functions</b>: Grouping related codes into a specific function with a subname that can be called at any time to facilitate work and avoid code clutter.</li><li>🦫 <b>Purchasing invoice calculation function</b>: A function that receives the original price of the item and the discount percentage and returns to us the final approved and discounted price.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Functions & Scope</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Functions & Scope Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Functions & Scope is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Functions & Scope activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Functions & Scope activated successfully!</code> to unlock the Functions & Scope medal!",
-      "starter_code": "# Simulate Functions & Scope activation:\n",
+      "starter_code": "// PHP Simulate Functions & Scope activation:\n",
       "pills": [
         {
           "label": "Activate Functions & Scope",
@@ -112,9 +112,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Functions & Scope Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Functions & Scope'. Specifically, design a feature demonstrating: 'Purchasing invoice calculation function' using the starter template below!",
-        "code": "# Home Challenge: Functions & Scope Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Functions & Scope Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Functions & Scope' using the starter template below!",
+        "code": "// PHP Home Challenge: Functions & Scope Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Functions & Scope Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -122,12 +122,12 @@
       "badge_icon": "🚀",
       "badge_title": "OOP Introduction (Classes & Objects) Medal",
       "title": "Station 5: OOP Introduction (Classes & Objects)",
-      "desc": "A modern and universal programming style based on organizing codes around objects that simulate reality and facilitate the maintenance and development of programs.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>OOP Introduction (Classes & Objects)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🏗️ <b>Object-Oriented Programming (PHP OOP)</b>: A modern and universal programming style based on organizing codes around objects that simulate reality and facilitate the maintenance and development of programs.</li><li>🚗 <b>Car object template design</b>: Define a class of cars with characteristics such as make and color, and create different cars and drive them programmatically.</li></ul><br><h4>💻 Starter Code Block - Car object template design:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>class Car {\n    public $color;\n    public function __construct($color) {\n        $this->color = $color;\n    }\n}\n$myCar = new Car(\"red\");</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Create a new user object for the student account in the database.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Object-Oriented Programming (PHP OOP) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master OOP Introduction (Classes & Objects) concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>OOP Introduction (Classes & Objects)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Object-Oriented Programming (PHP OOP)</b>: A modern and universal programming style based on organizing codes around objects that simulate reality and facilitate the maintenance and development of programs.</li><li>🦫 <b>Car object template design</b>: Define a class of cars with characteristics such as make and color, and create different cars and drive them programmatically.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of OOP Introduction (Classes & Objects)</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> OOP Introduction (Classes & Objects) Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine OOP Introduction (Classes & Objects) is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"OOP Introduction (Classes & Objects) activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>OOP Introduction (Classes & Objects) activated successfully!</code> to unlock the OOP Introduction (Classes & Objects) medal!",
-      "starter_code": "# Simulate OOP Introduction (Classes & Objects) activation:\n",
+      "starter_code": "// PHP Simulate OOP Introduction (Classes & Objects) activation:\n",
       "pills": [
         {
           "label": "Activate OOP Introduction (Classes & Objects)",
@@ -140,22 +140,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: OOP Introduction (Classes & Objects) Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'OOP Introduction (Classes & Objects)'. Specifically, design a feature demonstrating: 'Car object template design' using the starter template below!",
-        "code": "# Home Challenge: OOP Introduction (Classes & Objects) Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: OOP Introduction (Classes & Objects) Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'OOP Introduction (Classes & Objects)' using the starter template below!",
+        "code": "// PHP Home Challenge: OOP Introduction (Classes & Objects) Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: OOP Introduction (Classes & Objects) Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 6,
-      "badge_icon": "🎯",
+      "badge_icon": "💻",
       "badge_title": "OOP Encapsulation & Properties Medal",
       "title": "Station 6: OOP Encapsulation & Properties",
-      "desc": "Protecting internal object data from random or malicious modification using software access controls such as security encapsulation.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>OOP Encapsulation & Properties</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🔒 <b>Data encapsulation and protection</b>: Protecting internal object data from random or malicious modification using software access controls such as security encapsulation.</li><li>💰 <b>Protecting the customer's bank balance</b>: Preventing direct modification of the customer’s bank balance and forcing the process to pass through smart and strict verification functions.</li></ul><br><h4>💻 Starter Code Block - Protecting the customer's bank balance:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>class BankAccount {\n    private $balance = 0;\n    public function deposit($amount) {\n        if ($amount > 0) { $this->balance += $amount; }\n    }\n    public function getBalance() { return $this->balance; }\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> An excellent security application for withdrawing and depositing the financial balance.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Data encapsulation and protection is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master OOP Encapsulation & Properties concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>OOP Encapsulation & Properties</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Data encapsulation and protection</b>: Protecting internal object data from random or malicious modification using software access controls such as security encapsulation.</li><li>🦫 <b>Protecting the customer's bank balance</b>: Preventing direct modification of the customer’s bank balance and forcing the process to pass through smart and strict verification functions.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of OOP Encapsulation & Properties</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> OOP Encapsulation & Properties Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine OOP Encapsulation & Properties is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"OOP Encapsulation & Properties activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>OOP Encapsulation & Properties activated successfully!</code> to unlock the OOP Encapsulation & Properties medal!",
-      "starter_code": "# Simulate OOP Encapsulation & Properties activation:\n",
+      "starter_code": "// PHP Simulate OOP Encapsulation & Properties activation:\n",
       "pills": [
         {
           "label": "Activate OOP Encapsulation & Properties",
@@ -168,22 +168,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: OOP Encapsulation & Properties Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'OOP Encapsulation & Properties'. Specifically, design a feature demonstrating: 'Protecting the customer's bank balance' using the starter template below!",
-        "code": "# Home Challenge: OOP Encapsulation & Properties Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: OOP Encapsulation & Properties Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'OOP Encapsulation & Properties' using the starter template below!",
+        "code": "// PHP Home Challenge: OOP Encapsulation & Properties Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: OOP Encapsulation & Properties Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 7,
-      "badge_icon": "🎯",
+      "badge_icon": "💻",
       "badge_title": "OOP Inheritance & Polymorphism Medal",
       "title": "Station 7: OOP Inheritance & Polymorphism",
-      "desc": "Inheriting general properties and functions from a parent class (Parent) to subclasses (Child) to prevent code duplication.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>OOP Inheritance & Polymorphism</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🧬 <b>Inheritance of software objects</b>: Inheriting general properties and functions from a parent class (Parent) to subclasses (Child) to prevent code duplication.</li><li>🐶 <b>Programming animal objects</b>: Inherit the generic Animal class to create a Dog and Cat object while dynamically modifying the sound of each object to simulate polymorphism.</li></ul><br><h4>💻 Starter Code Block - Programming animal objects:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>class Animal { public function makeNoise() { return \"Sound!\"; } }\nclass Cat extends Animal { public function makeNoise() { return \"Meow! 🐱\"; } }</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Designing permissions objects for the store manager and the regular buyer.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Inheritance of software objects is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master OOP Inheritance & Polymorphism concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>OOP Inheritance & Polymorphism</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Inheritance of software objects</b>: Inheriting general properties and functions from a parent class (Parent) to subclasses (Child) to prevent code duplication.</li><li>🦫 <b>Programming animal objects</b>: Inherit the generic Animal class to create a Dog and Cat object while dynamically modifying the sound of each object to simulate polymorphism.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of OOP Inheritance & Polymorphism</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> OOP Inheritance & Polymorphism Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine OOP Inheritance & Polymorphism is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"OOP Inheritance & Polymorphism activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>OOP Inheritance & Polymorphism activated successfully!</code> to unlock the OOP Inheritance & Polymorphism medal!",
-      "starter_code": "# Simulate OOP Inheritance & Polymorphism activation:\n",
+      "starter_code": "// PHP Simulate OOP Inheritance & Polymorphism activation:\n",
       "pills": [
         {
           "label": "Activate OOP Inheritance & Polymorphism",
@@ -196,22 +196,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: OOP Inheritance & Polymorphism Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'OOP Inheritance & Polymorphism'. Specifically, design a feature demonstrating: 'Programming animal objects' using the starter template below!",
-        "code": "# Home Challenge: OOP Inheritance & Polymorphism Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: OOP Inheritance & Polymorphism Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'OOP Inheritance & Polymorphism' using the starter template below!",
+        "code": "// PHP Home Challenge: OOP Inheritance & Polymorphism Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: OOP Inheritance & Polymorphism Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 8,
-      "badge_icon": "📱",
+      "badge_icon": "💻",
       "badge_title": "OOP Abstraction & Interfaces Medal",
       "title": "Station 8: OOP Abstraction & Interfaces",
-      "desc": "Building strict, abstract APIs that define the style and mandatory functions that other classes must implement to ensure the efficiency of the application architecture.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>OOP Abstraction & Interfaces</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📐 <b>Interfaces and abstractions</b>: Building strict, abstract APIs that define the style and mandatory functions that other classes must implement to ensure the efficiency of the application architecture.</li><li>💳 <b>Electronic payment gateways application</b>: Forcing two payment gateways (Visa and PayPal) to provide a unified function for conducting transactions to facilitate changing the payment gateway in the future.</li></ul><br><h4>💻 Starter Code Block - Electronic payment gateways application:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>interfacePaymentGate {\n    public function pay($amount);\n}\nclass PayPal implements PaymentGate {\n    public function pay($amount) { /* PayPal logic */ }\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Connecting Visa payment gateways to mobile applications.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Interfaces and abstractions is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master OOP Abstraction & Interfaces concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>OOP Abstraction & Interfaces</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Interfaces and abstractions</b>: Building strict, abstract APIs that define the style and mandatory functions that other classes must implement to ensure the efficiency of the application architecture.</li><li>🦫 <b>Electronic payment gateways application</b>: Forcing two payment gateways (Visa and PayPal) to provide a unified function for conducting transactions to facilitate changing the payment gateway in the future.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of OOP Abstraction & Interfaces</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> OOP Abstraction & Interfaces Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine OOP Abstraction & Interfaces is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"OOP Abstraction & Interfaces activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>OOP Abstraction & Interfaces activated successfully!</code> to unlock the OOP Abstraction & Interfaces medal!",
-      "starter_code": "# Simulate OOP Abstraction & Interfaces activation:\n",
+      "starter_code": "// PHP Simulate OOP Abstraction & Interfaces activation:\n",
       "pills": [
         {
           "label": "Activate OOP Abstraction & Interfaces",
@@ -224,9 +224,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: OOP Abstraction & Interfaces Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'OOP Abstraction & Interfaces'. Specifically, design a feature demonstrating: 'Electronic payment gateways application' using the starter template below!",
-        "code": "# Home Challenge: OOP Abstraction & Interfaces Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: OOP Abstraction & Interfaces Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'OOP Abstraction & Interfaces' using the starter template below!",
+        "code": "// PHP Home Challenge: OOP Abstraction & Interfaces Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: OOP Abstraction & Interfaces Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -234,12 +234,12 @@
       "badge_icon": "🚀",
       "badge_title": "Introduction to Relational Databases Medal",
       "title": "Station 9: Introduction to Relational Databases",
-      "desc": "Systems for storing and managing interconnected data in the form of programmed and tightly scheduled tables to serve millions of users.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Introduction to Relational Databases</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🗄️ <b>Relational databases (SQL & MySQL)</b>: Systems for storing and managing interconnected data in the form of programmed and tightly scheduled tables to serve millions of users.</li><li>🔑 <b>Links and software keys</b>: Linking records between different tables using foreign keys to ensure integrity, consistency, and integrity of data.</li></ul><br><h4>💻 Starter Code Block - Links and software keys:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>-- Example of linking the request to the user\nCREATE TABLE orders (\n    id INT PRIMARY KEY,\n    user_id INT,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Determine the buyer's unique identification number to link his invoices and purchases.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Relational databases (SQL & MySQL) is like having a digital treasure box where you store all your gold coins safely so they never disappear!",
+      "desc": "Master Introduction to Relational Databases concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Introduction to Relational Databases</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Relational databases (SQL & MySQL)</b>: Systems for storing and managing interconnected data in the form of programmed and tightly scheduled tables to serve millions of users.</li><li>🦫 <b>Links and software keys</b>: Linking records between different tables using foreign keys to ensure integrity, consistency, and integrity of data.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Introduction to Relational Databases</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Introduction to Relational Databases Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Introduction to Relational Databases is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
       "hint": "Type in the editor: <code>print(\"Introduction to Relational Databases activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Introduction to Relational Databases activated successfully!</code> to unlock the Introduction to Relational Databases medal!",
-      "starter_code": "# Simulate Introduction to Relational Databases activation:\n",
+      "starter_code": "// PHP Simulate Introduction to Relational Databases activation:\n",
       "pills": [
         {
           "label": "Activate Introduction to Relational Databases",
@@ -252,22 +252,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Introduction to Relational Databases Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Introduction to Relational Databases'. Specifically, design a feature demonstrating: 'Links and software keys' using the starter template below!",
-        "code": "# Home Challenge: Introduction to Relational Databases Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Introduction to Relational Databases Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Introduction to Relational Databases' using the starter template below!",
+        "code": "// PHP Home Challenge: Introduction to Relational Databases Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Introduction to Relational Databases Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 10,
-      "badge_icon": "💾",
+      "badge_icon": "📱",
       "badge_title": "Database Normalization & Design Medal",
       "title": "Station 10: Database Normalization & Design",
-      "desc": "Applying database organization and normalization rules to prevent data duplication and facilitate querying and periodic maintenance.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Database Normalization & Design</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📊 <b>Database design standards</b>: Applying database organization and normalization rules to prevent data duplication and facilitate querying and periodic maintenance.</li><li>🧬 <b>Design cake hangers and orders</b>: Link multiple cookies to multiple purchase orders for our customers by building an interactive and organized broker table.</li></ul><br><h4>💻 Starter Code Block - Design cake hangers and orders:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>//Many-to-many relationship in Laravel\npublic function cakes() {\n    return $this->belongsToMany(Cake::class);\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Building a Pivot Table to store individual order items.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Database design standards is like having a digital treasure box where you store all your gold coins safely so they never disappear!",
+      "desc": "Master Database Normalization & Design concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Database Normalization & Design</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Database design standards</b>: Applying database organization and normalization rules to prevent data duplication and facilitate querying and periodic maintenance.</li><li>🦫 <b>Design cake hangers and orders</b>: Link multiple cookies to multiple purchase orders for our customers by building an interactive and organized broker table.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Database Normalization & Design</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Database Normalization & Design Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Database Normalization & Design is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
       "hint": "Type in the editor: <code>print(\"Database Normalization & Design activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Database Normalization & Design activated successfully!</code> to unlock the Database Normalization & Design medal!",
-      "starter_code": "# Simulate Database Normalization & Design activation:\n",
+      "starter_code": "// PHP Simulate Database Normalization & Design activation:\n",
       "pills": [
         {
           "label": "Activate Database Normalization & Design",
@@ -280,22 +280,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Database Normalization & Design Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Database Normalization & Design'. Specifically, design a feature demonstrating: 'Design cake hangers and orders' using the starter template below!",
-        "code": "# Home Challenge: Database Normalization & Design Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Database Normalization & Design Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Database Normalization & Design' using the starter template below!",
+        "code": "// PHP Home Challenge: Database Normalization & Design Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Database Normalization & Design Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 11,
-      "badge_icon": "💾",
+      "badge_icon": "📱",
       "badge_title": "Real Practice - Company Database Design Medal",
       "title": "Station 11: Real Practice - Company Database Design",
-      "desc": "A practical application for designing a real database for a huge company that includes tables of employees, departments, and projects with full relationships.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Real Practice - Company Database Design</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🏢 <b>Building and planning a corporate database</b>: A practical application for designing a real database for a huge company that includes tables of employees, departments, and projects with full relationships.</li><li>🔗 <b>Linking the employee to his administrative department</b>: Design a One-to-Many employee relationship to ensure easy employee management.</li></ul><br><h4>💻 Starter Code Block - Linking the employee to his administrative department:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>//Department field in the Employee table\n$table->foreignId('department_id')->constrained();</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Determine the employee's financial department for easy extraction of payroll statements.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Building and planning a corporate database is like having a digital treasure box where you store all your gold coins safely so they never disappear!",
+      "desc": "Master Real Practice - Company Database Design concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Real Practice - Company Database Design</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Building and planning a corporate database</b>: A practical application for designing a real database for a huge company that includes tables of employees, departments, and projects with full relationships.</li><li>🦫 <b>Linking the employee to his administrative department</b>: Design a One-to-Many employee relationship to ensure easy employee management.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Real Practice - Company Database Design</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Real Practice - Company Database Design Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Real Practice - Company Database Design is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
       "hint": "Type in the editor: <code>print(\"Real Practice - Company Database Design activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Real Practice - Company Database Design activated successfully!</code> to unlock the Real Practice - Company Database Design medal!",
-      "starter_code": "# Simulate Real Practice - Company Database Design activation:\n",
+      "starter_code": "// PHP Simulate Real Practice - Company Database Design activation:\n",
       "pills": [
         {
           "label": "Activate Real Practice - Company Database Design",
@@ -308,9 +308,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Real Practice - Company Database Design Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Real Practice - Company Database Design'. Specifically, design a feature demonstrating: 'Linking the employee to his administrative department' using the starter template below!",
-        "code": "# Home Challenge: Real Practice - Company Database Design Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Real Practice - Company Database Design Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Real Practice - Company Database Design' using the starter template below!",
+        "code": "// PHP Home Challenge: Real Practice - Company Database Design Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Real Practice - Company Database Design Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -318,12 +318,12 @@
       "badge_icon": "💾",
       "badge_title": "Real Practice - Social Media Blog DB Medal",
       "title": "Station 12: Real Practice - Social Media Blog DB",
-      "desc": "Database layout for a blogging or communication application that includes tables of users, articles, comments, and likes with professional accuracy.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Real Practice - Social Media Blog DB</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💬 <b>Designing a database for a social networking application</b>: Database layout for a blogging or communication application that includes tables of users, articles, comments, and likes with professional accuracy.</li><li>🔄 <b>Link comments to publishers' articles</b>: Design and implement an article-comment relationship to easily display readers' comments directly below the selected article.</li></ul><br><h4>💻 Starter Code Block - Link comments to publishers' articles:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>// The relationship of the article with its comments in the Laravel Model\npublic function comments() {\n    return $this->hasMany(Comment::class);\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Display interactive fan comments immediately below the published post.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Designing a database for a social networking application is like having a digital treasure box where you store all your gold coins safely so they never disappear!",
+      "desc": "Master Real Practice - Social Media Blog DB concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Real Practice - Social Media Blog DB</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Designing a database for a social networking application</b>: Database layout for a blogging or communication application that includes tables of users, articles, comments, and likes with professional accuracy.</li><li>🦫 <b>Link comments to publishers' articles</b>: Design and implement an article-comment relationship to easily display readers' comments directly below the selected article.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Real Practice - Social Media Blog DB</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Real Practice - Social Media Blog DB Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Real Practice - Social Media Blog DB is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
       "hint": "Type in the editor: <code>print(\"Real Practice - Social Media Blog DB activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Real Practice - Social Media Blog DB activated successfully!</code> to unlock the Real Practice - Social Media Blog DB medal!",
-      "starter_code": "# Simulate Real Practice - Social Media Blog DB activation:\n",
+      "starter_code": "// PHP Simulate Real Practice - Social Media Blog DB activation:\n",
       "pills": [
         {
           "label": "Activate Real Practice - Social Media Blog DB",
@@ -336,9 +336,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Real Practice - Social Media Blog DB Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Real Practice - Social Media Blog DB'. Specifically, design a feature demonstrating: 'Link comments to publishers' articles' using the starter template below!",
-        "code": "# Home Challenge: Real Practice - Social Media Blog DB Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Real Practice - Social Media Blog DB Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Real Practice - Social Media Blog DB' using the starter template below!",
+        "code": "// PHP Home Challenge: Real Practice - Social Media Blog DB Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Real Practice - Social Media Blog DB Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -346,12 +346,12 @@
       "badge_icon": "🚀",
       "badge_title": "Laravel API Framework & Setup Medal",
       "title": "Station 13: Laravel API Framework & Setup",
-      "desc": "Download the framework and install it locally, activating the paths and tools provided for building lightweight and responsive programming interfaces.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Laravel API Framework & Setup</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>Custom Laravel backend installation</b>: Download the framework and install it locally, activating the paths and tools provided for building lightweight and responsive programming interfaces.</li><li>🔌 <b>API paths file for phones</b>: Use the api.php file to write backlinks to the application instead of web.php to direct them to mobile phones.</li></ul><br><h4>💻 Starter Code Block - API paths file for phones:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>// in routes/api.php\nRoute::get('/health-check', function () {\n    return response()->json(['status' => 'ok']);\n});</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Request the link http://127.0.0.1:8000/api/health-check from the mobile application and confirm receipt of the response.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Custom Laravel backend installation is like building the magic playground gates before you enter and play with toys!",
+      "desc": "Master Laravel API Framework & Setup concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Laravel API Framework & Setup</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Custom Laravel backend installation</b>: Download the framework and install it locally, activating the paths and tools provided for building lightweight and responsive programming interfaces.</li><li>🦫 <b>API paths file for phones</b>: Use the api.php file to write backlinks to the application instead of web.php to direct them to mobile phones.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Laravel API Framework & Setup</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Laravel API Framework & Setup Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Laravel API Framework & Setup is like building the magic playground gates before you enter and play with toys!",
       "hint": "Type in the editor: <code>print(\"Laravel API Framework & Setup activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Laravel API Framework & Setup activated successfully!</code> to unlock the Laravel API Framework & Setup medal!",
-      "starter_code": "# Simulate Laravel API Framework & Setup activation:\n",
+      "starter_code": "// PHP Simulate Laravel API Framework & Setup activation:\n",
       "pills": [
         {
           "label": "Activate Laravel API Framework & Setup",
@@ -364,22 +364,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Laravel API Framework & Setup Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Laravel API Framework & Setup'. Specifically, design a feature demonstrating: 'API paths file for phones' using the starter template below!",
-        "code": "# Home Challenge: Laravel API Framework & Setup Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Laravel API Framework & Setup Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Laravel API Framework & Setup' using the starter template below!",
+        "code": "// PHP Home Challenge: Laravel API Framework & Setup Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Laravel API Framework & Setup Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 14,
-      "badge_icon": "💻",
+      "badge_icon": "🎯",
       "badge_title": "Laravel Controllers & API Routing Medal",
       "title": "Station 14: Laravel Controllers & API Routing",
-      "desc": "Create custom software controllers to process requests from smartphones and mobile applications with high efficiency and without blade templates.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Laravel Controllers & API Routing</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎮 <b>Mobile application interface controllers</b>: Create custom software controllers to process requests from smartphones and mobile applications with high efficiency and without blade templates.</li><li>📱 <b>Pass variables and return responses</b>: Receive the product ID number from the mobile application, search for it, and return its data in JSON text format.</li></ul><br><h4>💻 Starter Code Block - Pass variables and return responses:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>public function getCake($id) {\n    $cake = Cake::find($id);\n    return response()->json($cake);\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> The mobile application receives the complete chocolate cake data when its ID is requested.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Mobile application interface controllers is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Laravel Controllers & API Routing concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Laravel Controllers & API Routing</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Mobile application interface controllers</b>: Create custom software controllers to process requests from smartphones and mobile applications with high efficiency and without blade templates.</li><li>🦫 <b>Pass variables and return responses</b>: Receive the product ID number from the mobile application, search for it, and return its data in JSON text format.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Laravel Controllers & API Routing</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Laravel Controllers & API Routing Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Laravel Controllers & API Routing is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Laravel Controllers & API Routing activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Laravel Controllers & API Routing activated successfully!</code> to unlock the Laravel Controllers & API Routing medal!",
-      "starter_code": "# Simulate Laravel Controllers & API Routing activation:\n",
+      "starter_code": "// PHP Simulate Laravel Controllers & API Routing activation:\n",
       "pills": [
         {
           "label": "Activate Laravel Controllers & API Routing",
@@ -392,22 +392,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Laravel Controllers & API Routing Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Laravel Controllers & API Routing'. Specifically, design a feature demonstrating: 'Pass variables and return responses' using the starter template below!",
-        "code": "# Home Challenge: Laravel Controllers & API Routing Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Laravel Controllers & API Routing Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Laravel Controllers & API Routing' using the starter template below!",
+        "code": "// PHP Home Challenge: Laravel Controllers & API Routing Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Laravel Controllers & API Routing Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 15,
-      "badge_icon": "🎯",
+      "badge_icon": "💾",
       "badge_title": "Migrations & Seeders for APIs Medal",
       "title": "Station 15: Migrations & Seeders for APIs",
-      "desc": "Build the migrations programmatically and feed the tables locally with the processed data ready for developers and mobile applications to connect directly.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Migrations & Seeders for APIs</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌱 <b>Structuring and filling API tables</b>: Build the migrations programmatically and feed the tables locally with the processed data ready for developers and mobile applications to connect directly.</li><li>⚡ <b>Run data seeds locally</b>: Filling the store with 30 types of cakes with images to facilitate previewing the shape and format of the mobile application during design.</li></ul><br><h4>💻 Starter Code Block - Run data seeds locally:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>php artisan migrate --seed</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> The mobile app screen is filled with delicious cake cards as soon as it connects to the back-end server.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Structuring and filling API tables is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Migrations & Seeders for APIs concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Migrations & Seeders for APIs</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Structuring and filling API tables</b>: Build the migrations programmatically and feed the tables locally with the processed data ready for developers and mobile applications to connect directly.</li><li>🦫 <b>Run data seeds locally</b>: Filling the store with 30 types of cakes with images to facilitate previewing the shape and format of the mobile application during design.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Migrations & Seeders for APIs</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Migrations & Seeders for APIs Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Migrations & Seeders for APIs is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Migrations & Seeders for APIs activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Migrations & Seeders for APIs activated successfully!</code> to unlock the Migrations & Seeders for APIs medal!",
-      "starter_code": "# Simulate Migrations & Seeders for APIs activation:\n",
+      "starter_code": "// PHP Simulate Migrations & Seeders for APIs activation:\n",
       "pills": [
         {
           "label": "Activate Migrations & Seeders for APIs",
@@ -420,9 +420,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Migrations & Seeders for APIs Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Migrations & Seeders for APIs'. Specifically, design a feature demonstrating: 'Run data seeds locally' using the starter template below!",
-        "code": "# Home Challenge: Migrations & Seeders for APIs Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Migrations & Seeders for APIs Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Migrations & Seeders for APIs' using the starter template below!",
+        "code": "// PHP Home Challenge: Migrations & Seeders for APIs Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Migrations & Seeders for APIs Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -430,12 +430,12 @@
       "badge_icon": "🎯",
       "badge_title": "Eloquent Models for APIs Medal",
       "title": "Station 16: Eloquent Models for APIs",
-      "desc": "Customize forms and specify data filling characteristics and fields allowed to be shared with developers and mobile applications.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Eloquent Models for APIs</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🤖 <b>Programming models and storing properties</b>: Customize forms and specify data filling characteristics and fields allowed to be shared with developers and mobile applications.</li><li>🛡️ <b>Protect users' sensitive data</b>: Hide passwords and sensitive security data programmatically and prevent them from appearing in JSON responses to phones.</li></ul><br><h4>💻 Starter Code Block - Protect users' sensitive data:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>protected $hidden = [\n    'password',\n    'remember_token',\n];</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Sending the buyer's account data to the mobile application while completely hiding the password for complete security.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Programming models and storing properties is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Eloquent Models for APIs concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Eloquent Models for APIs</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Programming models and storing properties</b>: Customize forms and specify data filling characteristics and fields allowed to be shared with developers and mobile applications.</li><li>🦫 <b>Protect users' sensitive data</b>: Hide passwords and sensitive security data programmatically and prevent them from appearing in JSON responses to phones.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Eloquent Models for APIs</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Eloquent Models for APIs Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Eloquent Models for APIs is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Eloquent Models for APIs activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Eloquent Models for APIs activated successfully!</code> to unlock the Eloquent Models for APIs medal!",
-      "starter_code": "# Simulate Eloquent Models for APIs activation:\n",
+      "starter_code": "// PHP Simulate Eloquent Models for APIs activation:\n",
       "pills": [
         {
           "label": "Activate Eloquent Models for APIs",
@@ -448,9 +448,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Eloquent Models for APIs Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Eloquent Models for APIs'. Specifically, design a feature demonstrating: 'Protect users' sensitive data' using the starter template below!",
-        "code": "# Home Challenge: Eloquent Models for APIs Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Eloquent Models for APIs Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Eloquent Models for APIs' using the starter template below!",
+        "code": "// PHP Home Challenge: Eloquent Models for APIs Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Eloquent Models for APIs Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -458,12 +458,12 @@
       "badge_icon": "🎯",
       "badge_title": "API Form Validation & JSON Errors Medal",
       "title": "Station 17: API Form Validation & JSON Errors",
-      "desc": "Receives and validates registration requests from phones, returning JSON-formatted error messages instead of browser conversion.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>API Form Validation & JSON Errors</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛑 <b>Verify and confirm data for phones</b>: Receives and validates registration requests from phones, returning JSON-formatted error messages instead of browser conversion.</li><li>⚠️ <b>Structured error responses in JSON</b>: Returns an array containing the exact error details for the mobile application so that the application displays it in a customized and smooth manner to the buyer.</li></ul><br><h4>💻 Starter Code Block - Structured error responses in JSON:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>if ($validator->fails()) {\n    return response()->json($validator->errors(), 422);\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Alert the mobile developer to write the email in the correct format to activate the save button.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Verify and confirm data for phones is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master API Form Validation & JSON Errors concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>API Form Validation & JSON Errors</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Verify and confirm data for phones</b>: Receives and validates registration requests from phones, returning JSON-formatted error messages instead of browser conversion.</li><li>🦫 <b>Structured error responses in JSON</b>: Returns an array containing the exact error details for the mobile application so that the application displays it in a customized and smooth manner to the buyer.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of API Form Validation & JSON Errors</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> API Form Validation & JSON Errors Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine API Form Validation & JSON Errors is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"API Form Validation & JSON Errors activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>API Form Validation & JSON Errors activated successfully!</code> to unlock the API Form Validation & JSON Errors medal!",
-      "starter_code": "# Simulate API Form Validation & JSON Errors activation:\n",
+      "starter_code": "// PHP Simulate API Form Validation & JSON Errors activation:\n",
       "pills": [
         {
           "label": "Activate API Form Validation & JSON Errors",
@@ -476,9 +476,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: API Form Validation & JSON Errors Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'API Form Validation & JSON Errors'. Specifically, design a feature demonstrating: 'Structured error responses in JSON' using the starter template below!",
-        "code": "# Home Challenge: API Form Validation & JSON Errors Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: API Form Validation & JSON Errors Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'API Form Validation & JSON Errors' using the starter template below!",
+        "code": "// PHP Home Challenge: API Form Validation & JSON Errors Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: API Form Validation & JSON Errors Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -486,12 +486,12 @@
       "badge_icon": "💾",
       "badge_title": "Eloquent CRUD API Database Actions Medal",
       "title": "Station 18: Eloquent CRUD API Database Actions",
-      "desc": "Programming the controllers to receive requests and complete the processes of saving, searching, updating and deleting the database directly from the phones.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Eloquent CRUD API Database Actions</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>💾 <b>Perform data operations for API (CRUD)</b>: Programming the controllers to receive requests and complete the processes of saving, searching, updating and deleting the database directly from the phones.</li><li>🔄 <b>Update the product price via the phone interface</b>: Receive the modification request with the new price values, save the changes, and notify the mobile application of the success of the process.</li></ul><br><h4>💻 Starter Code Block - Update the product price via the phone interface:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>public function update(Request $request, $id) {\n    $cake = Cake::findOrFail($id);\n    $cake->update($request->all());\n    return response()->json($cake, 200);\n}</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Save new store data and update it in a jiffy.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Perform data operations for API (CRUD) is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Eloquent CRUD API Database Actions concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Eloquent CRUD API Database Actions</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Perform data operations for API (CRUD)</b>: Programming the controllers to receive requests and complete the processes of saving, searching, updating and deleting the database directly from the phones.</li><li>🦫 <b>Update the product price via the phone interface</b>: Receive the modification request with the new price values, save the changes, and notify the mobile application of the success of the process.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Eloquent CRUD API Database Actions</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Eloquent CRUD API Database Actions Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Eloquent CRUD API Database Actions is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
       "hint": "Type in the editor: <code>print(\"Eloquent CRUD API Database Actions activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Eloquent CRUD API Database Actions activated successfully!</code> to unlock the Eloquent CRUD API Database Actions medal!",
-      "starter_code": "# Simulate Eloquent CRUD API Database Actions activation:\n",
+      "starter_code": "// PHP Simulate Eloquent CRUD API Database Actions activation:\n",
       "pills": [
         {
           "label": "Activate Eloquent CRUD API Database Actions",
@@ -504,22 +504,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Eloquent CRUD API Database Actions Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Eloquent CRUD API Database Actions'. Specifically, design a feature demonstrating: 'Update the product price via the phone interface' using the starter template below!",
-        "code": "# Home Challenge: Eloquent CRUD API Database Actions Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Eloquent CRUD API Database Actions Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Eloquent CRUD API Database Actions' using the starter template below!",
+        "code": "// PHP Home Challenge: Eloquent CRUD API Database Actions Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Eloquent CRUD API Database Actions Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 19,
-      "badge_icon": "🎨",
+      "badge_icon": "📱",
       "badge_title": "REST API Design Standards (Part 1) Medal",
       "title": "Station 19: REST API Design Standards (Part 1)",
-      "desc": "Use standard web request protocols and methods (GET, POST, PUT, DELETE) to clearly define the type of operation.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>REST API Design Standards (Part 1)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🌐 <b>REST API design standards</b>: Use standard web request protocols and methods (GET, POST, PUT, DELETE) to clearly define the type of operation.</li><li>📐 <b>Standard API link format</b>: Organizing web server links to be uniform, understandable to all developers, and easy to use.</li></ul><br><h4>💻 Starter Code Block - Standard API link format:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>GET /api/cakes // review\nPOST /api/cakes // Add new\nDELETE /api/cakes/{id} // Delete a class</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Link the mobile app's request to create a new account to the standard POST path.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that REST API design standards is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master REST API Design Standards (Part 1) concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>REST API Design Standards (Part 1)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>REST API design standards</b>: Use standard web request protocols and methods (GET, POST, PUT, DELETE) to clearly define the type of operation.</li><li>🦫 <b>Standard API link format</b>: Organizing web server links to be uniform, understandable to all developers, and easy to use.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of REST API Design Standards (Part 1)</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> REST API Design Standards (Part 1) Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine REST API Design Standards (Part 1) is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"REST API Design Standards (Part 1) activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>REST API Design Standards (Part 1) activated successfully!</code> to unlock the REST API Design Standards (Part 1) medal!",
-      "starter_code": "# Simulate REST API Design Standards (Part 1) activation:\n",
+      "starter_code": "// PHP Simulate REST API Design Standards (Part 1) activation:\n",
       "pills": [
         {
           "label": "Activate REST API Design Standards (Part 1)",
@@ -532,22 +532,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: REST API Design Standards (Part 1) Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'REST API Design Standards (Part 1)'. Specifically, design a feature demonstrating: 'Standard API link format' using the starter template below!",
-        "code": "# Home Challenge: REST API Design Standards (Part 1) Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: REST API Design Standards (Part 1) Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'REST API Design Standards (Part 1)' using the starter template below!",
+        "code": "// PHP Home Challenge: REST API Design Standards (Part 1) Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: REST API Design Standards (Part 1) Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 20,
-      "badge_icon": "🎨",
+      "badge_icon": "📱",
       "badge_title": "REST API Design Standards (Part 2) Medal",
       "title": "Station 20: REST API Design Standards (Part 2)",
-      "desc": "Use HTTP numeric status codes to automatically inform a mobile application of the status of its request (success, error, unauthorized).",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>REST API Design Standards (Part 2)</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📟 <b>Standard status codes for web responses</b>: Use HTTP numeric status codes to automatically inform a mobile application of the status of its request (success, error, unauthorized).</li><li>✅ <b>Returns the success code of adding the cake</b>: Returns the response in JSON format with standard status code 201 to confirm the save and the success of the operation.</li></ul><br><h4>💻 Starter Code Block - Returns the success code of adding the cake:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>return response()->json([\n    'message' => 'Save successfully!',\n    'data' => $newCake\n], 201);</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> The mobile application updates the interface immediately upon receiving success code 201.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Standard status codes for web responses is like writing a list of secret rules telling your helper robot exactly what to do step-by-step!",
+      "desc": "Master REST API Design Standards (Part 2) concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>REST API Design Standards (Part 2)</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Standard status codes for web responses</b>: Use HTTP numeric status codes to automatically inform a mobile application of the status of its request (success, error, unauthorized).</li><li>🦫 <b>Returns the success code of adding the cake</b>: Returns the response in JSON format with standard status code 201 to confirm the save and the success of the operation.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of REST API Design Standards (Part 2)</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> REST API Design Standards (Part 2) Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine REST API Design Standards (Part 2) is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"REST API Design Standards (Part 2) activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>REST API Design Standards (Part 2) activated successfully!</code> to unlock the REST API Design Standards (Part 2) medal!",
-      "starter_code": "# Simulate REST API Design Standards (Part 2) activation:\n",
+      "starter_code": "// PHP Simulate REST API Design Standards (Part 2) activation:\n",
       "pills": [
         {
           "label": "Activate REST API Design Standards (Part 2)",
@@ -560,9 +560,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: REST API Design Standards (Part 2) Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'REST API Design Standards (Part 2)'. Specifically, design a feature demonstrating: 'Returns the success code of adding the cake' using the starter template below!",
-        "code": "# Home Challenge: REST API Design Standards (Part 2) Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: REST API Design Standards (Part 2) Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'REST API Design Standards (Part 2)' using the starter template below!",
+        "code": "// PHP Home Challenge: REST API Design Standards (Part 2) Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: REST API Design Standards (Part 2) Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -570,12 +570,12 @@
       "badge_icon": "🛡️",
       "badge_title": "Mobile API Security & Sanitization Medal",
       "title": "Station 21: Mobile API Security & Sanitization",
-      "desc": "Cleaning and filtering phone user inputs and responding to suspicious requests to protect the server and database from any damage.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Mobile API Security & Sanitization</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🛡️ <b>Secure and protect the application interface server</b>: Cleaning and filtering phone user inputs and responding to suspicious requests to protect the server and database from any damage.</li><li>🧹 <b>Filter and clean search fields</b>: Use the verification engine to filter out suspicious words and clean search terms before submitting them to the database.</li></ul><br><h4>💻 Starter Code Block - Filter and clean search fields:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>$cleanSearch = strip_tags($request->input('search_query'));\n$results = Cake::where('name', 'like', '%'.$cleanSearch.'%')->get();</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Protecting the mobile store's search engine against easy hacking attempts.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Secure and protect the application interface server is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Mobile API Security & Sanitization concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Mobile API Security & Sanitization</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Secure and protect the application interface server</b>: Cleaning and filtering phone user inputs and responding to suspicious requests to protect the server and database from any damage.</li><li>🦫 <b>Filter and clean search fields</b>: Use the verification engine to filter out suspicious words and clean search terms before submitting them to the database.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Mobile API Security & Sanitization</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Mobile API Security & Sanitization Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Mobile API Security & Sanitization is like acting as a cyber detective who checks door locks and protects the magical castle from intruders!",
       "hint": "Type in the editor: <code>print(\"Mobile API Security & Sanitization activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Mobile API Security & Sanitization activated successfully!</code> to unlock the Mobile API Security & Sanitization medal!",
-      "starter_code": "# Simulate Mobile API Security & Sanitization activation:\n",
+      "starter_code": "// PHP Simulate Mobile API Security & Sanitization activation:\n",
       "pills": [
         {
           "label": "Activate Mobile API Security & Sanitization",
@@ -588,22 +588,22 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Mobile API Security & Sanitization Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Mobile API Security & Sanitization'. Specifically, design a feature demonstrating: 'Filter and clean search fields' using the starter template below!",
-        "code": "# Home Challenge: Mobile API Security & Sanitization Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Mobile API Security & Sanitization Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Mobile API Security & Sanitization' using the starter template below!",
+        "code": "// PHP Home Challenge: Mobile API Security & Sanitization Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Mobile API Security & Sanitization Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 22,
-      "badge_icon": "💾",
+      "badge_icon": "🏆",
       "badge_title": "Live Project API - Cake Store Backend Medal",
       "title": "Station 22: Live Project API - Cake Store Backend",
-      "desc": "Build and assemble end-to-end web server for cake shop to power smartphone applications with sales listings, buyer accounts and live bookings.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Live Project API - Cake Store Backend</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🎂 <b>Build a magical cake shop backdrop</b>: Build and assemble end-to-end web server for cake shop to power smartphone applications with sales listings, buyer accounts and live bookings.</li><li>🛒 <b>Cake reservation link to mobile application</b>: Create a dedicated POST link to receive cake reservation requests from phones, save them in the reservation table, and return the order number immediately.</li></ul><br><h4>💻 Starter Code Block - Cake reservation link to mobile application:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>Route::post('/order-cake', [OrderController::class, 'placeOrder']);</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> Confirm the order and notify the buyer of the reservation number immediately on his phone screen.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Build a magical cake shop backdrop is like drawing colorful buttons and stickers on your toy car to make it look incredibly cool!",
+      "desc": "Master Live Project API - Cake Store Backend concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Live Project API - Cake Store Backend</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Build a magical cake shop backdrop</b>: Build and assemble end-to-end web server for cake shop to power smartphone applications with sales listings, buyer accounts and live bookings.</li><li>🦫 <b>Cake reservation link to mobile application</b>: Create a dedicated POST link to receive cake reservation requests from phones, save them in the reservation table, and return the order number immediately.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Live Project API - Cake Store Backend</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Live Project API - Cake Store Backend Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Live Project API - Cake Store Backend is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Live Project API - Cake Store Backend activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Live Project API - Cake Store Backend activated successfully!</code> to unlock the Live Project API - Cake Store Backend medal!",
-      "starter_code": "# Simulate Live Project API - Cake Store Backend activation:\n",
+      "starter_code": "// PHP Simulate Live Project API - Cake Store Backend activation:\n",
       "pills": [
         {
           "label": "Activate Live Project API - Cake Store Backend",
@@ -616,9 +616,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Live Project API - Cake Store Backend Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Live Project API - Cake Store Backend'. Specifically, design a feature demonstrating: 'Cake reservation link to mobile application' using the starter template below!",
-        "code": "# Home Challenge: Live Project API - Cake Store Backend Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Live Project API - Cake Store Backend Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Live Project API - Cake Store Backend' using the starter template below!",
+        "code": "// PHP Home Challenge: Live Project API - Cake Store Backend Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Live Project API - Cake Store Backend Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -626,12 +626,12 @@
       "badge_icon": "🎯",
       "badge_title": "Flutter App Integration - Connecting APIs Medal",
       "title": "Station 23: Flutter App Integration - Connecting APIs",
-      "desc": "Merge and connect step! Configure the mobile application built in Flutter to connect to the local Laravel API server and fetch data.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Flutter App Integration - Connecting APIs</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>📲 <b>Configure the phone project to connect to the server</b>: Merge and connect step! Configure the mobile application built in Flutter to connect to the local Laravel API server and fetch data.</li><li>🔌 <b>Call the cake review link in Flutter</b>: Program the code to retrieve data from the phone, ensure that the local server is accessible, and save the results.</li></ul><br><h4>💻 Starter Code Block - Call the cake review link in Flutter:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>import 'package:http/http.dart' as http;\nfinal response = await http.get(Uri.parse('http://10.0.2.2:8000/api/cakes'));</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> The Emulator successfully communicates with the local Laravel server.</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Configure the phone project to connect to the server is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Flutter App Integration - Connecting APIs concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Flutter App Integration - Connecting APIs</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Configure the phone project to connect to the server</b>: Merge and connect step! Configure the mobile application built in Flutter to connect to the local Laravel API server and fetch data.</li><li>🦫 <b>Call the cake review link in Flutter</b>: Program the code to retrieve data from the phone, ensure that the local server is accessible, and save the results.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Flutter App Integration - Connecting APIs</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Flutter App Integration - Connecting APIs Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Flutter App Integration - Connecting APIs is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Flutter App Integration - Connecting APIs activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Flutter App Integration - Connecting APIs activated successfully!</code> to unlock the Flutter App Integration - Connecting APIs medal!",
-      "starter_code": "# Simulate Flutter App Integration - Connecting APIs activation:\n",
+      "starter_code": "// PHP Simulate Flutter App Integration - Connecting APIs activation:\n",
       "pills": [
         {
           "label": "Activate Flutter App Integration - Connecting APIs",
@@ -644,9 +644,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Flutter App Integration - Connecting APIs Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Flutter App Integration - Connecting APIs'. Specifically, design a feature demonstrating: 'Call the cake review link in Flutter' using the starter template below!",
-        "code": "# Home Challenge: Flutter App Integration - Connecting APIs Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Flutter App Integration - Connecting APIs Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Flutter App Integration - Connecting APIs' using the starter template below!",
+        "code": "// PHP Home Challenge: Flutter App Integration - Connecting APIs Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Flutter App Integration - Connecting APIs Simulator\n# Write your creative solution here!"
       }
     },
     {
@@ -654,12 +654,12 @@
       "badge_icon": "🎯",
       "badge_title": "Flutter Live Data Rendering & Update Medal",
       "title": "Station 24: Flutter Live Data Rendering & Update",
-      "desc": "The culmination of the double project! Converting the received JSON text data into amazing visual interactive programming cards on phone screens.",
-      "story": "<h3>👋 Welcome, future coding hero!</h3>Let's dive into our interactive session for <b>Flutter Live Data Rendering & Update</b>!<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🏆 <b>Showcasing live data and the culmination of the hybrid project</b>: The culmination of the double project! Converting the received JSON text data into amazing visual interactive programming cards on phone screens.</li><li>🖼️ <b>View reserved cake on phone</b>: Read the list of cakes from the API and draw excellent cards with images, names, and prices with the possibility of immediate interactive purchasing.</li></ul><br><h4>💻 Starter Code Block - View reserved cake on phone:</h4><pre style='background: #1e1e2f; color: #f8f8f2; padding: 12px; border-radius: 8px; font-family: monospace; direction: ltr; text-align: left; overflow-x: auto;'><code>// Code for displaying cards within the Flutter application\nListView.builder(\n  itemCount: cakesList.length,\n  itemBuilder: (context, index) => CakeCard(cakesList[index]),\n);</code></pre><div style='background: #f0fdf4; border: 1px dashed #bbf7d0; color: #166534; padding: 10px; border-radius: 8px; margin-top: 8px; margin-bottom: 8px;'>💡 <b>Try this Example:</b> A complete cake shop application that runs on a smartphone and pulls all its data and images live from the Laravel backend server! 📱🌟</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
-      "simple": "Imagine that Showcasing live data and the culmination of the hybrid project is like assembling a set of LEGO blocks where each piece connects to build a spectacular castle!",
+      "desc": "Master Flutter Live Data Rendering & Update concepts and boost your developer XP!",
+      "story": "<h3>🦫 Hello, future coding hero!</h3>I am your friend <b>Artisan Beaver</b>, and today I will accompany you on an exciting coding adventure to explore <b>Flutter Live Data Rendering & Update</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🦫 <b>Showcasing live data and the culmination of the hybrid project</b>: The culmination of the double project! Converting the received JSON text data into amazing visual interactive programming cards on phone screens.</li><li>🦫 <b>View reserved cake on phone</b>: Read the list of cakes from the API and draw excellent cards with images, names, and prices with the possibility of immediate interactive purchasing.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Master the core rules of Flutter Live Data Rendering & Update</li><li>🎯 Complete hands-on simulator tasks</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>DIY Session Project:</b> Flutter Live Data Rendering & Update Practical Challenge</div><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Flutter Live Data Rendering & Update is like assembling perfect Lego pieces that connect together to build a grand castle!",
       "hint": "Type in the editor: <code>print(\"Flutter Live Data Rendering & Update activated successfully!\")</code> and press Run!",
       "challenge": "Print the exact activation message: <code>Flutter Live Data Rendering & Update activated successfully!</code> to unlock the Flutter Live Data Rendering & Update medal!",
-      "starter_code": "# Simulate Flutter Live Data Rendering & Update activation:\n",
+      "starter_code": "// PHP Simulate Flutter Live Data Rendering & Update activation:\n",
       "pills": [
         {
           "label": "Activate Flutter Live Data Rendering & Update",
@@ -672,9 +672,9 @@
       },
       "homework": {
         "title": "🏠 Magic Home Challenge: Flutter Live Data Rendering & Update Builder",
-        "desc": "Great work! At home, practice creating a custom model or code simulating 'Flutter Live Data Rendering & Update'. Specifically, design a feature demonstrating: 'View reserved cake on phone' using the starter template below!",
-        "code": "# Home Challenge: Flutter Live Data Rendering & Update Simulator\n# Write your creative solution here!",
-        "starter_code": "# Home Challenge: Flutter Live Data Rendering & Update Simulator\n# Write your creative solution here!"
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Flutter Live Data Rendering & Update' using the starter template below!",
+        "code": "// PHP Home Challenge: Flutter Live Data Rendering & Update Simulator\n# Write your creative solution here!",
+        "starter_code": "// PHP Home Challenge: Flutter Live Data Rendering & Update Simulator\n# Write your creative solution here!"
       }
     }
   ]

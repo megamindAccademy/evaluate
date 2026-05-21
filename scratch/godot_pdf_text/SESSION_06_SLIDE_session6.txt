@@ -1,0 +1,129 @@
+=== Page 1 ===
+Session 6
+Creating and 
+Using UI
+
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll dive into the world of user interfaces (UI) and learn 
+how to design and implement them in Godot. We'll explore 
+different UI nodes, understand how to connect them to 
+game logic, and build a simple UI for our game. Get ready 
+to make your games more interactive and engaging!
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o what is SDLC in Game Development 
+o Game Design Principles
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Introduction  the world of user interfaces (UI)
+o how to design and implement them in Godot.
+o build a simple UI for our game
+o make your games more interactive
+
+=== Page 5 ===
+2
+4
+All rights reserved
+
+=== Page 6 ===
+2
+5
+All rights reserved
+ Triggers Actions like starting a game, moving between 
+levels, or purchasing items
+ Navigation: Menu navigation, accessing settings, or 
+switching between game sences
+=== Page 7 ===
+2
+6
+All rights reserved
+ Score: Tracking player progress and achievements
+ Health: Indicates the player's remaining life 
+or resources
+
+=== Page 8 ===
+2
+7
+All rights reserved
+ Inventory: Displaying and managing items collected 
+by the player
+ Quest Log:Tracking active missions and objectives
+
+=== Page 9 ===
+2
+8
+All rights reserved
+ Name: For player registration or customization
+ Password:For account security or accessing features
+
+=== Page 10 ===
+2
+9
+All rights reserved
+Changing display brightness
+Adjusting audio volume
+Modifying game difficulty
+
+=== Page 11 ===
+2
+10
+All rights reserved
+Sound Effects
+Enabling or disabling in-game audio
+Music
+Controlling the background music playback
+
+=== Page 12 ===
+2
+11
+All rights reserved
+Select User Interface
+=== Page 13 ===
+2
+12
+All rights reserved
+The element of UI you 
+can use 
+
+=== Page 14 ===
+2
+13
+All rights reserved
+After selecting the button as 
+a child of the control, it will be 
+displayed on the stage.
+=== Page 15 ===
+2
+14
+All rights reserved
+A layout button that has 
+pre-set layouts to help 
+position our UI.
+=== Page 16 ===
+2
+15
+All rights reserved
+
+=== Page 17 ===
+2
+16
+All rights reserved
+
+=== Page 18 ===
+2
+17
+All rights reserved
+1. What is UI and why is it  important ?
+2. Anchors do just that as they automatically reposition and rescale 
+the UI controls with the different screen resolutions
+3. What is a Grid?
+

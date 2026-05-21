@@ -1,0 +1,191 @@
+=== Page 1 ===
+Session 10
+
+=== Page 2 ===
+All rights reserved
+we'll explore the crucial final step in game 
+development: polishing. This step involves adding 
+those final touches that transform a functional 
+game into a captivating and polished experience.
+Welcome ! In this session, 
+=== Page 3 ===
+All rights reserved
+o Signals for UI ControlLabels
+o Creating Interactive UI
+o changes scenes 
+o UI Events
+o camera 2D
+o Get mouse postion and create instance 
+Recap:
+=== Page 4 ===
+All rights reserved
+o Polishing your  Game 
+o publish the Game
+o Different platform you can polishing for it 
+Agenda for this lesson : 
+=== Page 5 ===
+All rights reserved
+Polishing Your Game: The Secret 
+to Making It Great
+=== Page 6 ===
+All rights reserved
+Fun Factor
+Does the game feel enjoyable and engaging? Are players 
+drawn in and eager to keep playing?
+Interactivity
+Does the game respond to player input in a way that feels natural and satisfying?
+ Are players actively participating in the gameplay?
+Beyond Functionality: Asking the Right Questions
+
+=== Page 7 ===
+All rights reserved
+Activity: Adding Sound Effects
+Liveliness
+Does the game have a vibrant personality? 
+Does it evoke emotions and feel like a world that's alive?
+Responsiveness
+Does the game react quickly and smoothly to player actions?
+ Does it provide immediate feedback, creating a sense of control?
+
+=== Page 8 ===
+All rights reserved
+The Final Touch
+Polishing goes beyond just fixing bugs. It's about ensuring 
+every element of the game is refined and cohesive.
+Polishing: The Art of Perfection
+Consistency is Key
+All aspects of the game, from graphics and sound to 
+gameplay mechanics and UI, should feel like a unified whole.
+
+=== Page 9 ===
+All rights reserved
+Striving for Excellence
+Polishing aims for perfection. It's about creating a game 
+that's not only functional, but also aesthetically pleasing 
+and enjoyable to play.
+Polishing: The Art of Perfection
+
+=== Page 10 ===
+All rights reserved
+Core Gameplay Mechanics
+▪ Gameplay should be balanced, 
+engaging, and satisfying, providing a 
+rewarding experience for players.
+=== Page 11 ===
+All rights reserved
+The Importance of Error
+-
+Free Gameplay
+Polishing ensures that your game is free from 
+any bugs or glitches that could disrupt 
+gameplay and frustrate players.
+Bugs
+=== Page 12 ===
+All rights reserved
+The Importance of Error
+-
+Free Gameplay
+A polished game should be stable and reliable, 
+avoiding unexpected crashes or freezes that 
+can lead to frustration.
+Crashes
+
+=== Page 13 ===
+All rights reserved
+The Importance of Error
+-
+Free Gameplay
+Polishing eliminates any errors or inconsistencies 
+that could hinder player progress or detract 
+from the overall experience.
+Errors
+
+=== Page 14 ===
+All rights reserved
+Polishing for Different Game Types
+Mobile Games
+Focus on intuitive controls, optimized performance, 
+and engaging gameplay for short sessions.
+
+=== Page 15 ===
+All rights reserved
+Polishing for Different Game Types
+PC Games
+Prioritize high-quality graphics, complex gameplay 
+mechanics, and a robust experience for dedicated players.
+
+=== Page 16 ===
+All rights reserved
+Polishing for Different Game Types
+Console Games
+Ensure smooth controls, a compelling narrative, and a 
+satisfying gameplay loop that utilizes console features.
+
+=== Page 17 ===
+All rights reserved
+Add text here
+
+=== Page 18 ===
+All rights reserved
+Follow the steps on the slides as following:
+1. Go to project → Export.
+2. Click Add.
+3. Select HTML5.
+4. Leave the default configurations as it is fine.
+5. Click Export Project.
+6. Make sure to uncheck Export With Debug.
+7. Choose a path and create a new folder for the exported project files.
+8. Click Save.
+=== Page 19 ===
+Follow the steps on the slides as following:
+All rights reserved
+
+=== Page 20 ===
+Follow the steps on the slides as following:
+All rights reserved
+
+=== Page 21 ===
+•
+ //
+•
+•
+•
+•
+•
+•
+•
+•
+All rights reserved
+
+=== Page 22 ===
+VISITE WEBSITE CALLED :
+-
+ https://itch.io
+All rights reserved
+
+=== Page 23 ===
+All rights reserved
+
+=== Page 24 ===
+All rights reserved
+
+=== Page 25 ===
+All rights reserved
+Here you can see all the projects you uploaded, and you can also 
+create a new project
+=== Page 26 ===
+All rights reserved
+
+=== Page 27 ===
+All rights reserved
+
+=== Page 28 ===
+All rights reserved
+
+=== Page 29 ===
+Simple Quiz 
+All rights reserved
+▪ what is the   Different Game Types and platform ?
+▪ mention some of the video games 
+platforms?
+

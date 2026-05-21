@@ -1,0 +1,141 @@
+=== Page 1 ===
+Session 5
+The Software 
+Development Life Cycle 
+(SDLC) for Game 
+Development
+=== Page 2 ===
+2
+1
+All rights reserved
+we'll explore the Software Development Life Cycle 
+(SDLC) and how it applies to building amazing games. 
+We'll discuss the process from ideation to release and 
+how to integrate it with game design principles.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o comparison operators (==, !=, <, >)
+o logical operators (and, or, not)
+o set_scale function
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o Introduction to SDLC in Game Development (5 mins)
+o Phases of SDLC (15 mins)
+o Game Design Principles (10 mins)
+
+=== Page 5 ===
+2
+4
+All rights reserved
+Idea Generation
+Start by brainstorming! Let your creativity flow and come 
+up with exciting game concepts. Consider the target 
+audience, gameplay mechanics, and story elements.
+Prototyping
+Create a basic, playable version of your game to test 
+core mechanics and gather feedback. Prototyping 
+helps identify potential problems early on.
+
+=== Page 6 ===
+2
+5
+All rights reserved
+
+=== Page 7 ===
+2
+6
+All rights reserved
+Aesthetics
+The main objective of the game, 
+what players aim to achieve.
+Story
+The narrative that drives 
+the game's experience.
+Rules
+The guidelines that govern 
+gameplay and interactions.
+Mechanics
+Technology refers to any materials 
+and interactions that make your game 
+possible. The roles that technology 
+plays in games vary from game types.
+
+=== Page 8 ===
+2
+7
+All rights reserved
+
+=== Page 9 ===
+2
+8
+All rights reserved
+Define project scope, requirements, and timelines. 
+Establish a roadmap for development.
+
+=== Page 10 ===
+2
+9
+All rights reserved
+Develop detailed blueprints for the software, 
+including architecture and user interface design.
+
+=== Page 11 ===
+2
+10
+All rights reserved
+Transform the design into functional code, following 
+best practices and coding standards.
+
+=== Page 12 ===
+2
+11
+All rights reserved
+Thoroughly test the software to identify and fix 
+bugs and ensure it meets requirements.
+
+=== Page 13 ===
+2
+12
+All rights reserved
+Release the software to users, making it accessible 
+for play or use.
+
+=== Page 14 ===
+2
+13
+All rights reserved
+Address bugs, update features, and provide ongoing 
+support after release.
+
+=== Page 15 ===
+2
+14
+All rights reserved
+Implementation
+Coding, art assets, and sound design.
+Planning
+Game concept, target audience, and development goals.
+Design
+Game mechanics, levels, characters, UI, and sound.
+Testing
+Gameplay, bug fixing, and balance adjustments.
+Deployment
+Release, marketing, and ongoing support.
+
+=== Page 16 ===
+2
+15
+All rights reserved
+ Can you name the main phases of the Software Development Life 
+Cycle (SDLC)? How do you think they relate to creating a game?
+ Why is it important to integrate game design principles, like player 
+engagement or storytelling, into the SDLC process?
+ During the SDLC, which phase do you think is the 
+most challenging for game development, and why?
+

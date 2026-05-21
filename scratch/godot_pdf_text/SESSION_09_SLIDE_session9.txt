@@ -1,0 +1,125 @@
+=== Page 1 ===
+Session 9
+Camera and Parallax 
+Backgrounds for
+2D Games 
+
+=== Page 2 ===
+2
+1
+All rights reserved
+We'll be diving into the world of cameras and parallax 
+backgrounds in Godot Engine. Prepare to create 
+dynamic and visually engaging 2D game 
+environments!
+
+=== Page 3 ===
+2
+2
+All rights reserved
+o Button Clicks
+o Signals for UI Control
+o changes scenes 
+o Creating Interactive UI
+
+=== Page 4 ===
+2
+3
+All rights reserved
+o use a camera
+o backgrounds in your 2D game
+o Button Clicks
+o Signals for UI Control
+o Creating Interactive UI
+
+=== Page 5 ===
+2
+4
+All rights reserved
+The Camera Node
+=== Page 6 ===
+2
+5
+All rights reserved
+The Camera Node
+The Camera node is the player's window into the game world. 
+It determines what is visible on the screen.
+Camera Follow
+You can configure the camera to follow the player smoothly 
+as they move through the game.
+
+=== Page 7 ===
+2
+6
+All rights reserved
+
+=== Page 8 ===
+2
+7
+All rights reserved
+
+=== Page 9 ===
+2
+8
+All rights reserved
+ create new scene called RainDrop 
+ add sprite node
+ then add attach script
+
+=== Page 10 ===
+2
+9
+All rights reserved
+ add two image for cloud and rain 
+
+=== Page 11 ===
+2
+10
+All rights reserved
+ move the rain down using y axis and delta 
+
+=== Page 12 ===
+2
+11
+All rights reserved
+ create main scene
+ add attach script 
+var raindrop_scene = preload("res://RainDrop.tscn")
+=== Page 13 ===
+2
+12
+All rights reserved
+ following the code below 
+ add sprite node (cloud)
+ then add image at  texture 
+from inspector 
+
+=== Page 14 ===
+2
+13
+All rights reserved
+ following the code below 
+ attach script on  node 
+(cloud)
+
+=== Page 15 ===
+2
+13
+All rights reserved
+ create a function called   
+click_mouse_inside_cloud():
+
+=== Page 16 ===
+2
+15
+All rights reserved
+ following this  code below 
+
+=== Page 17 ===
+2
+16
+All rights reserved
+ What is the role of the camera in 2D games? 
+ How can it be set up to follow the player in Godot? 
+ what is the benefit of use preload method?
+

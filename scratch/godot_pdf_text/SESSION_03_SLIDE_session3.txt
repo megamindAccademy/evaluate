@@ -1,0 +1,183 @@
+=== Page 1 ===
+Session 3
+Game Art style 
+and Animated 
+Sprite
+
+=== Page 2 ===
+2
+1
+All rights reserved
+This lesson will guide you through creating 
+captivating 2D game worlds. You'll learn to 
+bring your ideas to life by building and 
+animating sprites, the visual foundation of 
+your game. We'll also explore how to make 
+objects interact with each other using 
+collision detection.
+
+=== Page 3 ===
+2
+2
+All rights reserved
+What they remember about each of the following topics:
+o What are Nodes and Scenes?
+o Godot's Scripting Language
+o What is the  Special Functions?
+=== Page 4 ===
+2
+3
+All rights reserved
+o What are Sprites?
+o Types of Sprites
+o Game Art Style
+o type of game art style
+o Animating Sprites for Movement
+o Frame Animation
+o movment and speed in game
+
+=== Page 5 ===
+2
+4
+All rights reserved
+
+=== Page 6 ===
+2
+5
+All rights reserved
+Game art styles uses visual aesthetics 
+to create unique and immersive 
+experiences
+
+=== Page 7 ===
+2
+6
+All rights reserved
+Realistic Art Style
+
+=== Page 8 ===
+2
+7
+All rights reserved
+Cartoonish Art Style
+
+=== Page 9 ===
+2
+8
+All rights reserved
+Pixel Art Style
+
+=== Page 10 ===
+2
+9
+All rights reserved
+
+=== Page 11 ===
+2
+10
+All rights reserved
+Aspect PUBG Fortnite
+Overall Style Realistic Cartoonish
+Color Palette Muted, earthy tones Bright, vibrant colors
+Character Design Realistic proportions Exaggerated features
+Environment Detailed, gritty landscapes Stylized, whimsical settings
+
+=== Page 12 ===
+2
+11
+All rights reserved
+www.CraftPix.net
+opengameart.org/
+gamedevmarket.net
+assetstore.unity.com
+
+=== Page 13 ===
+2
+12
+All rights reserved
+Sprite Sheets
+Sprite sheets efficiently organize multiple sprites 
+within a single image, saving memory and 
+improving performance.
+What are Sprites?
+Sprites are the individual images used to create 
+the visuals of your game. They represent 
+characters, objects, and background elements.
+Types of Sprites
+Common sprite types include character sprites, 
+object sprites, and tile-based sprites for 
+backgrounds.
+
+=== Page 14 ===
+2
+13
+All rights reserved
+
+=== Page 15 ===
+2
+14
+All rights reserved
+• FRAME-BY-FRAME ANIMATION
+This technique involves creating multiple individual frames of 
+animation that are displayed in sequence to create movement.
+• SPRITE SHEETS
+Sprite sheets can be used to efficiently store and manage 
+the multiple frames needed for animation.
+• ANIMATION TIMING
+Adjusting the speed at which frames are displayed controls 
+the pace and fluidity of the animation.
+
+=== Page 16 ===
+2
+15
+All rights reserved
+ Sprite sheets can be used to 
+efficiently store and manage 
+the multiple frames needed for 
+animation.
+=== Page 17 ===
+2
+16
+All rights reserved
+
+=== Page 18 ===
+2
+17
+All rights reserved
+
+=== Page 19 ===
+2
+18
+All rights reserved
+first creat Node 2D as 
+parent
+=== Page 20 ===
+2
+19
+All rights reserved
+2 add child node called 
+Animated sprite
+=== Page 21 ===
+2
+20
+All rights reserved
+You may see a warning 
+here because the frame is 
+still empty.
+=== Page 22 ===
+2
+21
+All rights reserved
+Drag and drop your frame 
+here, generate a name, 
+and click play.
+=== Page 23 ===
+2
+22
+All rights reserved
+ What is art style ?
+ What type of art style are we aiming for in 
+the game?
+ Can you explain the steps to add an animated 
+sprite and frames in a game?
+

@@ -1,344 +1,344 @@
 {
   "course_id": "senior_flutter",
-  "course_title": "Flutter Mobile Development",
-  "course_subtitle": "Master Flutter Mobile Development!",
+  "course_title": "Flutter & Dart Mobile Development",
+  "course_subtitle": "Welcome, future legend! Embark on a spectacular coding adventure in Flutter & Dart Mobile Development. Meet Dash, solve fun challenges, and build outstanding systems! 🎮✨",
   "xp_total": 1200,
   "mascot_img": "./assets/megaminds_mascot.png",
   "stations": [
     {
       "id": 1,
-      "badge_icon": "??",
-      "badge_title": "Session 1 Medal",
-      "title": "Station 1: Session 1: Core Concepts",
-      "desc": "Interactive Session 1: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 1: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 1</div>",
-      "simple": "Imagine Session 1: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 1!');</code>",
-      "challenge": "Print: <code>print('Activated Session 1!');</code>",
-      "starter_code": "// Activate Session 1\nvoid main() {\n  print('Activated Session 1!');\n}",
+      "badge_icon": "🚀",
+      "badge_title": "Welcome to Flutter & Mobile Dev Medal",
+      "title": "Station 1: Welcome to Flutter & Mobile Dev",
+      "desc": "Set up Dart, install Flutter SDK, and boot the virtual phone simulator.",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>Welcome to Flutter & Mobile Dev</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>Welcome to Flutter & Mobile Dev</b>: Set up Dart, install Flutter SDK, and boot the virtual phone simulator.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Flutter install</li><li>🎯 SDK setup</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Welcome to Flutter & Mobile Dev is like building the magic playground gates before you enter and play with toys!",
+      "hint": "Type in the editor: <code>print(\"Flutter Ready!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Flutter Ready!</code> to unlock the Welcome to Flutter & Mobile Dev medal!",
+      "starter_code": "# Simulate Welcome to Flutter & Mobile Dev activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 1!');"
+          "label": "Activate Welcome to Flutter & Mobile Dev",
+          "code": "print(\"Flutter Ready!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 1!",
+        "required_output_text": "Flutter Ready!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 1",
-        "desc": "Practice Session 1 at home!",
-        "code": "// Home Challenge: Session 1",
-        "starter_code": "// Home Challenge: Session 1"
+        "title": "🏠 Magic Home Challenge: Welcome to Flutter & Mobile Dev Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Welcome to Flutter & Mobile Dev' using the starter template below!",
+        "code": "# Home Challenge: Welcome to Flutter & Mobile Dev Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Welcome to Flutter & Mobile Dev Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 2,
-      "badge_icon": "??",
-      "badge_title": "Session 2 Medal",
-      "title": "Station 2: Session 2: Core Concepts",
-      "desc": "Interactive Session 2: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 2: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 2</div>",
-      "simple": "Imagine Session 2: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 2!');</code>",
-      "challenge": "Print: <code>print('Activated Session 2!');</code>",
-      "starter_code": "// Activate Session 2\nvoid main() {\n  print('Activated Session 2!');\n}",
+      "badge_icon": "💻",
+      "badge_title": "Dart Syntax & Variables Medal",
+      "title": "Station 2: Dart Syntax & Variables",
+      "desc": "Store player progress and app names inside Dart data type containers.",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>Dart Syntax & Variables</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>Dart Syntax & Variables</b>: Store player progress and app names inside Dart data type containers.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Dart variables</li><li>🎯 Main function</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Dart Syntax & Variables is like having smart boxes in your bedroom where you keep toys, labeled perfectly so they never get lost!",
+      "hint": "Type in the editor: <code>print(\"Dart Syntax & Variables activated successfully!\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Dart Syntax & Variables activated successfully!</code> to unlock the Dart Syntax & Variables medal!",
+      "starter_code": "# Simulate Dart Syntax & Variables activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 2!');"
+          "label": "Activate Dart Syntax & Variables",
+          "code": "print(\"Dart Syntax & Variables activated successfully!\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 2!",
+        "required_output_text": "Dart Syntax & Variables activated successfully!",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 2",
-        "desc": "Practice Session 2 at home!",
-        "code": "// Home Challenge: Session 2",
-        "starter_code": "// Home Challenge: Session 2"
+        "title": "🏠 Magic Home Challenge: Dart Syntax & Variables Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Dart Syntax & Variables' using the starter template below!",
+        "code": "# Home Challenge: Dart Syntax & Variables Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Dart Syntax & Variables Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 3,
-      "badge_icon": "??",
-      "badge_title": "Session 3 Medal",
-      "title": "Station 3: Session 3: Core Concepts",
-      "desc": "Interactive Session 3: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 3: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 3</div>",
-      "simple": "Imagine Session 3: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 3!');</code>",
-      "challenge": "Print: <code>print('Activated Session 3!');</code>",
-      "starter_code": "// Activate Session 3\nvoid main() {\n  print('Activated Session 3!');\n}",
+      "badge_icon": "💻",
+      "badge_title": "Dart Classes & Subclasses Medal",
+      "title": "Station 3: Dart Classes & Subclasses",
+      "desc": "Design reusable components using Dart classes and properties.",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>Dart Classes & Subclasses</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>Dart Classes & Subclasses</b>: Design reusable components using Dart classes and properties.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Dart OOP</li><li>🎯 Class constructs</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Dart Classes & Subclasses is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Dart Class\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Dart Class</code> to unlock the Dart Classes & Subclasses medal!",
+      "starter_code": "# Simulate Dart Classes & Subclasses activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 3!');"
+          "label": "Activate Dart Classes & Subclasses",
+          "code": "print(\"Dart Class\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 3!",
+        "required_output_text": "Dart Class",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 3",
-        "desc": "Practice Session 3 at home!",
-        "code": "// Home Challenge: Session 3",
-        "starter_code": "// Home Challenge: Session 3"
+        "title": "🏠 Magic Home Challenge: Dart Classes & Subclasses Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Dart Classes & Subclasses' using the starter template below!",
+        "code": "# Home Challenge: Dart Classes & Subclasses Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Dart Classes & Subclasses Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 4,
-      "badge_icon": "??",
-      "badge_title": "Session 4 Medal",
-      "title": "Station 4: Session 4: Core Concepts",
-      "desc": "Interactive Session 4: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 4: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 4</div>",
-      "simple": "Imagine Session 4: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 4!');</code>",
-      "challenge": "Print: <code>print('Activated Session 4!');</code>",
-      "starter_code": "// Activate Session 4\nvoid main() {\n  print('Activated Session 4!');\n}",
+      "badge_icon": "📱",
+      "badge_title": "Stateless vs Stateful Widgets Medal",
+      "title": "Station 4: Stateless vs Stateful Widgets",
+      "desc": "Learn the building blocks of mobile screens and widgets that change dynamically.",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>Stateless vs Stateful Widgets</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>Stateless vs Stateful Widgets</b>: Learn the building blocks of mobile screens and widgets that change dynamically.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Stateless widgets</li><li>🎯 Stateful widgets</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Stateless vs Stateful Widgets is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Widgets active\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Widgets active</code> to unlock the Stateless vs Stateful Widgets medal!",
+      "starter_code": "# Simulate Stateless vs Stateful Widgets activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 4!');"
+          "label": "Activate Stateless vs Stateful Widgets",
+          "code": "print(\"Widgets active\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 4!",
+        "required_output_text": "Widgets active",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 4",
-        "desc": "Practice Session 4 at home!",
-        "code": "// Home Challenge: Session 4",
-        "starter_code": "// Home Challenge: Session 4"
+        "title": "🏠 Magic Home Challenge: Stateless vs Stateful Widgets Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Stateless vs Stateful Widgets' using the starter template below!",
+        "code": "# Home Challenge: Stateless vs Stateful Widgets Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Stateless vs Stateful Widgets Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 5,
-      "badge_icon": "??",
-      "badge_title": "Session 5 Medal",
-      "title": "Station 5: Session 5: Core Concepts",
-      "desc": "Interactive Session 5: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 5: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 5</div>",
-      "simple": "Imagine Session 5: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 5!');</code>",
-      "challenge": "Print: <code>print('Activated Session 5!');</code>",
-      "starter_code": "// Activate Session 5\nvoid main() {\n  print('Activated Session 5!');\n}",
+      "badge_icon": "📱",
+      "badge_title": "Layouts with Columns & Rows Medal",
+      "title": "Station 5: Layouts with Columns & Rows",
+      "desc": "Structure mobile components vertically (Column) and horizontally (Row).",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>Layouts with Columns & Rows</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>Layouts with Columns & Rows</b>: Structure mobile components vertically (Column) and horizontally (Row).</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Column layout</li><li>🎯 Row positioning</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Layouts with Columns & Rows is like drawing beautiful rooms, buttons, and stickers on a white canvas to make your application look spectacular!",
+      "hint": "Type in the editor: <code>print(\"Layout active\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Layout active</code> to unlock the Layouts with Columns & Rows medal!",
+      "starter_code": "# Simulate Layouts with Columns & Rows activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 5!');"
+          "label": "Activate Layouts with Columns & Rows",
+          "code": "print(\"Layout active\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 5!",
+        "required_output_text": "Layout active",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 5",
-        "desc": "Practice Session 5 at home!",
-        "code": "// Home Challenge: Session 5",
-        "starter_code": "// Home Challenge: Session 5"
+        "title": "🏠 Magic Home Challenge: Layouts with Columns & Rows Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Layouts with Columns & Rows' using the starter template below!",
+        "code": "# Home Challenge: Layouts with Columns & Rows Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Layouts with Columns & Rows Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 6,
-      "badge_icon": "??",
-      "badge_title": "Session 6 Medal",
-      "title": "Station 6: Session 6: Core Concepts",
-      "desc": "Interactive Session 6: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 6: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 6</div>",
-      "simple": "Imagine Session 6: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 6!');</code>",
-      "challenge": "Print: <code>print('Activated Session 6!');</code>",
-      "starter_code": "// Activate Session 6\nvoid main() {\n  print('Activated Session 6!');\n}",
+      "badge_icon": "🎯",
+      "badge_title": "Scrolling Lists with ListView Medal",
+      "title": "Station 6: Scrolling Lists with ListView",
+      "desc": "Load dynamic list rows that scroll smoothly without screen lag.",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>Scrolling Lists with ListView</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>Scrolling Lists with ListView</b>: Load dynamic list rows that scroll smoothly without screen lag.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 ListView builders</li><li>🎯 Card elements</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Scrolling Lists with ListView is like drawing beautiful rooms, buttons, and stickers on a white canvas to make your application look spectacular!",
+      "hint": "Type in the editor: <code>print(\"List scrolling\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>List scrolling</code> to unlock the Scrolling Lists with ListView medal!",
+      "starter_code": "# Simulate Scrolling Lists with ListView activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 6!');"
+          "label": "Activate Scrolling Lists with ListView",
+          "code": "print(\"List scrolling\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 6!",
+        "required_output_text": "List scrolling",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 6",
-        "desc": "Practice Session 6 at home!",
-        "code": "// Home Challenge: Session 6",
-        "starter_code": "// Home Challenge: Session 6"
+        "title": "🏠 Magic Home Challenge: Scrolling Lists with ListView Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Scrolling Lists with ListView' using the starter template below!",
+        "code": "# Home Challenge: Scrolling Lists with ListView Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Scrolling Lists with ListView Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 7,
-      "badge_icon": "??",
-      "badge_title": "Session 7 Medal",
-      "title": "Station 7: Session 7: Core Concepts",
-      "desc": "Interactive Session 7: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 7: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 7</div>",
-      "simple": "Imagine Session 7: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 7!');</code>",
-      "challenge": "Print: <code>print('Activated Session 7!');</code>",
-      "starter_code": "// Activate Session 7\nvoid main() {\n  print('Activated Session 7!');\n}",
+      "badge_icon": "🎯",
+      "badge_title": "Forms & TextField Inputs Medal",
+      "title": "Station 7: Forms & TextField Inputs",
+      "desc": "Create secure login and checkout form fields that collect inputs.",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>Forms & TextField Inputs</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>Forms & TextField Inputs</b>: Create secure login and checkout form fields that collect inputs.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 TextField</li><li>🎯 Form validation</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Forms & TextField Inputs is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Form submitted\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Form submitted</code> to unlock the Forms & TextField Inputs medal!",
+      "starter_code": "# Simulate Forms & TextField Inputs activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 7!');"
+          "label": "Activate Forms & TextField Inputs",
+          "code": "print(\"Form submitted\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 7!",
+        "required_output_text": "Form submitted",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 7",
-        "desc": "Practice Session 7 at home!",
-        "code": "// Home Challenge: Session 7",
-        "starter_code": "// Home Challenge: Session 7"
+        "title": "🏠 Magic Home Challenge: Forms & TextField Inputs Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Forms & TextField Inputs' using the starter template below!",
+        "code": "# Home Challenge: Forms & TextField Inputs Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Forms & TextField Inputs Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 8,
-      "badge_icon": "??",
-      "badge_title": "Session 8 Medal",
-      "title": "Station 8: Session 8: Core Concepts",
-      "desc": "Interactive Session 8: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 8: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 8</div>",
-      "simple": "Imagine Session 8: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 8!');</code>",
-      "challenge": "Print: <code>print('Activated Session 8!');</code>",
-      "starter_code": "// Activate Session 8\nvoid main() {\n  print('Activated Session 8!');\n}",
+      "badge_icon": "📱",
+      "badge_title": "Navigation & App Screens Medal",
+      "title": "Station 8: Navigation & App Screens",
+      "desc": "Teleport users between different screens using standard Navigator routes.",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>Navigation & App Screens</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>Navigation & App Screens</b>: Teleport users between different screens using standard Navigator routes.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 MaterialPageRoute</li><li>🎯 Navigator push</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Navigation & App Screens is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Screen loaded\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Screen loaded</code> to unlock the Navigation & App Screens medal!",
+      "starter_code": "# Simulate Navigation & App Screens activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 8!');"
+          "label": "Activate Navigation & App Screens",
+          "code": "print(\"Screen loaded\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 8!",
+        "required_output_text": "Screen loaded",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 8",
-        "desc": "Practice Session 8 at home!",
-        "code": "// Home Challenge: Session 8",
-        "starter_code": "// Home Challenge: Session 8"
+        "title": "🏠 Magic Home Challenge: Navigation & App Screens Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Navigation & App Screens' using the starter template below!",
+        "code": "# Home Challenge: Navigation & App Screens Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Navigation & App Screens Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 9,
-      "badge_icon": "??",
-      "badge_title": "Session 9 Medal",
-      "title": "Station 9: Session 9: Core Concepts",
-      "desc": "Interactive Session 9: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 9: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 9</div>",
-      "simple": "Imagine Session 9: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 9!');</code>",
-      "challenge": "Print: <code>print('Activated Session 9!');</code>",
-      "starter_code": "// Activate Session 9\nvoid main() {\n  print('Activated Session 9!');\n}",
+      "badge_icon": "🎯",
+      "badge_title": "State Management Basics Medal",
+      "title": "Station 9: State Management Basics",
+      "desc": "Sync and refresh data across multiple widget screens automatically.",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>State Management Basics</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>State Management Basics</b>: Sync and refresh data across multiple widget screens automatically.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 State variables</li><li>🎯 setState updates</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine State Management Basics is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"State updated\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>State updated</code> to unlock the State Management Basics medal!",
+      "starter_code": "# Simulate State Management Basics activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 9!');"
+          "label": "Activate State Management Basics",
+          "code": "print(\"State updated\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 9!",
+        "required_output_text": "State updated",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 9",
-        "desc": "Practice Session 9 at home!",
-        "code": "// Home Challenge: Session 9",
-        "starter_code": "// Home Challenge: Session 9"
+        "title": "🏠 Magic Home Challenge: State Management Basics Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'State Management Basics' using the starter template below!",
+        "code": "# Home Challenge: State Management Basics Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: State Management Basics Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 10,
-      "badge_icon": "??",
-      "badge_title": "Session 10 Medal",
-      "title": "Station 10: Session 10: Core Concepts",
-      "desc": "Interactive Session 10: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 10: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 10</div>",
-      "simple": "Imagine Session 10: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 10!');</code>",
-      "challenge": "Print: <code>print('Activated Session 10!');</code>",
-      "starter_code": "// Activate Session 10\nvoid main() {\n  print('Activated Session 10!');\n}",
+      "badge_icon": "🎯",
+      "badge_title": "Fetching API Data online Medal",
+      "title": "Station 10: Fetching API Data online",
+      "desc": "Connect your app to the cloud to fetch real-time weather or post data.",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>Fetching API Data online</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>Fetching API Data online</b>: Connect your app to the cloud to fetch real-time weather or post data.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 HTTP client</li><li>🎯 JSON decoding</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Fetching API Data online is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"API loaded\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>API loaded</code> to unlock the Fetching API Data online medal!",
+      "starter_code": "# Simulate Fetching API Data online activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 10!');"
+          "label": "Activate Fetching API Data online",
+          "code": "print(\"API loaded\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 10!",
+        "required_output_text": "API loaded",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 10",
-        "desc": "Practice Session 10 at home!",
-        "code": "// Home Challenge: Session 10",
-        "starter_code": "// Home Challenge: Session 10"
+        "title": "🏠 Magic Home Challenge: Fetching API Data online Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Fetching API Data online' using the starter template below!",
+        "code": "# Home Challenge: Fetching API Data online Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Fetching API Data online Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 11,
-      "badge_icon": "??",
-      "badge_title": "Session 11 Medal",
-      "title": "Station 11: Session 11: Core Concepts",
-      "desc": "Interactive Session 11: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 11: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 11</div>",
-      "simple": "Imagine Session 11: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 11!');</code>",
-      "challenge": "Print: <code>print('Activated Session 11!');</code>",
-      "starter_code": "// Activate Session 11\nvoid main() {\n  print('Activated Session 11!');\n}",
+      "badge_icon": "💾",
+      "badge_title": "Local Storage Preferences Medal",
+      "title": "Station 11: Local Storage Preferences",
+      "desc": "Save user login states and themes locally inside phone memory.",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>Local Storage Preferences</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>Local Storage Preferences</b>: Save user login states and themes locally inside phone memory.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 Shared Preferences</li><li>🎯 Save key/value</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Local Storage Preferences is like a digital treasure box that safely stores your achievements so they remain even when you restart the computer!",
+      "hint": "Type in the editor: <code>print(\"Preferences saved\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Preferences saved</code> to unlock the Local Storage Preferences medal!",
+      "starter_code": "# Simulate Local Storage Preferences activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 11!');"
+          "label": "Activate Local Storage Preferences",
+          "code": "print(\"Preferences saved\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 11!",
+        "required_output_text": "Preferences saved",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 11",
-        "desc": "Practice Session 11 at home!",
-        "code": "// Home Challenge: Session 11",
-        "starter_code": "// Home Challenge: Session 11"
+        "title": "🏠 Magic Home Challenge: Local Storage Preferences Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Local Storage Preferences' using the starter template below!",
+        "code": "# Home Challenge: Local Storage Preferences Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Local Storage Preferences Simulator\n# Write your creative solution here!"
       }
     },
     {
       "id": 12,
-      "badge_icon": "??",
-      "badge_title": "Session 12 Medal",
-      "title": "Station 12: Session 12: Core Concepts",
-      "desc": "Interactive Session 12: Core Concepts",
-      "story": "<h3>?? Welcome, future legend!</h3>Let's dive into <b>Session 12: Core Concepts</b>!<br><br><b>?? Key Points:</b><ul><li>?? Mastering Flutter Mobile Development techniques!</li></ul><div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 4px; margin-top: 10px;'>?? <b>Project:</b> Interactive Session 12</div>",
-      "simple": "Imagine Session 12: Core Concepts is like designing a beautiful machine!",
-      "hint": "Type: <code>print('Activated Session 12!');</code>",
-      "challenge": "Print: <code>print('Activated Session 12!');</code>",
-      "starter_code": "// Activate Session 12\nvoid main() {\n  print('Activated Session 12!');\n}",
+      "badge_icon": "🏆",
+      "badge_title": "Mega Flutter Graduation Project Medal",
+      "title": "Station 12: Mega Flutter Graduation Project",
+      "desc": "Deploy a complete dynamic mobile app with beautiful responsive screens.",
+      "story": "<h3>🐦 Hello, future coding hero!</h3>I am your friend <b>Dash</b>, and today I will accompany you on an exciting coding adventure to explore <b>Mega Flutter Graduation Project</b>! 🌟<br><br><b>🎯 Key Points Covered in this Session:</b><ul><li>🐦 <b>Mega Flutter Graduation Project</b>: Deploy a complete dynamic mobile app with beautiful responsive screens.</li></ul><b>⛳ Session Objectives:</b><ul><li>🎯 App assembly</li><li>🎯 Export apk</li></ul><br><p>Let's run the terminal verify code below to unlock this station's secret medal! You've got this! 🌟🚀</p>",
+      "simple": "Imagine Mega Flutter Graduation Project is like assembling perfect Lego pieces that connect together to build a grand castle!",
+      "hint": "Type in the editor: <code>print(\"Flutter app active\")</code> and press Run!",
+      "challenge": "Print the exact activation message: <code>Flutter app active</code> to unlock the Mega Flutter Graduation Project medal!",
+      "starter_code": "# Simulate Mega Flutter Graduation Project activation:\n",
       "pills": [
         {
-          "label": "Activate",
-          "code": "print('Activated Session 12!');"
+          "label": "Activate Mega Flutter Graduation Project",
+          "code": "print(\"Flutter app active\")"
         }
       ],
       "validation_rules": {
-        "required_output_text": "Activated Session 12!",
+        "required_output_text": "Flutter app active",
         "required_canvas": false
       },
       "homework": {
-        "title": "?? Magic Home Challenge: Session 12",
-        "desc": "Practice Session 12 at home!",
-        "code": "// Home Challenge: Session 12",
-        "starter_code": "// Home Challenge: Session 12"
+        "title": "🏠 Magic Home Challenge: Mega Flutter Graduation Project Builder",
+        "desc": "Great work! At home, practice creating a custom script or model simulating 'Mega Flutter Graduation Project' using the starter template below!",
+        "code": "# Home Challenge: Mega Flutter Graduation Project Simulator\n# Write your creative solution here!",
+        "starter_code": "# Home Challenge: Mega Flutter Graduation Project Simulator\n# Write your creative solution here!"
       }
     }
   ]
