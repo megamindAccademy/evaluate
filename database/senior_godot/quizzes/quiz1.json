@@ -1,126 +1,126 @@
 {
-  "quiz_name": "Quiz 1: Fundamentals & Core Architecture",
+  "quiz_title": "Godot Game Development - Challenge 1",
+  "quiz_name": "الاختبار 1: العقد والمشاهد ولغة GDScript السحرية! 🏰📝",
   "questions": [
     {
-      "q": "Which component handles standard 'Basic Setup' properties in Godot Game Development?",
+      "q": "ما هي قطعة الليجو الأساسية وحجر البناء لكل جزء في محرك جودوت؟",
       "opts": [
-        "Aesthetic Basic Setup Controller",
-        "Default Basic Setup Interface",
-        "Custom Basic Setup Data Handler",
-        "Standard Basic Setup Wrapper"
+        "العقدة أو الـ Node اللطيفة",
+        "الملف البرمجي أو الـ Script",
+        "المحرك الفيزيائي",
+        "عقدة الكاميرا فقط"
       ],
       "correct": 0,
-      "exp": "The 'Basic Setup' component is designed to manage functional Basic Setup layers inside the Godot Game Development framework."
+      "exp": "العقدة (Node) هي حجر الأساس واللبنة الملونة الأساسية التي نبني بها كل جزء وتفصيلة في ألعابنا بجودوت!"
     },
     {
-      "q": "Which component handles standard 'Key Features' properties in Godot Game Development?",
+      "q": "ماذا نطلق على مجموعة العقد المنظمة بشكل شجري والتي تمثل عالماً أو مستوى كاملاً؟",
       "opts": [
-        "Aesthetic Key Features Controller",
-        "Default Key Features Interface",
-        "Custom Key Features Data Handler",
-        "Standard Key Features Wrapper"
+        "الحدث أو Event",
+        "المشهد أو Scene اللطيف",
+        "قاعدة البيانات",
+        "مكتبة الأصوات"
       ],
       "correct": 1,
-      "exp": "The 'Key Features' component is designed to manage functional Key Features layers inside the Godot Game Development framework."
+      "exp": "المشهد (Scene) هو مثل غرفة الألعاب الكبيرة التي نجمع فيها كل العقد الملونة لتمثيل مستوى أو واجهة كاملة!"
     },
     {
-      "q": "Which component handles standard 'Variables' properties in Godot Game Development?",
+      "q": "في علاقة الأب والابن داخل جودوت، ماذا يحدث لخصائص الابن؟",
       "opts": [
-        "Aesthetic Variables Controller",
-        "Default Variables Interface",
-        "Custom Variables Data Handler",
-        "Standard Variables Wrapper"
+        "تختفي تماماً وتلغى",
+        "ترث العقدة الابن الخصائص والموضع من العقدة الأب اللطيف",
+        "تتحكم في العقدة الأب وتغير موضعه",
+        "تتحول إلى أكواد برمجية معقدة"
+      ],
+      "correct": 1,
+      "exp": "ترث العقدة الابن خصائص العقدة الأب (مثل موضعه وحركته) لتتحرك معه أينما ذهب في عالم اللعبة اللطيف!"
+    },
+    {
+      "q": "ما هي لغة البرمجة الأساسية في جودوت المتميزة ببساطتها وتشابهها مع بايثون؟",
+      "opts": [
+        "لغة جافا سكريبت",
+        "لغة سي بلس بلس",
+        "لغة GDScript السحرية اللطيفة",
+        "لغة البلوكس التفاعلية"
       ],
       "correct": 2,
-      "exp": "The 'Variables' component is designed to manage functional Variables layers inside the Godot Game Development framework."
+      "exp": "لغة GDScript هي اللغة السحرية المصممة خصيصاً لمحرك جودوت لتكون سهلة للغاية وتشبه لغة بايثون الرائعة!"
     },
     {
-      "q": "Which component handles standard 'Initial Config' properties in Godot Game Development?",
+      "q": "أي كلمة سحرية نستخدمها لنصنع صندوقاً ذكياً (متغيراً) نخزن فيه بيانات اللعبة؟",
       "opts": [
-        "Aesthetic Initial Config Controller",
-        "Default Initial Config Interface",
-        "Custom Initial Config Data Handler",
-        "Standard Initial Config Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Initial Config' component is designed to manage functional Initial Config layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Basic Setup' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Basic Setup Controller",
-        "Default Basic Setup Interface",
-        "Custom Basic Setup Data Handler",
-        "Standard Basic Setup Wrapper"
+        "الكلمة السحرية var",
+        "الكلمة السحرية func",
+        "الكلمة السحرية const",
+        "الكلمة السحرية print"
       ],
       "correct": 0,
-      "exp": "The 'Basic Setup' component is designed to manage functional Basic Setup layers inside the Godot Game Development framework."
+      "exp": "الكلمة var هي اختصار لـ Variable، ونستخدمها لنصنع صناديق ذكية تحفظ قلوب أبطالنا ونقاطهم!"
     },
     {
-      "q": "Which component handles standard 'Key Features' properties in Godot Game Development?",
+      "q": "إذا أردنا حفظ عدد قلوب البطل وقيمتها 3 (رقم صحيح)، ما هو نوع هذه البيانات؟",
       "opts": [
-        "Aesthetic Key Features Controller",
-        "Default Key Features Interface",
-        "Custom Key Features Data Handler",
-        "Standard Key Features Wrapper"
+        "بيانات عشرية Float",
+        "بيانات منطقية Bool",
+        "بيانات النصوص String",
+        "بيانات صحيحة int اللطيفة"
+      ],
+      "correct": 3,
+      "exp": "النوع int (Integer) هو المخصص للأرقام الصحيحة والكاملة دون كسور مثل عدد القلوب أو النقاط!"
+    },
+    {
+      "q": "ما هو نوع البيانات الذي يحتمل خيارين سحريين فقط: صح (true) أو خطأ (false)؟",
+      "opts": [
+        "نوع البيانات المنطقي bool",
+        "نوع البيانات float",
+        "نوع البيانات int",
+        "العقد الملونة"
+      ],
+      "correct": 0,
+      "exp": "النوع bool (Boolean) هو صندوق الاختيارات اللطيف الذي يخبرنا بنعم أو لا، مثل هل البطل يطير أم لا!"
+    },
+    {
+      "q": "متى يتم استدعاء دالة البداية السحرية _ready() في جودوت؟",
+      "opts": [
+        "في كل إطار من إطارات اللعبة بسرعة فائقة",
+        "مرة واحدة فقط في البداية عند تشغيل المشهد ودخول العقدة",
+        "عند تصادم الأجسام ببعضها فقط",
+        "عند إغلاق اللعبة"
       ],
       "correct": 1,
-      "exp": "The 'Key Features' component is designed to manage functional Key Features layers inside the Godot Game Development framework."
+      "exp": "دالة ready() هي مثل منبه الصباح، توقظ العقدة مرة واحدة في بداية اللعب لتستعد لأداء مهامها!"
     },
     {
-      "q": "Which component handles standard 'Variables' properties in Godot Game Development?",
+      "q": "أي دالة سريعة تستدعى باستمرار وتحدث حركة الشخصيات بلمح البصر في كل إطار؟",
       "opts": [
-        "Aesthetic Variables Controller",
-        "Default Variables Interface",
-        "Custom Variables Data Handler",
-        "Standard Variables Wrapper"
+        "دالة ready()",
+        "دالة quit()",
+        "دالة التحديث المستمر _process(delta)",
+        "دالة change_scene()"
       ],
       "correct": 2,
-      "exp": "The 'Variables' component is designed to manage functional Variables layers inside the Godot Game Development framework."
+      "exp": "دالة _process(delta) هي المحرك النفاث الذي يحدث الحركة والأنشطة بسرعة فائقة في كل إطار من اللعبة!"
     },
     {
-      "q": "Which component handles standard 'Initial Config' properties in Godot Game Development?",
+      "q": "ما هي الفائدة الأساسية لمحرك الألعاب (Game Engine) مثل جودوت؟",
       "opts": [
-        "Aesthetic Initial Config Controller",
-        "Default Initial Config Interface",
-        "Custom Initial Config Data Handler",
-        "Standard Initial Config Wrapper"
+        "لتصفح الإنترنت ولعب ألعاب الآخرين فقط",
+        "لبرمجة المواقع الإلكترونية الكبيرة",
+        "لتوفير أدوات جاهزة لتسهيل بناء حركات وأصوات وصور الألعاب بسلاسة",
+        "لرسم اللوحات الفنية الكلاسيكية فقط"
       ],
-      "correct": 3,
-      "exp": "The 'Initial Config' component is designed to manage functional Initial Config layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Basic Setup' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Basic Setup Controller",
-        "Default Basic Setup Interface",
-        "Custom Basic Setup Data Handler",
-        "Standard Basic Setup Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Basic Setup' component is designed to manage functional Basic Setup layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Key Features' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Key Features Controller",
-        "Default Key Features Interface",
-        "Custom Key Features Data Handler",
-        "Standard Key Features Wrapper"
-      ],
-      "correct": 1,
-      "exp": "The 'Key Features' component is designed to manage functional Key Features layers inside the Godot Game Development framework."
+      "correct": 2,
+      "exp": "يوفر محرك الألعاب صندوقاً كاملاً يحتوي على محرك فيزيائي وأدوات صوت ورسم لتسهيل بناء ألعابنا المذهلة!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Basic Setup Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Basic Setup properties inside the Godot Game Development setup."
+      "title": "تحدي ترحيب جودوت اللطيف",
+      "desc": "اكتب كوداً يطبع عبارة ترحيبية دافئة داخل دالة ready() واختبرها لتثبت سلامة مشروعك الأول!"
     },
     {
-      "title": "Optimize Key Features Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize Key Features operations for user-centered design."
+      "title": "صندوق طاقة ديينو الذكي",
+      "desc": "قم بتعريف متغير برقم عشري يمثل حجم ديينو اللطيف، ثم اطبع الحجم على الشاشة لتشجيعه!"
     }
-  ],
-  "quiz_title": "Godot Game Development - Challenge 1"
+  ]
 }

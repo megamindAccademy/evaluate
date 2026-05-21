@@ -1,126 +1,126 @@
 {
-  "quiz_name": "Quiz 2: Layout & Control Flow",
+  "quiz_title": "Godot Game Development - Challenge 2",
+  "quiz_name": "الاختبار 2: أساليب الرسم الفني والعمليات الرياضية لأرنوب! 🎨🐰",
   "questions": [
     {
-      "q": "Which component handles standard 'Structure' properties in Godot Game Development?",
+      "q": "أي أسلوب رسم يعتمد على مربعات صغيرة ملونة تذكرنا بالألعاب الكلاسيكية القديمة والجميلة؟",
       "opts": [
-        "Aesthetic Structure Controller",
-        "Default Structure Interface",
-        "Custom Structure Data Handler",
-        "Standard Structure Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Loop Controls' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Loop Controls Controller",
-        "Default Loop Controls Interface",
-        "Custom Loop Controls Data Handler",
-        "Standard Loop Controls Wrapper"
+        "الرسم ثلاثي الأبعاد 3D",
+        "أسلوب بكسل آرت أو Pixel Art اللطيف",
+        "الرسم المتجهي Vector",
+        "الرسم الواقعي Grit"
       ],
       "correct": 1,
-      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Godot Game Development framework."
+      "exp": "أسلوب Pixel Art يعتمد على المربعات الصغيرة الملونة ليمنح لعبتنا طابعاً كلاسيكياً وجميلاً يحبه الجميع!"
     },
     {
-      "q": "Which component handles standard 'Resizing rules' properties in Godot Game Development?",
+      "q": "ماذا نطلق على الصور الثنائية الأبعاد الفردية التي تمثل الأبطال والأشياء في عالم اللعبة؟",
       "opts": [
-        "Aesthetic Resizing rules Controller",
-        "Default Resizing rules Interface",
-        "Custom Resizing rules Data Handler",
-        "Standard Resizing rules Wrapper"
+        "العقد الصوتية",
+        "الصور الكارتونية Sprite اللطيفة",
+        "المشهد الكبير",
+        "دالة الرياضيات"
+      ],
+      "correct": 1,
+      "exp": "الـ Sprites هي الصور ثنائية الأبعاد اللطيفة التي تمثل الأبطال والأشرار والكنوز داخل لعبتنا الملونة!"
+    },
+    {
+      "q": "ما هي ورقة الحركة (Sprite Sheet)؟",
+      "opts": [
+        "ورقة ترسم فيها الأفكار على لوحة خشبية",
+        "صورة واحدة كبيرة تجمع عدة لقطات متعاقبة لحركات البطل لتوفير ذاكرة جهازنا اللطيف",
+        "كود برمجي طويل جداً",
+        "مشهد يحتوي على كاميرات كثيرة"
+      ],
+      "correct": 1,
+      "exp": "ورقة الحركة تجمع كل لقطات ركض وقفز بطلنا اللطيف في صورة واحدة كبيرة وموفرة لذاكرة الحاسوب!"
+    },
+    {
+      "q": "أي عقدة سحرية نستخدمها في جودوت لجمع إطارات الحركة وعرضها متتالية لتبدو الشخصية كأنها تجري؟",
+      "opts": [
+        "عقدة الكاميرا Camera2D",
+        "عقدة النصوص Label",
+        "عقدة الصور المتحركة AnimatedSprite الساحرة",
+        "عقدة الحدود StaticBody2D"
       ],
       "correct": 2,
-      "exp": "The 'Resizing rules' component is designed to manage functional Resizing rules layers inside the Godot Game Development framework."
+      "exp": "عقدة AnimatedSprite هي البوابة السحرية التي تجمع لقطات متعاقبة (Frames) وتعرضها بسرعة لتبدو الشخصية حية وتتحرك!"
     },
     {
-      "q": "Which component handles standard 'Positioning' properties in Godot Game Development?",
+      "q": "كيف نحسب الحركة والسرعة في الألعاب بصورة صحيحة وسلسة في كل إطار؟",
       "opts": [
-        "Aesthetic Positioning Controller",
-        "Default Positioning Interface",
-        "Custom Positioning Data Handler",
-        "Standard Positioning Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Positioning' component is designed to manage functional Positioning layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Structure' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Structure Controller",
-        "Default Structure Interface",
-        "Custom Structure Data Handler",
-        "Standard Structure Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Loop Controls' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Loop Controls Controller",
-        "Default Loop Controls Interface",
-        "Custom Loop Controls Data Handler",
-        "Standard Loop Controls Wrapper"
+        "بالتحديث العشوائي دون استخدام الأكواد",
+        "بتحديث موضع الصورة بناءً على سرعتها والزمن الفاصل delta لضمان سلاسة الحركة",
+        "بتكبير حجم الشخصية باستمرار",
+        "بإيقاف الصوت فجأة"
       ],
       "correct": 1,
-      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Godot Game Development framework."
+      "exp": "نضرب السرعة في الزمن delta لتكون الحركة ناعمة وسلسة ومتناسقة على كافة الأجهزة الذكية!"
     },
     {
-      "q": "Which component handles standard 'Resizing rules' properties in Godot Game Development?",
+      "q": "أي عملية حسابية نستخدمها برمجياً لمعرفة باقي القسمة اللطيف (مثلاً 10 % 3)؟",
       "opts": [
-        "Aesthetic Resizing rules Controller",
-        "Default Resizing rules Interface",
-        "Custom Resizing rules Data Handler",
-        "Standard Resizing rules Wrapper"
+        "عملية القسمة /",
+        "عملية الضرب *",
+        "عملية باقي القسمة أو Modulus (%)",
+        "عملية الجمع +"
       ],
       "correct": 2,
-      "exp": "The 'Resizing rules' component is designed to manage functional Resizing rules layers inside the Godot Game Development framework."
+      "exp": "الرمز % يمثل عملية باقي القسمة (Modulus)، فباقي قسمة 10 على 3 هو 1 اللطيف!"
     },
     {
-      "q": "Which component handles standard 'Positioning' properties in Godot Game Development?",
+      "q": "أي مقارنة نستخدمها لنتأكد من أن سرعة أرنوب تساوي تماماً القيمة 100؟",
       "opts": [
-        "Aesthetic Positioning Controller",
-        "Default Positioning Interface",
-        "Custom Positioning Data Handler",
-        "Standard Positioning Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Positioning' component is designed to manage functional Positioning layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Structure' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Structure Controller",
-        "Default Structure Interface",
-        "Custom Structure Data Handler",
-        "Standard Structure Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Structure' component is designed to manage functional Structure layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Loop Controls' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Loop Controls Controller",
-        "Default Loop Controls Interface",
-        "Custom Loop Controls Data Handler",
-        "Standard Loop Controls Wrapper"
+        "استخدام رمز يساوي المفرد =",
+        "استخدام رمز التساوي الثنائي == السحري",
+        "استخدام رمز التعجب !",
+        "استخدام رمز الضرب *"
       ],
       "correct": 1,
-      "exp": "The 'Loop Controls' component is designed to manage functional Loop Controls layers inside the Godot Game Development framework."
+      "exp": "نستخدم رمز التساوي المزدوج == لمقارنة القيم والتحقق من تساويها برمجياً (مثل speed == 100)!"
+    },
+    {
+      "q": "أي رابط منطقي يعود بالصواب (true) فقط إذا تحقق الشرطان معاً في نفس الوقت؟",
+      "opts": [
+        "الرابط المنطقي and الذكي",
+        "الرابط المنطقي or اللطيف",
+        "الرابط المنطقي not العاكس",
+        "عملية الضرب"
+      ],
+      "correct": 0,
+      "exp": "الرابط and يتطلب تحقق الشرطين معاً، مثل: هل أرنوب يملك الجناح ولديه طاقة كافية ليطير؟"
+    },
+    {
+      "q": "ماذا تفعل دالة الحجم الرائعة set_scale(Vector2(2, 2)) لعقدة اللعبة؟",
+      "opts": [
+        "تخفي العقدة تماماً وتحذفها",
+        "تضاعف حجم ومظهر العقدة مرتين على محوري x و y لتصبح عملاقة ولطيفة",
+        "تغير لون العقدة إلى الأحمر",
+        "تشغل مؤثرات صوتية حزينة"
+      ],
+      "correct": 1,
+      "exp": "دالة set_scale تغير مقاس وحجم العقدة، وتمرير القيمة 2 يضاعف طولها وعرضها لتصبح عملاقة ومرحة!"
+    },
+    {
+      "q": "لماذا تختلف الألوان الفنية بين ألعاب المغامرات الكلاسيكية وألعاب الأكشن الحديثة؟",
+      "opts": [
+        "لأن جودوت لا يدعم سوى الألوان البيضاء",
+        "لأن لوحة الألوان والتصميم يحددان طابع ومزاج اللعبة ومشاعر اللاعبين",
+        "بسبب حجم ملف اللعبة فقط",
+        "لأن الألعاب القديمة لم تكن تحتوي على أكواد"
+      ],
+      "correct": 1,
+      "exp": "تحديد الألوان الساطعة والداكنة يعبر عن روح اللعبة؛ فالألوان البراقة تنشر البهجة، والألوان الترابية تمنح طابع المغامرة والواقعية!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Structure Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Structure properties inside the Godot Game Development setup."
+      "title": "تحدي ورقة حركة كيتي",
+      "desc": "صمم ورقة حركة تخيلية واكتب كوداً برمجياً يحدد سرعة حركة الإطارات لتبدو كيتي وكأنها تركض بنعومة!"
     },
     {
-      "title": "Optimize Loop Controls Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize Loop Controls operations for user-centered design."
+      "title": "تحدي مضاعفة حجم أرنوب",
+      "desc": "استخدم دالة set_scale لتكبير أرنوب إلى ثلاثة أضعاف حجمه الأصلي عند ملامسة الجزرة السحرية برمجياً!"
     }
-  ],
-  "quiz_title": "Godot Game Development - Challenge 2"
+  ]
 }

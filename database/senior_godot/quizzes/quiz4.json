@@ -1,126 +1,126 @@
 {
-  "quiz_name": "Quiz 4: Asset Integration & Styles",
+  "quiz_title": "Godot Game Development - Challenge 4",
+  "quiz_name": "الاختبار 4: لغة الإشارات السحرية ومؤثرات الصوت الحماسية! 📡🎵",
   "questions": [
     {
-      "q": "Which component handles standard 'Static Media' properties in Godot Game Development?",
+      "q": "ما هي الإشارات (Signals) في محرك جودوت المذهل؟",
       "opts": [
-        "Aesthetic Static Media Controller",
-        "Default Static Media Interface",
-        "Custom Static Media Data Handler",
-        "Standard Static Media Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Static Media' component is designed to manage functional Static Media layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Custom Styling' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Custom Styling Controller",
-        "Default Custom Styling Interface",
-        "Custom Custom Styling Data Handler",
-        "Standard Custom Styling Wrapper"
+        "مؤشرات ضوئية تظهر على الشاشة",
+        "شبكة اتصالات سحرية ترسلها العقد لتنبه الكود بوقوع حدث (مثل نقرة زر أو تصادم)",
+        "أصوات حزينة تعمل عند خسارة البطل",
+        "رسومات قديمة كلاسيكية"
       ],
       "correct": 1,
-      "exp": "The 'Custom Styling' component is designed to manage functional Custom Styling layers inside the Godot Game Development framework."
+      "exp": "الإشارات (Signals) هي الهواتف السحرية للعقد! ترسل إشارة فوراً عندما يقع حدث معين لتوقظ الدوال وتخبرها بالتنفيذ!"
     },
     {
-      "q": "Which component handles standard 'Vector offsets' properties in Godot Game Development?",
+      "q": "أي إشارة تطلقها عقدة الأزرار (Button) عندما يضغط عليها اللاعب بأصبعه اللطيف؟",
       "opts": [
-        "Aesthetic Vector offsets Controller",
-        "Default Vector offsets Interface",
-        "Custom Vector offsets Data Handler",
-        "Standard Vector offsets Wrapper"
+        "إشارة التصادم _on_body_entered()",
+        "إشارة التحديث _process()",
+        "إشارة النقر pressed() السحرية",
+        "إشارة البداية _ready()"
       ],
       "correct": 2,
-      "exp": "The 'Vector offsets' component is designed to manage functional Vector offsets layers inside the Godot Game Development framework."
+      "exp": "تطلق الأزرار إشارة pressed() عندما يتم نقرها، وهي الإشارة التي نربطها بالكود لنبدأ اللعب فورا!"
     },
     {
-      "q": "Which component handles standard 'Color Themes' properties in Godot Game Development?",
+      "q": "كيف ننتقل برمجياً وبسلاسة من مشهد القائمة الرئيسية إلى مشهد اللعب الفعلي Game.tscn؟",
       "opts": [
-        "Aesthetic Color Themes Controller",
-        "Default Color Themes Interface",
-        "Custom Color Themes Data Handler",
-        "Standard Color Themes Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Color Themes' component is designed to manage functional Color Themes layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Static Media' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Static Media Controller",
-        "Default Static Media Interface",
-        "Custom Static Media Data Handler",
-        "Standard Static Media Wrapper"
+        "باستخدام الكود get_tree().change_scene(\"res://Scenes/Game.tscn\") اللطيف",
+        "باستدعاء دالة الخروج get_tree().quit()",
+        "بحذف ملفات القائمة بالكامل",
+        "بتغيير حجم الكاميرا فقط"
       ],
       "correct": 0,
-      "exp": "The 'Static Media' component is designed to manage functional Static Media layers inside the Godot Game Development framework."
+      "exp": "الأمر get_tree().change_scene() هو الممر السحري الذي ينقلنا من عالم مشهد القائمة إلى عالم مشهد المغامرات واللعب!"
     },
     {
-      "q": "Which component handles standard 'Custom Styling' properties in Godot Game Development?",
+      "q": "أي كود برمجى نكتبه لنسمح للاعب بالخروج من اللعبة وإغلاق نافذتها بنعومة؟",
       "opts": [
-        "Aesthetic Custom Styling Controller",
-        "Default Custom Styling Interface",
-        "Custom Custom Styling Data Handler",
-        "Standard Custom Styling Wrapper"
+        "الأمر get_tree().change_scene()",
+        "الأمر get_tree().quit() السريع اللطيف",
+        "الأمر print(\"خروج\") فقط",
+        "تعديل دالة _process"
       ],
       "correct": 1,
-      "exp": "The 'Custom Styling' component is designed to manage functional Custom Styling layers inside the Godot Game Development framework."
+      "exp": "الأمر get_tree().quit() يغلق اللعبة بسلاسة ويسمح للاعب بالعودة لغرفته اللطيفة بعد إنهاء المغامرة!"
     },
     {
-      "q": "Which component handles standard 'Vector offsets' properties in Godot Game Development?",
+      "q": "ما هو دور المؤثرات الصوتية (Sound Effects) القصيرة والمرحة في ألعابنا؟",
       "opts": [
-        "Aesthetic Vector offsets Controller",
-        "Default Vector offsets Interface",
-        "Custom Vector offsets Data Handler",
-        "Standard Vector offsets Wrapper"
+        "لإزعاج اللاعبين وجعل اللعبة صاخبة فقط",
+        "لتوفير تغذية راجعة فورية تزيد من حماس وواقعية حركات القفز والاصطدام وجمع النقاط",
+        "لإيقاف حركة الكاميرا تماماً",
+        "لإخفاء العقد الملونة"
+      ],
+      "correct": 1,
+      "exp": "المؤثرات الصوتية تمنح اللاعب ردة فعل فورية مشجعة وممتعة تشعره بقيمة كل حركة وصدة يقوم بها!"
+    },
+    {
+      "q": "ما هي الموسيقى الخلفية (BGM) وما فائدتها في اللعبة؟",
+      "opts": [
+        "موسيقى تعمل لدقيقة واحدة ثم تتوقف للأبد",
+        "نغمات حالمة ومستمرة تلعب في الخلفية لتصنع الأجواء الحماسية والمزاج السعيد للعبتنا اللطيفة",
+        "كود فيزيائي لتسريع البطل",
+        "أصوات تصادم المضارب فقط"
+      ],
+      "correct": 1,
+      "exp": "الموسيقى الخلفية تلعب في الخلفية بشكل متكرر ولطيف لتأخذ اللاعب في رحلة خيالية حالمة ومريحة!"
+    },
+    {
+      "q": "أي عقدة نستخدمها في جودوت لإدراج الأصوات وتشغيل الموسيقى ثنائية الأبعاد؟",
+      "opts": [
+        "عقدة النصوص Label",
+        "عقدة الصوت AudioStreamPlayer2D المدهشة",
+        "عقدة الصور المتحركة AnimatedSprite",
+        "عقدة الحدود StaticBody2D"
+      ],
+      "correct": 1,
+      "exp": "عقدة AudioStreamPlayer2D هي مكبر الصوت السحري الذي تشغل لنا الموسيقى والمؤثرات الصوتية في كل أرجاء لعبتنا اللطيفة!"
+    },
+    {
+      "q": "ما هي الخاصية (Property) في عقدة الصوت التي نحمل فيها ملف الصوت (مثل صوت القفز mp3)؟",
+      "opts": [
+        "خاصية النبرة Pitch",
+        "خاصية الارتفاع Volume",
+        "خاصية المورد الصوتي Stream اللطيفة",
+        "دالة ready()"
       ],
       "correct": 2,
-      "exp": "The 'Vector offsets' component is designed to manage functional Vector offsets layers inside the Godot Game Development framework."
+      "exp": "خاصية Stream هي المستودع اللطيف الذي نسحب إليه ملف الصوت اللذيذ ليكون جاهزاً للتشغيل في لعبتنا المدهشة!"
     },
     {
-      "q": "Which component handles standard 'Color Themes' properties in Godot Game Development?",
+      "q": "أي دالة نستدعيها برمجياً في الكود لنطلق الموسيقى أو المؤثر الصوتي ليعمل فوراً؟",
       "opts": [
-        "Aesthetic Color Themes Controller",
-        "Default Color Themes Interface",
-        "Custom Color Themes Data Handler",
-        "Standard Color Themes Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Color Themes' component is designed to manage functional Color Themes layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Static Media' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Static Media Controller",
-        "Default Static Media Interface",
-        "Custom Static Media Data Handler",
-        "Standard Static Media Wrapper"
+        "الدالة play() السحرية",
+        "الدالة stop()",
+        "الدالة change_scene()",
+        "الدالة set_scale()"
       ],
       "correct": 0,
-      "exp": "The 'Static Media' component is designed to manage functional Static Media layers inside the Godot Game Development framework."
+      "exp": "دالة play() تعني هيا اعزل واعزف الموسيقى اللطيفة! نستدعيها فوراً ليعمل صوت قفز أرنوب أو صد كيتي للكرة!"
     },
     {
-      "q": "Which component handles standard 'Custom Styling' properties in Godot Game Development?",
+      "q": "كيف يمكننا كتم أو إيقاف جميع نغمات اللعبة عندما يطلب اللاعب إيقاف الصوت مؤقتاً؟",
       "opts": [
-        "Aesthetic Custom Styling Controller",
-        "Default Custom Styling Interface",
-        "Custom Custom Styling Data Handler",
-        "Standard Custom Styling Wrapper"
+        "بحذف عقد الصوت بالكامل من المشهد",
+        "باستدعاء دالة stop() على عقد الصوت أو تقليل حجم Volume_db إلى الصفر",
+        "بإغلاق محرك جودوت فجأة",
+        "بتصغير الكاميرا 2D"
       ],
       "correct": 1,
-      "exp": "The 'Custom Styling' component is designed to manage functional Custom Styling layers inside the Godot Game Development framework."
+      "exp": "دالة stop() توقف العزف والصوت فوراً بهدوء وسلاسة، وتعديل خاصية الصوت يتيح لنا كتم الصوت بمرونة فائقة!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Static Media Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Static Media properties inside the Godot Game Development setup."
+      "title": "تحدي ربط إشارة الزر",
+      "desc": "قم بربط إشارة pressed() من زر البدء بدالة مخصصة تطبع رسالة حماسية عند نقر اللاعب عليها!"
     },
     {
-      "title": "Optimize Custom Styling Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize Custom Styling operations for user-centered design."
+      "title": "تحدي تشغيل صوت القفز",
+      "desc": "أضف عقدة AudioStreamPlayer2D لمشروعك، واكتب كوداً برمجياً يستدعي دالة play() بمجرد قفز أرنوب!"
     }
-  ],
-  "quiz_title": "Godot Game Development - Challenge 4"
+  ]
 }

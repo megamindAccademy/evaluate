@@ -1,126 +1,126 @@
 {
-  "quiz_name": "Quiz 5: Persistence & Cache Storage",
+  "quiz_title": "Godot Game Development - Challenge 5",
+  "quiz_name": "الاختبار 5: الكاميرا الكاشفة وتلميع الألعاب وصقلها للنشر! 📸🚀",
   "questions": [
     {
-      "q": "Which component handles standard 'Local Caches' properties in Godot Game Development?",
+      "q": "ما هي الفائدة الأساسية لعقدة الكاميرا (Camera2D) في ألعاب المغامرات ثنائية الأبعاد؟",
       "opts": [
-        "Aesthetic Local Caches Controller",
-        "Default Local Caches Interface",
-        "Custom Local Caches Data Handler",
-        "Standard Local Caches Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'JSON Parsing' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic JSON Parsing Controller",
-        "Default JSON Parsing Interface",
-        "Custom JSON Parsing Data Handler",
-        "Standard JSON Parsing Wrapper"
+        "لرسم شخصيات جديدة بالكامل",
+        "لتحديد ما يراه اللاعب وتتبع البطل بسلاسة أثناء تجوله في العوالم الواسعة",
+        "لتشغيل أصوات قفز شهدور",
+        "لتعديل حجم الأزرار فقط"
       ],
       "correct": 1,
-      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Godot Game Development framework."
+      "exp": "عقدة Camera2D هي عدستنا السحرية وعين اللاعب اللطيفة التي تتحرك مع بطلنا الصغير لتكشف له أسرار عالم اللعبة الواسع!"
     },
     {
-      "q": "Which component handles standard 'Async operations' properties in Godot Game Development?",
+      "q": "كيف نجعل الكاميرا2D تتبع اللاعب وتكون هي الشاشة النشطة الرئيسية في جودوت؟",
       "opts": [
-        "Aesthetic Async operations Controller",
-        "Default Async operations Interface",
-        "Custom Async operations Data Handler",
-        "Standard Async operations Wrapper"
-      ],
-      "correct": 2,
-      "exp": "The 'Async operations' component is designed to manage functional Async operations layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Key lookups' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Key lookups Controller",
-        "Default Key lookups Interface",
-        "Custom Key lookups Data Handler",
-        "Standard Key lookups Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Key lookups' component is designed to manage functional Key lookups layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Local Caches' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Local Caches Controller",
-        "Default Local Caches Interface",
-        "Custom Local Caches Data Handler",
-        "Standard Local Caches Wrapper"
+        "بجعل الكاميرا طفلاً للاعب وتفعيل خيار current إلى صح (true)",
+        "بحذف الكاميرا وترك المشهد بدونها",
+        "بربط إشارة pressed() بالكاميرا",
+        "باستدعاء دالة get_tree().quit()"
       ],
       "correct": 0,
-      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Godot Game Development framework."
+      "exp": "بجعل الكاميرا ابناً يتبع موضع البطل وتفعيل خاصية current، ستعرض الشاشة دائماً موضع بطلنا اللطيف وتتحرك معه!"
     },
     {
-      "q": "Which component handles standard 'JSON Parsing' properties in Godot Game Development?",
+      "q": "ماذا تفعل خاصية تنعيم وتلطيف حركة الكاميرا (Smoothing) في الكاميرا2D؟",
       "opts": [
-        "Aesthetic JSON Parsing Controller",
-        "Default JSON Parsing Interface",
-        "Custom JSON Parsing Data Handler",
-        "Standard JSON Parsing Wrapper"
+        "تجعل الكاميرا تهتز بسرعة لتخيف اللاعب",
+        "تمنح الكاميرا حركة ناعمة وبطيئة أثناء اللحاق بالبطل لتمنع اهتزاز الشاشة المزعج",
+        "تحول صور اللعبة إلى بكسل آرت",
+        "توقف جميع المؤثرات الصوتية"
       ],
       "correct": 1,
-      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Godot Game Development framework."
+      "exp": "ميزة التنعيم (Smoothing) تجعل تتبع الكاميرا ناعماً ولطيفاً جداً مثل تتبع العين المريح، مما يعزز جمال اللعبة التفاعلية!"
     },
     {
-      "q": "Which component handles standard 'Async operations' properties in Godot Game Development?",
+      "q": "ما هو تأثير العمق المتداخل (Parallax Background) وكيف نحققه في ألعاب جودوت اللطيفة؟",
       "opts": [
-        "Aesthetic Async operations Controller",
-        "Default Async operations Interface",
-        "Custom Async operations Data Handler",
-        "Standard Async operations Wrapper"
+        "هو كود فيزيائي لتسريع ارتداد الكرة",
+        "هو تأثير يجعل طبقات الخلفية البعيدة تتحرك أبطأ من القريبة لصنع عمق وحيوية مذهلة لعالم اللعبة",
+        "هو زر تفاعلي نضغط عليه لنخرج من اللعبة",
+        "هو صوت BGM يعمل باستمرار"
       ],
-      "correct": 2,
-      "exp": "The 'Async operations' component is designed to manage functional Async operations layers inside the Godot Game Development framework."
+      "correct": 1,
+      "exp": "تأثير Parallax يجعل عوالمنا تنبض بالحياة عبر تحريك الجبال البعيدة ببطء والسحب بنعومة، مما يمنح إحساساً رائعاً بالعمق!"
     },
     {
-      "q": "Which component handles standard 'Key lookups' properties in Godot Game Development?",
+      "q": "ما هي الفائدة الكبرى لاستخدام ميثود التحميل المسبق preload(\"res://RainDrop.tscn\") في لعبتنا؟",
       "opts": [
-        "Aesthetic Key lookups Controller",
-        "Default Key lookups Interface",
-        "Custom Key lookups Data Handler",
-        "Standard Key lookups Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Key lookups' component is designed to manage functional Key lookups layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Local Caches' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Local Caches Controller",
-        "Default Local Caches Interface",
-        "Custom Local Caches Data Handler",
-        "Standard Local Caches Wrapper"
+        "لتحميل المورد في الذاكرة مسبقاً قبل بدء اللعب لتفادي أي تقطيع أو تجميد مفاجئ عند إنتاجه",
+        "لحذف المورد نهائياً وتوفير مساحة القرص",
+        "لتصغير حجم الأزرار",
+        "لإلغاء خاصية تنعيم حركة الكاميرا"
       ],
       "correct": 0,
-      "exp": "The 'Local Caches' component is designed to manage functional Local Caches layers inside the Godot Game Development framework."
+      "exp": "التحميل المسبق (preload) يجهز قطرات المطر أو رصاص البطل في الذاكرة مسبقاً ليطلقها الكود بسرعة البرق ودون أي تقطيع!"
     },
     {
-      "q": "Which component handles standard 'JSON Parsing' properties in Godot Game Development?",
+      "q": "ما هو مفهوم تلميع وصقل الألعاب (Polishing)؟",
       "opts": [
-        "Aesthetic JSON Parsing Controller",
-        "Default JSON Parsing Interface",
-        "Custom JSON Parsing Data Handler",
-        "Standard JSON Parsing Wrapper"
+        "مسح الغبار عن شاشة الحاسوب فقط",
+        "إضافة اللمسات الأخيرة المبهجة، صقل الرسوم، تعديل التجاوب، وحل كافة الأخطاء (Bugs) لتقديم لعبة مبهرة وخالية من المشاكل",
+        "تغيير اسم اللعبة في itch.io",
+        "برمجة دالة ready() لأول مرة"
       ],
       "correct": 1,
-      "exp": "The 'JSON Parsing' component is designed to manage functional JSON Parsing layers inside the Godot Game Development framework."
+      "exp": "التلميع (Polishing) هو لمسة الإبداع الأخيرة التي تصنع الفارق الكبير! تزيل الأخطاء وتضيف بهجة وحيوية تسعد قلوب اللاعبين!"
+    },
+    {
+      "q": "عند صقل الألعاب، ماذا يعني مؤشر الحيوية والتفاعل (Liveliness) اللطيف؟",
+      "opts": [
+        "أن اللعبة تعمل فقط دون انهيار",
+        "أن عالم اللعبة يبدو حياً ونابضاً بالأنشطة والمؤثرات البصرية اللطيفة التي تثير مشاعر اللاعبين",
+        "سرعة استجابة الأزرار للكيبورد",
+        "حجم ملف اللعبة النهائي"
+      ],
+      "correct": 1,
+      "exp": "الحيوية (Liveliness) تجعل اللعبة تبدو كأنها عالم حقيقي ينبض بالحياة، مثل سحب تتحرك، عصافير تطير، وأوراق شجر تهتز بمرح!"
+    },
+    {
+      "q": "أي تنسيق تصدير (Export) نختاره في جودوت لنحصل على ألعاب تعمل مباشرة داخل أي متصفح إنترنت؟",
+      "opts": [
+        "التصدير لمنصة الهواتف القديمة",
+        "التصدير لمنصة HTML5 السحرية للويب",
+        "التصدير كملف نصي عادي txt",
+        "التصدير لمنصة بلاي ستيشن فقط"
+      ],
+      "correct": 1,
+      "exp": "التصدير كـ HTML5 يتيح للعبتنا أن تعمل بسحر وسرعة داخل متصفحات الويب ليتمكن الجميع من لعبها فوراً بنقرة واحدة!"
+    },
+    {
+      "q": "ما هو موقع itch.io الشهير في عالم تطوير الألعاب المستقلة؟",
+      "opts": [
+        "موقع لمشاهدة الفيديوهات الكرتونية فقط",
+        "منصة مجانية ساحرة تتيح للمبدعين الصغار رفع ألعابهم ونشرها ومشاركتها مع العالم كله",
+        "برنامج لتصميم رسوم البكسل",
+        "محرك ألعاب منافس لجودوت"
+      ],
+      "correct": 1,
+      "exp": "منصة itch.io هي قصر الألعاب الكبير! نرفع عليها ألعاب الويب والكمبيوتر الخاصة بنا لنفخر بمجهودنا أمام عائلتنا وأصدقائنا!"
+    },
+    {
+      "q": "ما هي خطوات تصدير لعبتنا لـ HTML5 بالترتيب الصحيح في محرك جودوت؟",
+      "opts": [
+        "حذف المشروع وإعادة كتابته فجأة",
+        "1. Go to Project -> 2. Export -> 3. Add HTML5 -> 4. Click Export Project ودون وضع علامة debug",
+        "كتابة كود quit() في البداية",
+        "الاتصال بموقع itch.io عبر الهاتف"
+      ],
+      "correct": 1,
+      "exp": "نذهب لقائمة المشروع ثم تصدير ونضيف هدف ويب HTML5 ونحفظ الملفات في مجلد خاص تمهيداً لضغطها ونشرها!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Local Caches Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Local Caches properties inside the Godot Game Development setup."
+      "title": "تحدي الخلفية المتداخلة الساحرة",
+      "desc": "قم بإعداد طبقتين للخلفية (طبقة جبال بعيدة وسحب قريبة) واضبط سرعة حركتهما لتبدو لعبتك ذات عمق ساحر بفضل Parallax!"
     },
     {
-      "title": "Optimize JSON Parsing Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize JSON Parsing operations for user-centered design."
+      "title": "تحدي تلميع اللعبة للنشر",
+      "desc": "راجع لعبتك المفضلة، أضف مؤثرات بصرية مبهجة وصوتية مرحة لتلميعها وصقلها استعداداً لرفعها على itch.io!"
     }
-  ],
-  "quiz_title": "Godot Game Development - Challenge 5"
+  ]
 }

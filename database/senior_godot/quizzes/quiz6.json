@@ -1,126 +1,126 @@
 {
-  "quiz_name": "Quiz 6: API Feeds & Advanced Capstone",
+  "quiz_title": "Godot Game Development - Challenge 6",
+  "quiz_name": "الاختبار 6: أسرار لعبة البونج وتحدي الارتداد والإعلانات الترويجية! 🏓🏆",
   "questions": [
     {
-      "q": "Which component handles standard 'HTTP Requests' properties in Godot Game Development?",
+      "q": "ما هي الفكرة الأساسية وميكانيكية اللعب في لعبة البونج (Pong Game) الكلاسيكية؟",
       "opts": [
-        "Aesthetic HTTP Requests Controller",
-        "Default HTTP Requests Interface",
-        "Custom HTTP Requests Data Handler",
-        "Standard HTTP Requests Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'REST API integration' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic REST API integration Controller",
-        "Default REST API integration Interface",
-        "Custom REST API integration Data Handler",
-        "Standard REST API integration Wrapper"
+        "القفز فوق الحواجز وجمع القطع الذهبية",
+        "تحريك المضارب لصد الكرة اللطيفة ومنعها من تجاوز حدودنا وإرسالها لملعب الخصم",
+        "برمجة كاميرا ذكية تتبع العصافير تطير",
+        "تصميم إعلانات ترويجية فقط"
       ],
       "correct": 1,
-      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Godot Game Development framework."
+      "exp": "لعبة البونج هي مبارزة تفاعلية ممتعة، يتحرك فيها المضارب رأسياً لصد الكرة المندفعة ومنعها من الخروج عن الحدود!"
     },
     {
-      "q": "Which component handles standard 'Data streams' properties in Godot Game Development?",
+      "q": "أي نوع من العقد الفيزيائية الثابتة نستخدمه لصنع جدران وحدود ملعب البونج لتصد الكرة؟",
       "opts": [
-        "Aesthetic Data streams Controller",
-        "Default Data streams Interface",
-        "Custom Data streams Data Handler",
-        "Standard Data streams Wrapper"
-      ],
-      "correct": 2,
-      "exp": "The 'Data streams' component is designed to manage functional Data streams layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Final Deployment' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Final Deployment Controller",
-        "Default Final Deployment Interface",
-        "Custom Final Deployment Data Handler",
-        "Standard Final Deployment Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Final Deployment' component is designed to manage functional Final Deployment layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'HTTP Requests' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic HTTP Requests Controller",
-        "Default HTTP Requests Interface",
-        "Custom HTTP Requests Data Handler",
-        "Standard HTTP Requests Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'REST API integration' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic REST API integration Controller",
-        "Default REST API integration Interface",
-        "Custom REST API integration Data Handler",
-        "Standard REST API integration Wrapper"
+        "عقد الحركة KinematicBody2D",
+        "عقد الحدود والجدران StaticBody2D الثابتة",
+        "عقد النصوص Label",
+        "عقد الصوت AudioStreamPlayer2D"
       ],
       "correct": 1,
-      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Godot Game Development framework."
+      "exp": "عقدة StaticBody2D هي مثل حوائط البناء القوية! جدران ثابتة لا تتحرك وظيفتها الأساسية صد الأجسام الفيزيائية والكرة المندفعة!"
     },
     {
-      "q": "Which component handles standard 'Data streams' properties in Godot Game Development?",
+      "q": "أي نوع من العقد نستخدمه للمضارب والكرة حيث نريد كتابة أكواد خاصة لتتحكم بحركتها وفيزيائها؟",
       "opts": [
-        "Aesthetic Data streams Controller",
-        "Default Data streams Interface",
-        "Custom Data streams Data Handler",
-        "Standard Data streams Wrapper"
-      ],
-      "correct": 2,
-      "exp": "The 'Data streams' component is designed to manage functional Data streams layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Final Deployment' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Final Deployment Controller",
-        "Default Final Deployment Interface",
-        "Custom Final Deployment Data Handler",
-        "Standard Final Deployment Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Final Deployment' component is designed to manage functional Final Deployment layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'HTTP Requests' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic HTTP Requests Controller",
-        "Default HTTP Requests Interface",
-        "Custom HTTP Requests Data Handler",
-        "Standard HTTP Requests Wrapper"
+        "عقد الحركة والتحكم KinematicBody2D اللطيفة",
+        "عقد الحدود StaticBody2D",
+        "عقدة الكاميرا Camera2D",
+        "عقدة واجهات المستخدم"
       ],
       "correct": 0,
-      "exp": "The 'HTTP Requests' component is designed to manage functional HTTP Requests layers inside the Godot Game Development framework."
+      "exp": "عقدة KinematicBody2D تمنحنا التحكم الكامل برمجياً بالسرعة والحركة والفيزياء، وهي مثالية للمضارب والكرة اللطيفة في بونج!"
     },
     {
-      "q": "Which component handles standard 'REST API integration' properties in Godot Game Development?",
+      "q": "كيف يتم توجيه والتحكم بمضارب اللاعبين في كود لعبة البونج الخاصة بنا؟",
       "opts": [
-        "Aesthetic REST API integration Controller",
-        "Default REST API integration Interface",
-        "Custom REST API integration Data Handler",
-        "Standard REST API integration Wrapper"
+        "المضارب تتحرك عشوائياً وتلقائياً دون تدخل",
+        "المضرب الأيسر بمفاتيح W/S للاعب الأول، والمضرب الأيمن بالأسهم للاعب الثاني اللطيف",
+        "بالنقر بالماوس على كرة اللعب فقط",
+        "باستخدام الميكروفون والأصوات"
       ],
       "correct": 1,
-      "exp": "The 'REST API integration' component is designed to manage functional REST API integration layers inside the Godot Game Development framework."
+      "exp": "اللاعب الأول يستخدم مفاتيح W للأعلى و S للأسفل، واللاعب الثاني يستخدم أسهم الكيبورد للأعلى والأسفل لخوض المنافسة المثيرة!"
+    },
+    {
+      "q": "أي دالة فيزيائية مخصصة في جودوت نكتب داخلها كود حركة المضارب والكرة لتحديثها بانتظام؟",
+      "opts": [
+        "دالة البداية ready()",
+        "دالة الفيزياء _physics_process(delta) الذكية",
+        "دالة تغيير المشاهد change_scene()",
+        "دالة الخروج quit()"
+      ],
+      "correct": 1,
+      "exp": "دالة _physics_process(delta) هي المنسق الفيزيائي الموثوق الذي يضمن تحديث وحساب سرعات المضارب والكرة بانتظام مدهش!"
+    },
+    {
+      "q": "أي عقدة كشف تصادم نستخدمها في ملعب البونج لتشعر بدخول الكرة في مساحة الهدف لتسجيل نقطة؟",
+      "opts": [
+        "عقدة النصوص Label",
+        "عقدة استشعار التصادم Area2D السحرية",
+        "عقدة الكاميرا Camera2D",
+        "عقدة الصوت الموسيقي"
+      ],
+      "correct": 1,
+      "exp": "عقدة Area2D هي شبكة الاستشعار اللطيفة! تشعر فوراً بملامسة الكرة وتطلق إشارة لتخبر الكود بتسجيل هدف وحساب نقطة!"
+    },
+    {
+      "q": "برمجياً في GDScript، كيف نجعل الكرة ترتد أفقياً عند اصطدامها بالمضرب لتعود للاتجاه المعاكس؟",
+      "opts": [
+        "بضرب السرعة الأفقية في صفر تماماً",
+        "بضرب السرعة الأفقية في سالب واحد (speed.x = -speed.x) لتعكس حركتها",
+        "بزيادة سرعة الكرة عشرة أضعاف فجأة",
+        "باستدعاء دالة get_tree().quit()"
+      ],
+      "correct": 1,
+      "exp": "الضرب في سالب واحد (speed.x = -speed.x) هو المعادلة السحرية لعكس اتجاه حركة الكرة يميناً ويساراً عند التصادم اللطيف!"
+    },
+    {
+      "q": "كيف نعرض النتيجة والأهداف الحالية للاعبين على شاشة لعبة البونج؟",
+      "opts": [
+        "باستخدام عقدة الصوت play()",
+        "بإضافة عقدة نصوص Label وتحديث خاصية text برمجياً فور تسجيل هدف جديد",
+        "برسم النتيجة على ورقة حركة كيتي",
+        "باستخدام دالة set_scale() لتكبير الملعب"
+      ],
+      "correct": 1,
+      "exp": "نستخدم عقدة نصوص Label ملونة، وعندما تسجل إشارة Area2D هدفاً، نغير خاصية text للـ Label لتعرض الأرقام الجديدة فورا!"
+    },
+    {
+      "q": "ما هو إعلان اللعبة الترويجي (Game Trailer) وما الفائدة الكبرى من تصميمه؟",
+      "opts": [
+        "برنامج برمجي لإزالة الأخطاء من جودوت",
+        "مقطع فيديو قصير مشوق يعرض ميزات اللعب والWizard السحري ليجذب اللاعبين ويلهمهم لتجربة لعبتنا اللطيفة",
+        "ملف صوت BGM يلعب طوال الوقت",
+        "حد فيزيائي StaticBody2D"
+      ],
+      "correct": 1,
+      "exp": "الفيديو الترويجي أو التريلر يعرض لقطات لعب حماسية سريعة وتشويقية ليشوق اللاعبين ويدعوهم لزيارة رابط اللعبة وتنزيلها!"
+    },
+    {
+      "q": "كيف يمكننا تعزيز متعة وإثارة لعبة البونج عند صقلها وتجهيزها للنشر النهائي؟",
+      "opts": [
+        "بحذف أصوات اللعبة بالكامل وجعلها صامتة",
+        "بإضافة مؤثرات صوتية عند صد المضرب للكرة ونغمات حماسية لخلفية اللعب وتلوين الواجهات بمرح",
+        "بإلغاء حركة المضرب الأيمن للاعب الثاني",
+        "بإغلاق الحاسوب فجأة"
+      ],
+      "correct": 1,
+      "exp": "تألق اللعبة وصقلها يكتمل بوضع مؤثرات صد الكرة الحماسية، لوحة نقاط جذابة وموسيقى خلفية تشعل المنافسة اللطيفة!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement HTTP Requests Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard HTTP Requests properties inside the Godot Game Development setup."
+      "title": "تحدي بناء أساسيات البونج",
+      "desc": "قم بإعداد مشهد بونج يحتوي على الجدران StaticBody2D والمضارب والكرة KinematicBody2D بمقاسات صحيحة وملونة!"
     },
     {
-      "title": "Optimize REST API integration Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize REST API integration operations for user-centered design."
+      "title": "تحدي الفيديو الترويجي الرائع",
+      "desc": "سجل مقطعاً تشويقياً قصيراً للعبتك الأسطورية، وتخيل شعاراً وبانراً يروجان لقصة بطل السحر والصداد!"
     }
-  ],
-  "quiz_title": "Godot Game Development - Challenge 6"
+  ]
 }

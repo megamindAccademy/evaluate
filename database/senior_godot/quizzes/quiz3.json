@@ -1,126 +1,126 @@
 {
-  "quiz_name": "Quiz 3: Interactive Inputs & Events",
+  "quiz_title": "Godot Game Development - Challenge 3",
+  "quiz_name": "الاختبار 3: رحلة الـ SDLC وتصميم واجهات الألعاب الملونة! 💡🖥️",
   "questions": [
     {
-      "q": "Which component handles standard 'Button Triggers' properties in Godot Game Development?",
+      "q": "ماذا تعني الحروف اللطيفة SDLC في عالم تطوير وهندسة الألعاب؟",
       "opts": [
-        "Aesthetic Button Triggers Controller",
-        "Default Button Triggers Interface",
-        "Custom Button Triggers Data Handler",
-        "Standard Button Triggers Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Button Triggers' component is designed to manage functional Button Triggers layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'User input fields' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic User input fields Controller",
-        "Default User input fields Interface",
-        "Custom User input fields Data Handler",
-        "Standard User input fields Wrapper"
+        "مركز أبحاث الألعاب الفنية",
+        "دورة حياة تطوير البرمجيات للألعاب (Software Development Life Cycle)",
+        "نظام تتبع الأصوات الكلاسيكية",
+        "برنامج تحريك الأرانب السريعة"
       ],
       "correct": 1,
-      "exp": "The 'User input fields' component is designed to manage functional User input fields layers inside the Godot Game Development framework."
+      "exp": "الـ SDLC هي الدورة الذهبية المنظمة التي ترسم خطوات بناء اللعبة من فكرة بسيطة في ذهننا حتى تصبح منتجاً حقيقياً!"
     },
     {
-      "q": "Which component handles standard 'Event listening' properties in Godot Game Development?",
+      "q": "في أي مرحلة من مراحل الـ SDLC نجلس معاً للعصف الذهني والتفكير في القصة وقواعد اللعب؟",
       "opts": [
-        "Aesthetic Event listening Controller",
-        "Default Event listening Interface",
-        "Custom Event listening Data Handler",
-        "Standard Event listening Wrapper"
+        "مرحلة الاختبار Testing",
+        "مرحلة توليد الفكرة أو Idea Generation الممتعة",
+        "مرحلة النشر والإطلاق",
+        "مرحلة كتابة أكواد واجهة المستخدم"
+      ],
+      "correct": 1,
+      "exp": "مرحلة توليد الفكرة (Idea Generation) هي المحطة الأولى حيث تتدفق الأفكار الخيالية ونختار فكرة لعبتنا الأسطورية!"
+    },
+    {
+      "q": "ما هي ميزة بناء نموذج أولي (Prototype) سريع وقابل للعب للعبتنا اللطيفة؟",
+      "opts": [
+        "لاختبار ميكانيكية اللعب ومتعته واكتشاف المشاكل مبكراً دون خسارة مجهود طويل",
+        "لبيعه للجمهور والحصول على أرباح فورية",
+        "لتثبيت الموسيقى الخلفية فقط",
+        "لحذف ملفات المشروع بالكامل"
+      ],
+      "correct": 0,
+      "exp": "بناء النموذج الأولي يتيح لنا تجربة اللعبة بسرعة والتأكد من أنها ممتعة وسهلة اللعب قبل استثمار الوقت في الرسم والتطوير الكامل!"
+    },
+    {
+      "q": "أي خطوة نقوم فيها بكتابة كود GDScript الحقيقي وتوزيع العقد في محرك جودوت؟",
+      "opts": [
+        "مرحلة توليد الفكرة",
+        "مرحلة التصميم الجمالي",
+        "مرحلة التطوير البرمجي أو Development الذكية",
+        "مرحلة النشر النهائي"
       ],
       "correct": 2,
-      "exp": "The 'Event listening' component is designed to manage functional Event listening layers inside the Godot Game Development framework."
+      "exp": "مرحلة التطوير (Development) هي المحطة التي تتحول فيها أفكارنا ورسوماتنا إلى أكواد برمجية وتتكامل داخل محرك جودوت!"
     },
     {
-      "q": "Which component handles standard 'Data handlers' properties in Godot Game Development?",
+      "q": "لماذا تعد مرحلة الاختبار (Testing) بالغة الأهمية قبل نشر اللعبة لأصدقائنا؟",
       "opts": [
-        "Aesthetic Data handlers Controller",
-        "Default Data handlers Interface",
-        "Custom Data handlers Data Handler",
-        "Standard Data handlers Wrapper"
-      ],
-      "correct": 3,
-      "exp": "The 'Data handlers' component is designed to manage functional Data handlers layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'Button Triggers' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic Button Triggers Controller",
-        "Default Button Triggers Interface",
-        "Custom Button Triggers Data Handler",
-        "Standard Button Triggers Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Button Triggers' component is designed to manage functional Button Triggers layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'User input fields' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic User input fields Controller",
-        "Default User input fields Interface",
-        "Custom User input fields Data Handler",
-        "Standard User input fields Wrapper"
+        "لأنها تجعل اللعبة أكبر حجماً فقط",
+        "لأنها تضمن خلو اللعبة من الأخطاء والانهيارات وتوفر تجربة لعب مريحة وسلسة",
+        "لتغيير اسم بطل اللعبة فجأة",
+        "لأن جودوت لا يعمل بدونها"
       ],
       "correct": 1,
-      "exp": "The 'User input fields' component is designed to manage functional User input fields layers inside the Godot Game Development framework."
+      "exp": "تساعدنا مرحلة الاختبار في العثور على الأخطاء البرمجية (Bugs) وحلها لنقدم لأصدقائنا لعبة مستقرة ومريحة وممتعة!"
     },
     {
-      "q": "Which component handles standard 'Event listening' properties in Godot Game Development?",
+      "q": "ما هي واجهة المستخدم (UI) في الألعاب اللطيفة؟",
       "opts": [
-        "Aesthetic Event listening Controller",
-        "Default Event listening Interface",
-        "Custom Event listening Data Handler",
-        "Standard Event listening Wrapper"
+        "الأسلاك الكهربائية التي تشغل الحاسوب",
+        "طريقة تواصل وتفاعل اللاعب مع اللعبة لعرض النقاط والصحة والقوائم والأزرار الملونة",
+        "الملف البرمجي للجاذبية الأرضية",
+        "صوت ركض كيتي الجميلة"
+      ],
+      "correct": 1,
+      "exp": "الـ UI هي اللوحات والنصوص والأزرار الجذابة التي تخبر اللاعب بوضعه في اللعبة وتسهل تفاعله معها بنقرة زر!"
+    },
+    {
+      "q": "أي عقدة واجهة مستخدم (UI Node) نستخدمها لعرض نصوص مثل النقاط أو الصحة على الشاشة؟",
+      "opts": [
+        "عقدة النصوص Label اللطيفة",
+        "عقدة الأزرار Button",
+        "عقدة التصادم Area2D",
+        "عقدة الكاميرا Camera2D"
+      ],
+      "correct": 0,
+      "exp": "عقدة النصوص (Label) هي صندوق الكلمات اللطيف المسؤول عن طباعة وعرض النصوص والأرقام الملونة في الواجهة!"
+    },
+    {
+      "q": "أي عقدة واجهة مستخدم نستخدمها لتنفيذ حدث أو أمر معين عندما ينقر عليها اللاعب اللطيف؟",
+      "opts": [
+        "عقدة حقل النصوص LineEdit",
+        "عقدة الحاوية VBoxContainer",
+        "عقدة الأزرار التفاعلية Button المدهشة",
+        "عقدة الصوت الموسيقي"
       ],
       "correct": 2,
-      "exp": "The 'Event listening' component is designed to manage functional Event listening layers inside the Godot Game Development framework."
+      "exp": "عقدة Button هي زر تفاعلي نضغط عليه لنفتح القائمة أو نبدأ مغامرتنا الشيقة بروعة وسهولة!"
     },
     {
-      "q": "Which component handles standard 'Data handlers' properties in Godot Game Development?",
+      "q": "إذا أردنا تنظيم مجموعة أزرار القائمة عمودياً فوق بعضها بانتظام، أي حاوية نختار؟",
       "opts": [
-        "Aesthetic Data handlers Controller",
-        "Default Data handlers Interface",
-        "Custom Data handlers Data Handler",
-        "Standard Data handlers Wrapper"
+        "الحاوية الأفقية HBoxContainer",
+        "عقدة النصوص Label",
+        "الحاوية العمودية VBoxContainer المنظمة",
+        "عقدة الكاميرا 2D"
       ],
-      "correct": 3,
-      "exp": "The 'Data handlers' component is designed to manage functional Data handlers layers inside the Godot Game Development framework."
+      "correct": 2,
+      "exp": "الحاوية العمودية VBoxContainer ترتب وتصطف الأزرار عمودياً فوق بعضها بشكل آلي رائع ومريح للعين!"
     },
     {
-      "q": "Which component handles standard 'Button Triggers' properties in Godot Game Development?",
+      "q": "ما هي الفائدة من استخدام عقدة إدخال النص (LineEdit) في لعبتنا؟",
       "opts": [
-        "Aesthetic Button Triggers Controller",
-        "Default Button Triggers Interface",
-        "Custom Button Triggers Data Handler",
-        "Standard Button Triggers Wrapper"
-      ],
-      "correct": 0,
-      "exp": "The 'Button Triggers' component is designed to manage functional Button Triggers layers inside the Godot Game Development framework."
-    },
-    {
-      "q": "Which component handles standard 'User input fields' properties in Godot Game Development?",
-      "opts": [
-        "Aesthetic User input fields Controller",
-        "Default User input fields Interface",
-        "Custom User input fields Data Handler",
-        "Standard User input fields Wrapper"
+        "لعرض صور البطل وهو يجري",
+        "لتمكين اللاعب الصغير من كتابة اسمه البطل بخط يده ليحفظ في قائمة الفائزين",
+        "لتسريع حركة أرنوب السريع",
+        "لتشغيل الموسيقى الحالمة"
       ],
       "correct": 1,
-      "exp": "The 'User input fields' component is designed to manage functional User input fields layers inside the Godot Game Development framework."
+      "exp": "تتيح عقدة LineEdit للاعب كتابة الحروف والكلمات (مثل اسمه أو أكواد سرية) ليقراها الكود ويتفاعل معها!"
     }
   ],
   "tasks": [
     {
-      "title": "Implement Button Triggers Logic",
-      "desc": "Write a clean code snippet or blueprint implementing the standard Button Triggers properties inside the Godot Game Development setup."
+      "title": "تحدي تخطيط فكرة اللعبة",
+      "desc": "قم بكتابة ملخص قصصي لفكرة لعبتك الأولى، وتخيل كيف ستسير مراحل الـ SDLC لتصنع لعبتك اللطيفة!"
     },
     {
-      "title": "Optimize User input fields Performance",
-      "desc": "Briefly explain the best practice guidelines to optimize User input fields operations for user-centered design."
+      "title": "تحدي تصميم لوحة الأزرار",
+      "desc": "باستخدام الحاوية العمودية VBoxContainer، قم بتنظيم ثلاثة أزرار (ابدأ اللعب، الإعدادات، الخروج) بشكل منسق وجميل!"
     }
-  ],
-  "quiz_title": "Godot Game Development - Challenge 3"
+  ]
 }
