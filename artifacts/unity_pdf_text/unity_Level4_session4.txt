@@ -1,0 +1,162 @@
+--- Page 1 ---
+Level 4:  Session 4
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+USE Tile Map 
+To Build your
+Level With your
+Own Design 
+https://assetstore.unity.com/packages/2d/characters/sunny-land-103349
+--- Page 3 ---
+All rights reserved
+2
+2
+Enemy Script
+Destroy Enemy
+Build the game
+UI (User Interface)
+Sounds
+
+--- Page 4 ---
+All rights reserved
+2
+3
+1- pixel per unit 16
+2- drag to prefabs
+3- create a tag “enemy”
+ 
+4- assign the tag to the enemy 
+       that exist in prefabs
+
+--- Page 5 ---
+All rights reserved
+2
+4
+1. Make a Circle collider 2d
+2. Check on is trigger
+
+--- Page 6 ---
+All rights reserved
+2
+5
+We need to decrease health when player collide with frog or eagle that we assign tag “ enemy” to both .
+--- Page 7 ---
+All rights reserved
+2
+6
+ﻫﺤﺪد ﻫﻨﺎ ﻟﻮ اﻟﻼﻋﺐ ﺟﻪ ﻣﻦ ﻓﻮق اﻟﻌﺪو ﻫﻴﻤﻮت اﻟﻌﺪو ودا
+ﻣﻦ ﺧﻼل اﻧﻲ اﺷﻮف الposition ﺑﺘﺎﻋﻬﻢ واﻗﺎرن ﺑﻨﻬﻢ
+
+--- Page 8 ---
+All rights reserved
+2
+6
+1- text
+Right click               UI                 text    
+Specify the text position From Rect 
+transform Choose left top And  pos x , pos y 
+--- Page 9 ---
+All rights reserved
+2
+7
+Change text , color , ..etc.
+--- Page 10 ---
+All rights reserved
+2
+9
+When we need to use text We note that text 
+not identify So that we must use a library 
+that contain text using UnityEngine.UI;
+--- Page 11 ---
+All rights reserved
+2
+10
+When this values change ?
+--- Page 12 ---
+All rights reserved
+2
+11
+
+--- Page 13 ---
+All rights reserved
+2
+12
+
+--- Page 14 ---
+All rights reserved
+13
+Or we can add object on enemy prefabs and add tag on this object inside 
+OnTriggerEnter2D function
+Ex: 
+--- Page 15 ---
+All rights reserved
+14
+If we want health 100 only not more We can add one line code to control that
+Add this line in part that health increase
+--- Page 16 ---
+All rights reserved
+2
+15
+We Create a folder called “sound” in   
+Assets and put our sound in 
+
+--- Page 17 ---
+All rights reserved
+2
+16
+Create a Audio              audio source 
+To put our background sound in
+
+--- Page 18 ---
+All rights reserved
+2
+17
+Drag drop our sound 
+Play when game awake
+Make sound loop 
+--- Page 19 ---
+All rights reserved
+2
+5
+Change from 100 to 16 then Apply
+Because This package designed to 
+carry 16 in one unit
+Pixel per unit :
+ How many pixel in one unit
+--- Page 20 ---
+All rights reserved
+2
+19
+Also add in health and score (any thigs which we collect)
+--- Page 21 ---
+All rights reserved
+2
+20
+1- Add script on audio source
+2- drag drop item sound
+3- drag drop jump sound
+
+--- Page 22 ---
+All rights reserved
+2
+21
+Then build your game .. Congratulate 
+From player setting in build setting we can change game name and icon image
+--- Page 23 ---
+All rights reserved
+22
+Try to Search for new sound (background , collect , jump) And attach it to your game
+
+--- Page 24 ---
+All rights reserved
+23
+Game 1
+https://www.youtube.com/playlist?list=PL7kAAr9jlqK9pA-cpYgMDGvJEgSViG4g0
+Game 2
+https://www.youtube.com/playlist?list=PLF8OvnCBlEY3Srt_IMSUOf5zU5GODMNNn
+Game 3
+https://www.youtube.com/playlist?list=PL2YB0kEJW0DVE0LiveQIQkh0SKby8bUyH

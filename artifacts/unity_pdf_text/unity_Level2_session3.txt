@@ -1,0 +1,114 @@
+--- Page 1 ---
+Level 2:  Session 3
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+
+--- Page 3 ---
+All rights reserved
+2
+2
+Scene 1
+--- Page 4 ---
+All rights reserved
+2
+3
+Lets make more scenes
+Right click   create               scene
+Rename scene to game01
+Then Make 2 scene :
+• startGame
+• endGame
+
+--- Page 5 ---
+All rights reserved
+2
+4
+First make order of scene
+File  build setting
+Then drag drop the scene in window that opened
+take care about order
+• take care about order
+• statGame first
+• Game01
+• endGame
+--- Page 6 ---
+All rights reserved
+2
+5
+Enter to startGame scene and use sprite to make your start page
+--- Page 7 ---
+All rights reserved
+2
+6
+We use a button to enter to game01 scene 
+--- Page 8 ---
+All rights reserved
+2
+7
+The button will display big size we must change the view from 
+Next step we will drag the main camera to render camera
+canvas render mode (screen space - camera)
+
+--- Page 9 ---
+All rights reserved
+2
+Resize and change position 
+and order to see your button
+Make length=width
+We can use image on button by drag drop 
+the image to source image
+8
+--- Page 10 ---
+All rights reserved
+2
+9
+Onclick Click Events.
+The added UnityAction is called                  
+when the Button press is released.
+What we need to switch scene ?
+When using SceneManager.LoadScene, 
+the scene loads in the next frame, 
+that is it
+--- Page 11 ---
+All rights reserved
+2
+10
+Now .. 
+Make a new component “flow machine “ to make a script switch scene
+
+--- Page 12 ---
+All rights reserved
+2
+11
+Make your endGame scene
+--- Page 13 ---
+All rights reserved
+2
+Now .. 
+Make a new component “flow machine “ to make a script switch scene
+12
+--- Page 14 ---
+All rights reserved
+2
+We want to make player lose when Collide and switch to end 
+Game scene In 2 pipe where find in object (makePipe) 
+You will find script in 
+assets                prefabs
+Double click to pipe then 
+flow machine
+13
+--- Page 15 ---
+All rights reserved
+2
+14
+Change when true -- loadScene
+--- Page 16 ---
+All rights reserved
+16
+1- Make your own start and end scene
+2- Let game end when player touch ground
+

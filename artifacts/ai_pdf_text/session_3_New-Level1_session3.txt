@@ -1,0 +1,107 @@
+--- Page 1 ---
+& 
+Level 1:  Session 3
+
+--- Page 2 ---
+PyWhatKit
+Chat Bot
+Chat GPT
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+PyWhatKit
+PyWhatKit is a Python library with various 
+helpful features. It's easy-to-use and does 
+not require you to do any additional setup. 
+Currently, it is one of the most popular library 
+for WhatsApp and YouTube automation. New 
+updates are released frequently with new 
+features and bug fixes.
+
+--- Page 4 ---
+All rights reserved
+Install library
+ pip install pywhatkit
+
+--- Page 5 ---
+All rights reserved
+Difference between chatbot and chat GPT
+ChatGPT is a natural language 
+processing tool driven by AI technology 
+that allows you to have human-like 
+conversations and much more with the 
+chatbot. The language model can 
+answer questions and assist you with 
+tasks like composing emails, essays, 
+and code.
+--- Page 6 ---
+All rights reserved
+
+--- Page 7 ---
+All rights reserved
+
+--- Page 8 ---
+All rights reserved
+What is Chat GPT?
+Chatgpt is an artificial intelligence 
+chatbot developed by OpenAI and 
+launched in November 2022. It is built on 
+top of OpenAI's GPT-3.5 and GPT-4 
+families of large language models and 
+has been fine-tuned using both 
+supervised and reinforcement learning 
+techniques.
+What does GPT stand for?
+GPT stands for generative pre-trained 
+transformer which is a type of large language 
+model (LLM) neural network that can perform 
+various natural language processing tasks such 
+as answering questions, summarising text and 
+even generating lines of code.
+
+--- Page 9 ---
+All rights reserved
+Best Uses of ChatGPT
+Ability to Understand and Respond to a Wide Range of Language Inputs. ...
+What is chat GPT used for ?
+Ability to Learn and Improve Over Time. 
+Answer Questions. 
+Improved Interpretability. 
+Alternative to Google Search. 
+Use AI to Write High-Performing Copy. 
+Education or Training Purposes. 
+Create a Virtual Assistant.
+
+--- Page 10 ---
+All rights reserved
+
+--- Page 11 ---
+All rights reserved
+1
+
+--- Page 12 ---
+All rights reserved
+
+--- Page 13 ---
+All rights reserved
+
+--- Page 14 ---
+All rights reserved
+2
+
+--- Page 15 ---
+All rights reserved
+
+--- Page 16 ---
+All rights reserved
+3
+--- Page 17 ---
+All rights reserved
+4
+
+--- Page 18 ---
+All rights reserved
+H.W
+Use pywhatkit to send whatsapp msg 
+

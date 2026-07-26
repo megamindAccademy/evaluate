@@ -1,0 +1,98 @@
+--- Page 1 ---
+Level 6:  Session 1
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+
+--- Page 3 ---
+All rights reserved
+2
+2
+Static data & awake
+Edit player animation 
+Player (Hit by Sward)
+Destroy Enemy
+
+--- Page 4 ---
+All rights reserved
+2
+3
+Static data 
+Static data members are class members that are declared using static keywords. A static member has 
+certain special characteristics. 
+These are: Only one copy of that member is created for the entire class and is shared by all the objects of 
+that class, no matter how many objects are created.
+Awake
+This function is always called before any Start functions and also just after a prefab is 
+instantiated
+
+--- Page 5 ---
+All rights reserved
+2
+4
+Create a LevelManager Script
+To control all classes
+Make an Awake method 
+Store in C# that run before start
+Make a LevelManager member 
+called “instance”
+--- Page 6 ---
+All rights reserved
+2
+5
+Make a new game object and 
+rename “GameManager”
+Assign player to player section by 
+drag drop from the hierarchy
+Make a Component 
+LevelManager
+--- Page 7 ---
+All rights reserved
+2
+6
+Now ..
+If we try to assign the target to the player 
+instance and remove target from the 
+inspector the game will run normally 
+--- Page 8 ---
+All rights reserved
+2
+7
+
+--- Page 9 ---
+All rights reserved
+2
+8
+
+--- Page 10 ---
+All rights reserved
+2
+9
+We will make a box Collider to specify aria to control the space of sward’s hit . 
+--- Page 11 ---
+All rights reserved
+2
+10
+Make an “Enemy” tag to specify the enemy
+From prefabs 
+--- Page 12 ---
+All rights reserved
+2
+11
+
+--- Page 13 ---
+All rights reserved
+2
+12
+
+--- Page 14 ---
+All rights reserved
+14
+USE Static data & awake
+Edit player animation 
+Destroy Enemy
+Player (Hit by Sward)
+

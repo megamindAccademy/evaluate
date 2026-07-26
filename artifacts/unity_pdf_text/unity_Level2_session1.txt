@@ -1,0 +1,115 @@
+--- Page 1 ---
+Level 2:  Session 1
+let pipe move
+--- Page 2 ---
+All rights reserved
+flappy bird game(
+1
+)
+--- Page 3 ---
+All rights reserved
+Create a new project
+Create a 2D Project
+Rename the project name and 
+select location
+Example : flappy bird
+
+--- Page 4 ---
+All rights reserved
+Our project is ready now ..
+--- Page 5 ---
+All rights reserved
+Then save layout
+Another time you will able to get it 
+NOW .. Prepare layout
+From Window 
+Import graph
+Import graph inspector
+import variables
+An put the in view to help you work on 
+
+--- Page 6 ---
+صصصصصص
+All rights reserved
+Form assets store 
+Or drag drop in assets folder if 
+you have pack. in your pc
+Import package if you need
+
+--- Page 7 ---
+All rights reserved
+Click on small arow in image
+Drag and drop object we need to create game scene 
+In assets       sprite store
+
+--- Page 8 ---
+All rights reserved
+From sprite render we need to change draw mode to 
+“tiled” to able to change background size without destroy
+--- Page 9 ---
+All rights reserved
+If we add object and not appeared
+Try to change object order 
+Example 
+change order in layout = 5
+
+--- Page 10 ---
+All rights reserved
+If object small !!
+Try to change scale x & y = 2
+ in transform component
+ in inspector section
+--- Page 11 ---
+صصصصصص
+All rights reserved
+Lets make animations ..
+By choose more than one image and drag drop to scene 
+Save it in new folder that 
+we will make to save our 
+animations in project
+
+--- Page 12 ---
+All rights reserved
+And add box collider 2D pipe object
+Don’t forget to add box collider 2D and rigidbody 2D to bird object
+--- Page 13 ---
+صصصصصص  
+All rights reserved
+Play button to see result
+Now we need to
+1.  make bird jump
+2. let pipe move 
+--- Page 14 ---
+صصصصصص
+All rights reserved
+Add component on bird object
+make bird jump
+Make a macros folder to put a 
+new macro (script)
+make bird jump1
+--- Page 15 ---
+All rights reserved
+Put your graph “birdJump” in new folders “graphs”
+New graph
+
+--- Page 16 ---
+All rights reserved
+
+--- Page 17 ---
+All rights reserved
+Add component on pipe object Script  machine
+Put your macro “moveLeft”  in  folder “graphs”
+let pipe move2
+
+--- Page 18 ---
+All rights reserved
+
+--- Page 19 ---
+All rights reserved
+H.W
+MAKE script: 
+1- player jump
+2- stairs move vertically
+https://assetstore.unity.com/packages/2d/gui/icons/easter-gui-142479
+https://assetstore.unity.com/packages/2d/gui/icons/easter-gui-142479
+

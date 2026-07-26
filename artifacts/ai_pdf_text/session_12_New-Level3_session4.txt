@@ -1,0 +1,67 @@
+--- Page 1 ---
+& 
+Level 3:  Session 4
+
+--- Page 2 ---
+All rights reserved
+Part 2
+
+--- Page 3 ---
+All rights reserved
+Start game 
+o startGame variable is a boolean that is set to True once the user starts the game. Inside the if block, the program checks if stateResult is False.
+o stateResult is a variable that tracks if the user has made a gesture (Rock, Paper, or Scissors) and the program has determined a winner.
+o The timer variable is initialized as the difference between the current time and the start time, stored in the initialTime variable.
+o The cv2.putText() function is used to draw the current value of the timer on the game screen. The text is positioned at (605, 435)
+checks if the timer variable has exceeded the 
+value of 3. If so, it sets the value of stateResult 
+to True and resets the timer variable to 0. 
+--- Page 4 ---
+All rights reserved
+Decide fingers 
+
+--- Page 5 ---
+All rights reserved
+Ai Image 
+Put it outside the condition because the 
+condition happen only one time.
+is a flag used to read the image 
+"as is", which means that it loads 
+to check if it exists or not
+--- Page 6 ---
+All rights reserved
+Score
+❑ Imgbg: The Image On Which To Draw The Text
+❑ Str(int(timer)): The Text To Draw, Which Is The Current Value Of 
+The Timer Variable Converted To An Integer And Then To A String
+❑ (605, 435): The Position Where The Text Should Be Placed On The 
+Image, Measured From The Top-left Corner
+❑ Cv2.FONT_HERSHEY_PLAIN: The Font To Use For 
+The Text
+❑ 6: The Font Scale (Size)
+❑ (255, 0, 255): The Color Of The Text, In BGR Format
+❑ 4: The Thickness Of The Text Stroke, In Pixels.
+
+--- Page 7 ---
+All rights reserved
+Player Win
+The logic used to determine if the player wins is as follows:
+•If the player chooses Rock (represented by 1) and the AI chooses Scissors (represented by 3)
+•If the player chooses Paper (represented by 2) and the AI chooses Rock (represented by 1)
+•If the player chooses Scissors (represented by 3) and the AI chooses Paper (represented by 2)
+In each of these cases, the player wins and their score is incremented.
+--- Page 8 ---
+All rights reserved
+AI Win
+The conditions in the if statement check if the playerMove is 3 (rock) and the randomNumber is 1 (paper), or if the playerMove 
+is 1 (paper) and the randomNumber is 2 (scissors), or if the playerMove is 2 (scissors) and the randomNumber is 3 (rock).
+If any of these conditions are true, it means that the AI has won the round, and the score of the AI (which is stored in the first 
+element of the scores list) is incremented by 1.
+--- Page 9 ---
+All rights reserved
+References
+• https://www.computervision.zone/lessons/video-lesson-26/ 
+• https://i-know-python.com/computer-vision-game-using-mediapipe-and-
+python/ 
+computer vision game :
+

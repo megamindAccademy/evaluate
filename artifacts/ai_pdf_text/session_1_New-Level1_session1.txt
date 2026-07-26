@@ -1,0 +1,175 @@
+--- Page 1 ---
+PYTHON & AI
+Level 1:  Session 1
+
+--- Page 2 ---
+AI
+Machine Learning
+ Deep Learning
+Algorithm
+All rights reserved
+1
+
+--- Page 3 ---
+All rights reserved
+2
+            
+--- Page 4 ---
+All rights reserved
+3
+Deference between AI , machine Learning and Deep Learning 
+--- Page 5 ---
+All rights reserved
+4
+--- Page 6 ---
+All rights reserved
+4
+AI
+Ability of a machine to imitate 
+intelligent human behavior
+--- Page 7 ---
+All rights reserved
+EXAMPLES:
+9
+تعليم الالة, الذكاء الاصطناعي علم البيانات, التعليم العميق
+5
+امثلة علي تطبيقات الذكاء الاصطناعي
+•Virtual assistant: Siri, Alexa, 
+Google assistant, Cortana
+• Self driving car.
+•السيارة ذاتية القيادة
+امثلة علي تطبيقات الذكاء الاصطناعي
+•Robotics
+--- Page 8 ---
+All rights reserved
+4
+Machine Learning
+Application of AI that allows a 
+system to automatically learn and 
+improve from experience
+--- Page 9 ---
+All rights reserved
+8
+Types Of Machine Learning
+
+--- Page 10 ---
+All rights reserved
+EXAMPLES:
+9
+9
+1. Product Recommendations
+2. Classifications 
+3. Image Recognition
+--- Page 11 ---
+All rights reserved
+10
+Clustering vs classification 
+Clustering is a Machine Learning 
+technique whose aim is to group the data 
+points having similar properties framed 
+in unsupervised learning
+
+--- Page 12 ---
+All rights reserved
+11
+Deep Learning
+Application of machine learning that uses complex 
+algorithms and deep neural nets to train a model
+Neural networks with many hidden layers, big data, and 
+powerful computational resources chess games.
+Human learning process
+ANN. CNN. RNN.
+--- Page 13 ---
+All rights reserved
+12
+
+--- Page 14 ---
+All rights reserved
+13
+
+--- Page 15 ---
+All rights reserved
+Algorithms
+• An algorithm is a procedure used for 
+solving a problem or performing a 
+computation.
+•  Algorithms act as an exact list of 
+instructions that conduct specified actions 
+step by step
+14
+--- Page 16 ---
+All rights reserved
+K
+-
+NN Algorithm
+K-Nearest Neighbor is one of the simplest 
+Machine Learning algorithms based on 
+Supervised Learning technique.
+15
+--- Page 17 ---
+All rights reserved
+How does K
+-
+NN work?
+1. Choose a value for k (the number of nearest neighbors to consider).
+2. For each data point in the training set, calculate its distance to the input data point (using a 
+distance metric such as Euclidean distance).
+3. Identify the k data points in the training set that are closest to the input data point.
+4. For classification tasks, determine the class of the input data point by finding the most common 
+class among the k nearest neighbors. For regression tasks, determine the output value of the 
+input data point by finding the average output value of the k nearest neighbors.
+5. Return the predicted class or output value for the input data point
+16
+--- Page 18 ---
+All rights reserved
+17
+
+--- Page 19 ---
+All rights reserved
+                                            
+                                             
+                   
+                                              
+                                         
+                                               
+                                        
+EXAMPL
+E
+18
+4.391
+3.276
+0.825
+2.843
+0.361
+1.315
+0.424
+1.526
+2.163
+1.931
+0.825
+0.361
+0.424
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+3
+5
+7
+1
+1
+1
+--- Page 20 ---
+All rights reserved
+H.W
+Suppose we have a dataset of 6 points, where each point has two features, x and y, and is labeled either "red" 
+or "blue". We want to use K -NN to predict the label of a new point with features x= 6 and y=2.
+19
+https://www.omnicalculator.com/math/euclidean-distance
+https://www.calculatorsoup.com/calculators/geometry-plane/distance-two-points.php

@@ -1,0 +1,99 @@
+--- Page 1 ---
+Level 3:  Session 4
+Game Development
+By Unity
+--- Page 2 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+1
+When you know exactly how many times you want to loop through a block of code, use 
+the for loop instead of a while loop:
+for (start; condition; increase)
+{
+// code block to be executed
+}
+--- Page 3 ---
+All rights reserved
+2
+2
+
+--- Page 4 ---
+All rights reserved
+2
+3
+A method is a block of code which only runs when it is called.
+• You can pass data, known as parameters, into a method.
+Methods are used to perform certain actions, and they are also known as functions.
+• Why use methods? 
+• To reuse code: define the code 
+once, and use it many times.
+
+--- Page 5 ---
+?
+All rights reserved
+2
+4
+A method is defined with the name of the method, 
+followed by parentheses(). 
+C# provides some pre-defined methods, 
+which you already are familiar with, such as Main(),
+but you can also create your own methods to perform certain actions
+?
+
+--- Page 6 ---
+All rights reserved
+2
+5
+MyMethod()
+ is the name of the method
+static
+ means that the method belongs to the Program class 
+and not an object of the Program class
+void
+ means that this method does not have a return value. 
+--- Page 7 ---
+All rights reserved
+2
+6
+To call (execute) a method, write the method's name followed by two 
+parentheses () and a semicolon;
+In the following example, MyMethod() is used to print a text (the action), when it is called:
+--- Page 8 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+Create a method named MyMethod and call it inside Main(). 
+7
+
+--- Page 9 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+Insert the missing parts to call MyMethod two times. 
+8
+
+--- Page 10 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+9
+Information can be passed to methods as parameter. 
+Parameters act as variables inside the method.
+
+--- Page 11 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+Insert the missing part to print the number 8 in Main, by using a 
+specific keyword inside MyMethod 
+10
+
+--- Page 12 ---
+All rights reserved
+11
+1. A method that takes a string called fname and lName as 
+parameter. and call it inside Main(). 
+2. Create a method named addNumber and call it inside Main(). 
+Add a x and y parameter of type int to MyMethod
+

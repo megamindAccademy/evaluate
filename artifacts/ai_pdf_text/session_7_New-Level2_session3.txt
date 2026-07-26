@@ -1,0 +1,125 @@
+--- Page 1 ---
+& 
+Level 2 :  Session 3 
+
+--- Page 2 ---
+Recognition
+All rights reserved
+Hand drawing recognition project
+Data Collecting phase
+--- Page 3 ---
+The main goal of this project is to 
+develop a system that can identify 
+The main goal of this project is to 
+develop a system that can identify 
+images of cats and of cats and dogs
+All rights reserved
+Recognition
+Recognition means that a computer 
+learns to notice patterns and 
+remember things — so it can tell you 
+what something is just by looking at 
+it
+- No datasets for today -
+
+--- Page 4 ---
+All rights reserved
+Recapping the Machine 
+Learning project
+’
+s Steps
+3
+Problem definition
+Data collection
+Data preparation
+Model Training
+Evaluation
+--- Page 5 ---
+All rights reserved
+Data Collection
+4
+Data collection means gathering examples so the computer can learn 
+from them
+Find 
+data 
+online
+Use pre- 
+made 
+data
+Make
+Your own 
+data
+--- Page 6 ---
+If we work on the same day
+All rights reserved
+Use ML for kids
+Make the Data
+NOTE:
+If we work on the same day ,In case the project is divided, we 
+must register so that the project is preserved.
+--- Page 7 ---
+The main goal of this project is to 
+The main goal of this project is to 
+develop a system that can identify 
+images of cats and of cats and dogs
+All rights reserved
+Make the data
+Press Train the model 
+
+--- Page 8 ---
+All rights reserved
+Make the data
+Draw up to 15 different 
+structures from the same shape 
+Heart / Star / Flower
+
+--- Page 9 ---
+All rights reserved
+Dataset
+Image load function
+
+--- Page 10 ---
+All rights reserved
+Using the model
+Garbage in > Garbage out
+--- Page 11 ---
+All rights reserved
+Using the model
+Create an empty notepad file “requirements.txt”
+Copy what’s inside this file to the .txt
+
+--- Page 12 ---
+All rights reserved
+Using the model
+The final requirements file – add it 
+in the same folder of the code file
+Why we use the 
+requirements file ?
+
+--- Page 13 ---
+All rights reserved
+Using the model
+12
+Install the modules from requirements.txt from vs terminal
+
+--- Page 14 ---
+All rights reserved
+Using the model
+Open this link, then save as .py at the same folder
+
+--- Page 15 ---
+All rights reserved
+Using the model
+Copy the API key and paste it to the new code file code.ipynb
+
+--- Page 16 ---
+All rights reserved
+APIs
+It helps you ask for something, and brings it back to you
+
+--- Page 17 ---
+All rights reserved
+H.W
+Make a text recognition model 
+till the api phase
+

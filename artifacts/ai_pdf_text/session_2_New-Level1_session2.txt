@@ -1,0 +1,78 @@
+--- Page 1 ---
+& 
+Level 1:  Session 2
+
+--- Page 2 ---
+Computer & human vision system
+OpenCV 
+ Haar Cascade Algorithm
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+Face Detection
+--- Page 4 ---
+All rights reserved
+The human vision system is a biological system that is made up of the eyes, optic nerves, and brain. 
+It is designed to perceive and interpret visual information in real-time, using a complex network of 
+neurons and cognitive processes. The human vision system is capable of perceiving and understanding 
+the visual world in incredible detail, recognizing faces, objects, and scenes in a fraction of a second.
+the computer vision system is an artificial 
+system designed to emulate the human vision 
+system using algorithms and machine 
+learning techniques. It involves the use of 
+digital cameras, image processing 
+algorithms, and machine learning models to 
+extract information from visual data.
+
+--- Page 5 ---
+All rights reserved
+Requirements 
+We will need 2 libraries :
+I. Numpy
+II. Opencv-python
+
+--- Page 6 ---
+All rights reserved
+Install library 
+Use commend :
+pip install opencv-python
+
+--- Page 7 ---
+All rights reserved
+OpenCV
+OpenCV-Python is a library of 
+Python bindings designed to solve 
+computer vision problems.
+Computer vision
+is a field of AI that trains computers to 
+capture and interpret information from 
+image and video data. By applying 
+machine learning (ML) models to images, 
+computers can classify objects and 
+respond—like unlocking your smartphone 
+when it recognizes your face.
+--- Page 8 ---
+All rights reserved
+OpenCV use Haar Cascade Algorithm to detect the face 
+A Haar-like feature consists of dark regions and light regions. It produces a single value by taking 
+the difference of the sum of the intensities of the dark regions and the sum of the intensities of light 
+regions. It is done to extract useful elements necessary for identifying an object.
+
+--- Page 9 ---
+All rights reserved
+haar-cascade XML files for face detection.
+--- Page 10 ---
+All rights reserved
+https://www.geeksforgeeks.org/face-detection-
+using-cascade-classifier-using-opencv-python/
+(img, scale, Minimum-Neighbours)
+(img,topPoint,endPoint,color,boxSize)
+--- Page 11 ---
+All rights reserved
+H.W
+Write 3 differences between the human vision 
+system and the computer vision system.
+Write a simple Python code snippet to read and 
+display an image using OpenCV.
+

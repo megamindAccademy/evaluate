@@ -1,0 +1,115 @@
+--- Page 1 ---
+Level 6:  Session 3
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+
+--- Page 3 ---
+All rights reserved
+2
+2
+Collectible items
+Sound in game
+
+--- Page 4 ---
+All rights reserved
+2
+3
+How do you make collectibles like heart or diamond that you can pick up ?
+Add sphere collider and rigidbody component 
+Open prefabs
+--- Page 5 ---
+All rights reserved
+2
+4
+We make collider to 
+specify The aria of 
+collision occurs
+If is Kinematic is enabled, Forces, collisions or 
+joints will not affect the rigidbody anymore
+To make it static 
+--- Page 6 ---
+All rights reserved
+2
+5
+Add sphere collider fix radius and size make it is trigger
+Add rigidbody make it is kinematic 
+
+--- Page 7 ---
+All rights reserved
+2
+6
+Make an items script To use it on health and score
+So that we should make a tags to health and score
+
+--- Page 8 ---
+All rights reserved
+2
+7
+Then drag drop script to heart component and score component
+--- Page 9 ---
+All rights reserved
+2
+8
+
+--- Page 10 ---
+All rights reserved
+2
+9
+Create sounds folder in assets 
+Drag drop sounds to folder
+--- Page 11 ---
+All rights reserved
+2
+10
+Choose your sound and drag to Audio Clip
+Make checked “Play On Awake” to play 
+when game wake
+Make checked “Loop”
+
+--- Page 12 ---
+All rights reserved
+2
+11
+Add Audio Source on diamond and heart prefabs
+
+--- Page 13 ---
+All rights reserved
+2
+12
+In level manager Make array soundTo 
+store all sound we need
+Variable added with + to add any number 
+sound in array
+--- Page 14 ---
+All rights reserved
+2
+13
+We use audio that we exist in level manager But we have a problem that object will 
+destroy before we heard the sound So that we use delay (coroutine 
+--- Page 15 ---
+All rights reserved
+2
+14
+First .. Make it true
+Make a variable to check if it 
+collectable item
+Check if false return
+Make Ienumerator To help for 
+delaying 
+--- Page 16 ---
+All rights reserved
+2
+15
+To solve delay in collect .. We can set active of this item false
+Item has a child
+--- Page 17 ---
+All rights reserved
+16
+Collectible items
+Search for Sounds to added in your game
+       (collect sound – background sound)
+

@@ -1,0 +1,87 @@
+--- Page 1 ---
+& 
+Level 3:  Session 3
+
+--- Page 2 ---
+Rock Paper Scissor Game 
+(PART 1)
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+Part 
+1
+
+--- Page 4 ---
+All rights reserved
+Libraries
+3. pip install mediapipe
+is the simplest way for researchers and developers to build world- class ML solutions and 
+applications for mobile,
+2. pip install opencv-python
+1. pip install cvzone
+This is a Computer vision package that makes its easy to run Image processing and AI functions
+--- Page 5 ---
+All rights reserved
+Start capture 
+video : 
+The set() function takes two arguments: the 
+property ID and the property value.
+The property ID is an integer that identifies the 
+specific property that you want to set. For 
+example, 3 is the property ID for the frame width, 
+and 4 is the property ID for the frame height. 
+                             
+                                    
+                
+                    
+                 
+                  
+                 
+            
+--- Page 6 ---
+All rights reserved
+Resize and scale the background
+                                 
+                       
+                                    
+                                 
+                          
+                  
+The cv2.resize() function is used to resize an image.
+imgScaled is typically a NumPy array representing an image that has been 
+resized using the cv2.resize() function. 
+
+--- Page 7 ---
+All rights reserved
+Creating a hand tracking program
+Palm detection : MediaPipe works on the complete input image and provides a cropped image of the hand.
+Hand landmarks identification : MediaPipe finds the 21 hand landmarks on the cropped image of the hand.
+
+--- Page 8 ---
+All rights reserved
+Find hand 
+detect fingers in the hand and returns the 
+number of fingers that are up using the 
+fingersUp() method. If there are any hands 
+detected in the frame, it prints the number 
+of fingers detected for that hand. 
+--- Page 9 ---
+All rights reserved
+Find hand 
+
+--- Page 10 ---
+All rights reserved
+HW
+• Write a Python code that:
+Imports cv2
+Opens the webcam
+Reads one frame
+Prints "Frame loaded" if success = True
+Fill in the Blanks
+• The command pip install cvzone is used to install a _______ vision package.
+• MediaPipe detects the ______ first, then finds the 21 ______ landmarks.
+• The variable success indicates whether the frame was ______.
+• Property ID 3 changes the frame ______, and property ID 4 changes the 
+frame ______.
+

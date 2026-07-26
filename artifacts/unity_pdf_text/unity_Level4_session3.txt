@@ -1,0 +1,123 @@
+--- Page 1 ---
+Level 4:  Session 3
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+USE Tile Map 
+To Build your
+Level With your
+Own Design 
+https://assetstore.unity.com/packages/2d/characters/sunny-land-103349
+--- Page 3 ---
+All rights reserved
+2
+2
+Player’s Jump
+Deal with tags
+Player’s health
+Deal with score
+prefabs
+
+--- Page 4 ---
+All rights reserved
+2
+3
+In input manager take “Jump” don’t forget (C# is case sensitive) 
+--- Page 5 ---
+All rights reserved
+2
+4
+Create a variable that we 
+assign later from inspector
+
+--- Page 6 ---
+All rights reserved
+2
+5
+if we try to move then jump the player can’t jump So that we should make speed 
+of horizontal and let velocity of y-axis That mean we need to change y 
+--- Page 7 ---
+All rights reserved
+2
+6
+NOTE : 
+ADD TAG ON YOUR GROUND
+--- Page 8 ---
+All rights reserved
+2
+7
+1- make an animation
+2- Create a circle collider 2d
+--- Page 9 ---
+All rights reserved
+2
+8
+Make sure that you checked on “Is Trigger” to help us 
+--- Page 10 ---
+All rights reserved
+2
+9
+
+--- Page 11 ---
+All rights reserved
+2
+10
+Create a variable 
+Assign value to variable 
+in start event 
+--- Page 12 ---
+All rights reserved
+2
+11
+
+--- Page 13 ---
+All rights reserved
+2
+12
+1- When collide happen we should make sure that at least one 
+      gameObject has a rigidbody component
+2- Pixel per unit = 16
+
+--- Page 14 ---
+All rights reserved
+2
+13
+1- make an animation
+2- Create a circle collider 2d
+
+--- Page 15 ---
+All rights reserved
+2
+14
+Make sure that you checked on “Is Trigger” to help us 
+--- Page 16 ---
+All rights reserved
+2
+15
+
+--- Page 17 ---
+All rights reserved
+2
+11
+
+--- Page 18 ---
+All rights reserved
+2
+17
+The Prefab Asset acts as a template from which you can create new Prefab instances in the Scene
+Right click               create 
+folder
+--- Page 19 ---
+All rights reserved
+2
+18
+Now we can drag drop any number 
+of these components
+--- Page 20 ---
+All rights reserved
+19
+Continue add your item (health , score ) to make level more attractive 
+

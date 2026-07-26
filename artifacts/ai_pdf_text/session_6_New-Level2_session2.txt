@@ -1,0 +1,163 @@
+--- Page 1 ---
+& 
+Level 2:  Session 2
+
+--- Page 2 ---
+Classification of Cats and Dogs 
+images Using of teachable machine
+All rights reserved
+
+--- Page 3 ---
+The main goal of this project is to 
+develop a system that can identify 
+The main goal of this project is to 
+develop a system that can identify 
+images of cats and of cats and dogs
+All rights reserved
+Classification
+Classification means putting things 
+into groups based on how they are 
+alike
+- The dataset contains images of 
+cats and dogs
+--- Page 4 ---
+The main goal of this project is to 
+develop a system that can identify 
+The main goal of this project is to 
+develop a system that can identify 
+images of cats and of cats and dogs
+All rights reserved
+Creating the model
+What is the teachable 
+machine?
+3
+Teachable Machine is a website from 
+Google that lets you teach a 
+computer using your camera, voice, 
+or pictures 
+
+--- Page 5 ---
+The main goal of this project is to 
+develop a system that can identify 
+The main goal of this project is to 
+develop a system that can identify 
+images of cats and of cats and dogs
+All rights reserved
+Creating the model
+1 – label the classes we want 
+4
+2 – upload the data
+
+--- Page 6 ---
+The main goal of this project is to 
+develop a system that can identify 
+The main goal of this project is to 
+develop a system that can identify 
+images of cats and of cats and dogs
+All rights reserved
+Creating the model
+3 – Train the model
+5
+convolution
+al
+pooling
+flatten
+dense
+--- Page 7 ---
+The main goal of this project is to 
+develop a system that can identify 
+The main goal of this project is to 
+develop a system that can identify 
+images of cats and of cats and dogs
+All rights reserved
+Creating the model
+6
+Now we have the file .tflite (the trained model)
+Labels.txt (the classes names)
+4 – Export the model
+
+--- Page 8 ---
+The main goal of this project is to 
+develop a system that can identify 
+The main goal of this project is to 
+develop a system that can identify 
+images of cats and of cats and dogs
+All rights reserved
+Using the model
+Open the folder – create main.ipynb 
+
+--- Page 9 ---
+The main goal of this project is to 
+The main goal of this project is to 
+develop a system that can identify 
+images of cats and of cats and dogs
+All rights reserved
+Using the model
+7
+Libraries
+
+--- Page 10 ---
+All rights reserved
+Using the model
+8
+Importing important libraries
+Let us use the trained 
+model
+Work with numbers and 
+images
+Open and resize the 
+images
+--- Page 11 ---
+All rights reserved
+Using the model
+9
+Image load function
+Open the image and make sure it has 3 
+colors (Red, Green, Blue)
+Turn the image into numbers 
+and make them between 0 and 1
+Add a batch dimension (the model 
+expects this shape)
+
+--- Page 12 ---
+All rights reserved
+Using the model
+10
+Load the AI Model & get the model input / output info
+
+--- Page 13 ---
+All rights reserved
+Using the model
+11
+Load the image to be tested
+Give the image to the model
+--- Page 14 ---
+All rights reserved
+Using the model
+12
+Run the model & get the model’s answer
+
+--- Page 15 ---
+All rights reserved
+Using the model
+convolutional
+pooling
+flatten
+dense
+--- Page 16 ---
+All rights reserved
+Using the model
+Show the predections
+
+--- Page 17 ---
+All rights reserved
+Using the model
+The Result!! 
+
+--- Page 18 ---
+All rights reserved
+H.W
+MAKE A CLASSIFICATION 
+BETWEEN TWO OTHER 
+OBJECTS.
+

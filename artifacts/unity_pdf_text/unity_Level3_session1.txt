@@ -1,0 +1,123 @@
+--- Page 1 ---
+Level 3:  Session 1
+Game Development
+By Unity
+--- Page 2 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+1
+Front and back end developers work on different sides
+Front end development is programming which focuses on 
+the visual app that a user will interact with (the client side).
+Meanwhile, back end development focuses on the side  
+users can't see (the server side).
+
+--- Page 3 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+2
+C# is pronounced "C-Sharp"
+C# isn’t front-end nor back-end.
+C# is a desktop programming languages in 
+other words we can use it to build software .
+But it has a web framework called “ASP.NET” 
+and it’s used in back-end
+
+--- Page 4 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+3
+Desktop applications
+Web services
+Web sites
+Games
+Web applications
+Mobile applications
+Database applications
+And much, much more!
+
+--- Page 5 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+4
+Once the Visual  Studio Installer is 
+downloaded and installed, choose 
+the .NET workload and click on the 
+Modify Install button:
+
+--- Page 6 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+After the installation is complete, click on the Launch button to get started with Visual Studio.
+Then click on the "Install more tools and features" button:
+Choose "Console App (.NET Core)" from the list and click on the Next button:
+5
+On the start window, choose Create a new project: 
+
+--- Page 7 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+6
+Visual Studio will automatically generate some code for your project :
+--- Page 8 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+7
+In Programming Languages Are 
+Collections Of Prewritten Code 
+That Users Can Use To 
+Optimize Tasks.
+
+--- Page 9 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+8
+
+--- Page 10 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+9
+Comments can be used to explain C# code, and to make it more readable. 
+It can also be used to prevent execution when testing alternative code.
+• Single-line comments start with two forward slashes (//).
+• Any text between // and the end of the line is ignored by C# (will not be executed). 
+• Multi-line comments start with /* and ends with */.
+• Any text between /* and */ will be ignored by C#.
+Single-line Comments :
+Multi-line Comments :
+
+--- Page 11 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+10
+To output values or print 
+text in C#, you can use the WriteLine() method:
+
+--- Page 12 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+11
+
+--- Page 13 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+You have already learned that Console.WriteLine() is used to output (print) values.
+ Now we will use Console.ReadLine() to get user input. 
+12
+--- Page 14 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+13

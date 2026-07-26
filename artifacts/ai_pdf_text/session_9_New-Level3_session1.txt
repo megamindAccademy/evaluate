@@ -1,0 +1,86 @@
+--- Page 1 ---
+& 
+Level 3:  Session 1
+
+--- Page 2 ---
+Object Detection
+DNN 
+Dnn_detectionmodel
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+Object Detection
+
+--- Page 4 ---
+All rights reserved
+Object Detection
+is a computer vision technique that 
+allows us to identify and locate objects in 
+an image or video.
+Object Detection models allow 
+users to identify objects of 
+certain defined classes. Object 
+detection models receive an 
+image as input and output the 
+images with bounding boxes and 
+labels on detected objects.
+--- Page 5 ---
+All rights reserved
+Required library 
+pip install opencv-python
+Our 
+Today 
+Project 
+--- Page 6 ---
+All rights reserved
+DNN
+stands for Deep Neural Networks. It refers to a type of artificial neural network that is composed of 
+multiple layers of nodes, which are designed to automatically learn and extract features from data. 
+Deep neural networks are capable of performing complex tasks such as image and speech 
+recognition, natural language processing, and many others.
+Dnn_detectionmodel
+class provides an easy-to-use and efficient way to 
+perform object detection using deep learning models 
+in OpenCV.
+--- Page 7 ---
+All rights reserved
+
+--- Page 8 ---
+All rights reserved
+Mode Is “rt" To Read A File As Text
+Strip() Function, It Removes Those Characters Or Symbols From The Beginning And The End .
+Split() Function Breaks Up A String To Return The List Of All Strings
+Models files which have the project algorithms 
+--- Page 9 ---
+All rights reserved
+Dnn_detectionmodel :Create detection model from network represented in one of the supported formats.
+ 
+Model   Binary file contains trained weights.
+Config  Text file contains network configuration.
+Setinputsize, Setinputscale,setinputmean,setinputswaprb                     Model’s Values 
+
+--- Page 10 ---
+All rights reserved
+[out] classIds Class indexes in result detection.
+[out] confidences A set of corresponding confidences.
+[out] boxes A set of bounding boxes.
+[in] confThreshold A threshold used to filter boxes by confidences.
+Loop for window
+confidence threshold is the minimum score that 
+the model will consider the prediction to be a true 
+prediction
+--- Page 11 ---
+All rights reserved
+H.W
+Real-Life Application)
+Imagine you are designing a smart security camera that uses object 
+detection.Answer the following:
+• List three objects your camera should be able to detect.
+• Explain why object detection is important for this device.
+• Give one example of how a wrong detection (low confidence prediction) could 
+cause a problem.
+Load a pre-trained DNN model (you don’t need to actually provide the model files).
+Set the input size of the model to (320, 320).
+Print a message saying: "Model Loaded Successfully".
+

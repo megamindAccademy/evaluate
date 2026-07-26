@@ -24,23 +24,18 @@ pictoblox_sessions = [
             "Make your favorite animal sprite glide smoothly to the finish line."
         ],
         "project": "<b>Animal Racing Game</b>: Program a rabbit and a turtle sprite to compete in a race to the finish line, playing cheering sounds when they cross!",
-        "new_blocks": [
-            ("go to x:() y:()", "Motion", "Instantly teleports the sprite to a specific X and Y spot on the Stage grid."),
-            ("glide () secs to x:() y:()", "Motion", "Moves the sprite smoothly to a target spot on the grid over a specified time."),
-            ("say () for () seconds", "Looks", "Displays a text bubble containing your message on the screen for a set duration."),
-            ("start sound ()", "Sound", "Plays a fun sound effect instantly without pausing the rest of the block commands.")
+        "new_blocks_html": [
+            '<div class="scratch-block scratch-motion">go to x: <span class="scratch-input">0</span> y: <span class="scratch-input">0</span></div>',
+            '<div class="scratch-block scratch-motion">glide <span class="scratch-input">1</span> secs to x: <span class="scratch-input">100</span> y: <span class="scratch-input">50</span></div>',
+            '<div class="scratch-block scratch-looks">say <span class="scratch-input">Let\'s race!</span> for <span class="scratch-input">2</span> seconds</div>',
+            '<div class="scratch-block scratch-sound">start sound <span class="scratch-input-dark">cheering ▾</span></div>'
         ],
         "simple": "Imagine PicToBlox blocks are like Lego blocks! You snap one block on top of another to build a towering command that tells your sprite exactly where to go!",
-        "hint": "Type in the editor: <code>print(\"Animal Racing active!\")</code> and press Run!",
-        "challenge": "Print the exact message: <code>Animal Racing active!</code> to simulate the race track startup.",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the race game in PicToBlox!",
+        "challenge": "Build your Animal Racing game in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 1: Animal Racing\n",
         "verify_phrase": "Animal Racing active!",
-        "pills": [
-            {
-                "label": "Start Animal Race",
-                "code": "print(\"Animal Racing active!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Create a new project where a cat sprite says 'Get ready...', waits, and then glides smoothly across the stage to X=200, Y=50 while playing a meowing sound!",
         "homework_code": "# Home Challenge: Cat Racing Script\n# Write your solution here!"
     },
@@ -60,24 +55,20 @@ pictoblox_sessions = [
             "Animate walking legs using a loop that cycles costumes automatically."
         ],
         "project": "<b>Elephant Story</b>: Build a story where an elephant walks through the jungle, switches scenery to the savanna, and speaks with a friendly monkey.",
-        "new_blocks": [
-            ("when Green Flag clicked", "Events", "The yellow starting block that runs connected scripts when the game plays."),
-            ("forever", "Control", "A loop container that runs the code blocks inside it repeatedly without stopping."),
-            ("wait () seconds", "Control", "Pauses the execution of blocks for a short time to help sequence animations."),
-            ("show / hide", "Looks", "Instantly shows or hides your character sprite from the Stage layout."),
-            ("switch backdrop to ()", "Looks", "Changes the background graphics layout to a new scenery backdrop.")
+        "new_blocks_html": [
+            '<div class="scratch-block scratch-events">when 🟢 clicked</div>',
+            '<div class="scratch-block scratch-control">forever [ 🔄 ]</div>',
+            '<div class="scratch-block scratch-control">wait <span class="scratch-input">1</span> seconds</div>',
+            '<div class="scratch-block scratch-looks">show</div>',
+            '<div class="scratch-block scratch-looks">hide</div>',
+            '<div class="scratch-block scratch-looks">switch backdrop to <span class="scratch-input-dark">Savanna ▾</span></div>'
         ],
         "simple": "Imagine a forever loop is like a musical box that repeats your favorite song over and over until you close the lid!",
-        "hint": "Type in the editor: <code>print(\"Elephant Story animation active!\")</code> and press Run!",
-        "challenge": "Print the message: <code>Elephant Story animation active!</code> to start the backdrop story.",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the elephant walk story in PicToBlox!",
+        "challenge": "Build your Elephant Story animation in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 2: Elephant Story\n",
         "verify_phrase": "Elephant Story animation active!",
-        "pills": [
-            {
-                "label": "Animate Elephant Story",
-                "code": "print(\"Elephant Story animation active!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Build a script where a phantom sprite stays hidden, waits 2 seconds, changes the background backdrop to 'Castle', and then pops up playing a magic sound!",
         "homework_code": "# Home Challenge: Castle Phantom Story\n# Write your solution here!"
     },
@@ -97,23 +88,19 @@ pictoblox_sessions = [
             "Program collision boundaries that block or bounce players when they touch red walls."
         ],
         "project": "<b>Maze Game</b>: Draw a maze backdrop and program a mouse sprite that moves with keyboard arrow keys, bouncing back to the start if it touches the walls!",
-        "new_blocks": [
-            ("if <> then", "Control", "Runs blocks inside only when the hexagonal condition inside is met."),
-            ("key () pressed?", "Sensing", "Checks if a specific keyboard key (like arrow keys) is currently held down."),
-            ("touching color ()?", "Sensing", "Detects if your sprite is overlapping with a specific background color."),
-            ("change x by () / change y by ()", "Motion", "Moves the sprite left/right (x-axis) or up/down (y-axis) by coordinate points.")
+        "new_blocks_html": [
+            '<div class="scratch-block scratch-control">if <span class="scratch-input-hex">?</span> then</div>',
+            '<span class="scratch-block scratch-sensing" style="border-radius: 20px; padding: 6px 14px;">key <span class="scratch-input-dark">space ▾</span> pressed?</span>',
+            '<span class="scratch-block scratch-sensing" style="border-radius: 20px; padding: 6px 14px;">touching color <span style="display:inline-block; width:16px; height:16px; background-color:#ff0000; border-radius:50%; vertical-align:middle; border:1px solid #fff;"></span> ?</span>',
+            '<div class="scratch-block scratch-motion">change x by <span class="scratch-input">10</span></div>',
+            '<div class="scratch-block scratch-motion">change y by <span class="scratch-input">10</span></div>'
         ],
         "simple": "An If statement is like a traffic light! If the light is green, your hero walks forward. If it's red, they must stand still!",
-        "hint": "Type in the editor: <code>print(\"Maze controller activated!\")</code> and press Run!",
-        "challenge": "Print the message: <code>Maze controller activated!</code> to run the collision grid check.",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the Maze Game in PicToBlox!",
+        "challenge": "Build your interactive Maze Game in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 3: Maze Game\n",
         "verify_phrase": "Maze controller activated!",
-        "pills": [
-            {
-                "label": "Activate Maze Controller",
-                "code": "print(\"Maze controller activated!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Write code where a player moves right by 10 points when Right Arrow is pressed. If they touch the yellow chest color, play a victory fanfare!",
         "homework_code": "# Home Challenge: Chest Collector Script\n# Write your solution here!"
     },
@@ -133,22 +120,17 @@ pictoblox_sessions = [
             "Use random ranges to position falling items across the stage."
         ],
         "project": "<b>Jumper Frog Game</b>: Code a game where a frog jumps in place when space is pressed, dodging insect obstacles that spawn at random spots using broadcast syncs.",
-        "new_blocks": [
-            ("broadcast ()", "Events", "Sends a global text message signal to all active sprites in the game."),
-            ("when I receive ()", "Events", "Starts a script execution immediately when a matching broadcast is captured."),
-            ("pick random () to ()", "Operators", "Selects a random surprise number within a set numerical range.")
+        "new_blocks_html": [
+            '<div class="scratch-block scratch-events">broadcast <span class="scratch-input-dark">jump_trigger ▾</span></div>',
+            '<div class="scratch-block scratch-events">when I receive <span class="scratch-input-dark">jump_trigger ▾</span></div>',
+            '<span class="scratch-block scratch-operators" style="border-radius: 20px; padding: 6px 14px;">pick random <span class="scratch-input">1</span> to <span class="scratch-input">10</span></span>'
         ],
         "simple": "Broadcasting is like a gym teacher blowing a whistle! When the whistle blows (broadcast), all students run (when I receive)!",
-        "hint": "Type in the editor: <code>print(\"Broadcast message received successfully!\")</code> and press Run!",
-        "challenge": "Print the message: <code>Broadcast message received successfully!</code> to verify communication.",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the Jumper Frog Game in PicToBlox!",
+        "challenge": "Build your Jumper Frog Game in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 4: Broadcast Syncs\n",
         "verify_phrase": "Broadcast message received successfully!",
-        "pills": [
-            {
-                "label": "Send Broadcast Message",
-                "code": "print(\"Broadcast message received successfully!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Create a script where a button sprite broadcasts 'Start Game' when clicked, making the main character say 'Game Started!' and glide onto the screen.",
         "homework_code": "# Home Challenge: Broadcast Trigger\n# Write your solution here!"
     },
@@ -168,23 +150,19 @@ pictoblox_sessions = [
             "Change score parameters dynamically on target touches."
         ],
         "project": "<b>Basketball Game</b>: Build a game where a ball drops from a random coordinate. Catching it with your net adds 1 point. If it hits the floor, trigger a 'stop all' game over!",
-        "new_blocks": [
-            ("set [variable] to ()", "Variables", "Sets the initial value of a variable when the game starts."),
-            ("change [variable] by ()", "Variables", "Adds or subtracts a numerical amount from a variable score."),
-            ("stop [all]", "Control", "Stops all running loops, scripts, and sounds in the entire game."),
-            ("set x to () / set y to ()", "Motion", "Sets your character's position along a single axis layout.")
+        "new_blocks_html": [
+            '<div class="scratch-block scratch-variables">set <span class="scratch-input-dark">Score ▾</span> to <span class="scratch-input">0</span></div>',
+            '<div class="scratch-block scratch-variables">change <span class="scratch-input-dark">Score ▾</span> by <span class="scratch-input">1</span></div>',
+            '<div class="scratch-block scratch-control">stop <span class="scratch-input-dark">all ▾</span></div>',
+            '<div class="scratch-block scratch-motion">set x to <span class="scratch-input">0</span></div>',
+            '<div class="scratch-block scratch-motion">set y to <span class="scratch-input">0</span></div>'
         ],
         "simple": "A variable is like a small chalkboard! You start with a zero written on it, and every time you score, you erase it and write the new score!",
-        "hint": "Type in the editor: <code>print(\"Score variable updated to 10!\")</code> and press Run!",
-        "challenge": "Print the message: <code>Score variable updated to 10!</code> to run the scoring scoreboard simulation.",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the Basketball Game in PicToBlox!",
+        "challenge": "Build your Basketball Game with scoring scoreboard in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 5: Variables & Scoreboards\n",
         "verify_phrase": "Score variable updated to 10!",
-        "pills": [
-            {
-                "label": "Update Scoreboard",
-                "code": "print(\"Score variable updated to 10!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Write code to reset a 'Life' variable to 3. If a player touches an obstacle, subtract 1 life, and if 'Life' equals 0, stop all actions!",
         "homework_code": "# Home Challenge: Life System Simulator\n# Write your solution here!"
     },
@@ -204,22 +182,18 @@ pictoblox_sessions = [
             "Show or hide variable displays during gameplay transitions."
         ],
         "project": "<b>Giga-man Clicker Game</b>: Build an interactive arcade game where clicking Giga-man makes him perform a custom jump definition and adds a score point, displaying the scoreboard.",
-        "new_blocks": [
-            ("when this sprite clicked", "Events", "Triggers code execution when the player clicks directly on the sprite's canvas area."),
-            ("hide variable () / show variable ()", "Variables", "Shows or hides the variable's visual dashboard from the game screen."),
-            ("define [My Block]", "My Blocks", "Creates a custom block to define a reusable function code sequence.")
+        "new_blocks_html": [
+            '<div class="scratch-block scratch-events">when this sprite clicked</div>',
+            '<div class="scratch-block scratch-variables">show variable <span class="scratch-input-dark">Score ▾</span></div>',
+            '<div class="scratch-block scratch-variables">hide variable <span class="scratch-input-dark">Score ▾</span></div>',
+            '<div class="scratch-block scratch-myblocks" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">define <span class="scratch-input-dark">CustomJump</span></div>'
         ],
         "simple": "Custom blocks are like recipes! Instead of listing instructions every time you make a cake, you just name the recipe 'Bake Cake' and call it!",
-        "hint": "Type in the editor: <code>print(\"Giga-man game interface loaded!\")</code> and press Run!",
-        "challenge": "Print the message: <code>Giga-man game interface loaded!</code> to launch the click engine.",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the Giga-man Clicker Game in PicToBlox!",
+        "challenge": "Build your Giga-man Clicker Game in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 6: Click Actions\n",
         "verify_phrase": "Giga-man game interface loaded!",
-        "pills": [
-            {
-                "label": "Initialize Giga-man Game",
-                "code": "print(\"Giga-man game interface loaded!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Write a script where clicking a coin sprite plays a 'Ding' sound, adds 10 to a score variable, and hides the coin sprite.",
         "homework_code": "# Home Challenge: Clickable Coin Script\n# Write your solution here!"
     },
@@ -239,23 +213,19 @@ pictoblox_sessions = [
             "Draw a perfect geometric shape on the screen using loops."
         ],
         "project": "<b>Draw Shapes</b>: Create an artistic drawing engine where your sprite moves in loops, using Pen blocks to sketch colorful squares, triangles, and hexagons.",
-        "new_blocks": [
-            ("erase all", "Pen Extension", "Instantly clears all drawings and trails from the Stage canvas."),
-            ("pen down / pen up", "Pen Extension", "Lowers the pen to start drawing lines, or raises it to move without drawing."),
-            ("set pen color to ()", "Pen Extension", "Changes the ink color of the drawing pen."),
-            ("set pen size to ()", "Pen Extension", "Changes the thickness of the sketched pen line.")
+        "new_blocks_html": [
+            '<div class="scratch-block scratch-pen">erase all</div>',
+            '<div class="scratch-block scratch-pen">pen down</div>',
+            '<div class="scratch-block scratch-pen">pen up</div>',
+            '<div class="scratch-block scratch-pen">set pen color to <span style="display:inline-block; width:16px; height:16px; background-color:#ff00ff; border-radius:50%; vertical-align:middle; border:1px solid #fff;"></span></div>',
+            '<div class="scratch-block scratch-pen">set pen size to <span class="scratch-input">5</span></div>'
         ],
         "simple": "The Pen block is like putting a crayon in your sprite's hand! Wherever they walk, they leave a beautiful colored trail on the paper!",
-        "hint": "Type in the editor: <code>print(\"Shape drawing functions loaded!\")</code> and press Run!",
-        "challenge": "Print the message: <code>Shape drawing functions loaded!</code> to start drawing.",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the Draw Shapes Project in PicToBlox!",
+        "challenge": "Build your Draw Shapes Project in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 7: Pen Drawings\n",
         "verify_phrase": "Shape drawing functions loaded!",
-        "pills": [
-            {
-                "label": "Activate Pen Studio",
-                "code": "print(\"Shape drawing functions loaded!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Write a script to clear the screen, lower the pen, and draw a square by repeating 4 times: move 100 steps and turn clockwise 90 degrees.",
         "homework_code": "# Home Challenge: Draw Square Script\n# Write your solution here!"
     },
@@ -275,22 +245,17 @@ pictoblox_sessions = [
             "Simulate gravity pulling the character down."
         ],
         "project": "<b>Flappy Bird Game</b>: Build a flying bird game where pressing space makes the bird flap upward against constant gravity, dodging cloned pipes that spawn and scroll to the left.",
-        "new_blocks": [
-            ("create clone of [myself]", "Control", "Spawns a duplicate copy of the sprite at runtime."),
-            ("when I start as a clone", "Control", "A starter block that runs script instructions for the newly created clone."),
-            ("delete this clone", "Control", "Destroys the clone and removes it from the Stage grid to save memory.")
+        "new_blocks_html": [
+            '<div class="scratch-block scratch-control">create clone of <span class="scratch-input-dark">myself ▾</span></div>',
+            '<div class="scratch-block scratch-events">when I start as a clone</div>',
+            '<div class="scratch-block scratch-control">delete this clone</div>'
         ],
         "simple": "Cloning is like a magical stamp! Instead of drawing 100 pipes, you just stamp new ones into the game every few seconds!",
-        "hint": "Type in the editor: <code>print(\"Clone spawned successfully!\")</code> and press Run!",
-        "challenge": "Print the message: <code>Clone spawned successfully!</code> to run the cloning script.",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the Flappy Bird Game in PicToBlox!",
+        "challenge": "Build your Flappy Bird Game in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 8: Cloning & Physics\n",
         "verify_phrase": "Clone spawned successfully!",
-        "pills": [
-            {
-                "label": "Spawn Clone",
-                "code": "print(\"Clone spawned successfully!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Create a script that spawns a star clone every 2 seconds. When each clone starts, it should drift upwards and delete itself when it hits the top border.",
         "homework_code": "# Home Challenge: Spawning Stars\n# Write your solution here!"
     },
@@ -310,22 +275,17 @@ pictoblox_sessions = [
             "Steer your car using Left and Right Arrow rotation keys."
         ],
         "project": "<b>Car-Race Game</b>: Design a custom race track scenery and a race car sprite, then program arrow-key steering and add track boundary constraints.",
-        "new_blocks": [
-            ("turn clockwise () degrees", "Motion", "Rotates the sprite to the right (clockwise) by a number of degrees."),
-            ("turn counter-clockwise () degrees", "Motion", "Rotates the sprite to the left (counter-clockwise) by a number of degrees."),
-            ("if on edge, bounce", "Motion", "Instantly reflects the sprite's direction if it collides with stage borders.")
+        "new_blocks_html": [
+            '<div class="scratch-block scratch-motion">turn ↻ <span class="scratch-input">15</span> degrees</div>',
+            '<div class="scratch-block scratch-motion">turn ↺ <span class="scratch-input">15</span> degrees</div>',
+            '<div class="scratch-block scratch-motion">if on edge, bounce</div>'
         ],
         "simple": "Bouncing from edges is like a rubber ball! When you throw it against the wall, it instantly bounces back to you!",
-        "hint": "Type in the editor: <code>print(\"Car-Race steering engine activated!\")</code> and press Run!",
-        "challenge": "Print the message: <code>Car-Race steering engine activated!</code> to launch the car dashboard.",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the Car-Race Game in PicToBlox!",
+        "challenge": "Build your Car-Race Game in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 9: Painting & Steering\n",
         "verify_phrase": "Car-Race steering engine activated!",
-        "pills": [
-            {
-                "label": "Start Car Race",
-                "code": "print(\"Car-Race steering engine activated!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Create a script where pressing Left Arrow spins your character 15 degrees left, and pressing Right Arrow spins it 15 degrees right.",
         "homework_code": "# Home Challenge: Character Steering\n# Write your solution here!"
     },
@@ -345,21 +305,16 @@ pictoblox_sessions = [
             "Increase ball speeds as scores go up."
         ],
         "project": "<b>Pong-ball Game</b>: Build an arcade game where a ball bounces off walls and players move paddles with mouse/keys, combining logic operators to detect scoring zone drops.",
-        "new_blocks": [
-            ("<> and <>", "Operators", "Returns true only if both hexagonal checks inside evaluate to true."),
-            ("<> or <>", "Operators", "Returns true if at least one of the checks evaluates to true.")
+        "new_blocks_html": [
+            '<span class="scratch-block scratch-operators" style="border-radius: 20px; padding: 6px 14px;"><span class="scratch-input-hex">?</span> and <span class="scratch-input-hex">?</span></span>',
+            '<span class="scratch-block scratch-operators" style="border-radius: 20px; padding: 6px 14px;"><span class="scratch-input-hex">?</span> or <span class="scratch-input-hex">?</span></span>'
         ],
         "simple": "The OR block is like choosing dessert! You will be happy if you get ice cream OR if you get cake!",
-        "hint": "Type in the editor: <code>print(\"Pong bounce engine activated!\")</code> and press Run!",
-        "challenge": "Print the message: <code>Pong bounce engine activated!</code> to verify ball bounce parameters.",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the Pong-ball Game in PicToBlox!",
+        "challenge": "Build your Pong-ball Game in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 10: Logic Operators\n",
         "verify_phrase": "Pong bounce engine activated!",
-        "pills": [
-            {
-                "label": "Test Pong Game",
-                "code": "print(\"Pong bounce engine activated!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Write a script where the ball bounces (turns 180 degrees) if it touches Paddle OR if it touches a green boundary color.",
         "homework_code": "# Home Challenge: Paddle Bouncer\n# Write your solution here!"
     },
@@ -379,21 +334,16 @@ pictoblox_sessions = [
             "Sense mouse down clicks while overlapping with flying targets."
         ],
         "project": "<b>Duck Hunter Game (Part 1)</b>: Design a target shooting screen where ducks fly from bottom sky points and players click their mouse to shoot them, playing lasers!",
-        "new_blocks": [
-            ("mouse down?", "Sensing", "A hexagonal check block that returns true if the player clicks their mouse."),
-            ("touching [mouse-pointer]?", "Sensing", "Checks if your character sprite is touching the mouse cursor.")
+        "new_blocks_html": [
+            '<span class="scratch-block scratch-sensing" style="border-radius: 20px; padding: 6px 14px;">mouse down?</span>',
+            '<span class="scratch-block scratch-sensing" style="border-radius: 20px; padding: 6px 14px;">touching <span class="scratch-input-dark">mouse-pointer ▾</span>?</span>'
         ],
         "simple": "Aiming to the mouse cursor is like a puppy following a treat in your hand! Wherever you move your hand, the puppy runs right to it!",
-        "hint": "Type in the editor: <code>print(\"Duck Hunter controller initialized!\")</code> and press Run!",
-        "challenge": "Print the message: <code>Duck Hunter controller initialized!</code> to start target tracking.",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the Duck Hunter Game Part 1 in PicToBlox!",
+        "challenge": "Build your Duck Hunter Game Part 1 in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 11: Cursor Aiming\n",
         "verify_phrase": "Duck Hunter controller initialized!",
-        "pills": [
-            {
-                "label": "Initialize Duck Hunter",
-                "code": "print(\"Duck Hunter controller initialized!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Write code where a sprite constantly follows the mouse pointer. If the mouse is clicked, play a laser sound and show a blast effect!",
         "homework_code": "# Home Challenge: Crosshair Laser\n# Write your solution here!"
     },
@@ -413,21 +363,16 @@ pictoblox_sessions = [
             "Stack the targeting crosshair above all flying duck layers."
         ],
         "project": "<b>Duck Hunter Game (Part 2)</b>: Add ammunition counts, reload warnings, and layer stack order so the aiming sight is always in front. Display a Win screen if score exceeds 10, else a Game Over screen!",
-        "new_blocks": [
-            ("if <> then {} else {}", "Control", "Executes the top block sequence if the condition passes, and the bottom block sequence if it fails."),
-            ("go to [front] layer", "Looks", "Moves your sprite layer ranking to the very front so it draws above other sprites.")
+        "new_blocks_html": [
+            '<div class="scratch-block scratch-control">if <span class="scratch-input-hex">?</span> then / else</div>',
+            '<div class="scratch-block scratch-looks">go to <span class="scratch-input-dark">front ▾</span> layer</div>'
         ],
         "simple": "An If-Else block is like a path split in a fairy tale! If you have the key, you open the castle gates. Else, you must take the detour path!",
-        "hint": "Type in the editor: <code>print(\"Duck Hunter full game deployed!\")</code> and press Run!",
-        "challenge": "Print the message: <code>Duck Hunter full game deployed!</code> to celebrate graduating your first visual block game!",
+        "hint": "Click the big green button below: <b>Done! Claim My Medal!</b> once you build the Duck Hunter Game Part 2 in PicToBlox!",
+        "challenge": "Build your Duck Hunter Game Part 2 final graduation project in PicToBlox and click the green medal button below!",
         "starter_code": "# Simulate PicToBlox Session 12: Graduation Project\n",
         "verify_phrase": "Duck Hunter full game deployed!",
-        "pills": [
-            {
-                "label": "Deploy Full Game",
-                "code": "print(\"Duck Hunter full game deployed!\")"
-            }
-        ],
+        "pills": [],
         "homework_desc": "Program a final script: if Score is greater than 10, say 'Winner!' and go to the front layer; else, say 'Keep trying!' and hide the sprite.",
         "homework_code": "# Home Challenge: Graduation Game Over\n# Write your solution here!"
     }
@@ -452,15 +397,15 @@ for s in pictoblox_sessions:
     story_html += "</ul>"
     
     # 3. Project (المشروع الخاص بالسيشن)
-    story_html += f"<div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px; border-radius: 8px; margin-top: 10px;'>🏆 <b>Session Project:</b> {s['project']}</div><br>"
+    story_html += f"<div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 12px; border-radius: 8px; margin-top: 15px; margin-bottom: 15px;'>🏆 <b>Session Project:</b> {s['project']}</div>"
     
-    # 4. New Blocks (البلوكس الجديدة وبتعمل ايه)
-    story_html += "<b>🧱 New Puzzle Blocks Introduced:</b><ul>"
-    for name, category, action in s["new_blocks"]:
-        story_html += f"<li><span style='background: #f3f4f6; padding: 2px 6px; border-radius: 4px; font-family: monospace; font-weight: bold;'>{name}</span> ({category} drawer): {action}</li>"
-    story_html += "</ul>"
+    # 4. New Blocks (البلوكس الجديدة وبتعمل ايه - RENDERED AS ACTUAL CSS BLOCKS!)
+    story_html += "<b>🧱 New Puzzle Blocks Introduced:</b><br><div style='background: rgba(2, 48, 71, 0.03); border: 2px solid rgba(2, 48, 71, 0.1); padding: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 15px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start;'>"
+    for block_markup in s["new_blocks_html"]:
+        story_html += f"<div style='margin-bottom: 5px;'>{block_markup}</div>"
+    story_html += "</div>"
     
-    story_html += "<p>Let's drag or click the helper block pill below to run the simulation and unlock this station's medal! You've got this! 🌟🚀</p>"
+    story_html += "<p>Let's drag and snap these blocks in your playground! Once your game is running, click the big green medal button on the right to claim your rewards! You've got this! 🌟🚀</p>"
     
     station = {
         "id": s["id"],
@@ -501,4 +446,4 @@ games_file = os.path.join(db_path, course_id, 'games.json')
 with open(games_file, 'w', encoding='utf-8') as f:
     json.dump(games_data, f, indent=2, ensure_ascii=False)
 
-print("Successfully generated games.json with 12 complete stations for junior_pictoblox!")
+print("Successfully generated games.json with 12 visual-block styled sessions for junior_pictoblox!")

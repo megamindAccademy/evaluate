@@ -1,0 +1,170 @@
+--- Page 1 ---
+Level 3:  Session 2
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+Example
+Name = “Mohamed”
+Age = 10
+Variables are data values that can change.
+A variable is a memory location.
+Variables are containers for storing data values.
+
+--- Page 3 ---
+All rights reserved
+2
+2
+Int :
+ integers (whole numbers), without decimals, such as 123 or -123.
+Float :
+ stores  floating point numbers, with decimals, such as 19.99 or -19.99.
+Char : 
+ stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes.
+String : 
+ stores text, such as "Hello World". String values are surrounded by double quotes.
+Bool :
+ stores values with two states: true or false.
+
+--- Page 4 ---
+All rights reserved
+2
+3
+Give variable suitable Name
+Ex: name ,length not  x , y
+Camel casing
+Ex: firstName
+Case sensitive
+Ex: name not equal Name
+Reserved keyword
+Ex: don’t use word of the language ( int , if , function )
+Initialize variable
+Ex: String name = " ahmed " ;
+Declared variable
+Ex: String name ;
+
+--- Page 5 ---
+All rights reserved
+2
+4
+type variableName = ; 
+Where type is a C# type (such as int or string), and variableName is 
+the name of the variable (such as x or name). 
+The equal sign is used to assign values to the variable. 
+To create a variable, you must specify the type and assign it a value:
+--- Page 6 ---
+All rights reserved
+2
+5
+Create a variable called name of type string and assign it the value "John":
+string name = "John"; 
+Console.WriteLine(name); 
+
+--- Page 7 ---
+All rights reserved
+2
+6
+Create a variable called myNum of type int and assign it the value 15:
+int myNum = 15;
+Console.WriteLine(myNum); 
+
+--- Page 8 ---
+All rights reserved
+2
+7
+You can also declare a variable without assigning the value, and assign the value later:
+
+--- Page 9 ---
+All rights reserved
+2
+8
+Note that if you assign a new value to an existing variable, 
+it will overwrite the previous value:
+
+--- Page 10 ---
+All rights reserved
+2
+9
+However, you can add the const keyword if you don't want others (or yourself) 
+to overwrite existing values (this will declare the variable as "constant", 
+which means unchangeable and read-only): 
+
+--- Page 11 ---
+All rights reserved
+2
+10
+Arrays are used to store multiple values in a single variable, instead of declaring 
+separate variables for each value.
+To declare an array, define the variable type 
+with square brackets:
+Int [] myNum;
+--- Page 12 ---
+All rights reserved
+2
+11
+1. To insert values to it, we can use an array literal - place the values 
+in a comma-separated list, inside curly braces:
+string [] cars = {"Volvo", "BMW", "Ford", "Mazda"};  
+2. You access an array element by referring to the index number.
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"}; 
+   Console.WriteLine(cars[1]); // Outputs BMW 
+3. To change the value of a specific element, refer to the index number:
+cars[0] = "Opel"; 
+--- Page 13 ---
+All rights reserved
+2
+12
+Operators are used to perform operations on variables and values.
+
+--- Page 14 ---
+All rights reserved
+2
+13
+Arithmetic operators are used to perform common mathematical operations:
+
+--- Page 15 ---
+All rights reserved
+2
+14
+Although the + operator is often used to add 
+together two values, like in the example above, 
+it can also be used to add together a variable 
+and a value, or a variable and another variable: 
+
+--- Page 16 ---
+All rights reserved
+2
+15
+Assignment operators are used to assign values to variables.
+
+--- Page 17 ---
+All rights reserved
+2
+16
+The addition assignment operator 
+(+=) adds a value to a variable: 
+
+--- Page 18 ---
+All rights reserved
+2
+17
+Comparison operators are used to compare two values:
+
+--- Page 19 ---
+All rights reserved
+2
+18
+
+--- Page 20 ---
+All rights reserved
+2
+19
+Logical operators are used to determine the logic between variables or values:
+
+--- Page 21 ---
+All rights reserved
+2
+20
+

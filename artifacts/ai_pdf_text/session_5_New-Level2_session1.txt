@@ -1,0 +1,155 @@
+--- Page 1 ---
+& 
+Level 2:  Session 1
+
+--- Page 2 ---
+Deep Learning
+Human Brain  VS Computer
+Supervised vs unsupervised learning
+CNN
+Matplotlib
+All rights reserved
+
+--- Page 3 ---
+All rights reserved
+Human Brain  VS Computer
+Within Deep Learning, a Convolutional Neural Network or 
+CNN is a type of artificial neural network, which is widely 
+used for image/object recognition and classification. Deep 
+Learning thus recognizes objects in an image by using a 
+CNN.
+      
+          
+      
+▪ Human brain consist of 100 miliar  nerve cell
+▪ nerve cell receive and transmit messages 
+between the brain, spinal cord, and other 
+parts of the body.
+▪ Neurons are capable of detecting, receiving, 
+and transmitting a variety of inputs
+--- Page 4 ---
+All rights reserved
+Brain image recognitions
+CNN ما يقوم به الذكاء الاصطناعي وخاصا
+هو محاوله ايجاد الخصائص والمميزات التي تحدد الشكل وتميزه عن 
+غيره من الاشياء كما يفعل المخ لتحديد هل ينظر الشخص الي 
+الامام ام الي اليمين وهل هذه صوره بطه ام ارنب
+Do you see a rabbit or a duck?
+That's enough with the games. The point to be made here is that 
+your brain classifies objects in an image based on the features 
+that it detects first.
+The previous images were designed so that what you see in them 
+depends on the line and the angle that your brain decides to begin 
+its "feature detection" expedition from.
+As we proceed in our section on convolutional neural networks, 
+you will realize the staggering degree of similarity between how 
+these networks operate and how your brain does. They, too, 
+categorize objects or images based on the set of features that 
+are passed through them and that they manage to detect.
+--- Page 5 ---
+All rights reserved
+Image Representation 
+*The image is store in array 
+
+--- Page 6 ---
+All rights reserved
+Deep learning is a class of machine learning algorithms that uses multiple layers to progressively 
+extract higher-level features from the raw input.
+Deep Learning 
+These neural networks attempt to simulate the behavior of the human brain
+
+--- Page 7 ---
+All rights reserved
+Supervised : It is defined by its use of labeled datasets to train algorithms 
+that to classify data or predict outcomes accurately.
+Supervised vs unsupervised learning
+
+--- Page 8 ---
+All rights reserved
+Different between CNN and FC (Fully Connected)
+fully connected networkهي عبارة عن شبكة عصبية جميع
+وحداتها متصلة مع بعضها البعض. هذه تعتبر احدى عيوب 
+Multilayer perceptronلانه حنحتاج كمية اوزان عالية
+الحل انه نستخدم convolutional layer. الconvolutional 
+operationsفيconvolutional layer تدعم مشاركة الاوزان
+weightsبين الوحدات العصبية.
+مشاركة الاوزان في convolutional layerيسمح لنا من
+استغلال ترابط pixels مع بعضها البعض. لان مثل ما 
+نرى كل pixelيوجد بجانبهpixelاخر وهو جاره وهكذا.  
+فال convolutional operations in convolutional layer 
+يسمح لنا بالمحافظة على اجزاء الصورة مع بعضها 
+البعض في مختلف الطبقات. يعني تخيل انه وجدنا 
+الوزن الخاص بالعين للرجل في الصورة اعلاه. والعين 
+موجودة في اكثر من pixel. فاحنا مجرد ما وجدنا الوزن
+weight للpixel الاول، ما يحتاج نحسب الpixel الثاني
+لان حنشارك الاوزان وبالتالي كل البكسلين مع بعضهم 
+البعض يكونون لي شكل العين
+--- Page 9 ---
+All rights reserved
+CNN
+Convolutional Neural Network is a Deep 
+Learning algorithm specially designed for 
+working with Images and videos. It takes 
+images as inputs, extracts and learns the 
+features of the image, and classifies them 
+based on the learned features.
+Tries to simulate the brain to find the features
+--- Page 10 ---
+All rights reserved
+CNN Layers 
+1. Convolutional Layer
+   Finding feature & apply filters 
+2. Pooling layer
+    downsize & keep important feature 
+3. Flatting layer
+    convert 1D array 
+4. Full connection
+    build needed connectors
+--- Page 11 ---
+All rights reserved
+Convolutional Layer
+
+--- Page 12 ---
+All rights reserved
+decides whether a neuron should be activated or not. 
+Convolutional Layer
+-
+Activation Function
+decide whether the neuron's input to the network is 
+important or not in the process of prediction using 
+simpler mathematical operations.
+
+--- Page 13 ---
+All rights reserved
+
+--- Page 14 ---
+All rights reserved
+Pooling layer
+
+--- Page 15 ---
+All rights reserved
+Flatting layer
+Therefore, you need to convert the output of the convolutional part of the CNN into 
+a ID feature vector , to be used by the ANN part of it
+--- Page 16 ---
+All rights reserved
+Full connection (dense)
+Dense Layer is simple layer of neurons in which each neuron receives input from all 
+the neurons of previous layer, thus called as dense.
+Dense Layer is used to classify image based on output from convolutional layers.
+
+--- Page 17 ---
+All rights reserved
+Matplotlib
+Matplotlib is a comprehensive library for 
+creating static, animated, and interactive 
+visualizations in Python.
+pip install matplotlib
+--- Page 18 ---
+All rights reserved
+H.W
+Using matplot draw figure that  describe 
+your favorite fruit with present like that :   
+1- Create a figure and axis object
+2- Create a bar chart
+

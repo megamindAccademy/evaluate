@@ -1,0 +1,79 @@
+--- Page 1 ---
+Level 6:  Session 2
+
+--- Page 2 ---
+All rights reserved
+RPG Poly Pack ( 
+6 
+)
+--- Page 3 ---
+All rights reserved
+Today’s missions 
+Player’s health
+Enemy’s health 
+Scrollbar (health above head)
+
+--- Page 4 ---
+All rights reserved
+Health 
+Make a Player health variable 
+Make an Enemy health variable 
+
+--- Page 5 ---
+All rights reserved
+If exist attack  Player’s Health will deduce by 10
+We can debug to see the result 
+--- Page 6 ---
+All rights reserved
+If collision happen by sword of player enemy’s health will reduce by 10 
+--- Page 7 ---
+All rights reserved
+If wasn't work!! 
+Make sure that you add Rigid body Component on  Enemy’s prefabs 
+and checked  Is Kinematic to enable enemy to use the physical 
+--- Page 8 ---
+All rights reserved
+Right Click on Skeleton Prefabs 
+UI                 Scrollbar
+scrollbar
+--- Page 9 ---
+All rights reserved
+Materials 
+--- Page 10 ---
+All rights reserved
+Edit properties of scrollbar
+--- Page 11 ---
+All rights reserved
+Declare scrollbar variable 
+of type scrollbar component
+We reduce size by 0.1 
+Edit properties of scrollbar
+--- Page 12 ---
+All rights reserved
+Initialize Boolean is dead to check if dead  Do some 
+statement 
+Make sure if enemy is 
+dead nothing happen
+Only return
+Make is dead true
+Make enemy enable false
+Make scrollbar Active false
+--- Page 13 ---
+All rights reserved
+
+--- Page 14 ---
+All rights reserved
+
+--- Page 15 ---
+All rights reserved
+Note : 
+To avoid reduce enemy 
+health on trigger enter 
+without player hit him
+--- Page 16 ---
+All rights reserved
+H.W
+Player’s health
+ Enemy’s health 
+Scrollbar (health above head)
+

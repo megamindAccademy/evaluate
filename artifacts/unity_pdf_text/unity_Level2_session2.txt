@@ -1,0 +1,114 @@
+--- Page 1 ---
+Level 2:  Session 2
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+
+--- Page 3 ---
+All rights reserved
+2
+2
+We need to repeat pipe 
+Insert new pipe
+Rotate 180 degree
+Drag the new pipe inside old pipe in hierarchy
+and make a collider component
+
+--- Page 4 ---
+All rights reserved
+2
+3
+let's make a prefabs folder in assets
+Drag the pipe from hierarchy to assets section
+Now we can use it more than one time by drag drop in the scene 
+--- Page 5 ---
+All rights reserved
+2
+4
+Like this .. 
+come in very handy when you 
+want to instantiate 
+complicated GameObjects
+Prefabs
+--- Page 6 ---
+All rights reserved
+2
+5
+Flag to make the bird destroy when Collide (tag) 
+Make tag of bird to “player”
+And now add script to pipe 
+To make player lose when collide
+--- Page 7 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+Enter to pipe to make script on it .
+First ..
+make a group by
+ ctrl + select the units 
+Then rename the group “ move left “
+6
+--- Page 8 ---
+All rights reserved
+2
+Second ..
+Make “On Collision Enter 2D ” unit 
+Now bird will destroy each Time which collide on the pipe
+7
+--- Page 9 ---
+All rights reserved
+2
+8
+Do you do the repeat pole by yourself each time ? .. NO
+It will repeat itself by using method 
+What is Method ?
+--- Page 10 ---
+All rights reserved
+2
+9
+First ..  Make a gameOject
+--- Page 11 ---
+All rights reserved
+2
+10
+Specify min and max the pipe will set by test and see the y position
+--- Page 12 ---
+All rights reserved
+2
+We use unit “istantiate” and drag the pipe assets in original place
+Do script on new object (makePipe) by make a new macro then add component “flow machine”
+11
+--- Page 13 ---
+All rights reserved
+2
+Cooldown
+One easy way is to use a 
+what I call a time stamp
+Quaternion
+Quaternions are used to
+ represent rotations
+Random
+Returns a random float within 
+[minInclusive.maxInclusive]
+Instantiae
+Instantiate can be 
+used to create 
+new objects at runtime
+12
+--- Page 14 ---
+All rights reserved
+2
+13
+--- Page 15 ---
+All rights reserved
+2
+14
+--- Page 16 ---
+All rights reserved
+15
+1- MAKE prefabs
+2- let stairs repeat 
+

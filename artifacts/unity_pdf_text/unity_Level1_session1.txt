@@ -1,0 +1,140 @@
+--- Page 1 ---
+Level 1:  Session 1
+Game Development
+By Unity
+
+--- Page 2 ---
+All rights reserved
+Player
+ Game Creator
+ Game Engine
+1
+
+--- Page 3 ---
+All rights reserved
+2
+--- Page 4 ---
+All rights reserved
+3
+
+--- Page 5 ---
+All rights reserved
+A Game Engine is created to develop 
+games, just like any other IDE for 
+any particular language 
+programming. 
+2
+4
+--- Page 6 ---
+All rights reserved
+Unity is a good engine for beginners
+Unity has a large and varied asset store
+ Unity allows you to   build your own tools
+2
+5
+--- Page 7 ---
+All rights reserved
+2
+Pc
+ iOS
+ Android
+Windows
+ Xbox 360
+ PlayStation
+6
+
+--- Page 8 ---
+All rights reserved
+2
+Cuphead
+Risk of Rain 2
+Untitled Goose Game
+Rust
+Subnautica
+Escape from Tarkov
+7
+--- Page 9 ---
+All rights reserved
+2
+001
+JavaScript
+003
+JavaScript
+C#
+002
+8
+--- Page 10 ---
+All rights reserved
+2
+• C# (C-Sharp) is a programming 
+language developed by Microsoft 
+that C# is used to develop web 
+apps, desktop apps, mobile apps, 
+games and much more.
+9
+--- Page 11 ---
+All rights reserved
+2
+• https://yousx.itch.io/juice-adventure
+ 10
+--- Page 12 ---
+All rights reserved
+2
+1
+Download 
+Unity Hub
+2
+Sign up
+3
+Install unity 
+editor
+11
+--- Page 13 ---
+All rights reserved
+2
+12
+--- Page 14 ---
+All rights reserved
+2
+13
+--- Page 15 ---
+All rights reserved
+2
+14
+--- Page 16 ---
+All rights reserved
+2
+15
+--- Page 17 ---
+All rights reserved
+2
+From Unity Hub that we install recently ..
+Choose New Project to create first project
+16
+--- Page 18 ---
+All rights reserved
+2
+Rename your project
+Set location
+create project
+17
+--- Page 19 ---
+All rights reserved
+2
+What is the different?
+18
+--- Page 20 ---
+All rights reserved
+2
+We have 2 dimensional
+• X axis
+• Y axis
+19
+--- Page 21 ---
+All rights reserved
+2
+We have 3 dimensional
+• X axis
+• Y axis
+• (the z-axis)
+20

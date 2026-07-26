@@ -1,0 +1,111 @@
+--- Page 1 ---
+Level 4:  Session 2
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+USE Tile Map 
+To Build your
+Level With your
+Own Design 
+https://assetstore.unity.com/packages/2d/characters/sunny-land-103349
+--- Page 3 ---
+All rights reserved
+2
+2
+Physical move 
+Input Manager
+Change Player Direction 
+animations
+camera
+
+--- Page 4 ---
+All rights reserved
+2
+3
+Note : ﻳﺨﺘﻠﻒ وﻗﺖ ﺗﻨﻔﻴﺬ اﻟﻔﺮﻳﻢ ﻣﻦ ﺟﻬﺎز ﻟﺠﻬﺎز 
+Fixed update
+ﻳﺘﻢ ﺗﻨﻔﻴﺬﻫﺎ ﻓﻲ وﻗﺖ ﺛﺎﺑﺖ ﺑﻴﻦ ﻛﻞ اﻟﻔﺮﻳﻢ
+We Will use velocity from rigid body so that we 
+will definition  a component rigid body
+
+--- Page 5 ---
+All rights reserved
+2
+4
+From here we can control in input 
+“keyboards” or “mouse” ..etc.
+--- Page 6 ---
+All rights reserved
+2
+5
+We will specify the velocity that exist in rigidbody which created and assign to vector2 ( x , y ) 
+--- Page 7 ---
+All rights reserved
+2
+6
+We can change direction of player by use flip from “sprite render” component
+--- Page 8 ---
+All rights reserved
+2
+7
+CREATE Object from SpriteRender
+Now we can access any attribute from SpriteRender by using “sr”
+We want to use Flip on x-axis 
+Change flip=true when player go left 
+
+--- Page 9 ---
+All rights reserved
+2
+8
+We will specify the velocity that exist in rigidbody 
+which created and assign to vector2 ( x , y ) 
+--- Page 10 ---
+All rights reserved
+2
+9
+
+--- Page 11 ---
+All rights reserved
+2
+10
+Add this in left move or right 
+(horizontal  axis )
+Add this in jump code
+--- Page 12 ---
+All rights reserved
+2
+11
+ﻧﻘﻮم ﺑﺘﺤﺮﻳﻚ اﻟﻜﺎﻣﻴﺮا ﻣﻦ الhierarchy وﺗﺜﺒﻴﺘﻬﺎ ع اﻟﻠﻼﻋﺐ ﻣﻦ
+ﻼل ﺧﻼل ﺳﺤﺒﻬﺎ وادﺧﺎﻟﻬﺎ ﻋﻨﺪ اﻟﻼﻋﺐ ﻟﻨﺘﻤﻜﻦ ﻣﻦ اﻟﺮؤﻳﻪ ﻣﻦ ﺧ
+اﻟﻼﻋﺐ  وﻧﻘﻮم ﺑﺘﻐﻴﺮ ﻗﻴﻢ  x , y ﺣﺘﻲ ﻧﻘﻮم ﺑﺘﺜﺒﻴﺘﻬﺎ ﻋﻠﻴﻪ
+ﻟﻼﻋﺐﻧﻘﻮم ﺑﺘﻮﺟﻴﻪ اﻟﻜﺎﻣﻴﺮا
+--- Page 13 ---
+All rights reserved
+2
+12
+
+--- Page 14 ---
+All rights reserved
+2
+13
+Load your scene to Build Sittings
+--- Page 15 ---
+All rights reserved
+2
+14
+Add box collider2d component on house
+Create new script and drag it to house
+
+--- Page 16 ---
+All rights reserved
+2
+15
+Remember make a tag to specify the goal
+--- Page 17 ---
+All rights reserved
+16
+Try to add start screen with simple design and add on trigger enter to switch to level 1
+

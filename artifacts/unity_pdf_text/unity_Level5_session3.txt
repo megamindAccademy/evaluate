@@ -1,0 +1,89 @@
+--- Page 1 ---
+Level 5:  Session 3
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+
+--- Page 3 ---
+All rights reserved
+2
+2
+Movement’s player
+Animation settings
+Player’s Run
+
+--- Page 4 ---
+All rights reserved
+2
+3
+
+--- Page 5 ---
+All rights reserved
+2
+4
+
+--- Page 6 ---
+All rights reserved
+5
+Main axis
+ﻨﻈﺮ اذا اﻋﺘﺒﺮﻧﺎ ان اﻟﻼﻋﺐ ﻳﻨﻈﺮ اﻟﻲ ﻧﻘﻄﻪ واراد ان ﻳ
+ﻳﻨﻈﺮ ﺑﻬﺎاﻟﻲ ﻧﻘﻄﻪ ﺛﺎﻧﻴﻪ ف ﻧﺮﻳﺪ ﺣﺴﺎب اﻟﺰاوﻳﻪ اﻟﺘﻲUnity axis
+ﺰاوﻳﻪﻟﺬﻟﻚ ﻓﻲ اﻟﻜﻮد اﻟﺴﺎﺑﻖ ﻗﻤﻨﺎ ﺑﺎﺧﺬ ﻋﻜﺲ ﻇﻞ اﻟ
+--- Page 7 ---
+0
+All rights reserved
+2
+6
+ﺎﺋﻲﻟﻀﺒﻂ ﺣﺮﻛﻪ اﻟﺴﻼح اﻟﺘﻠﻘ
+ﻟﻮ دﺧﻠﺖ ع اﻟﻼﻋﺐ ﻫﻼﻗﻲ ان 
+اﻟﺴﻼح ﻣﻮﺟﻮد 
+--- Page 8 ---
+All rights reserved
+2
+7
+From
+Window               Animation               Animator
+The statues which happen 
+--- Page 9 ---
+All rights reserved
+2
+8
+We will sperate the run_swardShield 
+by delete key
+Then .. Add new parameter (speed) 
+type floatTo compare if he move 
+--- Page 10 ---
+All rights reserved
+2
+9
+Add condition 
+If speed greater than 0
+--- Page 11 ---
+All rights reserved
+2
+9
+Add condition 
+If speed less than small value
+--- Page 12 ---
+All rights reserved
+2
+11
+ﻲ ﻣﻦ ﻫﻨﺎ ﻫﻌﺮف ﻟﻮ ﻓﻲ ﺣﺮﻛﻪ ﺑﺲ ﻟﻮ ﺑﺎﻻﺗﺠﺎه اﻟﻌﻜﺴ
+ﻟﻤﻄﻠﻘﻪف ﻫﻴﻜﻮن ﻗﻴﻤﻪ ﺳﺎﻟﺒﻪ ﻟﺬﻟﻚ ﺳﻨﺎﺧﺬ اﻟﻘﻴﻤﻪ ا
+--- Page 13 ---
+All rights reserved
+2
+12
+ﺮب ف ﻫﻨﻨﺸﺊ ﻣﺘﻐﻴﺮ وﻧﺨﻠﻴﻪ ﻳﺘﻀ
+ﻗﻴﻤﻪ اﻟﺘﺤﺮك ﻟﻮ ﺿﻐﻄﻨﺎ ﻋﻠﻲ shift
+
+--- Page 14 ---
+All rights reserved
+13
+IN your game :
+• Make player run
+• Edit animation setting
+

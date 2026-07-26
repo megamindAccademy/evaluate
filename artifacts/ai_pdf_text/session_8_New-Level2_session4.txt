@@ -1,0 +1,69 @@
+--- Page 1 ---
+& 
+Level 2:  Session 4 
+
+--- Page 2 ---
+Recognition
+All rights reserved
+Hand drawing recognition project
+Coding phase
+--- Page 3 ---
+The main goal of this project is to 
+develop a system that can identify 
+The main goal of this project is to 
+develop a system that can identify 
+images of cats and of cats and dogs
+All rights reserved
+Recap homework
+Going through the homework idea
+
+--- Page 4 ---
+All rights reserved
+Coding phase
+Copy the API key and paste it to the new code file code.ipynb
+
+--- Page 5 ---
+All rights reserved
+Coding phase
+Connect the model 
+ Train the model
+
+--- Page 6 ---
+All rights reserved
+Create the test 
+data
+Use the painter to do so, 
+Then, save them in 
+the project’s folder 
+Create a list of testing 
+images
+--- Page 7 ---
+All rights reserved
+Create a loop going through the testing images 
+and make predictions
+Coding phase
+Get the label (what the model 
+thinks it is) Get how sure the model is (in 
+percentage)
+--- Page 8 ---
+The main goal of this project is to 
+The main goal of this project is to 
+develop a system that can identify 
+images of cats and of cats and dogs
+All rights reserved
+Coding phase
+Printing the label, checking the confidence 
+level
+
+--- Page 9 ---
+All rights reserved
+Finally!!
+Finalize the code with any 
+Ending message you want
+
+--- Page 10 ---
+All rights reserved
+H.W
+Finalize your text recognition 
+project
+

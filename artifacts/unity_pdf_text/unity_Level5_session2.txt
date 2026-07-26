@@ -1,0 +1,108 @@
+--- Page 1 ---
+Level 5:  Session 2
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+
+--- Page 3 ---
+All rights reserved
+2
+2
+Mesh Collider (collision detection)
+Physical component (Capsule Collider)
+Character Controller (component)
+Gravity & Jump
+
+--- Page 4 ---
+All rights reserved
+2
+3
+It is more accurate for collision detection than 
+using primitives for complicated   Meshes.
+Convex
+Enable the checkbox to make the Mesh Collider collide with other 
+Mesh Colliders. Convex Mesh Colliders are limited to 255 triangles.
+--- Page 5 ---
+All rights reserved
+2
+4
+Select ground that player move on it.
+There exist in terrain “grass”
+--- Page 6 ---
+All rights reserved
+2
+5
+We can maintain  the resources of your device by add different  box collider on game Objects
+Example :on chare instead of mesh collider we can add 2 box collider and edit its position
+--- Page 7 ---
+0
+All rights reserved
+2
+6
+If we want to occurs reaction between 
+two object .. At least on of them has a 
+rigidbody 
+
+--- Page 8 ---
+All rights reserved
+2
+7
+Make empty object on skeleton and do GFX like we do in player
+Make Component Rigidbody to skeleton
+
+--- Page 9 ---
+0
+All rights reserved
+2
+8
+A capsule-shaped primitive collider.
+Capsules are cylinders with a half-sphere at each end.
+
+--- Page 10 ---
+0
+All rights reserved
+2
+9
+A CharacterController allows you to easily do movement 
+constrained by collisions without having to deal with a 
+rigidbody.
+A CharacterController is not affected by forces and will 
+only move when you call the Move function
+
+--- Page 11 ---
+All rights reserved
+2
+10
+Make new script C# and rename PlayerController 
+and drag it to inspector in player gameObject
+
+--- Page 12 ---
+All rights reserved
+2
+11
+Description
+Supplies the movement of a GameObject with an attached CharacterController component.
+The CharacterController.Move motion moves the GameObject in the given direction.
+Declaration
+public CollisionFlags Move(Vector3 motion);
+--- Page 13 ---
+All rights reserved
+2
+12
+
+--- Page 14 ---
+All rights reserved
+2
+13
+Controller has a attribute is Grounded to say if gameObject on ground or not
+--- Page 15 ---
+All rights reserved
+14
+IN your game :
+• Use mesh collider
+• Character controller
+• Make your player move and  jump 
+

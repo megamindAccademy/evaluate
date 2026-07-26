@@ -1,0 +1,130 @@
+--- Page 1 ---
+Level 3:  Session 3
+Game Development
+By Unity
+--- Page 2 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+1
+You can use these conditions to perform different actions for different decisions.
+
+--- Page 3 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+2
+C# has the following conditional statements:
+Use if to specify a block of code to be executed, if a specified condition is true
+Use else to specify a block of code to be executed, if the same condition is false.
+Use else if to specify a new condition to test, if the first condition is false
+
+--- Page 4 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+3
+if (condition) 
+ { 
+   // block of code to be executed if the condition is 
+True
+ } 
+Use the if statement to specify a block of C# code to be executed if a condition is True. 
+
+--- Page 5 ---
+All rights reserved
+2
+4
+
+--- Page 6 ---
+All rights reserved
+2
+5
+int x = 20;
+int y = 18;
+if (x > y)
+{
+Console.WriteLine("x is greater than y ");
+}
+
+--- Page 7 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+6
+if (condition)
+{
+// block of code to be executed if the condition is True
+}
+else
+{
+// block of code to be executed if the condition is False
+}
+Use the else statement to specify a block of code to be executed if the condition is False. 
+
+--- Page 8 ---
+All rights reserved
+2
+7
+
+--- Page 9 ---
+All rights reserved
+2
+5
+int x = 20;
+int y = 18;
+if (x > y)
+{
+Console.WriteLine("x is greater than y ");
+}
+else 
+{
+Console.WriteLine("Y is greater than X ");
+}
+
+--- Page 10 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+9
+if (condition1)
+{
+// block of code to be executed if condition1 is True
+}
+else if (condition2)
+{
+// block of code to be executed if the condition1 is false and condition2 is True
+}
+else
+{
+// block of code to be executed if the condition1 is false and condition2 is False
+}
+Use the else if statement to specify a new condition if the first condition is False. 
+--- Page 11 ---
+All rights reserved
+2
+10
+
+--- Page 12 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+11
+Loops can execute a block of code as long as a specified condition is reached.
+Loops are handy because they save time, reduce errors, and they make code more readable.
+
+--- Page 13 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+12
+The while loop loops through a block of code as long as a specified condition is True:  
+while (condition)
+{
+// code block to be executed
+}
+--- Page 14 ---
+All rights reserved
+2
+13
+

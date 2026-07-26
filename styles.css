@@ -4715,5 +4715,181 @@ code {
     text-align: center;
 }
 
+/* ==========================================================================
+   🧩 Scratch & PicToBlox Puzzle Blocks CSS Styles
+   ========================================================================== */
+.scratch-block {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 800;
+    font-size: 1.25rem;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    margin: 8px 4px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    position: relative;
+    user-select: none;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+/* Category colors */
+.scratch-motion { background-color: #4c97ff; }
+.scratch-looks { background-color: #9966ff; }
+.scratch-sound { background-color: #d65cd6; }
+.scratch-events { 
+    background-color: #ffd21a; 
+    color: #575757; 
+    border-top-left-radius: 24px; 
+    border-top-right-radius: 24px; 
+}
+.scratch-control { background-color: #ffab19; }
+.scratch-sensing { background-color: #4cbfe6; }
+.scratch-operators { background-color: #59c059; }
+.scratch-variables { background-color: #ff8c1a; }
+.scratch-pen { background-color: #0f9654; }
+.scratch-myblocks { background-color: #ff6680; }
+
+/* Inset inputs inside blocks */
+.scratch-input {
+    background-color: white;
+    color: #333;
+    border-radius: 20px;
+    padding: 3px 12px;
+    font-size: 1.15rem;
+    font-weight: 900;
+    border: 1px solid rgba(0,0,0,0.2);
+    display: inline-block;
+    min-width: 30px;
+    text-align: center;
+}
+
+.scratch-input-dark {
+    background-color: rgba(0,0,0,0.15);
+    color: white;
+    border-radius: 6px;
+    padding: 3px 8px;
+    border: none;
+    font-weight: 900;
+}
+
+.scratch-input-hex {
+    background-color: rgba(0,0,0,0.12);
+    color: white;
+    border-radius: 12px;
+    padding: 3px 14px;
+    border: none;
+    font-weight: 900;
+}
+
+/* Puzzle notches (top/bottom tabs) */
+.scratch-block:not(.scratch-events):before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 24px;
+    width: 18px;
+    height: 6px;
+    background-color: inherit;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-top: none;
+    box-sizing: border-box;
+}
+
+.scratch-block:after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 24px;
+    width: 18px;
+    height: 6px;
+    background-color: inherit;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-top: none;
+    box-sizing: border-box;
+}
+
+/* Junior Embedded Studio Styles */
+.junior-iframe-wrapper {
+    width: 100%;
+    height: 620px;
+    border-radius: 16px;
+    border: 4px solid var(--primary);
+    overflow: hidden;
+    background: #f1f5f9;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 15px;
+}
+
+.junior-iframe-workspace {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.junior-iframe-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #023047;
+    padding: 10px 20px;
+    border-bottom: 3px solid var(--primary);
+    color: white;
+}
+
+.junior-iframe-title {
+    font-size: 1.3rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-junior-open-tab {
+    background: linear-gradient(135deg, #06d6a0, #05b386);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.15rem;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(6, 214, 160, 0.3);
+}
+
+.btn-junior-open-tab:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(6, 214, 160, 0.45);
+}
+
+/* Glowing Success Claim Button for Kids */
+.btn-junior-claim {
+    background: linear-gradient(135deg, #06d6a0, #2ec4b6) !important;
+    color: white !important;
+    font-size: 1.4rem !important;
+    font-weight: 900 !important;
+    border: 3px solid #ffffff !important;
+    box-shadow: 0 0 15px rgba(6, 214, 160, 0.6) !important;
+    animation: claimPulse 1.5s infinite alternate !important;
+}
+
+@keyframes claimPulse {
+    0% { transform: scale(1); box-shadow: 0 0 15px rgba(6, 214, 160, 0.5); }
+    100% { transform: scale(1.04); box-shadow: 0 0 25px rgba(6, 214, 160, 0.85); }
+}
+
+
 
 

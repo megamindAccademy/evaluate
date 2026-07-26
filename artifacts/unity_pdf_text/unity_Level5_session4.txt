@@ -1,0 +1,159 @@
+--- Page 1 ---
+Level 5:  Session 4
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+
+--- Page 3 ---
+All rights reserved
+2
+2
+NavMesh (AI)- enemy track
+Agents and target
+Attack the player
+Edit animation of Enemy
+Bit the player
+
+--- Page 4 ---
+All rights reserved
+2
+3
+NavMesh  (AI)
+NavMeshAgent components help you to 
+create characters which avoid each other 
+while moving towards their goal. Agents 
+reason about the game world using 
+the NavMesh
+and they know how to avoid each other as 
+well as other moving obstacles.
+--- Page 5 ---
+All rights reserved
+2
+4
+From 
+Window               AI               Navigation
+Then we will specify 
+main space that enemy 
+will move on it
+1
+--- Page 6 ---
+All rights reserved
+2
+5
+2
+Within we click bake we notifier that 
+blue aria selected (the aria which 
+enemy move on it)
+Then we select more aria again which 
+we want enemy move and make Bake
+
+--- Page 7 ---
+0
+All rights reserved
+2
+6
+But there some object 
+we don’t want enemy to 
+move on it .
+--- Page 8 ---
+All rights reserved
+2
+7
+Select it and choose Not Walkable
+Then make Bake
+--- Page 9 ---
+All rights reserved
+2
+8
+
+--- Page 10 ---
+All rights reserved
+2
+9
+Create file script that carry script of agent
+Rename it (enemyController)
+
+--- Page 11 ---
+All rights reserved
+2
+10
+
+--- Page 12 ---
+All rights reserved
+2
+11
+ﻧﻘﻮم ﺑﺎﺳﺘﻌﺪاء ﻣﻜﺘﺒﻪAI  ﻟﻜﻲ ﻧﺠﺪ ال
+navMeshAgent
+ﻧﺤﺪد اﻟﻤﻜﺎن اﻟﺬي ﺳﻮف ﻳﺬﻫﺐ اﻟﻴﻪ
+
+--- Page 13 ---
+All rights reserved
+2
+12
+
+--- Page 14 ---
+All rights reserved
+2
+13
+
+--- Page 15 ---
+All rights reserved
+2
+14
+
+--- Page 16 ---
+0
+All rights reserved
+2
+15
+We get magnitude of velocity to know if he walk or not
+--- Page 17 ---
+0
+All rights reserved
+2
+16
+
+--- Page 18 ---
+All rights reserved
+2
+17
+
+--- Page 19 ---
+0
+All rights reserved
+2
+18
+The distance between agent and target
+--- Page 20 ---
+0
+All rights reserved
+2
+19
+Normal state attack is available 
+--- Page 21 ---
+All rights reserved
+2
+Coroutines
+Code that’s called inside of Update usually takes place all at once during the current frame.
+Coroutines, on the other hand, allow you to execute game logic over a number of frames.
+I Enumerator
+I Enumerator allows to stop the process at a specific moment, return that part of object 
+(or nothing) and gets back to that point whenever you need it.
+20
+--- Page 22 ---
+0
+All rights reserved
+2
+21
+
+--- Page 23 ---
+All rights reserved
+22
+IN your game :
+• Use NavMesh
+• Edit animation of Enemy
+• Bit the player
+

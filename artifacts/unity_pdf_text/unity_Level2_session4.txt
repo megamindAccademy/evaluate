@@ -1,0 +1,184 @@
+--- Page 1 ---
+Level 2:  Session 4
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+
+--- Page 3 ---
+All rights reserved
+2
+2
+Calculate point (number of pipe )
+ﻫﻨﺴﺘﺨﺪم ﻫﻨﺎobject واﺧﻠﻴﻪ ﻛﻞ
+ﻣﺎ ﻳﻌﺪي ﻣﻦ ﻋﻨﺪه ﻳﺤﺴﺐ ﻧﻘﻄﻪ
+Create empty object
+Rename (point)
+Make a collider
+Is Trigger
+ﻫﻴﺨﻠﻴﻪ ﻳﻌﺪي ﻣﻨﻐﻴﺮﻣﺎ ﻳﺼﻄﺪم
+--- Page 4 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+3
+Need to edit the edge of collider
+ﻫﺤﺪدالcollider ﺑﺘﺎﻋﻲ ﺑﻜﻞ
+اﻟﻤﺴﺎﺣﻪ ﺑﻴﻦ اﻟﻌﻤﻮدﻳﻦ
+--- Page 5 ---
+All rights reserved
+2
+• Make a script to add Point
+• Create a new macro
+ 4
+--- Page 6 ---
+All rights reserved
+2
+5
+First delete start and update event
+Use “ on trigger” unit 
+ﺑﻘﻮﻟﻪ ﻫﻨﺎ ﻋﻨﺪﻣﺎ ﻳﻤﺮ الplayer  ﺑﺘﺎﻋﻲ ﻣﻦ الobject  اﻟﺠﺪﻳﺪ ال اﺳﺘﺨﺪﻣﺘﻪ ﻫﻴﻌﻤﻞ
+ﺣﺎﺟﻪ ﻣﻌﻴﻨﻪ ﺑﻨﺎءا ﻋﻠﻲ true or false ال ﺑﺴﺘﺨﺪﻣﻬﺎ ﻣﻦ الbranch
+
+--- Page 7 ---
+All rights reserved
+2
+6
+We create a scene variable to 
+used in a currently scene
+ﻫﺴﺘﺨﺪﻣﻪ ف ﻣﺠﺎل
+ال scene ﻂاﻟﺤﺎﻟﻴﻪ ﻓﻘ
+ﺪﻣﻪ ﺑﻴﺘﺤﻔﻆ واﻗﺪر اﺳﺘﺨ
+ف scene اﺧﺮي
+ﻋﺸﺎن ﻳﺒﺪا ﻳﺤﺴﺐ ﻋﺪد الpipe  ال ﻋﺪي ﻣﻨﻬﻢ ﻻزم
+ﻳﻜﻮن ﻋﻨﺪه ﻣﻜﺎن ﻳﺠﻤﻊ ﻓﻴﻪ ودا اﺳﻤﻪ variable 
+وﻟﻪ اﻧﻮاع ﻫﻨﺴﺘﺨﺪﻣﻬﺎ زيscene وsaved
+
+--- Page 8 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+After create variable we can drag drop to graph to start use it
+7
+Open full graph to easy edit and use unit
+Drag drop the variable
+--- Page 9 ---
+All rights reserved
+2
+8
+?
+--- Page 10 ---
+All rights reserved
+2
+9
+--- Page 11 ---
+All rights reserved
+2
+10
+Show score (point)
+We need to add text in game
+Right click in hierarchy
+UI  Text
+
+--- Page 12 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+First edit setting of text and handle the view (camera)
+Select “ screen space - camera “
+ 11
+--- Page 13 ---
+All rights reserved
+2
+12
+Drag the main camera in 
+Render camera
+Change the order to see text
+Change mode to scale 
+with screen size
+--- Page 14 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+If you don’t see text try to 
+maximize this edges
+13
+Resize and recolor the text as you like 
+--- Page 15 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+We use Embed
+And  we don’t need to use start event but we need update
+14
+Now we need to make text update 
+Do a script on the text 
+--- Page 16 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+15
+Final unit used 
+We use “to string” to convert number to text
+--- Page 17 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+16
+If we want to add score in end scene
+Add another object
+UI              Text
+
+--- Page 18 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+17
+We have to create a new variable (saved) to see it in other scenes
+--- Page 19 ---
+All rights reserved
+2
+18
+
+--- Page 20 ---
+All rights reserved
+2
+19
+In pipe script try to change unit to fix the result
+We compare two variable and the max var will appeared in end scene
+--- Page 21 ---
+All rights reserved
+2
+20
+Let’s build the game
+File menu
+Build setting
+
+--- Page 22 ---
+All rights reserved
+2
+21
+Select the folder that will contain the game
+--- Page 23 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+The source of game and files will be created in folder 
+which we selected 
+Open “ flappy bird.exe ” to enter the game
+ 22
+--- Page 24 ---
+ﺻﺼﺼﺼﺼﺺ 
+All rights reserved
+2
+Game is ready now 
+CONGRATULATION
+23
+--- Page 25 ---
+All rights reserved
+24
+1. Calculate score of the game
+2. BUILD your Game
+

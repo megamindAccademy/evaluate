@@ -1,0 +1,228 @@
+--- Page 1 ---
+Level 1:  Session 2
+Game Development
+By Unity
+
+--- Page 2 ---
+All rights reserved
+2
+1
+C
+A
+B
+D
+E
+F
+G 
+H
+--- Page 3 ---
+All rights reserved
+2
+The Play, Pause 
+And Step Controls
+The Editor Layout Menu (Which Provides Some 
+Alternate Layouts For The Editor Windows, And 
+Allows You To Save Your Own Custom Layouts).
+2
+--- Page 4 ---
+All rights reserved
+2
+Ex.
+Each item in the 
+Scene has an 
+entry in the 
+hierarchy
+ﻛﻞGame Objectsﻣﻮﺟﻮد ف الscene
+ﻫﻼﻗﻴﻪ ﻣﻮﺟﻮد ف الhierarchy
+3
+--- Page 5 ---
+All rights reserved
+2
+4
+Allows You To Visually Navigate And Edit Your Scene. 
+
+--- Page 6 ---
+All rights reserved
+2
+5
+Simulates what your 
+final rendered game 
+will look like
+ﻫﻼﻗﻲ ﻣﻦ ﺧﻼﻟﻪ اﻟﺸﻜﻞ اﻟﻨﻬﺎﺋﻲ ﻟﻠﻠﻌﺒﻪ
+--- Page 7 ---
+All rights reserved
+2
+6
+Contain The Basic Tools For Manipulating The Scene View And The 
+Gameobjects Within It. 
+ﺑﺘﺤﻜﻢ ﻣﻨﻪ ف الscene وﻓﻲ الGameObjects اﻟﻤﻮﺟﻮد ﻓﻴﻬﺎ
+--- Page 8 ---
+All rights reserved
+2
+allows you to view and edit all the properties 
+of the currently selected GameObject. 
+7
+ﻧﻘﺪر ﻣﻦ ﺧﻼﻟﻪ ﻧﻌﺪل ﻛﻞ اﻟﺨﺼﺎﺋﺺ اﻟﺨﺎﺻﻪ ﺑﺎلobject 
+ال اﻧﺎ ﻣﺤﺪداه واﻗﺪر اﺿﻴﻒ ﻋﻠﻴﻪcomponent  اﺧﺮي
+--- Page 9 ---
+All rights reserved
+2
+8
+Displays Your Library Of Assets That Are Available To Use In Your Project. 
+When You Import Assets Into Your Project, They Appear Here.
+--- Page 10 ---
+All rights reserved
+2
+9
+provides notifications about various Unity processes, and quick access to 
+related tools and settings.
+ﻬﺎ ﻫﻨﺎاي اﺷﻌﺎرات اوﻣﺸﺎﻛﻞ ﺧﺎﺻﻪ ﺑﺎﻟﻠﻌﺒﻪ ﻫﻴﻜﻮن ﻓﻲ اﻧﺬار ﺑﻴ
+--- Page 11 ---
+All rights reserved
+2
+Unity Asset Store is like most app 
+stores. However, instead of apps, it 
+has pre-built assets that can be 
+imported directly into your project.
+10
+--- Page 12 ---
+All rights reserved
+2
+To access the Asset Store, open a web browser and go 
+to https://assetstore.unity.com/
+11
+--- Page 13 ---
+All rights reserved
+2
+help you narrow down the list of matching Asset Store packages. 
+12
+ﺑﺤﺪد ﻣﻨﻬﺎ ﻧﻮع الpackages ال ﺑﺪور ﻋﻠﻴﻬﺎ
+--- Page 14 ---
+All rights reserved
+2
+lets you search for an Asset Store package by entering search terms
+13
+اﻗﺪر اﺑﺤﺚ ﻋﻦpackages ﺮهﻣﻌﻴﻨﻪ ﺑﺎﺳﻤﻬﺎ ﻣﺒﺎﺷ
+--- Page 15 ---
+All rights reserved
+2
+provide access to the following areas:
+1. The list of purchased or downloaded assets
+2. The list of Saved Assets you marked as favorites
+3. Your Shopping Cart
+4. Your Unity ID (account), where you can see and 
+modify personal settings and account settings
+14
+--- Page 16 ---
+All rights reserved
+2
+help narrow and order the list of Asset Store 
+packages displayed. You can filter 
+by Price (including Free) and Rating.
+15
+--- Page 17 ---
+Z
+All rights reserved
+2
+16
+helps refine the list of Asset Store 
+packages displayed. 
+ﺎ اﻗﺪر اﻋﻤﻞ ﺗﺼﻨﻴﻒ ﻟﻠﺤﺎﺟﻪ ال ﺑﺪور ﻋﻠﻴﻬ
+ﻋﺸﺎن اﻟﺒﺤﺚ ﻋﻨﻬﺎ ﻳﻜﻮن اﺳﻬﻞ
+--- Page 18 ---
+All rights reserved
+2
+17
+that match any searches, filters, 
+sorting, or categories you select. 
+The Asset Store also displays 
+suggestions and special lists of 
+packages here.
+
+--- Page 19 ---
+All rights reserved
+2
+Go to assets store and search for package ” Free Platform Game Assets”
+Or 
+https://assetstore.unity.com/packages/2d/environments/free-platform-game-assets-85838
+18
+--- Page 20 ---
+All rights reserved
+2
+Make sure you can use your package and use different section
+19
+--- Page 21 ---
+All rights reserved
+2
+20
+Game Objects :  اﻟﻜﺎﺋﻦ
+are fundamental objects in Unity that 
+represent characters, props, scenery, 
+and more. Every object in your game is 
+a GameObject.
+اي ﺣﺎﺟﻪ ﻣﻠﻤﻮﺳﻪ ف اﻟﻠﻌﺒﻪ ﻫﻴﺎ ﻋﺒﺎره ﻋﻦ
+gameOject  او ﻛﺎﺋﻦ
+--- Page 22 ---
+All rights reserved
+2
+21
+Transform :
+determines the Position, Rotation, and Scale of each GameObject in the scene. Every 
+GameObject has a Transform component.
+ﺗﺤﻮل اﻟﻜﺎﺋﻦ ﻣﻦ ﺧﻼل ﻣﻜﺎﻧﻪ او اﺗﺠﺎه دوراﻧﻪ او ﺣﺠﻤﻪ واﻗﺪر اﻏﻴﺮ ﻓﻴﻬﻢ
+--- Page 23 ---
+All rights reserved
+2
+22
+Sprite Renderer :
+the Sprite Renderer component 
+renders the Sprite and controls how it 
+looks in a scene.
+ﻪ ﻟﻮ ﺗﺤﻜﻢ ﻓﻲ ﻛﻞ ﺟﺰء ﻣﻦ اﺟﺰاء اﻟﻜﺎﺋﻦ ﻣﻨﻔﺼﻠ
+اﻟﻜﺎﺋﻦ ﻋﻨﺪي ﻣﻨﻔﺼﻞ
+--- Page 24 ---
+All rights reserved
+2
+23
+Cameras : 
+devices that capture and display the 
+world to the player. This is mostly useful 
+for making isometric or 2D games. You 
+can use another camera “download”
+ﻌﺮف ال ﺑﺘﻈﻬﺮ اﻟﺸﻜﻞ اﻟﻨﻬﺎﺋﻲ ﻟﻠﻠﻌﺒﻪ او ﻫ
+اﻟﻼﻋﺐ ﻫﻴﺒﻘﻲ ﺷﺎﻳﻒ اﻟﻠﻌﺒﻪ ازاي 
+--- Page 25 ---
+All rights reserved
+2
+24
+Collider : 
+this component defines the shape of the 
+GameObject for the purposes of 
+physical collisions
+ﺧﺎﺻﻴﻪ ﺑﻘﺪر ﻣﻦ ﺧﻼﻟﻬﺎ اﺣﺪد اﻟﻜﺎﺋﻦ ال ﻋﻨﺪي ﺑﺎﻟﻈﺒﻂ ﺑﻀﻊ ﻟﻪ
+ﺮهﻓﻴﺰﻳﺎﺋﻴﻪ اﻧﻪ ﻳﻜﻮن ﻣﻠﻤﻮس ﻋﺸﺎن ﻳﻘﺪر ﻳﺼﺪم او ﻏﻴ
+--- Page 26 ---
+All rights reserved
+2
+25
+Gravity :   اﻟﺠﺎذﺑﻴﺔ
+Set the amount of gravity applied to 
+all Rigidbody 2D GameObjects .
+Generally, you only set gravity for the 
+negative direction of the y-axis.
+ﺑﻌﺾ اﻟﻜﺎﺋﻨﺎت ﻣﻬﻢ ﻳﻜﻮن ﻋﻨﺪﻫﺎ ﺟﺎذﺑﻴﻪ ﻋﺸﺎن
+ﻧﺘﺠﻨﺐ اﻟﻄﻴﺮان
+--- Page 27 ---
+All rights reserved
+2
+26
+The velocity :  اﻟﺴﺮﻋﺔ
+The velocity vector of the rigidbody. It 
+represents the rate of change of 
+Rigidbody position.
+--- Page 28 ---
+All rights reserved
+create your first " 2D project " 
+search on asset store (free) import asset to unity
+then use (inspector) to edit on one objects
+27

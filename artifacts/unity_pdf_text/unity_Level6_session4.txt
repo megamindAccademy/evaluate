@@ -1,0 +1,103 @@
+--- Page 1 ---
+Level 6:  Session 4
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+
+--- Page 3 ---
+All rights reserved
+2
+2
+UI (user interface)
+Build as WebGL
+
+--- Page 4 ---
+All rights reserved
+2
+3
+To add text on screen 
+Like : Health and score
+--- Page 5 ---
+All rights reserved
+2
+4
+Add two text and rename it score , health Then fix the position by double click on canvas
+Note
+Convert to 2d to edit position
+--- Page 6 ---
+All rights reserved
+2
+5
+
+--- Page 7 ---
+All rights reserved
+2
+6
+
+--- Page 8 ---
+All rights reserved
+2
+7
+
+--- Page 9 ---
+All rights reserved
+2
+8
+
+--- Page 10 ---
+0
+All rights reserved
+2
+9
+To build a web game From
+ build settings 
+WebGL
+Install with Unity Hub
+
+--- Page 11 ---
+All rights reserved
+2
+10
+After finish .. Restart unity
+
+--- Page 12 ---
+All rights reserved
+2
+11
+Drag drop scene to scene In Build
+Click Switch Platform 
+--- Page 13 ---
+All rights reserved
+2
+12
+Click Build 
+Cerate new folder “out”
+Create another folder “webGL”
+Select folder
+After finish ..
+Make your files a .zep
+
+--- Page 14 ---
+All rights reserved
+2
+13
+GO To:
+https://itch.io/
+Create Account in this site
+Click Create new project to upload your game and make your link to the game
+--- Page 15 ---
+All rights reserved
+14
+FINITH YOUR GAME 
+
+--- Page 16 ---
+All rights reserved
+2
+Game 1
+https://www.youtube.com/playlist?list=PLZhNP5qJ2IA15vGOPq-9I4at_f0i3uol1
+Game 2
+https://www.youtube.com/playlist?list=PLZhNP5qJ2IA2a0qT7fJhcriHm-9H0WN_x
+15

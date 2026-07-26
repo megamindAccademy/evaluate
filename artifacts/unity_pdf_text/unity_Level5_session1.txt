@@ -1,0 +1,146 @@
+--- Page 1 ---
+Level 5:  Session 1
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+Create project 3D
+How to use Object 3D
+Import assets and models
+Deal with Materials
+
+--- Page 3 ---
+All rights reserved
+2
+2
+
+--- Page 4 ---
+All rights reserved
+2
+3
+First .. Create cube from 3D Object
+
+--- Page 5 ---
+All rights reserved
+2
+4
+From right click in mouse we can   
+control in scene 
+use (a,d,w,s) button to move 
+easily using right click 
+scroll to zoom in and zoom out
+Select object and (f) to focus
+Center click in mouse to use hand tool
+
+--- Page 6 ---
+All rights reserved
+2
+5
+
+--- Page 7 ---
+All rights reserved
+2
+6
+What is the script ?
+--- Page 8 ---
+All rights reserved
+2
+7
+https://assetstore.unity.com/packages/3d/environments/landscapes/rpg-poly-
+pack-lite-148410#description
+
+--- Page 9 ---
+All rights reserved
+2
+8
+https://assetstore.unity.com/pac
+kages/3d/characters/humanoids
+/fantasy/rpg-hero-pbr-hp-
+polyart-121480#publisher
+https://assetstore.unity.com/pack
+ages/3d/characters/animals/dog-
+knight-pbr-polyart-135227
+https://assetstore.unity.com/packages/3d/character
+s/humanoids/fantasy/battle-wizard-poly-art-128097
+--- Page 10 ---
+All rights reserved
+2
+9
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/ske
+leton-outlaw-130946#reviews
+
+--- Page 11 ---
+All rights reserved
+2
+10
+https://assetstore.unity.com/packages/3d/props/potions-coin-and-box-of-
+pandora-pack-71778#reviews
+https://free3d.com/
+https://assetstore.unity.com/packages/3d/environments/fantasy/fantasy-
+treasure-pack-lite-80898
+Or 
+Use 
+
+--- Page 12 ---
+All rights reserved
+2
+11
+- Player asset
+- Skelton
+- Environment
+Create folder in Assets              put your material (heart - score) by drag drop to folder
+
+--- Page 13 ---
+All rights reserved
+2
+12
+Use your assets by put in hierocracy 
+then try to edit its position 
+--- Page 14 ---
+All rights reserved
+2
+13
+
+--- Page 15 ---
+All rights reserved
+2
+14
+There exist more properties 
+that can be changed 
+Try to drag it into any object the 
+color will appears 
+--- Page 16 ---
+All rights reserved
+2
+15
+Make prefabs folder then put your game Objects which we use more , then delete from scene 
+--- Page 17 ---
+All rights reserved
+2
+16
+On hero we will make “create empty “ to get 
+same position of hero , then move above 
+hero and drag hero inside then rename 
+object to player and hero to GFX
+
+--- Page 18 ---
+All rights reserved
+2
+17
+Add a new camera 
+in player then edit 
+the setting on it
+
+--- Page 19 ---
+All rights reserved
+18
+Build your 3d game with different package 
+https://assetstore.unity.com/pack
+ages/3d/characters/humanoids/f
+antasy/toon-rts-units-orcs-
+demo-101359
+https://assetstore.unity.com/pack
+ages/3d/characters/animals/dog-
+knight-pbr-polyart-135227

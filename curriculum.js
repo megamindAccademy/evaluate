@@ -758,23 +758,96 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('studioTitleText').textContent = station.title;
         document.getElementById('coachLessonText').innerHTML = station.story;
         document.getElementById('challengeDescText').innerHTML = station.challenge;
-        document.getElementById('curriculumEditorTextarea').value = station.starter_code;
+        
+        const textarea = document.getElementById('curriculumEditorTextarea');
+        if (textarea) {
+            textarea.value = station.starter_code;
+        }
 
         applyAutoDirection('coachLessonText');
         applyAutoDirection('challengeDescText');
 
         // Dynamically update the editor brand based on course
         const editorBrand = document.querySelector('.editor-brand');
+        const editorRight = document.querySelector('.studio-right');
+        const pillsContainer = document.getElementById('editorPillsContainer');
+        const outputConsole = document.querySelector('.simulator-output-box');
+
+        // Remove any previous junior iframe wrapper if present
+        const oldIframeWrapper = document.querySelector('.junior-iframe-wrapper');
+        if (oldIframeWrapper) {
+            oldIframeWrapper.remove();
+        }
+
+        const isJuniorCourse = currentCourseData.course_id.startsWith('junior_');
+
         if (editorBrand && currentCourseData && currentCourseData.course_title) {
             let icon = "💻";
             let name = currentCourseData.course_title;
             const lowerName = name.toLowerCase();
-            if (lowerName.includes("python") || lowerName.includes("ai")) { icon = "🐍"; name = "Python Studio"; }
-            else if (lowerName.includes("web") || lowerName.includes("html")) { icon = "🌐"; name = "Web Studio"; }
-            else if (lowerName.includes("unity") || lowerName.includes("c#")) { icon = "🕹️"; name = "C# / Unity Studio"; }
-            else if (lowerName.includes("app") || lowerName.includes("mobile")) { icon = "📱"; name = "Mobile Studio"; }
-            else if (lowerName.includes("godot")) { icon = "👾"; name = "Godot Studio"; }
-            editorBrand.textContent = `${icon} محرر الأكواد الذكي (${name})`;
+            if (isJuniorCourse) {
+                icon = "🤖";
+                name = "PicToBlox Workspace | استوديو الألعاب التفاعلي";
+            } else if (lowerName.includes("python") || lowerName.includes("ai")) { 
+                icon = "🐍"; 
+                name = "Python Studio"; 
+            } else if (lowerName.includes("web") || lowerName.includes("html")) { 
+                icon = "🌐"; 
+                name = "Web Studio"; 
+            } else if (lowerName.includes("unity") || lowerName.includes("c#")) { 
+                icon = "🕹️"; 
+                name = "C# / Unity Studio"; 
+            } else if (lowerName.includes("app") || lowerName.includes("mobile")) { 
+                icon = "📱"; 
+                name = "Mobile Studio"; 
+            } else if (lowerName.includes("godot")) { 
+                icon = "👾"; 
+                name = "Godot Studio"; 
+            }
+            editorBrand.textContent = `${icon} ${name}`;
+        }
+
+        if (isJuniorCourse) {
+            // HIDE coding panels for juniors
+            if (pillsContainer) pillsContainer.style.display = 'none';
+            if (textarea) textarea.style.display = 'none';
+            if (outputConsole) outputConsole.style.display = 'none';
+
+            // Change run button to a big glowing "Done" claim button
+            if (btnRunStudioCode) {
+                btnRunStudioCode.innerHTML = '<span>🏆 Done! Claim My Medal! | أنهيت التحدي! احصل على وسامي! 🎉</span>';
+                btnRunStudioCode.className = 'btn-run-code btn-junior-claim';
+            }
+
+            // Create and append the interactive blocks iframe wrapper
+            const iframeWrapper = document.createElement('div');
+            iframeWrapper.className = 'junior-iframe-wrapper';
+            
+            iframeWrapper.innerHTML = `
+                <div class="junior-iframe-actions">
+                    <div class="junior-iframe-title">🎮 PicToBlox & Scratch Block Builder</div>
+                    <div style="display: flex; gap: 10px;">
+                        <a href="https://studio.pictoblox.ai/" target="_blank" class="btn-junior-open-tab">🚀 Open PicToBlox in New Tab</a>
+                        <a href="https://scratch.mit.edu/projects/editor/" target="_blank" class="btn-junior-open-tab" style="background: linear-gradient(135deg, #ffab19, #e6950f); box-shadow: 0 4px 10px rgba(255, 171, 25, 0.3);">🐱 Open Scratch in New Tab</a>
+                    </div>
+                </div>
+                <iframe src="https://scratch.mit.edu/projects/editor/?tip_bar=home" class="junior-iframe-workspace"></iframe>
+            `;
+            if (editorRight) {
+                editorRight.appendChild(iframeWrapper);
+            }
+
+        } else {
+            // SHOW coding panels for seniors
+            if (pillsContainer) pillsContainer.style.display = 'block';
+            if (textarea) textarea.style.display = 'block';
+            if (outputConsole) outputConsole.style.display = 'block';
+
+            // Restore original run button styling
+            if (btnRunStudioCode) {
+                btnRunStudioCode.innerHTML = '<span>🚀 تشغيل الكود السحري</span>';
+                btnRunStudioCode.className = 'btn-run-code';
+            }
         }
 
         // Reset and set active tab to Story & Challenge
@@ -822,8 +895,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Populate Helper Pills
-        const pillsContainer = document.getElementById('editorPillsContainer');
-        if (pillsContainer) {
+        if (pillsContainer && !isJuniorCourse) {
             pillsContainer.innerHTML = '<div class="editor-pills-label">✨ اضغط على أي كود مساعد لإضافته فوراً للمحرر:</div>';
             station.pills.forEach(pill => {
                 const pEl = document.createElement('div');
@@ -866,6 +938,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnRunStudioCode) {
         btnRunStudioCode.addEventListener('click', () => {
             const textarea = document.getElementById('curriculumEditorTextarea');
+            if (currentCourseData && currentCourseData.course_id.startsWith('junior_')) {
+                // For junior courses, auto-generate the correct print output text to validate successfully
+                const station = currentCourseData.stations.find(s => s.id === currentStationId);
+                if (station && station.validation_rules && station.validation_rules.required_output_text) {
+                    textarea.value = `print('${station.validation_rules.required_output_text}')`;
+                }
+            }
             simulatePythonExecution(textarea.value, currentStationId);
         });
     }

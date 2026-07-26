@@ -1,0 +1,94 @@
+--- Page 1 ---
+Level 1:  Session 3
+
+--- Page 2 ---
+All rights reserved
+Games 
+لازم يكون عندي شكل تخيليي للعبه ال عايز اعملها واكون محدد هيا2 d او3 d 
+والوانها هتبقي كام مرحله ايه هيا قصه اللعبه مين الشخصيات ال بتكون فيها 
+كل دا هنسميه اسكريبت اللعبه
+Script of the game
+1. Flow of game
+2. Character
+3. Design
+4. 2d or 3d
+5. Story
+6. levels
+
+--- Page 3 ---
+All rights reserved
+بعد مافكرت ف اللعبه ال عايزها وحددت كل حاجه بيجي دول الاسكريبت المسؤؤل عن تنفيذ اوامر معينه داخل
+العبه زي ان اللاعب يمشي او يضرب نار وهكذا ..    ودا هيكون من خلال حاجتين ف الكورس
+Visual scripting
+C#
+
+--- Page 4 ---
+All rights reserved
+Visual Scripting ?
+We can manage(do script) game with it , It’s look like flow chart 
+
+--- Page 5 ---
+All rights reserved
+Script Machine
+is a Game Object component that lets you use a Script Graph in an application. 
+You can't use a Script Graph unless it's attached to a Script Machine.
+
+--- Page 6 ---
+All rights reserved
+Script Machine
+Embed: This is a graph that is contained directly inside the GameObject: the asset is saved to the 
+GameObject, and not to a drive.
+Note: Every modification you make in the Inspector during Play mode (runtime) is reset (lost) when 
+you exit Play mode. For the edit to persist, you must make it outside Play mode.
+Graph: This is a normal graph. A Macro generates a new file that saves the asset on a drive and 
+not to the GameObject.
+Note: Use graphs to get scripts that are shareable and that you can edit in the Inspector during 
+Play mode (runtime) without losing your modifications. Graphs are ideal for prototyping.
+--- Page 7 ---
+All rights reserved
+At this point, you should have a flow graph with a Start and Update event:
+Start ? Update
+
+--- Page 8 ---
+All rights reserved
+Units : are the most basic element of computation in Bolt. 
+Other tools may refer to units as “nodes” or “actions”. 
+Ports : are hooks that you can use to connect nodes together.
+• On the left side, you’ll find the Input Ports.
+• On the right side, you’ll find Output Ports.
+
+--- Page 9 ---
+All rights reserved
+Do script to print a text
+Example
+MonoBehaviour : is the base class from 
+which every Unity script derives
+From unit choose MonoBehaviour print
+--- Page 10 ---
+All rights reserved
+From Output Ports of start event Link to print unit
+From Input Ports search for string to write a text you want
+Then click start
+
+--- Page 11 ---
+All rights reserved
+First think what will be use ?? 
+Do script to make object rotate
+• Try to change x and y in Rotation !!
+             The object will rotate
+• Then we need a script to make 
+object    rotate automatic
+
+--- Page 12 ---
+All rights reserved
+Final result with script
+We also use update event to 
+make object rotate more 
+than one time
+
+--- Page 13 ---
+All rights reserved
+H.W
+create project , import bolt and try move object 
+with translate unit
+

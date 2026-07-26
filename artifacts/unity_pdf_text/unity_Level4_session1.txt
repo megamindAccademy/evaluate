@@ -1,0 +1,247 @@
+--- Page 1 ---
+Level 4:  Session 1
+Game Development
+By Unity
+--- Page 2 ---
+All rights reserved
+2
+1
+What is the Script ??
+--- Page 3 ---
+All rights reserved
+2
+2
+USE Tile Map 
+To Build your
+Level With your
+Own Design 
+https://assetstore.unity.com/packages/2d/characters/sunny-land-103349
+--- Page 4 ---
+All rights reserved
+2
+3
+Deal with sprite
+Tile palette
+Tile map
+Physical component (2D Rigidbody, Box Collider 2D, Tilemap Collider 2D,circle collider 2D)
+Player Constraints
+Start use C# with 2D game
+Start & update method
+
+--- Page 5 ---
+All rights reserved
+2
+4
+Change sprite mode from single to 
+multiple ﻟﺘﻐﻴﺮ ﻧﻤﻂ اﻟﺼﻮره وﺗﻘﺴﻤﻴﻬﺎ
+That help you to use the picture separate
+From inspector
+--- Page 6 ---
+All rights reserved
+2
+5
+Change from 100 16 then Apply
+Because This packtoage designed 
+to carry 16 in one unit
+Pixel per unit :
+ How many pixel in one unit
+--- Page 7 ---
+All rights reserved
+2
+6
+1. Automatic
+From
+Slice       type
+Automatic
+ﻗﺺ اﻟﺼﻮر ﺑﻨﺎءا ع اﻟﻤﺴﺎﺣﻪ
+اﻟﻔﺎرﻏﻪ ﺣﻮﻟﻪ
+--- Page 8 ---
+All rights reserved
+2
+7
+2. Grid By Cell Size 
+Grid By Cell Size
+Specify x & y
+Let them 16 px
+Pixel per unit in unity
+--- Page 9 ---
+All rights reserved
+2
+8
+اﻗﺪر ﻣﻦ ﺧﻼل الTile palette
+اﺗﺤﻜﻢ ﻓﻲ الsprites ﺑﻜﻞ
+ﺳﻬﻮﻟﻪ ﻛﺎﻧﻲ ﺑﺮﺳﻢ ﻟﻮﺣﻪ
+--- Page 10 ---
+All rights reserved
+2
+9
+1. Choose name
+2. Click Create
+3. Then create new folder 
+”PLT” that you will put your
+layers , Choose path then 
+select folder
+
+--- Page 11 ---
+All rights reserved
+2
+10
+Drag drop the image to tiled palette and make folder “images” for example inside “PLT”
+--- Page 12 ---
+All rights reserved
+2
+11
+MAKE Tile Map 
+ﻟﺘﻘﻮم ﻣﻦ ﺧﻼﻟﻬﺎ ﺑﻌﻤﻞ الlayer  
+ﻣﻦ ﺧﻼلdrag
+     Choose paint  to put your component 
+     Choose erase to erase the component
+
+--- Page 13 ---
+All rights reserved
+2
+12
+After add character and home
+--- Page 14 ---
+All rights reserved
+2
+13
+ﻧﺘﺎﻛﺪ داﻳﻤﺎ ان الgameObject   
+ﻋﺒﺎره ﻋﻦsprite  ﻋﺸﺎن اﻗﺪر اﻏﻴﺮ ﻓﻲ
+اﻟﺨﺼﺎﺋﺺ 
+WE should to use sprite image
+--- Page 15 ---
+All rights reserved
+2
+14
+1. 2D Rigidbody
+ﻳﻤﻜﻦ اﺳﺘﺨﺪاﻣﻪ ﻟﻠﺘﻐﻴﺮ ﻓﻲ
+اﻟﺘﺴﺎرع واﻻﺣﺘﻜﺎك وﻋﺠﻠﻪ 
+ﺟﻮد اﻟﺠﺎذﺑﻴﻪ وﻧﻮع اﻟﺘﺼﺎدم اﻟﻤﻮ
+Dynamic ﻳﺘﺎﺛﺮ ﺑﻜﻞ اﻟﻌﻮاﻣﻞ
+اﻟﻔﻴﺰﻳﺎﺋﻴﻪ وﻳﻮﺟﺪ static وﻟﻜﻦ
+ﺎﺋﻴﻪﻻ ﻳﺘﺎﺛﺮ ﺑﺎﻟﻌﻮاﻣﻞ اﻟﻔﻴﺰﻳ
+Constraints 
+ﻣﻦ اﻟﻤﻤﻜﻦ ان اﻣﻨﻊ اﻟﺤﺮﻛﻪ عx  
+وyاو اﻣﻨﻊ اﻟﺪوران
+--- Page 16 ---
+All rights reserved
+2
+15
+2- Box Collider 2D
+ﻴﺘﻢ اﻟﻤﻨﻄﻘﻪ اﻟﺘﻲ ﺑﻨﺎءا ﻋﻠﻴﻬﺎ ﺳ
+ﺮﻫﺎ ﺣﺴﺎب اﻟﺘﺼﺎدم وﻳﻤﻜﻦ ﺗﻐﻴ
+ﻣﻦ ﺧﻼل ال  edit
+ﻣﻔﻴﺪ اذا ﺗﻌﺎﻣﻠﻨﺎ ﻣﻊ
+ﻣﺠﺴﻤﺎت ﻟﻬﺎ زواﻳﺎ ﺣﺎده
+
+--- Page 17 ---
+All rights reserved
+2
+16
+3- Tilemap Collider 2D
+ﻟﻜﻲ ﻧﻘﻮم ﺑﺎﺳﺘﺨﺪامcollider  ﻋﻠﻲ الtile map  
+اﻟﺘﻲ اﻧﺸﺎﻧﺎﻫﺎ
+وﻟﻜﻦ ﺳﻮف ﻧﻼﺣﻆ اﻧﻪ ﻳﻮﺟﺪ collider ﻋﻠﻲ ﻛﻞ
+ﺟﺰءوﻫﻨﺎ ﻳﻤﻜﻦ اﺳﺘﺨﺪام composite collider 
+ﻟﺪﻣﺠﻬﻢ. وﺗﻔﻌﻴﻞ ال composite
+
+--- Page 18 ---
+All rights reserved
+2
+17
+Add composite collider 2d 
+Make used by composite true
+Then make sure that body type in rigidbody is static
+
+--- Page 19 ---
+All rights reserved
+2
+18
+4- circle collider 2D
+ﻋﻨﺪﻧﺎ ﻧﺴﺘﺨﺪمgame object  ك اﻟﻼﻋﺐ
+ﻓﻨﺴﺘﺨﺪم circle collider  ﻟﻠﺘﻤﻜﻦ ﻣﻦ ﺗﺤﺪﻳﺪ
+اﻟﺸﻜﻞ او ﻣﻨﻄﻘﻪ اﻟﺘﺼﺎدم
+
+--- Page 20 ---
+All rights reserved
+2
+19
+We note that player rotate when move on curve land like this
+We can control the player from rotate by use freeze rotation from 
+rigidbody 2d the component which we added to player.
+
+--- Page 21 ---
+All rights reserved
+2
+20
+
+--- Page 22 ---
+All rights reserved
+2
+21
+Make sure that we choose: Game development with Unity 
+From Tools       Get Tools and Features store
+
+--- Page 23 ---
+All rights reserved
+2
+22
+اﻻﺳﻢ اﻻول ﻫﻮا اﻟﺬي ﺳﻴﺤﺪد اﺳﻢ ال
+Class اﻟﻤﺴﺘﺨﺪم ﻟﺬﻟﻚ ﻳﺠﻴﺐ ﻋﻠﻴﻨﺎ ان
+ﻧﻨﺘﺒﻪ ﻟﺘﺴﻤﻴﻪ ﺟﻴﺪا
+1. Right click in assets from project section 
+2. Create
+3. C# Script
+Note
+
+--- Page 24 ---
+All rights reserved
+2
+23
+ﻧﻘﻮم ﺑﺎﺧﺘﻴﺎرvisual studio community
+--- Page 25 ---
+All rights reserved
+2
+24
+
+--- Page 26 ---
+All rights reserved
+2
+25
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+Some of libraries that generate automatic and we will use it later 
+1
+MonoBehaviour
+MonoBehaviour is the base class from which every Unity script derives.
+When you use C#, you must explicitly derive from MonoBehaviour.
+2
+
+--- Page 27 ---
+All rights reserved
+2
+26
+Void Start ()Void Start ()
+3 Start is called before the first frame update
+داﻟﻪ ﻳﺘﻢ ﺗﻨﻔﻴﺰﻫﺎ ﻣﺮه واﺣﺪه اول ﻣﺎ اﻟﻠﻌﺒﻪ ﺗﺒﺪا
+Void update ()
+4
+ Update is called once per frame
+داﻟﻪ ﻳﺘﻢ ﺗﻨﻔﻴﺰﻫﺎ ﻓﻲ ﻛﻞ ﻓﺮﻳﻢ
+--- Page 28 ---
+All rights reserved
+2
+27
+First we must assign our script which we created into 
+any component we need 
+We do that by drag drop the script 
+It will Print myGame in console just when start the game
+Because it write in (void start)
+
+--- Page 29 ---
+All rights reserved
+18
+USE Tile Map To Build your Level With your Own Design 
+

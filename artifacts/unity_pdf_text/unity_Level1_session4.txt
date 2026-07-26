@@ -1,0 +1,106 @@
+--- Page 1 ---
+Level 1:  Session 4
+
+--- Page 2 ---
+All rights reserved
+Today we will make a simple game screen and make ninja jump
+
+--- Page 3 ---
+All rights reserved
+Create a new project
+ننشئ بروجيكت جديد ونقوم بتسميته
+
+--- Page 4 ---
+All rights reserved
+Import Assets
+Window  asset store
+
+--- Page 5 ---
+All rights reserved
+Search for 2D assets 
+Free assets
+--- Page 6 ---
+صصصصصص
+All rights reserved
+https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360#description
+https://assetstore.unity.com/packages/2d/chara
+cters/pixel-adventure-1-155360#description
+Or download from this link
+Search for this assets
+
+--- Page 7 ---
+All rights reserved
+
+--- Page 8 ---
+صصصصصص
+All rights reserved
+When click open in unity Package manager will opened Click download then import
+--- Page 9 ---
+All rights reserved
+Use Rectangle Tools
+Change position by move it
+ or size by small circle 
+
+--- Page 10 ---
+All rights reserved
+Change scale
+--- Page 11 ---
+All rights reserved
+Change Color
+--- Page 12 ---
+All rights reserved
+Use tiled to repeat the object
+Use Draw mode (tiled)
+--- Page 13 ---
+All rights reserved
+Change scale and order
+--- Page 14 ---
+All rights reserved
+Change scale and order and draw mood
+
+--- Page 15 ---
+All rights reserved
+Put Your Character And Change Its Scale And Order
+
+--- Page 16 ---
+All rights reserved
+In Ninga character
+•  Rigidbody 2d
+•  Box Collider 2d
+• Flow Machine (To Do A Script)
+Now .. Its 
+script
+ time 
+--- Page 17 ---
+صصصصصص
+All rights reserved
+Final result in flow machine
+
+--- Page 18 ---
+All rights reserved
+Animation 
+Add a new sate 
+
+--- Page 19 ---
+All rights reserved
+Rename your state
+Choose your state 
+from your project
+
+--- Page 20 ---
+All rights reserved
+Make sure that you have exit time or 
+condition to make your transition 
+You can use parameter to make your 
+condition.
+
+--- Page 21 ---
+صصصصصص
+All rights reserved
+
+--- Page 22 ---
+All rights reserved
+H.W
+1 - create project 
+2- import bolt and try move left with keyboard arrow
+
