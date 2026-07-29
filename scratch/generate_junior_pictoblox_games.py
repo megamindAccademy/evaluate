@@ -380,32 +380,104 @@ pictoblox_sessions = [
 
 # Compile stations list
 stations = []
-for s in pictoblox_sessions:
-    story_html = f"<h3>{mascot_emoji} Hello, creative future coder!</h3>" \
-                 f"I am your friend <b>{mascot_name}</b>, and today I will accompany you on a magical block coding adventure to build <b>{s['title']}</b>! 🌟<br><br>"
+for idx, s in enumerate(pictoblox_sessions):
+    slider_id = f"kid_slider_{idx}"
+    story_html = f"""
+    <style>
+        .kid-slider-container {{
+            position: relative; width: 100%; overflow: hidden; border-radius: 15px; margin-top: 15px;
+        }}
+        .kid-slides-wrapper {{
+            display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth;
+            gap: 15px; padding-bottom: 15px;
+        }}
+        .kid-slides-wrapper::-webkit-scrollbar {{ height: 10px; }}
+        .kid-slides-wrapper::-webkit-scrollbar-track {{ background: #f1f5f9; border-radius: 10px; }}
+        .kid-slides-wrapper::-webkit-scrollbar-thumb {{ background: #3b82f6; border-radius: 10px; }}
+        
+        .kid-slide {{
+            flex: 0 0 100%; scroll-snap-align: start; background: linear-gradient(135deg, #ffffff, #f8fafc);
+            padding: 20px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 3px solid #e2e8f0;
+            box-sizing: border-box; display: flex; flex-direction: column; gap: 10px;
+        }}
+        .kid-slide h4 {{ color: #023047; font-size: 1.4rem; font-weight: 900; margin: 0 0 10px 0; border-bottom: 3px dashed #fb8500; padding-bottom: 8px; display: inline-block; }}
+        .kid-slide-point {{ background: #eff6ff; padding: 12px; border-radius: 10px; border-left: 5px solid #3b82f6; font-size: 1.15rem; font-weight: bold; color: #1e293b; margin-bottom: 8px; }}
+        .kid-slide-obj {{ background: #ecfdf5; padding: 12px; border-radius: 10px; border-left: 5px solid #10b981; font-size: 1.15rem; font-weight: bold; color: #065f46; margin-bottom: 8px; }}
+        
+        .slider-controls {{ display: flex; justify-content: space-between; margin-top: 10px; }}
+        .slider-btn {{ background: #ffb703; color: #023047; border: none; padding: 10px 20px; border-radius: 20px; font-weight: 900; font-size: 1.1rem; cursor: pointer; transition: transform 0.2s; box-shadow: 0 4px 10px rgba(255, 183, 3, 0.3); }}
+        .slider-btn:hover {{ transform: scale(1.05); }}
+    </style>
     
-    # 1. Key points (نقاط)
-    story_html += "<b>🎯 Key Points Covered in this Session:</b><ul>"
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h3 style="font-size: 1.6rem; color: #fb8500; text-shadow: 1px 1px 0px rgba(0,0,0,0.1);">{mascot_emoji} Hello, creative future coder!</h3>
+        <p style="font-size: 1.2rem; font-weight: 700; margin: 5px 0;">I am your friend <b style="color: #3b82f6;">{mascot_name}</b>!</p>
+        <p style="font-size: 1.15rem; font-weight: bold; color: #64748b; margin: 0;">Today we will build <b>{s['title']}</b>! 🌟 Slide to learn!</p>
+    </div>
+    
+    <div class="kid-slider-container">
+        <div class="kid-slides-wrapper" id="{slider_id}">
+            
+            <!-- Slide 1: Points -->
+            <div class="kid-slide">
+                <h4>🎯 Slide 1: New Things to Learn!</h4>
+    """
     for pt in s["points"]:
-        story_html += f"<li>{mascot_emoji} {pt}</li>"
-    story_html += "</ul>"
-    
-    # 2. Objectives (الأهداف)
-    story_html += "<b>⛳ Session Objectives:</b><ul>"
+        story_html += f"<div class='kid-slide-point'>✨ {pt}</div>"
+        
+    story_html += f"""
+                <div class="slider-controls" style="justify-content: flex-end;">
+                    <button class="slider-btn" onclick="document.getElementById('{slider_id}').scrollBy({{left: document.getElementById('{slider_id}').clientWidth}})">Next 👉</button>
+                </div>
+            </div>
+            
+            <!-- Slide 2: Objectives -->
+            <div class="kid-slide">
+                <h4>⛳ Slide 2: Our Goals Today!</h4>
+    """
     for obj in s["objectives"]:
-        story_html += f"<li>🎯 {obj}</li>"
-    story_html += "</ul>"
-    
-    # 3. Project (المشروع الخاص بالسيشن)
-    story_html += f"<div style='background: #eff6ff; border-left: 4px solid #3b82f6; padding: 12px; border-radius: 8px; margin-top: 15px; margin-bottom: 15px;'>🏆 <b>Session Project:</b> {s['project']}</div>"
-    
-    # 4. New Blocks (البلوكس الجديدة وبتعمل ايه - RENDERED AS ACTUAL CSS BLOCKS!)
-    story_html += "<b>🧱 New Puzzle Blocks Introduced:</b><br><div style='background: rgba(2, 48, 71, 0.03); border: 2px solid rgba(2, 48, 71, 0.1); padding: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 15px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start;'>"
+        story_html += f"<div class='kid-slide-obj'>🚀 {obj}</div>"
+        
+    story_html += f"""
+                <div class="slider-controls">
+                    <button class="slider-btn" onclick="document.getElementById('{slider_id}').scrollBy({{left: -document.getElementById('{slider_id}').clientWidth}})">👈 Back</button>
+                    <button class="slider-btn" onclick="document.getElementById('{slider_id}').scrollBy({{left: document.getElementById('{slider_id}').clientWidth}})">Next 👉</button>
+                </div>
+            </div>
+            
+            <!-- Slide 3: Project -->
+            <div class="kid-slide">
+                <h4>🏆 Slide 3: The Mission!</h4>
+                <div style="font-size: 1.3rem; line-height: 1.6; background: #fffbeb; padding: 20px; border-radius: 12px; border: 3px dashed #fbbf24; color: #92400e; font-weight: bold; text-align: center;">
+                    {s['project']}
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn" onclick="document.getElementById('{slider_id}').scrollBy({{left: -document.getElementById('{slider_id}').clientWidth}})">👈 Back</button>
+                    <button class="slider-btn" onclick="document.getElementById('{slider_id}').scrollBy({{left: document.getElementById('{slider_id}').clientWidth}})">Next 👉</button>
+                </div>
+            </div>
+            
+            <!-- Slide 4: Blocks -->
+            <div class="kid-slide">
+                <h4>🧩 Slide 4: Magic Puzzle Blocks!</h4>
+                <div style="background: rgba(2, 48, 71, 0.03); border: 2px solid rgba(2, 48, 71, 0.1); padding: 15px; border-radius: 12px; display: flex; flex-direction: column; gap: 8px;">
+    """
     for block_markup in s["new_blocks_html"]:
-        story_html += f"<div style='margin-bottom: 5px;'>{block_markup}</div>"
-    story_html += "</div>"
-    
-    story_html += "<p>Let's drag and snap these blocks in your playground! Once your game is running, click the big green medal button on the right to claim your rewards! You've got this! 🌟🚀</p>"
+        story_html += f"<div>{block_markup}</div>"
+        
+    story_html += f"""
+                </div>
+                <p style="font-size: 1.15rem; font-weight: 700; color: #ef4444; text-align: center; margin-top: 10px;">
+                    Snap these blocks! When your game runs, click the Green Medal Button! 🏅
+                </p>
+                <div class="slider-controls" style="justify-content: flex-start;">
+                    <button class="slider-btn" onclick="document.getElementById('{slider_id}').scrollBy({{left: -document.getElementById('{slider_id}').clientWidth}})">👈 Back</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    """
     
     station = {
         "id": s["id"],

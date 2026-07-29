@@ -825,13 +825,13 @@ document.addEventListener('DOMContentLoaded', () => {
             
             iframeWrapper.innerHTML = `
                 <div class="junior-iframe-actions">
-                    <div class="junior-iframe-title">🎮 PicToBlox & Scratch Block Builder</div>
+                    <div class="junior-iframe-title">🎮 PicToBlox & TurboWarp Block Builder</div>
                     <div style="display: flex; gap: 10px;">
                         <a href="https://studio.pictoblox.ai/" target="_blank" class="btn-junior-open-tab">🚀 Open PicToBlox in New Tab</a>
-                        <a href="https://scratch.mit.edu/projects/editor/" target="_blank" class="btn-junior-open-tab" style="background: linear-gradient(135deg, #ffab19, #e6950f); box-shadow: 0 4px 10px rgba(255, 171, 25, 0.3);">🐱 Open Scratch in New Tab</a>
+                        <a href="https://turbowarp.org/editor" target="_blank" class="btn-junior-open-tab" style="background: linear-gradient(135deg, #ffab19, #e6950f); box-shadow: 0 4px 10px rgba(255, 171, 25, 0.3);">🐱 Open TurboWarp in New Tab</a>
                     </div>
                 </div>
-                <iframe src="https://scratch.mit.edu/projects/editor/?tip_bar=home" class="junior-iframe-workspace"></iframe>
+                <iframe src="https://turbowarp.org/editor?tutorial=all" class="junior-iframe-workspace"></iframe>
             `;
             if (editorRight) {
                 editorRight.appendChild(iframeWrapper);
@@ -1119,6 +1119,62 @@ function loadInteractiveGame(stationId) {
             playHappyChime();
         }
     };
+
+    if (currentCourseData && currentCourseData.course_id === 'junior_pictoblox') {
+        const pbGames = [
+            { text: "🏁 ساعد السلحفاة والأرنب في الوصول لخط النهاية! (اضغط عليهم)", emojis: ['🐢', '🐇'], action: "Start Race!" },
+            { text: "🐘 ابدأ قصة الفيل في الغابة! (اضغط لبدء القصة)", emojis: ['🐘', '🌴'], action: "Play Story!" },
+            { text: "🌀 ساعد الفأر في الخروج من المتاهة! (اضغط لتوجيهه)", emojis: ['🐭', '🧀'], action: "Navigate!" },
+            { text: "🐸 اجعل الضفدع يقفز فوق الحواجز! (اضغط للقفز)", emojis: ['🐸', '🚧'], action: "Jump!" },
+            { text: "🏀 سجل الهدف في شبكة كرة السلة! (اضغط لرمي الكرة)", emojis: ['🏀', '🗑️'], action: "Shoot Hoop!" },
+            { text: "👾 اضغط على جيجا-مان لزيادة النقاط! (اضغط بسرعة)", emojis: ['👾', '⭐'], action: "Score Points!" },
+            { text: "🎨 ارسم أشكالاً هندسية رائعة! (اضغط للرسم)", emojis: ['🖌️', '🔺'], action: "Draw Shape!" },
+            { text: "🦅 اجعل الطائر يطير ولا يلمس الأنابيب! (اضغط للطيران)", emojis: ['🦅', '☁️'], action: "Flap Wings!" },
+            { text: "🏎️ قم بتوجيه سيارة السباق يميناً ويساراً!", emojis: ['🏎️', '🏁'], action: "Steer Car!" },
+            { text: "🏓 اضرب الكرة بالمضرب ولا تدعها تسقط!", emojis: ['🏓', '🎾'], action: "Bounce Ball!" },
+            { text: "🎯 صوّب على البط الطائر! (اضغط للتصويب)", emojis: ['🦆', '🎯'], action: "Aim & Shoot!" },
+            { text: "🏆 اصطد البط واحصل على كأس التخرج!", emojis: ['🦆', '🏆'], action: "Win Trophy!" }
+        ];
+
+        const game = pbGames[stationId - 1];
+        if (game) {
+            container.innerHTML = `
+                <p style="font-size:1.3rem; font-weight:900; color:#023047; text-align:center; padding: 0 10px;">${game.text}</p>
+                <div style="display:flex; gap:30px; justify-content:center; align-items:center; margin: 20px 0;">
+                    <div id="pb-item-1" style="font-size: 5.5rem; cursor: pointer; transition: transform 0.2s, filter 0.2s;">${game.emojis[0]}</div>
+                    <div id="pb-item-2" style="font-size: 5.5rem; cursor: pointer; transition: transform 0.2s, filter 0.2s;">${game.emojis[1]}</div>
+                </div>
+                <button id="pb-action-btn" style="background:linear-gradient(135deg, #ffb703, #fb8500); color:#fff; border:none; padding:12px 30px; border-radius:30px; font-weight:900; font-size:1.4rem; cursor:pointer; box-shadow:0 6px 15px rgba(251,133,0,0.4); border: 2px solid #ffffff;">
+                    🚀 ${game.action}
+                </button>
+            `;
+            
+            let pts = 0;
+            const item1 = container.querySelector('#pb-item-1');
+            const item2 = container.querySelector('#pb-item-2');
+            const btn = container.querySelector('#pb-action-btn');
+
+            const doAction = () => {
+                if (pts >= 100) return;
+                pts += 25;
+                checkComplete(pts);
+                item1.style.transform = `translateY(-${pts/2}px) rotate(${pts}deg) scale(1.1)`;
+                item2.style.transform = `translateY(${pts/2}px) rotate(-${pts}deg) scale(1.1)`;
+                item1.style.filter = `drop-shadow(0 0 ${pts/5}px #06d6a0)`;
+                item2.style.filter = `drop-shadow(0 0 ${pts/5}px #ffb703)`;
+                if(pts >= 100) {
+                    btn.innerHTML = "🌟 مكتمل! Awesome! 🌟";
+                    btn.style.background = "linear-gradient(135deg, #06d6a0, #2ec4b6)";
+                }
+            };
+
+            item1.onclick = doAction;
+            item2.onclick = doAction;
+            btn.onclick = doAction;
+            
+            return; // EXIT EARLY
+        }
+    }
 
     switch (stationId) {
         case 1: {
